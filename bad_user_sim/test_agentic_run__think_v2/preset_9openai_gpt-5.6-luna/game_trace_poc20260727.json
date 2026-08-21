@@ -1,0 +1,50 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I\u2019m weighing the edge moves against the more tempting g2; which move gives Black the best result with best play?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now that White took a8, the remaining choices look quite different. Is g2 still dangerous, or should I take one of the other edge squares?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "That cost me discs, but the bottom edge is now settled. Between g2, b6, and a7, which one is safest for the final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White\u2019s b6 reply flipped a lot, so I\u2019m not confident about the left-side choices anymore. With a1, g2, and a3 available, which one should I take?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Only a1 and g2 remain, and White passed, which one is better for the final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now both empty squares are on the h-side, and I have the corner available. Should I play h1 first, or is there a flip sequence that makes g2 better?"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

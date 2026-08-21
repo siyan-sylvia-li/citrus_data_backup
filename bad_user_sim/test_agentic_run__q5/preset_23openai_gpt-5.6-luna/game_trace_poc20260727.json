@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Can you identify the optimal move for Black in this endgame, assuming White responds optimally, and give the resulting move sequence? Please focus on exact parity rather than general advice."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "The actual forced reply after b6 was a7, leaving empties a1, a3, b8, c8 and Black can play b8 or c8. Which is minimax-optimal now, and what are the forced replies?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Can you verify whether b8 was the correct minimax move from the position with empties a1, a3, b8, c8?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Please independently check the final disc counts and whether any pass or legal-move issue was mishandled in the completed line."
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Given the completed game, is there any further action required, or should I simply report the selected move as b8?"
+  }
+]

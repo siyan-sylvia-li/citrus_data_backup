@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Please design a concrete step-by-step 3 year plan which will help me grow my online \"healthy recipes\" website. I have a limited budget, and I work 4 days a week. I would also like to publish a book.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.333,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-20T13:05:06.753098+00:00"
+}

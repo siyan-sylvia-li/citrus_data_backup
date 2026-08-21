@@ -1,0 +1,45 @@
+{
+  "puzzle": "bg20260726",
+  "decisions": 2,
+  "optimal_moves": 1,
+  "opener_optimal": false,
+  "discs_lost": 16,
+  "final_margin": -12,
+  "won": false,
+  "optimal_margin": 4,
+  "completed": true,
+  "moves": [
+    "g7!",
+    "b2"
+  ],
+  "auto_played": [
+    "g8"
+  ],
+  "chat_turns": null,
+  "game": "othello",
+  "round": 1,
+  "ai_available": false,
+  "model_settings": {
+    "max_tokens": 50000
+  },
+  "questions_asked": 0,
+  "question_budget": 0,
+  "profile": {
+    "persona": "a high-school student interested in k-pop",
+    "age": 17,
+    "education": "less_than_hs",
+    "occupation": "student",
+    "ai_frequency": "daily",
+    "known_concepts": [
+      "Digital",
+      "Currency",
+      "Payment",
+      "Transaction",
+      "Peer",
+      "Peer-to-peer",
+      "Probability"
+    ]
+  },
+  "student_model": "together:openai/gpt-oss-120b",
+  "streamed": false
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Had a feeling h1 would sting \u2014 it undoes g2 immediately. Now I\u2019m choosing between b6, a7, and b8, and each looks like it either hands White a corner or sets up a brutal a3 recapture. Is a7 actually the right move here, since at least I bank a full edge row, or is there a less obvious refutation?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Wow, that collapsed fast. I thought banking the edge with a7 would keep me ahead even after a8, but once I got forced into b6 the whole board fell apart. What should I have played there \u2014 was b6 actually the only move that doesn't unravel?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "At the very start, was c8 actually the best opening move? I balked at b7 because it gives White the corner, but would b8 have been stronger longer-term?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After White played h1, was b6 playable as my second move instead of a7? It seemed like a3 would punish it hard, but maybe I'm misevaluating that recapture."
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Once I was forced into b6, the board completely flipped. Is there an endgame principle that explains why that single square was so catastrophic, or was it just a cascade I should have seen two moves earlier?"
+  }
+]

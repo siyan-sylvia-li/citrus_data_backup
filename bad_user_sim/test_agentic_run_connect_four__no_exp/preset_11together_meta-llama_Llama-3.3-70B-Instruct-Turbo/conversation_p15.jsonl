@@ -1,0 +1,4 @@
+{"user": "What's my next best move?", "user_ts": "2026-08-10T19:08:19.195498+00:00", "assistant": "Play column 4.", "assistant_started_ts": "2026-08-10T19:08:19.195498+00:00", "assistant_ts": "2026-08-10T19:08:24.195498+00:00"}
+{"user": "What should I do now?", "user_ts": "2026-08-10T19:08:34.195498+00:00", "assistant": "Play column 5.", "assistant_started_ts": "2026-08-10T19:08:34.195498+00:00", "assistant_ts": "2026-08-10T19:08:39.195498+00:00"}
+{"user": "I'm stuck, help me out", "user_ts": "2026-08-10T19:08:49.195498+00:00", "assistant": "Play column 4.", "assistant_started_ts": "2026-08-10T19:08:49.195498+00:00", "assistant_ts": "2026-08-10T19:08:54.195498+00:00"}
+{"user": "What now?", "user_ts": "2026-08-10T19:09:04.195498+00:00", "assistant": "Play column 4 or 7.", "assistant_started_ts": "2026-08-10T19:09:04.195498+00:00", "assistant_ts": "2026-08-10T19:09:09.195498+00:00"}

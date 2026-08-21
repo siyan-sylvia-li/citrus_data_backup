@@ -1,0 +1,19 @@
+{
+  "created_prompt": "I'm specialized in cooking healthy meals in a short amount of time and love posting videos on my social media for my followers, so they can learn and appreciate my recipes.\r\nI would like my online presence to grow and to be able to publish a cookbook soon, but I have a few doubts about whether I should self-publish it or try and get it published traditionally.\r\nI also have limited time and budget, as I work four days a week, but would love to do it in the next three years. Could you please generate a concrete, detailed three-year plan for me to follow in order to reach my goal?",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-22T13:50:20.503171+00:00"
+}

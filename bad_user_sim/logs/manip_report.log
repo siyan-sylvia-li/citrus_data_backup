@@ -1,0 +1,415 @@
+sweep done; annotating
+annotating think ...
+  [1/6] preset_10anthropic_claude-sonnet-5 (3 turns)
+2026/08/10 19:22:59 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:22:59 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:22:59 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026/08/10 19:23:09 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:23:09 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:23:09 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026/08/10 19:23:18 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:23:18 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:23:18 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+  [2/6] preset_11anthropic_claude-sonnet-5 (3 turns)
+2026/08/10 19:23:27 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:23:27 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:23:27 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+2026/08/10 19:23:36 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:23:36 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:23:36 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026/08/10 19:23:45 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:23:45 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:23:45 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+  [3/6] preset_7anthropic_claude-sonnet-5 (3 turns)
+2026/08/10 19:23:54 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:23:54 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:23:54 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026/08/10 19:24:04 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:24:04 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:24:04 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026/08/10 19:24:13 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:24:13 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:24:13 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+  [4/6] preset_8anthropic_claude-sonnet-5 (3 turns)
+2026/08/10 19:24:22 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:24:22 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:24:22 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026/08/10 19:24:31 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:24:31 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:24:31 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026/08/10 19:24:40 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:24:40 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:24:40 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+  [5/6] preset_9anthropic_claude-sonnet-5 (4 turns)
+2026/08/10 19:24:49 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:24:49 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:24:49 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026/08/10 19:24:58 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:24:58 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:24:58 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+2026/08/10 19:25:07 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:25:08 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:25:08 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026/08/10 19:25:17 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:25:17 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:25:17 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+  [6/6] preset_9together_meta-llama_Llama-3.3-70B-Instruct-Turbo (1 turns)
+2026/08/10 19:25:26 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:25:26 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:25:26 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+  6 run(s) annotated
+annotating solution ...
+  [1/10] preset_10anthropic_claude-sonnet-5 (5 turns)
+2026/08/10 19:25:35 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:25:35 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:25:35 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+2026/08/10 19:25:44 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:25:44 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:25:44 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+2026/08/10 19:25:53 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:25:53 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:25:53 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026/08/10 19:26:02 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:26:02 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:26:02 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026/08/10 19:26:11 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:26:11 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:26:11 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+  [2/10] preset_10together_meta-llama_Llama-3.3-70B-Instruct-Turbo (6 turns)
+2026/08/10 19:26:21 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:26:21 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:26:21 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+2026/08/10 19:26:30 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:26:30 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:26:30 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026/08/10 19:26:39 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:26:39 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:26:39 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026/08/10 19:26:48 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:26:48 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:26:48 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026/08/10 19:26:57 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:26:57 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:26:57 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026/08/10 19:27:06 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:27:06 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:27:06 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+  [3/10] preset_11anthropic_claude-sonnet-5 (4 turns)
+2026/08/10 19:27:15 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:27:15 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:27:15 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026/08/10 19:27:24 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:27:24 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:27:24 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+2026/08/10 19:27:34 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:27:34 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:27:34 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026/08/10 19:27:43 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:27:43 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:27:43 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+  [4/10] preset_11together_meta-llama_Llama-3.3-70B-Instruct-Turbo (6 turns)
+2026/08/10 19:27:52 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:27:52 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:27:52 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+2026/08/10 19:28:01 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:28:01 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:28:01 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+2026/08/10 19:28:10 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:28:10 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:28:10 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+2026/08/10 19:28:19 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:28:19 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:28:19 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+2026/08/10 19:28:28 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:28:28 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:28:28 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026/08/10 19:28:38 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:28:38 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:28:38 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+  [5/10] preset_7anthropic_claude-sonnet-5 (4 turns)
+2026/08/10 19:28:47 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:28:47 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:28:47 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+2026/08/10 19:28:56 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:28:56 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:28:56 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+2026/08/10 19:29:05 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:29:05 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:29:05 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026/08/10 19:29:14 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:29:14 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:29:14 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+  [6/10] preset_7together_meta-llama_Llama-3.3-70B-Instruct-Turbo (6 turns)
+2026/08/10 19:29:23 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:29:23 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:29:23 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026/08/10 19:29:32 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:29:32 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:29:32 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+2026/08/10 19:29:42 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:29:42 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:29:42 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026/08/10 19:29:51 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:29:51 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:29:51 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+2026/08/10 19:30:00 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:30:00 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:30:00 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+2026/08/10 19:30:09 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:30:09 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:30:09 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+  [7/10] preset_8anthropic_claude-sonnet-5 (4 turns)
+2026/08/10 19:30:18 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:30:18 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:30:18 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+2026/08/10 19:30:27 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:30:27 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:30:27 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026/08/10 19:30:37 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:30:37 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:30:37 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026/08/10 19:30:46 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:30:46 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:30:46 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+  [8/10] preset_8together_meta-llama_Llama-3.3-70B-Instruct-Turbo (6 turns)
+2026/08/10 19:30:55 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:30:55 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:30:55 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+2026/08/10 19:31:04 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:31:04 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:31:04 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+2026/08/10 19:31:13 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:31:13 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:31:13 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+2026/08/10 19:31:22 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:31:22 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:31:22 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026/08/10 19:31:31 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:31:31 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:31:31 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+2026/08/10 19:31:40 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:31:40 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:31:40 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+  [9/10] preset_9anthropic_claude-sonnet-5 (5 turns)
+2026/08/10 19:31:50 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:31:50 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:31:50 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026/08/10 19:31:59 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:31:59 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:31:59 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026/08/10 19:32:08 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:32:08 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:32:08 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026/08/10 19:32:17 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:32:17 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+2026/08/10 19:32:17 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+dialogue-act annotator 'llama' failed: InternalServerError: litellm.InternalServerError: InternalServerError: Together_aiException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `TOGETHER_AI_API_KEY` or `TOGETHER_AI_ADMIN_KEY` environment variable.
+dialogue-act annotator 'gpt' failed: InternalServerError: litellm.InternalServerError: InternalServerError: OpenAIException - Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026/08/10 19:32:26 WARNING dspy.adapters.json_adapter: Failed to use structured output format, falling back to JSON mode.
+dialogue-act annotator 'sonnet' failed: AuthenticationError: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars
+  [10/10] preset_9together_meta-llama_Llama-3.3-70B-Instruct-Turbo (6 turns)
+  10 run(s) annotated
+
+========================================================================================
+MANIPULATION CHECK — act share (% of a run's acts), matched (model, preset) cells
+========================================================================================
+
+--- think  (target: Think Aloud)   n=6 matched cells ---
+                           act  default%    think%     diff        p
+        Common Ground Question       8.3      32.0    +23.7    0.250
+    Knowledge Deficit Question       5.6       0.0     -5.6    1.000
+              Solution Request      55.8      30.1    -25.7    0.125
+                   Think Aloud      30.3      37.9     +7.6    0.250 <== TARGET
+                 turns per run       2.7       2.8     +0.2        (should NOT move: the prompts change form, not frequency)
+
+--- solution  (target: Solution Request)   n=4 matched cells ---
+                           act  default% solution%     diff        p
+        Common Ground Question       4.2       0.0     -4.2    1.000
+    Knowledge Deficit Question      14.6       0.0    -14.6    0.500
+              Solution Request      58.8     100.0    +41.2    0.125 <== TARGET
+                   Think Aloud      22.5       0.0    -22.5    0.500
+                 turns per run       3.2       5.5     +2.2        (should NOT move: the prompts change form, not frequency)

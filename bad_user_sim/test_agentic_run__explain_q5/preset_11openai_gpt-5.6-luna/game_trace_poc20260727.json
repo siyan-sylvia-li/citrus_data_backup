@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Which move is best here if White plays carefully? I\u2019m trying to avoid a bad corner setup."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After White took a8, what should I play next from g2, b6, a7, c8?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now is b6, a7, or g2 the safest move for the final result?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "With only a1, g2, and a3 left, which one gives me the best finish?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White passed after a3. For the last three squares, should I take a1 or g2 first?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

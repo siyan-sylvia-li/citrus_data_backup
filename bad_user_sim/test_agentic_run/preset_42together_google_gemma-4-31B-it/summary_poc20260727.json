@@ -1,0 +1,37 @@
+{
+  "puzzle": "oc20260727",
+  "decisions": 3,
+  "optimal_moves": 2,
+  "opener_optimal": true,
+  "discs_lost": 38,
+  "final_margin": -20,
+  "won": false,
+  "optimal_margin": 18,
+  "completed": true,
+  "moves": [
+    "b7",
+    "c8",
+    "b6!"
+  ],
+  "auto_played": [
+    "g2"
+  ],
+  "chat_turns": null,
+  "game": "othello",
+  "round": 0,
+  "ai_available": true,
+  "model_settings": {
+    "max_tokens": 200000
+  },
+  "questions_asked": 1,
+  "question_budget": 10,
+  "profile": {
+    "persona": "A literary fiction author finding inspiration in the mysteries of the universe for their novels",
+    "age": 44,
+    "education": "bachelors",
+    "occupation": "arts",
+    "ai_frequency": "few_times_month"
+  },
+  "student_model": "together:google/gemma-4-31B-it",
+  "streamed": false
+}

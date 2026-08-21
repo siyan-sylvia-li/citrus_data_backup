@@ -1,0 +1,16 @@
+{
+  "puzzle": "15",
+  "round": 0,
+  "ai": true,
+  "score": 2,
+  "winning_line_score": 1,
+  "attempt_scores": [
+    2
+  ],
+  "attempt_winning_line_scores": [
+    1
+  ],
+  "attempts_used": 1,
+  "num_moves": 3,
+  "submitted_at": "2026-07-23T17:05:07.833243+00:00"
+}

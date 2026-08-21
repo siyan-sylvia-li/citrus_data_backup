@@ -1,0 +1,25 @@
+{
+  "reflection": "To keep doing as she's doing, regularly engaging with her followers and trying to gain more through producing quality videos. Look into other creators who have published a cookbook and see how they did it.",
+  "effort": {
+    "judges": [
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 2
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.667,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-19T11:28:31.494281+00:00"
+}

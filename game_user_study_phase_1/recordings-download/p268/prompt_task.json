@@ -1,0 +1,19 @@
+{
+  "created_prompt": "I want to grow my online presence and publish a cookbook. I work four days a week and have limited time and budget. I want a three year plan with definitive milestones, timelines, and tasks to double my online presence and publish a cookbook in three months. I'm not sure whether to go with a traditional or self-published route, so include the decision point in my timeline once the book is complete.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-28T13:21:13.944289+00:00"
+}

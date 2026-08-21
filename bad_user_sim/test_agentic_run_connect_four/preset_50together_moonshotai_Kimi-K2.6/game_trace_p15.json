@@ -1,0 +1,34 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "If I play column 4 to build the c6-c5-c4 diagonal, can Yellow simply answer with column 5 and use the c7-c6-c5 diagonal against me? It feels like a sharp counter-attack, and I\u2019m not sure whether Red or Yellow comes out ahead. Is c4 actually the best move, or should I look for a quieter idea? I can\u2019t quite see two moves ahead cleanly."
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 2
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After the sequence 4-5-4-1, I'm looking at column 3 to extend the c6-c5-c4 diagonal, but won't Yellow just play there next turn and block c3-r4? Is c3 actually the right move here, or should I be trying something else entirely?"
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  }
+]

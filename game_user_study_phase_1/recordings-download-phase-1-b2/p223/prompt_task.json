@@ -1,0 +1,23 @@
+{
+  "created_prompt": "i need a three year plan. right now i'm doing cooking videos and posting them. i have 1.2million followers. eventually i want to publish a cook book of my recipes while continuing to grow online. i'm not sure if i should self-publish or go through a publishing company. so that consideration has to be in there. i mostly focus on fast healthy recipes, but of course that can change or expand. i don't have tons of money for expensive equipment or ingredients, and i really only want to work four days a week.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "qwen",
+      "score": null
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-15T18:50:36.264036+00:00"
+}

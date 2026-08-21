@@ -1,0 +1,49 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Which of my legal moves\u2014g2, b6, a7, b7, b8, c8\u2014gives me the most discs at the end if White plays optimally?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "My legal moves are now g2, b6, a7, c8. Which one gives me the best final disc count against optimal White play?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "My legal moves are now g2, b6, a7. Which gives me the best final count against optimal White play?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Options are a1, g2, a3. Which leaves me with the most discs at the end against optimal White play?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Looking back at the game, after my b7 move, could White have played anything other than a8 to stop me from eventually forcing passes and winning the endgame?"
+  }
+]

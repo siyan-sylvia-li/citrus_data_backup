@@ -1,0 +1,45 @@
+# Informed Consent
+
+## About this study
+
+This is a research study on how proficient AI users make
+decisions while playing AI-assisted games, so that we can
+help less-experienced users on similar tasks.
+Your goal is to complete a
+Connect Four puzzle.
+
+## What you will do (~10 minutes)
+
+- A prompt-writing task (~2 minutes).
+- IF YOUR CREATED PROMPT IS HIGH-QUALITY: Play the Connect Four puzzle (6 minutes), with AI assistance available.
+- Reflection questions (~2 minutes).
+
+## Voluntary Participation
+
+Participation is voluntary and you may withdraw any time.
+
+## Eligibility
+
+You must be 18 years of age or older to participate. You must not be a skilled Connect Four player.
+
+## Risks & discomforts
+
+Participation in this study involves minimal risk.
+
+## Benefits
+
+There are no direct benefits to you from participating beyond the
+listed compensation.
+
+## Confidentiality & data retention
+
+We collect your Prolific ID, the prompt you write for the warm-up task, demographics, your chat transcript with
+the AI, and the moves you make during the puzzle. Data
+is stored securely and used for research only; de-identified results
+may be published.
+
+## Questions or concerns
+
+This study is conducted by Siyan Li, at Together AI. If you have
+questions about the study, contact siyanli@together.ai.
+

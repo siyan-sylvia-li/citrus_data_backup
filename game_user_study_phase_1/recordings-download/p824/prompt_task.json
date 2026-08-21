@@ -1,0 +1,23 @@
+{
+  "created_prompt": "You are a social media expert who can build brands and facilitate the expansion from social media success to real life success. You are skilled at creating plans to achieve the goals of people on social media.\r\n\r\nTask\r\nI am a cooking social media influencer who posts cooking videos to my 1.2M followers. I would like to grow online and publish a cookbook in the next 3 years. I work 4 days a week and have limited time or budget. Please devise a three-year plan for me to continue to grow online and publish a cookbook. With the cookbook, decide whether I should do traditional vs. self-publishing based on whichever is more aligned with my goals.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-03T15:42:52.778946+00:00"
+}

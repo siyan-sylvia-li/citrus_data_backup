@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "what's the best move here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "what's the best move now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "what's the best move now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "was there any point where I could've done even better, like avoiding losing so many discs in the middle game?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "why did the b7 move you suggested early on end up letting white grab the a8 corner and flip so many discs?"
+  }
+]

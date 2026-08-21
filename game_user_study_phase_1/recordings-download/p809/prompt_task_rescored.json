@@ -1,0 +1,32 @@
+{
+  "created_prompt": "I post cooking videos to 1.2M followers who love quick, healthy recipes. Over the next three years I want to grow online and publish a cookbook (im torn on traditional vs. self-publishing). I work four days weekly, so I have limited time and budget.\r\nPlease help me devise a concrete three-year plan to make my dream come true.",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "original": {
+    "judges": {
+      "llama": 3,
+      "gpt": 3
+    },
+    "mean_score": 3.0,
+    "median_score": 3.0,
+    "passed": true
+  },
+  "time_taken": 9.121
+}

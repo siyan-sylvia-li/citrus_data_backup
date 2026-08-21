@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Act as a digital growth strategist and publishing advisor. Develop a concrete, realistic three-year plan for Julie, who posts quick, healthy cooking videos to 1.2 million followers. Her goals are to grow her online business and publish a cookbook, but she works only four days per week and has limited time and budget.\r\n\r\nFirst, state any necessary assumptions. Then:\r\n\r\n1. Recommend the best business model and audience-growth strategy, including content priorities, platform diversification, email-list growth, partnerships, and monetization.\r\n2. Compare traditional publishing and self-publishing based on profitability, cost, workload, creative control, distribution, speed, and risk. Recommend one path\u2014or a staged hybrid approach\u2014and explain why.\r\n3. Provide a timeline with quarterly actions for Year 1 and six-month milestones for Years 2 and 3.\r\n4. For each phase, specify the main objectives, concrete actions, estimated time and budget, measurable KPIs, and expected outcomes.\r\n5. Suggest a sustainable four-day weekly workflow that distinguishes tasks Julie should do herself from those she should automate, outsource, or postpone.\r\n6. Identify the five biggest risks and practical ways to mitigate them.\r\n\r\nPrioritize high-impact, low-cost actions and show dependencies between steps. Avoid generic advice. Finish with the five actions Julie should take in the next 30 days and a concise three-year roadmap table.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 4
+    },
+    {
+      "model": "gpt",
+      "score": 4
+    },
+    {
+      "model": "nemotron",
+      "score": 4
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 4.0,
+  "median_score": 4,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T14:23:15.194833+00:00"
+}

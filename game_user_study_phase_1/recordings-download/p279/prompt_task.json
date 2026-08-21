@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Hi, I'm a influencer who does cooking content and I need some help. I've got over a million followers and I make content about quick and healthy recipes. In the next 3 years my goal is to grow online and make a cookbook. Help me make a three-year plan to achieve this goal. I work four days a week, and also help me decide whether I should self-publish the book or go the traditional route.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-22T20:13:39.331109+00:00"
+}

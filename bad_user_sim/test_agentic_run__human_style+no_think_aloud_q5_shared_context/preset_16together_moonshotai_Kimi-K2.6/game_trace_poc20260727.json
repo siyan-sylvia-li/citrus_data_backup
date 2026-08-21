@@ -1,0 +1,37 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "b7 and c8 both look big. Which one actually wins?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White got a8. Between g2, b6, a7, c8, what's the play?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "c8 backfired. g2 or b6 now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Starting over \u2014 I need to count this endgame properly. Is b7 really the only move that stops White from grabbing a1 on the reply? Feels like a corner gift if I miss it."
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Running it back from move 1. Is b7 still the right first move?"
+  }
+]

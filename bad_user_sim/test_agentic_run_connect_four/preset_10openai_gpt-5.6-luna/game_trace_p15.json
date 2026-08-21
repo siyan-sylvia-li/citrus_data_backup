@@ -1,0 +1,14 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Can you analyze this Connect Four position and identify the optimal column for Red, including the opponent's strongest reply?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 6
+  }
+]

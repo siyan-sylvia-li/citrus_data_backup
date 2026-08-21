@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Can you help me find the best column here? Please explain the opponent's main threat too, in plain terms."
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After my 4 and Yellow 5, what's my best next column? Are there any immediate red wins or threats I need to stop?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now that Yellow played column 1, should I keep building in column 4, or is another move stronger? Please check for any winning threat."
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "What is the best move from this board now? I want to avoid giving Yellow a fork."
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "created_prompt": "you're Julie's assistant, she's a cook who post cooking video to 1.2M followers. Create a three years plan for growing Julie's online visibility and explain all the steps and actions. Over the next three years Julie wants to publish a cookbook, help her to choose between traditionnal or self-publication and explain wht's involve by each choice. Be aware in you're global three years plan that Julie works four days weekly and has limited time and budget;",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T12:41:22.567725+00:00"
+}

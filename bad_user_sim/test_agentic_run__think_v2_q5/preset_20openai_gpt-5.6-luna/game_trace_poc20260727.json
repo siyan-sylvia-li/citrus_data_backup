@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I\u2019m looking at the six choices and don\u2019t want to waste the move. Which square gives Black the best final result if White plays smart?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "That reply took the corner, and now I\u2019m down a bit. Of these four, which one should I use next for the best finish?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "The bottom edge went mostly white, so I\u2019m trying to save the other side now. Is g2, b6, or a7 the safer choice?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White grabbed b6 and flipped a lot, so this looks rough. I have a1, g2, and a3 left\u2014what\u2019s the best one now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Only the two cornerside choices remain. I\u2019m tempted by a1 because corners are usually good, but should I take it or play g2?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

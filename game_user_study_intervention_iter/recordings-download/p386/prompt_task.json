@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Please create a three-year plan for Julie, broken down by goals for each quarter, that fits with a four day work week and a limited time and budget. These quarters should include goals that help her grow her video channel and brand overall, and also toward publishing a cookbook. Julie is torn on traditional vs self-publishing, so please also include an alternative plan for the book publishing path (traditional vs self publishing) itself for each quarter. Remember to only provide proven and sustainable tips for growth that fit within a limited budget and limited time constraints.",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 3.0,
+  "submitted_at": "2026-08-20T01:38:59.959499+00:00"
+}

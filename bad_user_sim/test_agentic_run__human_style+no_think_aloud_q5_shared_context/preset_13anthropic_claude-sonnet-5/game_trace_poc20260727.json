@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Which of my legal moves is the best one to end up ahead at the end? I really can't calculate this all out myself."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "ok now what, out of g2, b6, a7, c8?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "this is looking bad for me, only 22 to 36. what's my best shot with g2, b6, or a7?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "wait can you explain why white kept having no moves near the end? that part confused me"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "was 41-23 actually the best possible score for me, or could i have squeezed out even more?"
+  }
+]

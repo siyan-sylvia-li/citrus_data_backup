@@ -1,0 +1,10 @@
+ok	q5_asst-together_ai_google_gemma-4-31B-it_preset11_together:moonshotai_Kimi-K2.6
+ok	q5_asst-together_ai_google_gemma-4-31B-it_preset8_together:moonshotai_Kimi-K2.6
+ok	q5_asst-together_ai_google_gemma-4-31B-it_preset13_together:moonshotai_Kimi-K2.6
+ok	q5_asst-together_ai_google_gemma-4-31B-it_preset9_together:moonshotai_Kimi-K2.6
+ok	q5_asst-together_ai_google_gemma-4-31B-it_preset10_together:moonshotai_Kimi-K2.6
+ok	q5_asst-together_ai_google_gemma-4-31B-it_preset7_together:moonshotai_Kimi-K2.6
+FAIL	q5_asst-together_ai_google_gemma-4-31B-it_preset14_together:moonshotai_Kimi-K2.6	logs/q5_asst-together_ai_google_gemma-4-31B-it_preset14_together:moonshotai_Kimi-K2.6.log
+ok	q5_asst-together_ai_google_gemma-4-31B-it_preset16_together:moonshotai_Kimi-K2.6
+FAIL	q5_asst-together_ai_google_gemma-4-31B-it_preset12_together:moonshotai_Kimi-K2.6	logs/q5_asst-together_ai_google_gemma-4-31B-it_preset12_together:moonshotai_Kimi-K2.6.log
+ok	q5_asst-together_ai_google_gemma-4-31B-it_preset15_together:moonshotai_Kimi-K2.6

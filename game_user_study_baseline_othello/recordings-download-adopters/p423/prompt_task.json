@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I want to create a concrete three year plan to be able to grow my online presence. I currently have 1.2m followers and my content is based around cooking healthy quick recipes. I would like advice around how to go about publishing a cookbook of my recipes but I also need guidance on whether to self publish or go down the traditional publishing route.",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    },
+    {
+      "model": "llama",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T12:49:07.620493+00:00"
+}

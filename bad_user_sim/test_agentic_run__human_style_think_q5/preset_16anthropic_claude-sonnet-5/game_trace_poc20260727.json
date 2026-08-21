@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Which of these is best: g2, b6, a7, b7, b8, c8? Board's pretty full so I want to not blow this."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "g2 flips 5 for me but then white can hit a3 and flip like 6 back. Is g2 still right, or should I go b6 instead?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Looking back, was a1 the right call right after white's a3, or should I have gone b6 there instead? I want to understand if I misplayed that spot."
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Earlier I played c8 instead of g2, and it let white jump to 36 discs. Was c8 actually a mistake looking back, or was it fine given what I knew then?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Was there any point in this game where I could've actually pulled ahead to win, or was I already cooked after white grabbed a8 and those early corners?"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Generate a concrete, three-year plan for how I can grow my online following/presence despite having limited time and budget to do so (my 1.2 million followers appreciate quick and healthy recipes) and also publish a cookbook (not sure whether to publish traditionally or self-publish).",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-05T12:50:57.676821+00:00"
+}

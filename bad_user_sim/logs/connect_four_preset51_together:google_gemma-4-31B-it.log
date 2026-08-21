@@ -1,0 +1,6 @@
+    (HTTP 429: waiting 2s, attempt 1)
+    (HTTP 429: waiting 2s, attempt 1)
+    (HTTP 429: waiting 2s, attempt 1)
+    (HTTP 429: waiting 2s, attempt 1)
+round 0 15           ai=True  questions=0 0/2 optimal  won=False
+round 1 w4p6         ai=False questions=0 4/5 optimal  won=True

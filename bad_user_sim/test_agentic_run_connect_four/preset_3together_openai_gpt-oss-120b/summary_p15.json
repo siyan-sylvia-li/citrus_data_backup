@@ -1,0 +1,46 @@
+{
+  "puzzle": "15",
+  "decisions": 3,
+  "optimal_moves": 1,
+  "optimal_first_n": 1,
+  "decisions_first_n": 3,
+  "kept_win_moves": 0,
+  "opener_optimal": false,
+  "exact_decisions": 1,
+  "result": "yellow_win",
+  "won": false,
+  "plies_to_win_at_start": 9,
+  "completed": true,
+  "columns": [
+    "2!",
+    "5!",
+    "3"
+  ],
+  "auto_played": [],
+  "chat_turns": null,
+  "game": "connect_four",
+  "round": 0,
+  "ai_available": true,
+  "model_settings": {
+    "max_tokens": 50000
+  },
+  "questions_asked": 4,
+  "question_budget": 10,
+  "profile": {
+    "persona": "A talented musician who contributes his skills and knowledge during the listening parties",
+    "age": 29,
+    "education": "some_college",
+    "occupation": "arts",
+    "ai_frequency": "monthly",
+    "known_concepts": [
+      "Digital",
+      "Currency",
+      "Payment",
+      "Ownership",
+      "Transaction",
+      "Fee"
+    ]
+  },
+  "student_model": "together:openai/gpt-oss-120b",
+  "streamed": false
+}

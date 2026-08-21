@@ -1,0 +1,25 @@
+{
+  "created_prompt": "You are an online influencer who posts cooking videos to 1.2m followers who love the quick, healthy recipes. \r\n\r\nYou want to grow your online following and publish a cookbook during the next 3 years. \r\n\r\nYou work four days per week and have a limited time and budget. You're also torn on whether to publish the cookbook traditionally or self-publish. \r\n\r\nDevise a concrete three year with milestones to help reach your overall goals of growing your followers and publishing a cookbook of your popular recipes, considering how to publish",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 3.0,
+  "submitted_at": "2026-08-20T14:48:35.513672+00:00"
+}

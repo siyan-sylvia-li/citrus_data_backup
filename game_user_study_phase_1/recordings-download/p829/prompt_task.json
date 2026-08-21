@@ -1,0 +1,19 @@
+{
+  "created_prompt": "I am a female cooking influencer with 1.2M followers, focused on quick, healthy recipes. I want to online and publish a cookbook over the next three years. I work four days a week so my budget and time are limited. Come up with a detailed, concrete three year plan for me to achieve my goals.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-22T21:43:17.499424+00:00"
+}

@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Create a 3 year plan for a popular cookery video creator to grow online and publish a cookbook - take into consideration the creator already has 1.2 million followers, but has limited time and budget and works 4 days per week. The creator is as yet undecided between a traditional or self-published cookbook so please also advise on that.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-28T13:04:41.235946+00:00"
+}

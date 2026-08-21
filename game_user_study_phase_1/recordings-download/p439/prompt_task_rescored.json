@@ -1,0 +1,32 @@
+{
+  "created_prompt": "Hi! I have a pretty good online following on youtube (1.2m), and I really want to grow my audience enough to be able to publish a successful cookbook. But, crucially, I only have time to work 4 days a week and I don't have much money. Do you have any suggestions for how to get this done in a 3 year plan? And based on that, do you recommend traditional or self published?",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "original": {
+    "judges": {
+      "llama": 3,
+      "gpt": 3
+    },
+    "mean_score": 3.0,
+    "median_score": 3.0,
+    "passed": true
+  },
+  "time_taken": 2.507
+}

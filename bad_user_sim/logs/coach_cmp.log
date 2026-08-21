@@ -1,0 +1,16 @@
+2026/08/14 16:30:41 WARNING dspy.clients.lm: LM response was truncated due to exceeding max_tokens=2048. You can inspect the latest LM interactions with `dspy.inspect_history()`. To avoid truncation, consider passing a larger max_tokens when setting up dspy.LM. You may also consider increasing the temperature (currently None)  if the reason for truncation is repetition.
+2026/08/14 16:31:36 WARNING dspy.clients.lm: LM response was truncated due to exceeding max_tokens=2048. You can inspect the latest LM interactions with `dspy.inspect_history()`. To avoid truncation, consider passing a larger max_tokens when setting up dspy.LM. You may also consider increasing the temperature (currently None)  if the reason for truncation is repetition.
+  25 turns
+  50 turns
+annotated 65
+
+         assistant act      gpt-5.5   MiniMax-M3    Kimi-K2.6  gemma-4-31B    human
+          Board Report        48.0%        75.6%        51.4%        22.0%    41.4%  <== target
+                  Hint         4.0%         4.4%         2.9%        40.0%    26.3%  <== target
+                Prompt        10.0%        28.9%         2.9%        46.0%    29.3%
+     General Principle        42.0%        73.3%        60.0%        52.0%    59.4%
+          Move Verdict        66.0%        24.4%        57.1%        30.0%    41.0%
+   Local Justification        92.0%        73.3%        97.1%        56.0%    74.9%
+           Worked Line        22.0%        40.0%        42.9%        12.0%    11.4%
+                 turns           50           45           35           50
+                 cells           10            9            7           10

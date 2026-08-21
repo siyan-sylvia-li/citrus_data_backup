@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I have 6 legal moves (g2, b6, a7, b7, b8, c8) with only 10 empty squares left on the whole board. Which move gives me the best final disc count if White plays well? Can you walk me through the reasoning simply?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now my legal moves are g2, b6, a7, c8. Which one should I play for the best final outcome?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Looking back, when I was deciding between a1, b6, and a7 near the end, was a1 really the right first move? I want to understand why that order mattered so much."
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Later I had to choose between b6 and a7 (after White took h1). I picked a7 because it flipped more discs (7 vs fewer). Was that the sound reason, or was there something deeper I should have weighed?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Oh, okay \u2014 so even though a7 happened to work out, I shouldn't just chase the biggest flip count? What should I actually be checking instead when there's only one or two squares left?"
+  }
+]

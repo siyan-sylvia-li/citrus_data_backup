@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at the final count and it's a bit surprising. Was b7 a mistake at the start?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Thinking about the top row... White has a huge wall from a1 to g1. Did I just hand that over by playing b7?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I thought b6 was a strong move to reclaim some center control. Was it actually helpful?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "That g2 move looked like a massive swing at the time\u2014did it actually just help White clean up the edges?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Last question\u2014b8 seemed like a forced move, but it just let White take c8 and h1? Was there any other way?"
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Ask your current followers to share your current videos. Share across more than 1 platform to reach more people.",
+  "judges": [
+    {
+      "model": "nemotron",
+      "score": 1
+    },
+    {
+      "model": "gpt",
+      "score": 1
+    },
+    {
+      "model": "llama",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 1.0,
+  "median_score": 1,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 1.0,
+  "submitted_at": "2026-08-19T11:02:29.459555+00:00"
+}

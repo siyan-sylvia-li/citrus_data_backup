@@ -1,0 +1,19 @@
+{
+  "created_prompt": "I need help making a three-year plan to reach my goals of growing my online following and publishing a cookbook. Can you help me make a plan with concrete steps?\r\n\r\nFor background, I work four days a week and have limited time and budget. I post cooking videos and have 1.2 million followers.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-22T19:55:53.703542+00:00"
+}

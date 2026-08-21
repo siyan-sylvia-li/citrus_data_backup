@@ -1,0 +1,29 @@
+{
+  "variant": "v9_reasons",
+  "observation": "Some are asking direct questions and others are giving a summary and asking general advice.",
+  "choice": "A",
+  "choice_correct": false,
+  "form": "contrasting_cases",
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 3
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.0,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-21T16:55:53.660184+00:00"
+}

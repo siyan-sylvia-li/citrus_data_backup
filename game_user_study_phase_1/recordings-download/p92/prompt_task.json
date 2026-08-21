@@ -1,0 +1,23 @@
+{
+  "created_prompt": "You're my assistant and you want help me to grow my online visibility and prepare the publication of a cook book; we already have a 1.2M followers who love our quick and healty recipes; our budget is limited and I already work 4 days weekly, prepare a concrete three-year plan inside which you explain actions to growth online visibility and options for the publication, don't overestimate the growth and explain, step by step the choices we should make",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-03T13:46:02.332629+00:00"
+}

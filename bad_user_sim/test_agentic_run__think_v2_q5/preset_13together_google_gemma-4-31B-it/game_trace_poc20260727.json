@@ -1,0 +1,41 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I see b7 flips a lot of discs, but is there a catch if I play there?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at b7 and it looks like I can take a huge row of discs, but is that usually a trap in this game?"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at the final score and wow, I got crushed. Where did I go wrong?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm still thinking about those corners at a1 and h1. How do you even stop someone from just taking those at the end?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Since this was a puzzle, was there a specific trick move I missed at the start that would've changed everything?"
+  }
+]

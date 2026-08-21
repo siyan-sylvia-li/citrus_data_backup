@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, I'm a bit lost with these coordinates. Which of these moves looks like the best bet to actually turn the tide?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm tied up right now! Should I go for b6, a7, or c8 to seal the deal?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Alright, first time playing one of these. I'm looking at the board... where should I make my first big entrance to really set the tone?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Hey! I'm brand new to this. Looking at these options, which move is the real showstopper here?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, I'm a bit lost with these coordinates. Which of these moves looks like the best bet to actually turn the tide?"
+  }
+]

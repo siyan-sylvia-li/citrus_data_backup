@@ -1,0 +1,41 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "c8 and b7 flip the most discs immediately, but I'm worried they let White hit back with huge moves like a3 or b6. g2 feels safer but I'm not sure it wins the endgame. Could you tell me which of my six legal moves actually maximizes Black's final count under optimal play?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Quick follow-up: why does b7 outperform g2? I was thinking g2 might limit White's options more."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White replied a8. My options are now g2, b6, a7, c8. g2 and b6 both flip five stones right now, but I'm not sure which line holds up better. Which one maximizes Black's final count?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm skeptical about c8 \u2014 it only flips d8, and then White can hit a3 or b6 for huge gains. g2 and b6 both flip five stones right now. Are you sure c8 outperforms them here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After c8, White hit b8 and now I\u2019m down to 22 vs 36. My legal moves are g2, b6, a7. Both g2 and b6 flip five stones now. I think g2 is better because it sets up a huge a3 follow-up for me later. Is g2 the maximizing move here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  }
+]

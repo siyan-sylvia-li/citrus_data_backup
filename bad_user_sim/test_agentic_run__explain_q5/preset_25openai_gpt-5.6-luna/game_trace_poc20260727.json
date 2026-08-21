@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Which move is best here if both sides play optimally? Please give the principal variation or at least the recommended square."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After Black b7 and White a8, what's the best continuation for Black among g2, b6, a7, c8?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now after White b8, choose best Black move among g2, b6, a7, and what should I expect next?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White passed after my a3. With a1 and g2 left, which should Black play for best final result?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "The game just ended after Black g2 and White h1, with Black winning 33\u201331. Was g2 the correct final move, or should I have played h1 first?"
+  }
+]

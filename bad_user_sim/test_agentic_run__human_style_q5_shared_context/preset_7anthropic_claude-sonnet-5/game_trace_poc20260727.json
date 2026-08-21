@@ -1,0 +1,49 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Hi, I'm behind on discs right now. Which of my legal moves (g2, b6, a7, b7, b8, c8) gives me the best shot at winning by the end?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White took a8. Now I can play g2, b6, a7, or c8 - what's best this time?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "This looks bad for me, only 22 to 36. With g2, b6, or a7 left, is there any way to turn this around, or should I just pick the least-bad option?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "down to the last few squares, a1 g2 or a3 - which order should I play these to end up with as many as possible?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now that it's over and I ended up winning 33-31, can you help me understand why a7 and that a3 move mattered so much? I wasn't sure at the time if I was throwing the game away."
+  }
+]

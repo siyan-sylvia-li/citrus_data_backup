@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "What is the best column for Red here under optimal play, and what is the key threat or defense I should account for?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After my 4 and Yellow's 5, what should I play now? Please identify any immediate Yellow threat as well."
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Yellow played 1. What is Red's best move now? Is there a forcing win, or should I be building/blocking a specific line?"
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After Yellow's second disc in column 1, is column 7 the strongest move because it threatens the diagonal into c4-r5? What is the optimal move?"
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  }
+]

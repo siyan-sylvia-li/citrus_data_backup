@@ -1,0 +1,32 @@
+{
+  "created_prompt": "Act as a practical growth strategist and publishing advisor. Create a concrete, realistic three-year plan for Julie, a cooking creator with 1.2 million followers known for quick, healthy recipes, to grow her online business and publish a cookbook. Account for her four-day workweek, limited time and budget, and uncertainty about traditional versus self-publishing. Break the plan into quarterly phases with specific goals, weekly actions, content and audience strategy, monetization milestones, budget-conscious tools or hires, and measurable KPIs. Compare traditional and self-publishing at the point when she should decide, recommend a path with reasons, identify key risks and mitigations, and end with the first 30 days of actions. Make assumptions explicit and prioritize the highest-impact steps.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 4
+    },
+    {
+      "model": "gpt",
+      "score": 4
+    },
+    {
+      "model": "nemotron",
+      "score": 4
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 4.0,
+  "median_score": 4,
+  "threshold": 3.0,
+  "passed": true,
+  "original": {
+    "judges": {
+      "llama": 4,
+      "gpt": 4
+    },
+    "mean_score": 4.0,
+    "median_score": 4.0,
+    "passed": true
+  },
+  "time_taken": 2.733
+}

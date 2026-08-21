@@ -1,0 +1,32 @@
+{
+  "created_prompt": "I have a large online following of over 1 million people for my cooking related videos that provide quick healthy recipes. I would like to grow online and publish a cookbook either using traditional or self-publishing of which i am torn between. Devise a three year plan for me related to my stated goals and consider into the plan that i work four days weekly so am constrained by limited time and budget.",
+  "judges": [
+    {
+      "model": "nemotron",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "original": {
+    "judges": {
+      "gpt": 3,
+      "llama": 3
+    },
+    "mean_score": 3.0,
+    "median_score": 3.0,
+    "passed": true
+  },
+  "time_taken": 4.092
+}

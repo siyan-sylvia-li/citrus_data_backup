@@ -1,0 +1,37 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, b7 seems to flip a lot of white discs, but is it actually the best move or does it open something up for the opponent?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, b7 seems to flip a lot of white discs, but is it actually the best move or does it open something up for the opponent?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, b7 seems to flip a lot of white discs, but is it actually the best move or does it open something up for the opponent?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, b7 seems to flip a lot of white discs, but is it actually the best move or does it open something up for the opponent?"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Wait, did I blow it with b8? It felt like I gave up too much."
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I had a plan with the diagonal, but when Yellow slid into column 5 it threw me off. Can\u2019t quite see the follow-up now \u2014 what\u2019s my best move from here?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "play_move",
+    "move": 2
+  },
+  {
+    "tool": "play_move",
+    "move": 1
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I\u2019ve traded blocks for a while and I\u2019m staring at these diagonals, but I can\u2019t see which move actually lands the knockout. Is the win in c5, or am I barking up the wrong tree entirely?"
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  }
+]

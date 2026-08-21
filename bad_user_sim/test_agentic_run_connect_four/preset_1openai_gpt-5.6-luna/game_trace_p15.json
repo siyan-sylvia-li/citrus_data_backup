@@ -1,0 +1,26 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "What is the best column for Red here with optimal play, and what is the key threat or sequence I should watch for?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After Red 4 and Yellow 5, the current position is R: c2r1,c3r1,c6r1,c2r2,c5r2,c4r3,c6r3; Y: c4r1,c5r1,c7r1,c3r2,c4r2,c6r2,c5r3. What is Red's best next column?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 2
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  }
+]

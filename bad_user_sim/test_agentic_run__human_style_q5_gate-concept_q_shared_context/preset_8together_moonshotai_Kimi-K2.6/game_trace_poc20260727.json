@@ -1,0 +1,49 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "My legal moves are g2, b6, a7, b7, b8, c8. I\u2019m leaning toward b7 because it seems to flip a6 and the whole c7\u2013g7 diagonal, but I\u2019m not sure how the endgame shakes out after that. Which move actually gives me the best final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White hit back with a8 after my b7. Now my legal moves are g2, b6, a7, c8. I\u2019m tempted by g2 because it opens the g-file, but I\u2019m not sure how the rest plays out. Which one gives me the best final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Down to three options: g2, b6, a7. g2 flips the most right now, but I remember the h1 corner risk. Is b6 or a7 the better endgame play? What should I do?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I played a7 and White hit b6. Now I\u2019m down 20\u201340 with only a1, g2, a3. Am I already lost, or is one of these still best? If so which one?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Game just ended 41-23. Quick check: was playing h1 before g2 the only winning sequence there, or would g2 first have backfired?"
+  }
+]

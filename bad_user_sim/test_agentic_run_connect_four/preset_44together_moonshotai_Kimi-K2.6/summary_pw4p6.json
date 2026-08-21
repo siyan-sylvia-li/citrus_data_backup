@@ -1,0 +1,39 @@
+{
+  "puzzle": "w4p6",
+  "decisions": 4,
+  "optimal_moves": 4,
+  "optimal_first_n": 3,
+  "decisions_first_n": 3,
+  "kept_win_moves": 4,
+  "opener_optimal": true,
+  "exact_decisions": 4,
+  "result": "red_win",
+  "won": true,
+  "plies_to_win_at_start": 7,
+  "completed": true,
+  "columns": [
+    "3",
+    "1",
+    "5",
+    "5"
+  ],
+  "auto_played": [],
+  "chat_turns": null,
+  "game": "connect_four",
+  "round": 1,
+  "ai_available": false,
+  "model_settings": {
+    "max_tokens": 50000
+  },
+  "questions_asked": 0,
+  "question_budget": 0,
+  "profile": {
+    "persona": "A fellow fan who has shared the same love for the sport since their early years",
+    "age": 50,
+    "education": "associate",
+    "occupation": "transportation",
+    "ai_frequency": "less_than_monthly"
+  },
+  "student_model": "together:moonshotai/Kimi-K2.6",
+  "streamed": false
+}

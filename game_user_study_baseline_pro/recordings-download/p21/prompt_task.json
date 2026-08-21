@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Make me a concrete and easy to follow 3-year plan, on how to grow my social media presence and publish a cookbook with quick and healthy recipes, mention difference between self and traditional publish. Base the plan on limited free time and budget.",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-21T13:07:45.775566+00:00"
+}

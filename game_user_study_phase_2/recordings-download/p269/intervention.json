@@ -1,0 +1,28 @@
+{
+  "variant": "v2_think_pair",
+  "observation": "Group A is asking more about what the best move would be passively. Group B is playing more cooperatively with the AI, suggesting options and asking for analysis.",
+  "choice": "B",
+  "choice_correct": true,
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 3
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.0,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-18T21:15:30.891081+00:00"
+}

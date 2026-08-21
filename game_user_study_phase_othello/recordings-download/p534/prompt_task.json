@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Devise for me a three-year plan for me to grow my online presence around quick, healthy recipes and publish a cookbook. I have limited time and budget. I also need guidance on traditional vs self-publishing the book.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-04T13:07:48.688965+00:00"
+}

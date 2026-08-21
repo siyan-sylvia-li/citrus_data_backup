@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Devise a concrete three-year plan to grow an existing series of cooking videos and publish a cookbook.The current cooking videos showcase quick and healthy recipes. Fir the cookbook, explain any major benefits and potential drawbacks of traditional publishing versus self-publishing. Frame your recommendations with the understanding that the current workload is four days per week, and the time and budget available to attain these goals are limited.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 4
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-10T22:40:08.013490+00:00"
+}

@@ -1,0 +1,51 @@
+{
+  "puzzle": "15",
+  "decisions": 6,
+  "optimal_moves": 5,
+  "optimal_first_n": 2,
+  "decisions_first_n": 3,
+  "kept_win_moves": 4,
+  "opener_optimal": false,
+  "exact_decisions": 5,
+  "result": "red_win",
+  "won": true,
+  "plies_to_win_at_start": 9,
+  "completed": true,
+  "columns": [
+    "2!",
+    "3",
+    "3",
+    "4",
+    "5",
+    "6"
+  ],
+  "auto_played": [],
+  "chat_turns": null,
+  "game": "connect_four",
+  "round": 0,
+  "ai_available": true,
+  "model_settings": {
+    "max_tokens": 200000
+  },
+  "questions_asked": 1,
+  "question_budget": 10,
+  "profile": {
+    "persona": "A mental health professional who offers guidance and tools for healing and growth",
+    "age": 41,
+    "education": "master",
+    "occupation": "healthcare",
+    "ai_frequency": "monthly",
+    "known_concepts": [
+      "Digital",
+      "Currency",
+      "Payment",
+      "Ownership",
+      "Transaction",
+      "Fee",
+      "Verification",
+      "Probability"
+    ]
+  },
+  "student_model": "together:moonshotai/Kimi-K2.6",
+  "streamed": false
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Which legal move is optimal here against best play? Please give the principal variation or at least the best square and why, briefly."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After b7 and White a8, the legal moves are g2, b6, a7, c8. Which one should I play now for the best final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now after c8, White b8, legal moves g2, b6, a7. Which is the minimax choice for Black?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "At the current position (empties a1, g2, a3, h1), is a3 still the best move, or is there a sharper minimax choice?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

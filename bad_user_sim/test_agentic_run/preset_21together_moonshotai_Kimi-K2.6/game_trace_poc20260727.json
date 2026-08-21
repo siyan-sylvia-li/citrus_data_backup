@@ -1,0 +1,30 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, I\u2019ve got this endgame puzzle and a few candidate moves. Can you quickly tell me which of g2, b6, a7, b7, b8, or c8 gives Black the maximum final disc count under optimal play? I\u2019d rather not manually trace the whole 10\u2011ply tree if I can avoid it."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White took a8 after my b7 and flipped b7 back. Of my remaining legal moves (g2, b6, a7, c8), which sets up the best final count for Black from here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  }
+]

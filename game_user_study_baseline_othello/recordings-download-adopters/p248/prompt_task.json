@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Devise a concrete three year plan to grow the 1.2M audience of the cooking video stream over the next three years.  Limited time and budget constraints along with publishing a cookbook either traditionally or self publishing.",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-11T00:18:10.275722+00:00"
+}

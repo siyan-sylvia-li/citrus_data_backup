@@ -1,0 +1,45 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Im behind a lot in discs, which of my legal moves gives me the best shot at winning at the end?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "out of g2, b6, a7, c8 - which is best now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "which of g2, b6, a7 is best here, im worried im losing bad"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "last few moves here, a1 g2 or a3 - whats the right order/pick to end with the most discs?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "game's done and I ended up winning 33-31, kinda surprised - can you explain what actually turned it around for me?"
+  }
+]

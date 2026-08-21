@@ -1,0 +1,28 @@
+{
+  "variant": "v9_two_rows",
+  "observation": "Group A's prompts are precise, clear and to the point, providing prompts that will produce a clear answer, while also thinking further ahead into the game. Group B's prompts use a more informal prompt style, with unnecessary words that also only address the next move, rather than thinking further ahead.",
+  "choice": "A",
+  "choice_correct": false,
+  "effort": {
+    "judges": [
+      {
+        "model": "gpt",
+        "score": 4
+      },
+      {
+        "model": "llama",
+        "score": 4
+      },
+      {
+        "model": "nemotron",
+        "score": 3
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.667,
+    "median_score": 4,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-19T11:55:48.425643+00:00"
+}

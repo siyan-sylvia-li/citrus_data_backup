@@ -1,0 +1,41 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, could use a quick hand. In this Othello endgame I'm Black with legal moves g2, b6, a7, b7, b8, c8. Which move maximizes my final disc count assuming White plays optimally? I don't have time to brute-force the whole tree manually."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Current board: Black 31, White 29. Empties are a1, a3, b8, c8. My only legal moves are b8 and c8. Which one leads to the highest final Black count under perfect play? I know White still has powerful replies; can you quickly determine the best branch?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "So I just lost 21-43. Starting from the original position, was b7 actually the best opening move, or did I already blunder by not choosing something like c8 or b8?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "When I had the choice between b8 and c8 with 4 empties left, White had a1 and a3. Which move keeps me alive longer, and what was the forced line I missed?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Playing out the actual line, after b7 White took a8, then I played g2 and b6. Was there a better sequence after b7 \u2014 maybe c8 before g2 \u2014 that prevents White from owning that corner chain?"
+  }
+]

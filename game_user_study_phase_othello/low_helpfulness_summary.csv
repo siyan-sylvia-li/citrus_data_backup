@@ -1,0 +1,7 @@
+prolific_id,intent,ease,turns,puzzle,solved,final_margin,end_reason,free_text
+p33,Strongly disagree,Agree,5,poc20260727,False,-2,game_over,It was wrong
+p805,Disagree,Disagree,5,poc20260727,False,-18,game_over,
+p602,Disagree,Disagree,5,poc20260727,False,-24,game_over,
+p736,Neutral,Disagree,5,poc20260727,False,-20,game_over,"For someone who never played, assistant isn't super helpful..."
+p611,Disagree,Neutral,7,poc20260727,False,-20,timeout,"I made clear to the Ai assistant from the start that I was not very good at the game and didn't understand it all that well. Despite knowing this was the case, it presented me with two moves, assuring me that they were the best moves, while also leaving out critical information that would have influenced what move I would make. It did it the second time, despite being called out on its' mistake with the first move."
+p706,Neutral,Agree,8,poc20260727,False,-20,game_over,"I choose the recommendations by the assistant as I am not too familiar with the game, and I lost on every occasion taking the assistants advice."

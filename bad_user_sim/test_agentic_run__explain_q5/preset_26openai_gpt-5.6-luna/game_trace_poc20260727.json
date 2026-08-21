@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Can you help me pick the best first move here, assuming White plays their best? I\u2019m not sure which of these six is safest."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After b7 and White a8, which Black move is best now: g2, b6, a7, or c8?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now only g2, b6, and a7 are legal after White b8. Which one should I play for the best final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "With four empties left (a1, h1, g2, a3), which Black move gives the best result: a1, g2, or a3?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I chose g2 and the game finished 33 to 31. Was g2 the right choice from the last position?"
+  }
+]

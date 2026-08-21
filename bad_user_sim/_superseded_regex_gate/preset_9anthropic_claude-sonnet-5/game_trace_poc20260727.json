@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "whoa, I'm way behind on discs here. only a few empty squares left though. which of my legal moves (g2, b6, a7, b7, b8, c8) actually turns this around by the end?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "ok that flipped a bunch, nice. now down to g2, b6, a7, c8 - which one now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "yikes that one backfired, white swept the whole bottom row. only 6 spots left now - g2, b6, a7. what's least damaging?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "only 4 spots left, my choices are a1, g2, a3. i think g2 flips the most (that whole g-column chunk) - is that actually the smart one or does it backfire later?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "quick one - if I'd played g2 before a1, would white have snuck in and grabbed h1 for themselves?"
+  }
+]

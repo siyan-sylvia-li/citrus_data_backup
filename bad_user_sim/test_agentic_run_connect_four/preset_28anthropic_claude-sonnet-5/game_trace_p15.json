@@ -1,0 +1,49 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Hi! Looking at this board, is there a move I should make right now that either wins for me or blocks something dangerous from Yellow? I noticed my discs at c5r2 and c6r3 seem to line up diagonally with c4r3 and c3r4 - is that a real threat I should build toward?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I think I figured out that Yellow can never safely play column 3 right now, because filling row 3 there would open row 4 for me to win that diagonal (c3r4-c4r3-c5r2-c6r1). If that's right, should I avoid touching column 3 myself and try to force Yellow into eventually being stuck playing it (like a zugzwang), or is there a quicker win available right now?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Column 4 is full now. I noticed if I get red discs at c5r4 and c6r4 too, I'd have an open three in row 4 (c4-c5-c6) with two ways to complete it. Is going for that the right idea, or is there something stronger/safer I should play right now?"
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "play_move",
+    "move": 6
+  },
+  {
+    "tool": "play_move",
+    "move": 1
+  },
+  {
+    "tool": "play_move",
+    "move": 6
+  },
+  {
+    "tool": "play_move",
+    "move": 6
+  }
+]

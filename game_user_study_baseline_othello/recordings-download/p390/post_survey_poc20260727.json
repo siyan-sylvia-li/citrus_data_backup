@@ -1,0 +1,14 @@
+{
+  "game": "othello",
+  "puzzle": "oc20260727",
+  "round": 0,
+  "nasa_tlx": {
+    "mental_demand": 6,
+    "temporal_demand": 6,
+    "performance": 1,
+    "effort": 7,
+    "frustration": 5
+  },
+  "ai_assessment": null,
+  "submitted_at": "2026-08-20T11:04:04.069209+00:00"
+}

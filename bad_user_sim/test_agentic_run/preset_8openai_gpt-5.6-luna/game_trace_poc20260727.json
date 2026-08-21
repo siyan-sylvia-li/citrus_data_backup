@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Can you identify the minimax-best move for Black from this exact position, including the likely final disc margin? Please focus on the move choice rather than a full line."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After 1...a8, what is Black's minimax-best continuation among g2, b6, a7, c8? Just give the move and expected final count."
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Current position after c8 b8: among g2, b6, a7, which move is minimax-best for Black? Give only the move."
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now after ...a7 b6, which of a1, g2, a3 is the minimax-best Black move?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "With three empties left and White just passed, choose between a1 and g2 for Black under optimal play."
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

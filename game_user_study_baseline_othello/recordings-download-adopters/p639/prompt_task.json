@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I have 1.2 million followers, for a video blog that covers quick and healthy recipes. You are an expert in assisting aspiring authors with publication into the home cooking market and growing audiences online.\r\n\r\nI would like you to devise a three-year plan that will allow me to publish my recipes into a cookbook. You will also need to expand my online audience, and help me decide whether to self-publish or approach an established publisher. Whichever route I take, you will also help me work out how this can be made to happen.\r\n\r\nI have a very limited budget and time in which to do this, as it has to work around an existing job that uses four days per week of my time.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T22:48:27.243144+00:00"
+}

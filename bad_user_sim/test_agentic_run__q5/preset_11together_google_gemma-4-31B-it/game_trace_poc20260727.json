@@ -1,0 +1,41 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm new to this. Can you tell me if b7 is a good move to start with?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Hi, I'm not too sure how this works. I've got a few options like b7 or g2, but which one is actually the safest bet here?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Wait, so how do I know for sure the game is actually over? Is there some kind of sign?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm still a bit confused on the flipping part. Do I just flip everything in a line, or is there a limit?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I've heard the corners are a big deal in this game. Did I mess up by not taking them?"
+  }
+]

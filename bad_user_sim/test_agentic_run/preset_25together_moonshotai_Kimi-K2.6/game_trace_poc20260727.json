@@ -1,0 +1,14 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "This is tricky. I'm worried about White replying to my move with a3, which flips a lot of discs. Is a7 worth it to cut off the down-flip line from a3, or should I just go for the big immediate gain with c8? Which move wins out assuming optimal play?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  }
+]

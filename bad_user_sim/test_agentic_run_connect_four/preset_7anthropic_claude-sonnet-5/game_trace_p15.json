@@ -1,0 +1,34 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Looking at this board, is there a move I should make right now to set up a win, or a threat from Yellow I need to block first?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I've got three in a row diagonally (c6r1, c5r2, c4r3) and I need c3r4 to win, but column 3 only has 2 discs in it right now so that square isn't playable yet. If I play column 3 myself, doesn't that just let Yellow drop on top and block my winning square? What should I play instead to make progress without handing Yellow the block?"
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I have R's at c4r4 and c5r4 now. If I play column 6 (landing at c6r4), that gives me three in a row on row 4, with potential wins at c3r4 later (also completes my diagonal) and c7r4 later. Is playing column 6 safe right now, or does it give Yellow anything dangerous?"
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  }
+]

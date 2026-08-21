@@ -1,0 +1,89 @@
+{
+  "log": [
+    {
+      "event": "round_presented",
+      "timestamp": 1787317534071,
+      "round": 1,
+      "option_order": [
+        "direct_1",
+        "think_1"
+      ]
+    },
+    {
+      "event": "started",
+      "timestamp": 1787317534071
+    },
+    {
+      "event": "johnny_choice",
+      "timestamp": 1787317546639,
+      "round": 1,
+      "choice_id": "think_1",
+      "choice_type": "think_aloud",
+      "presented_index": 1,
+      "knowledge_added": "multipleThreats"
+    },
+    {
+      "event": "round_presented",
+      "timestamp": 1787317550840,
+      "round": 2,
+      "option_order": [
+        "check_2",
+        "direct_2"
+      ]
+    },
+    {
+      "event": "johnny_choice",
+      "timestamp": 1787317557575,
+      "round": 2,
+      "choice_id": "direct_2",
+      "choice_type": "solution_request",
+      "presented_index": 1,
+      "knowledge_added": null
+    },
+    {
+      "event": "independent_started",
+      "timestamp": 1787317560680,
+      "knowledge": [
+        "multipleThreats"
+      ]
+    },
+    {
+      "event": "independent_scenario_presented",
+      "timestamp": 1787317560681,
+      "target": "multipleThreats"
+    },
+    {
+      "event": "independent_choice",
+      "timestamp": 1787317566612,
+      "selected": "multipleThreats",
+      "target": "multipleThreats",
+      "correct": true
+    },
+    {
+      "event": "outcome_shown",
+      "timestamp": 1787317568368,
+      "knowledge": [
+        "multipleThreats"
+      ],
+      "transfer_success": true
+    },
+    {
+      "event": "completed",
+      "timestamp": 1787317571578
+    }
+  ],
+  "knowledge": [
+    "multipleThreats"
+  ],
+  "transfer_success": true,
+  "n_restarts": 0,
+  "choice_types": [
+    "think_aloud",
+    "solution_request"
+  ],
+  "independent_choice": "multipleThreats",
+  "independent_target": "multipleThreats",
+  "form": "johnny_connect_four_boost",
+  "effort": null,
+  "submitted_at": "2026-08-21T13:06:14.900972+00:00"
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Could I have actually won this endgame from the starting position, or was black already too far behind?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Looking back, should I have played b7 instead of b6 as my first move?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Why did c8 flip so many discs? I totally missed that diagonal when I played it."
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After white played a1, was there any move besides c8 that could have kept me in the game?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "What are the biggest things I should watch for in these endgame puzzles so I don't give up corners like that?"
+  }
+]

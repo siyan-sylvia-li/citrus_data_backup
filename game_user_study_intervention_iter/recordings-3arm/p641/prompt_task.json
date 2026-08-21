@@ -1,0 +1,25 @@
+{
+  "created_prompt": "I don't have a lot of free time as I work 4 days a week. I also have a limited budget, but over the next 3 years I would like to grow my audience of my cooking videos and publish a cookbook. could you advise a plan",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.333,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.333,
+  "submitted_at": "2026-08-21T13:06:14.881466+00:00"
+}

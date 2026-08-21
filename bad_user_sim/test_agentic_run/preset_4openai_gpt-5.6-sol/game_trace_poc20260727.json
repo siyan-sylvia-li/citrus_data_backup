@@ -1,0 +1,34 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I'm new to these endgames\u2014what's the best first square here, and what reply plan should I follow?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White took a8. My legal moves are g2, b6, a7, c8\u2014what's the strongest one now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now it's g2, b6, or a7 after White played b8. Which keeps the best finish?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

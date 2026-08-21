@@ -1,0 +1,22 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, I'm looking at my options: g2, b6, a7, b7, b8, c8. I counted that c8 flips the most discs right away (like 6), but I'm worried about giving White a big comeback move afterward, especially near the corners a1/h1/a8. Which move actually sets me up best for the long run, not just the immediate flip count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  }
+]

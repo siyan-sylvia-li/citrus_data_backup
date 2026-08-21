@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "hey, first time doing one of these endgame puzzles. looking at my options (g2, b6, a7, b7, b8, c8) - any of these obviously best?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "ok now it's g2, b6, a7, or c8 - which one?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "whoa white jumped to 36. down to g2, b6, or a7 now, what's best?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I ran through it myself - think a3 sets up a forced pass from white and I end up winning 33-31 if I follow with g2 then a1 later. does that check out?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "random thought now that it's over - was there any line where I could've done even better than 33-31, or was that the max?"
+  }
+]

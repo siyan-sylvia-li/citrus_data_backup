@@ -1,0 +1,41 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at the current board state. Which of my legal moves\u2014g2, b6, a7, b7, b8, or c8\u2014would be most strategically sound to maximize my final disc count?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm assessing the current board. Which of these legal moves would provide the best structural advantage for Black in the long run?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Looking at the board, I see several options: g2, b6, a7, b7, b8, c8. Which of these minimizes the opponent's ability to reclaim the edges?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Reflecting on the match, where exactly did the momentum shift? Was there a specific sequence of moves where I ceded too much control?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "From a systemic perspective, is there a general heuristic for these endgames to prevent such a catastrophic collapse of my position?"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I would like you to create me a three-year plan that is very concise and includes important milestones along the way.\r\n\r\nKey points:\r\n- I want the plan to be on how I can grow my online presence and publish a cookbook.\r\n- I'm not sure whether to self-publish or go the more traditional route.\r\n- I currently have 1.2M followers who follow me for my quick, healthy recipes.\r\n- I work four days weekly on this endeavor, and I have limited time and budget.\r\n\r\nPlease come up with a plan for me based on all this.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-05T14:38:11.931110+00:00"
+}

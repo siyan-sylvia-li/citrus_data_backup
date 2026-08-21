@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I'm Black, down 20-34 but there's only 10 empty squares left so it can swing. My legal moves are g2, b6, a7, b7, b8, c8. Which move gives me the best final outcome if White plays optimally?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now my legal moves are g2, b6, a7, c8. Which is best with optimal White play from here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Down 22-36 now with only g2, b6, a7 as options and 6 empties left. Which move minimizes the damage / gives best final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

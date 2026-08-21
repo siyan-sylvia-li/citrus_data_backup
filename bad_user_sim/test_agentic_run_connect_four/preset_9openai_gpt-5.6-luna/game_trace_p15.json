@@ -1,0 +1,26 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Can you help me find the best column here? I want to know if Red has a forced win, or if I need to block Yellow first."
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After my 4 and Yellow's 5, what is the best next column? Is there a specific Yellow threat I should block?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 2
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  }
+]

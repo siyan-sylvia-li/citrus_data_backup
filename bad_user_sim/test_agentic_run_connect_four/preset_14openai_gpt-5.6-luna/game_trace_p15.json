@@ -1,0 +1,34 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Can you find the best column here with perfect play? Please flag any immediate Yellow threat too."
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After Yellow played 5, what's Red's strongest continuation? I'm especially checking whether I need to block or can set up a forced line."
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Which move now creates the strongest immediate threat? Is column 2 the forcing play, or is there a better double-threat setup?"
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "play_move",
+    "move": 2
+  },
+  {
+    "tool": "play_move",
+    "move": 2
+  }
+]

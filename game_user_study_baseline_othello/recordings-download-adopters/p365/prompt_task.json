@@ -1,0 +1,23 @@
+{
+  "created_prompt": "create a realistic 3-year plan for julie to grow her cooking brand and publish a cookbook, balancing limited time, budget, and the choice between traditional and self-publishing. she posts cooking videos to 1.2 million followers, and she also works four days a week so she has limited time and budget",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-10T14:50:51.298881+00:00"
+}

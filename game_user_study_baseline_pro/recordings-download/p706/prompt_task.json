@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Hi, I've been doing my cooking video's for a few years and I'm looking to expand it over the next three years. I want to look at gaining more followers, as I have 1.2m at the moment but want to look at ways to get a steady increase over the next few years. I'm considering doing my own cookbook but I'm completely torn on doing traditional recipes or just going the self publishing route. I looking for advice on how to achieve these goals over the next three years, and was hoping you could help create a good solid plan on how to achieve this. I tend to do quick and easy recipes that are focused on health but I do have a limited budget and time as I work four days a week.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-22T13:19:52.903383+00:00"
+}

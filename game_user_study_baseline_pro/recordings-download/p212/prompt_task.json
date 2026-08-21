@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Julie has a popular cooking channel with 1.2 million followers where she published cooking videos for quick healthy recipes. She would like to grow her channel into a full time profession over the next three years. The goals are to grow the online channel and to publish a cookbook.  The challenges are that she works four days a week at her unrelated job, so she has limited time. She also has a limited budget.  The last question to answer is whether traditional or self-publishing is the best avenue for a publishing a cookbook.  Can you devise a three year plan to help Julie reach her goals?",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-21T15:04:29.574653+00:00"
+}

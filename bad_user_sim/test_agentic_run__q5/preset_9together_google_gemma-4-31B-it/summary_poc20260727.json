@@ -1,0 +1,39 @@
+{
+  "puzzle": "oc20260727",
+  "decisions": 4,
+  "optimal_moves": 1,
+  "opener_optimal": false,
+  "discs_lost": 44,
+  "final_margin": -26,
+  "won": false,
+  "optimal_margin": 18,
+  "completed": true,
+  "moves": [
+    "b6!",
+    "g2",
+    "c8!",
+    "a7!"
+  ],
+  "auto_played": [],
+  "chat_turns": null,
+  "game": "othello",
+  "round": 0,
+  "ai_available": true,
+  "model_settings": {
+    "max_tokens": 200000
+  },
+  "questions_asked": 5,
+  "question_budget": 5,
+  "profile": {
+    "persona": "A fellow collector who focuses on a different historical period and shares their findings",
+    "age": 61,
+    "education": "bachelors",
+    "occupation": "other",
+    "ai_frequency": "few_times_month"
+  },
+  "student_model": "together:google/gemma-4-31B-it",
+  "student_mode": "default",
+  "questions_required": 5,
+  "assistant_preset": "default",
+  "streamed": false
+}

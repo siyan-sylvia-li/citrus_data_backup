@@ -1,0 +1,30 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Looking at this Connect 4 board, I'm considering playing column 2 \u2014 it gives me 3 reds stacked vertically (r1,r2,r3), forcing yellow to block at c2r4. But if yellow blocks there, doesn't that set up a yellow diagonal win through c2r4-c3r3-c4r2-c5r1 unless I immediately take c3 next? Is column 2 actually the best forcing move here, or is there a cleaner forced win line I'm missing?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Yellow won't want to play column 3 since that lets me win at c3r4 (completing c4r3-c5r2-c6r1 diagonal). What's my best move right now to keep pressure on and eventually force yellow into zugzwang on column 3, without opening any counter-threats for them (like that c2r4-c3r3-c4r2-c5r1 diagonal they could build)?"
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 7
+  }
+]

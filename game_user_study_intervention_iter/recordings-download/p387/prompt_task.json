@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Give me a glossy professional looking cooking video, demonstrating a routine recipe that anyone can carry out in their own kitchen.",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 1
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    },
+    {
+      "model": "llama",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 1.0,
+  "median_score": 1,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 1.0,
+  "submitted_at": "2026-08-20T20:31:02.370027+00:00"
+}

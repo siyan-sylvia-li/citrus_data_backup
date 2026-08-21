@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Hi! I'm looking at my options here - g2, b6, a7, b7, b8, c8. Which one would you suggest?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now I've got g2, b6, a7, c8. Which is safest/best now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "This looks rough, only g2, b6, a7 left. What's the right order/move now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Only 4 squares left: a1, g2, a3, h1. I'm way behind. g2 flips 5 for me, a3 flips 4. Which one actually wins me the most in the end?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "That last bit went fast - was there anywhere earlier I could've played better to get an even bigger margin?"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at the board and I have moves g2, b6, a7, and c8. I'm not a pro at this\u2014which one of these is likely to give me the best advantage for the final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  }
+]

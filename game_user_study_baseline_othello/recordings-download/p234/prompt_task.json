@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Could you provide an outline and resources so that I can craft a three-year plan for myself. Could you highlight the essentials of what needs to go into a three-year plan and how I can craft it to make it self motivating",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 1
+    },
+    {
+      "model": "gpt",
+      "score": 1
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 1.0,
+  "median_score": 1,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-20T13:50:20.185191+00:00"
+}

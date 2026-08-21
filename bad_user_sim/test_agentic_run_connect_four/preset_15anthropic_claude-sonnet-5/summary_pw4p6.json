@@ -1,0 +1,47 @@
+{
+  "puzzle": "w4p6",
+  "decisions": 10,
+  "optimal_moves": 5,
+  "optimal_first_n": 1,
+  "decisions_first_n": 3,
+  "kept_win_moves": 7,
+  "opener_optimal": false,
+  "exact_decisions": 8,
+  "result": "red_win",
+  "won": true,
+  "plies_to_win_at_start": 7,
+  "completed": true,
+  "columns": [
+    "5!",
+    "3!",
+    "5",
+    "1",
+    "2",
+    "3",
+    "2",
+    "4!",
+    "7!",
+    "7!"
+  ],
+  "auto_played": [
+    6
+  ],
+  "chat_turns": null,
+  "game": "connect_four",
+  "round": 1,
+  "ai_available": false,
+  "model_settings": {
+    "max_tokens": 100000
+  },
+  "questions_asked": 0,
+  "question_budget": 0,
+  "profile": {
+    "persona": "A local retailer committed to promoting and selling products made from the raw materials supplied by the local supplier",
+    "age": 47,
+    "education": "hs_graduate",
+    "occupation": "retail",
+    "ai_frequency": "less_than_monthly"
+  },
+  "student_model": "anthropic:claude-sonnet-5",
+  "streamed": false
+}

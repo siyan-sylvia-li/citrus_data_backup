@@ -1,0 +1,33 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I\u2019m not seeing a clear forced win on my own. Can you tell me which move Red should play here to force a win, or is it just a draw? I want to make sure I don\u2019t give Yellow an opening."
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "This is getting tight \u2014 I see the center pressure but I\u2019m not sure what keeps the forced win going after Yellow\u2019s last move. Can you walk me through the key idea Red should play right now?"
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "why does a8 reply to b7 let white eventually eat the whole left edge? i don't see that chain reaction."
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "at the end white played c8, a1, a3 while i had to pass. i thought turns alternate\u2014why could white play three times in a row?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "i thought any disc could flip if it got bracketed, so why are corner discs literally permanent? is it geometry or a rule?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "i had more discs after b7 but way less at the end. is there a name for the concept that midgame disc lead is meaningless?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "one more thing\u2014when white played a7 after my b6 it flipped c5 c6 d6 e6 all at once along a diagonal. is there a visual trick to spot those long diagonal brackets faster?"
+  }
+]

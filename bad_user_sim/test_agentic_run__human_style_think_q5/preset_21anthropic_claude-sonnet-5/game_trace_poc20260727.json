@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "down 20-34 with only 10 empty squares left, my legal moves are g2, b6, a7, b7, b8, c8. which one actually wins me the game?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "now 24-32, legal moves g2, b6, a7, c8. which one now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "22-36 now, 6 squares left (a1,h1,g2,a3,b6,a7), my legal moves are g2, b6, a7. can you fully solve this to tell me the actual best move and final score?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "quick check - on that a3 move I made, I was banking on it forcing White to pass with zero legal moves. Was that actually correct, or did I just get lucky?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "looking back, was g2 actually the right follow-up after the pass, or was there a cleaner way to lock in an even bigger margin than 33-31?"
+  }
+]

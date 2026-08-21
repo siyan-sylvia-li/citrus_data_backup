@@ -1,0 +1,19 @@
+{
+  "created_prompt": "You are an experienced creator strategist, publishing consultant, and business planner. Help Julie create a detailed, actionable three-year roadmap to grow her cooking brand and publish her first cookbook. Julie currently has 1.2 million followers who enjoy her quick, healthy recipes. She works only four days per week and has limited time and budget. Compare traditional publishing and self-publishing, including the pros, cons, costs, timelines, revenue potential, and which option is better for her goals. Break the plan into quarterly milestones covering content strategy, audience growth, email list building, partnerships, sponsorships, cookbook development, testing recipes, photography, marketing, launch preparation, and post-launch activities. Prioritize high-impact, low-cost actions, identify potential risks and how to mitigate them, recommend useful tools, estimate a realistic budget, and include measurable KPIs for each stage so progress can be tracked.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 4
+    },
+    {
+      "model": "gpt",
+      "score": 4
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 4.0,
+  "median_score": 4.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-23T17:22:11.420972+00:00"
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Can you solve the minimax choice here and give the best first move, ideally with the expected optimal reply sequence?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After b7, White played a8. Current legal moves are g2, b6, a7, c8. What's the optimal continuation move now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White answered b8; six empties remain and my legal moves are g2, b6, a7. Which one is minimax-optimal?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Four empties left: a1, h1, g2, a3; I can play a1, g2, or a3. Is taking a1 now optimal, or is there a parity tactic?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  }
+]

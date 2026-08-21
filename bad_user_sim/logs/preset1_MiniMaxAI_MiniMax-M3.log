@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/data/home/siyanli/agentic_sim/bad_user_sim/agentic_sim.py", line 410, in <module>
+    return True
+  File "/data/home/siyanli/agentic_sim/bad_user_sim/agentic_sim.py", line 338, in run
+    if assistant is None:
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/agent/abstract.py", line 582, in run_sync
+    return _utils.get_event_loop().run_until_complete(
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/asyncio/base_events.py", line 603, in run_forever
+    self._run_once()
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/asyncio/base_events.py", line 1871, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/selectors.py", line 469, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt

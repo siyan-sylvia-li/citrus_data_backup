@@ -1,0 +1,28 @@
+{
+  "variant": "v2_think_pair",
+  "observation": "I notice that some of the groups asked step by step help vs one who did a full single prompt to get the AI to lay out a plan instead of playing in the moment",
+  "choice": "A",
+  "choice_correct": false,
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 4
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 3
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.333,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-18T17:34:14.925982+00:00"
+}

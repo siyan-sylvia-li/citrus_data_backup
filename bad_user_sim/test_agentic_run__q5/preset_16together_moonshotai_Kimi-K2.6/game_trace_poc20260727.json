@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at this Othello endgame and my legal moves are g2, b6, a7, b7, b8, c8. Which of these actually maximizes my final disc count assuming White plays perfectly? b6 and c8 flip a lot but seem to open up nasty replies for White."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After White replied h1, the board is tied 29-29 and my legal moves are b6, a7, c8. Which one maximizes my final disc count with optimal play from here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Looking back at the whole game, was b7 really the best first move? Or did one of the other legal first moves (like b6 or c8) actually force a Black win or tie?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After White played h1, I chose g2 earlier in the sequence. Was there a better reply on that turn, or was the damage already done by then?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "At the very end, when I played a7 and White replied a3, had I already lost by that point? Or was there a different move right before that could have salvaged a tie?"
+  }
+]

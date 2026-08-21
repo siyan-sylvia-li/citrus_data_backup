@@ -1,0 +1,31 @@
+{
+  "created_prompt": "I am a content creator with a focus on quick and healthy cooking videos, posting regularly to 1.2M followers. I'd like to expand my business/reach in several ways in the near future. \r\n\r\n1) To continue growing online. \r\n2) To publish a cook book (I have been contacted by a literary agent, but I can't decide whether to go the traditional route or self publish. Any advice?)\r\n3) Start a food blog with a mix of mostly indulgent recipes and travel stories from my trip to France.\r\n\r\nConsidering my current situation:\r\n- I work 4 days a week, so can only create content in my spare time. \r\n- I recently adopted a child, so my time/energy is even more restricted at the moment.\r\n- I have a limited budget.\r\n\r\nCan you help me devise a concrete 3 year plan to reach my goals?",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "qwen",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "original": {
+    "judges": {
+      "llama": 3,
+      "gpt": 3,
+      "qwen": 3
+    },
+    "mean_score": 3.0,
+    "passed": true
+  },
+  "time_taken": 2.963
+}

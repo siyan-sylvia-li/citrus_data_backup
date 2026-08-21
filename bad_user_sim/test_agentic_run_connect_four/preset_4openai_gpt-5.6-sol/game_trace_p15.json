@@ -1,0 +1,26 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Could you give me the best column here, and the main threat it creates? I\u2019m still getting used to reading these stacked positions."
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Yellow went in 5. What\u2019s my best reply now? I see column 3 would build support, but Yellow could take the square above it."
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 2
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  }
+]

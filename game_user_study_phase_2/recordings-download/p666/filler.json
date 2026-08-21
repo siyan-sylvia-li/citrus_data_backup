@@ -1,0 +1,25 @@
+{
+  "reflection": "My advice for Julie is to first concentrate on streamlining her online publishing workflow to allow more time for her physical book development. I would then tell her to first attempt the traditional publishing route for a calendar year. If she is unsuccessful after a year then explore the self-published route.",
+  "effort": {
+    "judges": [
+      {
+        "model": "gpt",
+        "score": 4
+      },
+      {
+        "model": "llama",
+        "score": 4
+      },
+      {
+        "model": "nemotron",
+        "score": 3
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.667,
+    "median_score": 4,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-19T11:05:52.388824+00:00"
+}

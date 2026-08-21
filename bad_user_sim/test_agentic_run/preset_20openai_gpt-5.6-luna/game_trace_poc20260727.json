@@ -1,0 +1,50 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I'm not sure which move is best here. Can you tell me the strongest move for Black and why, in simple terms?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After b7 and White played a8, which of my legal moves now is best for the final score?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now after White b8, which is best among g2, b6, and a7? Please just give the move."
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After White b6, what should Black play now: a1, g2, or a3?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White passed. With a1 and g2 legal, which one gives Black the better final result?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Last two moves: should I play h1 or g2 first for the best final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

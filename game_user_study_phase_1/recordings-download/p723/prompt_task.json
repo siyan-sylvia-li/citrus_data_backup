@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I am a cooking influencer and I want to grow online and publish a cookbook. I am not sure yet whether I want to have it traditionally published or self-published. I work four days a week and have limited time and budget.\r\nCreate a precise three-year plan for my career goals of growing online and pubslishing a cookbook.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-03T17:32:03.316479+00:00"
+}

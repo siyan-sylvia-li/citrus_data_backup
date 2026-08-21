@@ -1,0 +1,19 @@
+{
+  "created_prompt": "I am a cooking influencer with 1.2million followers.  I need sage business advice in the form of a strategic plan covering the next three years.  My goals are (1) to expand my followers  (2) to piublish a cookbook of my recipes.  Contraints: (1)  I am undecided on self publishing versus traditional publishing routes.  I have a main job four days per week.  So limited time and budget to achieve my goals.  Outputs to include.  Guidance, pros and cons and realitic chances of success in traditional publishing domain.  Costs; pitfalls and risks of self publishing.  n actionable plan with specific timeframces , milestones and checkpoints.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-22T13:10:00.830346+00:00"
+}

@@ -1,0 +1,45 @@
+{
+  "prolific_id": "p364",
+  "game": "othello",
+  "rounds": [
+    {
+      "puzzle": "oc20260727",
+      "ai": false,
+      "ai_survey": false,
+      "gate": true,
+      "time_limit": 300,
+      "intro": {
+        "title": "Puzzle 1",
+        "body": "You will have <strong>five minutes</strong> to play this position out to the end. Whoever has more discs when neither side can move wins."
+      }
+    },
+    {
+      "puzzle": "b220260706",
+      "ai": false,
+      "ai_survey": false,
+      "survey": false,
+      "time_limit": 90,
+      "intro": {
+        "title": "Puzzles 2 and 3",
+        "body": "Two more puzzles, back to back. Each is smaller than the first, and you will have <strong>90 seconds</strong> for each one."
+      }
+    },
+    {
+      "puzzle": "bg20260726",
+      "ai": false,
+      "ai_survey": false,
+      "time_limit": 90,
+      "intro": {
+        "title": "Puzzle 3",
+        "body": "Last puzzle \u2014 same rules."
+      }
+    }
+  ],
+  "skill_rating": "1",
+  "age": 49,
+  "education": "hs_graduate",
+  "occupation": "healthcare",
+  "genai_usage": "about_monthly",
+  "consented_at": "2026-08-20T13:09:40.935458+00:00",
+  "submitted_at": "2026-08-20T13:19:38.335750+00:00"
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "a8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "what should my first move have been in that endgame?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "was there any way to avoid that a1 diagonal disaster after i took a8?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "so would a7 or b7 have been safer starters than c8? like, does playing the edge instead of the center avoid corner access?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "what about g2? is grabbing that top right corner area first a better way to control the side?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "any quick mental shortcut so i stop handing over corners like that in endgames?"
+  }
+]

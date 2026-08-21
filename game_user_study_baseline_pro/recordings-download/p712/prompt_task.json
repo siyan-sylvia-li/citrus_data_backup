@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Create a 3-year plan for someone who creates cooking content online. They currently have 1.2 million followers, but are pressed for time and budget due to their regular job four days a week. The 3-year plan should include the goal of creating a cookbook, and include the pros and cons of both traditional and self-publishing.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-03T16:52:24.011351+00:00"
+}

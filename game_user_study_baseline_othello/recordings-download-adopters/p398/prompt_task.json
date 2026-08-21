@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Devise a concrete, realistic three-year plan that helps Julie grow her online cooking brand while positioning her to publish a successful cookbook. Details to keep in mind: Julie posts cooking videos to 1.2M followers who love her quick, healthy recipes.\r\nOver the next three years she wants to grow online and publish a cookbook (torn on traditional vs. self-publishing).\r\nShe works four days weekly, limited time and budget. Build the plan as an actionable roadmap rather than general advice. Cover:\r\n\r\n1. Three-year objectives and measurable milestones for audience growth, engagement, revenue, email/community ownership, recipe development, and cookbook readiness.\r\n2. A quarter-by-quarter roadmap for all three years, identifying the highest-priority actions and expected outputs.\r\n3. A sustainable weekly workflow that fits around a four-day workweek, including realistic time allocations for content creation, audience engagement, business development, recipe testing, and cookbook work.\r\n4. A content strategy showing how existing short-form cooking content can support long-term brand growth and eventually drive cookbook demand, without requiring Julie to dramatically increase her workload.\r\n5. A monetization strategy appropriate to her existing 1.2M-follower audience, with attention to low-cost/high-leverage opportunities.\r\n6. A detailed comparison of traditional publishing versus self-publishing for Julie specifically, including timeline, upfront costs, creative control, royalties/margins, marketing responsibilities, distribution, credibility, and operational workload.\r\n7. A decision framework specifying what evidence Julie should collect during Years 1 and 2 before deciding which publishing route to take, and a recommended decision point.\r\n8. A cookbook development plan covering concept/niche, audience validation, recipe testing, manuscript development, photography/design, budgeting, pre-launch marketing, launch, and post-launch promotion.\r\n9. Key risks and failure modes, such as burnout, audience stagnation, overcommitting to content, weak differentiation, underestimating cookbook production costs, or relying too heavily on a single platform, with mitigation strategies.\r\n10. A simple financial/resource model using clearly labeled assumptions. Distinguish between expenses Julie can avoid, minimize, or should prioritize. Do not invent precise industry facts without labeling them as estimates or assumptions.\r\n\r\nPrioritize leverage: Julie should not simply work more hours. Identify which activities are most likely to produce meaningful growth or cookbook progress and which activities she should automate, outsource, batch, delegate, or stop doing. \r\n\r\nMake the assumptions explicit, distinguish facts from estimates, and give concrete examples of targets, deliverables, and decision criteria. The final plan should be detailed enough that Julie could use it as an operating roadmap rather than merely as a list of ideas.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 4
+    },
+    {
+      "model": "gpt",
+      "score": 4
+    },
+    {
+      "model": "nemotron",
+      "score": 4
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 4.0,
+  "median_score": 4,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T15:36:12.673634+00:00"
+}

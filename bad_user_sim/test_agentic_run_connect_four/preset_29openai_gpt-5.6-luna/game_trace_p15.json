@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Can you help me find the strongest move here? Which column should I play, and what is the main threat?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Yellow blocked the diagonal with column 5. What is my best move now, and do I have an immediate winning threat?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After my 4 and Yellow 1, should I keep stacking column 4, or is another column safer? Please say just the best column and why."
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now I have two reds across row 4 at columns 4 and 5. Is column 6 the best move to build a row, or should I stack column 4?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  }
+]

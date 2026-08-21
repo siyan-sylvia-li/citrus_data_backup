@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, I've got 6 legal moves here: g2, b6, a7, b7, b8, c8. Which one sets me up best for the endgame count? I'm worried about giving White a corner."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White took a8 and flipped b7 back. Now my options are g2, b6, a7, c8. Which minimizes the damage / maximizes my final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Down to g2, b6, a7 with only 6 empty squares left total. Which move gives me the best final count here? This is getting really tight."
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

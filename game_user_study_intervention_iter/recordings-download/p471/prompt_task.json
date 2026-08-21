@@ -1,0 +1,25 @@
+{
+  "created_prompt": "I think that would be a great idea to devise a concrete three-year plan, just like they would if you were a small business company where you give them your needs and they can help give loans or show you how to make your dream come true.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 1
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    },
+    {
+      "model": "gpt",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 1.333,
+  "median_score": 1,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 1.333,
+  "submitted_at": "2026-08-20T01:56:46.009176+00:00"
+}

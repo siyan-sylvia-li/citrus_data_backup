@@ -1,0 +1,40 @@
+{
+  "puzzle": "oc20260727",
+  "decisions": 4,
+  "optimal_moves": 2,
+  "opener_optimal": true,
+  "discs_lost": 36,
+  "final_margin": -18,
+  "won": false,
+  "optimal_margin": 18,
+  "completed": true,
+  "moves": [
+    "b7",
+    "g2!",
+    "c8",
+    "b6!"
+  ],
+  "auto_played": [],
+  "chat_turns": null,
+  "game": "othello",
+  "round": 0,
+  "ai_available": true,
+  "model_settings": {
+    "max_tokens": 200000
+  },
+  "questions_asked": 5,
+  "question_budget": 5,
+  "profile": {
+    "persona": "A parent who has experienced their own challenges in adjusting to new environments and provides unconditional support",
+    "age": 43,
+    "education": "some_college",
+    "occupation": "other",
+    "ai_frequency": "weekly"
+  },
+  "student_model": "together:google/gemma-4-31B-it",
+  "student_mode": "think_v2",
+  "questions_required": 5,
+  "assistant_off": false,
+  "assistant_preset": "default",
+  "streamed": false
+}

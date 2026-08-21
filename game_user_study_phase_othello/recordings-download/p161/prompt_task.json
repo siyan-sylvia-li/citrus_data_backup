@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Hey - Ive got a request to support the growth of my self authored cook book. \r\n\r\ncontext - I currently have 1.2million engaged  followers across all social platforms mostly targted at creating healthy recipes. \r\n\r\nI want a cost concious proposal to which I can follow, commiting around 4 days per week. \r\n\r\nGoals for the next three years:\r\n- Grow my online presence \r\n- publish a cook book \r\n\r\n- Publishing a cook book proposal specifically needs to outline to pros and cons of traditional publishing vs self publishing and how either might impact the growth of my brand. \r\n\r\nask any follow up questions if needed.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-04T13:31:57.205720+00:00"
+}

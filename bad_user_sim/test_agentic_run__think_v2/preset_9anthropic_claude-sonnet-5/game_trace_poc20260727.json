@@ -1,0 +1,53 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Hi - I'm Black, down 20 to 34 with only 10 empty squares left, all clustered around that a1/a7-c8/g2 corner area. My legal moves are g2, b6, a7, b7, b8, or c8. Which one actually wins me the most discs by the end of the game?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now it's 24-32, my turn with g2, b6, a7, or c8 as options. Which keeps me best off at the finish?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Yikes, White just jumped to 36-22 after that b8 move. Only 6 empty squares left (a1, h1, g2, a3, b6, a7), and my choices are g2, b6, or a7 \u2014 which sets me up best for the finish, or is this one basically lost now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Down to the wire, 20-40, just 4 empty squares left total (a1, h1, g2, a3), and I can play a1, g2, or a3. Which finishes best for me, even if I can't win outright?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Almost done, 25-36, squares left are a1, h1, g2, and my options are a1 or g2 \u2014 which one gives the better final tally?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Last two squares, h1 and g2 \u2014 with 28-34 right now, does taking the h1 corner lock in the best final count for me?"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

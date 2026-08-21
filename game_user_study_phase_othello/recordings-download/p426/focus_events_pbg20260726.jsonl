@@ -1,0 +1,4 @@
+{"type": "leave", "reason": "visibilitychange", "game": "othello", "puzzle": "bg20260726", "round": 2, "ts": "2026-08-07T15:41:15.271202+00:00"}
+{"type": "leave", "reason": "visibilitychange", "game": "othello", "puzzle": "bg20260726", "round": 2, "ts": "2026-08-07T15:41:17.151613+00:00"}
+{"type": "return", "reason": "dismiss", "game": "othello", "puzzle": "bg20260726", "round": 2, "ts": "2026-08-07T15:41:21.481008+00:00"}
+{"type": "leave", "reason": "visibilitychange", "game": "othello", "puzzle": "bg20260726", "round": 2, "ts": "2026-08-07T15:41:36.255555+00:00"}

@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Study — Thank You</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+  <header class="topbar">
+    <h1 class="topbar__title">Reading Study</h1>
+  </header>
+
+  <main class="thanks">
+    <div class="thanks__card">
+      <h2 class="thanks__title">Thank you for submitting!</h2>
+      <p class="thanks__body">
+        Your responses have been recorded. Please click on the button below to navigate back to Prolific.
+      </p>
+      <a class="thanks__btn" href="{{ prolific_url }}">Return to Prolific</a>
+    </div>
+  </main>
+</body>
+</html>

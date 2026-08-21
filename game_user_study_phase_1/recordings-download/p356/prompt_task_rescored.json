@@ -1,0 +1,32 @@
+{
+  "created_prompt": "Create a concrete three-year plan for a cooking influencer, who works four days weekly making videos about quick healthy recipes for a million followers and has limited time + budget, to grow online, and either traditionally or self-publish a cookbook.",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "original": {
+    "judges": {
+      "gpt": 3,
+      "llama": 3
+    },
+    "mean_score": 3.0,
+    "median_score": 3.0,
+    "passed": true
+  },
+  "time_taken": 3.044
+}

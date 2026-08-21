@@ -1,0 +1,33 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Which of my legal moves will result in the most black discs at the end of the game, assuming my opponent plays optimally?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "What is the best move among b6, a7, and c8?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "What was the final score of the game?"
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Please devise a 3 year plan to grow my 1.2m follower base. I would like to publish a cookbook within three years. I work 4 days a week and have little time and budget",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.333,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.333,
+  "submitted_at": "2026-08-21T13:01:48.352586+00:00"
+}

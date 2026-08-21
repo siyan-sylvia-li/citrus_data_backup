@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "i was thinking b6 but not sure. what do you think?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "what about c8? looks like it flips a bunch"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "so b7 is the best one?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "b7 backfired, white got a8 and flipped b7 back. now im stuck between g2 and b6. which one?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "was this position already lost or did b7 throw it? what should i have done different at the start"
+  }
+]

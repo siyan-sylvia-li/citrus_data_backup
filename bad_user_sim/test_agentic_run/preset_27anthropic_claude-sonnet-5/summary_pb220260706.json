@@ -1,0 +1,35 @@
+{
+  "puzzle": "b220260706",
+  "decisions": 3,
+  "optimal_moves": 3,
+  "opener_optimal": true,
+  "discs_lost": 0,
+  "final_margin": 12,
+  "won": true,
+  "optimal_margin": 12,
+  "completed": true,
+  "moves": [
+    "g7",
+    "h1",
+    "g2"
+  ],
+  "auto_played": [],
+  "chat_turns": null,
+  "game": "othello",
+  "round": 1,
+  "ai_available": false,
+  "model_settings": {
+    "max_tokens": 100000
+  },
+  "questions_asked": 0,
+  "question_budget": 0,
+  "profile": {
+    "persona": "a film enthusiast who is eager for fresh and authentic narratives",
+    "age": 31,
+    "education": "bachelors",
+    "occupation": "arts",
+    "ai_frequency": "daily"
+  },
+  "student_model": "anthropic:claude-sonnet-5",
+  "streamed": false
+}

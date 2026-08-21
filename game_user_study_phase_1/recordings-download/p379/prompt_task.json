@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Create a detailed step by step 3-year plan for a female social media influencer currently with 1.2 million followers. The influencer focuses on posting cooking videos with an emphasis on quick and health recipes. She is time-poor and has a restrictive budget. She currently works 4 days a week and will continue to do so throughout the next 3 years. Keep these restrictions in mind when creating a suitable plan tailored for her situation, budget and availability. The primary goal of the plan is to continue to grow online and to publish a cookbook. Include 2 different pathways of publishing the cookbook - tradition and self-publishing. Also include a comprehensive comparison of the 2 publishing pathways with their pros, cons to help the influence decide which path to pursue.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-23T16:28:17.008957+00:00"
+}

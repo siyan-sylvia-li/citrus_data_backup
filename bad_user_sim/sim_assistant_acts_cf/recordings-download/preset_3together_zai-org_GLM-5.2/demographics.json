@@ -1,0 +1,9 @@
+{
+  "prolific_id": "preset_3together_zai-org_GLM-5.2",
+  "game": "connect_four",
+  "age": 29,
+  "education": "some_college",
+  "occupation": "arts",
+  "genai_usage": "monthly",
+  "student_model": "together:zai-org/GLM-5.2"
+}

@@ -1,0 +1,38 @@
+{
+  "puzzle": "w4p6",
+  "decisions": 3,
+  "optimal_moves": 0,
+  "optimal_first_n": 0,
+  "decisions_first_n": 3,
+  "kept_win_moves": 1,
+  "opener_optimal": false,
+  "exact_decisions": 2,
+  "result": "yellow_win",
+  "won": false,
+  "plies_to_win_at_start": 7,
+  "completed": true,
+  "columns": [
+    "5!",
+    "3!",
+    "6!"
+  ],
+  "auto_played": [],
+  "chat_turns": null,
+  "game": "connect_four",
+  "round": 1,
+  "ai_available": false,
+  "model_settings": {
+    "max_tokens": 200000
+  },
+  "questions_asked": 0,
+  "question_budget": 0,
+  "profile": {
+    "persona": "An aspiring actor who provides insights on character portrayals and performances",
+    "age": 26,
+    "education": "bachelors",
+    "occupation": "arts",
+    "ai_frequency": "few_times_week"
+  },
+  "student_model": "together:moonshotai/Kimi-K2.6",
+  "streamed": false
+}

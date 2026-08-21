@@ -1,0 +1,22 @@
+{
+  "created_prompt": "Julie's main claim to internet fame is posting short videos online that demonstrate how to cook healthy recipes very quickly. She has amassed an audience of over 1 million doing this primarily. Over the next three years, she would like to diversify in a way that leverages her already existing audience. Here are the main goals:\r\n\r\n1. Publish a cookbook either traditionally or perhaps by herself).\r\n2. Begin an online blog that show recipes but also sprinkle in some more personal content like her travels to places like France.\r\n\r\nShe has three years to make these two things happen in a successful way. She only has limited time because she works four days a week and has a child to take care of. \r\n\r\nPropose to me a realistic weekly plan that extends over 3 years of 10 hours per week to help her achieve these goals. Suggest alternatives for each action and explain the pros vs cons.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 4
+    },
+    {
+      "model": "qwen",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.333,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-06-27T00:58:54.353616+00:00"
+}

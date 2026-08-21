@@ -1,0 +1,34 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "where should i start?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "is b7 a good move?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "why did i lose so bad?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "wait so those corners are just permanent?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "im not sure what to do first. is b7 a good spot?"
+  }
+]

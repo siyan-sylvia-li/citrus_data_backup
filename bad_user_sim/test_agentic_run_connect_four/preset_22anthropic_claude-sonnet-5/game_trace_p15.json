@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Hi, I'm looking at this Connect Four board and honestly not sure where to start. Can you tell me what the best move is for Red right now and why?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Okay I think I see that column 3 is dangerous right now - if I play there, Yellow can block my diagonal win. Should I avoid column 3 and play somewhere else instead? What's the safest move?"
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "play_move",
+    "move": 6
+  },
+  {
+    "tool": "play_move",
+    "move": 1
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I still see that column 3 trap - whoever plays row 3 there lets the other player win on row 4. Both of us seem to be avoiding it. What should I play now to stay safe and keep the pressure on without falling into that trap?"
+  },
+  {
+    "tool": "play_move",
+    "move": 6
+  },
+  {
+    "tool": "play_move",
+    "move": 6
+  }
+]

@@ -1,0 +1,45 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "g2, b6, a7, b7, b8, c8 \u2014 which should I pick?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "white just played a8. what's my best reply now out of g2 b6 a7 c8?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "c8? g2 flips way more. are you sure?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm at 22 to 38, my legal moves are a1,b6,a7. Which loses the least?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "could I have actually won this game or was it too late from the start?"
+  }
+]

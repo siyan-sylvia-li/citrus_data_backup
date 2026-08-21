@@ -1,0 +1,28 @@
+{
+  "variant": "v2_think_pair",
+  "observation": "Group A ,ostly ask the AI for the best move repeatedly, while Group B explains their own ideas and ask the AI to evaluate  and  improve their strategy. Group B appears to engage more actively with the reasoning.",
+  "choice": "B",
+  "choice_correct": true,
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 4
+      },
+      {
+        "model": "gpt",
+        "score": 4
+      },
+      {
+        "model": "nemotron",
+        "score": 4
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 4.0,
+    "median_score": 4,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-18T20:42:51.234801+00:00"
+}

@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Othello Study</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+    <style>
+        body {
+            margin: 0; min-height: 100vh; display: flex; align-items: center;
+            justify-content: center; background: #312e2b; font-family: system-ui, sans-serif;
+        }
+        .game { display: flex; gap: 24px; align-items: stretch; padding: 24px; }
+        .game__board { display: flex; flex-direction: column; gap: 14px; align-items: center; }
+        #status { font-size: 18px; min-height: 24px; text-align: center; color: #eee; }
+        .counter { font-size: 16px; color: #eee; display: flex; gap: 22px; align-items: center; }
+        .counter b { color: #ffd54f; font-size: 20px; }
+        /* Live disc count — the participant's read on whether they're ahead. */
+        .score { display: flex; gap: 14px; align-items: center; color: #eee; font-size: 16px; }
+        .score__disc { width: 16px; height: 16px; border-radius: 50%; display: inline-block;
+            vertical-align: -2px; margin-right: 6px; }
+        .score__disc--black { background: radial-gradient(circle at 35% 30%, #555, #111); }
+        .score__disc--white { background: radial-gradient(circle at 35% 30%, #fff, #cfcfcf); }
+
+        /* ---- Othello board: 8x8 grid of squares, a-h across, 1-8 down ---- */
+        .othboardwrap { display: grid; grid-template-columns: auto auto; gap: 6px; align-items: start; }
+        .othcorner { }
+        .othcollabels { display: grid; grid-template-columns: repeat({{ cols }}, 56px); gap: 4px; padding: 0 8px; }
+        .othrowlabels { display: grid; grid-template-rows: repeat({{ rows }}, 56px); gap: 4px; padding: 8px 0; }
+        .othlabel { color: #bbb; font-size: 14px; text-align: center; line-height: 56px; min-width: 18px; }
+        .othboard {
+            display: grid; grid-template-columns: repeat({{ cols }}, 56px);
+            grid-auto-rows: 56px; gap: 4px; background: #1b7a3e; padding: 8px;
+            border-radius: 8px; box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+        }
+        .othcell {
+            background: #228b4d; border-radius: 4px; position: relative;
+            display: flex; align-items: center; justify-content: center;
+        }
+        .othdisc { width: 44px; height: 44px; border-radius: 50%; }
+        .othdisc--black { background: radial-gradient(circle at 35% 30%, #5a5a5a, #101010);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.5); }
+        .othdisc--white { background: radial-gradient(circle at 35% 30%, #ffffff, #c8c8c8);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.4); }
+        /* A move the participant may play. Marked, never ranked. */
+        .othcell--legal { cursor: pointer; }
+        .othcell--legal::after {
+            content: ""; width: 16px; height: 16px; border-radius: 50%;
+            background: rgba(255,255,255,0.35);
+        }
+        .othcell--legal:hover { background: #2ba05c; }
+        /* The square just played, and the discs it flipped. */
+        .othdisc--flipped { animation: flip 320ms ease-out; }
+        .othcell--last { box-shadow: inset 0 0 0 3px #ffd54f; }
+        @keyframes flip { from { transform: rotateY(180deg) scale(0.7); } to { transform: none; } }
+        .board--locked .othcell--legal { cursor: default; }
+        .board--locked .othcell--legal::after { display: none; }
+        .board--locked .othcell--legal:hover { background: #228b4d; }
+
+        .finish-btn { padding: 10px 18px; font-size: 15px; font-weight: 600; color: #fff;
+            background: #6DB38A; border: 0; border-radius: 6px; cursor: pointer; }
+        .finish-btn:hover { background: #2D5A43; }
+        .finish-btn:disabled { opacity: 0.6; cursor: default; }
+        .timer { position: fixed; top: 14px; left: 50%; transform: translateX(-50%);
+            background: rgba(0,0,0,0.45); color: #fff; padding: 6px 16px; border-radius: 20px;
+            font-size: 16px; font-weight: 600; font-variant-numeric: tabular-nums; z-index: 10; }
+        .timer--warn { color: #ff9b9b; }
+        .focus-blocker { position: fixed; inset: 0; background: #0b0b0b; color: #fff; z-index: 9999;
+            display: none; align-items: center; justify-content: center; text-align: center;
+            padding: 2rem; font-size: 1.15rem; line-height: 1.6; }
+        .focus-blocker--visible { display: flex; }
+        .focus-blocker__inner { max-width: 36rem; }
+        .focus-blocker__title { font-size: 1.5rem; margin: 0 0 0.75rem; }
+        .focus-blocker__btn { margin-top: 1.25rem; padding: 0.6rem 1.4rem; font-size: 1rem;
+            background: #fff; color: #111; border: 0; border-radius: 4px; cursor: pointer; }
+        .chat { width: 360px; max-width: 90vw; height: 540px; }
+        @media (max-width: 900px) { .game { flex-direction: column; align-items: center; } .chat { height: 360px; } }
+
+        /* ---- Confidence gate popup (gated round, after the first move) ---- */
+        .gate { position: fixed; inset: 0; background: rgba(0,0,0,0.75); z-index: 9998;
+            display: none; align-items: center; justify-content: center; padding: 2rem; }
+        .gate--visible { display: flex; }
+        .gate__card { background: #fff; color: #111; border-radius: 10px;
+            padding: 1.5rem 1.75rem; max-width: 30rem; width: 100%; }
+        .gate__title { font-size: 1.25rem; margin: 0 0 0.5rem; }
+        .gate__opts { display: flex; flex-direction: column; gap: 0.5rem; margin: 1rem 0; }
+        .gate__opt { display: flex; align-items: center; gap: 0.6rem; padding: 0.5rem 0.7rem;
+            border: 1px solid #ccc; border-radius: 6px; cursor: pointer; }
+        .gate__opt:has(input:checked) { border-color: #2D5A43; background: #e8f1ec; }
+        .gate__btn { width: 100%; padding: 0.6rem; font-size: 1rem; font-weight: 600; color: #fff;
+            background: #6DB38A; border: 0; border-radius: 6px; cursor: pointer; }
+        .gate__btn:hover { background: #2D5A43; }
+        .gate__btn:disabled { opacity: 0.6; cursor: default; }
+        .gate__error { color: #c0392b; min-height: 1.2em; margin: 0 0 0.5rem; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+    <div id="focus-blocker" class="focus-blocker" aria-hidden="true">
+        <div class="focus-blocker__inner">
+            <p class="focus-blocker__title">Study paused.</p>
+            <p>This study requires you to stay on this page. Leaving the tab or window has been logged. Click below when you're ready to continue.</p>
+            <button type="button" id="focus-blocker-resume" class="focus-blocker__btn">Resume study</button>
+        </div>
+    </div>
+    <div id="timer" class="timer">{{ "%d:%02d"|format(time_limit_seconds // 60, time_limit_seconds % 60) }}</div>
+
+    {% if gate_active %}
+    <div id="gate" class="gate" aria-hidden="true">
+        <div class="gate__card">
+            <h2 class="gate__title">Before you continue</h2>
+            <p>How confident are you that the move you just made is the best move?</p>
+            <div class="gate__opts">
+                {% for value, label in confidence_options %}
+                <label class="gate__opt">
+                    <input type="radio" name="confidence" value="{{ value }}" />
+                    <span>{{ label }}</span>
+                </label>
+                {% endfor %}
+            </div>
+            <div id="gate-error" class="gate__error"></div>
+            <button type="button" id="gate-submit" class="gate__btn">Submit</button>
+        </div>
+    </div>
+    {% endif %}
+
+    {% if show_round_intro %}
+    <div id="round-intro" class="gate gate--visible" aria-hidden="false">
+        <div class="gate__card">
+            <h2 class="gate__title">{{ round_intro.title }}</h2>
+            <p>{{ round_intro.body | safe }}</p>
+            <button type="button" id="round-intro-ok" class="gate__btn">Start</button>
+        </div>
+    </div>
+    {% endif %}
+
+    <main class="game">
+        <div class="game__board">
+            <div class="counter">
+                <span>Empty squares: <b id="empties">{{ empties }}</b></span>
+                <span class="score">
+                    <span><span class="score__disc score__disc--black"></span><b id="black-discs">{{ black_discs }}</b></span>
+                    <span><span class="score__disc score__disc--white"></span><b id="white-discs">{{ white_discs }}</b></span>
+                </span>
+            </div>
+            <div class="othboardwrap">
+                <div class="othcorner"></div>
+                <div class="othcollabels" id="collabels"></div>
+                <div class="othrowlabels" id="rowlabels"></div>
+                <div id="board" class="othboard"></div>
+            </div>
+            <div id="status">You are Black. Play until the board is finished — whoever has more discs at the end wins.</div>
+            <button id="retry" class="finish-btn" type="button" style="display:none">Try again</button>
+            <button id="finish" class="finish-btn" type="button">Finish &amp; continue to survey</button>
+        </div>
+
+        {% if render_chat %}
+        <section class="chat" id="chat-panel"{% if not ai_assistant_enabled %} style="display:none"{% endif %}>
+            <header class="chat__header">Assistant</header>
+            <div class="chat__messages" id="chat-messages">
+                <div class="chat__msg chat__msg--bot">
+                    Hi! You're Black — I can see the board and I'm here to help you think it through.
+                    Ask me about the position, whether a square you're considering works, or why one didn't.
+                </div>
+            </div>
+            <form class="chat__form" id="chat-form" autocomplete="off">
+                <input type="text" id="chat-input" class="chat__input" placeholder="Type a message…" required />
+                <button type="submit" class="chat__send">Send</button>
+            </form>
+        </section>
+        {% endif %}
+    </main>
+
+    <script>
+        window.__allowNavigation = false;
+        const URLS = {
+            chat: "{{ url_for('chat') }}",
+            move: "{{ url_for('oth_move') }}",
+            retry: "{{ url_for('oth_retry') }}",
+            gate: "{{ url_for('oth_gate') }}",
+            finish: "{{ url_for('submit_game') }}",
+            roundDone: "{{ url_for('round_done') }}",
+            focus: "{{ url_for('focus_event') }}",
+        };
+
+        const ROWS = {{ rows }}, COLS = {{ cols }};
+        const EMPTY = 0, BLACK = 1, WHITE = 2;
+        let BOARD = {{ board | tojson }};              // BOARD[row][col], row 0 = TOP
+        let LEGAL = new Set({{ legal_moves | tojson }});   // squares Black may play, "d3"
+        let finished = {{ 'true' if game_over else 'false' }};
+        let pending = false;
+        // The assisted round asks for a minimum number of exchanges with the
+        // assistant before the participant may leave it. Enforced only once the
+        // assistant is actually available (in the gated round that is after the
+        // confidence gate), so it can never lock someone who has nobody to ask.
+        const MIN_AI_TURNS = {{ min_ai_turns }};
+        let aiTurns = {{ ai_turns_taken }};
+        let aiUnlocked = {{ 'true' if ai_assistant_enabled else 'false' }};
+        let awaitingGate = false;          // true while the confidence popup is open
+        let introOpen = {{ 'true' if show_round_intro else 'false' }};   // round intro popup blocks play + timer
+
+        // Reveal the (initially hidden) assistant panel once the gate is passed.
+        function revealChat() {
+            const panel = document.getElementById('chat-panel');
+            if (panel) panel.style.display = '';
+            aiUnlocked = true;
+            updateFinishGate();
+        }
+
+        // The Finish button doubles as the progress meter for that requirement.
+        function updateFinishGate() {
+            const btn = document.getElementById('finish');
+            if (!btn) return;
+            const remaining = (aiUnlocked ? Math.max(0, MIN_AI_TURNS - aiTurns) : 0);
+            btn.disabled = remaining > 0;
+            btn.textContent = remaining > 0
+                ? `Engage for ${remaining} more turn${remaining === 1 ? '' : 's'} to continue`
+                : 'Finish & continue to survey';
+        }
+
+        const boardEl = document.getElementById('board');
+        const statusEl = document.getElementById('status');
+        const emptiesEl = document.getElementById('empties');
+        const blackEl = document.getElementById('black-discs');
+        const whiteEl = document.getElementById('white-discs');
+
+        // Square naming matches the engine and the assistant: column letter a-h,
+        // then the row number 1-8 counting from the TOP.
+        const notation = (r, c) => String.fromCharCode(97 + c) + (r + 1);
+
+        // Build the 8x8 cell DOM once, plus the rulers.
+        const cellEls = [];                      // cellEls[row][col]
+        for (let r = 0; r < ROWS; r++) {
+            cellEls.push(new Array(COLS));
+            for (let c = 0; c < COLS; c++) {
+                const cell = document.createElement('div');
+                cell.className = 'othcell';
+                cell.addEventListener('click', () => onSquareClick(r, c));
+                boardEl.appendChild(cell);
+                cellEls[r][c] = cell;
+            }
+        }
+        const colLabelsEl = document.getElementById('collabels');
+        for (let c = 0; c < COLS; c++) {
+            const lab = document.createElement('div');
+            lab.className = 'othlabel';
+            lab.textContent = String.fromCharCode(97 + c);
+            colLabelsEl.appendChild(lab);
+        }
+        const rowLabelsEl = document.getElementById('rowlabels');
+        for (let r = 0; r < ROWS; r++) {
+            const lab = document.createElement('div');
+            lab.className = 'othlabel';
+            lab.textContent = r + 1;
+            rowLabelsEl.appendChild(lab);
+        }
+
+        // `changed` = squares whose disc is new or just flipped; they animate so
+        // the participant can see what their move did.
+        function renderBoard(changed, lastMove) {
+            const flipped = new Set(changed || []);
+            for (let r = 0; r < ROWS; r++) {
+                for (let c = 0; c < COLS; c++) {
+                    const sq = notation(r, c);
+                    const v = BOARD[r][c];
+                    const cell = cellEls[r][c];
+                    cell.className = 'othcell'
+                        + (v === EMPTY && !finished && LEGAL.has(sq) ? ' othcell--legal' : '')
+                        + (sq === lastMove ? ' othcell--last' : '');
+                    cell.textContent = '';
+                    if (v !== EMPTY) {
+                        const disc = document.createElement('div');
+                        disc.className = 'othdisc ' + (v === BLACK ? 'othdisc--black' : 'othdisc--white')
+                            + (flipped.has(sq) ? ' othdisc--flipped' : '');
+                        cell.appendChild(disc);
+                    }
+                }
+            }
+        }
+
+        // Which squares changed between two boards — used to animate flips.
+        function diffSquares(before, after) {
+            const out = [];
+            for (let r = 0; r < ROWS; r++)
+                for (let c = 0; c < COLS; c++)
+                    if (before[r][c] !== after[r][c]) out.push(notation(r, c));
+            return out;
+        }
+
+        function applyState(data, lastMove) {
+            const before = BOARD;
+            BOARD = data.board;
+            LEGAL = new Set(data.legal_moves || []);
+            if (typeof data.empties === 'number') emptiesEl.textContent = data.empties;
+            if (typeof data.black_discs === 'number') blackEl.textContent = data.black_discs;
+            if (typeof data.white_discs === 'number') whiteEl.textContent = data.white_discs;
+            renderBoard(diffSquares(before, BOARD), lastMove);
+        }
+        renderBoard([], null);
+
+        // Passes and auto-played moves are rules events, not judgements, so we
+        // say them plainly. A position with only one legal square is played for
+        // the participant — nothing to decide, no reason to spend their clock.
+        function moveNote(data) {
+            let note = '';
+            if (data.black_passed && data.white_passed) note += 'Both sides had to pass. ';
+            else if (data.black_passed) note += 'You had no legal move, so your turn was skipped. ';
+            else if (data.white_passed) note += 'White had no legal move and passed. ';
+            const forced = data.forced_moves || [];
+            if (forced.length === 1) note += `Only ${forced[0]} was legal, so it was played for you. `;
+            else if (forced.length > 1) note += `Only one square was legal each time (${forced.join(', ')}), so those were played for you. `;
+            return note;
+        }
+
+        async function onSquareClick(r, c) {
+            if (finished || pending || awaitingGate || introOpen) return;
+            const square = notation(r, c);
+            if (!LEGAL.has(square)) return;          // not a legal square: ignore the click
+            pending = true;
+            statusEl.textContent = '…';
+            try {
+                const res = await fetch(URLS.move, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ move: square }),
+                });
+                const data = await res.json();
+                if (!data.ok) {
+                    // The only client-visible rejection is an illegal square — NOT a
+                    // correctness signal. (game_over/awaiting_gate are ignored.)
+                    if (data.reason === 'illegal_move') {
+                        LEGAL = new Set(data.legal_moves || []);
+                        renderBoard([], null);
+                        statusEl.textContent = 'You can only play a marked square.';
+                    }
+                    return;
+                }
+                applyState(data, square);
+                if (data.gate && typeof showGate === 'function') {
+                    // Gated round: pause for the confidence popup before continuing.
+                    awaitingGate = true;
+                    showGate();
+                    return;
+                }
+                if (data.done) {
+                    finished = true;
+                    renderBoard([], square);
+                    boardEl.classList.add('board--locked');
+                    if (data.retry_available) {
+                        // Round allows another attempt and this one wasn't solved.
+                        statusEl.textContent = "Not quite; you have one more try to redo the puzzle.";
+                        document.getElementById('retry').style.display = '';
+                        document.getElementById('finish').style.display = 'none';
+                    } else {
+                        // The board is finished. The disc count above says who won;
+                        // we add no verdict, and never say whether the moves that
+                        // got them there were the best ones.
+                        statusEl.textContent = moveNote(data)
+                            + "The game is over — the final disc count is shown above. Click “Finish” to continue.";
+                    }
+                } else {
+                    statusEl.textContent = moveNote(data) + 'Your turn.';
+                }
+            } catch (err) {
+                console.error('move failed:', err);
+                statusEl.textContent = 'Could not reach the server — please try again.';
+            } finally {
+                pending = false;
+            }
+        }
+
+        /* ===================== Finish (button or timeout) ===================== */
+        async function finishStudy(reason) {
+            if (window.__finishing) return;
+            window.__finishing = true;
+            document.getElementById('finish').disabled = true;
+            try {
+                const res = await fetch(URLS.finish, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ solved: finished, end_reason: reason }),
+                });
+                const data = await res.json().catch(() => ({}));
+                if (data.ok === false && data.reason === 'need_more_ai_turns') {
+                    // Server has the authoritative count; stay on the page and
+                    // let them keep talking to the assistant. The clock keeps
+                    // running — a timeout ends the round regardless.
+                    window.__finishing = false;
+                    aiTurns = data.taken;
+                    updateFinishGate();
+                    statusEl.textContent = `Please engage with the assistant for at least `
+                        + `${data.required} turn${data.required === 1 ? '' : 's'} before continuing `
+                        + `(${data.taken} so far).`;
+                    return;
+                }
+            } catch (err) { console.error('final submission failed:', err); }
+            clearInterval(timerId);
+            window.__allowNavigation = true;
+            window.location.href = URLS.roundDone;
+        }
+        updateFinishGate();
+        document.getElementById('finish').addEventListener('click', () => finishStudy('manual'));
+
+        /* ===================== Retry (second try, round 2) ===================== */
+        document.getElementById('retry').addEventListener('click', async () => {
+            const btn = document.getElementById('retry');
+            btn.disabled = true;
+            try {
+                const res = await fetch(URLS.retry, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: '{}',
+                });
+                const data = await res.json();
+                if (!data.ok) { btn.disabled = false; return; }
+                finished = false;
+                applyState(data, null);
+                boardEl.classList.remove('board--locked');
+                btn.style.display = 'none'; btn.disabled = false;
+                document.getElementById('finish').style.display = '';
+                statusEl.textContent = 'New attempt — play the puzzle out again.';
+            } catch (err) {
+                btn.disabled = false;
+                statusEl.textContent = 'Could not reach the server — please try again.';
+            }
+        });
+
+        /* ============================ Timer ============================ */
+        const TIME_LIMIT_SECONDS = {{ time_limit_seconds }};
+        const timerEl = document.getElementById('timer');
+        let remaining = TIME_LIMIT_SECONDS;
+        let timerId = null;
+        function fmt(s) { return Math.floor(s / 60) + ':' + String(s % 60).padStart(2, '0'); }
+        function startTimer() {
+            if (timerId !== null) return;
+            timerId = setInterval(() => {
+                remaining -= 1;
+                timerEl.textContent = fmt(Math.max(remaining, 0));
+                if (remaining <= 30) timerEl.classList.add('timer--warn');
+                if (remaining <= 0) finishStudy('timeout');
+            }, 1000);
+        }
+
+        /* ==================== Round intro popup ==================== */
+        {% if show_round_intro %}
+        document.getElementById('round-intro-ok').addEventListener('click', () => {
+            document.getElementById('round-intro').classList.remove('gate--visible');
+            introOpen = false;
+            startTimer();               // timer only begins once they dismiss the intro
+        });
+        {% else %}
+        startTimer();
+        {% endif %}
+
+        /* ======================= Focus blocker ======================= */
+        (function () {
+            const blocker = document.getElementById("focus-blocker");
+            const resumeBtn = document.getElementById("focus-blocker-resume");
+            let visible = false;
+            function logEvent(type, reason) {
+                const payload = JSON.stringify({ type, reason });
+                if (navigator.sendBeacon) navigator.sendBeacon(URLS.focus, new Blob([payload], { type: "application/json" }));
+                else fetch(URLS.focus, { method: "POST", headers: { "Content-Type": "application/json" }, body: payload, keepalive: true }).catch(() => {});
+            }
+            const show = (reason) => { if (visible) return; visible = true; blocker.classList.add("focus-blocker--visible"); logEvent("leave", reason); };
+            const dismiss = () => { if (!visible) return; visible = false; blocker.classList.remove("focus-blocker--visible"); logEvent("return", "dismiss"); };
+            resumeBtn.addEventListener("click", dismiss);
+            document.addEventListener("visibilitychange", () => { if (document.hidden) show("visibilitychange"); });
+            window.addEventListener("blur", () => { setTimeout(() => { if (!document.hasFocus() || document.hidden) show("blur"); }, 50); });
+            window.addEventListener("beforeunload", (e) => { if (window.__allowNavigation) return; e.preventDefault(); e.returnValue = ""; });
+        })();
+
+        /* ============================ Chat ============================ */
+        {% if render_chat %}
+        (function () {
+            const form = document.getElementById("chat-form");
+            const input = document.getElementById("chat-input");
+            const messages = document.getElementById("chat-messages");
+            function appendBubble(content, who, asHtml) {
+                const div = document.createElement("div");
+                div.className = `chat__msg chat__msg--${who}`;
+                if (asHtml) div.innerHTML = content; else div.textContent = content;
+                messages.appendChild(div); messages.scrollTop = messages.scrollHeight; return div;
+            }
+            function showThinking() {
+                const div = document.createElement("div");
+                div.className = "chat__msg chat__msg--bot chat__msg--thinking";
+                div.innerHTML = "<span></span><span></span><span></span>";
+                messages.appendChild(div); messages.scrollTop = messages.scrollHeight; return div;
+            }
+            form.addEventListener("submit", async (e) => {
+                e.preventDefault();
+                const text = input.value.trim();
+                if (!text) return;
+                appendBubble(text, "user"); input.value = ""; input.disabled = true;
+                const thinking = showThinking();
+                let bubble = null, accum = "";
+                const ensureBubble = () => { if (!bubble) { if (thinking.parentNode) thinking.remove(); bubble = appendBubble("", "bot"); } return bubble; };
+                try {
+                    const res = await fetch(URLS.chat, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ message: text }) });
+                    if (!res.ok || !res.body) throw new Error("bad response");
+                    const reader = res.body.getReader(); const decoder = new TextDecoder(); let buffer = "";
+                    while (true) {
+                        const { value, done } = await reader.read();
+                        if (done) break;
+                        buffer += decoder.decode(value, { stream: true });
+                        let nl;
+                        while ((nl = buffer.indexOf("\n")) >= 0) {
+                            const line = buffer.slice(0, nl).trim(); buffer = buffer.slice(nl + 1);
+                            if (!line) continue;
+                            let obj; try { obj = JSON.parse(line); } catch { continue; }
+                            if (obj.delta) { ensureBubble(); accum += obj.delta; bubble.textContent = accum; messages.scrollTop = messages.scrollHeight; }
+                            else if (obj.done) {
+                                ensureBubble(); bubble.innerHTML = obj.html || "<p>(no response)</p>";
+                                messages.scrollTop = messages.scrollHeight;
+                                if (typeof obj.ai_turns === "number") { aiTurns = obj.ai_turns; updateFinishGate(); }
+                            }
+                            else if (obj.error) { ensureBubble(); bubble.textContent = "Error: " + obj.error; }
+                        }
+                    }
+                } catch (err) { if (thinking.parentNode) thinking.remove(); if (!bubble) appendBubble("Error: could not reach assistant.", "bot"); }
+                finally { if (thinking.parentNode) thinking.remove(); input.disabled = false; input.focus(); }
+            });
+        })();
+        {% endif %}
+
+        /* ==================== Confidence gate (gated round) ==================== */
+        {% if gate_active %}
+        (function () {
+            const overlay = document.getElementById("gate");
+            const btn = document.getElementById("gate-submit");
+            const errEl = document.getElementById("gate-error");
+            window.showGate = function () { overlay.classList.add("gate--visible"); };
+            function selected() {
+                const r = overlay.querySelector('input[name="confidence"]:checked');
+                return r ? r.value : null;
+            }
+            btn.addEventListener("click", async () => {
+                const conf = selected();
+                if (!conf) { errEl.textContent = "Please select an option."; return; }
+                btn.disabled = true; errEl.textContent = "";
+                try {
+                    const res = await fetch(URLS.gate, {
+                        method: "POST", headers: { "Content-Type": "application/json" },
+                        body: JSON.stringify({ confidence: conf }),
+                    });
+                    const data = await res.json();
+                    if (data.screenout) {
+                        window.__allowNavigation = true;
+                        window.location.href = data.redirect;
+                        return;
+                    }
+                    if (data.unlocked) {
+                        overlay.classList.remove("gate--visible");
+                        awaitingGate = false;
+                        // Server decides the board: reset (wrong first move) or
+                        // resumed from the current position (correct first move).
+                        applyState(data, null);
+                        boardEl.classList.remove("board--locked");
+                        if (data.ai) {
+                            revealChat();
+                            statusEl.textContent = "You are Black — the assistant is now available.";
+                        } else {
+                            statusEl.textContent = "You are Black — play on until the board is finished.";
+                        }
+                        return;
+                    }
+                    errEl.textContent = "Something went wrong — please try again.";
+                    btn.disabled = false;
+                } catch (err) {
+                    errEl.textContent = "Could not reach the server — please try again.";
+                    btn.disabled = false;
+                }
+            });
+            {% if gate_pending %}
+            window.showGate();          // refreshed mid-gate: reopen the popup on load
+            awaitingGate = true;
+            {% endif %}
+        })();
+        {% endif %}
+    </script>
+</body>
+</html>

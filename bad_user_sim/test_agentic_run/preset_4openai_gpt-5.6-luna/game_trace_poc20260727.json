@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I have six legal moves: g2, b6, a7, b7, b8, c8. Which one is best against strong play, and what's the key reason?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After my b7, White played a8. Current legal moves are g2, b6, a7, c8. Which is best now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After c8, White played b8. Legal now g2, b6, a7. Which move gives best result against best play?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now after White b6, only a1, g2, a3 are legal. What is the best move?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After a3, White passed; now a1 or g2. Which move wins the most with best play?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  }
+]

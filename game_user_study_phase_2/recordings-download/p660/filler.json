@@ -1,0 +1,25 @@
+{
+  "reflection": "Try to work on developing a self help cookbook and see if you can monetize your current online following to make purchases.",
+  "effort": {
+    "judges": [
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 3
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.0,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-19T11:39:21.612952+00:00"
+}

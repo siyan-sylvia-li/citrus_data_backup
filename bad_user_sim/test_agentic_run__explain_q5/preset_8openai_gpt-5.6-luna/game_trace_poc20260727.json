@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Which legal move is strongest here under optimal play, and can you give the principal variation? I want the endgame result, not just a heuristic."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White chose a8, not the line you gave. From the current board, what is Black's optimal move and continuation? Please account for the actual position."
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "We reached the terminal position after the actual replies. Can you verify the final disc count and whether Black's first move b7 was optimal?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Given White's actual sequence a8, b8, a3, a7, was c8 the correct continuation after b7, or was there a stronger alternative?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Please audit the completed game for any move or legality error, especially the forced a1 at the end."
+  }
+]

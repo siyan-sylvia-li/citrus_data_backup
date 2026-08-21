@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Julie needs help to grow her career over the next three years. You will help Julie by drafting a plan.\r\nHere are the facts you MUST consider:\r\n1: Julie has 1.2 million followers on her social media account focused on cooking healthy and quick recipes\r\n2: She works four days a week and does not have an unlimited budget\r\n3: Julie's goal for the next three years is to grow her online presence and publish a cookbook.\r\n\r\nHelp Julie by assisting with the early stages of a plan for this trajectory, including possible approach avenues. Especially include her pathways for publishing her book and what she needs to consider.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "qwen",
+      "score": null
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-14T19:16:14.152050+00:00"
+}

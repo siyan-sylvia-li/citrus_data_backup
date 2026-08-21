@@ -1,0 +1,18 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm debating between b7 and b8. Both seem to flip a good number of discs, but I'm concerned about leaving openings in the bottom row. Which one is the more strategic move?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  }
+]

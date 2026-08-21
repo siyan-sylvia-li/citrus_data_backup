@@ -1,0 +1,261 @@
+pid,utt_ind,text,acts,n_acts,mean_conf,needs_review,outcome,SolReq,CommonGrd,KnowDef,ThinkAloud,Ack,Meta,ProvideInfo
+p542,0,"I am thinking row 3, column 2. This would give me three in a row, as well as blocking the opponents diagonal streak. Thoughts?",CommonGrd|ThinkAloud,2,1.0,False,lost,0,1,0,1,0,0,0
+p542,1,Do you recommend a different move?,SolReq,1,1.0,False,lost,1,0,0,0,0,0,0
+p542,2,"Oh I've just seen I NEED to go column 4, or they will have a diagonal four.",ThinkAloud,1,1.0,False,lost,0,0,0,1,0,0,0
+p542,3,"Column 3? This blocks their diagonal move, gives me three diagonal, and also gives me two horizontally",CommonGrd|ThinkAloud,2,0.83,False,lost,0,1,0,1,0,0,0
+p542,4,"If I go there, they can block my existing diagonal three, so I will avoid that.",ThinkAloud,1,1.0,False,lost,0,0,0,1,0,0,0
+p542,5,Column 5?,CommonGrd,1,1.0,False,lost,0,1,0,0,0,0,0
+p201,0,I was thinking of putting one in 3-3,ThinkAloud,1,1.0,False,won,0,0,0,1,0,0,0
+p201,1,it would prevent yellow and open up one opportuhity for me,ThinkAloud,1,1.0,False,won,0,0,0,1,0,0,0
+p201,2,what is the best next move,SolReq,1,1.0,False,won,1,0,0,0,0,0,0
+p310,0,What threats do you see. I am about to move into column 3. will this work,CommonGrd|KnowDef|ThinkAloud,3,0.89,False,won,0,1,1,1,0,0,0
+p310,1,what would you suggest,SolReq,1,1.0,False,won,1,0,0,0,0,0,0
+p310,2,so just block up column 4 here. what's best to win with 2 moves left,SolReq|ThinkAloud,2,0.83,False,won,1,0,0,1,0,0,0
+p310,3,ok what next,SolReq|Ack,2,1.0,False,won,1,0,0,0,1,0,0
+p310,4,any risks to column 5,CommonGrd,1,0.67,False,won,0,1,0,0,0,0,0
+p847,0,was my last move good?,CommonGrd,1,1.0,False,won,0,1,0,0,0,0,0
+p773,0,are there any threats on the board?,KnowDef,1,1.0,False,lost,0,0,1,0,0,0,0
+p773,1,what is the best next 3 moves,SolReq,1,1.0,False,lost,1,0,0,0,0,0,0
+p773,2,are there any threats?,KnowDef,1,1.0,False,lost,0,0,1,0,0,0,0
+p773,3,what is my next best move?,SolReq,1,1.0,False,lost,1,0,0,0,0,0,0
+p664,0,i am considering dropping in the second column what do you think,CommonGrd|ThinkAloud,2,1.0,False,won,0,1,0,1,0,0,0
+p648,0,"Hi! If I put the first move into row 3, column 3, would that be best?",CommonGrd,1,1.0,False,won,0,1,0,0,0,0,0
+p648,1,"Okay, done. I think I have to play in column 4 again.",ThinkAloud|Ack,2,1.0,False,won,0,0,0,1,1,0,0
+p648,2,"If I don't put it there, won't yellow just win by placing it there next round?",CommonGrd,1,1.0,False,won,0,1,0,0,0,0,0
+p648,3,"Okay, what's the next best move?",SolReq|Ack,2,0.83,False,won,1,0,0,0,1,0,0
+p830,0,Where are the threats?,KnowDef,1,1.0,False,won,0,0,1,0,0,0,0
+p439,0,"Well, i need to drop it on 4/4 because they'll get four in a row otherwise, right?",CommonGrd|ThinkAloud,2,1.0,False,lost,0,1,0,1,0,0,0
+p439,1,"Oh, okay I see! What do you recommend after that?",SolReq|Ack,2,1.0,False,lost,1,0,0,0,1,0,0
+p571,0,I am considering column 2,ThinkAloud,1,1.0,False,lost,0,0,0,1,0,0,0
+p571,1,"Key question: after you play column 2, can Yellow simply block column 2 on their turn? No.",CommonGrd,1,1.0,False,lost,0,1,0,0,0,0,0
+p571,2,Column 4,ThinkAloud,1,0.33,False,lost,0,0,0,1,0,0,0
+p571,3,How about column 3 now,CommonGrd,1,1.0,False,lost,0,1,0,0,0,0,0
+p571,4,"Oh right, i need to block that!",ThinkAloud|Ack,2,1.0,False,lost,0,0,0,1,1,0,0
+p571,5,I was think column 3 now,ThinkAloud,1,1.0,False,lost,0,0,0,1,0,0,0
+p571,6,What so i need to try to secure column 5 first?,CommonGrd,1,1.0,False,lost,0,1,0,0,0,0,0
+p803,0,Is adding one to column two a good idea?,CommonGrd,1,1.0,False,won,0,1,0,0,0,0,0
+p274,0,is the one I just placed good?,CommonGrd,1,1.0,False,won,0,1,0,0,0,0,0
+p274,1,i blocked them but didn't win either.,ThinkAloud,1,1.0,False,won,0,0,0,1,0,0,0
+p363,0,I like 2 - thoughts?,CommonGrd,1,1.0,False,lost,0,1,0,0,0,0,0
+p363,1,But wouldn't they have to block me or else I win? And then my next turn could be to do that,CommonGrd|ThinkAloud,2,0.83,False,lost,0,1,0,1,0,0,0
+p293,0,what's the best row to choose,SolReq,1,1.0,False,lost,1,0,0,0,0,0,0
+p293,1,what about now,SolReq,1,1.0,False,lost,1,0,0,0,0,0,0
+p293,2,yes,Ack,1,1.0,False,lost,0,0,0,0,1,0,0
+p449,0,Hi. I would like to learn from my current state of the game. What would be the best move in this case to get closer to a winning move?,SolReq|Meta,2,0.67,False,lost,1,0,0,0,0,1,0
+p548,0,I think my last move opens me up to multiple different options that I cannot be blocked out of,ThinkAloud,1,1.0,False,lost,0,0,0,1,0,0,0
+p548,1,yes. is it my turn again?,KnowDef|Ack,2,1.0,False,lost,0,0,1,0,1,0,0
+p548,2,it worked. I was able to connect 4 based on that,Ack,1,0.67,False,lost,0,0,0,0,1,0,0
+p142,0,Can I move the pieces from one place to another?,KnowDef,1,1.0,False,lost,0,0,1,0,0,0,0
+p142,1,how can i win?,SolReq,1,1.0,False,lost,1,0,0,0,0,0,0
+p149,0,Please recommend my best move and tell me why. Also please give me hints on best starting position.,SolReq,1,1.0,False,lost,1,0,0,0,0,0,0
+p149,1,Where should I play next? I'm thinking column 3 but I'm wary of falling into a trap.,SolReq|ThinkAloud,2,1.0,False,lost,1,0,0,1,0,0,0
+p149,2,If I'm red do I play first. What should my move be if my opponent goes first and picks column 4,SolReq|KnowDef,2,1.0,False,lost,1,0,1,0,0,0,0
+p149,3,Where should I play next,SolReq,1,1.0,False,lost,1,0,0,0,0,0,0
+p163,0,Where is the biggest threat from Yellow?,KnowDef,1,1.0,False,won,0,0,1,0,0,0,0
+p163,1,"But if I let Yellow place in that location, I can put a disc on top of it in C4, then C1 and C3 gets me a win",ThinkAloud,1,1.0,False,won,0,0,0,1,0,0,0
+p279,0,What do you think is the best next move?,SolReq,1,1.0,False,won,1,0,0,0,0,0,0
+p279,1,"Ah, yeah I didn't even notice yellow was about to win! What next?",SolReq|ThinkAloud|Ack,3,0.78,False,won,1,0,0,1,1,0,0
+p279,2,What about dropping in column 3?,CommonGrd,1,1.0,False,won,0,1,0,0,0,0,0
+p538,0,I think my move was a bad one?,CommonGrd|ThinkAloud,2,0.67,False,lost,0,1,0,1,0,0,0
+p538,1,"I blocked the ywllow, I don't think red can win from here",ThinkAloud,1,1.0,False,lost,0,0,0,1,0,0,0
+p538,2,was that a good move?,CommonGrd,1,1.0,False,lost,0,1,0,0,0,0,0
+p538,3,how do I make yellow respond to a threat?,KnowDef,1,1.0,False,lost,0,0,1,0,0,0,0
+p538,4,so I make moves to force yellow to make the move I want them to make?,KnowDef,1,0.67,False,lost,0,0,1,0,0,0,0
+p213,0,What do you think would be the best move right now?,SolReq,1,1.0,False,lost,1,0,0,0,0,0,0
+p213,1,And now?,SolReq,1,1.0,False,lost,1,0,0,0,0,0,0
+p213,2,Now?,SolReq,1,1.0,False,lost,1,0,0,0,0,0,0
+p559,0,Should I drop my disk on line 3 in the third position from the right?,CommonGrd,1,1.0,False,won,0,1,0,0,0,0,0
+p559,1,What would be my next best move?,SolReq,1,1.0,False,won,1,0,0,0,0,0,0
+p559,2,I dropped the last disc at Column 4. Are you saying to drop another at Column 4 on the row above?,CommonGrd|ThinkAloud,2,0.83,False,won,0,1,0,1,0,0,0
+p559,3,"Okay, done. What should I do next?",SolReq|Ack,2,1.0,False,won,1,0,0,0,1,0,0
+p559,4,"Okay, wouldn't it have been better to have dropped the disc at column 3 to create a Connect 4 diagonally?",CommonGrd|Ack,2,0.83,False,won,0,1,0,0,1,0,0
+p559,5,So should I go with column 3 next?,CommonGrd,1,1.0,False,won,0,1,0,0,0,0,0
+p559,6,"Oh, apparently I've made all my moves.",ThinkAloud|Meta,2,0.67,False,won,0,0,0,1,0,1,0
+p559,7,Right.,Ack,1,1.0,False,won,0,0,0,0,1,0,0
+p654,0,I just saw a move I think would be better - What about 3/3?,CommonGrd|ThinkAloud,2,1.0,False,lost,0,1,0,1,0,0,0
+p654,1,Would 3/4 be a better move?,CommonGrd,1,1.0,False,lost,0,1,0,0,0,0,0
+p654,2,I see - would 5/3 be the best? That was my first inclination,CommonGrd|ThinkAloud|Ack,3,1.0,False,lost,0,1,0,1,1,0,0
+p654,3,Should I play column 4?,CommonGrd,1,1.0,False,lost,0,1,0,0,0,0,0
+p659,0,Hello. what are the best next two moves I can make?,SolReq|Meta,2,0.83,False,lost,1,0,0,0,0,1,0
+p659,1,"they don't seem to have, what is the next best move. to make a threat.",SolReq|ThinkAloud,2,0.83,False,lost,1,0,0,1,0,0,0
+p581,0,I need to win in 2 moves I can't see a way to do it?,SolReq|ThinkAloud,2,0.67,False,lost,1,0,0,1,0,0,0
+p581,1,Didn't help,Ack|Meta,2,0.67,False,lost,0,0,0,0,1,1,0
+p581,2,Ok last move how do I win,SolReq|Ack,2,1.0,False,lost,1,0,0,0,1,0,0
+p699,0,i'm thinking about placing going for row 3 column 2. What do you think?,CommonGrd|ThinkAloud,2,1.0,False,won,0,1,0,1,0,0,0
+p699,1,What's the move that would benefit me the most while being an obstacle to yellow?,SolReq,1,1.0,False,won,1,0,0,0,0,0,0
+p400,0,Which move would be the best one and why,SolReq,1,1.0,False,lost,1,0,0,0,0,0,0
+p400,1,What about next move?,SolReq,1,1.0,False,lost,1,0,0,0,0,0,0
+p400,2,what about 2?,CommonGrd,1,1.0,False,lost,0,1,0,0,0,0,0
+p400,3,so which one would be the best move?,SolReq,1,1.0,False,lost,1,0,0,0,0,0,0
+p400,4,What about now?,SolReq,1,0.67,False,lost,1,0,0,0,0,0,0
+p400,5,Give me the best move,SolReq,1,1.0,False,lost,1,0,0,0,0,0,0
+p166,0,What is the best strategy to win this?,SolReq,1,1.0,False,won,1,0,0,0,0,0,0
+p244,0,"I just played at (4,3) was that a good move?",CommonGrd|ThinkAloud,2,0.83,False,won,0,1,0,1,0,0,0
+p244,1,was there a better move?,SolReq|CommonGrd|KnowDef,3,0.33,True,won,1,1,1,0,0,0,0
+p244,2,Where is the best move now?,SolReq,1,1.0,False,won,1,0,0,0,0,0,0
+p244,3,"Since connect 4 is solved, could you confirm that is the best move with a ""solved"" connect 4 bot?",CommonGrd,1,1.0,False,won,0,1,0,0,0,0,0
+p244,4,What about now?,SolReq,1,0.67,False,won,1,0,0,0,0,0,0
+p119,0,"I considered moving red to spot 3,7.  Is this a good strategy?",CommonGrd|ThinkAloud,2,1.0,False,won,0,1,0,1,0,0,0
+p119,1,"Yes, of course, sorry I meant row 2.  I can't see any obvious threats from yellow",ThinkAloud|Ack,2,1.0,False,won,0,0,0,1,1,0,0
+p119,2,"Ok, I could block yellow with column 5, row 3",CommonGrd|ThinkAloud|Ack,3,0.78,False,won,0,1,0,1,1,0,0
+p119,3,"so row 3, column 4?",CommonGrd,1,1.0,False,won,0,1,0,0,0,0,0
+p119,4,"I'm on the last move now. yellow did 1,1...I did4,3 and 4,4. I can't win but I can't see any threats",ThinkAloud,1,1.0,False,won,0,0,0,1,0,0,0
+p389,0,any advice for the next move?,SolReq,1,1.0,False,lost,1,0,0,0,0,0,0
+p540,0,Here column 4 is a must right,CommonGrd,1,1.0,False,lost,0,1,0,0,0,0,0
+p540,1,What is the best play here to maximize odds of winning. I was thinking of column 3,SolReq|CommonGrd,2,0.83,False,lost,1,1,0,0,0,0,0
+p8,0,"Where is the best next slot for me to put my red counter in to ensure that I can win.  I can see a couple of risks, particularly on the left hand side of the board.",SolReq|ThinkAloud,2,1.0,False,won,1,0,0,1,0,0,0
+p8,1,And now where shall I put my counter please that will put me on course to win?,SolReq,1,1.0,False,won,1,0,0,0,0,0,0
+p828,0,"If I add to column 2, will that reduce my possibilities rather than improve my chances?",CommonGrd,1,1.0,False,lost,0,1,0,0,0,0,0
+p828,1,"How about column 5, then?",CommonGrd,1,1.0,False,lost,0,1,0,0,0,0,0
+p828,2,"how about 4, blocking yellow's progress and adding to the diagonal?",CommonGrd|ThinkAloud,2,1.0,False,lost,0,1,0,1,0,0,0
+p378,0,Was my previous move effextive?,CommonGrd,1,1.0,False,won,0,1,0,0,0,0,0
+p378,1,"That worked well to block the immediate threat - it felt like the only option, am I right?",CommonGrd|ThinkAloud,2,1.0,False,won,0,1,0,1,0,0,0
+p385,0,"Would it be a good idea to place it on number 3, 2nd row?",CommonGrd,1,1.0,False,won,0,1,0,0,0,0,0
+p385,1,"I mean column 2, row 3",ThinkAloud,1,0.67,False,won,0,0,0,1,0,0,0
+p352,0,why didn't my red piece appear,KnowDef,1,1.0,False,won,0,0,1,0,0,0,0
+p732,0,"To the fourth column,",ThinkAloud,1,0.67,False,won,0,0,0,1,0,0,0
+p748,0,is 2-3(y) the best?,CommonGrd,1,1.0,False,lost,0,1,0,0,0,0,0
+p796,0,Does the move I chose work?,CommonGrd,1,1.0,False,won,0,1,0,0,0,0,0
+p796,1,6,ThinkAloud,1,0.67,False,won,0,0,0,1,0,0,0
+p809,0,i fell like the move 33 ist eh best,ThinkAloud,1,1.0,False,lost,0,0,0,1,0,0,0
+p809,1,should i play 32 or 33?,Meta,1,1.0,False,lost,0,0,0,0,0,1,0
+p738,0,What is the smartest move I need to make next to make sure if I get blocked I can easily pivot and still win?,SolReq,1,1.0,False,lost,1,0,0,0,0,0,0
+p738,1,What should my next move be?,SolReq,1,1.0,False,lost,1,0,0,0,0,0,0
+p738,2,Thanks,Ack,1,1.0,False,lost,0,0,0,0,1,0,0
+p482,0,"What do you think about placing red on 1,1 and 2,3?",CommonGrd,1,1.0,False,lost,0,1,0,0,0,0,0
+p482,1,"Yes, yellow does. What else do you suggest?",SolReq|Ack,2,1.0,False,lost,1,0,0,0,1,0,0
+p844,0,how about putting it in 2?,CommonGrd,1,1.0,False,lost,0,1,0,0,0,0,0
+p844,1,"good advise, how about trying for diagonal by putting it in 3?",CommonGrd|Ack,2,1.0,False,lost,0,1,0,0,1,0,0
+p489,0,What moves would you suggest?,SolReq,1,1.0,False,won,1,0,0,0,0,0,0
+p489,1,Why not column 2?,KnowDef,1,0.67,False,won,0,0,1,0,0,0,0
+p489,2,"So, you should try not to let the other player get 3 in a row?",CommonGrd,1,0.67,False,won,0,1,0,0,0,0,0
+p489,3,Right. Are ther any other tips I should be aware of?,KnowDef|Ack,2,0.83,False,won,0,0,1,0,1,0,0
+p489,4,Where should I go now? Would column 3 work?,SolReq|CommonGrd,2,1.0,False,won,1,1,0,0,0,0,0
+p489,5,But column 4 only gives me 2,ThinkAloud,1,0.67,False,won,0,0,0,1,0,0,0
+p489,6,What now?,SolReq,1,1.0,False,won,1,0,0,0,0,0,0
+p489,7,Thanks for you help!,Ack,1,0.67,False,won,0,0,0,0,1,0,0
+p457,0,Should I drop one in column 2?,CommonGrd,1,1.0,False,won,0,1,0,0,0,0,0
+p457,1,"It looks like neither one of us can win in one move, now.",ThinkAloud,1,1.0,False,won,0,0,0,1,0,0,0
+p340,0,which spot do you think is the optimum move,SolReq,1,1.0,False,lost,1,0,0,0,0,0,0
+p292,0,What is my most advantageous move to help me win? What move should I watch out for from yellow?,SolReq|KnowDef,2,1.0,False,lost,1,0,1,0,0,0,0
+p124,0,What do you think about me dropping the first red circle in column 2 row 3?,CommonGrd,1,1.0,False,lost,0,1,0,0,0,0,0
+p51,0,what is the best move for red,SolReq,1,1.0,False,won,1,0,0,0,0,0,0
+p7,0,where should i put it?,SolReq,1,1.0,False,lost,1,0,0,0,0,0,0
+p7,1,now what,SolReq,1,1.0,False,lost,1,0,0,0,0,0,0
+p652,0,"I thinking there aren't many threats right now. If I drop my next checker in column 1, he can't block in column 3, but my next move will be column 3, at which point I can win by going columns 3 or 4 after that.",ThinkAloud,1,1.0,False,lost,0,0,0,1,0,0,0
+p652,1,"Oh, my goodness, I can't believe I missed that. I need to go C4, don't I? I don't have a choice.",CommonGrd|ThinkAloud,2,1.0,False,lost,0,1,0,1,0,0,0
+p652,2,C3 next? Not sure here.,CommonGrd|Meta,2,1.0,False,lost,0,1,0,0,0,1,0
+p652,3,I'm thinking C5 here?,CommonGrd,1,1.0,False,lost,0,1,0,0,0,0,0
+p652,4,"Now then, C4 right? This is the winning move?",CommonGrd,1,1.0,False,lost,0,1,0,0,0,0,0
+p829,0,What do you think is the best move?,SolReq,1,1.0,False,lost,1,0,0,0,0,0,0
+p829,1,I'm thinking column 1 to build up a diagonal. Then if yellow plays on column 4 it actually helps me finish the diagonal,ThinkAloud,1,1.0,False,lost,0,0,0,1,0,0,0
+p513,0,"Should I aim for three in a row vertically, in the second column?",CommonGrd,1,1.0,False,lost,0,1,0,0,0,0,0
+p513,1,What should my next move be?,SolReq,1,1.0,False,lost,1,0,0,0,0,0,0
+p513,2,I have one move left. How should I use it?,SolReq|ThinkAloud,2,0.83,False,lost,1,0,0,1,0,0,0
+p513,3,"Does ""c5"" mean ""column 5?""",KnowDef,1,1.0,False,lost,0,0,1,0,0,0,0
+p841,0,"Im not a confident player, is it wise to add a counter to 4,6",CommonGrd|Meta,2,1.0,False,won,0,1,0,0,0,1,0
+p841,1,"ok,column 6?",CommonGrd|Ack,2,1.0,False,won,0,1,0,0,1,0,0
+p841,2,have you got a better idea?,SolReq,1,1.0,False,won,1,0,0,0,0,0,0
+p841,3,ok i think i made a mistake then! how shoudl i fix it,SolReq|Ack,2,1.0,False,won,1,0,0,0,1,0,0
+p737,0,What should be my next move,SolReq,1,1.0,False,won,1,0,0,0,0,0,0
+p737,1,What next,SolReq,1,1.0,False,won,1,0,0,0,0,0,0
+p737,2,I can't win,ThinkAloud|Meta,2,0.67,False,won,0,0,0,1,0,1,0
+p800,0,Threats please,KnowDef,1,0.67,False,won,0,0,1,0,0,0,0
+p265,0,I’m considering row 3 because I think that gives me a chance to win horizontally or diagonally. Is that the best move?,CommonGrd|ThinkAloud,2,1.0,False,won,0,1,0,1,0,0,0
+p265,1,Thanks! Should I do column 3 now? It gives me a chance to win diagonally going from the bottom right up too,CommonGrd|ThinkAloud|Ack,3,1.0,False,won,0,1,0,1,1,0,0
+p265,2,"Thanks! I didn’t see that threat. Column 3 might set me up for a win, should I do it now?",CommonGrd|ThinkAloud|Ack|Meta,4,0.83,False,won,0,1,0,1,1,1,0
+p324,0,"I waws thinking of dropping into column 2.  Is that a good move or should I consider a threat, etc",CommonGrd|KnowDef|ThinkAloud,3,1.0,False,lost,0,1,1,1,0,0,0
+p324,1,"well, here I must drop into 4, corret?",CommonGrd,1,1.0,False,lost,0,1,0,0,0,0,0
+p324,2,Im thinking colum 3,ThinkAloud,1,1.0,False,lost,0,0,0,1,0,0,0
+p324,3,c5 row 4 is already used?,KnowDef,1,1.0,False,lost,0,0,1,0,0,0,0
+p211,0,I am thinking of adding a red into the vertical stack of two reds. Thoughts?,CommonGrd|ThinkAloud,2,0.83,False,won,0,1,0,1,0,0,0
+p211,1,Should I add a red piece to column 2?,CommonGrd,1,1.0,False,won,0,1,0,0,0,0,0
+p718,0,"I'm looking at putting my next move at 3,3 and am not confident that's it's the best choice. It seems like it would block one of yellow's best moves and also help me build, but is there a better strategy here?",SolReq|ThinkAloud,2,1.0,False,won,1,0,0,1,0,0,0
+p117,0,where should i go next,SolReq,1,1.0,False,won,1,0,0,0,0,0,0
+p117,1,now?,SolReq,1,1.0,False,won,1,0,0,0,0,0,0
+p128,0,I’m thinking I have to do 4-4 now otherwise yellow will win right?,CommonGrd|ThinkAloud,2,1.0,False,won,0,1,0,1,0,0,0
+p128,1,What move would you suggest personally?,SolReq,1,1.0,False,won,1,0,0,0,0,0,0
+p128,2,Would row 6 not be a threat in the future?,CommonGrd|KnowDef,2,0.83,False,won,0,1,1,0,0,0,0
+p128,3,"Perfect thank you, for games in the future what strategy would you suggest?",SolReq|Ack,2,0.83,False,won,1,0,0,0,1,0,0
+p128,4,Thank you,Ack,1,1.0,False,won,0,0,0,0,1,0,0
+p128,5,Do you think my first move was the right call?,CommonGrd,1,1.0,False,won,0,1,0,0,0,0,0
+p13,0,What move should i make next,SolReq,1,1.0,False,won,1,0,0,0,0,0,0
+p13,1,why not column 3,KnowDef,1,0.67,False,won,0,0,1,0,0,0,0
+p13,2,is there any move i can make now to win,SolReq,1,1.0,False,won,1,0,0,0,0,0,0
+p13,3,no there is a eyllow piece in row 3 of column 5,ThinkAloud|Ack,2,0.67,False,won,0,0,0,1,1,0,0
+p725,0,i'm going for the diagonal - is this a good move and can i be blocked by the other player easily,CommonGrd|KnowDef|ThinkAloud,3,0.89,False,won,0,1,1,1,0,0,0
+p725,1,where would you suggest i should have gone,SolReq,1,1.0,False,won,1,0,0,0,0,0,0
+p725,2,what is the best first move in connect 4,SolReq,1,1.0,False,won,1,0,0,0,0,0,0
+p725,3,good tip,Ack,1,1.0,False,won,0,0,0,0,1,0,0
+p725,4,any more tips for me that good players do,SolReq,1,0.67,False,won,1,0,0,0,0,0,0
+p740,0,"In thinking of putting it in 2, should I?",CommonGrd|ThinkAloud,2,0.83,False,won,0,1,0,1,0,0,0
+p740,1,What about 3?,CommonGrd,1,1.0,False,won,0,1,0,0,0,0,0
+p740,2,Where should I put it,SolReq,1,1.0,False,won,1,0,0,0,0,0,0
+p740,3,Now where,SolReq,1,1.0,False,won,1,0,0,0,0,0,0
+p740,4,Now where,SolReq,1,1.0,False,won,1,0,0,0,0,0,0
+p574,0,does selecting 2 (bottom) and 3 (side) work?,CommonGrd,1,1.0,False,won,0,1,0,0,0,0,0
+p598,0,Hi! What do you think about my going with spot 3-3 as my next move (directly to the left of my first move). Do you think that is good for opening up multiple avenues to win while blocking yellow?,CommonGrd|Meta,2,0.83,False,won,0,1,0,0,0,1,0
+p598,1,"Ah! You're right, I got tunnel vision and didn't see it. Will block yellow first.",ThinkAloud|Ack,2,1.0,False,won,0,0,0,1,1,0,0
+p817,0,Help me,SolReq,1,1.0,False,won,1,0,0,0,0,0,0
+p817,1,Where is the best place to go next,SolReq,1,1.0,False,won,1,0,0,0,0,0,0
+p817,2,They nearly have a row here,ThinkAloud,1,1.0,False,won,0,0,0,1,0,0,0
+p817,3,Where now,SolReq,1,1.0,False,won,1,0,0,0,0,0,0
+p444,0,Is 1-1 a good move?,CommonGrd,1,1.0,False,won,0,1,0,0,0,0,0
+p444,1,Is column 4 better?,CommonGrd,1,1.0,False,won,0,1,0,0,0,0,0
+p444,2,Is column 3 good?,CommonGrd,1,1.0,False,won,0,1,0,0,0,0,0
+p444,3,what next?,SolReq,1,1.0,False,won,1,0,0,0,0,0,0
+p193,0,Right move,SolReq|Ack,2,0.5,True,lost,1,0,0,0,1,0,0
+p318,0,could you help me make the best decision based on this settiing,SolReq,1,1.0,False,lost,1,0,0,0,0,0,0
+p318,1,what is the best move now?,SolReq,1,1.0,False,lost,1,0,0,0,0,0,0
+p672,0,Help me with this move,SolReq,1,1.0,False,lost,1,0,0,0,0,0,0
+p445,0,I have no choice but to choose 44 right,ThinkAloud,1,0.67,False,won,0,0,0,1,0,0,0
+p445,1,What is my best move now,SolReq,1,1.0,False,won,1,0,0,0,0,0,0
+p21,0,considering putting one on 3/3,ThinkAloud,1,1.0,False,won,0,0,0,1,0,0,0
+p21,1,it's a pre-attack before going 1/1,ThinkAloud,1,1.0,False,won,0,0,0,1,0,0,0
+p21,2,i assume yellow will go 4/3 in order to get 3 in a row with 4 next move if I ignore,ThinkAloud,1,1.0,False,won,0,0,0,1,0,0,0
+p21,3,"ok, what move you suppose will be better?",SolReq|Ack,2,1.0,False,won,1,0,0,0,1,0,0
+p379,0,"im considering placing my next red at 3,3. thoughts?",CommonGrd|ThinkAloud,2,1.0,False,lost,0,1,0,1,0,0,0
+p379,1,where is the optimal move now?,SolReq,1,1.0,False,lost,1,0,0,0,0,0,0
+p295,0,"Im thinking of 1:1 and 3:3, which one is better",CommonGrd|ThinkAloud|Meta,3,0.67,False,lost,0,1,0,1,0,1,0
+p60,0,"I was thinking about dropping one in column 2, row 3, but I feel like the other player will immediately see my strategy if I do that. WHat's the best move here?",SolReq|ThinkAloud,2,1.0,False,won,1,0,0,1,0,0,0
+p60,1,What's the best next move?,SolReq,1,1.0,False,won,1,0,0,0,0,0,0
+p60,2,It looks like yellow has already won this one. What should I do?,SolReq|ThinkAloud,2,1.0,False,won,1,0,0,1,0,0,0
+p236,0,Would column two be a wise move?,CommonGrd,1,1.0,False,won,0,1,0,0,0,0,0
+p236,1,I've managed to block yellow on 4. One move left. What are my options?,SolReq|ThinkAloud,2,1.0,False,won,1,0,0,1,0,0,0
+p40,0,"Is column 2 not good? I'd put the opponent in check mate, so to speak, so it seems logical",CommonGrd|ThinkAloud,2,1.0,False,won,0,1,0,1,0,0,0
+p40,1,Ah oh! Are there any traps I'm missing?,KnowDef,1,1.0,False,won,0,0,1,0,0,0,0
+p40,2,so column 4?,CommonGrd,1,1.0,False,won,0,1,0,0,0,0,0
+p40,3,"Ok, now I'm doing column 4, I have no choice, otherwise I lose",ThinkAloud|Ack,2,1.0,False,won,0,0,0,1,1,0,0
+p40,4,"Thinking column 7 or 3, both set up evenutal diagonal wins, no?",CommonGrd|ThinkAloud,2,1.0,False,won,0,1,0,1,0,0,0
+p40,5,"I'm thinking 5, it sets up nicely for future opportunities, diagonally",ThinkAloud,1,1.0,False,won,0,0,0,1,0,0,0
+p40,6,"4 would create two possible winning situations for me, no? That is, yellow would be unable to block a win?",CommonGrd,1,1.0,False,won,0,1,0,0,0,0,0
+p40,7,"Column 7, row 2, would win diagonally if they block 4, unless they can win first, no?",CommonGrd|ThinkAloud,2,0.83,False,won,0,1,0,1,0,0,0
+p670,0,"Analyze the current Connect Four board carefully. I am Red and need to choose the best first three columns to keep Red on track to force a win. Please identify the strongest move now, explain the key threat it creates, and give the best follow-up columns after the opponent responds. Use 1-indexed column numbers.",SolReq,1,1.0,False,lost,1,0,0,0,0,0,0
+p321,0,I'm considering the 3x2 position,ThinkAloud,1,1.0,False,won,0,0,0,1,0,0,0
+p321,1,what about column 2 and row 3 for red,CommonGrd,1,1.0,False,won,0,1,0,0,0,0,0
+p321,2,C3 and R4?,Meta,1,0.67,False,won,0,0,0,0,0,1,0
+p321,3,I don't think so. can you see if there is any immediate 4-in-a-row you must block?,KnowDef|Meta,2,0.67,False,won,0,0,1,0,0,1,0
+p633,0,Analyze the current board and tell me the best sequence of my next three moves for Red. Please list only the column numbers in order and briefly explain why they are optimal.,SolReq,1,1.0,False,lost,1,0,0,0,0,0,0
+p633,1,"Given Yellow's last move, what is now the best second move for Red? Reply with only the column number.",SolReq,1,1.0,False,lost,1,0,0,0,0,0,0
+p633,2,"Given Yellow's latest move, what is now the best second move for Red? Reply with only the column number.",SolReq,1,1.0,False,lost,1,0,0,0,0,0,0
+p356,0,"I see a yellow diagonal threat on the bottom right, should I drop a chip in column 4 to cut it off or should I put it somewhere else?",CommonGrd|ThinkAloud|Meta,3,0.78,False,won,0,1,0,1,0,1,0
+p356,1,"There's a possible yellow diagonal beginning from 2,4 but there's barely any chips in column 7 so it'll take a while to stack up to it. I also have a 3/4 diagonal starting at 1,6. Is there a way I can bait yellow into putting a chip at 3,3 so I can win?",SolReq|ThinkAloud,2,1.0,False,won,1,0,0,1,0,0,0
+p851,0,which move strategically is the most optimal,SolReq,1,1.0,False,lost,1,0,0,0,0,0,0
+p32,0,Hi. I can see a threat on 4/4 that I think I have to cover? Can you see anyway I can be offensive and defend too?,SolReq|ThinkAloud,2,0.83,False,won,1,0,0,1,0,0,0
+p32,1,So shall I go for 4 and see where my opponent goes?,CommonGrd,1,1.0,False,won,0,1,0,0,0,0,0
+p32,2,Where should I go next? I don't think I have to worry about my opponent's threat for this round?,SolReq|CommonGrd,2,0.83,False,won,1,1,0,0,0,0,0
+p52,0,What do you think the best move I could make next would be?,SolReq,1,1.0,False,won,1,0,0,0,0,0,0
+p52,1,Are there any alternatives that I should consider?,SolReq,1,1.0,False,won,1,0,0,0,0,0,0
+p52,2,What should I do now?,SolReq,1,1.0,False,won,1,0,0,0,0,0,0
+p52,3,What about 2 or 3 to try and build up my 4?,CommonGrd|Meta,2,0.83,False,won,0,1,0,0,0,1,0
+p620,0,"thinking about putting a red on row 2, column 3, is that a good move?",CommonGrd|ThinkAloud,2,0.83,False,won,0,1,0,1,0,0,0
+p620,1,"i think i meant column 2, row 3",ThinkAloud,1,1.0,False,won,0,0,0,1,0,0,0
+p407,0,"I can see a threat at 4,4, so am planning to fill that.",ThinkAloud,1,1.0,False,won,0,0,0,1,0,0,0
+p407,1,"The diagonal starting at 7,1",ThinkAloud,1,1.0,False,won,0,0,0,1,0,0,0
+p407,2,"I'm inclined to play 2,3 or 3,3, what do you think?",CommonGrd|ThinkAloud,2,0.83,False,won,0,1,0,1,0,0,0
+p407,3,I'm not seeing any big yellow threats. Can you see any?,KnowDef|ThinkAloud,2,1.0,False,won,0,0,1,1,0,0,0
+p407,4,I only have one move left and don't see anything obvious.,ThinkAloud|Meta,2,0.83,False,won,0,0,0,1,0,1,0
+p407,5,"Nope, 5, 3 is filled by yellow.",ThinkAloud|Ack,2,0.67,False,won,0,0,0,1,1,0,0
+p407,6,Not that I can see.,Meta,1,0.67,False,won,0,0,0,0,0,1,0
+p306,0,"im thinking of adding red on the 3rd column to set up the diagonal four. This feels like a pretty obvious tactic, but i dont see a better one. Is my idea fine or do you have a better suggestion?",CommonGrd|ThinkAloud,2,1.0,False,won,0,1,0,1,0,0,0
+p306,1,"well, now i either lose, or it's a draw. I have to drop one on the 4th column, but doing that leaves me with one move left, so unless yellow inexplicably drops a token on the 3rd colum, nobody can win.",ThinkAloud,1,1.0,False,won,0,0,0,1,0,0,0

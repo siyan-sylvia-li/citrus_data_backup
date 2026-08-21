@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Devise a detailed three-year plan for a content creator who wishes to post cooking videos. The videos would feature quick and healthy recipes, and the creator is hoping to grow their online presence and eventually publish a cookbook. Advise on this is welcome. Current availability for the creator to work on this project is four days a week and the budget is limited.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-05T13:42:07.084620+00:00"
+}

@@ -1,0 +1,40 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm Black, way behind in count (20 to 34). My legal moves are g2, b6, a7, b7, b8, c8. Since there's only 10 empty squares left, which of these sets me up best for the endgame? I'm worried about giving away corners like a1, a8, h1."
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Sorry, didn't get a reply \u2014 can you help me pick the best move from g2, b6, a7, b7, b8, c8? Board is almost full, I want to avoid giving away corners."
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "So I ended up losing 20 to 44 even though I was ahead at one point (31 to 27). Can you explain how it flipped so fast at the end? I don't really get how a few last moves swung it that much."
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Okay that makes sense about the corners. So earlier when I had the choice between g2 and b6, was there a smarter move that would've protected against White grabbing that last corner, or was it already too late by then?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Alright, one last thing since I've got future puzzles like this \u2014 what's the simplest rule of thumb I should keep in my head for next time so I don't get blindsided by corners again?"
+  }
+]

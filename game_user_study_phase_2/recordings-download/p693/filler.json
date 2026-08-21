@@ -1,0 +1,25 @@
+{
+  "reflection": "The limited budget and time constraints mean Julie should find an agent to help pitch the project to publishers.  This should not be overly difficult given she already has a large audience, meaning she could market the book easily and at low cost.",
+  "effort": {
+    "judges": [
+      {
+        "model": "gpt",
+        "score": 4
+      },
+      {
+        "model": "llama",
+        "score": 4
+      },
+      {
+        "model": "nemotron",
+        "score": 4
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 4.0,
+    "median_score": 4,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-19T11:30:32.342929+00:00"
+}

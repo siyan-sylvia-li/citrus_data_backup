@@ -1,0 +1,25 @@
+{
+  "reflection": "Start getting your recipes together for the cookbook. Try to think of a way to incorporate what you are doing with the videos into the cookbook and visa-versa. Keep the cookbook in mind while you are posting and in your posts.",
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 4
+      },
+      {
+        "model": "nemotron",
+        "score": 4
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.667,
+    "median_score": 4,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-18T22:38:23.299597+00:00"
+}

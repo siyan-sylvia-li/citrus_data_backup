@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I am a social media influencer with a very large following. My goal for the next three years is to grow my following further (currently 1.2million)and to publish a cookbook (either self published or via the traditional route. I have limited time and budget, please devise a concrete 3 year plan to help me achieve my goals.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-03T16:31:35.914183+00:00"
+}

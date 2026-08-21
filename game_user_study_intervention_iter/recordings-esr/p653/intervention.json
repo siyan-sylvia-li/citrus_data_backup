@@ -1,0 +1,41 @@
+{
+  "idea": "I would advice that the person ask the AI assistance to write down the rules so they can use them for reference without AI assistance.",
+  "n_chars": 134,
+  "start_message": "What do you think would be the best move right now?",
+  "selected": "ask_answer",
+  "selected_type": "solution_request",
+  "selected_carries_forward": false,
+  "others_shown": [
+    "say_thinking",
+    "look_ahead"
+  ],
+  "option_order": [
+    "ask_answer",
+    "say_thinking",
+    "look_ahead"
+  ],
+  "seconds_on_page": 120,
+  "form": "elicit_select_reply",
+  "effort": {
+    "judges": [
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 2
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.667,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-20T17:29:28.973379+00:00"
+}

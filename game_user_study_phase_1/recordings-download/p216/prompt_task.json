@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Hi, can you help me make a 3 year plan? I post cooking videos with healthy quick recipes, have 1.2M followers at the moment. With the plan I want to be able to grow online and publish a cookbook. I work 4 days a week, be mindful of time and realistic budget.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-28T13:05:25.597689+00:00"
+}

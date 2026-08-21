@@ -1,0 +1,30 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, I'm staring at this Connect Four board and my head's spinning a bit trying to track all the diagonals. Is there an immediate winning move for Red here, or any move I absolutely must play right now to block a Yellow threat?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I think I see that c4r3, c5r2, c6r1 are all Red already, and c3 row4 would complete that diagonal \u2014 but c3's next drop only fills row3, not row4 yet. Is playing column 3 now still the right idea to set that up, or is there something better/faster I'm missing?"
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  }
+]

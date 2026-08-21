@@ -1,0 +1,37 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I'm weighing g2 and c8. Which one is the better move here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Is a7 the best move here to take the corner?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Looking back, why did playing b6 turn out to be such a mistake?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "If I had played a7 instead of b6, would the outcome have been different?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "In hindsight, was there any way to win this puzzle from the start?"
+  }
+]

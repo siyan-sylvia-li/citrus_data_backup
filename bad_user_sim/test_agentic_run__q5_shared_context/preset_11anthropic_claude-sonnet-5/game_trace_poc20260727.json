@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "ok this looks rough, I'm way behind on count. Of my options (g2, b6, a7, b7, b8, c8) which one actually gives me the best shot at winning by the end? I don't have time to work out all the flips myself."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "alright that worked out, got a nice flip. now it's between g2, b6, a7, c8 - which one now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "yikes, white jumped way ahead, 36 to 22. only 6 spots left - g2, b6, a7. is there ANY way I still come back on this, and what's the move?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "only 4 spots left now (a1, g2, a3, h1) and I'm way down 20 to 40. I think g2 flips a bunch (like 5-6 discs) - is that really my best shot here or should I go a3?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "honestly still not 100% sure why white passing that one turn was such a big deal - like why couldn't they just take g2 or h1 right then instead of being stuck? can you explain that in plain terms?"
+  }
+]

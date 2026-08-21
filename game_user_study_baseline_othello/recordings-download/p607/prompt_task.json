@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Hi. Can you create a concrete three-year plan to increase the 1.2 million followers of my online cooking videos and to publish my own cookbook, working four days a week with a limited time and budget.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-20T13:35:36.908408+00:00"
+}

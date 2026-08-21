@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I'm a home cook with 1.2 million followers focusing on healthy recipes, and I have been wanting to create a cookbook and want to do so over the course of the next 3 years. I am torn between traditional vs self-publishing I work four days a week and have limited time and budget and I need you to devise a concrete 3 year plan for me to succeed",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-04T18:35:58.068758+00:00"
+}

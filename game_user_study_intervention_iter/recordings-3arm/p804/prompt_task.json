@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Create a detailed concrete three year strategic roadmap for Julie, a culinary content creator with 1.2 million followers for quick, healthy recipes.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 2
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.0,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.0,
+  "submitted_at": "2026-08-21T16:58:15.450132+00:00"
+}

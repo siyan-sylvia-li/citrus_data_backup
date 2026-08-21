@@ -1,0 +1,37 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm eyeing column 2 because it'd give me three in a row up-and-down, but they'd just plop one on top and block me. Column 4 looks like it starts a diagonal with my pieces at c6 and c5, but I'm not sure if it's really a winner. Could you tell me which of those is the better move, or if I'm missing something else?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 2
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I can see two ideas: drop in column 3 to start a diagonal with my pieces at c2 and c4, or keep stacking column 4 to make three in a row up-and-down. Which of those keeps me on the winning path?"
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  }
+]

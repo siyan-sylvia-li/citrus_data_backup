@@ -1,0 +1,28 @@
+{
+  "variant": "v2_think_pair",
+  "observation": "group A give more detailed instructions and are more strategy based. they are looking ahead and planning more than one move ahead. They want to know the reason why one move is better than another and are using it to learn.  Group B are looking more in the sort term and are seeking reassurance from the assistant",
+  "choice": "A",
+  "choice_correct": false,
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 4
+      },
+      {
+        "model": "gpt",
+        "score": 4
+      },
+      {
+        "model": "nemotron",
+        "score": 3
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.667,
+    "median_score": 4,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-18T20:30:51.208496+00:00"
+}

@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Hello. I make cooking videos for quick, healthy recipes. I want to create a cookbook and continue to grow my cooking followers online in the next three years and need a plan. I work four days weekly and have a limited budget, so how can I develop my passion? Please help me come up with a concrete three year plan that we can develop and follow.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-22T13:15:29.964974+00:00"
+}

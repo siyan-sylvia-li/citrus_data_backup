@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Please devise a three year plan to grow my online community with the aim of publishing a cookbook. I currently post cooking videos to my 1.2M followers- they focus around quick, healthy recipes. I am unsure whether to self publish or use a publisher, my budget is limited so this is a factor also. I have limited time because I work four days per week.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-05T12:48:00.827528+00:00"
+}

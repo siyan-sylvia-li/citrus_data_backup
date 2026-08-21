@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I am an online content creator who posts quick, healthy cooking videos. I have followers numbering 1.2 million. I want to publish a cookbook and grow my follower base. I'm torn between self-publishing and traditional publishing. I'm also very busy, working 4 days a week and have a limited budget. Help me develop a 3-year plan to accomplish my goals and explain differences in self-publishing vs. traditional.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T14:56:05.862963+00:00"
+}

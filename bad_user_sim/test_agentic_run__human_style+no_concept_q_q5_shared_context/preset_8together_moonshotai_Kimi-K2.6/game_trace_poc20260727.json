@@ -1,0 +1,41 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at c8 and b7 as my strongest candidates. c8 seems to flip a huge diagonal but I worry White can just play b7 and flip a lot back. Short on time \u2014 which of my legal moves is actually the best endgame play?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Ugh, a8 just wrecked my b7. Now my options are g2, b6, a7, c8. g2 and b6 both look like they flip a bunch. Which should I play here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "game's over but i lost badly. was b7 the right first move or should i have gone c8?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "after a1 fell, was there any recovery or was it already over?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "noted. so c8 first, then what \u2014 g2 or b6 next?"
+  }
+]

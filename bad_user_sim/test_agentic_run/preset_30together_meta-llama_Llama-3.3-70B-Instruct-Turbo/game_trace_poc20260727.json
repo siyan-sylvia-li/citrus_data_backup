@@ -1,0 +1,43 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Which of my legal moves will result in the most black discs at the end of the game, assuming my opponent plays optimally?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "What was the final score of the game?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "What could I have done differently to improve my chances of winning?"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "What are some general tips for playing Othello?"
+  },
+  {
+    "tool": "view_board"
+  }
+]

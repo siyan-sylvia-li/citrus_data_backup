@@ -1,0 +1,50 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Which move is best here if White plays well? I\u2019m deciding between g2, b6, a7, b7, b8, and c8."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After b7 and White a8, what should I play now among g2, b6, a7, c8? Please give just the best move and why briefly."
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now after White b8, which is best for Black: g2, b6, or a7?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "At this point, which move is best: a1, g2, or a3? White just played b6."
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "With three empties left and White passed, should I play a1 or g2?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now only h1 and g2 are open. Which one should Black take first for the best final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

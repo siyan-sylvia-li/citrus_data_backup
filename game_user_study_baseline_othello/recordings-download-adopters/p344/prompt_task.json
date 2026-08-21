@@ -1,0 +1,23 @@
+{
+  "created_prompt": "create a three year plan for me to grow my online presence and publish a cookbook. I am willing to work 4 days a week, but I have a limited budget and my actual working time is also limited. I currently have 1.2M followers who watch my videos of quick, healthy recipes",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-10T23:25:03.645287+00:00"
+}

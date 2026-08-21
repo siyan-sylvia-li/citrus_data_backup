@@ -1,0 +1,21 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "c8 flips a ton right away and b7 flips a lot too. does c8 actually win the endgame for black assuming white is perfect, or would b7 give a better final count? just need to know which one since i cant map the whole tree. thx!"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  }
+]

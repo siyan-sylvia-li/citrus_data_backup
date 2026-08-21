@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Please create two concrete three-year plans to help me share my quick and healthy recipes with a larger audience online and publish a cookbook: one via traditional methods and one via self-publishing.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T15:18:42.809259+00:00"
+}

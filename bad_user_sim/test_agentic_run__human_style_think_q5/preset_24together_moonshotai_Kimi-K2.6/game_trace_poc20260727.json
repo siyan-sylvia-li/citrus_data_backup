@@ -1,0 +1,34 @@
+[
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "why did b6 backfire so hard? I thought I was ahead after a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "should I have played b7 instead of c8 at the very start?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "did a7 flip the right discs or did it open the corner for white?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "was g2 ever a good option instead of b6?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "could black actually win this endgame or was it already lost?"
+  }
+]

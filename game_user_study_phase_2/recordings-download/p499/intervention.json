@@ -1,0 +1,28 @@
+{
+  "variant": "v9_two_rows",
+  "observation": "Group A asks more questions that are vague. Group B asks specific questions about actual moves that go into more detail. It seems that group B has a much better understanding of the game and has specific goals.",
+  "choice": "B",
+  "choice_correct": true,
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 4
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 3
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.333,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-19T18:36:23.717315+00:00"
+}

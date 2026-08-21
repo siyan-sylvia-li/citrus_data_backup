@@ -1,0 +1,17 @@
+{
+  "game": "connect_four",
+  "nasa_tlx": {
+    "effort": 5,
+    "frustration": 3,
+    "mental_demand": 4,
+    "performance": 7,
+    "physical_demand": 1,
+    "temporal_demand": 5
+  },
+  "ai_likert": {
+    "ai_consistent": 4,
+    "ai_easy_to_use": 4
+  },
+  "additional_feedback": "the advice seemed very basic and limited. It was very neutral and didn't really tell me anything that wasn't obvious to me already.",
+  "submitted_at": "2026-06-27T00:07:05.528916+00:00"
+}

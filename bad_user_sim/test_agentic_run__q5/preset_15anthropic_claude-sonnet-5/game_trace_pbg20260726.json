@@ -1,0 +1,20 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "play_move",
+    "move": "b2"
+  },
+  {
+    "tool": "play_move",
+    "move": "h7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g8"
+  },
+  {
+    "tool": "view_board"
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Help me devise a detailed 3 year plan for growing my content online and publishing a cookbook as someone with limited time and budget.",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 2
+    },
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 1.667,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 1.667,
+  "submitted_at": "2026-08-20T02:35:30.124165+00:00"
+}

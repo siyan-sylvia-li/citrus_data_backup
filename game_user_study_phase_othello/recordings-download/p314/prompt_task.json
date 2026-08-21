@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I'm a cooking influencer with a strong social following (1.2m followers across platforms). My followers engage with my quick, healthy recipes, and I've grown a good reputation in this area.\r\n\r\nIn the next three years, I have ambitions to grow my online following further, and to publish a cookbook (either self-publishing or via traditional means). \r\n\r\nI work on this four days per week, and I have limited time and budget to make this happen.\r\n\r\nPlease devise for me a concrete, pragmatic and actionable three-year plan to enable me to deliver on my ambitions.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-05T13:46:53.973364+00:00"
+}

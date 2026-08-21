@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I'm Black, down 20-34 with only 10 empty squares left (g2, b6, a7, b7, b8, c8 are my legal moves). Which move gives me the best shot at flipping this around by the end? Can you walk me through the key line?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White took a8 corner and flipped b7 back. Now my options are g2, b6, a7, c8. What's the best move now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Only 6 empty squares left now (a1,h1,g2,a3,b6,a7), I'm at 22 vs White's 36. My legal moves are g2, b6, a7. Which one actually maximizes my final count with best play from White?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now that it's done - I'm still a bit unsure why White was forced to pass after my a3 move. Can you explain simply why White had literally zero legal moves at that point?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "One more thing - was the order I played g2 then a1 actually important, or would it have ended the same 33-31 if I'd done a1 first then g2?"
+  }
+]

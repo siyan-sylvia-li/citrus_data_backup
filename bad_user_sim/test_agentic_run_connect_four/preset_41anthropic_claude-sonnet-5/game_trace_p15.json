@@ -1,0 +1,37 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, first time doing this - looking at this board, is there an immediate threat I need to block from Yellow, or a winning shot I'm missing for Red? I noticed c6r1/c5r2 are both Red on a diagonal heading toward c4r3/c3r4 - is that worth pursuing, or is there something more urgent?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Quick tactical check: my diagonal c6r1-c5r2-c4r3 just needs c3r4 to win, but c3 is only filled to height 2 right now (so the next play there lands on r3, not r4). Meanwhile Yellow has c5r1-c4r2 building toward c3r3 for their own diagonal. If I play c3 now myself, I fill r3 and hand Yellow the chance to block my winning square at r4 next turn. Would I be better off NOT playing c3 and waiting to see if Yellow plays it first, so I can grab r4 and win? Or is that too risky/slow?"
+  },
+  {
+    "tool": "play_move",
+    "move": 2
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  }
+]

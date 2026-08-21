@@ -1,0 +1,32 @@
+{
+  "created_prompt": "I am employed 4 days a week so have limited time. Over the next three years I want to work on and publish a cookbook of my quick and healthy recipes. \r\nMy first question is what are the pros and cons of traditional vs self-publishing methods?\r\nI already have a following of 1.2 million.\r\nI would like a concrete three year plan for how I can achieve with the time I have available.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "original": {
+    "judges": {
+      "llama": 3,
+      "gpt": 3
+    },
+    "mean_score": 3.0,
+    "median_score": 3.0,
+    "passed": true
+  },
+  "time_taken": 2.412
+}

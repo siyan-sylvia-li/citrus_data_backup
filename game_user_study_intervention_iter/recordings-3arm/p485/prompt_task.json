@@ -1,0 +1,25 @@
+{
+  "created_prompt": "devise a three year plan for building online cooking prescene toward publicatyion of recipe book with either traditional or self publishing methods evaluated",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 2
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.0,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.0,
+  "submitted_at": "2026-08-21T12:34:49.196167+00:00"
+}

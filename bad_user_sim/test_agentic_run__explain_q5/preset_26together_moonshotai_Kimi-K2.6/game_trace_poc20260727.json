@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Why did c8 lead to such a disaster, and would b6 have been any better at all?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "What does 'stable' corners and edges mean in Othello? Can you explain it simply?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Was g2 my first move a mistake, or was I already losing no matter what I played?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I thought a7 would leave White with no legal moves, but they played a3. What did I miss there?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "In corner-and-edge endgames, should I avoid giving the opponent a corner at all costs, even if it means flipping fewer discs now?"
+  }
+]

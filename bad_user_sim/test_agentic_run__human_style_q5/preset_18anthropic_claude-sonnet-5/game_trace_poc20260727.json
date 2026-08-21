@@ -1,0 +1,49 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "im black, down 20-34 but game says only final count matters. which of my legal moves (g2, b6, a7, b7, b8, c8) is actually best long term?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "now choices are g2, b6, a7, c8. which one?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "only 6 empty squares left: a1,h1,g2,a3,b6,a7. my only legal moves are g2, b6, a7. which one wins me the most discs at the very end?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "why did that h1 move flip the WHOLE top row like that, i wasnt expecting 6 discs to go at once"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "looking back, was taking a3 earlier really the turning point, or did i just get lucky with white having no moves?"
+  }
+]

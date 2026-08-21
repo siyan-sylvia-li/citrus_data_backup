@@ -1,0 +1,51 @@
+{
+  "puzzle": "15",
+  "decisions": 14,
+  "optimal_moves": 6,
+  "optimal_first_n": 2,
+  "decisions_first_n": 3,
+  "kept_win_moves": 3,
+  "opener_optimal": true,
+  "exact_decisions": 5,
+  "result": "yellow_win",
+  "won": false,
+  "plies_to_win_at_start": 9,
+  "completed": true,
+  "columns": [
+    "4",
+    "4",
+    "3!",
+    "6!",
+    "5!",
+    "2",
+    "3!",
+    "1!",
+    "7!",
+    "7!",
+    "7",
+    "5!",
+    "6",
+    "1"
+  ],
+  "auto_played": [
+    2
+  ],
+  "chat_turns": null,
+  "game": "connect_four",
+  "round": 0,
+  "ai_available": true,
+  "model_settings": {
+    "max_tokens": 200000
+  },
+  "questions_asked": 0,
+  "question_budget": 10,
+  "profile": {
+    "persona": "A research scientist diligently studying the effects of certain processes on the environment",
+    "age": 37,
+    "education": "postgrad",
+    "occupation": "professional",
+    "ai_frequency": "few_times_week"
+  },
+  "student_model": "together:google/gemma-4-31B-it",
+  "streamed": false
+}

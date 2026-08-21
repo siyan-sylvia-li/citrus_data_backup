@@ -1,0 +1,26 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I'm Black in this Othello endgame, down 20-34 with 10 empty squares left. My legal moves are g2, b6, a7, b7, b8, c8. c8 flips 6 discs (d8, c7, d7, e6, f5, g4) and b7 flips 5 (c7-g7). Which move gives me the best final disc count assuming White plays optimally? Can you walk through the key lines?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After I played b7 and White took corner a8, I'm at 24-32 with 8 empty squares. My legal moves are g2, b6, a7, c8. g2 flips 5 (f2, g3-g6) but I'm worried White can play a3 or b6 and flip a bunch back. What's my best move here and why?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  }
+]

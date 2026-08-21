@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Best three year plan for a food influencer to successfully publish a cookbook on a budget",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 1
+    },
+    {
+      "model": "gpt",
+      "score": 2
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 1.333,
+  "median_score": 1,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-20T13:32:33.663280+00:00"
+}

@@ -1,0 +1,32 @@
+{
+  "created_prompt": "I make cooking videos, and have over a million followers. I also work full time, so I have other obligations 4 days a week. I'd like to grow my channel and online presence, and also publish a cookbook, either using a publisher or by myself. Help me come up with a three year plan that takes account of my goals and limitations. Also note my budget is limited, so any steps would need to be cost efficient.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "original": {
+    "judges": {
+      "llama": 3,
+      "gpt": 3
+    },
+    "mean_score": 3.0,
+    "median_score": 3.0,
+    "passed": true
+  },
+  "time_taken": 2.749
+}

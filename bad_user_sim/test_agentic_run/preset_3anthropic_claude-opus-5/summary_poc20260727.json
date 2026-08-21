@@ -1,0 +1,45 @@
+{
+  "puzzle": "oc20260727",
+  "decisions": 3,
+  "optimal_moves": 2,
+  "opener_optimal": true,
+  "discs_lost": 38,
+  "final_margin": -20,
+  "won": false,
+  "optimal_margin": 18,
+  "completed": true,
+  "moves": [
+    "b7",
+    "c8",
+    "b6!"
+  ],
+  "auto_played": [
+    "g2"
+  ],
+  "chat_turns": null,
+  "game": "othello",
+  "round": 0,
+  "ai_available": true,
+  "model_settings": {
+    "max_tokens": 100000
+  },
+  "questions_asked": 3,
+  "question_budget": 10,
+  "profile": {
+    "persona": "A talented musician who contributes his skills and knowledge during the listening parties",
+    "age": 29,
+    "education": "some_college",
+    "occupation": "arts",
+    "ai_frequency": "monthly",
+    "known_concepts": [
+      "Digital",
+      "Currency",
+      "Payment",
+      "Ownership",
+      "Transaction",
+      "Fee"
+    ]
+  },
+  "student_model": "anthropic:claude-opus-5",
+  "streamed": false
+}

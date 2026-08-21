@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I'm a cooking content creator with a 1.2M follower base. I want to grow my brand and also eventually publish a cookbook. I'm unsure whether it's better to go through an official publisher or self-publish. I currently work 4 days a week at my job, so I'm limited in my availability and budget. Can you help create a three-year plan for me to achieve this?",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 4
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.333,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T14:42:07.658274+00:00"
+}

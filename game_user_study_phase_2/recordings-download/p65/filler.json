@@ -1,0 +1,25 @@
+{
+  "reflection": "Research the pros and cons of self publishing Vs traditional. Ask the online community which recipes they'd like to see in a cookbook",
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 4
+      },
+      {
+        "model": "nemotron",
+        "score": 4
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.667,
+    "median_score": 4,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-19T11:16:08.872805+00:00"
+}

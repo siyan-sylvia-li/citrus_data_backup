@@ -1,0 +1,19 @@
+{
+  "created_prompt": "I have 1.2 million followers that I post cooking videos to. They live my quick and healthy recipes. I work 4 days a week and have limited time and budget.\r\nOver the next 3 years I want to expand online and also publish a cookbook. I\u2019m not sure whether to go through a transfiri\u00f3 al publishing house or self-publish it.\r\nCan you create for me an actionable and timelines 3 year plan to accomplish these goals within the time that I have available and with constrained finances",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-22T13:07:43.932461+00:00"
+}

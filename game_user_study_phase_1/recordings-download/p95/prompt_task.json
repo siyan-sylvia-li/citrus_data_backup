@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Can you create a solid three-year plan on how to grow my video channel which consists of cooking videos, and also help me publish a cookbook based on my cooking videos (also creating a comparison table on the advantages and disadvantages of publishing the book by my self or through a traditional publisher).",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-03T15:45:29.616498+00:00"
+}

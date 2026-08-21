@@ -1,0 +1,45 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Down 20-34 as Black with only 10 empty squares left (g2, b6, a7, b7, b8, c8, a1, h1, a3, a8 - though only g2, b6, a7, b7, b8, c8 are legal for me now). Which of my legal moves (g2, b6, a7, b7, b8, c8) gives me the best shot at winning the final count? I don't want to just grab flips now if it backfires later."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White just took a8 corner. Now my legal moves are g2, b6, a7, c8. Only 8 empty squares left total. Which move sets me up best for the endgame count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Only 6 empty squares left (a1, h1, g2, a3, b6, a7), I'm Black at 22 vs White's 36. My legal moves are g2, b6, or a7. I worry g2 looks tempting (flips 5) but might open up a huge counter-flip for White on a3 afterward. Which move actually wins me the most discs by the end?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "With only 4 squares left (a1, h1, g2, a3), I worked out that if I play a3 now, White seems to have no legal replies (forced pass), then I can take a1, White passes again, I take h1 for a big flip, White passes again, and I finish with g2 - ending up way ahead. Does that logic hold, or am I missing a White reply somewhere?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

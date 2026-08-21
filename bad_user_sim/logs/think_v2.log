@@ -1,0 +1,8 @@
+launching 5 runs, 5 at a time, 5s apart
+ok	think_v2_preset7_together:meta-llama_Llama-3.3-70B-Instruct-Turbo
+ok	think_v2_preset11_together:meta-llama_Llama-3.3-70B-Instruct-Turbo
+ok	think_v2_preset9_together:meta-llama_Llama-3.3-70B-Instruct-Turbo
+ok	think_v2_preset8_together:meta-llama_Llama-3.3-70B-Instruct-Turbo
+ok	think_v2_preset10_together:meta-llama_Llama-3.3-70B-Instruct-Turbo
+
+done: 5 ok, 0 failed  (logs/think_v2_results.tsv)

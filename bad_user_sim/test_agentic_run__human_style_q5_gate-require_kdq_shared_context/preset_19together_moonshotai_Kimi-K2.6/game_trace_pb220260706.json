@@ -1,0 +1,10 @@
+[
+  {
+    "tool": "play_move",
+    "move": "g1"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  }
+]

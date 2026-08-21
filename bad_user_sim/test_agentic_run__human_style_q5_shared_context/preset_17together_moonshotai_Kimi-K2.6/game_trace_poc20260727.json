@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "b7 flips 5 discs which looks huge, but is it the best endgame move? worried it opens the top-left for white \u2014 should I play b7 or something else?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White played a8. Now I have g2, b6, a7, c8. g2 flips a lot but I'm worried it opens h1 for white later. Is a7 the safer endgame play here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "my legal moves now are g2, b6, a7. b6 and a7 both seem to let white hit back hard next turn. is there still a best final-count move among these, or do I just take the biggest flip with g2?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "33-31 \u2014 did we find the optimal line, or could black have squeezed out more?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "For a similar endgame, is quiet edge play always better than taking a big central flip?"
+  }
+]

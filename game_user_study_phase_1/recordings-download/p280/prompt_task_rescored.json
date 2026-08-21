@@ -1,0 +1,32 @@
+{
+  "created_prompt": "Create a three-year plan to expand online audience and publish a cookbook.  User Julie has an audience of 1.2 million followers.  User has limited tome and budget and a four-day workweek.  Give concrete steps in the plan.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "original": {
+    "judges": {
+      "llama": 3,
+      "gpt": 3
+    },
+    "mean_score": 3.0,
+    "median_score": 3.0,
+    "passed": true
+  },
+  "time_taken": 3.599
+}

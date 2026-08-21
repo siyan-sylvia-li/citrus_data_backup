@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Study — Before you play</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  <style>
+    .es__hint { color:#486581; font-size:1rem; margin:0 0 18px; line-height:1.6; }
+    .es__msg { background:#fff; border:1px solid #cbd2d9; border-left:4px solid #a61b1b;
+               border-radius:6px; padding:11px 13px; margin:0 0 6px; line-height:1.45; }
+    .es__msglab { color:#486581; font-size:.85rem; margin:0 0 18px; }
+    .es__q { background:#e8f1ec; border:1px solid #CFE7D2; border-radius:8px;
+             padding:15px 17px; margin:0 0 16px; font-size:1.12rem; line-height:1.55;
+             font-weight:600; }
+    /* The select step gets the study's amber instead of its green, so the change of task
+       is visible before the text is read. Same amber as the mixed-outcome tone elsewhere. */
+    .es__q--pick { background:#fff7d6; border-color:#f0dfa8; color:#b45309; }
+    .es__box { width:100%; box-sizing:border-box; min-height:100px; padding:11px 12px;
+               border:1px solid #cbd2d9; border-radius:8px; font:inherit; line-height:1.45;
+               resize:vertical; }
+    .es__box:focus { outline:3px solid rgba(45,90,67,.28); outline-offset:2px;
+                     border-color:#6DB38A; }
+    .es__count { color:#486581; font-size:.85rem; margin:7px 0 14px; }
+    .es__lab { color:#486581; font-size:.9rem; font-weight:650; margin:0 0 8px; }
+    .es__yours { background:#f3f7f4; border:1px solid #cbd2d9; border-radius:8px;
+                 padding:11px 13px; margin:0 0 18px; line-height:1.45; }
+    .es__opt { display:block; width:100%; text-align:left; background:#fff;
+               border:1px solid #cbd2d9; border-radius:8px; padding:14px 16px;
+               margin:0 0 10px; font:inherit; font-size:1.05rem; line-height:1.5;
+               cursor:pointer; }
+    .es__opt:hover { border-color:#6DB38A; background:#f3f7f4; }
+    .es__opt:focus-visible { outline:3px solid rgba(45,90,67,.28); outline-offset:2px; }
+    .es__sent { background:#fff; border:1px solid #cbd2d9; border-left:4px solid #486581;
+                border-radius:6px; padding:11px 13px; margin:0 0 12px; line-height:1.45; }
+    .es__reply { background:#e8f1ec; border:1px solid #CFE7D2; border-radius:8px;
+                 padding:12px 14px; margin:0 0 20px; line-height:1.5; }
+    .es__contrast { background:#fff7d6; border:1px solid #f0dfa8; border-radius:8px;
+                    padding:12px 14px; margin:0 0 20px; line-height:1.5; }
+    .hidden { display:none !important; }
+  </style>
+</head>
+<body>
+  <header class="topbar"><h1 class="topbar__title">Game Study</h1></header>
+  <main class="start">
+    <div class="start__card" style="max-width:620px">
+      <h2 class="start__title">Before you play</h2>
+      <p class="es__hint">{{ framing }}</p>
+
+      <p class="es__lab">{{ message_label }}</p>
+      <div class="es__msg">{{ start_message }}</div>
+      <p class="es__msglab">{{ game|capitalize }} takes most people years to get good at — so
+        there is plenty an assistant could help with.</p>
+
+      <form method="post" action="{{ url_for('intervention') }}" id="esForm">
+        <input type="hidden" name="payload" id="esPayload" value="{}" />
+
+        <!-- phase 1: elicit -->
+        <section id="esP1">
+          <p class="es__q">{{ question }}</p>
+          <textarea name="idea" id="esBox" class="es__box"
+                    placeholder="Write your answer here…">{{ prefill }}</textarea>
+          <p class="es__count" id="esCount"></p>
+          {% if error %}<p class="pt__error">{{ error }}</p>{% endif %}
+          <button type="button" class="start__btn" id="esToSelect" disabled>Continue</button>
+        </section>
+
+        <!-- phase 2: select -->
+        <section id="esP2" class="hidden">
+          <p class="es__lab">What you said you would change</p>
+          <div class="es__yours" id="esEcho"></div>
+          <p class="es__q es__q--pick">{{ select_prompt }}</p>
+          <div id="esOpts"></div>
+        </section>
+
+        <!-- phase 3: reply -->
+        <section id="esP3" class="hidden">
+          <p class="es__lab">You sent</p>
+          <div class="es__sent" id="esSent"></div>
+          <p class="es__lab">The assistant replied</p>
+          <div class="es__reply" id="esReply"></div>
+          <p class="es__lab">{{ contrast_label }}</p>
+          <div id="esOthers"></div>
+          <button type="submit" class="start__btn">Continue</button>
+        </section>
+      </form>
+    </div>
+  </main>
+  <script>
+    (function () {
+      var C = {{ candidates | tojson }}, MIN = {{ min_chars }}, t0 = Date.now();
+      var $ = function (id) { return document.getElementById(id); };
+      var order = [], picked = null;
+      var byId = {};
+      C.forEach(function (c) { byId[c.id] = c; });
+
+      function paint() {
+        var n = $("esBox").value.trim().length;
+        $("esCount").textContent = n >= MIN ? "" : (MIN - n) + " more characters";
+        $("esToSelect").disabled = n < MIN;
+      }
+      $("esBox").addEventListener("input", paint); paint();
+
+      // Order is shuffled so position cannot stand in for the choice, and recorded so the
+      // analysis can check for a position effect.
+      function shuffled(a) {
+        a = a.slice();
+        for (var i = a.length - 1; i > 0; i--) {
+          var j = Math.floor(Math.random() * (i + 1)), t = a[i]; a[i] = a[j]; a[j] = t;
+        }
+        return a;
+      }
+
+      $("esToSelect").addEventListener("click", function () {
+        $("esEcho").textContent = $("esBox").value.trim();
+        var opts = shuffled(C);
+        order = opts.map(function (c) { return c.id; });
+        $("esOpts").innerHTML = "";
+        opts.forEach(function (c) {
+          var b = document.createElement("button");
+          b.type = "button"; b.className = "es__opt"; b.textContent = c.text;
+          b.addEventListener("click", function () { choose(c); });
+          $("esOpts").appendChild(b);
+        });
+        $("esP1").classList.add("hidden");
+        $("esP2").classList.remove("hidden");
+      });
+
+      function choose(c) {
+        picked = c;
+        $("esSent").textContent = c.text;
+        $("esReply").textContent = "🤖 " + c.reply;
+        // Every option they did NOT send, in the order they were shown. Showing all of
+        // them rather than one keeps the label honest and gives the same contrast to
+        // everyone regardless of what they picked.
+        var others = order.map(function (id) { return byId[id]; })
+                          .filter(function (x) { return x.id !== c.id; });
+        $("esOthers").innerHTML = "";
+        others.forEach(function (o) {
+          var m = document.createElement("div");
+          m.className = "es__sent"; m.textContent = o.text;
+          var rp = document.createElement("div");
+          rp.className = "es__contrast"; rp.textContent = "🤖 " + o.reply;
+          $("esOthers").appendChild(m); $("esOthers").appendChild(rp);
+        });
+        $("esPayload").value = JSON.stringify({
+          selected: c.id, others_shown: others.map(function (o) { return o.id; }),
+          order: order, seconds: Math.round((Date.now() - t0) / 1000)
+        });
+        $("esP2").classList.add("hidden");
+        $("esP3").classList.remove("hidden");
+      }
+    })();
+  </script>
+</body>
+</html>

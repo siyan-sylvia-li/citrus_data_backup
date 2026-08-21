@@ -1,0 +1,49 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I've got 6 legal moves here (g2, b6, a7, b7, b8, c8) and I'm behind in discs but I know that doesn't matter yet since the board isn't full. Can you walk me through which move actually sets me up best once all the empty squares get filled in? I just can't hold all the branches in my head."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White just grabbed the a8 corner. Now I have g2, b6, a7, c8 to pick from with 8 empties left. Which one keeps me from getting squeezed out, and does losing a8 hurt me bad here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White swept the whole bottom row, I'm down 22-36 with just g2, b6, a7 left to choose from and 6 empties total. Is there any way to still climb back, and which of these gives me the best shot?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Only a1, g2, a3, h1 left empty, and my choices are a1, g2, or a3. I'm at 20 to White's 40 - is there any move here that actually helps, or is this pretty much decided already?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Down to a1, h1, g2 with me able to play a1 or g2 right now. Which order gets me the most discs by the very end?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  }
+]

@@ -1,0 +1,106 @@
+{
+  "0020222100222222222121222222111122222121212122111112212122222222:1": {
+    "best_moves": [
+      "b2"
+    ],
+    "optimal_diff": 8,
+    "move_values": {
+      "b1": -12,
+      "d1": -8,
+      "a2": -2,
+      "b2": 8
+    },
+    "must_pass": false
+  },
+  "0020222101222222212121222122111121222121212122111112212122222222:2": {
+    "best_defense": "a1",
+    "optimal_diff": 8,
+    "must_pass": false
+  },
+  "2020222102222222212121222122111121222121212122111112212122222222:1": {
+    "best_moves": [
+      "a2"
+    ],
+    "optimal_diff": 8,
+    "move_values": {
+      "b1": -8,
+      "d1": -2,
+      "a2": 8
+    },
+    "must_pass": false
+  },
+  "2020222112222222112121221122111111222121112122111112212122222222:2": {
+    "must_pass": true
+  },
+  "2020222112222222112121221122111111222121112122111112212122222222:1": {
+    "best_moves": [
+      "b1",
+      "d1"
+    ],
+    "optimal_diff": 8,
+    "move_values": {
+      "b1": 8,
+      "d1": 8
+    },
+    "must_pass": false
+  },
+  "2120222111122222112121221122111111222121112122111112212122222222:2": {
+    "must_pass": true
+  },
+  "2120222111122222112121221122111111222121112122111112212122222222:1": {
+    "best_moves": [
+      "d1"
+    ],
+    "optimal_diff": 8,
+    "move_values": {
+      "d1": 8
+    },
+    "must_pass": false
+  },
+  "2021111112111222112121221122111111222121112122111112212122222222:2": {
+    "must_pass": true
+  },
+  "2021111112111222112121221122111111222121112122111112212122222222:1": {
+    "best_moves": [
+      "b1"
+    ],
+    "optimal_diff": 8,
+    "move_values": {
+      "b1": 8
+    },
+    "must_pass": false
+  },
+  "_meta": {
+    "config": "puzzle_config_b220260507.txt",
+    "to_move": "B",
+    "source": {
+      "site": "othelloclub.com",
+      "date": "20260507",
+      "original_turn": "white",
+      "flipped": true,
+      "board_string": "0010111200111111111212111111222211111212121211222221121211111111"
+    },
+    "empties": 5,
+    "optimal_diff": 8,
+    "result": "black_win",
+    "root_best_moves": [
+      "b2"
+    ],
+    "metrics": {
+      "empties": 5,
+      "n_legal": 4,
+      "optimal_diff": 8,
+      "best_moves": [
+        "b2"
+      ],
+      "unique_best": true,
+      "gap": 10,
+      "worst_diff": -12,
+      "naive_move": "a2",
+      "naive_is_optimal": false,
+      "naive_loss": 10,
+      "corner_answer": false,
+      "forced_line": 2
+    }
+  }
+}

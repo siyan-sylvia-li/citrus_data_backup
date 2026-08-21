@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Julie needs help creating a three-year plan to grow her online presence and either traditionally publish or self-publish a cookbook.  Right now, she posts cooking videos and has 1.2 million followers.  She can work 4 days a week and has limited time and budget.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T15:04:00.821380+00:00"
+}

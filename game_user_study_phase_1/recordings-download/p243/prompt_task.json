@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Create a 3 year plan, for a cooking orientated media creator. Media creator is currently creating content videos to over 1.2 million followers, with a focus on quick and healthy recipes. The goal is to grow this audience, and eventually publish a cookbook, either traditional or self-published. The plan should be detailed, yet concise, in an organized and actionable format.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-03T16:24:43.680266+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I am a cooking content creator for quick and healthy recipes and over the next three years, I want to grow online and publish a cookbook. I don't know yet whether I want to have the book traditionally published or self-published.\r\nI work four day a week and have limited time and budget.\r\nCan you create a precise three-year plan for growing online and publishing my cookbook?",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-05T15:04:43.670414+00:00"
+}

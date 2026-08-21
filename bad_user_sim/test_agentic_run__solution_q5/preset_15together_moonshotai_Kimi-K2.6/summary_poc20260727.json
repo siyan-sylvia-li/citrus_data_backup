@@ -1,0 +1,44 @@
+{
+  "puzzle": "oc20260727",
+  "decisions": 6,
+  "optimal_moves": 6,
+  "opener_optimal": true,
+  "discs_lost": 0,
+  "final_margin": 18,
+  "won": true,
+  "optimal_margin": 18,
+  "completed": true,
+  "moves": [
+    "b7",
+    "c8",
+    "a7",
+    "a3",
+    "a1",
+    "h1"
+  ],
+  "auto_played": [
+    "g2"
+  ],
+  "chat_turns": null,
+  "game": "othello",
+  "round": 0,
+  "ai_available": true,
+  "model_settings": {
+    "max_tokens": 200000
+  },
+  "questions_asked": 5,
+  "question_budget": 5,
+  "profile": {
+    "persona": "A local retailer committed to promoting and selling products made from the raw materials supplied by the local supplier",
+    "age": 47,
+    "education": "hs_graduate",
+    "occupation": "retail",
+    "ai_frequency": "less_than_monthly"
+  },
+  "student_model": "together:moonshotai/Kimi-K2.6",
+  "student_mode": "solution",
+  "questions_required": 5,
+  "assistant_off": false,
+  "assistant_preset": "default",
+  "streamed": false
+}

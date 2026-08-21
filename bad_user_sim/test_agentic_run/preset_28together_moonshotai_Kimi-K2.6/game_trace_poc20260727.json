@@ -1,0 +1,22 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I really messed up playing b6 and now I'm down 17 to 39. My legal moves now are g2, a7, b7, b8, c8. Can you just tell me which one doesn't backfire? I don't want to blow it again."
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I need solve this endgame optimally. Which legal move is best for Black under perfect play, and what's the key line?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After b7 a8 g2 h1, I'm choosing among b6, a7, c8. Which is optimal now, and what should I expect next?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "In the completed line, was the initial b7 choice genuinely optimal under perfect play, or did the subsequent sequence reveal a better alternative?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "At the final position after Black b6 and White passing, why was a1 forced automatically, and what was the resulting final disc count?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Review the move sequence b7, g2, c8, a7, b6: is there any tactical mistake, especially at the final two empty squares?"
+  }
+]

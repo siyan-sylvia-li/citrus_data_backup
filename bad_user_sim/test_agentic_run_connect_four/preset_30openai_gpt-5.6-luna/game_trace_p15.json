@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "What's the strongest move here for Red, and what is the key threat or sequence I should watch for?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After my 4 and Yellow's 5, what's Red's best next column? Is there an immediate win or must I block?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now after Yellow played column 1, can you give the exact best Red move and the opponent's strongest reply? I want to avoid a trap."
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "play_move",
+    "move": 6
+  },
+  {
+    "tool": "play_move",
+    "move": 1
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "play_move",
+    "move": 6
+  },
+  {
+    "tool": "play_move",
+    "move": 6
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "variant": "v2_think_pair",
+  "observation": "group A is demanding the ai to do everyhting for them, explain, do ect. group B is trying to do it themselves then double chickning with the ai to see what it thinks",
+  "choice": "B",
+  "choice_correct": true,
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 4
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 3
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.333,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-18T11:49:27.954659+00:00"
+}

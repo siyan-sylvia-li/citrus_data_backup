@@ -1,0 +1,45 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "what's the best spot to start here?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "where did i mess up?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "so those edge pieces are a big deal then?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "is it always better to go for the corners first?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "any other quick tips for next time?"
+  }
+]

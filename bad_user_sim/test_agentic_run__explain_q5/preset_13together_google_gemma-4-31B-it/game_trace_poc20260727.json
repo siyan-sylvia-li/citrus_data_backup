@@ -1,0 +1,37 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, I'm a bit lost. Looking at the board, where should I even start? Any tips?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at these legal moves: g2, b6, a7, b7, b8, c8. Which one is usually the safest bet here?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at this board and I'm not totally sure what's going on. Between g2, b6, a7, b7, b8, and c8, which one looks like it'll help me get the most pieces?"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at the board and I've got a few options: g2, b6, a7, b7, b8, and c8. I'm not really sure which one is the best way to start. Any ideas?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Since the game is already over, could you tell me what I should've done differently to win? Just curious for next time."
+  }
+]

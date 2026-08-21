@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Create a tangible 3-year plan as if you were a business advisor for me to grow my cooking channel online and publish my own cookbook, assuming I work four days a week with only a limited budget.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-22T20:22:27.489296+00:00"
+}

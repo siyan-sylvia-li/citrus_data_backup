@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I currently create cooking videos, I create quick healthy meals, I have 1.2m followers, create a sustainable 3 year plan for online growth and publishing a cookbook, I am unsure on the publishing method, traditional or self publish, please consider both, I work 4 days a week and have a limited budget",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-10T21:06:13.828500+00:00"
+}

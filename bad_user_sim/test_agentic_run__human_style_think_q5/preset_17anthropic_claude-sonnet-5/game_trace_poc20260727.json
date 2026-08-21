@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Endgame with only 10 empties left. My legal moves are g2, b6, a7, b7, b8, c8. Which one gives me the best final disc count assuming white plays optimally?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Only 8 empties left now. My options: g2, b6, a7, c8. Which wins me the most discs at the end?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Down 22-36 with 6 empties left: g2, b6, a7. Which move actually maximizes my final total, walk me through it?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Looking back, that c8 move I played tanked me from 22 to 22-36. Was there a better option than c8 at that point, or was I already stuck no matter what?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Big picture for next time \u2014 in these tight endgames, what's the main thing I should be watching for so I don't get blindsided by those big flip swings like White pulled off?"
+  }
+]

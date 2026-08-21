@@ -1,0 +1,25 @@
+{
+  "created_prompt": "I have limited time and money to develop and publish a cookbook based on quick, healthy recipes. I want to work 2-3 days per week and have my cookbook done in less than 3 years. Help me create a plan to meet this goal.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 2
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 1.667,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 1.667,
+  "submitted_at": "2026-08-21T16:54:36.166742+00:00"
+}

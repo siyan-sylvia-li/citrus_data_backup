@@ -1,0 +1,36 @@
+{
+  "puzzle": "oc20260727",
+  "decisions": 4,
+  "optimal_moves": 2,
+  "opener_optimal": true,
+  "discs_lost": 38,
+  "final_margin": -20,
+  "won": false,
+  "optimal_margin": 18,
+  "completed": true,
+  "moves": [
+    "b7",
+    "g2!",
+    "b6!",
+    "b8"
+  ],
+  "auto_played": [],
+  "chat_turns": null,
+  "game": "othello",
+  "round": 0,
+  "ai_available": true,
+  "model_settings": {
+    "max_tokens": 200000
+  },
+  "questions_asked": 0,
+  "question_budget": 10,
+  "profile": {
+    "persona": "A talented and young athlete who is impressed by the persona's reputation and seeks their expertise",
+    "age": 21,
+    "education": "hs_graduate",
+    "occupation": "other",
+    "ai_frequency": "daily"
+  },
+  "student_model": "together:moonshotai/Kimi-K2.6",
+  "streamed": false
+}

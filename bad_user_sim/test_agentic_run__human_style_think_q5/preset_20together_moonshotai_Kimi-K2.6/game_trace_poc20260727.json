@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "was my first move b7 wrong?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "why did b8 lose me so many pieces?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "should i have taken c8 instead?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "which move actually wins here?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "i'm confused how white got 42 at the end"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, looking at this board - I'm thinking about dropping in column 4. Does that set up something good for me, or is it risky because of that yellow diagonal near columns 4-7?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "play_move",
+    "move": 7
+  }
+]

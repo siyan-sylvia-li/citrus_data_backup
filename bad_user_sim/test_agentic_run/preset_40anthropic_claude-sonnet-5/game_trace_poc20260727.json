@@ -1,0 +1,41 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "hey so there's only 10 empty squares left, i've got 6 legal moves (g2, b6, a7, b7, b8, c8). i'm not great at reading this far ahead, which move actually wins me the most discs at the end? can you break down why in simple terms"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "ok now i've got g2, b6, a7, c8 as my options, board's getting tight with only 8 empty left. what's the best pick here to maximize my final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "damn white is crushing me now, 36-22. only g2, b6, a7 left as options with 6 empty squares total. which one gives me the best shot at closing this gap by the end?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

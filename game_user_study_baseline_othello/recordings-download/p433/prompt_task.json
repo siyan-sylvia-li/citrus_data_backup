@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I am trying to grow my online community from 1.2 million followers and eventually release a cookbook. I work 4 days a week and have a limited budget and time. What can I do to make this happen?",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.333,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-20T13:44:35.591521+00:00"
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "b7 flips the whole row except h7 which i already have \u2014 that seems massive. is it clearly the best move or am i missing a trap?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "g2 flips a ton but does it backfire? b6 looks safer. which should i play?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "after the bad c8 i'm down 22-36. my legal moves now are g2, b6, a7. is g2 the way back or should i play safer?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "wait was c8 actually a mistake? i won 33-31 but did i get lucky or was it always winning?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "what was the optimal first move from the very start? was b7 actually best or should i have played something else?"
+  }
+]

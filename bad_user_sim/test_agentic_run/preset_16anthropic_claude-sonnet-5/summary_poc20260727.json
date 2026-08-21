@@ -1,0 +1,37 @@
+{
+  "puzzle": "oc20260727",
+  "decisions": 5,
+  "optimal_moves": 3,
+  "opener_optimal": true,
+  "discs_lost": 30,
+  "final_margin": -12,
+  "won": false,
+  "optimal_margin": 18,
+  "completed": true,
+  "moves": [
+    "b7",
+    "a7!",
+    "g2!",
+    "a1",
+    "c8"
+  ],
+  "auto_played": [],
+  "chat_turns": null,
+  "game": "othello",
+  "round": 0,
+  "ai_available": true,
+  "model_settings": {
+    "max_tokens": 100000
+  },
+  "questions_asked": 1,
+  "question_budget": 10,
+  "profile": {
+    "persona": "a software developer specializing in service provider configuration and security",
+    "age": 34,
+    "education": "bachelors",
+    "occupation": "it",
+    "ai_frequency": "several_times_day"
+  },
+  "student_model": "anthropic:claude-sonnet-5",
+  "streamed": false
+}

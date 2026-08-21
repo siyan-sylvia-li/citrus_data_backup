@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I'm thinking b7 is a huge move since it flips a whole line. Is that the best play or am I missing a trap?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "b6 looks like the biggest flip. Is it safe or does it open something up for them?"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I've got b6, a7, and c8. Is b6 still a trap or is it better now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "b6 flips 3, a7 flips 1. Any reason not to take b6 and end it?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm thinking b7 is a huge move since it flips a whole line. Is that the best play or am I missing a trap?"
+  }
+]

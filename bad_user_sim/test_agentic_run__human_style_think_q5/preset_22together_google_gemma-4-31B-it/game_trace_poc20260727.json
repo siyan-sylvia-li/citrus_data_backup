@@ -1,0 +1,40 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "c8 or a7?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at the board... which of these moves is usually safest? g2, b6, a7, b7, b8, or c8?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I just lost pretty bad. Where did I go wrong?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "You mentioned corners are permanent. Why exactly is that?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "So if I avoid the squares right next to the corner, does that help?"
+  }
+]

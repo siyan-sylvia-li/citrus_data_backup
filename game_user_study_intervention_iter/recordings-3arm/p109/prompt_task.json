@@ -1,0 +1,25 @@
+{
+  "created_prompt": "I want you to create a 3-year plan for me. I have 1.2m followers who enjoy quick, healthy meals. I want to increase my following and publish a cookbook (possibly self-published, maybe not). I work 4 days a week, so have limited time and money.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 3.0,
+  "submitted_at": "2026-08-21T13:19:02.311769+00:00"
+}

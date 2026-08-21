@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Devise a three year plan to help me grow online and publish a cookbook aimed at my followers who love my quick and healthy recipes that I post the videos to. I'm not sure whether to self publish or follow traditional route of publishing. I work four days per week so I have limited time and my budget is also limited.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-28T13:18:48.165921+00:00"
+}

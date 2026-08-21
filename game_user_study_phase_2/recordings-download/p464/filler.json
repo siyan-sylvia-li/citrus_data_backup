@@ -1,0 +1,25 @@
+{
+  "reflection": "My advice would be to find something interesting and unique, like how to make quick or being healthy Mediterranean food rather than normal recipes. Work at night when there is no work",
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 2
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.667,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-18T17:28:17.574005+00:00"
+}

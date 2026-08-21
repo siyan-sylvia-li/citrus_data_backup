@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I would like you to list out a 3 year plan for me to grow my online cooking channel as well as enable me to publish a cookbook. I need you to list out pros and cons between traditional publishing and self-publishing of the book. I work 4 days a week so i only have 1-2 days spare to work on this. Can you list out a 6 monthly target for the next 3 years",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-20T13:50:31.239725+00:00"
+}

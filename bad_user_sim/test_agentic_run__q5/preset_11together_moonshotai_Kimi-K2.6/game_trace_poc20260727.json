@@ -1,0 +1,47 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I just played b7 first and lost badly (22-42). From the original position where my legal moves were g2, b6, a7, b7, b8, c8, what is the best first move for Black?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Okay, here is the exact original starting position.\n\nRow 1: . W W W W W W .\nRow 2: W B W W B W . B\nRow 3: . B B W W W W B\nRow 4: B B W B W W W B\nRow 5: B B W W B W W B\nRow 6: W . B W W B W B\nRow 7: . . W W W W W B\nRow 8: . . . W B W W B\n\nMy legal moves were g2, b6, a7, b7, b8, c8. Which first move gives Black the most discs at the end assuming White plays perfectly?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "If I play c8 first, what is White's best reply? And what should my next move be?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After c8 and g2, what is the rest of the best-play line for both sides? Can Black win or draw from there?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "If I had played b6 as my first move instead of c8, is that better or worse? What does the final score look like after perfect play from there?"
+  },
+  {
+    "tool": "view_board"
+  }
+]

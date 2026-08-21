@@ -1,0 +1,37 @@
+{
+  "puzzle": "oc20260727",
+  "decisions": 3,
+  "optimal_moves": 2,
+  "opener_optimal": true,
+  "discs_lost": 38,
+  "final_margin": -20,
+  "won": false,
+  "optimal_margin": 18,
+  "completed": true,
+  "moves": [
+    "b7",
+    "c8",
+    "b6!"
+  ],
+  "auto_played": [
+    "g2"
+  ],
+  "chat_turns": null,
+  "game": "othello",
+  "round": 0,
+  "ai_available": true,
+  "model_settings": {
+    "max_tokens": 200000
+  },
+  "questions_asked": 2,
+  "question_budget": 10,
+  "profile": {
+    "persona": "A devoted football fan who prefers skillful forwards",
+    "age": 28,
+    "education": "hs_graduate",
+    "occupation": "manufacturing",
+    "ai_frequency": "weekly"
+  },
+  "student_model": "together:moonshotai/Kimi-K2.6",
+  "streamed": false
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I'm trailing quite a bit here. Looking at my options\u2014g2, b6, a7, b7, b8, and c8\u2014which one is the most prudent move to maximize my final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I've managed to secure a good stretch on the seventh row, but the opponent just took that corner at a8. Should I go for the edge at a7, or would b6 be a more strategic choice here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I've got g2, b6, and a7 left. I can see g2 might flip a whole column of white discs, but I'm not sure if that's a trap. Which of these is the most secure move now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at a1, g2, and a3. I've always heard the corners are key, but g2 seems to flip a lot of pieces. Which one should I prioritize to finish strong?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm trailing quite a bit here. Looking at my options\u2014g2, b6, a7, b7, b8, and c8\u2014which one is the most prudent move to maximize my final count?"
+  }
+]

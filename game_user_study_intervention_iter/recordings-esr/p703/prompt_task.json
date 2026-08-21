@@ -1,0 +1,25 @@
+{
+  "created_prompt": "I need a three-year plan. Here are my details:\r\nI post cooking videos with quick, easy and healthy recipes. Over the next three years, I want to publish a cookbook (traditional vs. self-published). I work four days weekly with limited time and budget. How do I reach my goal. Give me a plan.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.667,
+  "submitted_at": "2026-08-20T13:03:55.377715+00:00"
+}

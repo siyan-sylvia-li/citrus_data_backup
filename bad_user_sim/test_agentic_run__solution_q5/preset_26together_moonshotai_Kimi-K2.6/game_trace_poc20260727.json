@@ -1,0 +1,45 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Out of g2, b6, a7, b7, b8, c8 \u2014 what's the winning move? Just the square."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now my choices are g2, b6, a7, c8. Which one wins? Just the square."
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After c8 and White b8 it's 22-36. My moves are g2, b6, a7. Which one should I play? Just the square."
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Why did c8 and a7 backfire so badly when you suggested them?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "What should I have played at that second turn instead of c8?"
+  }
+]

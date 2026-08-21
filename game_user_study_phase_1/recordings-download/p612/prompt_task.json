@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Provide a detailed concrete three year plan to scale Julie's business to meet her goals from the starting point of someone who just posts cooking videos to 1.2 million followers to reach her goal of growing her online following and publishing a cookbook within a three year time span with her having limited time and budget and being able to work four days a week.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-03T16:13:05.820135+00:00"
+}

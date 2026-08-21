@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Can you identify the best first move here and the opponent's likely reply sequence? I want the minimax choice, not just the move with the biggest immediate flip."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After b7 and White a8, my legal moves are g2, b6, a7, c8. Which move is minimax best, and can you give the forced continuation briefly?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Current position after b7-a8-c8-b8: legal g2, b6, a7. What is the minimax move now and expected result?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White chose b6, leaving a1, g2, a3. Which Black move is now best under optimal play?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

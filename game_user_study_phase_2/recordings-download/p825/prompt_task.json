@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Devise a 3 year plan for a cooking influencer who wants to publish a cookbook and expand their online presence",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 2
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    },
+    {
+      "model": "llama",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 1.667,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 1.667,
+  "submitted_at": "2026-08-18T16:47:39.007056+00:00"
+}

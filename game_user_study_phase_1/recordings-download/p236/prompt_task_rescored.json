@@ -1,0 +1,33 @@
+{
+  "created_prompt": "I'm a content creator, making cooking videos online. My content is about quick, healthy recipes. Help me create a timeline to grow my audience and write a cookbook. Timeline should be three years. Limited personal time due to a 4 day work schedule and small budget. Looking for a realistic and concrete three-year plan.",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "original": {
+    "judges": {
+      "llama": 3,
+      "gpt": 3,
+      "qwen": null
+    },
+    "mean_score": 3.0,
+    "median_score": 3.0,
+    "passed": true
+  },
+  "time_taken": 19.282
+}

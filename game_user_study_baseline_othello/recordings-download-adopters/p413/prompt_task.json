@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I post cooking and recipe videos online and have a large following. I want to grow and publish a cookbook but I'm torn on traditional vs self-publishing. I work four days weekly and don't have much time or much of a budget. How should I plan the next three years?",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T14:00:23.932505+00:00"
+}

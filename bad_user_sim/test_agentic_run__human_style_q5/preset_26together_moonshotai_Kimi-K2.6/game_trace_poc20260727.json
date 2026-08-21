@@ -1,0 +1,37 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "c8 or b6 both look like they flip a lot of discs, but I'm worried White hits back hard. Which one's better here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "white hit back with a8 and took b7. now b6 looks tempting but i see white could play c8 or a7 after. what's the best reply?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "gimme a sec, I'm staring at these corner moves and not sure which way to go. b7 or c8 \u2014 what's better here?"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "So what move should I have played first instead?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "did i have any way back after white took a8 or was it already over?"
+  }
+]

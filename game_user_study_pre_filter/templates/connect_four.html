@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect Four Study</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+    <style>
+        body {
+            margin: 0; min-height: 100vh; display: flex; align-items: center;
+            justify-content: center; background: #312e2b; font-family: system-ui, sans-serif;
+        }
+        .game { display: flex; gap: 24px; align-items: stretch; padding: 24px; }
+        .game__board { display: flex; flex-direction: column; gap: 14px; align-items: center; }
+        #status { font-size: 18px; min-height: 24px; text-align: center; color: #eee; }
+        .counter { font-size: 16px; color: #eee; }
+        .counter b { color: #ffd54f; font-size: 20px; }
+
+        /* ---- Connect Four board ---- */
+        .c4board { display: flex; gap: 8px; background: #1565c0; padding: 10px; border-radius: 10px; }
+        .c4col { display: flex; flex-direction: column; gap: 8px; cursor: pointer; }
+        .c4col:hover { background: rgba(255,255,255,0.12); border-radius: 8px; }
+        .c4cell {
+            width: 56px; height: 56px; border-radius: 50%; background: #312e2b;
+            box-shadow: inset 0 3px 6px rgba(0,0,0,0.45);
+        }
+        .c4cell.red { background: radial-gradient(circle at 35% 30%, #ff6b6b, #d32f2f); }
+        .c4cell.yellow { background: radial-gradient(circle at 35% 30%, #ffe082, #fbc02d); }
+        .c4boardwrap { display: flex; align-items: flex-start; }
+        .c4rowlabels { display: flex; flex-direction: column; gap: 8px; padding: 10px 8px 0 0; }
+        .c4rowlabel { height: 56px; line-height: 56px; text-align: right; min-width: 16px; color: #bbb; font-size: 14px; }
+        .c4labels { display: flex; gap: 8px; padding: 0 10px; }
+        .c4label { width: 56px; text-align: center; color: #bbb; font-size: 14px; }
+        .board--locked .c4col { cursor: default; }
+        .board--locked .c4col:hover { background: none; }
+
+        .finish-btn { padding: 10px 18px; font-size: 15px; font-weight: 600; color: #fff;
+            background: #6DB38A; border: 0; border-radius: 6px; cursor: pointer; }
+        .finish-btn:hover { background: #2D5A43; }
+        .finish-btn:disabled { opacity: 0.6; cursor: default; }
+        .timer { position: fixed; top: 14px; left: 50%; transform: translateX(-50%);
+            background: rgba(0,0,0,0.45); color: #fff; padding: 6px 16px; border-radius: 20px;
+            font-size: 16px; font-weight: 600; font-variant-numeric: tabular-nums; z-index: 10; }
+        .timer--warn { color: #ff9b9b; }
+        .focus-blocker { position: fixed; inset: 0; background: #0b0b0b; color: #fff; z-index: 9999;
+            display: none; align-items: center; justify-content: center; text-align: center;
+            padding: 2rem; font-size: 1.15rem; line-height: 1.6; }
+        .focus-blocker--visible { display: flex; }
+        .focus-blocker__inner { max-width: 36rem; }
+        .focus-blocker__title { font-size: 1.5rem; margin: 0 0 0.75rem; }
+        .focus-blocker__btn { margin-top: 1.25rem; padding: 0.6rem 1.4rem; font-size: 1rem;
+            background: #fff; color: #111; border: 0; border-radius: 4px; cursor: pointer; }
+        .chat { width: 360px; max-width: 90vw; height: 540px; }
+        @media (max-width: 900px) { .game { flex-direction: column; align-items: center; } .chat { height: 360px; } }
+    </style>
+</head>
+<body>
+    <div id="focus-blocker" class="focus-blocker" aria-hidden="true">
+        <div class="focus-blocker__inner">
+            <p class="focus-blocker__title">Study paused.</p>
+            <p>This study requires you to stay on this page. Leaving the tab or window has been logged. Click below when you're ready to continue.</p>
+            <button type="button" id="focus-blocker-resume" class="focus-blocker__btn">Resume study</button>
+        </div>
+    </div>
+    <div id="timer" class="timer">{{ "%d:%02d"|format(time_limit_seconds // 60, time_limit_seconds % 60) }}</div>
+
+    <main class="game">
+        <div class="game__board">
+            <div class="counter">Moves left: <b id="moves-left">{{ moves_left }}</b></div>
+            <div class="c4boardwrap">
+                <div class="c4rowlabels" id="rowlabels"></div>
+                <div class="c4boardcol">
+                    <div id="board" class="c4board"></div>
+                    <div class="c4labels" id="labels"></div>
+                </div>
+            </div>
+            <div id="status">You are Red. Make your {{ num_moves }} moves — drop in any column.</div>
+            <button id="finish" class="finish-btn" type="button">Finish &amp; continue to survey</button>
+        </div>
+
+        <section class="chat">
+            <header class="chat__header">Assistant</header>
+            <div class="chat__messages" id="chat-messages">
+                <div class="chat__msg chat__msg--bot">
+                    Hi! You're Red — I can see the board and I'm here to help you think it through.
+                    Ask me about threats on the board, whether a move you're considering works, or why one didn't.
+                    <b>Note:</b> I won't give you the next move directly, even if you ask.
+                </div>
+            </div>
+            <form class="chat__form" id="chat-form" autocomplete="off">
+                <input type="text" id="chat-input" class="chat__input" placeholder="Type a message…" required />
+                <button type="submit" class="chat__send">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <script>
+        window.__allowNavigation = false;
+        const URLS = {
+            chat: "{{ url_for('chat') }}",
+            move: "{{ url_for('cf_move') }}",
+            finish: "{{ url_for('submit_game') }}",
+            postSurvey: "{{ url_for('post_survey') }}",
+            focus: "{{ url_for('focus_event') }}",
+        };
+
+        const ROWS = {{ rows }}, COLS = {{ cols }};
+        const NUM_MOVES = {{ num_moves }};
+        const EMPTY = 0, RED = 1, YELLOW = 2;
+        let BOARD = {{ board | tojson }};        // BOARD[row][col], row 0 = bottom
+        let movesLeft = {{ moves_left }};
+        let finished = false, pending = false;
+
+        const boardEl = document.getElementById('board');
+        const statusEl = document.getElementById('status');
+        const movesEl = document.getElementById('moves-left');
+
+        // Build the column/cell DOM once, plus the 1-indexed column labels.
+        const cellEls = [];                      // cellEls[row][col]
+        for (let r = 0; r < ROWS; r++) cellEls.push(new Array(COLS));
+        for (let c = 0; c < COLS; c++) {
+            const colEl = document.createElement('div');
+            colEl.className = 'c4col';
+            colEl.addEventListener('click', () => onColumnClick(c));
+            for (let r = ROWS - 1; r >= 0; r--) {     // top row first visually
+                const cell = document.createElement('div');
+                cell.className = 'c4cell';
+                colEl.appendChild(cell);
+                cellEls[r][c] = cell;
+            }
+            boardEl.appendChild(colEl);
+        }
+        const labelsEl = document.getElementById('labels');
+        for (let c = 0; c < COLS; c++) {
+            const lab = document.createElement('div');
+            lab.className = 'c4label';
+            lab.textContent = c + 1;                  // display 1-indexed
+            labelsEl.appendChild(lab);
+        }
+        const rowLabelsEl = document.getElementById('rowlabels');
+        for (let r = ROWS - 1; r >= 0; r--) {         // top visual row first; label = r+1 (1 = bottom)
+            const lab = document.createElement('div');
+            lab.className = 'c4rowlabel';
+            lab.textContent = r + 1;
+            rowLabelsEl.appendChild(lab);
+        }
+
+        function renderBoard() {
+            for (let r = 0; r < ROWS; r++) {
+                for (let c = 0; c < COLS; c++) {
+                    const v = BOARD[r][c];
+                    cellEls[r][c].className = 'c4cell' + (v === RED ? ' red' : v === YELLOW ? ' yellow' : '');
+                }
+            }
+            movesEl.textContent = movesLeft;
+        }
+        renderBoard();
+
+        async function onColumnClick(col) {
+            if (finished || pending) return;
+            pending = true;
+            statusEl.textContent = '…';
+            try {
+                const res = await fetch(URLS.move, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ col: col }),
+                });
+                const data = await res.json();
+                if (!data.ok) {
+                    // The only client-visible rejection is a full column — NOT a
+                    // correctness signal. (game_over is ignored.)
+                    if (data.reason === 'invalid_column') {
+                        statusEl.textContent = 'That column is full — pick another.';
+                    }
+                    return;
+                }
+                BOARD = data.board;
+                movesLeft = data.moves_left;
+                renderBoard();
+                if (data.done) {
+                    finished = true;
+                    boardEl.parentElement.classList.add('board--locked');
+                    statusEl.textContent = "You've made all your moves. Click “Finish” to continue.";
+                } else {
+                    statusEl.textContent = `Move ${data.moves_made + 1} of ${NUM_MOVES}.`;
+                }
+            } catch (err) {
+                console.error('move failed:', err);
+                statusEl.textContent = 'Could not reach the server — please try again.';
+            } finally {
+                pending = false;
+            }
+        }
+
+        /* ===================== Finish (button or timeout) ===================== */
+        async function finishStudy(reason) {
+            if (window.__finishing) return;
+            window.__finishing = true;
+            clearInterval(timerId);
+            document.getElementById('finish').disabled = true;
+            try {
+                await fetch(URLS.finish, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ solved: finished, end_reason: reason }),
+                });
+            } catch (err) { console.error('final submission failed:', err); }
+            window.__allowNavigation = true;
+            window.location.href = URLS.postSurvey;
+        }
+        document.getElementById('finish').addEventListener('click', () => finishStudy('manual'));
+
+        /* ============================ Timer ============================ */
+        const TIME_LIMIT_SECONDS = {{ time_limit_seconds }};
+        const timerEl = document.getElementById('timer');
+        let remaining = TIME_LIMIT_SECONDS;
+        function fmt(s) { return Math.floor(s / 60) + ':' + String(s % 60).padStart(2, '0'); }
+        const timerId = setInterval(() => {
+            remaining -= 1;
+            timerEl.textContent = fmt(Math.max(remaining, 0));
+            if (remaining <= 30) timerEl.classList.add('timer--warn');
+            if (remaining <= 0) finishStudy('timeout');
+        }, 1000);
+
+        /* ======================= Focus blocker ======================= */
+        (function () {
+            const blocker = document.getElementById("focus-blocker");
+            const resumeBtn = document.getElementById("focus-blocker-resume");
+            let visible = false;
+            function logEvent(type, reason) {
+                const payload = JSON.stringify({ type, reason });
+                if (navigator.sendBeacon) navigator.sendBeacon(URLS.focus, new Blob([payload], { type: "application/json" }));
+                else fetch(URLS.focus, { method: "POST", headers: { "Content-Type": "application/json" }, body: payload, keepalive: true }).catch(() => {});
+            }
+            const show = (reason) => { if (visible) return; visible = true; blocker.classList.add("focus-blocker--visible"); logEvent("leave", reason); };
+            const dismiss = () => { if (!visible) return; visible = false; blocker.classList.remove("focus-blocker--visible"); logEvent("return", "dismiss"); };
+            resumeBtn.addEventListener("click", dismiss);
+            document.addEventListener("visibilitychange", () => { if (document.hidden) show("visibilitychange"); });
+            window.addEventListener("blur", () => { setTimeout(() => { if (!document.hasFocus() || document.hidden) show("blur"); }, 50); });
+            window.addEventListener("beforeunload", (e) => { if (window.__allowNavigation) return; e.preventDefault(); e.returnValue = ""; });
+        })();
+
+        /* ============================ Chat ============================ */
+        (function () {
+            const form = document.getElementById("chat-form");
+            const input = document.getElementById("chat-input");
+            const messages = document.getElementById("chat-messages");
+            function appendBubble(content, who, asHtml) {
+                const div = document.createElement("div");
+                div.className = `chat__msg chat__msg--${who}`;
+                if (asHtml) div.innerHTML = content; else div.textContent = content;
+                messages.appendChild(div); messages.scrollTop = messages.scrollHeight; return div;
+            }
+            function showThinking() {
+                const div = document.createElement("div");
+                div.className = "chat__msg chat__msg--bot chat__msg--thinking";
+                div.innerHTML = "<span></span><span></span><span></span>";
+                messages.appendChild(div); messages.scrollTop = messages.scrollHeight; return div;
+            }
+            form.addEventListener("submit", async (e) => {
+                e.preventDefault();
+                const text = input.value.trim();
+                if (!text) return;
+                appendBubble(text, "user"); input.value = ""; input.disabled = true;
+                const thinking = showThinking();
+                let bubble = null, accum = "";
+                const ensureBubble = () => { if (!bubble) { if (thinking.parentNode) thinking.remove(); bubble = appendBubble("", "bot"); } return bubble; };
+                try {
+                    const res = await fetch(URLS.chat, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ message: text }) });
+                    if (!res.ok || !res.body) throw new Error("bad response");
+                    const reader = res.body.getReader(); const decoder = new TextDecoder(); let buffer = "";
+                    while (true) {
+                        const { value, done } = await reader.read();
+                        if (done) break;
+                        buffer += decoder.decode(value, { stream: true });
+                        let nl;
+                        while ((nl = buffer.indexOf("\n")) >= 0) {
+                            const line = buffer.slice(0, nl).trim(); buffer = buffer.slice(nl + 1);
+                            if (!line) continue;
+                            let obj; try { obj = JSON.parse(line); } catch { continue; }
+                            if (obj.delta) { ensureBubble(); accum += obj.delta; bubble.textContent = accum; messages.scrollTop = messages.scrollHeight; }
+                            else if (obj.done) { ensureBubble(); bubble.innerHTML = obj.html || "<p>(no response)</p>"; messages.scrollTop = messages.scrollHeight; }
+                            else if (obj.error) { ensureBubble(); bubble.textContent = "Error: " + obj.error; }
+                        }
+                    }
+                } catch (err) { if (thinking.parentNode) thinking.remove(); if (!bubble) appendBubble("Error: could not reach assistant.", "bot"); }
+                finally { if (thinking.parentNode) thinking.remove(); input.disabled = false; input.focus(); }
+            });
+        })();
+    </script>
+</body>
+</html>

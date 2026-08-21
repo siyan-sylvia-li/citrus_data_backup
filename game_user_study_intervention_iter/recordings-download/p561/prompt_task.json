@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Create a realistic three year plan for Julie to grow online and publish a cookbook with limited time and money.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.0,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.0,
+  "submitted_at": "2026-08-20T01:47:22.585624+00:00"
+}

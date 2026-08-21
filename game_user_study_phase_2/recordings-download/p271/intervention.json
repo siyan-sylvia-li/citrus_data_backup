@@ -1,0 +1,28 @@
+{
+  "variant": "v2_think_pair",
+  "observation": "most of group 1 want the best move immediately, they put in information of the board and demand that the ai give them the best move. group 2 however mostly shares its plan with the ai and generally wants the ai to adjust and clean up their plan",
+  "choice": "B",
+  "choice_correct": true,
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 4
+      },
+      {
+        "model": "gpt",
+        "score": 4
+      },
+      {
+        "model": "nemotron",
+        "score": 4
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 4.0,
+    "median_score": 4,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-18T17:00:43.298500+00:00"
+}

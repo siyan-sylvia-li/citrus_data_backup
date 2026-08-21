@@ -1,0 +1,48 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "c8 or b7? c8 flips a lot but i'm worried White gets a1 and cleans up. which first move is best?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "after b7 and White a8, my legal moves are g2 b6 a7 c8. g2 looks big but does it backfire? what's best here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "legal moves are g2, b6, a7 now. g2 looks like the most flips\u2014should i take it, or is a7 or b6 better for the endgame?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "empties are a1 h1 g2 a3. i can play a1 g2 or a3. g2 grabs the most discs\u2014should i take it, or is a3 better?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "was a3 actually the right call back there, or would g2 have won too?"
+  }
+]

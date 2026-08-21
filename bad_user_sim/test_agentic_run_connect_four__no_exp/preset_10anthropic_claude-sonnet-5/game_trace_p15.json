@@ -1,0 +1,30 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Looking at this board, I think playing column 4 sets up a diagonal threat (c3r4-c4r3-c5r2-c6r1, with c5r2 and c6r1 already Red) that Yellow can't easily defuse without eventually handing me the win at c3 row4. Does that logic hold up, and is column 4 actually the best move here, or is there something better/safer?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Yellow just played c1, no immediate threats from them right now. My c3-row4 diagonal shot (with c4r3,c5r2,c6r1 already red) is still alive but I realize if we both just avoid column 3 and fill everything else, parity might make YELLOW the one who gets to grab that row4 square, not me. What's the actual best move here to make sure I keep control of that threat (or build a second one)?"
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  }
+]

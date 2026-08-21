@@ -1,0 +1,49 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "What's the best move?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "What should I play now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Which move is best out of g2, b6, and a7?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Was 41-23 the best possible outcome, or did I leave discs on the table?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Could I have opened with a different move and still gotten a similar win, or was b7 truly the only strong choice?"
+  }
+]

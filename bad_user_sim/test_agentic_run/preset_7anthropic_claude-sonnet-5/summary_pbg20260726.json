@@ -1,0 +1,35 @@
+{
+  "puzzle": "bg20260726",
+  "decisions": 3,
+  "optimal_moves": 2,
+  "opener_optimal": false,
+  "discs_lost": 16,
+  "final_margin": -12,
+  "won": false,
+  "optimal_margin": 4,
+  "completed": true,
+  "moves": [
+    "h7!",
+    "b2",
+    "g8"
+  ],
+  "auto_played": [],
+  "chat_turns": null,
+  "game": "othello",
+  "round": 1,
+  "ai_available": false,
+  "model_settings": {
+    "max_tokens": 100000
+  },
+  "questions_asked": 0,
+  "question_budget": 0,
+  "profile": {
+    "persona": "A devoted Christian who is actively involved in religious discussions",
+    "age": 45,
+    "education": "bachelors",
+    "occupation": "education",
+    "ai_frequency": "less_than_monthly"
+  },
+  "student_model": "anthropic:claude-sonnet-5",
+  "streamed": false
+}

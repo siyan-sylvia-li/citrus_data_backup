@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Which of my legal moves is best here\u2014g2, b6, a7, b7, b8, or c8? b7 flips a whole row but I'm worried it'll let white grab a corner. What do you think?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After b7 and white a8, my legal moves are g2, b6, a7, c8. Which is best now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now my only legal moves are g2, b6, and a7. Which one wins the endgame?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Down to three moves: a1, g2, a3. Is one clearly better?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "b7 first felt risky. Was it really the best start, or would b6 have worked better?"
+  }
+]

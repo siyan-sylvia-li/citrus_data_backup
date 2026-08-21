@@ -1,0 +1,22 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Yo, I'm kinda stuck on this Connect Four puzzle. No instant 4-in-a-row for Red, but I feel like there's a forced-win setup with the diagonal + row threats. Is 4 the right move? And if so, how do I handle it if Yellow answers with 5?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 2
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Nice, I followed the sequence. After Red 4 and 2, Yellow answered both. What\u2019s my next move now to keep the forced win rolling?"
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  }
+]

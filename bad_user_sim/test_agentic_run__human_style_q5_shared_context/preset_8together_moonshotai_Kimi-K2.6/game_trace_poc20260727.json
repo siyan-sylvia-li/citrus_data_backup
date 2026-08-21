@@ -1,0 +1,37 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "g2, b8, c8 \u2014 which is best here? im worried g2 opens h1 for white. c8 seems small. b8 maybe?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "was b7 the right first move or should i have opened with b6?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "what was the critical mistake that lost me the game?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "could i have drawn or won from the starting position?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "was c8 the only winning reply for white after b8?"
+  }
+]

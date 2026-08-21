@@ -1,0 +1,19 @@
+{
+  "created_prompt": "3 year plan for moving a 1.2M followers influencer (healthy, quick cooking videos account) forward toward writing and publishing a cookbook. Limited budget and limited time, 4 weekly work days",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-16T14:55:13.025626+00:00"
+}

@@ -1,0 +1,33 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I think I\u2019ve spotted a diagonal idea starting with c4 that sets up a double threat using row 3 and the c3\u2013c6 diagonal. But I\u2019m worried Yellow can disrupt by playing c5 after c4. Does Red have a forced win here, and is c4 the key move, or am I missing a simpler shot?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I played 4 again to block their diagonal threat at c4. Now Yellow has answered c1. How do I keep the pressure on? Is the idea still to work toward c3r4, or should I switch to something like c2r3?"
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  }
+]

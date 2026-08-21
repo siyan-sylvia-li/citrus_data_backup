@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, I'm Black in this Othello endgame. My legal moves are g2, b6, a7, b7, b8, c8. c8 looks like it flips a ton of discs immediately, but I'm guessing endgame is more about parity and corners. Which move actually wins assuming White plays perfectly?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "ok so i played b7 like you said, then white played a8 and h1. now my legal moves are b6, a7, c8. which one wins from here? white looks like they can hit a3 for a huge swing no matter what"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm stuck on the next move. My options are b6, a7, c8. Given the board now, which actually wins for Black assuming White plays perfectly?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Quick one: between b6, a7, and c8 on this board, which wins for Black?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "yo so after c8 white hit b8 and the whole board fell apart. was b6 the wrong reply, or was c8 itself a mistake? where should i have gone from b8 to stay in the game?"
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "prolific_id": "p334",
+  "game": "othello",
+  "rounds": [
+    {
+      "puzzle": "oc20260727",
+      "ai": true,
+      "ai_survey": true,
+      "gate": true,
+      "time_limit": 480,
+      "intro": {
+        "title": "Puzzle 1",
+        "body": "An <strong>AI assistant</strong> will be available to help you for this round. This is your <strong>only chance</strong> to use it in this study.<br>You MUST engage with the assistant for <strong>5+ turns</strong>."
+      }
+    },
+    {
+      "puzzle": "b220260706",
+      "ai": false,
+      "ai_survey": false,
+      "survey": false,
+      "time_limit": 90,
+      "intro": {
+        "title": "Puzzles 2 and 3",
+        "body": "Two more puzzles, back to back. There is <strong>no AI assistant</strong> for either, and you will <strong>not</strong> need to fill out the AI assistant questionnaire afterward."
+      }
+    },
+    {
+      "puzzle": "bg20260726",
+      "ai": false,
+      "ai_survey": false,
+      "time_limit": 90,
+      "intro": {
+        "title": "Puzzle 3",
+        "body": "Last puzzle \u2014 same rules."
+      }
+    }
+  ],
+  "skill_rating": "1",
+  "age": 25,
+  "education": "postgrad",
+  "occupation": "hospitality",
+  "genai_usage": "several_times_day",
+  "consented_at": "2026-08-05T14:49:17.121162+00:00",
+  "submitted_at": "2026-08-05T15:06:01.593311+00:00"
+}

@@ -1,0 +1,19 @@
+{
+  "created_prompt": "You need to create a personalised, concrete three-year plan for the following goals: help grow Julie's online presence for her cooking content, and help her get a cookbook published. Background: she posts cooking videos online and has 1.2M followers. Her focus is on quick, healthy recipes. She does not know whether to aim for traditional publishing or self-publishing for the cookbook, so make a recommendation based on the relevant factors. It is important to note that she is busy (working four days a week), and her time/budget are limited. Break the plan down into manageable subsections, bearing these factors in mind.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 4
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.5,
+  "median_score": 3.5,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-21T13:44:01.821680+00:00"
+}

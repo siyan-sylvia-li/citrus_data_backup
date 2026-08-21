@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "im black, only 10 empty squares left, im down 20-34. my legal moves are g2, b6, a7, b7, b8, c8. which one actually leads to the best final count for me?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "now my legal moves are g2, b6, a7, c8. which one is best for the final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "only g2, b6, a7 left as options (6 empty total). im way behind 22-36. which move gives me the best shot at the end?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "that last stretch flipped so fast, like my a3 move and then a1 and h1 chained into passes for white. why did white keep having no moves at the end there?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "looking back, was there an earlier move of mine (like the b7 or c8 ones) that was actually a mistake, or did it work out optimally overall?"
+  }
+]

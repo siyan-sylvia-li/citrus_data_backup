@@ -1,0 +1,32 @@
+{
+  "created_prompt": "Can you help me come up with a three-year plan to help me achieve my goals. For background context, I\u2019m a social media influencer with 1.2M followers who posts cooking content, with a focus on quick, healthy recipes. I would love to grow my account even more, and at some point in the next three years publish my own cookbook. I work four days weekly and have a limited budget- I don\u2019t have that much time outside of this work week to spend time on my goals. Could you please give me some advice on what I need to do to grow my following, and how I can progress on my cookbook goal. Please also outline the benefits and disadvantages of traditional publishing and self-publishing and tell me which you think would be better for my situation. Clearly set out an outline for what I need to do over the next three years, maybe dividing each year into quarters and goals I need to achieve in each one.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "original": {
+    "judges": {
+      "llama": 3,
+      "gpt": 3
+    },
+    "mean_score": 3.0,
+    "median_score": 3.0,
+    "passed": true
+  },
+  "time_taken": 17.509
+}

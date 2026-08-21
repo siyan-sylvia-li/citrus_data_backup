@@ -1,0 +1,23 @@
+{
+  "created_prompt": "set me a timing and budgeting plan. I have three days a week to spare and limited budget. \r\nI want ideas that will help me grow my online presence.\r\nCan you also give me the pros and cons of self publishing and traditional publishing, including costs and ease of success.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 2
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 1.667,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-20T14:07:06.554723+00:00"
+}

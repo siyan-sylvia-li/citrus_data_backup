@@ -1,0 +1,43 @@
+[
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "play_move",
+    "move": 2
+  },
+  {
+    "tool": "play_move",
+    "move": 6
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After playing column 4, what's the best follow-up move to guarantee a win?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After playing column 4, what's the best follow-up move to guarantee a win?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After playing columns 4 and 2, what is the winning move sequence?"
+  }
+]

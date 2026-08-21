@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Please provide a detailed three-year plan, based on limited time and budget, for me to leverage my online presence into a marketable cookbook of healthy recipes, targeting my current 1.2 million followers and others. The plan should recommend whether I use a traditional publisher or opt for self-publishing.",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-16T15:02:01.419751+00:00"
+}

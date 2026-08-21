@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I have 1.2M followers and post quick, healthy recipes. I work 4 days/week and have limited time/budget. My 3-year goal is to grow my online following and publish a cookbook (not sure about traditional vs. self-publishing). Please devise a detailed three-year plan to help me achieve this goal. Include steps to take, as well as the time and money required for each step.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-10T16:20:32.986576+00:00"
+}

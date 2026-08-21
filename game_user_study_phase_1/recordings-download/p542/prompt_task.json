@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Devise a three-year plan. This plan must include concrete, achievable steps. The plan is for Julie, who posts cooking videos online. She has a large following (1.2M people), and she focuses on quick, healthy recipes. Julie has a limited budget and limited time, as she works four days per week. \r\nThe plan needs to help her grow her presence/following online, as well as publish a cookbook. She is unsure between traditional publishing and self-publishing, so you should recommend the best option for her specific situation.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-22T19:57:03.731794+00:00"
+}

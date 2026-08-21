@@ -1,0 +1,25 @@
+{
+  "reflection": "Base the book on favourite recipes that you have followers have enjoyed",
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 2
+      },
+      {
+        "model": "nemotron",
+        "score": 2
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.333,
+    "median_score": 2,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-19T11:40:05.083266+00:00"
+}

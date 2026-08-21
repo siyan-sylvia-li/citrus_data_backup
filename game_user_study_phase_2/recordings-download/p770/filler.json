@@ -1,0 +1,25 @@
+{
+  "reflection": "Since you already have a large following of 1.2 million followers, i think you should bet on yourself and self-publish, since the payout will be much higher.",
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 4
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 3
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.333,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-18T18:29:21.400106+00:00"
+}

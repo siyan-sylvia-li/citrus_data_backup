@@ -1,0 +1,10 @@
+# othelloclub.com puzzle 20260725
+*, *, W, W, W, W, *, *
+*, *, W, B, W, W, W, *
+W, W, W, W, W, W, W, W
+W, W, W, W, B, W, W, W
+W, W, B, B, B, B, W, W
+W, W, B, W, W, W, W, W
+*, *, W, B, B, W, W, W
+*, W, W, W, W, W, W, W
+to_move: B

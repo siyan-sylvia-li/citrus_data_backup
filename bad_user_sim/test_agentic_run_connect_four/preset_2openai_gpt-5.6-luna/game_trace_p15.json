@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Can you analyze this Connect Four position and give the best column for Red, including the opponent's strongest reply and the resulting line?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "The opponent played 5 instead of 4. Recompute the current position from scratch: what is Red's best column now, and why is it tactically safe?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After Red 4 and Yellow 1, what's the exact best Red move? Please check immediate threats and whether continuing in column 4 is actually optimal."
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I see column 4 creates an immediate vertical threat (Red at c4-r3,r4,r5, then r6). Why would column 5 be better? Compare 4 versus 5 concretely, including Yellow's forced reply."
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Current board after R5, Y1: what is the best Red move now? Please identify any immediate winning threat, especially whether column 7 creates a diagonal fork."
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  }
+]

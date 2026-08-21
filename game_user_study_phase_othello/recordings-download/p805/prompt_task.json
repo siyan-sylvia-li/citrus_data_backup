@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Julie has built an audience of 1.2 million people by sharing quick, healthy recipes. She\u2019d like to keep growing and eventually release a cookbook; she hasn\u2019t decided whether to find a publisher or publish it herself. She works only four working days a week and has a limited budget. What could a realistic three-year plan look like? Include how she might grow her audience, make money from her content, and gradually develop the cookbook.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-04T13:23:39.461834+00:00"
+}

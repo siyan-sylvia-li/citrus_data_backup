@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "only 10 empty squares left, my legal moves are g2, b6, a7, b7, b8, c8. which one sets me up best for the endgame?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "white took a8 corner. my options now are g2, b6, a7, c8 - which is best?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "6 empties left (a1,h1,g2,a3,b6,a7). my choices are g2, b6, a7 - which move actually wins me the most discs at the very end?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "looking back, was giving white that a3 pass forced move the real turning point? I want to understand why white had zero legal moves there."
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "after white passed, i had a choice between a1 and g2 for my next move. g2 flipped 5 discs vs a1's 2. was g2 actually the correct choice there or did i just get lucky?"
+  }
+]

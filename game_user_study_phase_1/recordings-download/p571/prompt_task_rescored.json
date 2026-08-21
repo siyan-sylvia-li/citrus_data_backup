@@ -1,0 +1,32 @@
+{
+  "created_prompt": "I need you to create a three-year plan for me to grow my following online from my current 1.2 million subscribers, I also want publish a cookbook within the three-year time frame as well. My content is mostly focussed on quick, healthy cooking videos. My only real limition is my time, as I work only four days a week. I would like to keep costs reasonable as well. Please be detailed and thorough.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "original": {
+    "judges": {
+      "gpt": 3,
+      "llama": 3
+    },
+    "mean_score": 3.0,
+    "median_score": 3.0,
+    "passed": true
+  },
+  "time_taken": 2.965
+}

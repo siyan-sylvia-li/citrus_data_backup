@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "a8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "could I have done anything to keep White off the a-file once a7 fell?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "at the very end, was b8 miles better than a8 or was I already lost?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "how did White a1 after g2 flip so much of the top? I thought I was safe there."
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I thought playing next to a corner was usually bad, but White played b7 right after my c8 and it flipped a bunch. Is b7 safe only because it didn't directly give me the corner, or does the whole diagonal matter?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "after I flipped into c8, I assumed the corner was solid. Is a corner only 'stable' once the whole edge next to it is your color, or is the corner itself safe no matter what?"
+  }
+]

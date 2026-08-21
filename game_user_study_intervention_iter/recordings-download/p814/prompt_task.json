@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Julie works 4 days weekly with limited time & budget. Her goal is to grow online, she has now 1.2M followers. Please write a plan so that she can achieve her goal.",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 2
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    },
+    {
+      "model": "llama",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 1.667,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 1.667,
+  "submitted_at": "2026-08-20T01:19:19.552413+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "created_prompt": "I want to publish a cookbook and grow more online. I cuurently have 1.2 million followers and they love it. I work 4 times a week and have limited time and a small budget. Can you devise a 3 year plan on how I can establish this goal. For the cookbook I am not sure if I am to go traditional or self publishing. Can you make a separate plan for each and tell me the pros and cons of each",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.667,
+  "submitted_at": "2026-08-18T18:29:55.514777+00:00"
+}

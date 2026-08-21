@@ -1,0 +1,34 @@
+[
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "c8 flipped six discs \u2014 why did that still lose me the game?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After white b7, was a7 the right idea or did I have a better square?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Was g2 the losing move, or was the damage done earlier?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "What should my first move have been instead of c8?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Is this endgame actually winnable for black, or just a loss no matter what?"
+  }
+]

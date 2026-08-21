@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Hello. I'm a cooking influencer online who focuses on making quick and healthy recipes. I need a solid three-year plan to help me accomplish the following goals:\r\n1. Growing my online presence with is currently at 1.2M followers.\r\n2. Publishing a cookbook (please advise whether I should use the traditional or the self-publishing route.\r\nAlso please note I work four days a week. I have limited time and a limited budget.\r\nThe plan needs to include a monthly breakdown of actionable steps I can complete.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 4
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.5,
+  "median_score": 3.5,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-23T16:46:37.706122+00:00"
+}

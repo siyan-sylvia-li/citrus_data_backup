@@ -1,0 +1,39 @@
+{
+  "puzzle": "oc20260727",
+  "decisions": 4,
+  "optimal_moves": 2,
+  "opener_optimal": true,
+  "discs_lost": 42,
+  "final_margin": -24,
+  "won": false,
+  "optimal_margin": 18,
+  "completed": true,
+  "moves": [
+    "b7",
+    "b6!",
+    "g2",
+    "c8!"
+  ],
+  "auto_played": [],
+  "chat_turns": null,
+  "game": "othello",
+  "round": 0,
+  "ai_available": true,
+  "model_settings": {
+    "max_tokens": 50000
+  },
+  "questions_asked": 5,
+  "question_budget": 5,
+  "profile": {
+    "persona": "A fellow collector who focuses on a different historical period and shares their findings",
+    "age": 61,
+    "education": "bachelors",
+    "occupation": "other",
+    "ai_frequency": "few_times_month"
+  },
+  "student_model": "together:moonshotai/Kimi-K2.6",
+  "student_mode": "default",
+  "questions_required": 5,
+  "assistant_preset": "default",
+  "streamed": false
+}

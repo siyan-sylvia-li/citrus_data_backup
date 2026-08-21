@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Can you create a concrete three-year plan for me? My ultimate goal in those three years is to grow my online presence and public a cookbook (either traditionally or via self-publishing). I currently post cooking videos to 1.2 million follows and I focus on quick, healthy recipes. I work four days a week and have a limited time and budget.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-10T19:57:27.718536+00:00"
+}

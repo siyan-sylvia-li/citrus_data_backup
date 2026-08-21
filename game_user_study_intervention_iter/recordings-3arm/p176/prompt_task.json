@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Using the information provided, could you please devise a concrete three-year plan for Julie",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 2
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 1.667,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 1.667,
+  "submitted_at": "2026-08-21T13:04:25.348153+00:00"
+}

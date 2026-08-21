@@ -1,0 +1,34 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Which of my six legal moves leads to the most discs at the end if both play perfectly? g2, b6, a7, b7, b8, c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Quick one \u2014 after White played a8, which of my four legal moves is best: g2, b6, a7, or c8?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Okay, game over. Was this endgame actually winnable for Black from that original board position, or was White always going to come out ahead with perfect play?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After White grabbed a8, was c8 really my best shot, or would a7 or b6 have held more discs at the end?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "What\u2019s the key strategic takeaway here\u2014was the whole game decided by corner control on the bottom edge, or was there a deeper endgame principle I missed?"
+  }
+]

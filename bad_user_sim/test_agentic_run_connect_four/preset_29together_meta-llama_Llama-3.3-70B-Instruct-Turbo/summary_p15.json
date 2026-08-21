@@ -1,0 +1,43 @@
+{
+  "puzzle": "15",
+  "decisions": 8,
+  "optimal_moves": 5,
+  "optimal_first_n": 2,
+  "decisions_first_n": 3,
+  "kept_win_moves": 8,
+  "opener_optimal": true,
+  "exact_decisions": 8,
+  "result": "red_win",
+  "won": true,
+  "plies_to_win_at_start": 9,
+  "completed": true,
+  "columns": [
+    "4",
+    "4",
+    "2!",
+    "3",
+    "1!",
+    "5",
+    "6!",
+    "5"
+  ],
+  "auto_played": [],
+  "chat_turns": null,
+  "game": "connect_four",
+  "round": 0,
+  "ai_available": true,
+  "model_settings": {
+    "max_tokens": 50000
+  },
+  "questions_asked": 6,
+  "question_budget": 10,
+  "profile": {
+    "persona": "a business owner who works in the food and beverage industry",
+    "age": 46,
+    "education": "hs_graduate",
+    "occupation": "hospitality",
+    "ai_frequency": "less_than_monthly"
+  },
+  "student_model": "together:meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "streamed": false
+}

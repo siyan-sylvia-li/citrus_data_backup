@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I see several moves on the left side. Which one is safest if White plays carefully, and why?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now White took a8, and I can play g2, b6, a7, or c8. I\u2019m worried about giving up the corner\u2014what should I take next?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After c8, White answered b8 and I\u2019m down on the count. Of g2, b6, and a7, which move gives the best end result? I\u2019m thinking a7 may force the edge, but not sure."
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White took b6 and only a1, g2, a3 are left for me. I want to avoid opening a corner for White\u2014what is the best one now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White passed after a3. With a1 or g2 left, should I take the corner now, or is g2 better for the final flips?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

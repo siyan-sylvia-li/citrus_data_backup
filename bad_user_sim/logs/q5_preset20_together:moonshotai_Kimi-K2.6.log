@@ -1,0 +1,9 @@
+    (HTTP 429: waiting 2s, attempt 1)
+    (HTTP 429: waiting 4s, attempt 2)
+    (HTTP 429: waiting 2s, attempt 1)
+    (HTTP 429: waiting 2s, attempt 1)
+    (HTTP 429: waiting 4s, attempt 2)
+    (HTTP 429: waiting 2s, attempt 1)
+round 0 oc20260727   ai=True  questions=5 4/5 optimal  won=True
+round 1 b220260706   ai=False questions=0 3/3 optimal  won=True
+round 1 bg20260726   ai=False questions=0 3/3 optimal  won=True

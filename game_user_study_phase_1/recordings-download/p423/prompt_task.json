@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I make money from videos online to do with easy healthy recipes. i currently have 1.2m followers and over the next three years i want to grow my online presence and follower numbers. i have a limited budget and time as i currently still work 4 days a week at another job. eventually i also want to publish a book but i don't know whether i want to self publish or get a publisher. what would you reccommend doing over the next three years to achieve this goal of more followers, more online presence and the ability to publish a book.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-03T15:44:50.874146+00:00"
+}

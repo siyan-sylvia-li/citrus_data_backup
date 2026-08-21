@@ -1,0 +1,40 @@
+{
+  "puzzle": "bg20260726",
+  "decisions": 2,
+  "optimal_moves": 0,
+  "opener_optimal": false,
+  "discs_lost": 14,
+  "final_margin": -10,
+  "won": false,
+  "optimal_margin": 4,
+  "completed": true,
+  "moves": [
+    "g8!",
+    "h7!"
+  ],
+  "auto_played": [
+    "g7"
+  ],
+  "chat_turns": null,
+  "game": "othello",
+  "round": 1,
+  "ai_available": false,
+  "model_settings": {
+    "max_tokens": 50000
+  },
+  "questions_asked": 0,
+  "question_budget": 0,
+  "profile": {
+    "persona": "An authoritative but supportive figure with a goal of increasing school graduation rates",
+    "age": 51,
+    "education": "postgrad",
+    "occupation": "education",
+    "ai_frequency": "weekly"
+  },
+  "student_model": "together:moonshotai/Kimi-K2.6",
+  "student_mode": "default",
+  "questions_required": 5,
+  "assistant_off": false,
+  "assistant_preset": "default",
+  "streamed": false
+}

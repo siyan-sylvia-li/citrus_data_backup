@@ -1,0 +1,41 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "this endgame is tricky. where should i play next?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "board changed a lot. White got back in it with a8. I'm thinking g2 since it flips a bunch, but I'm worried White hits a3 right after. Does that hold up? My other choices are b6, a7, c8."
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "ok starting over. on the opening board i got 6 possible moves: g2, b6, a7, b7, b8, c8. i was thinking c8 looks like it flips a ton. is that the right idea or is it a trap?"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "the board the user sent shows the start of the puzzle again, but when i check the board it still says game over. did the game reset or not? which board should i trust?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "engine still says game over. should i try to play b7 anyway to see if it works, or just call it?"
+  }
+]

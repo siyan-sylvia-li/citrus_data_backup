@@ -1,0 +1,45 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "What's the optimal move for Black here to maximize the final disc count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White played a8. What\u2019s my best move now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "What was Black's winning first move in this puzzle?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "What should Black have played after White's a8?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Was there any point where Black could have taken the lead?"
+  }
+]

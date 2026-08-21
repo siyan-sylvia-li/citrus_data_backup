@@ -1,0 +1,34 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I noticed White played a8 right after I took that row at b7. Was that a strong move or just a filler?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm thinking about my b6 move. It felt right at the time, but did it just open up the column for White?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I keep wondering if there was a way to keep the b-column stable. Any tricks for that in this layout?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm weighing the g2 move. If I'd played that earlier, would it have changed the outcome?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Looking at the final score, I got crushed. Was this board just unwinnable for Black?"
+  }
+]

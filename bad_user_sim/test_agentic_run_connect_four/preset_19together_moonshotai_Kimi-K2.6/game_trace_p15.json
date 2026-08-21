@@ -1,0 +1,34 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at this Connect Four endgame. Red to move. I can see a diagonal R-R if I play c4r3 connecting to c5r2 and c6r1, but that only makes three. I don't spot an immediate double threat. Is there a specific column that creates a forced win or unavoidable threat for Red from this position, or should I be playing defensively against a Yellow counter?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 2
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After c3r4, c2r4, and c4r4 were filled, Red has three in a row on row 3 (c2-c3-c4) and some scattered threats, but I don't see a clear double threat or win. Should Red be pressing for a forced win with c4r5 to build vertical at c4, or is the position heading toward a draw with best play? What should Red prioritize here?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  }
+]

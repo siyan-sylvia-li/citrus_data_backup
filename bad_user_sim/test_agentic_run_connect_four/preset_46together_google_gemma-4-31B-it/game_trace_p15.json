@@ -1,0 +1,26 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at the board and see Yellow has a couple of potential threats. I'm thinking about blocking Col 4 or Col 5, but I'm not sure if playing in Col 4 actually helps Yellow get to row 4 for a diagonal win. Can you tell me what the biggest threat is right now?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  }
+]

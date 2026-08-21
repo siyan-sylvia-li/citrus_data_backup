@@ -1,0 +1,8 @@
+Mark 1 in each act column that applies to the utterance (multi-label ok); leave blank otherwise.
+
+SolReq      Solution Request: open request for the assistant to explain/teach/give the answer (no candidate proposed)
+CommonGrd   Common Ground Question: user proposes their OWN answer/understanding and asks to confirm it
+KnowDef     Knowledge Deficit Question: asks about a concept/term/step, or clarifies something the assistant said
+ThinkAloud  Think Aloud: user narrates their OWN reasoning / works through the problem out loud
+Ack         Conversational Acknowledgment: ok / thanks / yes / got it
+Meta        Metacomment: comments on their own state of knowledge (I don't get it / oh I see now / I'm confused)

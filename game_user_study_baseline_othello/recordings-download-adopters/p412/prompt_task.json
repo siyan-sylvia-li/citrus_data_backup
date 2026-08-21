@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Pretend to be a social media consultant for Julie. \r\nJulie is a food creator with 1.2 million followers built her platform based on quick and healthy recipes. \r\n\r\nOutside of content creation - she works four days a week, has a limited budget and wants to acheive two goals over the next three years: \r\n\r\nmore and sustained growth online, and a published cookbook she is unsure if she wants to publish traditionally, or self-publish this cookbook.\r\n\r\nMake a three-year plan for julie\r\n\r\nRequirements:\r\n\r\nStructure it year by year, and within each year break it into quarters with specific actionables.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 4
+    },
+    {
+      "model": "nemotron",
+      "score": 4
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.667,
+  "median_score": 4,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T14:00:07.331743+00:00"
+}

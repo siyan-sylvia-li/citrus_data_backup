@@ -1,0 +1,48 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Looking at this board, is there an immediate threat I need to block, or a winning move I could be missing? I don't want to just play randomly."
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Okay, given all that, which single column would you actually recommend I drop into right now, and why is it safe?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I notice c4r3, c5r2, c6r1 are all red - if c3 gets filled up to row 4 with red, wouldn't that be four in a diagonal? What's my best move to work toward that without handing Yellow anything?"
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "play_move",
+    "move": 6
+  },
+  {
+    "tool": "play_move",
+    "move": 1
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  }
+]

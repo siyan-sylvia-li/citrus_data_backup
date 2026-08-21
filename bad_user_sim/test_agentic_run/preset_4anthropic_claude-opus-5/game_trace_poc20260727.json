@@ -1,0 +1,33 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Quick one: out of g2, b6, a7, b7, b8, c8 for Black here, which one actually wins the endgame? c8 flips a ton but I think it hands White b8 and then the a8 corner."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White grabbed a8 anyway. Now I've got g2, b6, a7, c8. b6 flips 4 but then White's a7 flips them right back on that diagonal. g2 flips 5 down the g-file but gives up h1. Which one?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Not following \u2014 c8 only flips d8 for me, and then White plays b8 and takes c8, d8 and e8 straight back. g2 flips five and h1 only wins one back. Are you sure?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm counting it out and it looks grim \u2014 White owns a1, a3, a7 and h1 no matter what I do, and I can't legally play a1 or a3 ever. Between g2 and b6 now, which order salvages more discs?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  }
+]

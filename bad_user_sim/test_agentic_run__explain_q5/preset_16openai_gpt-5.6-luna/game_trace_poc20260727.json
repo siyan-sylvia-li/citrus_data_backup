@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Can you identify the best line from this position? I need the minimax-optimal first move and likely reply sequence, not just a heuristic."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "The opponent chose a7 after b6, so only b8/c8 remain. Which is the minimax move now, and what forced reply follows?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Can you verify whether b8 was the correct minimax move after White played a7?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Please sanity-check the final disc count and pass sequence from the completed line."
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Was there any legal Black move after White c8, or was passing forced?"
+  }
+]

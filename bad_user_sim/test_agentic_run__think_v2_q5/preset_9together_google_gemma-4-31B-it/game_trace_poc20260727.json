@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I'm thinking b7 looks promising for flipping a few pieces, but I'm a bit nervous about the corners. Is that a safe bet?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at the b-column and the 7th row. If I play b6, does it actually flip b7, or do I need a piece at b8 for that? Also, which of my legal moves (g2, b6, a7, c8) is best for preventing White from making a huge comeback?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I've got a few options left: a1, b6, and a7. I'm leaning towards a1 since it's a corner, but I don't want to miss out on more flips. Which one is actually the smartest move here to finish the game?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at this board and it seems I'm quite far behind. I see b7 might flip a few pieces, but I've always been cautious about the corners\u2014is b7 a safe place to start, or is there something more secure?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at b7 and it looks like I could flip quite a few pieces there, but I've always been a bit wary of the corners. Is b7 a safe move, or does it open something up for White?"
+  }
+]

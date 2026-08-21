@@ -1,0 +1,25 @@
+{
+  "created_prompt": "create a concrete three-year growth and publishing plan for a cooking video creator with 1.2M followers. Include actionable steps for audience growth, content expansion and a comparison of traditional vs self-publishing with estimated costs, timelines and pros and cons or each. Assume a limited budget and a 4 -day work week",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": false,
+  "rule": "mean",
+  "decisive_score": 3.0,
+  "submitted_at": "2026-08-18T16:58:57.953770+00:00"
+}

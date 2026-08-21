@@ -1,0 +1,25 @@
+{
+  "created_prompt": "I need a three point plan that comprehensively covers the following requirement.  Overall time period is 3 years.  Available resources are one individual 4 days a week with a desire to not invest more than very lightly financially.  Assume AI can be a reference resource throughout.  The intent is to use my existing 1.2 million followers of my cooking videos (quick healthy recipes) to publish a cookbook.  This will entail growing online attachment and investigating self published versus publisher.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 3.0,
+  "submitted_at": "2026-08-20T02:44:53.152307+00:00"
+}

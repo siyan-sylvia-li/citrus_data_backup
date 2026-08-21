@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Is b7 the best move here? It looks like it flips a lot of pieces."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I see a few options now. Should I go for b6 to flip a few pieces, or is c8 better? I'm not sure which one helps more at the end."
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I've got g2, b6, and a7 left. Which one is the smartest move to finish strong? I'm a bit lost on which one helps me win more in the end."
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Almost there! I have a1, g2, and a3. Is the corner a1 the way to go, or is one of the others better to get more pieces?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

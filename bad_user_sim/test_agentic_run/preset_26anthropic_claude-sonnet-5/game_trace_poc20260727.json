@@ -1,0 +1,41 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Hi - I'm Black and there's only 10 empty squares left. My choices are g2, b6, a7, b7, b8, c8. Which one sets me up best to win the count at the end? I'm behind right now but I hear that doesn't matter yet."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now it's g2, b6, a7, or c8. Which one now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Ugh that last one backfired, White jumped way ahead. Now I've got g2, b6, or a7 left to pick from with only 6 empty squares total. What's my best shot to come back on the final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

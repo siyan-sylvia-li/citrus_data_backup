@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Act as an expert digital media strategist, book publishing consultant, and content creator coach. Create a concrete, realistic three-year growth and monetization plan for Julie, a food creator with 1.2M followers who loves quick, healthy recipes. She works a four-day regular workweek and has a limited time and budget. Your plan must outline: Year 1-3 Milestones: Step-by-step audience growth, time-saving content creation workflows fitting her 4-day workweek, and budget-friendly resource allocation. Publishing Route Analysis: A clear comparison of traditional publishing versus self-publishing tailored specifically to her audience size, health niche, and limited schedule, concluding with a definitive recommendation. Cookbook Launch Roadmap: Timeline for writing, testing, marketing, and launching the cookbook by the end of Year 3.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 4
+    },
+    {
+      "model": "gpt",
+      "score": 4
+    },
+    {
+      "model": "nemotron",
+      "score": 4
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 4.0,
+  "median_score": 4,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-04T13:52:42.273332+00:00"
+}

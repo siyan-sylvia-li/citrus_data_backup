@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Create a 3 year plan for Julie who posts cooking videos to her followers. Her plan is to grow online and publish a cookbook.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 2
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 1.667,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-20T14:18:14.724175+00:00"
+}

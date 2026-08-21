@@ -1,0 +1,34 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, I'm new to reading Connect Four boards like this. Looking at the current position, what's the best column for me (Red) to play right now, and why?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm thinking of a forced sequence: play col 3, then if Yellow blocks col 3, I play col 2 (makes 3 vertical, forcing a block), then col 4 (another vertical 3, forcing another block), then col 7 (sets up a diagonal needing col5-row4), forcing Yellow to fill col5-row4, and THEN I play col5 again to win on a different diagonal (c2r2-c3r3-c4r4-c5r5). Does this actually work, or am I missing a hole in it?"
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "play_move",
+    "move": 2
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  }
+]

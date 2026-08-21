@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I just lost 22-42. My moves were b7, g2, b6, b8. Was the position already lost, or did I throw it away with one of those?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "should I have played c8 first instead of b7? would that have saved the a8 corner?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "was g2 a bad move too? it flipped a lot of discs but opened up h1 for white"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "what about b6? should I have skipped that and gone straight for c8 or b8?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "so the lesson is basically never play next to an empty corner unless you absolutely have to?"
+  }
+]

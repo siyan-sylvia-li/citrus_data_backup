@@ -1,0 +1,27 @@
+{
+  "prolific_id": "p490",
+  "game": "connect_four",
+  "rounds": [
+    {
+      "puzzle": "15",
+      "ai": true,
+      "ai_survey": true,
+      "gate": true,
+      "time_limit": 360
+    },
+    {
+      "puzzle": "w4p6",
+      "ai": false,
+      "ai_survey": false,
+      "time_limit": 180,
+      "attempts": 2
+    }
+  ],
+  "skill_rating": "1",
+  "age": 36,
+  "education": "bachelors",
+  "occupation": "it",
+  "genai_usage": "several_times_day",
+  "consented_at": "2026-07-15T18:15:34.922077+00:00",
+  "submitted_at": "2026-07-15T18:27:07.334219+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "puzzle": "w4p6",
+  "decisions": 5,
+  "optimal_moves": 3,
+  "optimal_first_n": 1,
+  "decisions_first_n": 3,
+  "kept_win_moves": 5,
+  "opener_optimal": false,
+  "exact_decisions": 5,
+  "result": "red_win",
+  "won": true,
+  "plies_to_win_at_start": 7,
+  "completed": true,
+  "columns": [
+    "5!",
+    "5!",
+    "1",
+    "3",
+    "3"
+  ],
+  "auto_played": [],
+  "chat_turns": null,
+  "game": "connect_four",
+  "round": 1,
+  "ai_available": false,
+  "model_settings": {
+    "max_tokens": 100000
+  },
+  "questions_asked": 0,
+  "question_budget": 0,
+  "profile": {
+    "persona": "An attentive history teacher",
+    "age": 42,
+    "education": "postgrad",
+    "occupation": "education",
+    "ai_frequency": "few_times_month"
+  },
+  "student_model": "anthropic:claude-sonnet-5",
+  "streamed": false
+}

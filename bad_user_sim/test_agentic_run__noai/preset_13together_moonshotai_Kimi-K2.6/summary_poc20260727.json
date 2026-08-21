@@ -1,0 +1,41 @@
+{
+  "puzzle": "oc20260727",
+  "decisions": 3,
+  "optimal_moves": 2,
+  "opener_optimal": false,
+  "discs_lost": 40,
+  "final_margin": -22,
+  "won": false,
+  "optimal_margin": 18,
+  "completed": true,
+  "moves": [
+    "c8!",
+    "a7",
+    "g2"
+  ],
+  "auto_played": [
+    "b6"
+  ],
+  "chat_turns": null,
+  "game": "othello",
+  "round": 0,
+  "ai_available": false,
+  "model_settings": {
+    "max_tokens": 200000
+  },
+  "questions_asked": 0,
+  "question_budget": 0,
+  "profile": {
+    "persona": "A parent who has experienced their own challenges in adjusting to new environments and provides unconditional support",
+    "age": 43,
+    "education": "some_college",
+    "occupation": "other",
+    "ai_frequency": "weekly"
+  },
+  "student_model": "together:moonshotai/Kimi-K2.6",
+  "student_mode": "default",
+  "questions_required": 0,
+  "assistant_off": true,
+  "assistant_preset": "default",
+  "streamed": false
+}

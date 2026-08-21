@@ -1,0 +1,34 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I'm new to this. Which one of these moves is my best bet? b7 looks like it takes a lot, but I don't want to give my opponent a chance to flip them back."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Okay, White took a8. Now I can do g2, b6, a7, or c8. Which one is the right move now to keep my lead or catch up?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "It feels like I'm losing ground. I can do g2, b6, or a7. Which one is the smartest move to try and turn this around?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

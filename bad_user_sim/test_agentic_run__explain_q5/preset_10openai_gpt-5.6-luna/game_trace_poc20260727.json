@@ -1,0 +1,34 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Can you identify the best move here under optimal play, ideally with the principal variation? I want to avoid hand-simulating every branch."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After White's a8, Black legal moves are g2, b6, a7, c8. Which is the optimal continuation, and what replies should I expect?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I\u2019m least sure whether b7 was genuinely optimal or whether the endgame search missed a better corner sequence. Can you reassess the initial position?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "The continuation after c8 and b6 behaved unexpectedly, with forced moves and a large White lead. Was c8 actually a mistake, and what should Black have played after White a8?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Can you give the correct optimal first move and a concise principal variation from the original board, focusing on final disc count?"
+  }
+]

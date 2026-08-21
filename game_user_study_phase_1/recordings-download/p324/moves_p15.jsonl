@@ -1,0 +1,3 @@
+{"game": "connect_four", "puzzle": "15", "round": 0, "attempt": 1, "move_number": 1, "col": 3, "optimal": true, "on_winning_line": true, "winning_cols": [3], "best_cols": [3], "ai_col": 4, "ts": "2026-07-24T14:02:37.432753+00:00"}
+{"game": "connect_four", "puzzle": "15", "round": 0, "attempt": 1, "move_number": 2, "col": 3, "optimal": true, "on_winning_line": true, "winning_cols": [3], "best_cols": [3], "ai_col": 0, "ts": "2026-07-24T14:03:03.860257+00:00"}
+{"game": "connect_four", "puzzle": "15", "round": 0, "attempt": 1, "move_number": 3, "col": 4, "optimal": true, "on_winning_line": true, "winning_cols": [4], "best_cols": [4], "ai_col": 0, "ts": "2026-07-24T14:05:45.649664+00:00"}

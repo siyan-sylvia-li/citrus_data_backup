@@ -1,0 +1,19 @@
+{
+  "created_prompt": "I have a successful social media presence creating cooking videos, and would like to expand my ambitions in the future. I need a three-year plan that I can stick to that will generate growth online as a content creator. I'm also looking publish a cookbook in the future, and would like your input in how this will fit into my three year plan. I work four days a week and have both limited time and financial budget.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-28T13:47:13.194467+00:00"
+}

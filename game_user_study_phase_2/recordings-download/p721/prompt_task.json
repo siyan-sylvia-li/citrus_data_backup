@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Hi, my name is Julie and I make recipe videos which people can watch online. I'd like to grow my business and publish a cookbook in the next few years. I have a limited budget and work three days a week. Can you give me a plan how to accomplish this is three years? Thanks",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 2
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.0,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.0,
+  "submitted_at": "2026-08-18T18:29:26.612290+00:00"
+}

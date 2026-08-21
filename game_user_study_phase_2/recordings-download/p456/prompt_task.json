@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Create a solid three-year plan for someone who works four days per week and would like to publish a cookbook but who cannot decide on traditional publishing vs. self-publishing and who has limited time and budget",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.0,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.0,
+  "submitted_at": "2026-08-19T11:04:36.660136+00:00"
+}

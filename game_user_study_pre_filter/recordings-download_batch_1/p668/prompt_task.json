@@ -1,0 +1,22 @@
+{
+  "created_prompt": "I need help organizing my goals. Currently I make cooking videos and have over a million followers. Can you give me concrete steps for a three year plan in which I: grow my online following, publish a cookbook, and start a food blog. Currently I work four days a week and don't have much time because i adopted a child recently.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "qwen",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-06-26T23:07:47.403025+00:00"
+}

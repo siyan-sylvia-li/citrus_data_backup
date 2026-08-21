@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Write a 3 year plan for ways to grow my online business which involves the cooking videos I upload to social media.  Include a plan to publish a cookbook & the pros & cons of traditional vs self-publishing.  My time & budget is limited.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-24T13:26:31.934728+00:00"
+}

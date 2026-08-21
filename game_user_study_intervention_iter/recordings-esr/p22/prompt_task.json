@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Can you devise a three year plan about launching and publishing a cookbook for Julie. She posts cooking videos about quick healthy recipies and has 1.2 million followers. She wants to publish a cookbook but she doesn't know how to publish it. She wants to know the difference between traditional publishing methods and self publishing. She currently works 4 days a week and has limited time and a limited budget. Can you make her a three year plan to help accomplish this goal.",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 3.0,
+  "submitted_at": "2026-08-20T16:47:15.484598+00:00"
+}

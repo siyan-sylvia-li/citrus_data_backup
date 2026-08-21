@@ -1,0 +1,9 @@
+{
+  "prolific_id": "preset_30together_moonshotai_Kimi-K2.6",
+  "game": "connect_four",
+  "age": 33,
+  "education": "bachelors",
+  "occupation": "other",
+  "genai_usage": "few_times_week",
+  "student_model": "together:moonshotai/Kimi-K2.6"
+}

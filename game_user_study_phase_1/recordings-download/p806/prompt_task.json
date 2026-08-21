@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Create a three-year plan for a cooking influencer, Julie, to grow her online presence and publish a cookbook. She already has 1.2 million followers for creating shortform cooking videos that focus on fast, healthy recipes. The plan should be doable for someone with time constraints (she works another job four days per week) and a limited budget. Also tailor the plan to compare the pros and cons of traditional publishing versus self-publishing her cookbook.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 4
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.333,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-03T15:52:11.772090+00:00"
+}

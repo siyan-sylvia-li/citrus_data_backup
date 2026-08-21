@@ -1,0 +1,2 @@
+{"type": "leave", "reason": "visibilitychange", "game": "othello", "puzzle": "b220260706", "round": 1, "ts": "2026-08-20T11:04:29.059117+00:00"}
+{"type": "return", "reason": "dismiss", "game": "othello", "puzzle": "b220260706", "round": 1, "ts": "2026-08-20T11:04:48.656564+00:00"}

@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I\u2019m Black with legal moves g2, b6, a7, b7, b8, c8. Which move gives me the highest final disc count assuming White plays optimally?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "My legal moves are now g2, b6, a7, c8. Which one wins me the most discs at the end with optimal White play?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Legal moves are g2, b6, a7. Which move maximizes my final disc count against optimal White play?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Legal moves: a1, g2, a3. Which gives me the best final count with optimal White play?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Legal moves: a1, g2. Which wins me more discs at the end assuming optimal White play?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

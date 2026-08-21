@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, I'm kind of staring at this board and not seeing the best play. Which move is actually my best bet here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White just took a8. What's the play now? g2, b6, a7, or c8?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm trailing by quite a bit. Between g2, b6, and a7, which one puts me in the best position to catch up?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Okay, down to the wire. I've got a1, g2, and a3. a1 is a corner, which usually feels like a win, but I'm way behind. Which one actually helps me more right now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I've got a1 and g2. a1 is a corner, and I can see that if I get a1 and then h1, I might flip the whole top row. Should I just go for a1 now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

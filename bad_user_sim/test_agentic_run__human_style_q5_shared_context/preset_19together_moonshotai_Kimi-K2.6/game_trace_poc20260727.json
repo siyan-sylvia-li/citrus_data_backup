@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "b7 and c8 both flip a bunch of discs. Endgame's not my strong suit\u2014can you tell which one is optimal here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White hit back with a8 and flipped b7. Facing g2, b6, a7, c8 now\u2014which one holds up best here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Down to g2, b6, or a7 now\u2014White\u2019s run up to 36. Which one keeps me in this?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Was a3 the right reply after White played b6, or would a1 have been stronger?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "One more thing\u2014when White had no move after my a3, should I have grabbed a1 right then instead of g2 to lock the edge?"
+  }
+]

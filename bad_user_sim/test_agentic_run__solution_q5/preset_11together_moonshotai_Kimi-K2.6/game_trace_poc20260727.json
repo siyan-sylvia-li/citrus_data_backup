@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "what's the best move here? I'll take whatever gets me the most discs."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "what's my best move now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "what's my best move now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Can you tell me why c8 was better than a7 when I had that choice? And did I still have a winning path after White took a8?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Was b7 even the right first move, or did I lose this in the opening?"
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm Black with 20 discs vs White's 34, only 10 empty squares left. My legal moves are g2, b6, a7, b7, b8, c8. Which one gives me the best final count? I don't really know how to read ahead on this, can you walk me through which is safest/best?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White just took corner a8. Now my options are g2, b6, a7, c8. Which is best for the endgame?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Only 6 empty squares left now. My choices are g2, b6, or a7. Which sets me up to win the final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Can you explain why White kept having no legal moves there at the end? I don't totally get why they got stuck passing three times in a row like that."
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Looking back, was my very first move (b7) actually the key move that set up this whole comeback, or could I have done just as well starting somewhere else?"
+  }
+]

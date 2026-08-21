@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Hello! I\u2019m a cooking influencer who specializes is quick, healthy recipes. I already have over a million followers. I would like to continue growing my audience and eventually publish a cookbook, although I am torn between pursuing a traditional publishing route or self-publishing. Taking into account that I work four days a week and have limited time, can you help me come up with a 3-year plan to help me achieve my goals?",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-03T15:58:34.852487+00:00"
+}

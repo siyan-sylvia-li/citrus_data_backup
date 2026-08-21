@@ -1,0 +1,25 @@
+{
+  "created_prompt": "I need help publishing a cookbook that is either torn on tarditional or self publishing and I have a strong follower of over a million people but I have limited time as I work four days a week and small budget.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 2
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.0,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.0,
+  "submitted_at": "2026-08-18T16:26:31.240011+00:00"
+}

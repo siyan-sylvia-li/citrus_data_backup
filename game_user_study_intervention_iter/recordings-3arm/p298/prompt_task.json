@@ -1,0 +1,25 @@
+{
+  "created_prompt": "I create and post cooking videos online to around 1.2 million followers. They absolutely love my recipes because they're quick to make and oriented towards a healthy lifestyle. I'm trying to devise a plan that can be accomplished within the next 3 years and I want your assistance. I'm still trying to grow my online audience but I also want to publish a cookbook. I'm stuck between self-publishing the book or going the traditional route. The thing is, I work 4 days a week, so my time is limited as is my overall budget. What suggestions can you offer me?",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 3.0,
+  "submitted_at": "2026-08-21T12:36:00.701126+00:00"
+}

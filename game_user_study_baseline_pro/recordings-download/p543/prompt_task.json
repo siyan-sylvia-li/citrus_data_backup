@@ -1,0 +1,19 @@
+{
+  "created_prompt": "create a realistic three year plan for Julie, a food creator with 1.2 million followers who shares quick, healthy recipes. she wants to grow her online audience and publish a cookbook, but she has not yet decided between traditional and self-publishing. since she works four days a week and has a limited budget, the plan should be practical and manageable. \r\nbreak the plan down by year and include the main priorities, quarterly milestones, content strategy, possible partnerships, expected costs, time commitment, and realistic audience and revenue targets. compare traditional publishing and self-publishing, including the advantages, disadvantages, workload, costs, control, distribution, and earning potential of each option. recommend the most suitable route for Julie and explain why. also include a realistic cookbook production timeline, the main risks she may face, and a small set of metrics she should track each month.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 4
+    },
+    {
+      "model": "gpt",
+      "score": 4
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 4.0,
+  "median_score": 4.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-21T13:16:31.083367+00:00"
+}

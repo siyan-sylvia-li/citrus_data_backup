@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Creating a realistic 3 year growth plan for Julie who is a cooking creator with 1.2 million followers, she focuses on quick, healthy recipes. \r\n\r\nHer goals are to grow her online audience and publish a cookbook within 3 years. compare traditional publishing with self publishing and recommend best option for her. \r\n\r\nBreak plan into year 1, 2 and 3 with specific actions, milestones, estimated costs, revenue opportunities and measurable goals. keep in mind Julie works 4 days per week on a limited budget.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 3.0,
+  "submitted_at": "2026-08-20T02:20:51.294211+00:00"
+}

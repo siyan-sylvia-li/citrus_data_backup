@@ -1,0 +1,30 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Hi, I'm new to reading these boards. Looking at my Red pieces, is there a move that forces Yellow into a bad spot, or should I just play defense right now? I was eyeing column 2 since I've got two reds stacked there already."
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "play_move",
+    "move": 2
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  }
+]

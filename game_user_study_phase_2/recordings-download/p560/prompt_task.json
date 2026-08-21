@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Create a 3 year plan to help Julie grow her 'quick and healthy recipe' cooking videos channel online and lead to her publishing a cookbook. Julie is undecided whether to be traditionally published or self published and please factor into the plan that she works 4 days a week so has limited time and budget.",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.667,
+  "submitted_at": "2026-08-19T11:54:45.815179+00:00"
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "i'm thinking b7 because it flips a bunch of pieces, is that a good move?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "i'm new at this, where should i even start?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "i'm not really sure how to play this, what does the board look like for me?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "did i mess up by playing c8? was there a better spot?"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "man i really lost bad... any tips for next time so i dont get wiped out like that?"
+  }
+]

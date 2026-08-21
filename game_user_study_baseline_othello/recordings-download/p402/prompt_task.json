@@ -1,0 +1,23 @@
+{
+  "created_prompt": "She needs to make more money in that way she can publish her book which will make her more money and she wont have limited time to focus on her social pages along with requiring funds for her next adventure",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 1
+    },
+    {
+      "model": "gpt",
+      "score": 1
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 1.0,
+  "median_score": 1,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-20T11:49:44.086727+00:00"
+}

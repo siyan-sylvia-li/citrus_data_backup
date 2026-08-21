@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Hi - I'm Black and I'm behind by a lot (20 to 34). I have these legal moves: g2, b6, a7, b7, b8, c8. This is only my first time doing one of these puzzles, so I'm a little lost on how to think about it. Which move gives me the best shot at actually winning by the end, and why?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Ouch, White grabbed a8. Now my options are g2, b6, a7, c8. Which one now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "This is looking bad, 22 to 36 now with only 6 empty squares left (g2, b6, a7 are my choices). Is there any path left to actually win this, or am I just minimizing the loss at this point? What's the best pick?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now that it's done - I'm still fuzzy on why that a3 move worked so well and forced White to pass. Can you help me understand what actually made that the turning point?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Okay that makes sense, thanks. One more thing - looking back, was g2 actually the right very-first move you gave me, or would things have gone differently if I'd started with a3 right away back at the beginning?"
+  }
+]

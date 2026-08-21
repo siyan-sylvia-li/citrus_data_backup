@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I am a video creator of cooking videos with 1.2 million followers.  I work four days a week so I have limited time and budget.  My goal is to grow my online brand and publish a cookbook of quick, healthy recipes.  Create a concrete three year plan for increasing my online brand and getting my cookbook published.  Also advise me on whether to do traditional publishing or self-publishing.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T14:59:02.878704+00:00"
+}

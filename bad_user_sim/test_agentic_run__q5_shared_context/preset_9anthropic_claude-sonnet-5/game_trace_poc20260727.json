@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "ok this is a lot to take in - only 10 empty squares left. Which of my options (g2, b6, a7, b7, b8, c8) actually sets me up best at the end? I'm not great at counting this far ahead."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "oh interesting, didn't realize a8 could flip my b7 back through that diagonal. Now down to g2, b6, a7, c8 - what's the safest pick now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "yikes, that swung hard against me. only 6 squares left now - g2, b6, a7 are my choices. can you actually work out the best line to the finish this time? I want the real best move, not just a hunch."
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "did that go through? which move should I play - g2, b6, or a7?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now that it's over - I want to make sure I actually understood right. I chose a1 before h1 because I thought playing h1 too early would let you flip g2 back against me. Was that the right reasoning, or did I just get lucky with how it played out?"
+  }
+]

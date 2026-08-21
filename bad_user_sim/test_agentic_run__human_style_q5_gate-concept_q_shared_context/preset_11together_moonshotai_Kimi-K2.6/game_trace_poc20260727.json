@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I'm stuck between b7 and c8 \u2014 they both flip a bunch. Which one holds up better after White responds?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now White played a8 and my options are g2, b6, a7, c8. g2 flips a bunch but do they just steal it back with h1 or b8? Which one here?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Wait, I see b6 and g2 both flip 4 for me, but then White can play b6 and flip 4 of mine back, or c8 and take 5. c8 only flips 1 for me. a7 flips 2. Which one actually wins the endgame? b6 looks like it just swaps blows and I come out worse."
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "This looks bad. White is 36 to 22 and my choices are g2, b6, a7. Which loses the least? Or is there a miracle move?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "was b7 really the best starter there, or did I just get lucky with how White responded?"
+  }
+]

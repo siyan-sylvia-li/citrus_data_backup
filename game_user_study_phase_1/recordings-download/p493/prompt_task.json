@@ -1,0 +1,19 @@
+{
+  "created_prompt": "I want to devise a three-year plan with specific actions and milestones to achieve the following two connected goals - 1. grow my online platform and 2. publish a cook book. I currently have 1.2M followers to social media channels where I post cooking videos with quick, healthy recipes. I want to convert these recipes into a cookbook.  The plan needs to be realistic within the limited time and budget I have available. I am currently working 4 days a week. Please specifiy within the plan an option for traditional publishing, and an option for self-publishing my cookbook.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-28T13:21:41.776957+00:00"
+}

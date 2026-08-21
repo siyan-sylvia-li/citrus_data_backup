@@ -1,0 +1,28 @@
+{
+  "variant": "v2_think_pair",
+  "observation": "group B asks more intuitive questions while group A ask a lot more detailed and simple quick answers to the games they are playing. particpants 3 are a great example of this",
+  "choice": "B",
+  "choice_correct": true,
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 4
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 3
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.333,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-18T12:03:13.650449+00:00"
+}

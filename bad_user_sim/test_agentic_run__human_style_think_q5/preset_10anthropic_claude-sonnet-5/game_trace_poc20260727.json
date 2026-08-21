@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "10 empty squares left, I'm Black. My options are g2, b6, a7, b7, b8, c8. Which move gives me the best final count if White plays well?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "8 empties left. My moves are g2, b6, a7, c8. g2 looks huge (flips f2, g3, g4, g5, g6). Is g2 still best long-term or does it backfire?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "6 empties left: a1, h1, g2, a3, b6, a7. My options are g2, b6, a7. Which one leads to the best final score for me?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Looking back, was giving White that h1 corner near the end actually fine because I had no other legal move? I want to make sure I didn't miss a way to avoid it."
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Also curious - was my a3 move the actual key turning point that forced White's pass, or would g2 or a1 first have worked out fine too?"
+  }
+]

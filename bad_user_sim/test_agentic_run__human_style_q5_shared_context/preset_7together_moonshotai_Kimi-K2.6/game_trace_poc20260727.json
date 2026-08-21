@@ -1,0 +1,49 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Hi - I'm not too confident with endgames. Out of my six legal moves (g2, b6, a7, b7, b8, c8), which one do you think is best?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White answered a8. Now I'm left with g2, b6, a7, c8. Which do you recommend?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "c8 only flips one disc for me. Are you sure it's better than g2?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Alright, looking at this opening position again. My six legal moves are g2, b6, a7, b7, b8, c8. Which one should I start with?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I realize I rushed through the end there without checking with you. After I played a3 and got a1, was there any better order for the final moves?"
+  }
+]

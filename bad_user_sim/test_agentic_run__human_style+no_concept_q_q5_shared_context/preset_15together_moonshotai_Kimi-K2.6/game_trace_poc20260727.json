@@ -1,0 +1,37 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "c8 looks like it flips a lot of pieces, but b7 does too. which one should i go with?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "white flipped my b7 with a8. should i take it back with a7 or go with b6?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "so i still need to ask you stuff before i'm done, even though the game ended?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "was b6 the right move back there?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "what about a7 at the end?"
+  }
+]

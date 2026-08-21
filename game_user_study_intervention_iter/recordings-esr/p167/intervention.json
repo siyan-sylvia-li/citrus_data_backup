@@ -1,0 +1,41 @@
+{
+  "idea": "Nothing. AI assistance is bullshit, let them do their stupidity.",
+  "n_chars": 64,
+  "start_message": "What do you think would be the best move right now?",
+  "selected": "say_thinking",
+  "selected_type": "think_aloud",
+  "selected_carries_forward": true,
+  "others_shown": [
+    "look_ahead",
+    "ask_answer"
+  ],
+  "option_order": [
+    "say_thinking",
+    "look_ahead",
+    "ask_answer"
+  ],
+  "seconds_on_page": 86,
+  "form": "elicit_select_reply",
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 1
+      },
+      {
+        "model": "gpt",
+        "score": 2
+      },
+      {
+        "model": "nemotron",
+        "score": 2
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 1.667,
+    "median_score": 2,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-20T15:45:58.369604+00:00"
+}

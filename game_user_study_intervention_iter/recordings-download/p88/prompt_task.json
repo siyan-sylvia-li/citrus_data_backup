@@ -1,0 +1,25 @@
+{
+  "created_prompt": "I need you to give me ideas on how to write a successful cookery book and I have about 3years, limited time and a certain budget to make this happen!",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 2
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 1.667,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 1.667,
+  "submitted_at": "2026-08-20T20:32:58.000696+00:00"
+}

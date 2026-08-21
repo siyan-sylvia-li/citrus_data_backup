@@ -1,0 +1,45 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "only 10 squares left empty, feels like the whole game hinges on this. of my options (g2, b6, a7, b7, b8, c8), which one sets me up best?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White took a8 corner already. Of my remaining options g2, b6, a7, c8 \u2014 which is safest/best now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "only 6 squares left total (a1,h1,g2,a3,b6,a7), I'm way behind 22-36. Between g2, b6, a7 \u2014 is there a line that actually turns this around, or am I just picking least-bad?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "can you double check that final score is right - 33 to 31 black? I want to make sure I actually pulled off the win and didn't miscount somewhere"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "looking back, was giving up those corner-ish squares early (like letting white take a8) actually necessary, or did I just get lucky that the parity/pass thing worked out for me at the end?"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Consider the following: Julie posts cooking videos to 1.2 million followers who love her quick, healthy recipes. Over the next three years, she wants to continue to grow her online presence and publish a cookbook. She works four days a week and has limited time and budget. Given all of this, 1) Should Julie go with traditional or self-publishing for her cookbook, and 2) Create a three-year plan for Julie to help achieve her goals.",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-28T13:38:51.884514+00:00"
+}

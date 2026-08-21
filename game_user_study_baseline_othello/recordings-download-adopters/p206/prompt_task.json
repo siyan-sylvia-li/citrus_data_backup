@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I would like you to help me create a three-year plan to grow my online presence and publish a cookbook.  My channel consists of quick, healthy recipes and currently has 1.2M followers. The goal of the plan is to grow the number of followers and to publish a cookbook, either through traditional publishing or self-publishing (I would like your insight on what would be better for me). Things to take into account: I work four days a week; therefore, I have little free time, and my budget is also limited. Present the plan in a clear, structured way.",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T21:26:12.724419+00:00"
+}

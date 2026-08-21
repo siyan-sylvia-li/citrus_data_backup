@@ -1,0 +1,38 @@
+{
+  "puzzle": "w4p6",
+  "decisions": 3,
+  "optimal_moves": 1,
+  "optimal_first_n": 1,
+  "decisions_first_n": 3,
+  "kept_win_moves": 2,
+  "opener_optimal": false,
+  "exact_decisions": 3,
+  "result": "yellow_win",
+  "won": false,
+  "plies_to_win_at_start": 7,
+  "completed": true,
+  "columns": [
+    "6!",
+    "3",
+    "2!"
+  ],
+  "auto_played": [],
+  "chat_turns": null,
+  "game": "connect_four",
+  "round": 1,
+  "ai_available": false,
+  "model_settings": {
+    "max_tokens": 50000
+  },
+  "questions_asked": 0,
+  "question_budget": 0,
+  "profile": {
+    "persona": "A young professional working in a different industry, but known for their responsible and trustworthy nature",
+    "age": 29,
+    "education": "bachelors",
+    "occupation": "professional",
+    "ai_frequency": "several_times_day"
+  },
+  "student_model": "together:meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "streamed": false
+}

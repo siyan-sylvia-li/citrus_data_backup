@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I post quick, healthy cooking videos to my 1.2M followers. In the next 3 years, I'd like to grow my following, and publish a cookbook. The problem is, I work 4 days per week, and I have a limited time and budget. Can you help me come up with a concrete 3-year plan to accomplish my goal?",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-10T17:32:21.355275+00:00"
+}

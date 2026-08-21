@@ -1,0 +1,28 @@
+{
+  "variant": "v9_two_rows",
+  "observation": "Participant 2 seemed to have a more understanding of the board, they had there own ideas and just needed help. Participant 1 just seemed to want there next move without much understanding of the game.",
+  "choice": "B",
+  "choice_correct": true,
+  "effort": {
+    "judges": [
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "llama",
+        "score": 4
+      },
+      {
+        "model": "nemotron",
+        "score": 3
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.333,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-19T18:27:05.921781+00:00"
+}

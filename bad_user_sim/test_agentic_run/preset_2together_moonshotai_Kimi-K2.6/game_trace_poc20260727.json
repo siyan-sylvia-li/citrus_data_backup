@@ -1,0 +1,22 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Black to move, down 20\u201334, with legal moves g2, b6, a7, b7, b8, c8. b6 flips 7 immediately and c8 flips 6, but White seems to have a crushing a3 reply either way (flipping 4\u20136 of my discs). In the endgame here, which of these moves actually maximizes Black\u2019s final disc count under optimal play? I only need the move, no need to simulate the whole tree."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  }
+]

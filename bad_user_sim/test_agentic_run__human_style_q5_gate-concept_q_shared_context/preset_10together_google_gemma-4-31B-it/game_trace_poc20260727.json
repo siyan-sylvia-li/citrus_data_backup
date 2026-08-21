@@ -1,0 +1,49 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, b7 looks like a huge flip, is that the best way to close this out?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White just took the corner at a8. I have g2, b6, a7, c8 left. Which one is the move?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm way behind now. g2, b6, or a7? Which one helps me catch up?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I've got a1, g2, and a3. g2 looks like it flips the most, but am I walking into something?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, looking at the board, b7 seems like a huge flip. Is that the right play here or am I missing a trap?"
+  },
+  {
+    "tool": "view_board"
+  }
+]

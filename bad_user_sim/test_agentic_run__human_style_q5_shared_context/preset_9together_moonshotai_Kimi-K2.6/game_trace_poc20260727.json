@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "b7 looks tempting but I worry it opens up too much for white. between b6 and c8, which is better?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "white's a1 really hurt. i have g2, a7, b7, b8, c8. what's the best move here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "what should i have done after b6 and a1? was c8 the right followup or did i mess up earlier?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "was this puzzle winnable for black at all, or just a losing position from the start?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "why did a7 flip so many discs but still lose me the game? is that just how othello works \u2014 big flips can be traps?"
+  }
+]

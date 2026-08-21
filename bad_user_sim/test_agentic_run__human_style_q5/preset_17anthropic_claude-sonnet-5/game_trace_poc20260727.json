@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "quick gut check - board's almost full, only 10 empty squares left. g2 looks like it flips a bunch of white discs (f2, f3, e4, d5). Is that actually the best move here or is there a trap I'm not seeing with corners still open?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "ok what's the actual line after b7 - does it set me up to grab a1 or a8 too, or just deny white h1?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "g2 still looks tempting (flips 4) but you said it's a trap since a8 is White now - confirmed? Between b6, a7, and c8, which is safest/best for the final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White's b8 move hurt a lot (I'm down 22-36 now). 6 squares left: a1,h1,g2,a3,b6,a7. My legal moves are g2, b6, a7. g2 flips 5 for me this time (g3,g4,g5,g6,f2) - does white grabbing h1 after just cost me the 1 disc back, or is there a bigger trap again?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Down big now, 20-40, only 4 empties left: a1, h1, g2, a3. My options are a1, g2, a3. Which one gives me the best final count - trying not to fall for another h1 trap."
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

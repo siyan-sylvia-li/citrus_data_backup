@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm not really sure how to play this. Which of these moves looks like the best one to start with?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I don't really get it... you said I lost by 26? Can you double check that count for me? Seems like a lot."
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I've never played this before. Where should I put my piece to do the best?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Wait, how does the flipping thing work exactly? Like, if I put a piece down, how do I know which ones change?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Since I lost so bad, is there some trick I missed? Like, is it always better to take the corners or something?"
+  }
+]

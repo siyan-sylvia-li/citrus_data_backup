@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Hey there. My name is Julie. I'm an influencer who posts cooking content. I've got over a million followers. I'm trying to grow my brand over the next three years and hopefully publish my own cookbook. I'm currently torn on if I want to go the traditional publishing route or try to self publish. I work 4 days a week so my time is limited and so is my budget. Looking for ideas to grow my brand. I'd like a detailed 3 years plan on how I can accomplish these goals.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-10T17:54:51.338323+00:00"
+}

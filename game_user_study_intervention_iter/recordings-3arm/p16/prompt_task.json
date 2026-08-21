@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Need to map out a 3 year plan for quick , healthy, recipes . Need pros -Cons of traditional publishing vs self publishing",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 2
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 1.667,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 1.667,
+  "submitted_at": "2026-08-21T13:15:24.275723+00:00"
+}

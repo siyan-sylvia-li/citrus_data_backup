@@ -1,0 +1,32 @@
+{
+  "created_prompt": "Write a practical three-year plan for Julie, a cooking creator with 1.2 million followers who is known for quick, healthy recipes. She works only four days a week and has a limited budget, so the plan should focus on realistic, high-impact actions. Include yearly goals, simple quarterly milestones, and a weekly schedule she can actually follow. Suggest ways to grow her audience, increase engagement, and earn more income without adding too much work. Compare traditional publishing and self-publishing for her cookbook, explaining the pros, cons, costs, and timelines of each, then recommend the better option for her situation. Finish with key success metrics and backup strategies in case growth or book sales are slower than expected.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 4
+    },
+    {
+      "model": "nemotron",
+      "score": 4
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.667,
+  "median_score": 4,
+  "threshold": 3.0,
+  "passed": true,
+  "original": {
+    "judges": {
+      "llama": 3,
+      "gpt": 4
+    },
+    "mean_score": 3.5,
+    "median_score": 3.5,
+    "passed": true
+  },
+  "time_taken": 4.087
+}

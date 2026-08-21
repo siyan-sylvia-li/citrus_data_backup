@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Create a three year plan to grow my online cookery business and publish a cook book expanding on my video content which is focused on quick, healthy recipes. I currently have 1.2 million followers and am keen to expand rapidly. Limitations are time and budget. I work 4 days a week so please base the 3 year plan on this level of commitment. Plan should be realistic and achievable. Give me concrete steps I can do to reach my goal in the time frame. Please plan it on a monthly basis with action points each month.",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-22T19:58:44.378912+00:00"
+}

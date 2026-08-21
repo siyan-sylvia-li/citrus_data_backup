@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, looking at this Connect 4 board, columns 1-7, heights are c1:0 c2:2 c3:2 c4:2 c5:2 c6:3 c7:1. Is there a move right now that either wins for me (Red) or that I NEED to avoid because it lets Yellow win next turn?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Given the full board, what's the single best column for Red to play right now with best play from both sides going forward, and can you briefly explain why?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I see a diagonal for Red: c6r1,c5r2,c4r3 all R, needing c3r4 to win, but c3 is only height 2 so r4 isn't playable yet \u2014 it'll take one more disc in c3 to expose it. Given that, and the rest of the board, what's the best move for me right now to work toward winning without letting Yellow shut this down or get their own threat first?"
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Board updated \u2014 I've got c4r4 and c5r4 both Red now, plus that pending diagonal needing c3r4. I also notice I could force stuff with vertical threats in column 2 or column 4. What's the actual best move here to keep pushing toward a win?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  }
+]

@@ -1,0 +1,303 @@
+pid,round,puzzle,ai,transfer,skill_rating,age,education,genai_usage,gate_correct,gate_confidence,ai_turns,end_reason,decisions,score,decisions_first_n,score_first_n,kept_win_score,kept_win_first_n,opener_optimal,disc_loss_total,disc_loss_per_decision,seconds,completed,black_discs,white_discs,margin,won,moves,attempts,solved,transfer_rounds,transfer_score,transfer_decisions,transfer_rate,transfer_wins,transfer_solved,transfer_openers,transfer_disc_loss,transfer_label
+p786,R1,oc20260727,True,False,1,34,postgrad,daily,True,3,0,manual,5,2,3,1,1,1,True,34,6.8,102,True,24,40,-16,False,b7 g2! a7! b6 a1!,1,False,2,0,4,0.0,0,0,0,44,Strugglers
+p786,R2,b220260706,False,True,1,34,postgrad,daily,True,3,0,manual,2,0,2,0,0,0,False,30,15.0,14,True,23,41,-18,False,g1! g2!,1,False,2,0,4,0.0,0,0,0,44,Strugglers
+p786,R3,bg20260726,False,True,1,34,postgrad,daily,True,3,0,manual,2,0,2,0,0,0,False,14,7.0,6,True,27,37,-10,False,g8! h7!,1,False,2,0,4,0.0,0,0,0,44,Strugglers
+p639,R1,oc20260727,True,False,2,51,postgrad,several_times_day,False,2,0,manual,4,2,3,2,0,0,False,40,10.0,13,True,21,43,-22,False,g2! b7 b6 a7!,1,False,2,3,5,0.6,0,0,1,24,Solvers
+p639,R2,b220260706,False,True,2,51,postgrad,several_times_day,False,2,0,manual,2,1,2,1,0,0,False,14,7.0,4,True,31,33,-2,False,g1! g7,1,False,2,3,5,0.6,0,0,1,24,Solvers
+p639,R3,bg20260726,False,True,2,51,postgrad,several_times_day,False,2,0,manual,3,2,3,2,1,1,True,10,3.3,8,True,29,35,-6,False,b2 h7! g8,1,False,2,3,5,0.6,0,0,1,24,Solvers
+p289,R1,oc20260727,True,False,dont_know,36,bachelors,daily,False,3,0,manual,3,0,3,0,0,0,False,44,14.7,37,True,19,45,-26,False,g2! c8! a7!,1,False,2,2,5,0.4,0,0,1,38,Strugglers
+p289,R2,b220260706,False,True,dont_know,36,bachelors,daily,False,3,0,manual,2,0,2,0,0,0,False,24,12.0,4,True,26,38,-12,False,g2! h2!,1,False,2,2,5,0.4,0,0,1,38,Strugglers
+p289,R3,bg20260726,False,True,dont_know,36,bachelors,daily,False,3,0,manual,3,2,3,2,1,1,True,14,4.7,16,True,27,37,-10,False,b2 g7! h7,1,False,2,2,5,0.4,0,0,1,38,Strugglers
+p158,R1,oc20260727,True,False,1,49,bachelors,few_times_week,False,2,0,manual,3,0,3,0,0,0,False,54,18.0,20,True,14,50,-36,False,a7! b8! c8!,1,False,2,2,5,0.4,0,0,1,28,Strugglers
+p158,R2,b220260706,False,True,1,49,bachelors,few_times_week,False,2,0,manual,3,2,3,2,2,2,True,14,4.7,34,True,31,33,-2,False,g7 h1 h2!,1,False,2,2,5,0.4,0,0,1,28,Strugglers
+p158,R3,bg20260726,False,True,1,49,bachelors,few_times_week,False,2,0,manual,2,0,2,0,0,0,False,14,7.0,19,True,27,37,-10,False,g8! h7!,1,False,2,2,5,0.4,0,0,1,28,Strugglers
+p510,R1,oc20260727,True,False,1,61,postgrad,about_monthly,False,1,0,manual,5,4,3,2,1,1,True,20,4.0,29,True,31,33,-2,False,b7 g2! c8 a7 b6,1,False,2,1,4,0.25,0,0,0,38,Strugglers
+p510,R2,b220260706,False,True,1,61,postgrad,about_monthly,False,1,0,manual,2,1,2,1,0,0,False,16,8.0,10,True,30,34,-4,False,g2! g7,1,False,2,1,4,0.25,0,0,0,38,Strugglers
+p510,R3,bg20260726,False,True,1,61,postgrad,about_monthly,False,1,0,manual,2,0,2,0,0,0,False,22,11.0,8,True,23,41,-18,False,g7! h7!,1,False,2,1,4,0.25,0,0,0,38,Strugglers
+p808,R1,oc20260727,True,False,dont_know,38,postgrad,several_times_day,False,1,0,manual,4,1,3,0,0,0,False,40,10.0,62,True,21,43,-22,False,g2! c8! b8! b6,1,False,2,0,4,0.0,0,0,0,46,Strugglers
+p808,R2,b220260706,False,True,dont_know,38,postgrad,several_times_day,False,1,0,manual,2,0,2,0,0,0,False,24,12.0,5,True,26,38,-12,False,g2! h2!,1,False,2,0,4,0.0,0,0,0,46,Strugglers
+p808,R3,bg20260726,False,True,dont_know,38,postgrad,several_times_day,False,1,0,manual,2,0,2,0,0,0,False,22,11.0,9,True,23,41,-18,False,g7! h7!,1,False,2,0,4,0.0,0,0,0,46,Strugglers
+p67,R1,oc20260727,True,False,1,52,postgrad,less_than_monthly,False,2,0,manual,4,2,3,2,0,0,False,40,10.0,29,True,21,43,-22,False,g2! b7 b6 a7!,1,False,2,3,5,0.6,0,0,1,26,Solvers
+p67,R2,b220260706,False,True,1,52,postgrad,less_than_monthly,False,2,0,manual,2,1,2,1,0,0,False,16,8.0,8,True,30,34,-4,False,g2! g7,1,False,2,3,5,0.6,0,0,1,26,Solvers
+p67,R3,bg20260726,False,True,1,52,postgrad,less_than_monthly,False,2,0,manual,3,2,3,2,2,2,True,10,3.3,15,True,29,35,-6,False,b2 g8 g7!,1,False,2,3,5,0.6,0,0,1,26,Solvers
+p424,R1,oc20260727,True,False,1,40,bachelors,daily,True,1,0,manual,3,2,3,2,1,1,True,38,12.7,40,True,22,42,-20,False,b7 b6! b8,1,False,2,1,4,0.25,0,0,0,42,Strugglers
+p424,R2,b220260706,False,True,1,40,bachelors,daily,True,1,0,manual,2,1,2,1,0,0,False,16,8.0,8,True,30,34,-4,False,g2! g7,1,False,2,1,4,0.25,0,0,0,42,Strugglers
+p424,R3,bg20260726,False,True,1,40,bachelors,daily,True,1,0,manual,2,0,2,0,0,0,False,26,13.0,10,True,21,43,-22,False,h7! g7!,1,False,2,1,4,0.25,0,0,0,42,Strugglers
+p98,R1,oc20260727,True,False,dont_know,38,bachelors,few_times_week,False,1,0,manual,4,2,3,2,0,0,False,40,10.0,28,True,21,43,-22,False,g2! b7 b6 a7!,1,False,2,2,5,0.4,0,0,2,34,Strugglers
+p98,R2,b220260706,False,True,dont_know,38,bachelors,few_times_week,False,1,0,manual,2,1,2,1,1,1,True,12,6.0,7,True,32,32,0,False,g7 g2!,1,False,2,2,5,0.4,0,0,2,34,Strugglers
+p98,R3,bg20260726,False,True,dont_know,38,bachelors,few_times_week,False,1,0,manual,3,1,3,1,1,1,True,22,7.3,8,True,23,41,-18,False,b2 g7! h8!,1,False,2,2,5,0.4,0,0,2,34,Strugglers
+p90,R1,oc20260727,True,False,1,36,bachelors,several_times_day,True,2,0,manual,4,2,3,1,1,1,True,38,9.5,21,True,22,42,-20,False,b7 g2! b6! b8,1,False,2,2,5,0.4,0,0,1,28,Strugglers
+p90,R2,b220260706,False,True,1,36,bachelors,several_times_day,True,2,0,manual,3,2,3,2,2,2,True,14,4.7,18,True,31,33,-2,False,g7 h1 h2!,1,False,2,2,5,0.4,0,0,1,28,Strugglers
+p90,R3,bg20260726,False,True,1,36,bachelors,several_times_day,True,2,0,manual,2,0,2,0,0,0,False,14,7.0,4,True,27,37,-10,False,g8! h7!,1,False,2,2,5,0.4,0,0,1,28,Strugglers
+p621,R1,oc20260727,True,False,1,47,postgrad,few_times_month,True,3,0,manual,4,2,3,1,1,1,True,38,9.5,46,True,22,42,-20,False,b7 g2! b6! b8,1,False,2,1,5,0.2,0,0,0,50,Strugglers
+p621,R2,b220260706,False,True,1,47,postgrad,few_times_month,True,3,0,manual,2,0,2,0,0,0,False,24,12.0,19,True,26,38,-12,False,g2! h2!,1,False,2,1,5,0.2,0,0,0,50,Strugglers
+p621,R3,bg20260726,False,True,1,47,postgrad,few_times_month,True,3,0,manual,3,1,3,1,0,0,False,26,8.7,20,True,21,43,-22,False,h7! b2 g7!,1,False,2,1,5,0.2,0,0,0,50,Strugglers
+p845,R1,oc20260727,True,False,2,,,,True,4,0,,1,1,1,1,1,1,True,0,0.0,0,False,24,32,,,b7,1,False,0,,,,,,,,
+p562,R1,oc20260727,True,False,1,33,some_postgrad,several_times_day,False,1,0,manual,3,0,3,0,0,0,False,58,19.3,10,True,12,52,-40,False,b8! a7! c8!,1,False,2,2,4,0.5,0,0,0,30,Strugglers
+p562,R2,b220260706,False,True,1,33,some_postgrad,several_times_day,False,1,0,manual,2,1,2,1,0,0,False,14,7.0,8,True,31,33,-2,False,g1! g7,1,False,2,2,4,0.5,0,0,0,30,Strugglers
+p562,R3,bg20260726,False,True,1,33,some_postgrad,several_times_day,False,1,0,manual,2,1,2,1,0,0,False,16,8.0,7,True,26,38,-12,False,g7! b2,1,False,2,2,4,0.5,0,0,0,30,Strugglers
+p338,R1,oc20260727,True,False,1,47,postgrad,never,True,2,0,manual,5,2,3,1,1,1,True,30,6.0,47,True,26,38,-12,False,b7 g2! a7! a1! c8,1,False,2,0,4,0.0,0,0,0,46,Strugglers
+p338,R2,b220260706,False,True,1,47,postgrad,never,True,2,0,manual,2,0,2,0,0,0,False,24,12.0,9,True,26,38,-12,False,g2! h2!,1,False,2,0,4,0.0,0,0,0,46,Strugglers
+p338,R3,bg20260726,False,True,1,47,postgrad,never,True,2,0,manual,2,0,2,0,0,0,False,22,11.0,2,True,23,41,-18,False,g7! h7!,1,False,2,0,4,0.0,0,0,0,46,Strugglers
+p528,R1,oc20260727,True,False,dont_know,41,bachelors,several_times_day,False,2,0,manual,4,1,3,1,2,2,True,36,9.0,26,True,23,41,-18,False,b7 a7! c8! g2!,1,False,2,4,5,0.8,1,1,2,12,Solvers
+p528,R2,b220260706,False,True,dont_know,41,bachelors,several_times_day,False,2,0,manual,2,1,2,1,1,1,True,12,6.0,19,True,32,32,0,False,g7 g2!,1,False,2,4,5,0.8,1,1,2,12,Solvers
+p528,R3,bg20260726,False,True,dont_know,41,bachelors,several_times_day,False,2,0,manual,3,3,3,3,3,3,True,0,0.0,23,True,34,30,4,True,b2 g8 h7,1,True,2,4,5,0.8,1,1,2,12,Solvers
+p118,R1,oc20260727,True,False,1,39,some_college,daily,False,1,0,manual,3,2,3,2,0,0,False,40,13.3,8,True,21,43,-22,False,c8! a7 g2,1,False,2,2,4,0.5,0,0,1,20,Strugglers
+p118,R2,b220260706,False,True,1,39,some_college,daily,False,1,0,manual,2,1,2,1,1,1,True,12,6.0,3,True,32,32,0,False,g7 g2!,1,False,2,2,4,0.5,0,0,1,20,Strugglers
+p118,R3,bg20260726,False,True,1,39,some_college,daily,False,1,0,manual,2,1,2,1,0,0,False,8,4.0,8,True,30,34,-4,False,g8! g7,1,False,2,2,4,0.5,0,0,1,20,Strugglers
+p360,R1,oc20260727,True,False,1,54,bachelors,few_times_week,False,2,0,manual,4,2,3,1,1,1,True,38,9.5,52,True,22,42,-20,False,b7 g2! b6! b8,1,False,2,2,4,0.5,0,0,0,30,Strugglers
+p360,R2,b220260706,False,True,1,54,bachelors,few_times_week,False,2,0,manual,2,1,2,1,0,0,False,14,7.0,8,True,31,33,-2,False,g1! g7,1,False,2,2,4,0.5,0,0,0,30,Strugglers
+p360,R3,bg20260726,False,True,1,54,bachelors,few_times_week,False,2,0,manual,2,1,2,1,0,0,False,16,8.0,5,True,26,38,-12,False,h7! g8,1,False,2,2,4,0.5,0,0,0,30,Strugglers
+p488,R1,oc20260727,True,False,1,57,postgrad,few_times_week,False,2,0,manual,3,1,3,1,0,0,False,38,12.7,32,True,22,42,-20,False,b6! c8! a8,1,False,2,4,6,0.667,0,0,2,24,Solvers
+p488,R2,b220260706,False,True,1,57,postgrad,few_times_week,False,2,0,manual,3,2,3,2,2,2,True,14,4.7,13,True,31,33,-2,False,g7 h1 h2!,1,False,2,4,6,0.667,0,0,2,24,Solvers
+p488,R3,bg20260726,False,True,1,57,postgrad,few_times_week,False,2,0,manual,3,2,3,2,1,1,True,10,3.3,19,True,29,35,-6,False,b2 h7! g8,1,False,2,4,6,0.667,0,0,2,24,Solvers
+p157,R1,oc20260727,True,False,1,33,postgrad,few_times_week,False,2,0,manual,3,2,3,2,1,1,True,38,12.7,64,True,22,42,-20,False,b7 b6! b8,1,False,2,1,4,0.25,0,0,0,28,Strugglers
+p157,R2,b220260706,False,True,1,33,postgrad,few_times_week,False,2,0,manual,2,1,2,1,0,0,False,14,7.0,9,True,31,33,-2,False,g1! g7,1,False,2,1,4,0.25,0,0,0,28,Strugglers
+p157,R3,bg20260726,False,True,1,33,postgrad,few_times_week,False,2,0,manual,2,0,2,0,0,0,False,14,7.0,5,True,27,37,-10,False,g8! h7!,1,False,2,1,4,0.25,0,0,0,28,Strugglers
+p698,R1,oc20260727,True,False,1,50,postgrad,daily,False,1,0,manual,3,0,3,0,0,0,False,40,13.3,64,True,21,43,-22,False,b6! c8! b8!,1,False,2,0,4,0.0,0,0,0,54,Strugglers
+p698,R2,b220260706,False,True,1,50,postgrad,daily,False,1,0,manual,2,0,2,0,0,0,False,30,15.0,9,True,23,41,-18,False,g1! g2!,1,False,2,0,4,0.0,0,0,0,54,Strugglers
+p698,R3,bg20260726,False,True,1,50,postgrad,daily,False,1,0,manual,2,0,2,0,0,0,False,24,12.0,12,True,22,42,-20,False,g7! g8!,1,False,2,0,4,0.0,0,0,0,54,Strugglers
+p447,R1,oc20260727,True,False,dont_know,41,associate,daily,True,1,0,manual,3,2,3,2,2,2,True,38,12.7,25,True,22,42,-20,False,b7 c8 b6!,1,False,2,2,4,0.5,0,0,1,20,Strugglers
+p447,R2,b220260706,False,True,dont_know,41,associate,daily,True,1,0,manual,2,1,2,1,1,1,True,12,6.0,6,True,32,32,0,False,g7 g2!,1,False,2,2,4,0.5,0,0,1,20,Strugglers
+p447,R3,bg20260726,False,True,dont_know,41,associate,daily,True,1,0,manual,2,1,2,1,0,0,False,8,4.0,10,True,30,34,-4,False,g8! g7,1,False,2,2,4,0.5,0,0,1,20,Strugglers
+p529,R1,oc20260727,True,False,1,39,postgrad,never,True,1,0,manual,5,3,3,1,2,2,True,20,4.0,18,True,31,33,-2,False,b7 a7! c8! a1 h1,1,False,2,3,6,0.5,0,0,2,36,Strugglers
+p529,R2,b220260706,False,True,1,39,postgrad,never,True,1,0,manual,3,2,3,2,2,2,True,14,4.7,6,True,31,33,-2,False,g7 h1 h2!,1,False,2,3,6,0.5,0,0,2,36,Strugglers
+p529,R3,bg20260726,False,True,1,39,postgrad,never,True,1,0,manual,3,1,3,1,1,1,True,22,7.3,5,True,23,41,-18,False,b2 g7! h8!,1,False,2,3,6,0.5,0,0,2,36,Strugglers
+p545,R1,oc20260727,True,False,1,48,bachelors,few_times_week,True,2,0,manual,3,2,3,2,1,1,True,38,12.7,29,True,22,42,-20,False,b7 b6! b8,1,False,2,1,4,0.25,0,0,1,38,Strugglers
+p545,R2,b220260706,False,True,1,48,bachelors,few_times_week,True,2,0,manual,2,1,2,1,1,1,True,12,6.0,12,True,32,32,0,False,g7 g2!,1,False,2,1,4,0.25,0,0,1,38,Strugglers
+p545,R3,bg20260726,False,True,1,48,bachelors,few_times_week,True,2,0,manual,2,0,2,0,0,0,False,26,13.0,7,True,21,43,-22,False,h7! g7!,1,False,2,1,4,0.25,0,0,1,38,Strugglers
+p711,R1,oc20260727,True,False,dont_know,62,some_college,few_times_week,False,1,0,manual,4,2,3,2,1,1,True,42,10.5,21,True,20,44,-24,False,b7 b6! g2 c8!,1,False,2,1,4,0.25,0,0,0,38,Strugglers
+p711,R2,b220260706,False,True,dont_know,62,some_college,few_times_week,False,1,0,manual,2,1,2,1,0,0,False,16,8.0,5,True,30,34,-4,False,g2! g7,1,False,2,1,4,0.25,0,0,0,38,Strugglers
+p711,R3,bg20260726,False,True,dont_know,62,some_college,few_times_week,False,1,0,manual,2,0,2,0,0,0,False,22,11.0,5,True,23,41,-18,False,g7! h7!,1,False,2,1,4,0.25,0,0,0,38,Strugglers
+p421,R1,oc20260727,True,False,2,43,postgrad,few_times_week,True,1,0,manual,4,3,3,2,1,1,True,38,9.5,57,True,22,42,-20,False,b7 b6! g2 b8,1,False,2,1,4,0.25,0,0,0,42,Strugglers
+p421,R2,b220260706,False,True,2,43,postgrad,few_times_week,True,1,0,manual,2,1,2,1,0,0,False,16,8.0,13,True,30,34,-4,False,g2! g7,1,False,2,1,4,0.25,0,0,0,42,Strugglers
+p421,R3,bg20260726,False,True,2,43,postgrad,few_times_week,True,1,0,manual,2,0,2,0,0,0,False,26,13.0,9,True,21,43,-22,False,h7! g7!,1,False,2,1,4,0.25,0,0,0,42,Strugglers
+p270,R1,oc20260727,True,False,dont_know,36,bachelors,few_times_week,False,1,0,manual,4,2,3,2,0,0,False,40,10.0,11,True,21,43,-22,False,b6! g2 b7 a7!,1,False,2,3,5,0.6,0,0,1,22,Solvers
+p270,R2,b220260706,False,True,dont_know,36,bachelors,few_times_week,False,1,0,manual,3,2,3,2,2,2,True,14,4.7,6,True,31,33,-2,False,g7 h1 h2!,1,False,2,3,5,0.6,0,0,1,22,Solvers
+p270,R3,bg20260726,False,True,dont_know,36,bachelors,few_times_week,False,1,0,manual,2,1,2,1,0,0,False,8,4.0,6,True,30,34,-4,False,g8! g7,1,False,2,3,5,0.6,0,0,1,22,Solvers
+p9,R1,oc20260727,True,False,1,38,postgrad,daily,True,3,0,manual,4,2,3,1,1,1,True,38,9.5,62,True,22,42,-20,False,b7 g2! b6! b8,1,False,2,5,6,0.833,1,1,2,14,Solvers
+p9,R2,b220260706,False,True,1,38,postgrad,daily,True,3,0,manual,3,2,3,2,2,2,True,14,4.7,24,True,31,33,-2,False,g7 h1 h2!,1,False,2,5,6,0.833,1,1,2,14,Solvers
+p9,R3,bg20260726,False,True,1,38,postgrad,daily,True,3,0,manual,3,3,3,3,3,3,True,0,0.0,30,True,34,30,4,True,b2 g8 h7,1,True,2,5,6,0.833,1,1,2,14,Solvers
+p87,R1,oc20260727,True,False,2,45,bachelors,several_times_day,False,1,0,manual,3,0,3,0,0,0,False,44,14.7,19,True,19,45,-26,False,c8! b6! b8!,1,False,2,5,6,0.833,1,1,2,14,Solvers
+p87,R2,b220260706,False,True,2,45,bachelors,several_times_day,False,1,0,manual,3,2,3,2,2,2,True,14,4.7,15,True,31,33,-2,False,g7 h1 h2!,1,False,2,5,6,0.833,1,1,2,14,Solvers
+p87,R3,bg20260726,False,True,2,45,bachelors,several_times_day,False,1,0,manual,3,3,3,3,3,3,True,0,0.0,16,True,34,30,4,True,b2 g8 h7,1,True,2,5,6,0.833,1,1,2,14,Solvers
+p412,R1,oc20260727,True,False,dont_know,34,postgrad,few_times_week,False,4,0,manual,2,0,2,0,0,0,False,54,27.0,4,True,14,50,-36,False,a7! c8!,1,False,2,1,4,0.25,0,0,0,36,Strugglers
+p412,R2,b220260706,False,True,dont_know,34,postgrad,few_times_week,False,4,0,manual,2,1,2,1,0,0,False,14,7.0,4,True,31,33,-2,False,g1! g7,1,False,2,1,4,0.25,0,0,0,36,Strugglers
+p412,R3,bg20260726,False,True,dont_know,34,postgrad,few_times_week,False,4,0,manual,2,0,2,0,0,0,False,22,11.0,7,True,23,41,-18,False,g7! h7!,1,False,2,1,4,0.25,0,0,0,36,Strugglers
+p365,R1,oc20260727,True,False,1,46,bachelors,several_times_day,False,3,0,manual,3,2,3,2,0,0,False,40,13.3,15,True,21,43,-22,False,c8! a7 g2,1,False,2,2,4,0.5,0,0,1,30,Strugglers
+p365,R2,b220260706,False,True,1,46,bachelors,several_times_day,False,3,0,manual,2,1,2,1,1,1,True,14,7.0,5,True,31,33,-2,False,g7 h2!,1,False,2,2,4,0.5,0,0,1,30,Strugglers
+p365,R3,bg20260726,False,True,1,46,bachelors,several_times_day,False,3,0,manual,2,1,2,1,0,0,False,16,8.0,8,True,26,38,-12,False,h7! g8,1,False,2,2,4,0.5,0,0,1,30,Strugglers
+p76,R1,oc20260727,True,False,2,37,postgrad,daily,False,2,0,manual,3,1,3,1,0,0,False,42,14.0,30,True,20,44,-24,False,c8! a7 b6!,1,False,2,2,4,0.5,0,0,0,24,Strugglers
+p76,R2,b220260706,False,True,2,37,postgrad,daily,False,2,0,manual,2,1,2,1,0,0,False,16,8.0,10,True,30,34,-4,False,g2! g7,1,False,2,2,4,0.5,0,0,0,24,Strugglers
+p76,R3,bg20260726,False,True,2,37,postgrad,daily,False,2,0,manual,2,1,2,1,0,0,False,8,4.0,9,True,30,34,-4,False,g8! g7,1,False,2,2,4,0.5,0,0,0,24,Strugglers
+p610,R1,oc20260727,True,False,dont_know,50,bachelors,few_times_week,False,1,0,manual,3,2,3,2,0,0,False,40,13.3,25,True,21,43,-22,False,c8! a7 g2,1,False,2,1,5,0.2,0,0,1,40,Strugglers
+p610,R2,b220260706,False,True,dont_know,50,bachelors,few_times_week,False,1,0,manual,2,0,2,0,0,0,False,24,12.0,10,True,26,38,-12,False,g2! h2!,1,False,2,1,5,0.2,0,0,1,40,Strugglers
+p610,R3,bg20260726,False,True,dont_know,50,bachelors,few_times_week,False,1,0,manual,3,1,3,1,1,1,True,16,5.3,15,True,26,38,-12,False,b2 h7! g7!,1,False,2,1,5,0.2,0,0,1,40,Strugglers
+p43,R1,oc20260727,True,False,1,49,bachelors,daily,True,2,0,manual,5,4,3,2,5,3,True,2,0.4,52,True,40,24,16,True,b7 a7! a1 h1 b6,1,False,2,5,6,0.833,1,1,2,10,Solvers
+p43,R2,b220260706,False,True,1,49,bachelors,daily,True,2,0,manual,3,3,3,3,3,3,True,0,0.0,10,True,38,26,12,True,g7 h1 g2,1,True,2,5,6,0.833,1,1,2,10,Solvers
+p43,R3,bg20260726,False,True,1,49,bachelors,daily,True,2,0,manual,3,2,3,2,1,1,True,10,3.3,14,True,29,35,-6,False,b2 h7! g8,1,False,2,5,6,0.833,1,1,2,10,Solvers
+p344,R1,oc20260727,True,False,1,30,bachelors,weekly,True,2,0,manual,4,3,3,2,1,1,True,38,9.5,26,True,22,42,-20,False,b7 b6! g2 b8,1,False,2,6,6,1.0,2,2,2,0,Solvers
+p344,R2,b220260706,False,True,1,30,bachelors,weekly,True,2,0,manual,3,3,3,3,3,3,True,0,0.0,7,True,38,26,12,True,g7 h1 g2,1,True,2,6,6,1.0,2,2,2,0,Solvers
+p344,R3,bg20260726,False,True,1,30,bachelors,weekly,True,2,0,manual,3,3,3,3,3,3,True,0,0.0,9,True,34,30,4,True,b2 g8 h7,1,True,2,6,6,1.0,2,2,2,0,Solvers
+p638,R1,oc20260727,True,False,dont_know,38,some_postgrad,weekly,True,1,0,manual,4,3,3,2,1,1,True,38,9.5,32,True,22,42,-20,False,b7 b6! g2 b8,1,False,2,1,4,0.25,0,0,0,42,Strugglers
+p638,R2,b220260706,False,True,dont_know,38,some_postgrad,weekly,True,1,0,manual,2,1,2,1,0,0,False,16,8.0,10,True,30,34,-4,False,g2! g7,1,False,2,1,4,0.25,0,0,0,42,Strugglers
+p638,R3,bg20260726,False,True,dont_know,38,some_postgrad,weekly,True,1,0,manual,2,0,2,0,0,0,False,26,13.0,3,True,21,43,-22,False,h7! g7!,1,False,2,1,4,0.25,0,0,0,42,Strugglers
+p206,R1,oc20260727,True,False,1,39,bachelors,few_times_month,True,1,0,manual,4,1,3,1,1,1,True,40,10.0,112,True,21,43,-22,False,b7 g2! b6! c8!,1,False,2,3,5,0.6,0,0,1,28,Solvers
+p206,R2,b220260706,False,True,1,39,bachelors,few_times_month,True,1,0,manual,2,1,2,1,1,1,True,12,6.0,16,True,32,32,0,False,g7 g2!,1,False,2,3,5,0.6,0,0,1,28,Solvers
+p206,R3,bg20260726,False,True,1,39,bachelors,few_times_month,True,1,0,timeout,3,2,3,2,0,0,False,16,5.3,34,True,26,38,-12,False,h7! b2 g8,1,False,2,3,5,0.6,0,0,1,28,Solvers
+p413,R1,oc20260727,True,False,dont_know,34,bachelors,few_times_week,False,1,0,manual,5,4,3,2,1,1,True,20,4.0,21,True,31,33,-2,False,b7 g2! c8 a7 b6,1,False,2,1,4,0.25,0,0,0,38,Strugglers
+p413,R2,b220260706,False,True,dont_know,34,bachelors,few_times_week,False,1,0,manual,2,1,2,1,0,0,False,16,8.0,11,True,30,34,-4,False,g2! g7,1,False,2,1,4,0.25,0,0,0,38,Strugglers
+p413,R3,bg20260726,False,True,dont_know,34,bachelors,few_times_week,False,1,0,manual,2,0,2,0,0,0,False,22,11.0,1,True,23,41,-18,False,g7! h7!,1,False,2,1,4,0.25,0,0,0,38,Strugglers
+p78,R1,oc20260727,True,False,dont_know,68,bachelors,daily,True,1,0,manual,3,2,3,2,1,1,True,38,12.7,27,True,22,42,-20,False,b7 b6! b8,1,False,2,2,4,0.5,0,0,1,20,Strugglers
+p78,R2,b220260706,False,True,dont_know,68,bachelors,daily,True,1,0,manual,2,1,2,1,1,1,True,12,6.0,8,True,32,32,0,False,g7 g2!,1,False,2,2,4,0.5,0,0,1,20,Strugglers
+p78,R3,bg20260726,False,True,dont_know,68,bachelors,daily,True,1,0,manual,2,1,2,1,0,0,False,8,4.0,5,True,30,34,-4,False,g8! g7,1,False,2,2,4,0.5,0,0,1,20,Strugglers
+p300,R1,oc20260727,True,False,1,34,bachelors,less_than_monthly,False,1,0,manual,3,1,3,1,0,0,False,56,18.7,21,True,13,51,-38,False,a7! g2 c8!,1,False,2,3,5,0.6,0,0,1,30,Solvers
+p300,R2,b220260706,False,True,1,34,bachelors,less_than_monthly,False,1,0,manual,2,1,2,1,0,0,False,16,8.0,13,True,30,34,-4,False,g2! g7,1,False,2,3,5,0.6,0,0,1,30,Solvers
+p300,R3,bg20260726,False,True,1,34,bachelors,less_than_monthly,False,1,0,manual,3,2,3,2,1,1,True,14,4.7,13,True,27,37,-10,False,b2 g7! h7,1,False,2,3,5,0.6,0,0,1,30,Solvers
+p609,R1,oc20260727,True,False,dont_know,32,postgrad,few_times_week,False,3,0,manual,5,2,3,1,1,1,True,30,6.0,38,True,26,38,-12,False,b7 g2! a7! a1! c8,1,False,2,2,4,0.5,0,0,0,22,Strugglers
+p609,R2,b220260706,False,True,dont_know,32,postgrad,few_times_week,False,3,0,manual,2,1,2,1,0,0,False,14,7.0,11,True,31,33,-2,False,g1! g7,1,False,2,2,4,0.5,0,0,0,22,Strugglers
+p609,R3,bg20260726,False,True,dont_know,32,postgrad,few_times_week,False,3,0,manual,2,1,2,1,0,0,False,8,4.0,8,True,30,34,-4,False,g8! g7,1,False,2,2,4,0.5,0,0,0,22,Strugglers
+p307,R1,oc20260727,True,False,dont_know,43,some_college,several_times_day,False,3,0,manual,4,1,3,0,0,0,False,40,10.0,25,True,21,43,-22,False,g2! c8! b8! a7,1,False,2,0,4,0.0,0,0,0,38,Strugglers
+p307,R2,b220260706,False,True,dont_know,43,some_college,several_times_day,False,3,0,manual,2,0,2,0,0,0,False,24,12.0,12,True,26,38,-12,False,g2! h2!,1,False,2,0,4,0.0,0,0,0,38,Strugglers
+p307,R3,bg20260726,False,True,dont_know,43,some_college,several_times_day,False,3,0,manual,2,0,2,0,0,0,False,14,7.0,12,True,27,37,-10,False,g8! h7!,1,False,2,0,4,0.0,0,0,0,38,Strugglers
+p160,R1,oc20260727,True,False,dont_know,49,bachelors,few_times_month,False,2,0,manual,4,1,3,1,0,0,False,56,14.0,20,True,13,51,-38,False,g2! c8! a8 b6!,1,False,2,2,4,0.5,0,0,1,20,Strugglers
+p160,R2,b220260706,False,True,dont_know,49,bachelors,few_times_month,False,2,0,manual,2,1,2,1,1,1,True,12,6.0,4,True,32,32,0,False,g7 g2!,1,False,2,2,4,0.5,0,0,1,20,Strugglers
+p160,R3,bg20260726,False,True,dont_know,49,bachelors,few_times_month,False,2,0,manual,2,1,2,1,0,0,False,8,4.0,4,True,30,34,-4,False,g8! g7,1,False,2,2,4,0.5,0,0,1,20,Strugglers
+p376,R1,oc20260727,True,False,3,47,bachelors,few_times_week,False,4,0,manual,3,2,3,2,0,0,False,40,13.3,16,True,21,43,-22,False,c8! g2 a7,1,False,2,3,5,0.6,0,0,2,26,Solvers
+p376,R2,b220260706,False,True,3,47,bachelors,few_times_week,False,4,0,manual,2,1,2,1,1,1,True,12,6.0,5,True,32,32,0,False,g7 g2!,1,False,2,3,5,0.6,0,0,2,26,Solvers
+p376,R3,bg20260726,False,True,3,47,bachelors,few_times_week,False,4,0,manual,3,2,3,2,1,1,True,14,4.7,18,True,27,37,-10,False,b2 g7! h7,1,False,2,3,5,0.6,0,0,2,26,Solvers
+p125,R1,oc20260727,True,False,1,23,postgrad,few_times_week,False,1,0,manual,4,3,3,2,1,1,True,38,9.5,30,True,22,42,-20,False,b7 b6! g2 b8,1,False,2,3,5,0.6,0,0,0,32,Solvers
+p125,R2,b220260706,False,True,1,23,postgrad,few_times_week,False,1,0,manual,2,1,2,1,0,0,False,16,8.0,5,True,30,34,-4,False,g2! g7,1,False,2,3,5,0.6,0,0,0,32,Solvers
+p125,R3,bg20260726,False,True,1,23,postgrad,few_times_week,False,1,0,manual,3,2,3,2,0,0,False,16,5.3,10,True,26,38,-12,False,h7! b2 g8,1,False,2,3,5,0.6,0,0,0,32,Solvers
+p359,R1,oc20260727,True,False,dont_know,37,postgrad,few_times_week,False,2,0,manual,3,0,3,0,0,0,False,44,14.7,9,True,19,45,-26,False,g2! c8! a7!,1,False,2,1,4,0.25,0,0,1,36,Strugglers
+p359,R2,b220260706,False,True,dont_know,37,postgrad,few_times_week,False,2,0,manual,2,1,2,1,1,1,True,12,6.0,2,True,32,32,0,False,g7 g2!,1,False,2,1,4,0.25,0,0,1,36,Strugglers
+p359,R3,bg20260726,False,True,dont_know,37,postgrad,few_times_week,False,2,0,manual,2,0,2,0,0,0,False,24,12.0,2,True,22,42,-20,False,g7! g8!,1,False,2,1,4,0.25,0,0,1,36,Strugglers
+p671,R1,oc20260727,True,False,2,44,associate,weekly,False,2,0,manual,3,2,3,2,0,0,False,40,13.3,23,True,21,43,-22,False,c8! a7 g2,1,False,2,2,5,0.4,0,0,1,32,Strugglers
+p671,R2,b220260706,False,True,2,44,associate,weekly,False,2,0,manual,2,1,2,1,0,0,False,16,8.0,12,True,30,34,-4,False,g2! g7,1,False,2,2,5,0.4,0,0,1,32,Strugglers
+p671,R3,bg20260726,False,True,2,44,associate,weekly,False,2,0,manual,3,1,3,1,1,1,True,16,5.3,16,True,26,38,-12,False,b2 h7! g7!,1,False,2,2,5,0.4,0,0,1,32,Strugglers
+p644,R1,oc20260727,True,False,1,45,bachelors,few_times_week,True,1,0,manual,4,2,3,2,1,1,True,42,10.5,35,True,20,44,-24,False,b7 b6! g2 c8!,1,False,2,3,5,0.6,0,0,2,26,Solvers
+p644,R2,b220260706,False,True,1,45,bachelors,few_times_week,True,1,0,manual,2,1,2,1,1,1,True,12,6.0,7,True,32,32,0,False,g7 g2!,1,False,2,3,5,0.6,0,0,2,26,Solvers
+p644,R3,bg20260726,False,True,1,45,bachelors,few_times_week,True,1,0,manual,3,2,3,2,1,1,True,14,4.7,16,True,27,37,-10,False,b2 g7! h7,1,False,2,3,5,0.6,0,0,2,26,Solvers
+p241,R1,oc20260727,True,False,1,63,bachelors,several_times_day,False,1,0,manual,3,1,3,1,0,0,False,42,14.0,45,True,20,44,-24,False,c8! a7 b6!,1,False,2,0,4,0.0,0,0,0,50,Strugglers
+p241,R2,b220260706,False,True,1,63,bachelors,several_times_day,False,1,0,manual,2,0,2,0,0,0,False,24,12.0,15,True,26,38,-12,False,g2! h2!,1,False,2,0,4,0.0,0,0,0,50,Strugglers
+p241,R3,bg20260726,False,True,1,63,bachelors,several_times_day,False,1,0,manual,2,0,2,0,0,0,False,26,13.0,10,True,21,43,-22,False,h7! g7!,1,False,2,0,4,0.0,0,0,0,50,Strugglers
+p341,R1,oc20260727,True,False,2,37,postgrad,daily,True,2,0,manual,3,2,3,2,1,1,True,38,12.7,38,True,22,42,-20,False,b7 b6! b8,1,False,2,2,5,0.4,0,0,1,38,Strugglers
+p341,R2,b220260706,False,True,2,37,postgrad,daily,True,2,0,manual,2,0,2,0,0,0,False,24,12.0,4,True,26,38,-12,False,g2! h2!,1,False,2,2,5,0.4,0,0,1,38,Strugglers
+p341,R3,bg20260726,False,True,2,37,postgrad,daily,True,2,0,manual,3,2,3,2,1,1,True,14,4.7,13,True,27,37,-10,False,b2 g7! h7,1,False,2,2,5,0.4,0,0,1,38,Strugglers
+p423,R1,oc20260727,True,False,1,37,associate,weekly,False,3,0,manual,4,2,3,2,0,0,False,40,10.0,24,True,21,43,-22,False,g2! b7 b6 a7!,1,False,2,1,5,0.2,0,0,1,46,Strugglers
+p423,R2,b220260706,False,True,1,37,associate,weekly,False,3,0,manual,2,0,2,0,0,0,False,24,12.0,3,True,26,38,-12,False,g2! h2!,1,False,2,1,5,0.2,0,0,1,46,Strugglers
+p423,R3,bg20260726,False,True,1,37,associate,weekly,False,3,0,manual,3,1,3,1,1,1,True,22,7.3,10,True,23,41,-18,False,b2 g7! h8!,1,False,2,1,5,0.2,0,0,1,46,Strugglers
+p58,R1,oc20260727,True,False,1,49,bachelors,few_times_month,False,1,0,manual,4,1,3,1,0,0,False,44,11.0,13,True,19,45,-26,False,c8! b6! g2 b8!,1,False,2,2,4,0.5,0,0,0,24,Strugglers
+p58,R2,b220260706,False,True,1,49,bachelors,few_times_month,False,1,0,manual,2,1,2,1,0,0,False,16,8.0,3,True,30,34,-4,False,g2! g7,1,False,2,2,4,0.5,0,0,0,24,Strugglers
+p58,R3,bg20260726,False,True,1,49,bachelors,few_times_month,False,1,0,manual,2,1,2,1,0,0,False,8,4.0,3,True,30,34,-4,False,g8! g7,1,False,2,2,4,0.5,0,0,0,24,Strugglers
+p839,R1,oc20260727,True,False,1,35,bachelors,about_monthly,False,1,0,manual,5,3,3,2,0,0,False,40,8.0,25,True,21,43,-22,False,g2! b6 b7 c8 a7!,1,False,2,2,4,0.5,0,0,0,32,Strugglers
+p839,R2,b220260706,False,True,1,35,bachelors,about_monthly,False,1,0,manual,2,1,2,1,0,0,False,16,8.0,14,True,30,34,-4,False,g2! g7,1,False,2,2,4,0.5,0,0,0,32,Strugglers
+p839,R3,bg20260726,False,True,1,35,bachelors,about_monthly,False,1,0,manual,2,1,2,1,0,0,False,16,8.0,6,True,26,38,-12,False,h7! g8,1,False,2,2,4,0.5,0,0,0,32,Strugglers
+p631,R1,oc20260727,True,False,2,50,bachelors,daily,True,2,0,manual,3,2,3,2,1,1,True,38,12.7,35,True,22,42,-20,False,b7 b6! b8,1,False,2,1,4,0.25,0,0,0,40,Strugglers
+p631,R2,b220260706,False,True,2,50,bachelors,daily,True,2,0,manual,2,1,2,1,0,0,False,16,8.0,11,True,30,34,-4,False,g2! g7,1,False,2,1,4,0.25,0,0,0,40,Strugglers
+p631,R3,bg20260726,False,True,2,50,bachelors,daily,True,2,0,manual,2,0,2,0,0,0,False,24,12.0,3,True,22,42,-20,False,g7! g8!,1,False,2,1,4,0.25,0,0,0,40,Strugglers
+p742,R1,oc20260727,True,False,dont_know,28,bachelors,few_times_month,True,1,0,manual,4,3,3,3,3,3,True,36,9.0,21,True,23,41,-18,False,b7 c8 a7 g2!,1,False,2,4,6,0.667,0,0,2,28,Solvers
+p742,R2,b220260706,False,True,dont_know,28,bachelors,few_times_month,True,1,0,manual,3,2,3,2,2,2,True,14,4.7,8,True,31,33,-2,False,g7 h1 h2!,1,False,2,4,6,0.667,0,0,2,28,Solvers
+p742,R3,bg20260726,False,True,dont_know,28,bachelors,few_times_month,True,1,0,manual,3,2,3,2,1,1,True,14,4.7,4,True,27,37,-10,False,b2 g7! h7,1,False,2,4,6,0.667,0,0,2,28,Solvers
+p136,R1,oc20260727,True,False,1,33,postgrad,weekly,False,2,0,manual,4,2,3,2,0,0,False,40,10.0,19,True,21,43,-22,False,g2! b7 b6 a7!,1,False,2,2,4,0.5,0,0,0,24,Strugglers
+p136,R2,b220260706,False,True,1,33,postgrad,weekly,False,2,0,manual,2,1,2,1,0,0,False,16,8.0,4,True,30,34,-4,False,g2! g7,1,False,2,2,4,0.5,0,0,0,24,Strugglers
+p136,R3,bg20260726,False,True,1,33,postgrad,weekly,False,2,0,manual,2,1,2,1,0,0,False,8,4.0,5,True,30,34,-4,False,g8! g7,1,False,2,2,4,0.5,0,0,0,24,Strugglers
+p794,R1,oc20260727,True,False,1,34,postgrad,few_times_week,False,1,0,manual,4,2,3,2,0,0,False,40,10.0,16,True,21,43,-22,False,g2! b7 b6 a7!,1,False,2,1,4,0.25,0,0,0,30,Strugglers
+p794,R2,b220260706,False,True,1,34,postgrad,few_times_week,False,1,0,manual,2,1,2,1,0,0,False,16,8.0,3,True,30,34,-4,False,g2! g7,1,False,2,1,4,0.25,0,0,0,30,Strugglers
+p794,R3,bg20260726,False,True,1,34,postgrad,few_times_week,False,1,0,manual,2,0,2,0,0,0,False,14,7.0,5,True,27,37,-10,False,g8! h7!,1,False,2,1,4,0.25,0,0,0,30,Strugglers
+p248,R1,oc20260727,True,False,1,61,bachelors,several_times_day,False,5,0,manual,3,0,3,0,0,0,False,44,14.7,13,True,19,45,-26,False,g2! b8! c8!,1,False,2,5,6,0.833,1,1,2,14,Solvers
+p248,R2,b220260706,False,True,1,61,bachelors,several_times_day,False,5,0,manual,3,2,3,2,2,2,True,14,4.7,15,True,31,33,-2,False,g7 h1 h2!,1,False,2,5,6,0.833,1,1,2,14,Solvers
+p248,R3,bg20260726,False,True,1,61,bachelors,several_times_day,False,5,0,manual,3,3,3,3,3,3,True,0,0.0,18,True,34,30,4,True,b2 g8 h7,1,True,2,5,6,0.833,1,1,2,14,Solvers
+p162,R1,oc20260727,True,False,2,65,bachelors,few_times_week,True,2,0,manual,5,3,3,1,1,1,True,24,4.8,80,True,29,35,-6,False,b7 g2! a7! b6 c8,1,False,2,0,4,0.0,0,0,0,50,Strugglers
+p162,R2,b220260706,False,True,2,65,bachelors,few_times_week,True,2,0,manual,2,0,2,0,0,0,False,24,12.0,5,True,26,38,-12,False,g2! h2!,1,False,2,0,4,0.0,0,0,0,50,Strugglers
+p162,R3,bg20260726,False,True,2,65,bachelors,few_times_week,True,2,0,manual,2,0,2,0,0,0,False,26,13.0,9,True,21,43,-22,False,h7! g7!,1,False,2,0,4,0.0,0,0,0,50,Strugglers
+p422,R1,oc20260727,True,False,1,59,bachelors,weekly,True,1,0,manual,3,2,3,2,1,1,True,38,12.7,53,True,22,42,-20,False,b7 b6! b8,1,False,2,3,5,0.6,1,1,1,26,Solvers
+p422,R2,b220260706,False,True,1,59,bachelors,weekly,True,1,0,manual,3,3,3,3,3,3,True,0,0.0,62,True,38,26,12,True,g7 h1 g2,1,True,2,3,5,0.6,1,1,1,26,Solvers
+p422,R3,bg20260726,False,True,1,59,bachelors,weekly,True,1,0,manual,2,0,2,0,0,0,False,26,13.0,24,True,21,43,-22,False,h7! g7!,1,False,2,3,5,0.6,1,1,1,26,Solvers
+p465,R1,oc20260727,True,False,1,38,some_college,few_times_week,False,1,0,manual,4,0,3,0,0,0,False,48,12.0,36,True,17,47,-30,False,b6! b7! a7! c8!,1,False,2,3,5,0.6,0,0,2,26,Solvers
+p465,R2,b220260706,False,True,1,38,some_college,few_times_week,False,1,0,manual,2,1,2,1,1,1,True,12,6.0,34,True,32,32,0,False,g7 g2!,1,False,2,3,5,0.6,0,0,2,26,Solvers
+p465,R3,bg20260726,False,True,1,38,some_college,few_times_week,False,1,0,manual,3,2,3,2,1,1,True,14,4.7,52,True,27,37,-10,False,b2 g7! h7,1,False,2,3,5,0.6,0,0,2,26,Solvers
+p18,R1,oc20260727,True,False,2,32,postgrad,few_times_week,False,2,0,manual,3,1,3,1,1,1,True,42,14.0,22,True,20,44,-24,False,b7 b6! c8!,1,False,2,1,4,0.25,0,0,0,38,Strugglers
+p18,R2,b220260706,False,True,2,32,postgrad,few_times_week,False,2,0,manual,2,1,2,1,0,0,False,16,8.0,21,True,30,34,-4,False,g2! g7,1,False,2,1,4,0.25,0,0,0,38,Strugglers
+p18,R3,bg20260726,False,True,2,32,postgrad,few_times_week,False,2,0,manual,2,0,2,0,0,0,False,22,11.0,5,True,23,41,-18,False,g7! h7!,1,False,2,1,4,0.25,0,0,0,38,Strugglers
+p177,R1,oc20260727,True,False,dont_know,31,bachelors,never,False,1,0,manual,3,1,3,1,1,1,True,42,14.0,62,True,20,44,-24,False,b7 b6! c8!,1,False,2,0,4,0.0,0,0,0,50,Strugglers
+p177,R2,b220260706,False,True,dont_know,31,bachelors,never,False,1,0,manual,2,0,2,0,0,0,False,24,12.0,42,True,26,38,-12,False,g2! h2!,1,False,2,0,4,0.0,0,0,0,50,Strugglers
+p177,R3,bg20260726,False,True,dont_know,31,bachelors,never,False,1,0,manual,2,0,2,0,0,0,False,26,13.0,10,True,21,43,-22,False,h7! g7!,1,False,2,0,4,0.0,0,0,0,50,Strugglers
+p655,R1,oc20260727,True,False,dont_know,29,bachelors,few_times_week,False,1,0,manual,3,2,3,2,1,1,True,38,12.7,9,True,22,42,-20,False,b7 b6! b8,1,False,2,2,4,0.5,0,0,0,32,Strugglers
+p655,R2,b220260706,False,True,dont_know,29,bachelors,few_times_week,False,1,0,manual,2,1,2,1,0,0,False,16,8.0,5,True,30,34,-4,False,g2! g7,1,False,2,2,4,0.5,0,0,0,32,Strugglers
+p655,R3,bg20260726,False,True,dont_know,29,bachelors,few_times_week,False,1,0,manual,2,1,2,1,0,0,False,16,8.0,4,True,26,38,-12,False,h7! g8,1,False,2,2,4,0.5,0,0,0,32,Strugglers
+p317,R1,oc20260727,True,False,2,30,postgrad,less_than_monthly,True,3,0,manual,4,2,3,1,1,1,True,38,9.5,38,True,22,42,-20,False,b7 g2! b6! b8,1,False,2,1,4,0.25,0,0,0,42,Strugglers
+p317,R2,b220260706,False,True,2,30,postgrad,less_than_monthly,True,3,0,manual,2,1,2,1,0,0,False,16,8.0,12,True,30,34,-4,False,g2! g7,1,False,2,1,4,0.25,0,0,0,42,Strugglers
+p317,R3,bg20260726,False,True,2,30,postgrad,less_than_monthly,True,3,0,manual,2,0,2,0,0,0,False,26,13.0,7,True,21,43,-22,False,h7! g7!,1,False,2,1,4,0.25,0,0,0,42,Strugglers
+p145,R1,oc20260727,True,False,dont_know,25,bachelors,several_times_day,False,1,0,manual,3,0,3,0,0,0,False,44,14.7,17,True,19,45,-26,False,g2! c8! a7!,1,False,2,1,4,0.25,0,0,1,28,Strugglers
+p145,R2,b220260706,False,True,dont_know,25,bachelors,several_times_day,False,1,0,manual,2,1,2,1,1,1,True,14,7.0,9,True,31,33,-2,False,g7 h2!,1,False,2,1,4,0.25,0,0,1,28,Strugglers
+p145,R3,bg20260726,False,True,dont_know,25,bachelors,several_times_day,False,1,0,manual,2,0,2,0,0,0,False,14,7.0,6,True,27,37,-10,False,g8! h7!,1,False,2,1,4,0.25,0,0,1,28,Strugglers
+p398,R1,oc20260727,True,False,1,29,postgrad,daily,False,1,0,manual,4,2,3,2,0,0,False,40,10.0,8,True,21,43,-22,False,b6! g2 b7 a7!,1,False,2,2,4,0.5,0,0,0,22,Strugglers
+p398,R2,b220260706,False,True,1,29,postgrad,daily,False,1,0,manual,2,1,2,1,0,0,False,14,7.0,5,True,31,33,-2,False,g1! g7,1,False,2,2,4,0.5,0,0,0,22,Strugglers
+p398,R3,bg20260726,False,True,1,29,postgrad,daily,False,1,0,manual,2,1,2,1,0,0,False,8,4.0,7,True,30,34,-4,False,g8! g7,1,False,2,2,4,0.5,0,0,0,22,Strugglers
+p836,R1,oc20260727,True,False,3,55,bachelors,weekly,False,1,0,manual,3,0,3,0,0,0,False,52,17.3,7,True,15,49,-34,False,c8! b8! b6!,1,False,2,4,5,0.8,1,1,1,8,Solvers
+p836,R2,b220260706,False,True,3,55,bachelors,weekly,False,1,0,manual,3,3,3,3,3,3,True,0,0.0,6,True,38,26,12,True,g7 h1 g2,1,True,2,4,5,0.8,1,1,1,8,Solvers
+p836,R3,bg20260726,False,True,3,55,bachelors,weekly,False,1,0,manual,2,1,2,1,0,0,False,8,4.0,6,True,30,34,-4,False,g8! g7,1,False,2,4,5,0.8,1,1,1,8,Solvers
+p209,R1,oc20260727,True,False,dont_know,68,postgrad,few_times_week,False,2,0,manual,4,2,3,2,0,0,False,40,10.0,42,True,21,43,-22,False,g2! b7 b6 a7!,1,False,2,3,5,0.6,0,0,1,26,Solvers
+p209,R2,b220260706,False,True,dont_know,68,postgrad,few_times_week,False,2,0,manual,2,1,2,1,0,0,False,16,8.0,7,True,30,34,-4,False,g2! g7,1,False,2,3,5,0.6,0,0,1,26,Solvers
+p209,R3,bg20260726,False,True,dont_know,68,postgrad,few_times_week,False,2,0,manual,3,2,3,2,1,1,True,10,3.3,41,True,29,35,-6,False,b2 h7! g8,1,False,2,3,5,0.6,0,0,1,26,Solvers
+p195,R1,oc20260727,True,False,2,56,bachelors,about_monthly,False,2,0,manual,4,1,3,1,1,1,True,40,10.0,26,True,21,43,-22,False,b7 g2! b6! c8!,1,False,2,2,4,0.5,0,0,0,32,Strugglers
+p195,R2,b220260706,False,True,2,56,bachelors,about_monthly,False,2,0,manual,2,1,2,1,0,0,False,16,8.0,12,True,30,34,-4,False,g2! g7,1,False,2,2,4,0.5,0,0,0,32,Strugglers
+p195,R3,bg20260726,False,True,2,56,bachelors,about_monthly,False,2,0,manual,2,1,2,1,0,0,False,16,8.0,3,True,26,38,-12,False,g7! b2,1,False,2,2,4,0.5,0,0,0,32,Strugglers
+p222,R1,oc20260727,True,False,2,51,postgrad,several_times_day,False,2,0,manual,3,1,3,1,0,0,False,42,14.0,22,True,20,44,-24,False,c8! b6! a8,1,False,2,3,6,0.5,0,0,2,36,Strugglers
+p222,R2,b220260706,False,True,2,51,postgrad,several_times_day,False,2,0,manual,3,2,3,2,2,2,True,14,4.7,27,True,31,33,-2,False,g7 h1 h2!,1,False,2,3,6,0.5,0,0,2,36,Strugglers
+p222,R3,bg20260726,False,True,2,51,postgrad,several_times_day,False,2,0,manual,3,1,3,1,1,1,True,22,7.3,25,True,23,41,-18,False,b2 g7! h8!,1,False,2,3,6,0.5,0,0,2,36,Strugglers
+p467,R1,oc20260727,True,False,2,57,some_college,daily,False,1,0,manual,3,1,3,1,0,0,False,42,14.0,28,True,20,44,-24,False,c8! a7 b6!,1,False,2,5,6,0.833,1,1,2,14,Solvers
+p467,R2,b220260706,False,True,2,57,some_college,daily,False,1,0,manual,3,2,3,2,2,2,True,14,4.7,23,True,31,33,-2,False,g7 h1 h2!,1,False,2,5,6,0.833,1,1,2,14,Solvers
+p467,R3,bg20260726,False,True,2,57,some_college,daily,False,1,0,manual,3,3,3,3,3,3,True,0,0.0,21,True,34,30,4,True,b2 g8 h7,1,True,2,5,6,0.833,1,1,2,14,Solvers
+p743,R1,oc20260727,True,False,2,55,postgrad,several_times_day,False,1,0,manual,4,2,3,1,1,1,True,38,9.5,83,True,22,42,-20,False,b7 g2! b6! b8,1,False,2,3,5,0.6,1,1,1,26,Solvers
+p743,R2,b220260706,False,True,2,55,postgrad,several_times_day,False,1,0,manual,3,3,3,3,3,3,True,0,0.0,14,True,38,26,12,True,g7 h1 g2,1,True,2,3,5,0.6,1,1,1,26,Solvers
+p743,R3,bg20260726,False,True,2,55,postgrad,several_times_day,False,1,0,manual,2,0,2,0,0,0,False,26,13.0,20,True,21,43,-22,False,h7! g7!,1,False,2,3,5,0.6,1,1,1,26,Solvers
+p325,R1,oc20260727,True,False,1,26,hs_graduate,weekly,False,1,0,manual,4,1,3,0,0,0,False,40,10.0,23,True,21,43,-22,False,g2! c8! b8! b6,1,False,2,1,4,0.25,0,0,0,30,Strugglers
+p325,R2,b220260706,False,True,1,26,hs_graduate,weekly,False,1,0,manual,2,1,2,1,0,0,False,16,8.0,14,True,30,34,-4,False,g2! g7,1,False,2,1,4,0.25,0,0,0,30,Strugglers
+p325,R3,bg20260726,False,True,1,26,hs_graduate,weekly,False,1,0,manual,2,0,2,0,0,0,False,14,7.0,8,True,27,37,-10,False,g8! h7!,1,False,2,1,4,0.25,0,0,0,30,Strugglers
+p141,R1,oc20260727,True,False,1,37,some_college,less_than_monthly,False,2,0,manual,4,1,3,1,1,1,True,40,10.0,41,True,21,43,-22,False,b7 g2! b6! c8!,1,False,2,2,5,0.4,0,0,0,42,Strugglers
+p141,R2,b220260706,False,True,1,37,some_college,less_than_monthly,False,2,0,manual,2,1,2,1,0,0,False,16,8.0,9,True,30,34,-4,False,g2! g7,1,False,2,2,5,0.4,0,0,0,42,Strugglers
+p141,R3,bg20260726,False,True,1,37,some_college,less_than_monthly,False,2,0,manual,3,1,3,1,0,0,False,26,8.7,16,True,21,43,-22,False,h7! b2 g7!,1,False,2,2,5,0.4,0,0,0,42,Strugglers
+p50,R1,oc20260727,True,False,1,31,bachelors,few_times_week,True,1,0,manual,4,2,3,2,1,1,True,42,10.5,43,True,20,44,-24,False,b7 b6! g2 c8!,1,False,2,1,4,0.25,0,0,0,40,Strugglers
+p50,R2,b220260706,False,True,1,31,bachelors,few_times_week,True,1,0,manual,2,1,2,1,0,0,False,16,8.0,30,True,30,34,-4,False,g2! g7,1,False,2,1,4,0.25,0,0,0,40,Strugglers
+p50,R3,bg20260726,False,True,1,31,bachelors,few_times_week,True,1,0,manual,2,0,2,0,0,0,False,24,12.0,5,True,22,42,-20,False,g7! g8!,1,False,2,1,4,0.25,0,0,0,40,Strugglers
+p521,R1,oc20260727,True,False,1,21,some_college,weekly,False,1,0,manual,5,3,3,2,0,0,False,40,8.0,13,True,21,43,-22,False,b6! g2 b7 c8 a7!,1,False,2,1,4,0.25,0,0,0,40,Strugglers
+p521,R2,b220260706,False,True,1,21,some_college,weekly,False,1,0,manual,2,1,2,1,0,0,False,16,8.0,3,True,30,34,-4,False,g2! g7,1,False,2,1,4,0.25,0,0,0,40,Strugglers
+p521,R3,bg20260726,False,True,1,21,some_college,weekly,False,1,0,manual,2,0,2,0,0,0,False,24,12.0,4,True,22,42,-20,False,g7! g8!,1,False,2,1,4,0.25,0,0,0,40,Strugglers
+p788,R1,oc20260727,True,False,2,57,bachelors,daily,False,1,0,manual,3,0,3,0,0,0,False,44,14.7,25,True,19,45,-26,False,g2! b8! c8!,1,False,2,4,5,0.8,1,1,1,16,Solvers
+p788,R2,b220260706,False,True,2,57,bachelors,daily,False,1,0,manual,3,3,3,3,3,3,True,0,0.0,8,True,38,26,12,True,g7 h1 g2,1,True,2,4,5,0.8,1,1,1,16,Solvers
+p788,R3,bg20260726,False,True,2,57,bachelors,daily,False,1,0,manual,2,1,2,1,0,0,False,16,8.0,7,True,26,38,-12,False,h7! g8,1,False,2,4,5,0.8,1,1,1,16,Solvers
+p366,R1,oc20260727,True,False,2,53,bachelors,less_than_monthly,True,2,0,manual,5,4,3,2,5,3,True,2,0.4,43,True,40,24,16,True,b7 a7! a1 h1 b6,1,False,2,3,5,0.6,1,1,1,26,Solvers
+p366,R2,b220260706,False,True,2,53,bachelors,less_than_monthly,True,2,0,manual,3,3,3,3,3,3,True,0,0.0,18,True,38,26,12,True,g7 h1 g2,1,True,2,3,5,0.6,1,1,1,26,Solvers
+p366,R3,bg20260726,False,True,2,53,bachelors,less_than_monthly,True,2,0,manual,2,0,2,0,0,0,False,26,13.0,8,True,21,43,-22,False,h7! g7!,1,False,2,3,5,0.6,1,1,1,26,Solvers
+p582,R1,oc20260727,True,False,dont_know,42,postgrad,weekly,True,1,0,manual,4,2,3,1,1,1,True,38,9.5,43,True,22,42,-20,False,b7 g2! b6! b8,1,False,2,2,5,0.4,0,0,1,32,Strugglers
+p582,R2,b220260706,False,True,dont_know,42,postgrad,weekly,True,1,0,manual,2,1,2,1,0,0,False,16,8.0,4,True,30,34,-4,False,g2! g7,1,False,2,2,5,0.4,0,0,1,32,Strugglers
+p582,R3,bg20260726,False,True,dont_know,42,postgrad,weekly,True,1,0,manual,3,1,3,1,1,1,True,16,5.3,13,True,26,38,-12,False,b2 h7! g7!,1,False,2,2,5,0.4,0,0,1,32,Strugglers
+p700,R1,oc20260727,True,False,1,30,bachelors,few_times_month,False,1,0,manual,3,2,3,2,1,1,True,38,12.7,6,True,22,42,-20,False,b7 b6! b8,1,False,2,2,5,0.4,0,0,1,36,Strugglers
+p700,R2,b220260706,False,True,1,30,bachelors,few_times_month,False,1,0,manual,2,1,2,1,0,0,False,14,7.0,5,True,31,33,-2,False,g1! g7,1,False,2,2,5,0.4,0,0,1,36,Strugglers
+p700,R3,bg20260726,False,True,1,30,bachelors,few_times_month,False,1,0,manual,3,1,3,1,1,1,True,22,7.3,8,True,23,41,-18,False,b2 g7! h8!,1,False,2,2,5,0.4,0,0,1,36,Strugglers
+p434,R1,oc20260727,True,False,1,30,bachelors,daily,False,1,0,manual,5,3,3,2,5,3,True,4,0.8,42,True,39,25,14,True,b7 a7! a1 b6! h1,1,False,2,4,5,0.8,1,1,1,8,Solvers
+p434,R2,b220260706,False,True,1,30,bachelors,daily,False,1,0,manual,3,3,3,3,3,3,True,0,0.0,12,True,38,26,12,True,g7 h1 g2,1,True,2,4,5,0.8,1,1,1,8,Solvers
+p434,R3,bg20260726,False,True,1,30,bachelors,daily,False,1,0,manual,2,1,2,1,0,0,False,8,4.0,8,True,30,34,-4,False,g8! g7,1,False,2,4,5,0.8,1,1,1,8,Solvers
+p171,R1,oc20260727,True,False,2,62,bachelors,several_times_day,True,2,0,manual,4,2,3,2,1,1,True,42,10.5,80,True,20,44,-24,False,b7 b6! g2 c8!,1,False,2,0,4,0.0,0,0,0,50,Strugglers
+p171,R2,b220260706,False,True,2,62,bachelors,several_times_day,True,2,0,manual,2,0,2,0,0,0,False,24,12.0,19,True,26,38,-12,False,g2! h2!,1,False,2,0,4,0.0,0,0,0,50,Strugglers
+p171,R3,bg20260726,False,True,2,62,bachelors,several_times_day,True,2,0,manual,2,0,2,0,0,0,False,26,13.0,19,True,21,43,-22,False,h7! g7!,1,False,2,0,4,0.0,0,0,0,50,Strugglers
+p486,R1,oc20260727,True,False,1,26,some_college,weekly,True,1,0,manual,5,3,3,2,1,1,True,36,7.2,33,True,23,41,-18,False,b7 g2! c8 a7 a1!,1,False,2,1,4,0.25,0,0,1,38,Strugglers
+p486,R2,b220260706,False,True,1,26,some_college,weekly,True,1,0,manual,2,1,2,1,1,1,True,12,6.0,3,True,32,32,0,False,g7 g2!,1,False,2,1,4,0.25,0,0,1,38,Strugglers
+p486,R3,bg20260726,False,True,1,26,some_college,weekly,True,1,0,manual,2,0,2,0,0,0,False,26,13.0,4,True,21,43,-22,False,h7! g7!,1,False,2,1,4,0.25,0,0,1,38,Strugglers
+p375,R1,oc20260727,True,False,dont_know,31,associate,never,False,1,0,manual,3,0,3,0,0,0,False,48,16.0,12,True,17,47,-30,False,a7! b7! c8!,1,False,2,0,4,0.0,0,0,0,56,Strugglers
+p375,R2,b220260706,False,True,dont_know,31,associate,never,False,1,0,manual,2,0,2,0,0,0,False,30,15.0,5,True,23,41,-18,False,g1! g2!,1,False,2,0,4,0.0,0,0,0,56,Strugglers
+p375,R3,bg20260726,False,True,dont_know,31,associate,never,False,1,0,manual,2,0,2,0,0,0,False,26,13.0,11,True,21,43,-22,False,h7! g7!,1,False,2,0,4,0.0,0,0,0,56,Strugglers
+p263,R1,oc20260727,True,False,1,23,bachelors,few_times_week,True,1,0,manual,4,2,3,2,1,1,True,42,10.5,36,True,20,44,-24,False,b7 b6! g2 c8!,1,False,2,2,4,0.5,0,0,0,24,Strugglers
+p263,R2,b220260706,False,True,1,23,bachelors,few_times_week,True,1,0,manual,2,1,2,1,0,0,False,16,8.0,12,True,30,34,-4,False,g2! g7,1,False,2,2,4,0.5,0,0,0,24,Strugglers
+p263,R3,bg20260726,False,True,1,23,bachelors,few_times_week,True,1,0,manual,2,1,2,1,0,0,False,8,4.0,12,True,30,34,-4,False,g8! g7,1,False,2,2,4,0.5,0,0,0,24,Strugglers
+p428,R1,oc20260727,True,False,1,35,bachelors,weekly,True,1,0,manual,4,3,3,2,1,1,True,38,9.5,23,True,22,42,-20,False,b7 b6! g2 b8,1,False,2,4,5,0.8,1,1,2,12,Solvers
+p428,R2,b220260706,False,True,1,35,bachelors,weekly,True,1,0,manual,2,1,2,1,1,1,True,12,6.0,4,True,32,32,0,False,g7 g2!,1,False,2,4,5,0.8,1,1,2,12,Solvers
+p428,R3,bg20260726,False,True,1,35,bachelors,weekly,True,1,0,manual,3,3,3,3,3,3,True,0,0.0,7,True,34,30,4,True,b2 g8 h7,1,True,2,4,5,0.8,1,1,2,12,Solvers
+p143,R1,oc20260727,True,False,1,49,some_college,few_times_week,True,2,0,manual,5,3,3,1,2,2,True,30,6.0,87,True,26,38,-12,False,b7 a7! g2! a1 c8,1,False,2,3,6,0.5,0,0,2,36,Strugglers
+p143,R2,b220260706,False,True,1,49,some_college,few_times_week,True,2,0,manual,3,2,3,2,2,2,True,14,4.7,22,True,31,33,-2,False,g7 h1 h2!,1,False,2,3,6,0.5,0,0,2,36,Strugglers
+p143,R3,bg20260726,False,True,1,49,some_college,few_times_week,True,2,0,manual,3,1,3,1,1,1,True,22,7.3,27,True,23,41,-18,False,b2 g7! h8!,1,False,2,3,6,0.5,0,0,2,36,Strugglers
+p260,R1,oc20260727,True,False,1,55,bachelors,few_times_week,False,2,0,manual,4,1,3,0,0,0,False,44,11.0,38,True,19,45,-26,False,b6! b7! g2! b8,1,False,2,1,5,0.2,0,0,1,52,Strugglers
+p260,R2,b220260706,False,True,1,55,bachelors,few_times_week,False,2,0,manual,2,0,2,0,0,0,False,30,15.0,3,True,23,41,-18,False,g1! g2!,1,False,2,1,5,0.2,0,0,1,52,Strugglers
+p260,R3,bg20260726,False,True,1,55,bachelors,few_times_week,False,2,0,manual,3,1,3,1,1,1,True,22,7.3,10,True,23,41,-18,False,b2 g7! h8!,1,False,2,1,5,0.2,0,0,1,52,Strugglers
+p795,R1,oc20260727,True,False,2,,,,True,4,0,,1,1,1,1,1,1,True,0,0.0,0,False,24,32,,,b7,1,False,0,,,,,,,,
+p472,R1,oc20260727,True,False,1,43,bachelors,few_times_week,False,1,0,manual,4,2,3,2,0,0,False,40,10.0,21,True,21,43,-22,False,g2! b7 b6 a7!,1,False,2,4,5,0.8,1,1,2,12,Solvers
+p472,R2,b220260706,False,True,1,43,bachelors,few_times_week,False,1,0,manual,2,1,2,1,1,1,True,12,6.0,8,True,32,32,0,False,g7 g2!,1,False,2,4,5,0.8,1,1,2,12,Solvers
+p472,R3,bg20260726,False,True,1,43,bachelors,few_times_week,False,1,0,manual,3,3,3,3,3,3,True,0,0.0,19,True,34,30,4,True,b2 g8 h7,1,True,2,4,5,0.8,1,1,2,12,Solvers
+p111,R1,oc20260727,True,False,dont_know,55,some_college,few_times_week,False,3,0,manual,4,0,3,0,0,0,False,46,11.5,55,True,18,46,-28,False,b6! b7! g2! c8!,1,False,2,0,4,0.0,0,0,0,52,Strugglers
+p111,R2,b220260706,False,True,dont_know,55,some_college,few_times_week,False,3,0,manual,2,0,2,0,0,0,False,30,15.0,8,True,23,41,-18,False,g1! g2!,1,False,2,0,4,0.0,0,0,0,52,Strugglers
+p111,R3,bg20260726,False,True,dont_know,55,some_college,few_times_week,False,3,0,manual,2,0,2,0,0,0,False,22,11.0,10,True,23,41,-18,False,g7! h7!,1,False,2,0,4,0.0,0,0,0,52,Strugglers
+p679,R1,oc20260727,True,False,dont_know,63,associate,less_than_monthly,False,3,0,manual,3,0,3,0,0,0,False,44,14.7,10,True,19,45,-26,False,c8! b6! b8!,1,False,2,0,4,0.0,0,0,0,50,Strugglers
+p679,R2,b220260706,False,True,dont_know,63,associate,less_than_monthly,False,3,0,manual,2,0,2,0,0,0,False,24,12.0,32,True,26,38,-12,False,g2! h2!,1,False,2,0,4,0.0,0,0,0,50,Strugglers
+p679,R3,bg20260726,False,True,dont_know,63,associate,less_than_monthly,False,3,0,manual,2,0,2,0,0,0,False,26,13.0,8,True,21,43,-22,False,h7! g7!,1,False,2,0,4,0.0,0,0,0,50,Strugglers
+p768,R1,oc20260727,True,False,1,60,bachelors,several_times_day,False,2,0,manual,4,1,3,1,2,2,True,36,9.0,47,True,23,41,-18,False,b7 a7! c8! g2!,1,False,2,1,4,0.25,0,0,0,46,Strugglers
+p768,R2,b220260706,False,True,1,60,bachelors,several_times_day,False,2,0,manual,2,0,2,0,0,0,False,30,15.0,20,True,23,41,-18,False,g1! g2!,1,False,2,1,4,0.25,0,0,0,46,Strugglers
+p768,R3,bg20260726,False,True,1,60,bachelors,several_times_day,False,2,0,manual,2,1,2,1,0,0,False,16,8.0,8,True,26,38,-12,False,g7! b2,1,False,2,1,4,0.25,0,0,0,46,Strugglers
+p11,R1,oc20260727,True,False,1,34,bachelors,few_times_month,False,2,0,manual,3,0,3,0,0,0,False,44,14.7,11,True,19,45,-26,False,c8! b6! b8!,1,False,2,1,4,0.25,0,0,0,42,Strugglers
+p11,R2,b220260706,False,True,1,34,bachelors,few_times_month,False,2,0,manual,2,1,2,1,0,0,False,16,8.0,2,True,30,34,-4,False,g2! g7,1,False,2,1,4,0.25,0,0,0,42,Strugglers
+p11,R3,bg20260726,False,True,1,34,bachelors,few_times_month,False,2,0,manual,2,0,2,0,0,0,False,26,13.0,4,True,21,43,-22,False,h7! g7!,1,False,2,1,4,0.25,0,0,0,42,Strugglers
+p401,R1,oc20260727,True,False,dont_know,25,some_college,less_than_monthly,False,1,0,manual,4,2,3,1,0,0,False,42,10.5,9,True,20,44,-24,False,c8! b6! g2 a8,1,False,2,5,6,0.833,1,1,2,14,Solvers
+p401,R2,b220260706,False,True,dont_know,25,some_college,less_than_monthly,False,1,0,manual,3,2,3,2,2,2,True,14,4.7,6,True,31,33,-2,False,g7 h1 h2!,1,False,2,5,6,0.833,1,1,2,14,Solvers
+p401,R3,bg20260726,False,True,dont_know,25,some_college,less_than_monthly,False,1,0,manual,3,3,3,3,3,3,True,0,0.0,5,True,34,30,4,True,b2 g8 h7,1,True,2,5,6,0.833,1,1,2,14,Solvers
+p327,R1,oc20260727,True,False,dont_know,31,postgrad,several_times_day,False,1,0,manual,4,2,3,2,0,0,False,40,10.0,16,True,21,43,-22,False,g2! b7 b6 a7!,1,False,2,1,4,0.25,0,0,1,26,Strugglers
+p327,R2,b220260706,False,True,dont_know,31,postgrad,several_times_day,False,1,0,manual,2,1,2,1,1,1,True,12,6.0,4,True,32,32,0,False,g7 g2!,1,False,2,1,4,0.25,0,0,1,26,Strugglers
+p327,R3,bg20260726,False,True,dont_know,31,postgrad,several_times_day,False,1,0,manual,2,0,2,0,0,0,False,14,7.0,5,True,27,37,-10,False,g8! h7!,1,False,2,1,4,0.25,0,0,1,26,Strugglers
+p539,R1,oc20260727,True,False,dont_know,58,bachelors,several_times_day,True,1,0,manual,4,2,3,1,1,1,True,38,9.5,33,True,22,42,-20,False,b7 g2! b6! b8,1,False,2,0,4,0.0,0,0,0,50,Strugglers
+p539,R2,b220260706,False,True,dont_know,58,bachelors,several_times_day,True,1,0,manual,2,0,2,0,0,0,False,24,12.0,10,True,26,38,-12,False,g2! h2!,1,False,2,0,4,0.0,0,0,0,50,Strugglers
+p539,R3,bg20260726,False,True,dont_know,58,bachelors,several_times_day,True,1,0,manual,2,0,2,0,0,0,False,26,13.0,4,True,21,43,-22,False,h7! g7!,1,False,2,0,4,0.0,0,0,0,50,Strugglers
+p337,R1,oc20260727,True,False,2,27,bachelors,daily,False,2,0,manual,4,2,3,1,1,1,True,38,9.5,19,True,22,42,-20,False,b7 g2! b6! b8,1,False,2,5,6,0.833,1,1,2,10,Solvers
+p337,R2,b220260706,False,True,2,27,bachelors,daily,False,2,0,manual,3,3,3,3,3,3,True,0,0.0,14,True,38,26,12,True,g7 h1 g2,1,True,2,5,6,0.833,1,1,2,10,Solvers
+p337,R3,bg20260726,False,True,2,27,bachelors,daily,False,2,0,manual,3,2,3,2,1,1,True,10,3.3,11,True,29,35,-6,False,b2 h7! g8,1,False,2,5,6,0.833,1,1,2,10,Solvers
+p455,R1,oc20260727,True,False,3,46,postgrad,daily,False,2,0,manual,4,2,3,1,0,0,False,44,11.0,32,True,19,45,-26,False,c8! g2 b8! b6,1,False,2,5,6,0.833,1,1,2,10,Solvers
+p455,R2,b220260706,False,True,3,46,postgrad,daily,False,2,0,manual,3,3,3,3,3,3,True,0,0.0,11,True,38,26,12,True,g7 h1 g2,1,True,2,5,6,0.833,1,1,2,10,Solvers
+p455,R3,bg20260726,False,True,3,46,postgrad,daily,False,2,0,manual,3,2,3,2,1,1,True,10,3.3,7,True,29,35,-6,False,b2 h7! g8,1,False,2,5,6,0.833,1,1,2,10,Solvers
+p179,R1,oc20260727,True,False,3,38,postgrad,daily,True,3,0,manual,3,2,3,2,2,2,True,38,12.7,21,True,22,42,-20,False,b7 c8 b6!,1,False,2,0,4,0.0,0,0,0,52,Strugglers
+p179,R2,b220260706,False,True,3,38,postgrad,daily,True,3,0,manual,2,0,2,0,0,0,False,30,15.0,3,True,23,41,-18,False,g1! g2!,1,False,2,0,4,0.0,0,0,0,52,Strugglers
+p179,R3,bg20260726,False,True,3,38,postgrad,daily,True,3,0,manual,2,0,2,0,0,0,False,22,11.0,2,True,23,41,-18,False,g7! h7!,1,False,2,0,4,0.0,0,0,0,52,Strugglers
+p240,R1,oc20260727,True,False,dont_know,31,postgrad,several_times_day,False,1,0,manual,4,2,3,1,0,0,False,34,8.5,6,True,24,40,-16,False,g2! b6 c8! a8,1,False,2,5,6,0.833,1,1,2,14,Solvers
+p240,R2,b220260706,False,True,dont_know,31,postgrad,several_times_day,False,1,0,manual,3,2,3,2,2,2,True,14,4.7,4,True,31,33,-2,False,g7 h1 h2!,1,False,2,5,6,0.833,1,1,2,14,Solvers
+p240,R3,bg20260726,False,True,dont_know,31,postgrad,several_times_day,False,1,0,manual,3,3,3,3,3,3,True,0,0.0,3,True,34,30,4,True,b2 g8 h7,1,True,2,5,6,0.833,1,1,2,14,Solvers
+p592,R1,oc20260727,True,False,dont_know,35,bachelors,about_monthly,False,1,0,manual,4,0,3,0,0,0,False,54,13.5,16,True,14,50,-36,False,g2! c8! b6! b8!,1,False,2,2,5,0.4,0,0,1,36,Strugglers
+p592,R2,b220260706,False,True,dont_know,35,bachelors,about_monthly,False,1,0,manual,3,2,3,2,2,2,True,14,4.7,11,True,31,33,-2,False,g7 h1 h2!,1,False,2,2,5,0.4,0,0,1,36,Strugglers
+p592,R3,bg20260726,False,True,dont_know,35,bachelors,about_monthly,False,1,0,manual,2,0,2,0,0,0,False,22,11.0,4,True,23,41,-18,False,g7! h7!,1,False,2,2,5,0.4,0,0,1,36,Strugglers

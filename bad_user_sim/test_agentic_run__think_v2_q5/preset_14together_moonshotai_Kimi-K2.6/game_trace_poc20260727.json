@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I want to play b7 because it flips a huge horizontal line. After I play b7, is White's move a1 still legal? And what would White's best response actually be\u2014do they get wrecked here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I just finished the game 22-42. Was the correct first move actually something other than b7, or did I just mess up the follow-up after b7? Curious where it went wrong."
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Looking back at the original position, was b7 actually the best first move, or were options like g2, b6, or c8 stronger? I need to know if I picked a losing seed or just mishandled it."
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After I played b7 and White replied a8, I played g2 next. Was g2 the big mistake, or was the position already too far gone? Would a quieter move like a7 or c8 have kept me in it?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "You called g2 an X-square that teed up h1 for White. How do I spot those poison squares in endgames? Is it basically 'never touch squares diagonal to a corner,' or are there exceptions where X-squares actually work?"
+  }
+]

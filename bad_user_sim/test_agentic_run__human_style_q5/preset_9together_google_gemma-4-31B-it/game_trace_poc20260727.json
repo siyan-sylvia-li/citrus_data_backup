@@ -1,0 +1,41 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at b7 but I'm worried about the b column. What do you think?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I have a few moves, maybe a7 or c8? Which one is better?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "b6 seems like it takes more, but is a7 safer?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm thinking about b7. Is that a good spot?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Did I miss any big moves earlier on?"
+  }
+]

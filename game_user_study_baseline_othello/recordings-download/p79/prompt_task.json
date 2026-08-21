@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Give me a three year plan to go from cooking videos to publishing a cookbook",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 1
+    },
+    {
+      "model": "gpt",
+      "score": 2
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 1.333,
+  "median_score": 1,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-20T14:57:16.196832+00:00"
+}

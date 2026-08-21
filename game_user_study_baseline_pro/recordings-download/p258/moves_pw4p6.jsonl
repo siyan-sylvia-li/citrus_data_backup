@@ -1,0 +1,3 @@
+{"game": "connect_four", "puzzle": "w4p6", "round": 1, "attempt": 1, "move_number": 1, "col": 4, "optimal": false, "on_winning_line": false, "winning_cols": [2], "best_cols": [2], "ai_col": 4, "ts": "2026-07-22T14:48:34.179892+00:00"}
+{"game": "connect_four", "puzzle": "w4p6", "round": 1, "attempt": 1, "move_number": 2, "col": 5, "optimal": false, "on_winning_line": false, "winning_cols": [], "best_cols": [1], "ai_col": 0, "ts": "2026-07-22T14:48:38.942808+00:00"}
+{"game": "connect_four", "puzzle": "w4p6", "round": 1, "attempt": 1, "move_number": 3, "col": 5, "optimal": false, "on_winning_line": false, "winning_cols": [], "best_cols": [0], "ai_col": 0, "ts": "2026-07-22T14:48:39.621364+00:00"}

@@ -1,0 +1,14 @@
+{
+  "game": "connect_four",
+  "puzzle": "w4p6",
+  "round": 1,
+  "nasa_tlx": {
+    "mental_demand": 5,
+    "temporal_demand": 6,
+    "performance": 2,
+    "effort": 5,
+    "frustration": 5
+  },
+  "ai_assessment": null,
+  "submitted_at": "2026-07-21T15:07:52.061288+00:00"
+}

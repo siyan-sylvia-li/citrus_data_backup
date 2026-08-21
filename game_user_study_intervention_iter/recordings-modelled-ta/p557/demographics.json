@@ -1,0 +1,25 @@
+{
+  "prolific_id": "p557",
+  "game": "othello",
+  "rounds": [
+    {
+      "puzzle": "oc20260727",
+      "ai": true,
+      "ai_survey": true,
+      "gate": true,
+      "time_limit": 480,
+      "intro": {
+        "title": "Puzzle 1",
+        "body": "An <strong>AI assistant</strong> will be available to help you for this round. This is your <strong>only chance</strong> to use it in this study.<br>You MUST send the assistant <strong>5+ messages while you play</strong>. You will not be able to finish the round otherwise."
+      }
+    }
+  ],
+  "skill_rating": "1",
+  "age": 24,
+  "education": "bachelors",
+  "occupation": "other",
+  "occupation_other": "Unemployed",
+  "genai_usage": "few_times_week",
+  "consented_at": "2026-08-20T02:50:09.421603+00:00",
+  "submitted_at": "2026-08-20T02:58:43.466197+00:00"
+}

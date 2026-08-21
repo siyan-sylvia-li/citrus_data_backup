@@ -1,0 +1,34 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "g2 looks like it flips a ton of discs\u2014c2-f2 and a diagonal chain. Is that the strongest opening here, or is c8 or b7 actually better because of endgame corners?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "g2 flips seven discs but I\u2019m worried it immediately gives White h1. Is b8 the safer bet here, or is g2 still worth the risk?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Yikes, 22 to 42 is a massacre. Was b7 already a losing choice, or did I blow it later with b6?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "If I had played g2 instead of b8, could I have forced a better endgame or was h1 always going to crush me?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "What if I had opened with c8 instead of b7\u2014would that have secured a8 and changed the whole game, or did b7 just give White too much edge play?"
+  }
+]

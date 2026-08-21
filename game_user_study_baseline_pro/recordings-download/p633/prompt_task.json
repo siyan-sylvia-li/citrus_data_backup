@@ -1,0 +1,19 @@
+{
+  "created_prompt": "You are an expert content strategist. Create a detailed three-year plan for Julie, a cooking creator with 1.2 million followers. Help her grow her audience, decide between traditional and self-publishing for her cookbook, and achieve her goals while working only four days a week with a limited budget. Include a timeline, budget-friendly strategies, milestones, risks, and key success metrics.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 4
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.5,
+  "median_score": 3.5,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-22T13:05:06.520072+00:00"
+}

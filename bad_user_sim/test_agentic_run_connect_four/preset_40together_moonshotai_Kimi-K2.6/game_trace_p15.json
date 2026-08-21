@@ -1,0 +1,30 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "hey! i'm stuck between a few moves here. does Red have a forced win on this board, and if so which column kicks it off? c2 and c5 both look kinda tempting to me but i'm not sure i'm reading the diagonals right."
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "yo i played c4 and yellow answered c5 then c1. what's the next move in the forced win? i don't wanna blow the sequence."
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 7
+  }
+]

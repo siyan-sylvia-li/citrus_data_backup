@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Acting as a marketing expert and publicist, craft a three-year plan to grow online audience and publish a cookbook for a cooking influencer with 1.2 million followers. She works four days a week and has limited time and budget. Her current content is videos of quick, healthy recipes. Include pros and cons of traditional and self-publishing, and make a separate plan for each path.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 4
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.333,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-05T14:57:56.348064+00:00"
+}

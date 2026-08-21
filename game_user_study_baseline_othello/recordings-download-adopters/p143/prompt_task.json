@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Hey, I'm looking to layout a three year plan for Julie. The end goal is to grow her online following and eventually publish a cookbook through a traditional publisher (versus a self-published cookbook). She currently has 1.2 million followers, and focuses on quick, healthy recipes. Julie works four days a week and has a limited budget.\r\n\r\nPlease generate a three year plan to aid Julie in accomplishing her goal.",
+  "judges": [
+    {
+      "model": "nemotron",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-10T17:15:33.827018+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I all ready have over a million followers for my online cooking videos. I would like to build my online presence and also publish a cookbook, but I have limited time and budget as I am working four days each week, so only doing this part time. Can you create a three-year plan for me explaining the steps to develop my online presence and also to publish a cookbook, advising on whether I should go for traditional or self-published book, given my time and money restraints?",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T17:43:05.589808+00:00"
+}

@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Devise a concrete three year business plan as a content creator. I post cooking videos for quick, healthy recipes to over a million followers. Over the next three years I want to continue to grow my following and publish a cookbook (but also torn on traditional vs. self publishing).",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-23T20:04:56.372384+00:00"
+}

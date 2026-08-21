@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm weighing my options here. Between g2, b6, a7, and c8, which one puts me in the strongest position to close this out?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm down to g2, b6, and a7. I'm trailing quite a bit\u2014which of these is my best bet to minimize the damage or make a comeback?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm down to my last few moves: a1, g2, or a3. I'm trailing 20 to 40. Which of these gives me the best chance to flip the most discs and finish strong?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at the board. I have a few options: g2, b6, a7, b7, b8, and c8. I want to make sure I'm not just grabbing immediate flips but playing for the long game. Which of these is the most strategic starting point?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Looking back at that sequence, was the move to a1 the actual turning point, or was it the setup with a7 and a3 that secured the win?"
+  }
+]

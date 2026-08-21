@@ -1,0 +1,23 @@
+{
+  "created_prompt": "You are to serve as an advisor to a cooking content creator who is trying to juggle her lifestyle between career and content. First, you must analyze her current situation in order to understand her strengths that she can build upon and weaknesses that she should either avoid or aim to improve. Then, I want you to develop a concrete, three-year plan that has realistic, actionable advice and is easy for the content creator to follow given her circumstances. See her situation in the following paragraphs.\r\n\r\nJulie is a cooking content creator that works 4 days weekly and has limits in both time and budget. She has amassed a following of 1.2 million people on social media through her cooking videos which showcase her quick, healthy recipes. Her two goals over the next three years are to 1) continue to grow online and 2) publish a cookbook (duly note that she is unsure whether to self-publish or go with a publisher - some guidance here would be appreciated).",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-05T14:55:57.082154+00:00"
+}

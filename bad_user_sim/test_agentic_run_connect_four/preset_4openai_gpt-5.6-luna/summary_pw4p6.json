@@ -1,0 +1,49 @@
+{
+  "puzzle": "w4p6",
+  "decisions": 5,
+  "optimal_moves": 3,
+  "optimal_first_n": 1,
+  "decisions_first_n": 3,
+  "kept_win_moves": 5,
+  "opener_optimal": false,
+  "exact_decisions": 5,
+  "result": "red_win",
+  "won": true,
+  "plies_to_win_at_start": 7,
+  "completed": true,
+  "columns": [
+    "1!",
+    "5!",
+    "6",
+    "3",
+    "6"
+  ],
+  "auto_played": [],
+  "chat_turns": null,
+  "game": "connect_four",
+  "round": 1,
+  "ai_available": false,
+  "model_settings": {
+    "max_tokens": 100000
+  },
+  "questions_asked": 0,
+  "question_budget": 0,
+  "profile": {
+    "persona": "A fellow retired athlete who has explored the world together and experienced different sports cultures",
+    "age": 58,
+    "education": "bachelor",
+    "occupation": "retired",
+    "ai_frequency": "tried",
+    "known_concepts": [
+      "Digital",
+      "Currency",
+      "Payment",
+      "Ownership",
+      "Transaction",
+      "Fee",
+      "Incentive"
+    ]
+  },
+  "student_model": "openai:gpt-5.6-luna",
+  "streamed": false
+}

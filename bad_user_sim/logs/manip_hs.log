@@ -1,0 +1,451 @@
+annotating student/default ...
+  [1/7] preset_17together_moonshotai_Kimi-K2.6 (3 turns)
+  [2/7] preset_18together_moonshotai_Kimi-K2.6 (2 turns)
+  [3/7] preset_19together_moonshotai_Kimi-K2.6 (1 turns)
+  [4/7] preset_20together_moonshotai_Kimi-K2.6 (3 turns)
+  [5/7] preset_22together_moonshotai_Kimi-K2.6 (2 turns)
+  [6/7] preset_23together_google_gemma-4-31B-it (1 turns)
+  [7/7] preset_9together_moonshotai_Kimi-K2.6 (2 turns)
+  7 run(s) annotated
+annotating student/think ...
+  0 run(s) annotated
+annotating student/think_v2 ...
+  [1/18] preset_10anthropic_claude-sonnet-5 (2 turns)
+  [2/18] preset_10openai_gpt-5.6-luna (6 turns)
+  [3/18] preset_10together_moonshotai_Kimi-K2.6 (5 turns)
+  [4/18] preset_11anthropic_claude-sonnet-5 (5 turns)
+  [5/18] preset_11openai_gpt-5.6-luna (6 turns)
+  [6/18] preset_11together_google_gemma-4-31B-it (1 turns)
+  [7/18] preset_11together_moonshotai_Kimi-K2.6 (4 turns)
+  [8/18] preset_7anthropic_claude-sonnet-5 (4 turns)
+  [9/18] preset_7openai_gpt-5.6-luna (6 turns)
+  [10/18] preset_7together_google_gemma-4-31B-it (2 turns)
+  [11/18] preset_7together_moonshotai_Kimi-K2.6 (4 turns)
+  [12/18] preset_8anthropic_claude-sonnet-5 (3 turns)
+  [13/18] preset_8openai_gpt-5.6-luna (6 turns)
+  [14/18] preset_8together_google_gemma-4-31B-it (2 turns)
+  [15/18] preset_8together_moonshotai_Kimi-K2.6 (3 turns)
+  [16/18] preset_9anthropic_claude-sonnet-5 (6 turns)
+  [17/18] preset_9openai_gpt-5.6-luna (6 turns)
+  [18/18] preset_9together_moonshotai_Kimi-K2.6 (4 turns)
+  18 run(s) annotated
+annotating student/solution ...
+  0 run(s) annotated
+annotating student/default_q5 ...
+  [1/80] preset_10anthropic_claude-sonnet-5 (5 turns)
+  [2/80] preset_10openai_gpt-5.6-luna (5 turns)
+  [3/80] preset_10together_google_gemma-4-31B-it (5 turns)
+  [4/80] preset_10together_moonshotai_Kimi-K2.6 (5 turns)
+  [5/80] preset_11anthropic_claude-sonnet-5 (5 turns)
+  [6/80] preset_11openai_gpt-5.6-luna (5 turns)
+  [7/80] preset_11together_google_gemma-4-31B-it (5 turns)
+  [8/80] preset_11together_moonshotai_Kimi-K2.6 (5 turns)
+  [9/80] preset_12anthropic_claude-sonnet-5 (5 turns)
+  [10/80] preset_12openai_gpt-5.6-luna (5 turns)
+  [11/80] preset_12together_google_gemma-4-31B-it (5 turns)
+  [12/80] preset_12together_moonshotai_Kimi-K2.6 (5 turns)
+  [13/80] preset_13anthropic_claude-sonnet-5 (5 turns)
+  [14/80] preset_13openai_gpt-5.6-luna (5 turns)
+  [15/80] preset_13together_google_gemma-4-31B-it (5 turns)
+  [16/80] preset_13together_moonshotai_Kimi-K2.6 (5 turns)
+  [17/80] preset_14anthropic_claude-sonnet-5 (5 turns)
+  [18/80] preset_14openai_gpt-5.6-luna (5 turns)
+  [19/80] preset_14together_google_gemma-4-31B-it (5 turns)
+  [20/80] preset_14together_moonshotai_Kimi-K2.6 (5 turns)
+  [21/80] preset_15anthropic_claude-sonnet-5 (5 turns)
+  [22/80] preset_15openai_gpt-5.6-luna (5 turns)
+  [23/80] preset_15together_google_gemma-4-31B-it (5 turns)
+  [24/80] preset_15together_moonshotai_Kimi-K2.6 (5 turns)
+  [25/80] preset_16anthropic_claude-sonnet-5 (5 turns)
+  [26/80] preset_16openai_gpt-5.6-luna (5 turns)
+  [27/80] preset_16together_google_gemma-4-31B-it (5 turns)
+  [28/80] preset_16together_moonshotai_Kimi-K2.6 (5 turns)
+  [29/80] preset_17anthropic_claude-sonnet-5 (5 turns)
+  [30/80] preset_17openai_gpt-5.6-luna (5 turns)
+  [31/80] preset_17together_google_gemma-4-31B-it (5 turns)
+  [32/80] preset_17together_moonshotai_Kimi-K2.6 (5 turns)
+  [33/80] preset_18anthropic_claude-sonnet-5 (5 turns)
+  [34/80] preset_18openai_gpt-5.6-luna (5 turns)
+  [35/80] preset_18together_google_gemma-4-31B-it (5 turns)
+  [36/80] preset_18together_moonshotai_Kimi-K2.6 (5 turns)
+  [37/80] preset_19anthropic_claude-sonnet-5 (5 turns)
+  [38/80] preset_19openai_gpt-5.6-luna (5 turns)
+  [39/80] preset_19together_google_gemma-4-31B-it (5 turns)
+  [40/80] preset_19together_moonshotai_Kimi-K2.6 (5 turns)
+  [41/80] preset_20anthropic_claude-sonnet-5 (5 turns)
+  [42/80] preset_20openai_gpt-5.6-luna (5 turns)
+  [43/80] preset_20together_google_gemma-4-31B-it (5 turns)
+  [44/80] preset_20together_moonshotai_Kimi-K2.6 (5 turns)
+  [45/80] preset_21anthropic_claude-sonnet-5 (5 turns)
+  [46/80] preset_21openai_gpt-5.6-luna (5 turns)
+  [47/80] preset_21together_google_gemma-4-31B-it (5 turns)
+  [48/80] preset_21together_moonshotai_Kimi-K2.6 (5 turns)
+  [49/80] preset_22anthropic_claude-sonnet-5 (5 turns)
+  [50/80] preset_22openai_gpt-5.6-luna (5 turns)
+  [51/80] preset_22together_google_gemma-4-31B-it (5 turns)
+  [52/80] preset_22together_moonshotai_Kimi-K2.6 (5 turns)
+  [53/80] preset_23anthropic_claude-sonnet-5 (5 turns)
+  [54/80] preset_23openai_gpt-5.6-luna (5 turns)
+  [55/80] preset_23together_google_gemma-4-31B-it (5 turns)
+  [56/80] preset_23together_moonshotai_Kimi-K2.6 (5 turns)
+  [57/80] preset_24anthropic_claude-sonnet-5 (5 turns)
+  [58/80] preset_24openai_gpt-5.6-luna (5 turns)
+  [59/80] preset_24together_google_gemma-4-31B-it (5 turns)
+  [60/80] preset_24together_moonshotai_Kimi-K2.6 (5 turns)
+  [61/80] preset_25anthropic_claude-sonnet-5 (5 turns)
+  [62/80] preset_25openai_gpt-5.6-luna (5 turns)
+  [63/80] preset_25together_google_gemma-4-31B-it (5 turns)
+  [64/80] preset_25together_moonshotai_Kimi-K2.6 (5 turns)
+  [65/80] preset_26anthropic_claude-sonnet-5 (5 turns)
+  [66/80] preset_26openai_gpt-5.6-luna (5 turns)
+  [67/80] preset_26together_google_gemma-4-31B-it (5 turns)
+  [68/80] preset_26together_moonshotai_Kimi-K2.6 (5 turns)
+  [69/80] preset_7anthropic_claude-sonnet-5 (5 turns)
+  [70/80] preset_7openai_gpt-5.6-luna (5 turns)
+  [71/80] preset_7together_google_gemma-4-31B-it (5 turns)
+  [72/80] preset_7together_moonshotai_Kimi-K2.6 (5 turns)
+  [73/80] preset_8anthropic_claude-sonnet-5 (5 turns)
+  [74/80] preset_8openai_gpt-5.6-luna (5 turns)
+  [75/80] preset_8together_google_gemma-4-31B-it (5 turns)
+  [76/80] preset_8together_moonshotai_Kimi-K2.6 (5 turns)
+  [77/80] preset_9anthropic_claude-sonnet-5 (5 turns)
+  [78/80] preset_9openai_gpt-5.6-luna (5 turns)
+  [79/80] preset_9together_google_gemma-4-31B-it (5 turns)
+  [80/80] preset_9together_moonshotai_Kimi-K2.6 (5 turns)
+  80 run(s) annotated
+annotating student/think_v2_q5 ...
+  [1/78] preset_10anthropic_claude-sonnet-5 (5 turns)
+  [2/78] preset_10openai_gpt-5.6-luna (5 turns)
+  [3/78] preset_10together_google_gemma-4-31B-it (5 turns)
+  [4/78] preset_10together_moonshotai_Kimi-K2.6 (5 turns)
+  [5/78] preset_11anthropic_claude-sonnet-5 (5 turns)
+  [6/78] preset_11openai_gpt-5.6-luna (5 turns)
+  [7/78] preset_11together_google_gemma-4-31B-it (5 turns)
+  [8/78] preset_12anthropic_claude-sonnet-5 (5 turns)
+  [9/78] preset_12openai_gpt-5.6-luna (5 turns)
+  [10/78] preset_12together_google_gemma-4-31B-it (5 turns)
+  [11/78] preset_12together_moonshotai_Kimi-K2.6 (5 turns)
+  [12/78] preset_13anthropic_claude-sonnet-5 (5 turns)
+  [13/78] preset_13openai_gpt-5.6-luna (5 turns)
+  [14/78] preset_13together_google_gemma-4-31B-it (5 turns)
+  [15/78] preset_13together_moonshotai_Kimi-K2.6 (5 turns)
+  [16/78] preset_14anthropic_claude-sonnet-5 (5 turns)
+  [17/78] preset_14openai_gpt-5.6-luna (5 turns)
+  [18/78] preset_14together_google_gemma-4-31B-it (5 turns)
+  [19/78] preset_14together_moonshotai_Kimi-K2.6 (5 turns)
+  [20/78] preset_15anthropic_claude-sonnet-5 (5 turns)
+  [21/78] preset_15openai_gpt-5.6-luna (5 turns)
+  [22/78] preset_15together_google_gemma-4-31B-it (5 turns)
+  [23/78] preset_15together_moonshotai_Kimi-K2.6 (5 turns)
+  [24/78] preset_16anthropic_claude-sonnet-5 (5 turns)
+  [25/78] preset_16openai_gpt-5.6-luna (5 turns)
+  [26/78] preset_16together_google_gemma-4-31B-it (5 turns)
+  [27/78] preset_16together_moonshotai_Kimi-K2.6 (5 turns)
+  [28/78] preset_17anthropic_claude-sonnet-5 (5 turns)
+  [29/78] preset_17openai_gpt-5.6-luna (5 turns)
+  [30/78] preset_17together_google_gemma-4-31B-it (5 turns)
+  [31/78] preset_17together_moonshotai_Kimi-K2.6 (5 turns)
+  [32/78] preset_18anthropic_claude-sonnet-5 (5 turns)
+  [33/78] preset_18openai_gpt-5.6-luna (5 turns)
+  [34/78] preset_18together_google_gemma-4-31B-it (5 turns)
+  [35/78] preset_18together_moonshotai_Kimi-K2.6 (5 turns)
+  [36/78] preset_19anthropic_claude-sonnet-5 (5 turns)
+  [37/78] preset_19openai_gpt-5.6-luna (5 turns)
+  [38/78] preset_19together_google_gemma-4-31B-it (5 turns)
+  [39/78] preset_19together_moonshotai_Kimi-K2.6 (5 turns)
+  [40/78] preset_20anthropic_claude-sonnet-5 (5 turns)
+  [41/78] preset_20openai_gpt-5.6-luna (5 turns)
+  [42/78] preset_20together_google_gemma-4-31B-it (5 turns)
+  [43/78] preset_20together_moonshotai_Kimi-K2.6 (5 turns)
+  [44/78] preset_21anthropic_claude-sonnet-5 (5 turns)
+  [45/78] preset_21openai_gpt-5.6-luna (5 turns)
+  [46/78] preset_21together_google_gemma-4-31B-it (5 turns)
+  [47/78] preset_21together_moonshotai_Kimi-K2.6 (5 turns)
+  [48/78] preset_22anthropic_claude-sonnet-5 (5 turns)
+  [49/78] preset_22openai_gpt-5.6-luna (5 turns)
+  [50/78] preset_22together_google_gemma-4-31B-it (5 turns)
+  [51/78] preset_22together_moonshotai_Kimi-K2.6 (5 turns)
+  [52/78] preset_23anthropic_claude-sonnet-5 (5 turns)
+  [53/78] preset_23openai_gpt-5.6-luna (5 turns)
+  [54/78] preset_23together_google_gemma-4-31B-it (5 turns)
+  [55/78] preset_23together_moonshotai_Kimi-K2.6 (5 turns)
+  [56/78] preset_24anthropic_claude-sonnet-5 (5 turns)
+  [57/78] preset_24openai_gpt-5.6-luna (5 turns)
+  [58/78] preset_24together_google_gemma-4-31B-it (5 turns)
+  [59/78] preset_24together_moonshotai_Kimi-K2.6 (5 turns)
+  [60/78] preset_25anthropic_claude-sonnet-5 (5 turns)
+  [61/78] preset_25openai_gpt-5.6-luna (5 turns)
+  [62/78] preset_25together_google_gemma-4-31B-it (5 turns)
+  [63/78] preset_25together_moonshotai_Kimi-K2.6 (5 turns)
+  [64/78] preset_26anthropic_claude-sonnet-5 (5 turns)
+  [65/78] preset_26openai_gpt-5.6-luna (5 turns)
+  [66/78] preset_26together_google_gemma-4-31B-it (5 turns)
+  [67/78] preset_26together_moonshotai_Kimi-K2.6 (5 turns)
+  [68/78] preset_7anthropic_claude-sonnet-5 (5 turns)
+  [69/78] preset_7openai_gpt-5.6-luna (5 turns)
+  [70/78] preset_7together_google_gemma-4-31B-it (5 turns)
+  [71/78] preset_7together_moonshotai_Kimi-K2.6 (5 turns)
+  [72/78] preset_8anthropic_claude-sonnet-5 (5 turns)
+  [73/78] preset_8openai_gpt-5.6-luna (5 turns)
+  [74/78] preset_8together_google_gemma-4-31B-it (5 turns)
+  [75/78] preset_8together_moonshotai_Kimi-K2.6 (5 turns)
+  [76/78] preset_9anthropic_claude-sonnet-5 (5 turns)
+  [77/78] preset_9together_google_gemma-4-31B-it (5 turns)
+  [78/78] preset_9together_moonshotai_Kimi-K2.6 (5 turns)
+  78 run(s) annotated
+annotating student/solution_q5 ...
+  [1/80] preset_10anthropic_claude-sonnet-5 (5 turns)
+  [2/80] preset_10openai_gpt-5.6-luna (5 turns)
+  [3/80] preset_10together_google_gemma-4-31B-it (5 turns)
+  [4/80] preset_10together_moonshotai_Kimi-K2.6 (5 turns)
+  [5/80] preset_11anthropic_claude-sonnet-5 (5 turns)
+  [6/80] preset_11openai_gpt-5.6-luna (5 turns)
+  [7/80] preset_11together_google_gemma-4-31B-it (5 turns)
+  [8/80] preset_11together_moonshotai_Kimi-K2.6 (5 turns)
+  [9/80] preset_12anthropic_claude-sonnet-5 (5 turns)
+  [10/80] preset_12openai_gpt-5.6-luna (5 turns)
+  [11/80] preset_12together_google_gemma-4-31B-it (5 turns)
+  [12/80] preset_12together_moonshotai_Kimi-K2.6 (5 turns)
+  [13/80] preset_13anthropic_claude-sonnet-5 (5 turns)
+  [14/80] preset_13openai_gpt-5.6-luna (5 turns)
+  [15/80] preset_13together_google_gemma-4-31B-it (5 turns)
+  [16/80] preset_13together_moonshotai_Kimi-K2.6 (5 turns)
+  [17/80] preset_14anthropic_claude-sonnet-5 (5 turns)
+  [18/80] preset_14openai_gpt-5.6-luna (5 turns)
+  [19/80] preset_14together_google_gemma-4-31B-it (5 turns)
+  [20/80] preset_14together_moonshotai_Kimi-K2.6 (5 turns)
+  [21/80] preset_15anthropic_claude-sonnet-5 (5 turns)
+  [22/80] preset_15openai_gpt-5.6-luna (5 turns)
+  [23/80] preset_15together_google_gemma-4-31B-it (5 turns)
+  [24/80] preset_15together_moonshotai_Kimi-K2.6 (5 turns)
+  [25/80] preset_16anthropic_claude-sonnet-5 (5 turns)
+  [26/80] preset_16openai_gpt-5.6-luna (5 turns)
+  [27/80] preset_16together_google_gemma-4-31B-it (5 turns)
+  [28/80] preset_16together_moonshotai_Kimi-K2.6 (5 turns)
+  [29/80] preset_17anthropic_claude-sonnet-5 (5 turns)
+  [30/80] preset_17openai_gpt-5.6-luna (5 turns)
+  [31/80] preset_17together_google_gemma-4-31B-it (5 turns)
+  [32/80] preset_17together_moonshotai_Kimi-K2.6 (5 turns)
+  [33/80] preset_18anthropic_claude-sonnet-5 (5 turns)
+  [34/80] preset_18openai_gpt-5.6-luna (5 turns)
+  [35/80] preset_18together_google_gemma-4-31B-it (5 turns)
+  [36/80] preset_18together_moonshotai_Kimi-K2.6 (5 turns)
+  [37/80] preset_19anthropic_claude-sonnet-5 (5 turns)
+  [38/80] preset_19openai_gpt-5.6-luna (5 turns)
+  [39/80] preset_19together_google_gemma-4-31B-it (5 turns)
+  [40/80] preset_19together_moonshotai_Kimi-K2.6 (5 turns)
+  [41/80] preset_20anthropic_claude-sonnet-5 (5 turns)
+  [42/80] preset_20openai_gpt-5.6-luna (5 turns)
+  [43/80] preset_20together_google_gemma-4-31B-it (5 turns)
+  [44/80] preset_20together_moonshotai_Kimi-K2.6 (5 turns)
+  [45/80] preset_21anthropic_claude-sonnet-5 (5 turns)
+  [46/80] preset_21openai_gpt-5.6-luna (5 turns)
+  [47/80] preset_21together_google_gemma-4-31B-it (5 turns)
+  [48/80] preset_21together_moonshotai_Kimi-K2.6 (5 turns)
+  [49/80] preset_22anthropic_claude-sonnet-5 (5 turns)
+  [50/80] preset_22openai_gpt-5.6-luna (5 turns)
+  [51/80] preset_22together_google_gemma-4-31B-it (5 turns)
+  [52/80] preset_22together_moonshotai_Kimi-K2.6 (5 turns)
+  [53/80] preset_23anthropic_claude-sonnet-5 (5 turns)
+  [54/80] preset_23openai_gpt-5.6-luna (5 turns)
+  [55/80] preset_23together_google_gemma-4-31B-it (5 turns)
+  [56/80] preset_23together_moonshotai_Kimi-K2.6 (5 turns)
+  [57/80] preset_24anthropic_claude-sonnet-5 (5 turns)
+  [58/80] preset_24openai_gpt-5.6-luna (5 turns)
+  [59/80] preset_24together_google_gemma-4-31B-it (5 turns)
+  [60/80] preset_24together_moonshotai_Kimi-K2.6 (5 turns)
+  [61/80] preset_25anthropic_claude-sonnet-5 (5 turns)
+  [62/80] preset_25openai_gpt-5.6-luna (5 turns)
+  [63/80] preset_25together_google_gemma-4-31B-it (5 turns)
+  [64/80] preset_25together_moonshotai_Kimi-K2.6 (5 turns)
+  [65/80] preset_26anthropic_claude-sonnet-5 (5 turns)
+  [66/80] preset_26openai_gpt-5.6-luna (5 turns)
+  [67/80] preset_26together_google_gemma-4-31B-it (5 turns)
+  [68/80] preset_26together_moonshotai_Kimi-K2.6 (5 turns)
+  [69/80] preset_7anthropic_claude-sonnet-5 (5 turns)
+  [70/80] preset_7openai_gpt-5.6-luna (5 turns)
+  [71/80] preset_7together_google_gemma-4-31B-it (5 turns)
+  [72/80] preset_7together_moonshotai_Kimi-K2.6 (5 turns)
+  [73/80] preset_8anthropic_claude-sonnet-5 (5 turns)
+  [74/80] preset_8openai_gpt-5.6-luna (5 turns)
+  [75/80] preset_8together_google_gemma-4-31B-it (5 turns)
+  [76/80] preset_8together_moonshotai_Kimi-K2.6 (5 turns)
+  [77/80] preset_9anthropic_claude-sonnet-5 (5 turns)
+  [78/80] preset_9openai_gpt-5.6-luna (5 turns)
+  [79/80] preset_9together_google_gemma-4-31B-it (5 turns)
+  [80/80] preset_9together_moonshotai_Kimi-K2.6 (5 turns)
+  80 run(s) annotated
+annotating student/noai ...
+  0 run(s) annotated
+annotating student/human_style_q5 ...
+  [1/80] preset_10anthropic_claude-sonnet-5 (5 turns)
+  [2/80] preset_10openai_gpt-5.6-luna (5 turns)
+  [3/80] preset_10together_google_gemma-4-31B-it (5 turns)
+  [4/80] preset_10together_moonshotai_Kimi-K2.6 (5 turns)
+  [5/80] preset_11anthropic_claude-sonnet-5 (5 turns)
+  [6/80] preset_11openai_gpt-5.6-luna (5 turns)
+  [7/80] preset_11together_google_gemma-4-31B-it (5 turns)
+  [8/80] preset_11together_moonshotai_Kimi-K2.6 (5 turns)
+  [9/80] preset_12anthropic_claude-sonnet-5 (5 turns)
+  [10/80] preset_12openai_gpt-5.6-luna (5 turns)
+  [11/80] preset_12together_google_gemma-4-31B-it (5 turns)
+  [12/80] preset_12together_moonshotai_Kimi-K2.6 (5 turns)
+  [13/80] preset_13anthropic_claude-sonnet-5 (5 turns)
+  [14/80] preset_13openai_gpt-5.6-luna (5 turns)
+  [15/80] preset_13together_google_gemma-4-31B-it (5 turns)
+  [16/80] preset_13together_moonshotai_Kimi-K2.6 (5 turns)
+  [17/80] preset_14anthropic_claude-sonnet-5 (5 turns)
+  [18/80] preset_14openai_gpt-5.6-luna (5 turns)
+  [19/80] preset_14together_google_gemma-4-31B-it (5 turns)
+  [20/80] preset_14together_moonshotai_Kimi-K2.6 (5 turns)
+  [21/80] preset_15anthropic_claude-sonnet-5 (5 turns)
+  [22/80] preset_15openai_gpt-5.6-luna (5 turns)
+  [23/80] preset_15together_google_gemma-4-31B-it (5 turns)
+  [24/80] preset_15together_moonshotai_Kimi-K2.6 (5 turns)
+  [25/80] preset_16anthropic_claude-sonnet-5 (5 turns)
+  [26/80] preset_16openai_gpt-5.6-luna (5 turns)
+  [27/80] preset_16together_google_gemma-4-31B-it (5 turns)
+  [28/80] preset_16together_moonshotai_Kimi-K2.6 (5 turns)
+  [29/80] preset_17anthropic_claude-sonnet-5 (5 turns)
+  [30/80] preset_17openai_gpt-5.6-luna (5 turns)
+  [31/80] preset_17together_google_gemma-4-31B-it (5 turns)
+  [32/80] preset_17together_moonshotai_Kimi-K2.6 (5 turns)
+  [33/80] preset_18anthropic_claude-sonnet-5 (5 turns)
+  [34/80] preset_18openai_gpt-5.6-luna (5 turns)
+  [35/80] preset_18together_google_gemma-4-31B-it (5 turns)
+  [36/80] preset_18together_moonshotai_Kimi-K2.6 (5 turns)
+  [37/80] preset_19anthropic_claude-sonnet-5 (5 turns)
+  [38/80] preset_19openai_gpt-5.6-luna (5 turns)
+  [39/80] preset_19together_google_gemma-4-31B-it (5 turns)
+  [40/80] preset_19together_moonshotai_Kimi-K2.6 (5 turns)
+  [41/80] preset_20anthropic_claude-sonnet-5 (5 turns)
+  [42/80] preset_20openai_gpt-5.6-luna (5 turns)
+  [43/80] preset_20together_google_gemma-4-31B-it (5 turns)
+  [44/80] preset_20together_moonshotai_Kimi-K2.6 (5 turns)
+  [45/80] preset_21anthropic_claude-sonnet-5 (5 turns)
+  [46/80] preset_21openai_gpt-5.6-luna (5 turns)
+  [47/80] preset_21together_google_gemma-4-31B-it (5 turns)
+  [48/80] preset_21together_moonshotai_Kimi-K2.6 (5 turns)
+  [49/80] preset_22anthropic_claude-sonnet-5 (5 turns)
+  [50/80] preset_22openai_gpt-5.6-luna (5 turns)
+  [51/80] preset_22together_google_gemma-4-31B-it (5 turns)
+  [52/80] preset_22together_moonshotai_Kimi-K2.6 (5 turns)
+  [53/80] preset_23anthropic_claude-sonnet-5 (5 turns)
+  [54/80] preset_23openai_gpt-5.6-luna (5 turns)
+  [55/80] preset_23together_google_gemma-4-31B-it (5 turns)
+  [56/80] preset_23together_moonshotai_Kimi-K2.6 (5 turns)
+  [57/80] preset_24anthropic_claude-sonnet-5 (5 turns)
+  [58/80] preset_24openai_gpt-5.6-luna (5 turns)
+  [59/80] preset_24together_google_gemma-4-31B-it (5 turns)
+  [60/80] preset_24together_moonshotai_Kimi-K2.6 (5 turns)
+  [61/80] preset_25anthropic_claude-sonnet-5 (5 turns)
+  [62/80] preset_25openai_gpt-5.6-luna (5 turns)
+  [63/80] preset_25together_google_gemma-4-31B-it (5 turns)
+  [64/80] preset_25together_moonshotai_Kimi-K2.6 (5 turns)
+  [65/80] preset_26anthropic_claude-sonnet-5 (5 turns)
+  [66/80] preset_26openai_gpt-5.6-luna (5 turns)
+  [67/80] preset_26together_google_gemma-4-31B-it (5 turns)
+  [68/80] preset_26together_moonshotai_Kimi-K2.6 (5 turns)
+  [69/80] preset_7anthropic_claude-sonnet-5 (5 turns)
+  [70/80] preset_7openai_gpt-5.6-luna (5 turns)
+  [71/80] preset_7together_google_gemma-4-31B-it (5 turns)
+  [72/80] preset_7together_moonshotai_Kimi-K2.6 (5 turns)
+  [73/80] preset_8anthropic_claude-sonnet-5 (5 turns)
+  [74/80] preset_8openai_gpt-5.6-luna (5 turns)
+  [75/80] preset_8together_google_gemma-4-31B-it (5 turns)
+  [76/80] preset_8together_moonshotai_Kimi-K2.6 (5 turns)
+  [77/80] preset_9anthropic_claude-sonnet-5 (5 turns)
+  [78/80] preset_9openai_gpt-5.6-luna (5 turns)
+  [79/80] preset_9together_google_gemma-4-31B-it (5 turns)
+  [80/80] preset_9together_moonshotai_Kimi-K2.6 (5 turns)
+  80 run(s) annotated
+
+==========================================================================================
+STUDENT ARMS — act share (% of a run's acts), paired on (preset, model)
+==========================================================================================
+
+--- think vs default   target: Think Aloud   n=5 matched cells ---
+    excluded (0% Think Aloud in the default condition, so the manipulation is undefined for them): together_meta-llama_Llama-3.3-70B-Instruct-Turbo
+                           act   default%      think%     diff        p
+        Common Ground Question      10.0       18.4     +8.4    0.500
+              Solution Request      53.7       36.1    -17.5    0.250
+                   Think Aloud      36.3       45.5     +9.1    0.250  <== TARGET
+                 turns per run       2.6        3.2     +0.6   <- should NOT move; the prompts change form, not frequency
+    runs with any conversation    default: 10/10
+    runs with any conversation      think: 6/10
+
+--- think_v2 vs default   target: Think Aloud   n=15 matched cells ---
+    excluded (0% Think Aloud in the default condition, so the manipulation is undefined for them): together_meta-llama_Llama-3.3-70B-Instruct-Turbo
+                           act   default%   think_v2%     diff        p
+        Common Ground Question      25.9       22.4     -3.5    0.593
+    Knowledge Deficit Question       1.0        1.3     +0.3    1.000
+                   Metacomment       0.7        0.0     -0.7    0.317
+              Solution Request      41.0       31.5     -9.5    0.055
+                   Think Aloud      31.4       44.8    +13.5    0.010  <== TARGET
+                 turns per run       3.5        4.6     +1.1   <- should NOT move; the prompts change form, not frequency
+    runs with any conversation    default: 22/25
+    runs with any conversation   think_v2: 20/25
+
+--- solution vs default   target: Solution Request   n=10 matched cells ---
+                           act   default%   solution%     diff        p
+        Common Ground Question      10.0        0.0    -10.0    0.250
+    Knowledge Deficit Question      15.8        0.0    -15.8    0.125
+              Solution Request      56.0      100.0    +44.0    0.002  <== TARGET
+                   Think Aloud      18.2        0.0    -18.2    0.062
+                 turns per run       2.8        5.2     +2.4   <- should NOT move; the prompts change form, not frequency
+    runs with any conversation    default: 10/10
+    runs with any conversation   solution: 10/10
+
+--- think_v2_q5 vs default_q5   target: Think Aloud   n=78 matched cells ---
+                           act default_q5% think_v2_q5%     diff        p
+        Common Ground Question      28.0       26.8     -1.2    0.978
+ Conversational Acknowledgment       1.3        0.4     -0.9    0.067
+    Knowledge Deficit Question      11.3       10.1     -1.2    0.316
+                   Metacomment       4.2        2.5     -1.6    0.107
+              Solution Request      26.1       20.4     -5.7    0.007
+                   Think Aloud      29.1       39.7    +10.6    0.000  <== TARGET
+                 turns per run       5.0        5.0     +0.0   <- should NOT move; the prompts change form, not frequency
+    runs with any conversation default_q5: 78/78
+    runs with any conversation think_v2_q5: 78/78
+
+--- solution_q5 vs default_q5   target: Solution Request   n=80 matched cells ---
+                           act default_q5% solution_q5%     diff        p
+        Common Ground Question      27.9        8.1    -19.8    0.000
+ Conversational Acknowledgment       1.3        0.0     -1.3    0.011
+    Knowledge Deficit Question      11.1        3.3     -7.8    0.000
+                   Metacomment       4.1        0.2     -3.9    0.000
+              Solution Request      26.6       86.5    +59.9    0.000  <== TARGET
+                   Think Aloud      29.1        1.9    -27.2    0.000
+                 turns per run       5.0        5.0     +0.0   <- should NOT move; the prompts change form, not frequency
+    runs with any conversation default_q5: 80/80
+    runs with any conversation solution_q5: 80/80
+
+--- human_style_q5 vs default_q5   target: Common Ground Question   n=80 matched cells ---
+                           act default_q5% human_style_q5%     diff        p
+        Common Ground Question      27.9       37.3     +9.4    0.001  <== TARGET
+ Conversational Acknowledgment       1.3        1.1     -0.2    0.833
+    Knowledge Deficit Question      11.1       14.5     +3.5    0.270
+                   Metacomment       4.1        1.2     -2.9    0.009
+              Solution Request      26.6       22.7     -3.9    0.043
+                   Think Aloud      29.1       23.2     -5.9    0.007
+                 turns per run       5.0        5.0     +0.0   <- should NOT move; the prompts change form, not frequency
+    runs with any conversation default_q5: 80/80
+    runs with any conversation human_style_q5: 80/80
+
+==========================================================================================
+STUDENT — OUTCOME: solo margin sum (ceiling +16), paired on (preset, model)
+==========================================================================================
+         arm  baseline       n     base      arm     diff        p       d  95% CI
+       think<-default        5   -24.80   -21.20    +3.60    0.750   +0.26  [-13.64, +20.84]
+    think_v2<-default       21   -13.14    -8.00    +5.14    0.079   +0.45  [-0.06, +10.35]
+    solution<-default       10   -10.80    -0.40   +10.40    0.016   +1.08  [+3.50, +17.30]
+  default_q5<-default       69    -3.16    -3.68    -0.52    0.567   -0.04  [-3.52, +2.47]
+ think_v2_q5<-default_q5    68    -4.35    -3.06    +1.29    0.289   +0.09  [-2.16, +4.75]
+ solution_q5<-default_q5    73    -4.60    -4.19    +0.41    0.647   +0.03  [-2.56, +3.38]
+        noai<-default_q5    68    -3.29    -4.74    -1.44    0.505   -0.10  [-4.88, +2.00]
+human_style_q5<-default_q5    73    -4.60    -3.97    +0.63    0.864   +0.05  [-2.27, +3.53]
+  reference: at n=10 paired cells, ~80% power needs a shift of 11.5 (margin units; default SD=13.0)
+  reference: at n=20 paired cells, ~80% power needs a shift of 8.1 (margin units; default SD=13.0)
+  reference: at n=40 paired cells, ~80% power needs a shift of 5.8 (margin units; default SD=13.0)
+  Read alongside the act tables: an arm that changed how often the student consulted
+  has moved two things at once, and this column cannot separate them.

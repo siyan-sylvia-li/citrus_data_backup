@@ -1,0 +1,49 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Ok I'm down 20 to 34 which looks bad, but there's only 10 empty squares left. My options are g2, b6, a7, b7, b8, c8. Which one actually sets me up best, and am I wrong to panic about the count right now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White snagged a8. Now I've got g2, b6, a7, c8 to pick from - which one now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "That hurt, lost the whole bottom row. Down 22-36 with only g2, b6, a7 left as my choices. Is there any way this turns around or am I just picking the least bad option at this point?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "20-40, just a1 g2 a3 left as my options. Does the order matter or is it locked in at this point?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White passed! Now just a1 or g2 - which one should I take?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

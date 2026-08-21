@@ -1,0 +1,25 @@
+{
+  "reflection": "Continue to post cooking videos but start to use any other platforms you dont currently use to grow your following.\r\nOnce you earn enough to quit your job do so to concentrate on the cooking. \r\nReach out to publishers with your pitch",
+  "effort": {
+    "judges": [
+      {
+        "model": "gpt",
+        "score": 4
+      },
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 2
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.0,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-19T12:02:43.067727+00:00"
+}

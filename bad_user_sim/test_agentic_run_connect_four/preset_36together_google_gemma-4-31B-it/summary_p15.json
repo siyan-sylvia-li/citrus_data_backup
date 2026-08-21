@@ -1,0 +1,41 @@
+{
+  "puzzle": "15",
+  "decisions": 6,
+  "optimal_moves": 3,
+  "optimal_first_n": 2,
+  "decisions_first_n": 3,
+  "kept_win_moves": 1,
+  "opener_optimal": false,
+  "exact_decisions": 3,
+  "result": "yellow_win",
+  "won": false,
+  "plies_to_win_at_start": 9,
+  "completed": true,
+  "columns": [
+    "5!",
+    "4",
+    "5",
+    "6!",
+    "3",
+    "2!"
+  ],
+  "auto_played": [],
+  "chat_turns": null,
+  "game": "connect_four",
+  "round": 0,
+  "ai_available": true,
+  "model_settings": {
+    "max_tokens": 200000
+  },
+  "questions_asked": 0,
+  "question_budget": 10,
+  "profile": {
+    "persona": "A fellow enthusiast who runs a blog dedicated to reviewing and recommending niche products",
+    "age": 32,
+    "education": "some_college",
+    "occupation": "other",
+    "ai_frequency": "daily"
+  },
+  "student_model": "together:google/gemma-4-31B-it",
+  "streamed": false
+}

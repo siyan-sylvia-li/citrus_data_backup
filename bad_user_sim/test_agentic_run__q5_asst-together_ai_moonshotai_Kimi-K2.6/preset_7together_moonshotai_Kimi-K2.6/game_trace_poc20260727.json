@@ -1,0 +1,34 @@
+[
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I thought c8 would flip White discs toward the h3 side, but instead it jumped all the way to d8 and cascaded against me. Can you explain exactly which diagonal got flipped, and why it didn\u2019t stop at h3?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "My first move was a7, but the disc count went from Black 20 / White 34 to Black 17 / White 39. Was a7 actually a bad move, or did White\u2019s a1 simply punish it?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Should I have looked at b8 instead of a7 from the very start? How can I tell in an endgame whether a corner-like move is safe versus a trap?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Is there a simple rule for counting up a fully-filled board at the end without going square by square, so I know whether I\u2019ve won without waiting for the final tally?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "When White played b6 after my c8 move, that seemed to open a path for White to take g2 automatically. What should I have watched for to see that coming?"
+  }
+]

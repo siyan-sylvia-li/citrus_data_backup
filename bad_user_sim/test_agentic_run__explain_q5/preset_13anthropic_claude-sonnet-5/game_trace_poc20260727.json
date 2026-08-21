@@ -1,0 +1,45 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, I've got 6 legal moves here: g2, b6, a7, b7, b8, c8. There's only 10 empty squares left total so it's near the end. Which move gives me the best final disc count if White plays their best too?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White just took a8 corner. Now my options are g2, b6, a7, c8. Which is best for the final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Down big now, 22 to 36, only 6 spots left: g2, b6, a7. Which move actually gives me the best shot at the end?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Last stretch, only a1, g2, a3 left as options (h1 also empty). I'm down 20-40. Which move is my best bet here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Quick gut check \u2014 at the very end I had a1, h1, g2 left and I played g2 myself without asking you, figuring it'd chain-flip that whole g-column. Was that actually the right call, or could a1 first have done better for me?"
+  }
+]

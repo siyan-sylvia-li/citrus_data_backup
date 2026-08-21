@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Create a three year plan to grow a cooking video channel that focuses on quick healthy recipes.  Need plans to grow online and publish a cookbook.  Please provide guidance on whether or not traditional or self-publishing would be a better route.  Creator works four days a week and has limited time and a limited budget.  Create a three year plan with clear steps and timelines with goals and ways to see progress throughout.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-06T22:58:35.072982+00:00"
+}

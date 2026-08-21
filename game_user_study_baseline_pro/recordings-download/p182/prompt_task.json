@@ -1,0 +1,19 @@
+{
+  "created_prompt": "I post quick, healthy cooking videos to 1.2M followers. Right now I work 4 days a week, and have limited time and budget. My goal is to grow online and publish a cookbook - I can't decide between traditional or self-pub. I need a firm, detailed three-year plan for achieving my goals.",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-22T13:33:06.385675+00:00"
+}

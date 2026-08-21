@@ -1,0 +1,17 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at this Connect Four endgame. I think column 3 is the critical first move because it blocks Yellow's diagonal (5,1)-(4,2)-(3,3)-(2,4) and also builds Red's own diagonal (2,2)-(3,3)-(4,4). Every other first move seems to let Yellow play (3,3) themselves and create an unstoppable fork. Am I reading this right, or is there a better first move I'm missing?"
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "view_board"
+  }
+]

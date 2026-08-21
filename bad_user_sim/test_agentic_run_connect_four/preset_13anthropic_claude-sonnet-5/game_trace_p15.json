@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, I'm looking at this Connect 4 board and it's my turn as Red. I don't see any obvious win or must-block right now. Can you tell me what the strongest move is here and why, in simple terms?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Yellow has c7r1, c6r2, c5r3 all yellow going up diagonally - if they drop in column 4 next it lands on row 4 and completes it, right? So I need to play column 4 myself right now to block, yes?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Okay I blocked that. Now looking at the board again - I've got R,R in column 2 (rows 1-2), so if I play column 2 again I'd have three in a row vertically and force Yellow to block on top. Or I could build toward a row-4 threat with columns 5 and 6. Which path is actually better here, or is there something stronger I'm missing?"
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm thinking column 6 next, to make R,R,R across row 4 (columns 4,5,6). Neither end (col 3 or col 7) is playable yet at row 4, but is this a good setup move, or does it let Yellow do something nasty first?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Ok fair point. So what should I actually play right now instead?"
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  }
+]

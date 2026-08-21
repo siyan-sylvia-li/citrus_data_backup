@@ -1,0 +1,25 @@
+{
+  "reflection": "Create the online presence by creatin storylines around the videos.",
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 2
+      },
+      {
+        "model": "nemotron",
+        "score": 2
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.333,
+    "median_score": 2,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-18T16:28:37.606609+00:00"
+}

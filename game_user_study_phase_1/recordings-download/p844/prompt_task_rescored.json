@@ -1,0 +1,32 @@
+{
+  "created_prompt": "Devise a 3 year plan for someone who works 4 days a week, but wants to publish quick healthy recipes in a cookbook. Advise on traditional or self publishing, don't give pros and cons, simply advise on which way to go, with specific timeline for 3 year plan on how to do that. The person has 1.2 million followers online who  focus on healthy and fast recipes.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "original": {
+    "judges": {
+      "llama": 3,
+      "gpt": 3
+    },
+    "mean_score": 3.0,
+    "median_score": 3.0,
+    "passed": true
+  },
+  "time_taken": 3.324
+}

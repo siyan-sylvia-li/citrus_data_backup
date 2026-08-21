@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Hello, I'm Julie and I  post cooking videos to over 1.2 million followers with primarily quick, healthy recipes. \r\n\r\nI currently work four days weekly which means I have very limited time and budget; However, I want to both grown online and publish a cookbook (tradition or self published) within the next 3 years.\r\n\r\nGive me a concrete plan separated into two dimensions, online channel growth and the cookbook. Take into consideration the time constraints and possibly try to create synergistic effects in the plan. The plan should cover all 3 years.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 4
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.333,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 3.333,
+  "submitted_at": "2026-08-20T02:41:35.907113+00:00"
+}

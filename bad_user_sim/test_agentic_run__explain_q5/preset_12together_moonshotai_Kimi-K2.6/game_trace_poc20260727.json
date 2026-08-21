@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I\u2019ve narrowed it down to b7 and c8. b7 snags a whole row, but c8 flips a ton diagonally too. In an endgame this tight, which one is actually better assuming White plays perfectly? Any chance one of them lets White steal the edge back? Also, does g2 have any endgame parity advantage I\u2019m sleeping on?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "My legal moves are g2, b6, a7, c8 after White played a8. Which leaves me ahead at the end? I worry b6 or g2 might open a monster reply like a3 or h1 for White. What\u2019s the safest + highest-scoring move?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Board is 22 to 36. My moves are g2, b6, a7. Any salvage the game or is it over? Which one loses me the least?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Down 20 to 40 with 4 empty squares left (a1, h1, g2, a3). Is a3 or g2 better, or am I cooked either way? Which finishes stronger?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Could I have won by a bigger margin? That swing from 20-40 back to 33-31 was wild, but did I actually play the optimal line or just scramble to the best outcome?"
+  }
+]

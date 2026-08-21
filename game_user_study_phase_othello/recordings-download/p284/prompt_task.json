@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Create a practical, detailed three-year growth and cookbook-publishing plan for Julie, a creator who shares quick, healthy cooking videos with 1.2 million followers. She works four days per week and has limited time and budget. The plan should help her grow her audience, strengthen her brand, diversify income, and publish a successful cookbook. Compare traditional publishing with self-publishing based on cost, workload, creative control, timeline, distribution, and earning potential, then recommend the best route and explain why. Break the plan into quarterly milestones with prioritized actions, estimated time and budget requirements, measurable KPIs, revenue opportunities, and clear decision points. Include a sustainable weekly workflow, a lean content strategy across relevant platforms, audience and email-list development, cookbook validation and production steps, potential partnerships, and contingency plans if growth or revenue falls below target. Make realistic assumptions where information is missing, state them clearly, and prioritize a focused plan that Julie could genuinely execute rather than an exhaustive wish list.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 4
+    },
+    {
+      "model": "gpt",
+      "score": 4
+    },
+    {
+      "model": "nemotron",
+      "score": 4
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 4.0,
+  "median_score": 4,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-05T13:24:53.017514+00:00"
+}

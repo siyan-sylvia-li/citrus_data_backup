@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, I'm Black in this Othello endgame, only 10 empty squares left and I'm way behind in discs (20 to 34). My legal moves are g2, b6, a7, b7, b8, c8. Which one gives me the best shot at ending up with the most discs when the board fills up?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Good news, I'm at 24 now after b7, White played a8. My legal moves now are g2, b6, a7, c8. Which is best?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Ouch, that one backfired, I'm at 22 vs 36 now. Only 6 empty squares left: g2, b6, a7. Which one should I take to end up with the most in the end?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Down to 20 vs 40, only 4 empties: a1, g2, a3. My legal moves are a1, g2, a3. Which one should I play?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Quick question since the game just ended 41-23 for me - why did White end up with no legal moves for like 3 turns in a row at the end there? I don't totally get how that happened."
+  }
+]

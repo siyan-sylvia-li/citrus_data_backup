@@ -1,0 +1,32 @@
+{
+  "created_prompt": "Julie works four days a week with limited time and a limited budget. However, she wants to grow her business presence online and publish a cookbook either traditional or self-publishing. She currently posts videos where she has 1.2M followers that all love her quick, healthy recipes. Can you devise a three year plan for this?",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "original": {
+    "judges": {
+      "llama": 3,
+      "gpt": 3
+    },
+    "mean_score": 3.0,
+    "median_score": 3.0,
+    "passed": true
+  },
+  "time_taken": 2.008
+}

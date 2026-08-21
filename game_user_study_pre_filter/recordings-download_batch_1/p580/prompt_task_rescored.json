@@ -1,0 +1,31 @@
+{
+  "created_prompt": "I am a content creator and influencer with 1.2 million followers.  I create mostly shortform videos but want to create a three year plan to expand my platform.  I would like a short term, mid term and long term goals outlined with step by step instructions.  Furthermore, I want to publish a cookbook and I need immediate direction on this with a pro and con of traditional vs self publishing.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "qwen",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.0,
+  "threshold": 3.0,
+  "passed": false,
+  "original": {
+    "judges": {
+      "llama": 3,
+      "gpt": 3,
+      "qwen": 3
+    },
+    "mean_score": 3.0,
+    "passed": true
+  },
+  "time_taken": 4.95
+}

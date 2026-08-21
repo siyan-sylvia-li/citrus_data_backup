@@ -1,0 +1,41 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at the board and b6 seems like it flips a lot of discs (c5, d5, and a long line from c7 to g7). Is b6 the best move here, or does it open up something too good for White?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "My legal moves are g2, b8, and c8. g2 seems to flip the most discs (f2, g3-g6). Is g2 the strongest move, or should I be worried about White taking c8 or b8 after that?"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at the legal moves: g2, b6, a7, b7, b8, c8. b6 and b7 look like they'd flip a good chunk of the middle/bottom, but I don't want to give White an opening. Between those two, which one is more stable?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm starting the puzzle. My legal moves are g2, b6, a7, b7, b8, and c8. Looking at the board, b6 and b7 both look like they could flip a decent number of discs. Between those two, which one is generally better for long-term stability?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at my legal moves: g2, b6, a7, b7, b8, c8. b6 seems to flip a lot of discs, but I'm worried about giving White a strong reply. How does b6 compare to b7 in terms of stability?"
+  },
+  {
+    "tool": "view_board"
+  }
+]

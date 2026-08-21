@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Can you analyze this Connect Four position and tell me the best column for Red, including the opponent's strongest reply?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After 4-5, what's Red's best next move now? Please check immediate threats rather than just general control."
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Position after Red 4, Yellow 1: which column is the actual strongest move for Red now? Is there a forced win or a needed block?"
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now after Red 5, Yellow 1, can Red create a two-way threat? Compare columns 3, 6, and 7 precisely."
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After Red 3 and Yellow 1, what is the exact best continuation for Red? Please account for the fact that c3r4/c6r4 are only setup threats, not wins yet."
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  }
+]

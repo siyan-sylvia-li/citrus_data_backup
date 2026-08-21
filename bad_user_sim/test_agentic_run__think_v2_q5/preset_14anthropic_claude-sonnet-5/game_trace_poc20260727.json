@@ -1,0 +1,49 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "There's only 10 empty squares left and my legal moves are g2, b6, a7, b7, b8, c8. I'm way down in disc count right now but I know that doesn't matter yet. Which move actually wins me the most discs by the end if White plays their best?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Down to 8 empty squares, my options are g2, b6, a7, c8. Which one sets me up best for the final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Only g2, b6, a7 left as options with 6 empty squares total. Which move gives me the best shot at the final tally?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Last stretch \u2014 options are a1, g2, a3. a1 is a corner so my gut says grab it, but is that actually right here or is there a better sequencing?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White just passed, so it's on me again with only a1 and g2 left. Which one actually closes out the game best for Black?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  },
+  {
+    "tool": "view_board"
+  }
+]

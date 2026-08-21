@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Would you devise a robust 3 year plan for Julie to help her grow her online recipe website and publish a cookbook. She's isn't sure about whether to publish traditionally or self publish, so could you advise on that too? She already has 1.2M followers who love her recipes, so it should grow from that. Finally, she already works for 4 days a week and has limited budget to do this",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-28T13:53:50.664167+00:00"
+}

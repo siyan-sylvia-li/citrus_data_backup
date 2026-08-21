@@ -1,0 +1,45 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "only 10 empties left, kinda overwhelmed. between g2, b6, a7, b7, b8, c8 which one you like?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "ugh they got a8. now choosing between g2, b6, a7, c8 - which keeps me safest?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "down to g2, b6, a7 with 6 empty left. g2 flips a bunch (g3-g6 plus f2) - thinking that's the one?"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "wait final was 29-35, worse than I hoped. looking back, was a1 actually the right call at that 4-empty stage, or should I have tried b6 instead of a1?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "also curious - way back at the very start when I had g2/b6/a7/b7/b8/c8 to pick from, do you think g2 first (before b7) woulda done better than the order I actually went?"
+  }
+]

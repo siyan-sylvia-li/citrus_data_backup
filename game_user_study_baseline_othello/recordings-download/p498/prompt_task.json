@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Julie works four days weekly with limited time and budget. She loves to cook quick and healthy meals and shares her recipes to her 1.2 million followers. Could you make a three year growth plan that involves deciding to use traditional or self publishing of a cookbook in that time frame.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-20T13:54:59.141163+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "created_prompt": "I am looking to publish a cookbook for my online following.  I have over one million followers and I would like to create a cookbook that includes my quick and healthy recipes.  Not sure if I should do a traditional published book or publish myself.  I have three years to work on this, currently working four days a week and have a limited budget.  What would be a good three year plan?",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.667,
+  "submitted_at": "2026-08-19T11:35:58.252164+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Create a 3 year business plan for me to grow my online video presence and how to translate that into a cookbook. Present the pros and cons of self-publishing bs traditional publishing this cookbook. Advise how I can market this book to my existing audience and how to bring new people in. This should respect my limited time and budget to complete the project.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 3.0,
+  "submitted_at": "2026-08-20T13:05:20.113896+00:00"
+}

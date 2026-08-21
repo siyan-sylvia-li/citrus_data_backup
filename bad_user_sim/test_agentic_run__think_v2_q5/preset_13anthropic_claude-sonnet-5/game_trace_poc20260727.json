@@ -1,0 +1,49 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Okay I'm black and only have 20 discs vs white's 34, with only 6 legal moves left (g2, b6, a7, b7, b8, c8) and 10 empty squares total. I'm honestly not sure how to think this through this many moves ahead - which move actually gives me the best shot at winning by the end, and can you explain simply why?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White just took corner a8. Now I've got g2, b6, a7, c8 to pick from with only 8 empty squares left total. Which of these sets me up best for the finish?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "That last move really blew up on me, White jumped to 36. Down to g2, b6, a7 as my only options with 6 empty squares left \u2014 is there any way back from here or am I just picking the least bad option at this point?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Down to the wire, only 4 squares left (a1, h1, g2, a3) and I can play a1, g2, or a3. I'm at 20 to White's 40 which feels rough - is there any move here that actually flips things back in my favor, or is this pretty much decided already?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Last real decision I think - just a1 or g2 as options with only 3 squares empty (a1, h1, g2). I was trying to trace it out myself and it seemed like a1 might set up a chain where I eventually grab h1 AND g2 too since white gets stuck with no legal moves - does that sound right, or am I missing something?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

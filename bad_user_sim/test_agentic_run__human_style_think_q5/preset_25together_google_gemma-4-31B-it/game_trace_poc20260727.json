@@ -1,0 +1,40 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Why did I lose so badly?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Was b7 a bad move?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "What exactly are X-squares? Never heard of that."
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "So if I'd avoided b7, would I have won?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "What about g2? Was that a better starting move?"
+  }
+]

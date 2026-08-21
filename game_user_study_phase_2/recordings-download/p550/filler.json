@@ -1,0 +1,25 @@
+{
+  "reflection": "Direct-to-consumer self-publishing is definitely the way to go here. With 1.2M followers, she has the audience traditional publishers would charge massive cuts to reach.\r\n\r\nYear 1: Focus on building up a backlog of content, while using free Instagram/TikTok polls to see which specific recipes her fans actually want in print.\r\n\r\nYear 2: Arrange presales of the cookbook to fund the initial print run. That eliminates financial risk and keeps her budget intact.\r\n\r\nYear 3: Launch the book directly to her audience and reinvest the profits into hiring a part-time editor so she can free up more time to create more content.",
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 4
+      },
+      {
+        "model": "gpt",
+        "score": 4
+      },
+      {
+        "model": "nemotron",
+        "score": 4
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 4.0,
+    "median_score": 4,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-18T21:29:30.734583+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I'm a creator who makes cooking videos on a regular basis to my 1.2 million followers. They love watching my shorts and videos about quick and healthy recipes and making cooking easier. I want to grow my following online and eventually publish my own cookbook, but I'm not sure whether I should publish it on my own or look for a publisher to help me. I work my regular day job 4 days a week and I have little free time and only a small budget to work with. Create a concrete step-by-step plan to achieve these goals within 3 years and also provide the advantages and disadvantages between publishing my cookbook by myself or with a traditional publisher.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T14:13:35.119325+00:00"
+}

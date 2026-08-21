@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Can you please devise me a three year plan so I can develop a bigger following online, publish my own cookbook, mind I work 4 days a week and I have a limited budget. I also already have 1.2 m for my recipes",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.333,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.333,
+  "submitted_at": "2026-08-20T17:07:37.611209+00:00"
+}

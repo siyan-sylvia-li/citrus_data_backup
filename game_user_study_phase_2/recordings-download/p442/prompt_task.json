@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Kevin wants to write an online Othello guide for beginners with simple graphics stage by stage.",
+  "judges": [
+    {
+      "model": "nemotron",
+      "score": 1
+    },
+    {
+      "model": "gpt",
+      "score": 1
+    },
+    {
+      "model": "llama",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 1.0,
+  "median_score": 1,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 1.0,
+  "submitted_at": "2026-08-18T16:46:36.582056+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Devise a concrete three year plan for publishing a cookbook with a limited amount of time each week to work on it for a cooking influencer with over a million followers.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 2
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.333,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-20T13:16:57.768992+00:00"
+}

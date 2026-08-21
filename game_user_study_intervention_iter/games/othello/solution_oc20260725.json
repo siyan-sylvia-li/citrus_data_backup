@@ -1,0 +1,136 @@
+{
+  "0022220000212220222222222222122222111122221222220021122202222222:1": {
+    "best_moves": [
+      "h1"
+    ],
+    "optimal_diff": 4,
+    "move_values": {
+      "b1": -12,
+      "g1": -10,
+      "h1": 4,
+      "a2": -18,
+      "b2": -18,
+      "h2": -18,
+      "a7": -6,
+      "b7": -4
+    },
+    "must_pass": false
+  },
+  "0022220100212210222221222222122222111122221222220021122202222222:2": {
+    "best_defense": "h2",
+    "optimal_diff": 4,
+    "must_pass": false
+  },
+  "0022220100212222222221222222122222111122221222220021122202222222:1": {
+    "best_moves": [
+      "g1"
+    ],
+    "optimal_diff": 4,
+    "move_values": {
+      "b1": -16,
+      "g1": 4,
+      "a2": -14,
+      "b2": -20,
+      "a7": -4,
+      "b7": -8
+    },
+    "must_pass": false
+  },
+  "0022221100212122222211222221122222111122221222220021122202222222:2": {
+    "best_defense": "b7",
+    "optimal_diff": 4,
+    "must_pass": false
+  },
+  "0022221100212122222212222221222222121122222222220221122202222222:1": {
+    "best_moves": [
+      "a8"
+    ],
+    "optimal_diff": 4,
+    "move_values": {
+      "b1": -2,
+      "b2": -12,
+      "a7": -20,
+      "a8": 4
+    },
+    "must_pass": false
+  },
+  "0022221100212112222211222221122222111122221222220121122212222222:2": {
+    "best_defense": "a7",
+    "optimal_diff": 4,
+    "must_pass": false
+  },
+  "0022221100212112222211222221122222111122221222222221122212222222:1": {
+    "best_moves": [
+      "a2"
+    ],
+    "optimal_diff": 4,
+    "move_values": {
+      "b1": 2,
+      "a2": 4,
+      "b2": -16
+    },
+    "must_pass": false
+  },
+  "0022221110212112112211221211122212111122121222221221122212222222:2": {
+    "best_defense": "b2",
+    "optimal_diff": 4,
+    "must_pass": false
+  },
+  "0022221112212112122211221211122212111122121222221221122212222222:1": {
+    "best_moves": [
+      "b1"
+    ],
+    "optimal_diff": 4,
+    "move_values": {
+      "a1": -12,
+      "b1": 4
+    },
+    "must_pass": false
+  },
+  "0111111112112112122111221211122212111122121222221221122212222222:2": {
+    "must_pass": true
+  },
+  "0111111112112112122111221211122212111122121222221221122212222222:1": {
+    "best_moves": [
+      "a1"
+    ],
+    "optimal_diff": 4,
+    "move_values": {
+      "a1": 4
+    },
+    "must_pass": false
+  },
+  "_meta": {
+    "config": "puzzle_config_oc20260725.txt",
+    "to_move": "B",
+    "source": {
+      "site": "othelloclub.com",
+      "date": "20260725",
+      "original_turn": "black",
+      "flipped": false,
+      "board_string": "0022220000212220222222222222122222111122221222220021122202222222"
+    },
+    "empties": 10,
+    "optimal_diff": 4,
+    "result": "black_win",
+    "root_best_moves": [
+      "h1"
+    ],
+    "metrics": {
+      "empties": 10,
+      "n_legal": 8,
+      "optimal_diff": 4,
+      "best_moves": [
+        "h1"
+      ],
+      "unique_best": true,
+      "gap": 8,
+      "worst_diff": -18,
+      "naive_move": "h2",
+      "naive_is_optimal": false,
+      "naive_loss": 22,
+      "corner_answer": true,
+      "forced_line": 6
+    }
+  }
+}

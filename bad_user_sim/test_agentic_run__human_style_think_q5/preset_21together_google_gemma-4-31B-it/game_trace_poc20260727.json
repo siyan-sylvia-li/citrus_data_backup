@@ -1,0 +1,41 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Thinking about b6 or g2. Which one is better for the long run?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Looking at b7 and g2. Which one looks stronger?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Man, I got crushed. Looking back at the end, was b8 a huge mistake?"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Looking at a1, did I just hand that corner over?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Since I'm an IT guy, I like the logic behind this. Is there a specific rule of thumb for the endgame I should've used to avoid that snowball?"
+  }
+]

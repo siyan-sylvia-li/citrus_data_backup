@@ -1,0 +1,40 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Hi there - I'm new to this. Is Yellow about to set up any trap I should watch out for, like if they play column 4 or something? And is there a good move for me right now?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm thinking of playing column 3 next - it looks like it forces Yellow to block, and sets me up on a diagonal. Does that sound right, or is there a trap I'm not seeing?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I've got Red at c6r1, c5r2, and c4r3 - three in a row on that diagonal. If I play column 3 (which lands at row 3, not row 4), doesn't that open up row 4 in column 3 for me to win there next turn, meaning Yellow HAS to block by playing column 3 themselves? Am I missing something?"
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  }
+]

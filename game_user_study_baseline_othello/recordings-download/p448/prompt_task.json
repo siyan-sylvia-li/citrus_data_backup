@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Make a simple 3 year plan for Julie to grow her cooking page and publish a cookbook. Include what she should focus on each year, whether she should use a publisher or publish it herself, and how she can do it with limited time and money.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-20T11:04:10.601735+00:00"
+}

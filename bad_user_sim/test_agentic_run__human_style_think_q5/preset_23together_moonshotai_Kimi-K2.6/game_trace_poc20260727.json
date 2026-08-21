@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "c8 flips 6 discs right away. b7 flips 5. Is c8 actually the better endgame move, or does it give White a lethal reply I'm not seeing?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White replied a8 after my b7. Now my options are g2, b6, a7, c8. Which one holds up best endgame?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "game's over but I only asked twice before it ended. Was b7 actually the right first move, or did c8 lead to this win anyway?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "At the end, playing a1 then h1 flipped almost the whole top row. Was there any risk White could have replied to one of those?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Any takeaway for future endgames? Corner control still king this late?"
+  }
+]

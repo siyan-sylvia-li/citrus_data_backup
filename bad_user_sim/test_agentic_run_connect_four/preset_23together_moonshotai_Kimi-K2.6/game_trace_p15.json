@@ -1,0 +1,26 @@
+[
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After my second c4 and Yellow c1, I see my diagonal through c6-c5-c4 is still live needing c3r4, but if I play c3, Yellow can block with c3r4. Is there a decisive forced sequence for Red here?"
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  }
+]

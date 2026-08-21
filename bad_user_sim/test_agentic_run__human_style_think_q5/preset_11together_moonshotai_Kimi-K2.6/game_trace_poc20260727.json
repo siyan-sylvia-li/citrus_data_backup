@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "ive got legal moves g2, b6, a7, b7, b8, c8. b7 and c8 flip a bunch but im worried white just counters with b6 or b8 and wipes me out. do you see which move actually gives me the best final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "was b7 actually the right first move or did i mess up right away?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "after white hit a8 what should\u2019ve been my move instead of b6? i thought i was building the edge"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "when i had g2 b6 a7 c8 available after a8 was c8 better than b6? wouldve stopped white from c8 later right?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "at the very end when i played b8 and white got c8 h1 a3 then i was stuck. was there a way to avoid getting zeroed out like that?"
+  }
+]

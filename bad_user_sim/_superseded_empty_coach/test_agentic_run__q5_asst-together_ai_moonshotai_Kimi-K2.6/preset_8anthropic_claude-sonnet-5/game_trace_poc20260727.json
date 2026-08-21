@@ -1,0 +1,37 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Othello endgame, I'm Black, 10 empty squares left. My legal moves are g2, b6, a7, b7, b8, c8. c8 flips 6 discs (c7,d8,d7,e6,f5,g4) and b7 flips 5 (c7,d7,e7,f7,g7) - which looks better long-term, not just for immediate flip count? Given the position, what's the actual best move to maximize my final disc count assuming perfect opponent play?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Othello endgame, I'm Black, 10 empty squares left. My legal moves are g2, b6, a7, b7, b8, c8. c8 flips 6 discs (c7,d8,d7,e6,f5,g4) and b7 flips 5 (c7,d7,e7,f7,g7) - which is better long-term? What's the best move to maximize my final disc count assuming perfect opponent play?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Best move here: g2, b6, a7, b7, b8, or c8?"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "6 empty squares left (a1,h1,g2,a3,b6,b8), I'm Black with 31, White has 27. My only legal moves are g2 or b6. Which one wins more discs at the finish?"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Looking back at that endgame - I played g2 then it went to a forced sequence ending 21-43 for me. I'm least sure where I went wrong: was g2 actually a losing move at that point, or did the forced chain after White's h1 doom me regardless of whether I'd picked g2 or b6 earlier? What was the actual losing mistake?"
+  }
+]

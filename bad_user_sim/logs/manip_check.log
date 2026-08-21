@@ -1,0 +1,57 @@
+=== othello STUDENT_MODE=think ===
+launching 10 runs, 10 at a time, 5s apart
+ok	think_preset7_anthropic:claude-sonnet-5
+ok	think_preset7_together:meta-llama_Llama-3.3-70B-Instruct-Turbo
+ok	think_preset8_anthropic:claude-sonnet-5
+ok	think_preset8_together:meta-llama_Llama-3.3-70B-Instruct-Turbo
+ok	think_preset9_anthropic:claude-sonnet-5
+ok	think_preset9_together:meta-llama_Llama-3.3-70B-Instruct-Turbo
+ok	think_preset10_anthropic:claude-sonnet-5
+ok	think_preset10_together:meta-llama_Llama-3.3-70B-Instruct-Turbo
+ok	think_preset11_anthropic:claude-sonnet-5
+ok	think_preset11_together:meta-llama_Llama-3.3-70B-Instruct-Turbo
+
+done: 10 ok, 0 failed  (logs/think_results.tsv)
+=== othello STUDENT_MODE=solution ===
+launching 10 runs, 10 at a time, 5s apart
+ok	solution_preset7_together:meta-llama_Llama-3.3-70B-Instruct-Turbo
+ok	solution_preset9_together:meta-llama_Llama-3.3-70B-Instruct-Turbo
+ok	solution_preset8_together:meta-llama_Llama-3.3-70B-Instruct-Turbo
+ok	solution_preset10_together:meta-llama_Llama-3.3-70B-Instruct-Turbo
+ok	solution_preset11_together:meta-llama_Llama-3.3-70B-Instruct-Turbo
+ok	solution_preset7_anthropic:claude-sonnet-5
+ok	solution_preset9_anthropic:claude-sonnet-5
+ok	solution_preset11_anthropic:claude-sonnet-5
+ok	solution_preset10_anthropic:claude-sonnet-5
+ok	solution_preset8_anthropic:claude-sonnet-5
+
+done: 10 ok, 0 failed  (logs/solution_results.tsv)
+=== connect_four ASST_MODE=explain ===
+launching 10 runs, 10 at a time, 5s apart
+ok	connect_four_explain_preset8_together:meta-llama_Llama-3.3-70B-Instruct-Turbo
+ok	connect_four_explain_preset9_together:meta-llama_Llama-3.3-70B-Instruct-Turbo
+ok	connect_four_explain_preset11_together:meta-llama_Llama-3.3-70B-Instruct-Turbo
+ok	connect_four_explain_preset7_together:meta-llama_Llama-3.3-70B-Instruct-Turbo
+ok	connect_four_explain_preset10_together:meta-llama_Llama-3.3-70B-Instruct-Turbo
+ok	connect_four_explain_preset7_anthropic:claude-sonnet-5
+ok	connect_four_explain_preset8_anthropic:claude-sonnet-5
+ok	connect_four_explain_preset9_anthropic:claude-sonnet-5
+ok	connect_four_explain_preset10_anthropic:claude-sonnet-5
+ok	connect_four_explain_preset11_anthropic:claude-sonnet-5
+
+done: 10 ok, 0 failed  (logs/connect_four_explain_results.tsv)
+=== connect_four ASST_MODE=no_exp ===
+launching 10 runs, 10 at a time, 5s apart
+ok	connect_four_no_exp_preset7_together:meta-llama_Llama-3.3-70B-Instruct-Turbo
+ok	connect_four_no_exp_preset8_together:meta-llama_Llama-3.3-70B-Instruct-Turbo
+ok	connect_four_no_exp_preset10_together:meta-llama_Llama-3.3-70B-Instruct-Turbo
+ok	connect_four_no_exp_preset9_together:meta-llama_Llama-3.3-70B-Instruct-Turbo
+ok	connect_four_no_exp_preset11_together:meta-llama_Llama-3.3-70B-Instruct-Turbo
+ok	connect_four_no_exp_preset7_anthropic:claude-sonnet-5
+ok	connect_four_no_exp_preset8_anthropic:claude-sonnet-5
+ok	connect_four_no_exp_preset10_anthropic:claude-sonnet-5
+ok	connect_four_no_exp_preset9_anthropic:claude-sonnet-5
+ok	connect_four_no_exp_preset11_anthropic:claude-sonnet-5
+
+done: 10 ok, 0 failed  (logs/connect_four_no_exp_results.tsv)
+MANIPULATION CHECK SWEEP DONE

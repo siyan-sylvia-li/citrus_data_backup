@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, I need a hand with this Othello endgame. I\u2019m Black and my legal moves are g2, b6, a7, b7, b8, c8. Could you run through the minimax for me and tell me which single move leaves me with the most discs once the board is finished (assuming White plays perfectly)? If you can sketch the main line too, that would be awesome. I\u2019m on the clock, so a quick take would be great."
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Was b6 really the best first move, or would b7 have changed the whole endgame?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Why was White\u2019s a3 reply so crushing after I played a7?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Are there general rules for when to take an X-square versus an edge in endgames like this?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "If I had played c8 instead of b8 earlier, do I end up better or worse?"
+  }
+]

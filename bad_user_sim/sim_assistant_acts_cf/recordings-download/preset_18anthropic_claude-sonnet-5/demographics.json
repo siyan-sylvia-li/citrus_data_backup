@@ -1,0 +1,9 @@
+{
+  "prolific_id": "preset_18anthropic_claude-sonnet-5",
+  "game": "connect_four",
+  "age": 36,
+  "education": "bachelors",
+  "occupation": "other",
+  "genai_usage": "daily",
+  "student_model": "anthropic:claude-sonnet-5"
+}

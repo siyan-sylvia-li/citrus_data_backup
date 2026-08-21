@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Please assist in creating a 3 year plan so I am able to publish a cookbook and grow my online reach.\r\n\r\nI am working four days weekly and would like to achieve this with this limited time and budget.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.333,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.333,
+  "submitted_at": "2026-08-21T12:38:27.648390+00:00"
+}

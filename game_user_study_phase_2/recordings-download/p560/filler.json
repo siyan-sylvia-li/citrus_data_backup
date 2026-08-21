@@ -1,0 +1,25 @@
+{
+  "reflection": "Put her intentions out there to the viewers in one of her videos. With enough of a following, she'll likely be scouted by a publisher and talent agent that could help make her dreams a reality.",
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 2
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.667,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-19T11:56:37.741649+00:00"
+}

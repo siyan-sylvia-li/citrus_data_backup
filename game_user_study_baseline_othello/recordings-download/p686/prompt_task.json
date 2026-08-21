@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Recipes book\r\nthree year plan \r\nonline followers \r\ntime and budget",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 1
+    },
+    {
+      "model": "gpt",
+      "score": 1
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 1.0,
+  "median_score": 1,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-20T13:45:24.315455+00:00"
+}

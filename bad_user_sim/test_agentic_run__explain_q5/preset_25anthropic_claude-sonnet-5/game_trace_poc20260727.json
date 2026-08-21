@@ -1,0 +1,45 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm Black, down 20-34 in discs, near endgame with only 10 empty squares left. My legal moves are g2, b6, a7, b7, b8, c8. Which one actually sets me up to win at the end? I don't want to just grab flips now if it backfires later."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now it's Black 24, White 32, only 8 empty squares left: a1, h1, g2, a3, b6, a7, b8, c8. My legal moves are g2, b6, a7, c8. Which is best for the final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Black 22, White 36 now, 6 empties left: a1, h1, g2, a3, b6, a7. My legal moves are g2, b6, a7. Which move gives me the best final count here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Black 20, White 40, only 4 empties left: a1, h1, g2, a3. My legal moves are a1, g2, a3. Which one is best, and honestly is there any way I still come out ahead here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Looking back, after I played c8 my count dropped hard from 24 to 22 and White jumped to 36 \u2014 that felt like a big swing. Was that just an unavoidable trade-off for setting up the later a3/g2 comeback, or did I actually misplay something there?"
+  }
+]

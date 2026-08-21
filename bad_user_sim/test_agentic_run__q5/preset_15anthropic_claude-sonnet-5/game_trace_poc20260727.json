@@ -1,0 +1,49 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, I've got 6 legal moves right now: g2, b6, a7, b7, b8, c8. There's only 10 empty squares left total. Which of these should I play to end up with the most discs at the end, assuming the opponent plays well? Can you just tell me the best move and why in simple terms?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now my options are g2, b6, a7, c8. Only 8 empty squares left total. What's the best one to maximize my final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Ugh that last one went bad for me, White jumped to 36 vs my 22. Now I only have g2, b6, a7 to choose from with 6 squares left. What gives me the best shot at the end?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "So that last stretch I did all the moves myself without asking you - I figured out a3 then a1 then h1 then g2 would force White to keep passing. Did I actually get lucky there or was that really the best possible line? I want to know if I left points on the table."
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Going back earlier - after you told me to play c8 and then a7, White jumped way ahead (like 22 vs 36). Were those actually bad suggestions, or was that just a normal swing that was gonna even out anyway?"
+  }
+]

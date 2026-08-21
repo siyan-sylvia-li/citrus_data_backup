@@ -1,0 +1,31 @@
+{
+  "created_prompt": "You are an expert in planning for people who want to achieve their goals but are time poor. Compose a three year plan for someone to achieve their ambition of grow their online following from their current level of 1.2m followers; publish a cookbook and start a food blog which incorporates recipes and travel stories from a trip to France. Advise why and how they should work with a tradition agent or self agent for their book given their limited time and resources and other goals. Time constraints include they work 4 days a week, have a young child and can be overwhelmed by the fast changing  field of being an online food influencer. Produce a timeline outlining the steps to achieve their goals in 3 years given the constraints stated above and any other advice they should consider given indecision about the best approach to publish a book and being overwhelmed by the pace of this field of work.",
+  "judges": [
+    {
+      "model": "qwen",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 4
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.333,
+  "threshold": 3.0,
+  "passed": true,
+  "original": {
+    "judges": {
+      "qwen": 4,
+      "llama": 3,
+      "gpt": 3
+    },
+    "mean_score": 3.333,
+    "passed": true
+  },
+  "time_taken": 7.835
+}

@@ -1,0 +1,40 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Which of my legal moves will give me the most discs at the end of the game, assuming my opponent plays optimally?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "What was the final score?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "What could I have done differently to win the game?"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "What could I have done differently to win the game?"
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "created_prompt": "I work four days a week so have limited time and budget, so can you devise a three-year plan that will help me publish my cook-book either through self-publishing or traditional methods - I have a social-media following of 1.3M",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.667,
+  "submitted_at": "2026-08-19T11:51:06.994188+00:00"
+}

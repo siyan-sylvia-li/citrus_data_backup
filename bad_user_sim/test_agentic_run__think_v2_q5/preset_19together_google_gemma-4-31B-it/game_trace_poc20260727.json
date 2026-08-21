@@ -1,0 +1,45 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm weighing b6 against g2 for my first move. Which one gives me better positioning for the rest of the game?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Looking back at the board, it seems I lost quite significantly. Where exactly did I lose control of the game?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm thinking about those 'dangerous squares' you mentioned. Could you explain why playing there helps the opponent take the corner?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I noticed I flipped several discs in a row on move b7, but White still won. Does that mean taking a long line of discs is often less valuable than securing a corner?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm curious about the opposite\u2014if I had a choice between a corner and a long line, is the corner always the right call?"
+  }
+]

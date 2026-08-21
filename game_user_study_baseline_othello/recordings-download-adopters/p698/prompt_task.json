@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Create a 3 year plan to grow my brand and to publish a cookbook. I have 1.2M followers and a 4 day workweek with a limited budget. I am torn between traditional vs self publishing,",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T21:37:04.820469+00:00"
+}

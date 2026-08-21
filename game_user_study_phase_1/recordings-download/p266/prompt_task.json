@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Create a three-year plan to grow the online following of someone who creates quick, healthy recipes cooking videos. The plan must cover exactly 4 days per week and take into account limited time and limited budget. Also include time for publishing a cookbook, and give advice on whether it should be traditional or self-published.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-03T14:11:10.828046+00:00"
+}

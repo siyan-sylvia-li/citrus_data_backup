@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Create a realistic three-year plan for Julie to grow her cooking brand and publish a cookbook. Keep her limited time and budget in mind. Give clear goals for each year, including content, audience growth and ways to earn income. Compare traditional publishing with self-publishing and recommend which route would suit her best. Include simple targets she can use to track her progress.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-10T18:15:43.980206+00:00"
+}

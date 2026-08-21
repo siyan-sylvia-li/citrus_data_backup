@@ -1,0 +1,49 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Only 10 empty squares left on the board. Which of my legal moves (g2, b6, a7, b7, b8, c8) sets me up best for the rest of the game?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White just took corner a8. Down to 8 empty squares, my moves are g2, b6, a7, c8. What's my best play now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "That last move backfired badly, white flipped a ton and it's 22-36 now. Only g2, b6, a7 left. Is there any way to recover here or is this lost?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Down 20-40 with only a1, g2, a3 left. I count g2 flipping 5 discs (f2, g3-g6). Is that really the best choice or is there a trap for the endgame?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now that it's over, I'm still a bit fuzzy on that \"pass\" trick - why did forcing white to pass matter so much more than just grabbing the biggest flip each turn? I want to understand that for next time."
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I need a three year plan on how to write and publish a cookbook. I need to brainstorm ideas on what recipes I can include in the book. My followers love quick and healthy recipes, so these recipes shouldn't take more than 30 minutes to make. I need ideas on what publishing avenues I can take, and pros and cons on traditional vs. self-publishing. I am willing to spend no more than $2000 to make this book, and I can work at most 10 hours per week on this book.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-10T19:31:12.002164+00:00"
+}

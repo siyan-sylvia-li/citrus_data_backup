@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Julie wants to grow her cooking influencer channel online. She already has 1.2 million followers but wishes over the next few years to increase her following and eventually post a cookbook for healthy and quick recipes. However, she is unsure whether to go with a traditional publisher or to self-publish. Please create an achievable three-year plan for Julie which is achievable alongside her other full-time job and tight financial constraints.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-10T15:20:20.422133+00:00"
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Quick one \u2014 I'm Black, 10 squares left. I counted c8 flips 6 discs and g2 flips 4. Which of my legal moves (g2, b6, a7, b7, b8, c8) actually wins the endgame with best play, not just grabs the most now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now g2 flips 5 (f2 + the whole g3-g6 column) and b6 flips 4. Does g2 hand White anything nasty like h1? Which do I play?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Wait, c8 only flips 1 for me, and it leaves White b6 which flips my whole b2-b5 column. Isn't taking b6 myself better since it denies that AND gains 4?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "view_board"
+  }
+]

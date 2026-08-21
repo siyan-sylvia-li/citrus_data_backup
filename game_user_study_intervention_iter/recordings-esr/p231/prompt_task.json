@@ -1,0 +1,25 @@
+{
+  "created_prompt": "please provide a realistic three year roadmap, broken down by year 1,2 and 3 covering content growth and cookbook accomplishments. also use  sustainable time management strategies so she can use this plan with her 4 day work week",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.667,
+  "submitted_at": "2026-08-20T13:06:02.329369+00:00"
+}

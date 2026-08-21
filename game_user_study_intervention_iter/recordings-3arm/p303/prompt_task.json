@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Can you help me put together a 3 year plan, I have 1.2 million followers and I often post healthy recipes. Over the next 3 years I want to grow online and publish a cookbook. But I'm torn in traditional or self publishing I work 4 days a week so have limited time and budget. Can you help me devise a plan.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 3.0,
+  "submitted_at": "2026-08-21T13:39:24.357050+00:00"
+}

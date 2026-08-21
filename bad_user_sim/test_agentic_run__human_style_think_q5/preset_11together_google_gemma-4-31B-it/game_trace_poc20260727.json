@@ -1,0 +1,34 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I'm thinking b7 looks like a big move, but would that just let the other side take b6?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Would b6 be a good move here or is a7 better?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "i'm not sure where to start. is g2 a good move or too risky?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Did I mess up by playing c8?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Is there any way Black could have won this?"
+  }
+]

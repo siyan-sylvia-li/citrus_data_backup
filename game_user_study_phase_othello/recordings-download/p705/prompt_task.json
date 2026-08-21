@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Come up with a three-year video content plan that lays out growth for my cooking channel. Base the plan around quick, healthy recipes that will help me grow online. The content plan must be cheap and not time-intensive as I'm on a budget and want to work a maximum of four days a week. I'd also like to publish a cookbook alongside the video content, so mix in book related work.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T14:36:56.327286+00:00"
+}

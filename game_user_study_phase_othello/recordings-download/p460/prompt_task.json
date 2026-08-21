@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Please help produce a structured, sustainable three-year plan tailored to a woman who wants to grow her online platform and eventually publish a cookbook. The woman currently has 1.2 million followers online and she is known for her healthy and easy recipes. Please note that there is not a preference for how the cookbook may be published (traditional or self-publishing are both fine). The plan must be progressive enough to really drive growth, but it has to be sustainable and appropriate for her lifestyle which involves working 4 days a week and with a limited budget.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-05T13:54:18.530323+00:00"
+}

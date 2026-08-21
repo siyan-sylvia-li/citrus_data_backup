@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Create a concrete three-year plan for growing online and publishing a cookbook (traditional or self-publishing?) to sell to my 1.2M followers of my quick, healthy recipes.",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.667,
+  "submitted_at": "2026-08-19T11:12:22.151963+00:00"
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at the board, and it seems like b7 would be a quite significant move given the line of white discs it would flip. Does that seem like the optimal play here, or am I overlooking a counter-move?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm debating between a7, b6, and c8. a7 seems safe, but does taking d8 with c8 open up more vulnerabilities for me, or is it a strong positional move?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  }
+]

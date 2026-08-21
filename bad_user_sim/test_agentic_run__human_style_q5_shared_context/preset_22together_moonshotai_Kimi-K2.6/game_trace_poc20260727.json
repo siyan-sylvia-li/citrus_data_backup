@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I've narrowed it to b6 and c8 \u2014 both flip a lot of discs. Which one actually wins the endgame assuming White plays perfectly?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm worried White can answer b7 with c8 and flip a bunch back. Is there a solid response if that happens?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White answered b7 with a8 instead of c8. My legal moves are now g2, b6, a7, c8. Which one keeps me as close as possible to winning?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now only g2, b6, a7 left. Which hurts least?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "With a1 and g2 both available before the end, was g2 the clearly better pick, or would a1 have held up too?"
+  }
+]

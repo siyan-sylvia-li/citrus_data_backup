@@ -1,0 +1,34 @@
+[
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "What was the fatal move in that game \u2014 c8? Should I have opened with b7 instead?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Was there any way to actually win from that starting position, or was it already tilted toward White?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Why did b6 backfire so badly after White played a7?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Does g2 ever work as an opening move in that endgame?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Any quick heuristics for corner-adjacent moves in Othello endgames?"
+  }
+]

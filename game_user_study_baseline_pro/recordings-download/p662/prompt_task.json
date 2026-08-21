@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Devise a structured step by step plan that is broken down into manageable, short duration bouts of work that will span the next 3 years. This is due to work commitments of 4 days per week, limiting her time. The budget is also small. The aim is to publish a cookbook providing quick, healthy recipes. The book will be based upon cooking videos that are published to 1.2 million followers. Devise a concrete 3 year plan.\r\n\r\nPlease also advice on traditional versus self publishing",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-21T13:09:13.786375+00:00"
+}

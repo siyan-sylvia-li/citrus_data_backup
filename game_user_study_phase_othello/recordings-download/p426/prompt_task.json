@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Help me set up a three-year plan with the end goal of online growth and a published cookbook. Currently have 1.2 million followers on posted cooking videos and can work 4 days a week, but have limited time and budget.",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    },
+    {
+      "model": "llama",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T15:36:31.595433+00:00"
+}

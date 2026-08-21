@@ -1,0 +1,30 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Looking at this Connect Four board, is there a move I can make right now that wins outright, or at least one that keeps Yellow from setting up a trap? I don't want to accidentally hand them the game."
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I've got red pieces at c4r3, c5r2, c6r1 - looks like a diagonal. If I drop in column 3 now, does that set up a trap where yellow can't block everything?"
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  }
+]

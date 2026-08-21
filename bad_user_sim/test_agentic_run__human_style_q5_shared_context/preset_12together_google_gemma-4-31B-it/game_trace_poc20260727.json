@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "what's the best move here? im way behind"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "did i mess up by playing b7 earlier? white flipped it back with b8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "how could i have played the endgame better?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "is the a8 corner always that powerful?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "what's the best way to avoid giving away the corners?"
+  }
+]

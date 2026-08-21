@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Study — Before you play</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  <style>
+    .pf__msg { background:#fff; border:1px solid #cbd2d9; border-left:4px solid #a61b1b;
+               border-radius:6px; padding:11px 13px; margin:0 0 18px; line-height:1.45; }
+    .pf__yours { background:#f3f7f4; border:1px solid #cbd2d9; border-radius:8px;
+                 padding:11px 13px; margin:0 0 18px; line-height:1.45; }
+    .pf__lab { color:#486581; font-size:.85rem; font-weight:650; margin:0 0 6px; }
+    .pf__reveal { background:#e8f1ec; border:1px solid #CFE7D2; border-radius:8px;
+                  padding:13px 15px; margin:0 0 16px; line-height:1.55; }
+    .pf__ex { background:#fff; border:1px solid #CFE7D2; border-left:4px solid #6DB38A;
+              border-radius:6px; padding:11px 13px; margin:0 0 20px; line-height:1.45; }
+  </style>
+</head>
+<body>
+  <header class="topbar"><h1 class="topbar__title">Game Study</h1></header>
+  <main class="start">
+    <div class="start__card" style="max-width:600px">
+      <h2 class="start__title">Before you play</h2>
+
+      <p class="pf__lab">The message</p>
+      <div class="pf__msg">{{ start_message }}</div>
+
+      <p class="pf__lab">What you said you would change</p>
+      <div class="pf__yours">{{ answer }}</div>
+
+      <div class="pf__reveal">{{ reveal }}</div>
+
+      <p class="pf__lab">{{ example_label }}</p>
+      <div class="pf__ex">{{ example }}</div>
+
+      <form method="post" action="{{ url_for('intervention_continue') }}">
+        <button type="submit" class="start__btn">Continue</button>
+      </form>
+    </div>
+  </main>
+</body>
+</html>

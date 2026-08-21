@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I see a few options, but I'm not sure which one puts me in the best position. Which move should I make?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at these remaining spots... is b6 the right move here, or is there a better option?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm trying to figure out the best move among these three. Which one gives me the best chance to turn this around?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I've got a1, g2, and a3 left. I'm leaning towards a1 because it's a corner, but I'm not entirely sure. What's the best play here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm down to the last few spots\u2014a1 and g2. a1 is a corner, but g2 seems to flip more. Which one is the better play to wrap this up?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

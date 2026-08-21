@@ -1,0 +1,41 @@
+{
+  "puzzle": "w4p6",
+  "decisions": 6,
+  "optimal_moves": 2,
+  "optimal_first_n": 1,
+  "decisions_first_n": 3,
+  "kept_win_moves": 6,
+  "opener_optimal": false,
+  "exact_decisions": 6,
+  "result": "red_win",
+  "won": true,
+  "plies_to_win_at_start": 7,
+  "completed": true,
+  "columns": [
+    "6!",
+    "3",
+    "1!",
+    "7!",
+    "5!",
+    "6"
+  ],
+  "auto_played": [],
+  "chat_turns": null,
+  "game": "connect_four",
+  "round": 1,
+  "ai_available": false,
+  "model_settings": {
+    "max_tokens": 50000
+  },
+  "questions_asked": 0,
+  "question_budget": 0,
+  "profile": {
+    "persona": "An authoritative but supportive figure with a goal of increasing school graduation rates",
+    "age": 51,
+    "education": "postgrad",
+    "occupation": "education",
+    "ai_frequency": "weekly"
+  },
+  "student_model": "together:meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "streamed": false
+}

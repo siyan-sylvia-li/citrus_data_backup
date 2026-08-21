@@ -1,0 +1,28 @@
+{
+  "variant": "v9_two_rows",
+  "observation": "So group A is more quick and to the point, as to where group B is giving more information and providing what they are already thinking of doing. Group B definitely seems more thought out and like they are thinking ahead. Group A does not seem as warm and seem to just want the answer immediately. No description.",
+  "choice": "B",
+  "choice_correct": true,
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 4
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 3
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.333,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-19T19:14:59.857168+00:00"
+}

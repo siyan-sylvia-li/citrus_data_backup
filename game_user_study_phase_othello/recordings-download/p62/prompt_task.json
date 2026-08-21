@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Please devise a 3 year plan so that Julie can achieve her aims as follows. \r\nShe wants to grow the number of followers of her quick, healthy recipe videos and publish a cookbook which may be via the traditional method with an editor or by self publishing. She only has limited time and a limited budget and can work 4 days a week, but wants to achieve these goals within 3 years.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 4
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-04T13:37:40.489195+00:00"
+}

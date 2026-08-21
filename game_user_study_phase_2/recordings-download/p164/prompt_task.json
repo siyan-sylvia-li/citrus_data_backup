@@ -1,0 +1,25 @@
+{
+  "created_prompt": "1. The Strategic Publishing Matrix \r\n* Create a side-by-side comparative financial and operational analysis balancing traditional vs. self-publishing under her exact time/budget constraints.\r\n*   Provide a definitive recommendation on a hybrid or single-path strategy that protects her time while maximizing profit margins from her 1.2M community.\r\n\r\n 2. The Time-Leveraged Growth Strategy (Year 1 to Year 3)\r\n*   Outline a systemic audience expansion plan designed to scale her channels without increasing production hours.\r\n*   Detail a specific system for content batching, repurposing, and scheduling that requires a maximum of 4\u20135 hours of production time per week.\r\n\r\n3. The Cookbook Development & Production Timeline\r\n*   Map a sequential, month-by-month 36-month timeline charting recipe testing, photography, manuscript drafting, and marketing milestones.\r\n*   Show how Julie can organically crowd-source recipe testing and proofing directly to her 1.2M audience to validate demand and save time.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 4
+    },
+    {
+      "model": "gpt",
+      "score": 4
+    },
+    {
+      "model": "nemotron",
+      "score": 4
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 4.0,
+  "median_score": 4,
+  "threshold": 3.0,
+  "passed": false,
+  "rule": "mean",
+  "decisive_score": 4.0,
+  "submitted_at": "2026-08-18T11:45:13.534128+00:00"
+}

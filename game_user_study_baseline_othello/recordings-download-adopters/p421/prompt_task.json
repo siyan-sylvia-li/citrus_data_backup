@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I post cooking videos for quick, healthy meals to my 1.2m followers. I want to continue to grow this and segue into book publishing over the next three years (undecided on traditional or self-published). I work four days a week and have limited income. Please devise a concrete three-year plan to help me in my transition.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-10T22:31:28.933518+00:00"
+}

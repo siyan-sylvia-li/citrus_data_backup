@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "i played b6 and white took a1. now my options are g2, a7, b7, b8, c8. b8 looks sick but i feel like a3 gets them back. which one's best here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Lost 21-43. Was b6 the wrong opening or did I mess up later?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "what should my first move have been instead of b6?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "was g2 actually good after b6 or should i have gone b8 or c8 instead?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "at the end i had a7, a8, c8. i played a7 and white took a8 then c8 was forced. would a8 or c8 have been better?"
+  }
+]

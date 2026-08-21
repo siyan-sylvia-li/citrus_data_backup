@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Can you create a three year plan for me? I want to grow my online following, and eventually publish a cookbook. I'm not sure whether to self publish or not. I work four days a week and so have quite limited time and budget.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-04T13:03:56.464178+00:00"
+}

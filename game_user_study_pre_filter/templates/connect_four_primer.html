@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Study — Quick rules primer</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  <style>
+    .primer__intro { color: #444; line-height: 1.55; margin: 0 0 1.25rem; }
+    .primer__subtitle { margin: 1.5rem 0 0.5rem; color: #2D5A43; font-size: 1.05rem; }
+    .primer__pieces { list-style: none; padding: 0; margin: 0 0 1.25rem; }
+    .primer__pieces li {
+      display: flex; gap: 12px; align-items: baseline;
+      padding: 0.55rem 0; border-bottom: 1px solid #eee; line-height: 1.45;
+    }
+    .primer__pieces li:last-child { border-bottom: 0; }
+    .primer__piece { flex: 0 0 5.5rem; font-weight: 700; color: #2D5A43; }
+    .primer__note {
+      background: #e8f1ec; border-radius: 6px; padding: 0.85rem 1rem;
+      line-height: 1.5; margin: 0 0 1.5rem; font-size: 0.95rem;
+    }
+    .primer__btn {
+      display: inline-block; width: 100%; box-sizing: border-box;
+      text-align: center; text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <h1 class="topbar__title">Game Study</h1>
+  </header>
+
+  <main class="start">
+    <div class="start__card">
+      <h2 class="start__title">Quick rules primer</h2>
+      <p class="primer__intro">
+        You're about to play a short <strong>Connect Four</strong> task for <strong>6 minutes</strong>. You goal is to find the <strong>first three moves</strong> for Red to force a win in five moves.
+      </p>
+
+      <h3 class="primer__subtitle">Connect 4 Rules</h3>
+      <p>Two players take turns dropping colored discs into columns. The disc falls to the lowest empty space in that column. The first player to connect <strong>four of their discs in a row (horizontally, vertically, or diagonally)</strong> wins.</p>
+
+
+      <a href="{{ url_for('study') }}" class="start__btn primer__btn">Start the game</a>
+    </div>
+  </main>
+</body>
+</html>

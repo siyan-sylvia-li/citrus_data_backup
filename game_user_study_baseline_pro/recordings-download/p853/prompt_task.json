@@ -1,0 +1,19 @@
+{
+  "created_prompt": "I am a food blogger with 1.2 million followers. My main video style is cooking fast and healthy food. I hope to develop an online business and publish a cookbook within three years. I work four days a week and have a limited budget. Please provide me with a specific three-year plan, including a timeline for writing the book, advice on traditional vs. self-publishing, suggestions for the online business, a work schedule, and a budget. No need to answer, just translate this into English.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-28T13:53:53.288412+00:00"
+}

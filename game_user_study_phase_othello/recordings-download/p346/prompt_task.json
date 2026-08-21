@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I am a successful food influencer - my niche is quick, healthy recipes - with 1.2 million followers. I want to both grow online and publish a cookbook (I'm unsure whether traditional publishing or self-publishing is the best route). As I work four days per week, I have limited additional time. I also have a limited budget. Please provide me with a solid three-year plan that will enable me to achieve my goals.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-05T14:33:28.013154+00:00"
+}

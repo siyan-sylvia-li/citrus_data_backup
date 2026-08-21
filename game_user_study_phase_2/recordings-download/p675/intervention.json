@@ -1,0 +1,28 @@
+{
+  "variant": "v2_think_pair",
+  "observation": "Group A uses the AI very broadly, as they ask it for general moves and asks it to explain its moves. Group B seems to already know what move they want to make and uses the AI to narrow down their potential moves.",
+  "choice": "B",
+  "choice_correct": true,
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 4
+      },
+      {
+        "model": "gpt",
+        "score": 4
+      },
+      {
+        "model": "nemotron",
+        "score": 3
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.667,
+    "median_score": 4,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-18T21:56:50.032559+00:00"
+}

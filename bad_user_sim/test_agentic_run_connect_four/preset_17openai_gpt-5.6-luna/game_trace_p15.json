@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Can you identify the minimax-best move for Red here, and the key tactical reason? Please focus on whether there's a forced win or defensive necessity."
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After Red 4 and Yellow 5, what is Red's best next column? Please account for Yellow's immediate threats rather than just suggesting a general plan."
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "The position is now Red c4r3-r4, Yellow just played c1. Which column is the concrete best move now, and what winning threat does it create?"
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I see the diagonal c4r5-c5r4-c6r3-c7r2. Should I play 4 or 7 now to force the win? Which one is the actual minimax move?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 7
+  }
+]

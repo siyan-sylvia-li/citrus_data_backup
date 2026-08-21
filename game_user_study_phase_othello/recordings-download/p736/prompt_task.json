@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Can you establish a 3 years plan for a youtube channel ? I already have 1.2M subscribers and I would live to grow further and eventually to publish a book (either with an editor or myself). Do you have a plan ? I don't have much time available every week since I work 4 days a week and my budget is limited.",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-04T13:07:11.913777+00:00"
+}

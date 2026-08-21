@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Please could you help me decide a concrete three year plan to help me grow my online cooking video platform and publish a cookbook. I have limited time and budget, currently working three days a week. I'm unsure wether to self publish the book or use a traditional method",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.667,
+  "submitted_at": "2026-08-19T11:15:03.994821+00:00"
+}

@@ -1,0 +1,35 @@
+{
+  "puzzle": "bg20260726",
+  "decisions": 3,
+  "optimal_moves": 2,
+  "opener_optimal": true,
+  "discs_lost": 10,
+  "final_margin": -6,
+  "won": false,
+  "optimal_margin": 4,
+  "completed": true,
+  "moves": [
+    "b2",
+    "h7!",
+    "g8"
+  ],
+  "auto_played": [],
+  "chat_turns": null,
+  "game": "othello",
+  "round": 1,
+  "ai_available": false,
+  "model_settings": {
+    "max_tokens": 200000
+  },
+  "questions_asked": 0,
+  "question_budget": 0,
+  "profile": {
+    "persona": "A local retailer committed to promoting and selling products made from the raw materials supplied by the local supplier",
+    "age": 47,
+    "education": "hs_graduate",
+    "occupation": "retail",
+    "ai_frequency": "less_than_monthly"
+  },
+  "student_model": "together:google/gemma-4-31B-it",
+  "streamed": false
+}

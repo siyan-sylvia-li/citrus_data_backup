@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Study — Puzzle results</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  <style>
+    .perf__score { font-size: 2rem; font-weight: 700; color: #2D5A43; margin: 0.5rem 0 1rem; }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <h1 class="topbar__title">Game Study</h1>
+  </header>
+
+  <main class="start">
+    <form class="start__card" method="post" action="{{ url_for('performance') }}">
+      <h2 class="start__title">Puzzle {{ round_num }} of {{ total_rounds }} complete</h2>
+
+      <p class="perf__score">{{ score }} of {{ num_moves }} optimal moves</p>
+      <p class="start__body">
+        On this puzzle you made <strong>{{ score }}</strong> of your
+        <strong>{{ num_moves }}</strong> moves optimally.
+      </p>
+
+      {% if is_last %}
+        <button type="submit" class="start__btn">Continue</button>
+      {% else %}
+        <p class="start__body">Next, you'll play one more Connect Four puzzle.</p>
+        <button type="submit" class="start__btn">Continue to the next puzzle</button>
+      {% endif %}
+    </form>
+  </main>
+</body>
+</html>

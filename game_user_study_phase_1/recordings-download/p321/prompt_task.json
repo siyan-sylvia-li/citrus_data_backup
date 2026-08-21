@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Help me devise a concrete three year plan so that I can grow online from my 1.2M followers and publish a cookbook to her my followers to make quick, healthy recipes and also look into the traditional vs. self-publishing for the cookbook.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-23T17:50:07.018237+00:00"
+}

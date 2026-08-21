@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "b7 seems critical to stop the a1 diagonal, but I worry White answers with a3 and flips a bunch. Am I right to play b7, or is there a better move?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White played a8 after my b7 and flipped b7 back. Now my options are g2, b6, a7, c8. Which one holds up best here?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "g2 flips 5 discs right now and c8 only flips 1. Are you sure c8 is better long-term?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After White b8 my choices are g2, b6, a7. a7 seems safest but I'm worried about White's a3. Still go with a7?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Wait, the game is already done. I'm still curious \u2014 if I had played g2 instead of c8, would White really have taken h1 and run away with the corner? Could you show me that line quickly?"
+  }
+]

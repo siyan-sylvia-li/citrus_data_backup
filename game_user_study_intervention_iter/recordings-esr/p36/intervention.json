@@ -1,0 +1,41 @@
+{
+  "idea": "The person could ask a more detailed and thorough question, for example: What is the best move in my position and why? Give me the match score for each position",
+  "n_chars": 160,
+  "start_message": "What do you think would be the best move right now?",
+  "selected": "say_thinking",
+  "selected_type": "think_aloud",
+  "selected_carries_forward": true,
+  "others_shown": [
+    "look_ahead",
+    "ask_answer"
+  ],
+  "option_order": [
+    "look_ahead",
+    "say_thinking",
+    "ask_answer"
+  ],
+  "seconds_on_page": 130,
+  "form": "elicit_select_reply",
+  "effort": {
+    "judges": [
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 3
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.0,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-20T17:10:01.396522+00:00"
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I'm thinking c8, does that look like the best move?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Between b6, a7, and c8, which one keeps me in the lead?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "B6 or A7? Which one's better?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at g2 or c8 to start. Which one is the better play?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Looking at b7 and c8. Which one's better for me?"
+  }
+]

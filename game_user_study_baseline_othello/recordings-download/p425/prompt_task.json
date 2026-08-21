@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Create a 3 year plan for an online cook who creates cooking videos online. She already has 1.2 Million followers who love her quick and healthy receipes. Over the next 3 years she wants to grow online and publish a cooking book. She loves the online work so is a little torn. She has limited time as she works four days a week and has a limited budget. What is the best way for her to go about achieving her dream with these limitations as well as allowing time to grow online as well as carrying on with daily life?",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-20T13:31:49.944445+00:00"
+}

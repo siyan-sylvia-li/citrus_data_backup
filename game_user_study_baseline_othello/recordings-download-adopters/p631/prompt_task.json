@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I would like to create a cookbook and community around the cooking videos I create. Please help me create a plan of action for the next three years to grow my content while writing my cookbook. I work four days a week, so need to do this in my spare time, and have a limited budget. Make suggestions week by week and a month at a time to help me meet my aims within three years.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T15:31:14.763495+00:00"
+}

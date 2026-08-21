@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Can you identify the winning move here and the key defensive threat? Please reason from the current position."
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After Red 4 and Yellow 5, what is Red's best next column? Please account for any immediate Yellow win threats."
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now after Yellow plays column 1, what is Red's best move and why? Is there a forced win or must I defend?"
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After Red 5 and Yellow 1, should I play 7 to create the diagonal threat, or is there a more urgent tactical move?"
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  }
+]

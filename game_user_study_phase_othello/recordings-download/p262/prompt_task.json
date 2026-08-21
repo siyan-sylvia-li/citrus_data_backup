@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Help me devise a three-year plan to grow my online presence and publish a cookbook.  I need to decide whether I will use traditional publishing or self publish my book.  Some background:  I regularly post cooking videos online - I have 1.2 million followers.  I foucs on quick, healthy recipes.   I currently work four days a week and would like to keep this schedule as my time is very limited.  In addition, my budget is limited, so I would like to keep costs as minimal as possible.",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-04T18:18:44.110722+00:00"
+}

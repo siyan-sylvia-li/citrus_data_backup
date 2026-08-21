@@ -1,0 +1,41 @@
+{
+  "idea": "Instead of just asking for the best move, they could ask what all of the possible moves are and the reason the best one is actually the best.",
+  "n_chars": 141,
+  "start_message": "What do you think would be the best move right now?",
+  "selected": "say_thinking",
+  "selected_type": "think_aloud",
+  "selected_carries_forward": true,
+  "others_shown": [
+    "ask_answer",
+    "look_ahead"
+  ],
+  "option_order": [
+    "say_thinking",
+    "ask_answer",
+    "look_ahead"
+  ],
+  "seconds_on_page": 92,
+  "form": "elicit_select_reply",
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 4
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 4
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.667,
+    "median_score": 4,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-20T13:07:26.662333+00:00"
+}

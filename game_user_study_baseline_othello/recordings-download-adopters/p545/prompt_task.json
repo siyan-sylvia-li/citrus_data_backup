@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Help me grow my cooking business. I create cooking videos online and am looking to continue this, grow my audience, whilst developing a cookbook. \r\n\r\nYou are a growth marketing specialist who gives professional advice to small businesses on how to develop customer awareness and reach as well as grow product sales. Give me a three year plan, keeping in mind:\r\n\r\n1. I need a consistent reliable way to grow my business.\r\n2. My budget is limited, so primary focus should be on resources and channels available to me.\r\n3. My time is also limited, assume I can only dedicate 1-2 hours a day to this.\r\n4. Include as part of your plan the pros / cons of going digital vs print for the book.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T13:31:26.834409+00:00"
+}

@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Devise a concrete three-year plan for Julie, someone who posts cooking videos to 1.2M followers who love quick healthy recipes. The aim of this plan is to grow Julie's online presence and followers, as well as accomplish her aim of publishing a cookbook (which may be published traditionally or via self publishing, depending on what is best). Julie works four days a week and has limited time and budget.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-24T13:22:45.847036+00:00"
+}

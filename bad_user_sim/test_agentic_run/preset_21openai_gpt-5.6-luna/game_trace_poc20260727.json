@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Which legal move is strongest here for Black, assuming optimal play? Please give the move and the key reason briefly."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After Black b7 and White a8, current legal moves are g2, b6, a7, c8. What's Black's best move under optimal play?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now after White b8, Black can play g2, b6, or a7. Which one is optimal, and what should I expect White to do next?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Current position after White b6: legal a1, g2, a3. Which is the true minimax move? Please account for White's best reply, not just a heuristic."
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  }
+]

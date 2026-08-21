@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, I'm Black here, down 20-34 with only 10 empty squares left (g2, b6, a7, b7, b8, c8, a1, h1, a3, a8 area). My legal moves right now are g2, b6, a7, b7, b8, c8. Which one gives me the best shot at actually winning the disc count by the end? Can you walk me through the best line?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Okay that worked well, 24-32 now. White took a8. My options now are g2, b6, a7, c8. Is g2 still the move, or has the calculus changed?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Down 20-40 now with just 4 empty squares left: a1, h1, g2, a3. My legal moves are a1, g2, a3. Which one actually wins me the most discs by the end? I have a hunch a3 might trap White into passing repeatedly but want your take."
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "variant": "v9_two_rows",
+  "observation": "In Group A it is clear they are fully asking for an opinion whereas in Group B the participant is asking for advice based on an idea they already have",
+  "choice": "B",
+  "choice_correct": true,
+  "effort": {
+    "judges": [
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 3
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.0,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-19T11:09:44.605659+00:00"
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Why did b6 seem good but collapse right after?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Is there a simple endgame rule I missed, like staying away from certain squares?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "So the game is over\u2014where did I go wrong? Was it b7?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Why does grabbing a corner like a8 lock down the whole a-file for White?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Why is g2 called an X-square and why does it usually hand White the corner?"
+  }
+]

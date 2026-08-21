@@ -1,0 +1,533 @@
+{
+  "0": {
+    "source": "wild",
+    "panel": [
+      "Knowledge Deficit Question"
+    ]
+  },
+  "1": {
+    "source": "wild",
+    "panel": [
+      "Common Ground Question",
+      "Knowledge Deficit Question",
+      "Metacomment"
+    ]
+  },
+  "2": {
+    "source": "wild",
+    "panel": [
+      "Metacomment",
+      "Think Aloud"
+    ]
+  },
+  "3": {
+    "source": "wild",
+    "panel": [
+      "Common Ground Question",
+      "Think Aloud"
+    ]
+  },
+  "4": {
+    "source": "controlled",
+    "panel": [
+      "Solution Request"
+    ]
+  },
+  "5": {
+    "source": "controlled",
+    "panel": [
+      "Think Aloud"
+    ]
+  },
+  "6": {
+    "source": "wild",
+    "panel": [
+      "Solution Request"
+    ]
+  },
+  "7": {
+    "source": "controlled",
+    "panel": [
+      "Common Ground Question"
+    ]
+  },
+  "8": {
+    "source": "wild",
+    "panel": [
+      "Solution Request"
+    ]
+  },
+  "9": {
+    "source": "wild",
+    "panel": [
+      "Conversational Acknowledgment",
+      "Metacomment",
+      "Think Aloud"
+    ]
+  },
+  "10": {
+    "source": "wild",
+    "panel": [
+      "Think Aloud"
+    ]
+  },
+  "11": {
+    "source": "controlled",
+    "panel": [
+      "Common Ground Question"
+    ]
+  },
+  "12": {
+    "source": "controlled",
+    "panel": [
+      "Conversational Acknowledgment",
+      "Think Aloud"
+    ]
+  },
+  "13": {
+    "source": "controlled",
+    "panel": [
+      "Solution Request"
+    ]
+  },
+  "14": {
+    "source": "controlled",
+    "panel": [
+      "Common Ground Question",
+      "Metacomment"
+    ]
+  },
+  "15": {
+    "source": "controlled",
+    "panel": [
+      "Common Ground Question",
+      "Think Aloud"
+    ]
+  },
+  "16": {
+    "source": "wild",
+    "panel": [
+      "Common Ground Question"
+    ]
+  },
+  "17": {
+    "source": "wild",
+    "panel": [
+      "Knowledge Deficit Question",
+      "Solution Request"
+    ]
+  },
+  "18": {
+    "source": "wild",
+    "panel": [
+      "Knowledge Deficit Question",
+      "Solution Request"
+    ]
+  },
+  "19": {
+    "source": "controlled",
+    "panel": [
+      "Knowledge Deficit Question"
+    ]
+  },
+  "20": {
+    "source": "wild",
+    "panel": [
+      "Knowledge Deficit Question",
+      "Metacomment",
+      "Think Aloud"
+    ]
+  },
+  "21": {
+    "source": "controlled",
+    "panel": [
+      "Conversational Acknowledgment"
+    ]
+  },
+  "22": {
+    "source": "wild",
+    "panel": [
+      "Conversational Acknowledgment",
+      "Solution Request"
+    ]
+  },
+  "23": {
+    "source": "wild",
+    "panel": [
+      "Think Aloud"
+    ]
+  },
+  "24": {
+    "source": "controlled",
+    "panel": [
+      "Conversational Acknowledgment",
+      "Knowledge Deficit Question"
+    ]
+  },
+  "25": {
+    "source": "controlled",
+    "panel": [
+      "Common Ground Question",
+      "Metacomment"
+    ]
+  },
+  "26": {
+    "source": "controlled",
+    "panel": [
+      "Common Ground Question",
+      "Knowledge Deficit Question"
+    ]
+  },
+  "27": {
+    "source": "wild",
+    "panel": [
+      "Knowledge Deficit Question"
+    ]
+  },
+  "28": {
+    "source": "controlled",
+    "panel": [
+      "Solution Request"
+    ]
+  },
+  "29": {
+    "source": "controlled",
+    "panel": [
+      "Common Ground Question"
+    ]
+  },
+  "30": {
+    "source": "wild",
+    "panel": [
+      "Common Ground Question",
+      "Think Aloud"
+    ]
+  },
+  "31": {
+    "source": "wild",
+    "panel": [
+      "Think Aloud"
+    ]
+  },
+  "32": {
+    "source": "controlled",
+    "panel": [
+      "Solution Request"
+    ]
+  },
+  "33": {
+    "source": "wild",
+    "panel": [
+      "Conversational Acknowledgment",
+      "Think Aloud"
+    ]
+  },
+  "34": {
+    "source": "controlled",
+    "panel": [
+      "Metacomment",
+      "Solution Request"
+    ]
+  },
+  "35": {
+    "source": "controlled",
+    "panel": [
+      "Metacomment"
+    ]
+  },
+  "36": {
+    "source": "controlled",
+    "panel": [
+      "Knowledge Deficit Question",
+      "Think Aloud"
+    ]
+  },
+  "37": {
+    "source": "wild",
+    "panel": [
+      "Conversational Acknowledgment",
+      "Think Aloud"
+    ]
+  },
+  "38": {
+    "source": "controlled",
+    "panel": [
+      "Solution Request"
+    ]
+  },
+  "39": {
+    "source": "wild",
+    "panel": [
+      "Conversational Acknowledgment"
+    ]
+  },
+  "40": {
+    "source": "wild",
+    "panel": [
+      "Common Ground Question",
+      "Solution Request"
+    ]
+  },
+  "41": {
+    "source": "controlled",
+    "panel": [
+      "Common Ground Question"
+    ]
+  },
+  "42": {
+    "source": "wild",
+    "panel": [
+      "Common Ground Question",
+      "Knowledge Deficit Question",
+      "Metacomment"
+    ]
+  },
+  "43": {
+    "source": "controlled",
+    "panel": [
+      "Conversational Acknowledgment",
+      "Knowledge Deficit Question"
+    ]
+  },
+  "44": {
+    "source": "controlled",
+    "panel": [
+      "Knowledge Deficit Question"
+    ]
+  },
+  "45": {
+    "source": "wild",
+    "panel": [
+      "Conversational Acknowledgment",
+      "Solution Request"
+    ]
+  },
+  "46": {
+    "source": "controlled",
+    "panel": [
+      "Common Ground Question",
+      "Knowledge Deficit Question",
+      "Think Aloud"
+    ]
+  },
+  "47": {
+    "source": "wild",
+    "panel": [
+      "Common Ground Question"
+    ]
+  },
+  "48": {
+    "source": "controlled",
+    "panel": [
+      "Common Ground Question",
+      "Conversational Acknowledgment",
+      "Think Aloud"
+    ]
+  },
+  "49": {
+    "source": "controlled",
+    "panel": [
+      "Think Aloud"
+    ]
+  },
+  "50": {
+    "source": "controlled",
+    "panel": [
+      "Knowledge Deficit Question"
+    ]
+  },
+  "51": {
+    "source": "wild",
+    "panel": [
+      "Metacomment",
+      "Think Aloud"
+    ]
+  },
+  "52": {
+    "source": "controlled",
+    "panel": [
+      "Metacomment",
+      "Think Aloud"
+    ]
+  },
+  "53": {
+    "source": "wild",
+    "panel": [
+      "Common Ground Question",
+      "Metacomment",
+      "Think Aloud"
+    ]
+  },
+  "54": {
+    "source": "controlled",
+    "panel": [
+      "Common Ground Question",
+      "Metacomment"
+    ]
+  },
+  "55": {
+    "source": "controlled",
+    "panel": [
+      "Knowledge Deficit Question"
+    ]
+  },
+  "56": {
+    "source": "controlled",
+    "panel": [
+      "Common Ground Question",
+      "Solution Request"
+    ]
+  },
+  "57": {
+    "source": "wild",
+    "panel": [
+      "Knowledge Deficit Question"
+    ]
+  },
+  "58": {
+    "source": "wild",
+    "panel": [
+      "Conversational Acknowledgment",
+      "Knowledge Deficit Question",
+      "Think Aloud"
+    ]
+  },
+  "59": {
+    "source": "wild",
+    "panel": [
+      "Knowledge Deficit Question",
+      "Think Aloud"
+    ]
+  },
+  "60": {
+    "source": "wild",
+    "panel": [
+      "Think Aloud"
+    ]
+  },
+  "61": {
+    "source": "controlled",
+    "panel": [
+      "Think Aloud"
+    ]
+  },
+  "62": {
+    "source": "wild",
+    "panel": [
+      "Knowledge Deficit Question"
+    ]
+  },
+  "63": {
+    "source": "controlled",
+    "panel": [
+      "Common Ground Question",
+      "Think Aloud"
+    ]
+  },
+  "64": {
+    "source": "controlled",
+    "panel": [
+      "Common Ground Question",
+      "Think Aloud"
+    ]
+  },
+  "65": {
+    "source": "wild",
+    "panel": [
+      "Solution Request"
+    ]
+  },
+  "66": {
+    "source": "controlled",
+    "panel": [
+      "Common Ground Question",
+      "Conversational Acknowledgment",
+      "Metacomment"
+    ]
+  },
+  "67": {
+    "source": "controlled",
+    "panel": [
+      "Knowledge Deficit Question"
+    ]
+  },
+  "68": {
+    "source": "wild",
+    "panel": [
+      "Solution Request"
+    ]
+  },
+  "69": {
+    "source": "controlled",
+    "panel": [
+      "Conversational Acknowledgment",
+      "Solution Request"
+    ]
+  },
+  "70": {
+    "source": "wild",
+    "panel": [
+      "Metacomment",
+      "Solution Request"
+    ]
+  },
+  "71": {
+    "source": "wild",
+    "panel": [
+      "Knowledge Deficit Question"
+    ]
+  },
+  "72": {
+    "source": "controlled",
+    "panel": [
+      "Conversational Acknowledgment"
+    ]
+  },
+  "73": {
+    "source": "wild",
+    "panel": [
+      "Common Ground Question",
+      "Knowledge Deficit Question",
+      "Solution Request"
+    ]
+  },
+  "74": {
+    "source": "wild",
+    "panel": [
+      "Knowledge Deficit Question"
+    ]
+  },
+  "75": {
+    "source": "wild",
+    "panel": [
+      "Solution Request"
+    ]
+  },
+  "76": {
+    "source": "controlled",
+    "panel": [
+      "Common Ground Question",
+      "Think Aloud"
+    ]
+  },
+  "77": {
+    "source": "controlled",
+    "panel": [
+      "Conversational Acknowledgment",
+      "Think Aloud"
+    ]
+  },
+  "78": {
+    "source": "wild",
+    "panel": [
+      "Common Ground Question"
+    ]
+  },
+  "79": {
+    "source": "wild",
+    "panel": [
+      "Common Ground Question",
+      "Think Aloud"
+    ]
+  }
+}

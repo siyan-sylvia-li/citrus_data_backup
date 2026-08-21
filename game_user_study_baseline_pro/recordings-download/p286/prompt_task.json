@@ -1,0 +1,19 @@
+{
+  "created_prompt": "I need a concrete three year plan where I can increase my online following, and publish a cookbook of all my quick, healthy recipes. I work four days a week, and have a limited budget. Should I try self publishing or go down the traditional route?",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-22T13:03:26.841127+00:00"
+}

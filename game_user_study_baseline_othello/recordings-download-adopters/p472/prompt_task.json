@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I have a solid audience of about 1.2m followers who enjoy using my recipes.\r\n\r\nI'd love to share some of these and have always wanted to publish my own cookbook. The problem is i have limited time and money as i work 4 days per week.\r\n\r\nCould you suggest a realistic plan that could help me to achieve this over the next 3 years - some steps or things i should be considering to achieve this?",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-10T21:44:40.357033+00:00"
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Looking at this Connect 4 board, what's the strongest move for Red right now and why? I see something with column 4 affecting diagonals but I'm not 100% sure."
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I have 3-in-a-diagonal (c6r1, c5r2, c4r3) and need c3r4 to win, but column 3 only has rows 1-2 filled so far. If I play col3 myself, Yellow grabs the winning spot at row4. Should I avoid column 3 entirely and force Yellow into it, or is there a better plan here?"
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  }
+]

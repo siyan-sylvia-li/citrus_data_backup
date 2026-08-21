@@ -1,0 +1,41 @@
+{
+  "idea": "I would be more specific with how to make the best available move to help me win the game",
+  "n_chars": 89,
+  "start_message": "What do you think would be the best move right now?",
+  "selected": "say_thinking",
+  "selected_type": "think_aloud",
+  "selected_carries_forward": true,
+  "others_shown": [
+    "ask_answer",
+    "look_ahead"
+  ],
+  "option_order": [
+    "ask_answer",
+    "say_thinking",
+    "look_ahead"
+  ],
+  "seconds_on_page": 105,
+  "form": "elicit_select_reply",
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 2
+      },
+      {
+        "model": "nemotron",
+        "score": 1
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.0,
+    "median_score": 2,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-20T14:50:35.245946+00:00"
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "play_move",
+    "move": 1
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 6
+  },
+  {
+    "tool": "play_move",
+    "move": 6
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "play_move",
+    "move": 6
+  },
+  {
+    "tool": "view_board"
+  }
+]

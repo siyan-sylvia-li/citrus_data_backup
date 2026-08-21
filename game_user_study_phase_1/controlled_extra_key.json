@@ -1,0 +1,385 @@
+{
+  "1000": {
+    "source": "controlled",
+    "panel": [
+      "Solution Request"
+    ]
+  },
+  "1001": {
+    "source": "controlled",
+    "panel": [
+      "Think Aloud"
+    ]
+  },
+  "1002": {
+    "source": "controlled",
+    "panel": [
+      "Knowledge Deficit Question"
+    ]
+  },
+  "1003": {
+    "source": "controlled",
+    "panel": [
+      "Conversational Acknowledgment"
+    ]
+  },
+  "1004": {
+    "source": "controlled",
+    "panel": [
+      "Common Ground Question",
+      "Think Aloud"
+    ]
+  },
+  "1005": {
+    "source": "controlled",
+    "panel": [
+      "Solution Request"
+    ]
+  },
+  "1006": {
+    "source": "controlled",
+    "panel": [
+      "Conversational Acknowledgment",
+      "Solution Request",
+      "Think Aloud"
+    ]
+  },
+  "1007": {
+    "source": "controlled",
+    "panel": [
+      "Think Aloud"
+    ]
+  },
+  "1008": {
+    "source": "controlled",
+    "panel": [
+      "Common Ground Question"
+    ]
+  },
+  "1009": {
+    "source": "controlled",
+    "panel": [
+      "Solution Request",
+      "Think Aloud"
+    ]
+  },
+  "1010": {
+    "source": "controlled",
+    "panel": [
+      "Solution Request"
+    ]
+  },
+  "1011": {
+    "source": "controlled",
+    "panel": [
+      "Think Aloud"
+    ]
+  },
+  "1012": {
+    "source": "controlled",
+    "panel": [
+      "Common Ground Question"
+    ]
+  },
+  "1013": {
+    "source": "controlled",
+    "panel": [
+      "Solution Request"
+    ]
+  },
+  "1014": {
+    "source": "controlled",
+    "panel": [
+      "Solution Request"
+    ]
+  },
+  "1015": {
+    "source": "controlled",
+    "panel": [
+      "Solution Request"
+    ]
+  },
+  "1016": {
+    "source": "controlled",
+    "panel": [
+      "Common Ground Question",
+      "Think Aloud"
+    ]
+  },
+  "1017": {
+    "source": "controlled",
+    "panel": [
+      "Conversational Acknowledgment",
+      "Think Aloud"
+    ]
+  },
+  "1018": {
+    "source": "controlled",
+    "panel": [
+      "Knowledge Deficit Question"
+    ]
+  },
+  "1019": {
+    "source": "controlled",
+    "panel": [
+      "Common Ground Question",
+      "Knowledge Deficit Question"
+    ]
+  },
+  "1020": {
+    "source": "controlled",
+    "panel": [
+      "Think Aloud"
+    ]
+  },
+  "1021": {
+    "source": "controlled",
+    "panel": [
+      "Conversational Acknowledgment",
+      "Think Aloud"
+    ]
+  },
+  "1022": {
+    "source": "controlled",
+    "panel": [
+      "Solution Request"
+    ]
+  },
+  "1023": {
+    "source": "controlled",
+    "panel": [
+      "Solution Request"
+    ]
+  },
+  "1024": {
+    "source": "controlled",
+    "panel": [
+      "Think Aloud"
+    ]
+  },
+  "1025": {
+    "source": "controlled",
+    "panel": [
+      "Common Ground Question",
+      "Think Aloud"
+    ]
+  },
+  "1026": {
+    "source": "controlled",
+    "panel": [
+      "Solution Request"
+    ]
+  },
+  "1027": {
+    "source": "controlled",
+    "panel": [
+      "Common Ground Question"
+    ]
+  },
+  "1028": {
+    "source": "controlled",
+    "panel": [
+      "Common Ground Question"
+    ]
+  },
+  "1029": {
+    "source": "controlled",
+    "panel": [
+      "Common Ground Question",
+      "Knowledge Deficit Question",
+      "Think Aloud"
+    ]
+  },
+  "1030": {
+    "source": "controlled",
+    "panel": [
+      "Think Aloud"
+    ]
+  },
+  "1031": {
+    "source": "controlled",
+    "panel": [
+      "Common Ground Question",
+      "Think Aloud"
+    ]
+  },
+  "1032": {
+    "source": "controlled",
+    "panel": [
+      "Solution Request"
+    ]
+  },
+  "1033": {
+    "source": "controlled",
+    "panel": [
+      "Knowledge Deficit Question"
+    ]
+  },
+  "1034": {
+    "source": "controlled",
+    "panel": [
+      "Common Ground Question"
+    ]
+  },
+  "1035": {
+    "source": "controlled",
+    "panel": [
+      "Solution Request"
+    ]
+  },
+  "1036": {
+    "source": "controlled",
+    "panel": [
+      "Solution Request"
+    ]
+  },
+  "1037": {
+    "source": "controlled",
+    "panel": [
+      "Common Ground Question"
+    ]
+  },
+  "1038": {
+    "source": "controlled",
+    "panel": [
+      "Common Ground Question"
+    ]
+  },
+  "1039": {
+    "source": "controlled",
+    "panel": [
+      "Think Aloud"
+    ]
+  },
+  "1040": {
+    "source": "controlled",
+    "panel": [
+      "Think Aloud"
+    ]
+  },
+  "1041": {
+    "source": "controlled",
+    "panel": [
+      "Think Aloud"
+    ]
+  },
+  "1042": {
+    "source": "controlled",
+    "panel": [
+      "Common Ground Question"
+    ]
+  },
+  "1043": {
+    "source": "controlled",
+    "panel": [
+      "Solution Request"
+    ]
+  },
+  "1044": {
+    "source": "controlled",
+    "panel": [
+      "Common Ground Question",
+      "Think Aloud"
+    ]
+  },
+  "1045": {
+    "source": "controlled",
+    "panel": [
+      "Common Ground Question"
+    ]
+  },
+  "1046": {
+    "source": "controlled",
+    "panel": [
+      "Solution Request"
+    ]
+  },
+  "1047": {
+    "source": "controlled",
+    "panel": [
+      "Solution Request",
+      "Think Aloud"
+    ]
+  },
+  "1048": {
+    "source": "controlled",
+    "panel": [
+      "Common Ground Question",
+      "Think Aloud"
+    ]
+  },
+  "1049": {
+    "source": "controlled",
+    "panel": [
+      "Solution Request",
+      "Think Aloud"
+    ]
+  },
+  "1050": {
+    "source": "controlled",
+    "panel": [
+      "Conversational Acknowledgment",
+      "Solution Request"
+    ]
+  },
+  "1051": {
+    "source": "controlled",
+    "panel": [
+      "Common Ground Question",
+      "Think Aloud"
+    ]
+  },
+  "1052": {
+    "source": "controlled",
+    "panel": [
+      "Knowledge Deficit Question"
+    ]
+  },
+  "1053": {
+    "source": "controlled",
+    "panel": [
+      "Knowledge Deficit Question"
+    ]
+  },
+  "1054": {
+    "source": "controlled",
+    "panel": [
+      "Solution Request",
+      "Think Aloud"
+    ]
+  },
+  "1055": {
+    "source": "controlled",
+    "panel": [
+      "Conversational Acknowledgment",
+      "Solution Request"
+    ]
+  },
+  "1056": {
+    "source": "controlled",
+    "panel": [
+      "Conversational Acknowledgment",
+      "Knowledge Deficit Question"
+    ]
+  },
+  "1057": {
+    "source": "controlled",
+    "panel": [
+      "Common Ground Question"
+    ]
+  },
+  "1058": {
+    "source": "controlled",
+    "panel": [
+      "Common Ground Question",
+      "Conversational Acknowledgment"
+    ]
+  },
+  "1059": {
+    "source": "controlled",
+    "panel": [
+      "Conversational Acknowledgment",
+      "Think Aloud"
+    ]
+  }
+}

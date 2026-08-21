@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Give me a solid workflow to help me grow my online brand as a cooking influencer who already has 1.2M followers, with the ultimate goal of publishing a cookbook in the next three years, assuming that I only have 3 free days each week and that I want to keep a tight budget all throughout the workflow.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-03T17:18:37.757832+00:00"
+}

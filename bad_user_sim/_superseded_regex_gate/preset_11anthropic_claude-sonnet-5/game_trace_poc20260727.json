@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "ok this looks rough for me, only 20 discs to their 34. which of my legal moves is actually the best long-term, not just for flips right now?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "wait if I play b7 does that let white grab the a8 corner next turn? that's what's making me nervous"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "ok now it's g2, b6, a7, or c8 - which one now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "yikes it's 36 to 22 now, that's a big gap. only g2, b6, or a7 left for me - can this even be turned around?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "only 4 spots left now (a1, g2, a3, h1 for whoever). which one should I take, g2 looks like it flips a bunch for me"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  }
+]

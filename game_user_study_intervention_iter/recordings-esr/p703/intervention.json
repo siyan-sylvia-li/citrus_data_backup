@@ -1,0 +1,41 @@
+{
+  "idea": "I would have the AI teach me why moves are better than other moves and how to plan ahead for my next move.",
+  "n_chars": 106,
+  "start_message": "What do you think would be the best move right now?",
+  "selected": "look_ahead",
+  "selected_type": "knowledge_question",
+  "selected_carries_forward": true,
+  "others_shown": [
+    "ask_answer",
+    "say_thinking"
+  ],
+  "option_order": [
+    "ask_answer",
+    "say_thinking",
+    "look_ahead"
+  ],
+  "seconds_on_page": 101,
+  "form": "elicit_select_reply",
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 3
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.0,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-20T13:05:53.578209+00:00"
+}

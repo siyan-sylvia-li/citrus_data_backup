@@ -1,0 +1,43 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "c8 flips 6 discs and seems like the obvious power move here, but b7 flips 5. Which one actually leaves me ahead at the end?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "did b7 doom me from the start, or was c8 the losing move?"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "should i have played g2 instead of c8 after b6, or was black already lost?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "was b6 a mistake, or was it the only real option after b7 a8?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "did i lose because i never secured a corner?"
+  },
+  {
+    "tool": "view_board"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, quick question \u2014 my legal moves are g2, b6, a7, b7, b8, and c8. c8 looks like it flips a mountain of white discs, but I\u2019m worried I\u2019m missing something. If White plays perfectly, which of these gives me the highest final score?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White just hit back with a8 and flipped my b7 and c6. My legal moves are now g2, b6, a7, c8. b6 looks like it grabs four discs \u2014 is that the right play here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Things got rough after that last exchange \u2014 I'm down 22 to 36. My only legal moves now are g2, b6, a7. What's my play to finish strong?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  }
+]

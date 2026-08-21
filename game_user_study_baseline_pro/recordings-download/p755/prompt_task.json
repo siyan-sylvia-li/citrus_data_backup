@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Provide a concrete three-year plan to grow my online presence and publish a cookbook. Limited budget and time. Focus is on posting healthy cooking videos to large following, torn on traditional v. self published cookbook.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-24T13:44:04.973070+00:00"
+}

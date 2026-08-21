@@ -1,0 +1,37 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "If I play a7, does that immediately let White take the a8 corner? And between g2 and b7, which tends to be safer in this endgame structure? I'm trying to avoid handing over corner access."
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Among my legal moves right now, is there one that stands out as winning or at least drawing for Black, or should I avoid any of them outright? If you had to pick one move to maximize my final count, which square would you suggest?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Why was c8 the wrong opening from the original position? Looking back, it gave White b7, and then the whole southwest quadrant unraveled. What was the principled first move instead?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Was my a7 move after c8 actually okay, or was b6 the real blunder? I'm trying to pinpoint where the line went from 'recoverable' to 'catastrophic.'"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "In these tight endgames, what's the simplest heuristic to avoid handing over corners while still flipping discs? I tend to chase volume and miss access patterns. Is there a quick algorithmic check I should run mentally before committing?"
+  }
+]

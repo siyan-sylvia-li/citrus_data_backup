@@ -1,0 +1,49 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "im down 20-34, only 10 empty left. which of my legal moves (g2, b6, a7, b7, b8, c8) actually wins me the most discs at the end?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "white took a8. now which of g2, b6, a7, c8 is best for me?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "rough one, white just swept the whole bottom row. only g2, b6, a7 left as options for me, plus a3/a1/h1 still open. what's my best shot here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "down 20-40 with 4 left, a1 g2 a3 my options - which one and does it even matter at this point?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "so it ended 33-31 my way after white took h1 and I had no move - just double checking that's a real win for black and I didn't miscount anything?"
+  }
+]

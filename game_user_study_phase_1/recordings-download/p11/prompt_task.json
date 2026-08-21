@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I need a concrete, specific three-year plan for the following: growing my presence online and publishing a cookbook. I am not sure whether to go the traditional route or to self-publish, so I need guidance for that, maybe some pros and cons. [Context] I am a female who posts cooking videos to 1.2M followers who love my quick, healthy recipes. I work four days a week with limited time and budget.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-03T13:21:38.086019+00:00"
+}

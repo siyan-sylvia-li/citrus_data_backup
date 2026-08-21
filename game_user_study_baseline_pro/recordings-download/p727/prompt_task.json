@@ -1,0 +1,19 @@
+{
+  "created_prompt": "I am currently a part-time content-creator, with an audience of 1.2m followers. I frequently post cooking videos, focusing on quick healthy recipes which are met with considerable appeal by my audience. I'm looking to create a concrete three-year plan, wherein my goals consist of considerable online growth and the publication of a cookbook consisting of my recipes. I am unsure as to whether this should be traditionally or self-published, albeit I work four days weekly and I have both limited time and budget. Could you devise a three-year plan based on the information above, structured year by year along with estimated budgets and advice as to the publishing.",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-21T14:05:44.007612+00:00"
+}

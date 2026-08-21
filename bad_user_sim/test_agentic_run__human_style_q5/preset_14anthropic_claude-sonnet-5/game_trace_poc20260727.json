@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I'm Black, endgame position, 10 empty squares left. My legal moves are g2, b6, a7, b7, b8, c8. Which one leads to the best final disc count for me if White plays well?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White just took a8. Now my legal moves are g2, b6, a7, c8. Which is best for final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Down 22-36, 6 squares left, legal moves g2, b6, a7. Which is best?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Down 20-40, only 4 empty squares left (a1,h1,g2,a3), my legal moves are a1, g2, a3. Which move actually gives me the best final result, walk me through why?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Looking back \u2014 why wasn't grabbing the a1 corner immediately the obvious best move? I thought corners were always the top priority in Othello."
+  }
+]

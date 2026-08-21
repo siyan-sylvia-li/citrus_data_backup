@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Study — Post-study survey (1 of 2)</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  <style>
+    .tlx__intro { color: #444; line-height: 1.5; margin: 0 0 1.5rem; }
+    .tlx__item {
+      margin: 1.5rem 0;
+      padding-bottom: 1.25rem;
+      border-bottom: 1px solid #eee;
+    }
+    .tlx__item:last-of-type { border-bottom: 0; }
+    .tlx__prompt {
+      margin: 0 0 0.85rem;
+      line-height: 1.45;
+      font-size: 0.95rem;
+    }
+    .tlx__prompt strong { color: #2D5A43; }
+    .tlx__scale { display: flex; align-items: center; gap: 12px; }
+    .tlx__anchor { font-size: 0.85rem; color: #555; flex: 0 0 auto; }
+    .tlx__ticks {
+      display: flex;
+      flex: 1;
+      justify-content: space-between;
+      align-items: center;
+      border: 1px solid #bbb;
+      border-radius: 4px;
+      padding: 10px 8px;
+      background: #fff;
+    }
+    .tlx__tick { display: flex; }
+    .tlx__tick input { margin: 0; cursor: pointer; }
+    .survey__progress { font-size: 0.8rem; color: #777; margin: 0 0 0.5rem; }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <h1 class="topbar__title">Post-study survey</h1>
+  </header>
+
+  <main class="start">
+    <form class="start__card" method="post" action="{{ url_for('post_survey') }}">
+      <h2 class="start__title">Task Experience Post-Survey</h2>
+      <p class="tlx__intro">
+        Please select a point along each scale that best indicates your
+        experience while completing the task.
+      </p>
+
+      {% if error %}
+        <div class="start__error">{{ error }}</div>
+      {% endif %}
+
+      <input type="hidden" name="page" value="tlx" />
+
+      {% for key, name, desc in tlx_items %}
+        <fieldset class="tlx__item">
+          <p class="tlx__prompt"><strong>{{ name }}:</strong> {{ desc }}</p>
+          <div class="tlx__scale">
+            <span class="tlx__anchor">Low</span>
+            <div class="tlx__ticks">
+              {% for i in tlx_ticks %}
+                <label class="tlx__tick" title="{{ i }}">
+                  <input
+                    type="radio"
+                    name="{{ key }}"
+                    value="{{ i }}"
+                    {% if answers.get(key) == i|string %}checked{% endif %}
+                    required
+                  />
+                </label>
+              {% endfor %}
+            </div>
+            <span class="tlx__anchor">High</span>
+          </div>
+        </fieldset>
+      {% endfor %}
+
+      <button type="submit" class="start__btn">Continue</button>
+    </form>
+  </main>
+</body>
+</html>

@@ -1,0 +1,4 @@
+{"type": "leave", "reason": "blur", "game": "connect_four", "puzzle": "15", "round": 0, "ts": "2026-07-24T13:38:13.696576+00:00"}
+{"type": "return", "reason": "dismiss", "game": "connect_four", "puzzle": "15", "round": 0, "ts": "2026-07-24T13:38:16.170880+00:00"}
+{"type": "leave", "reason": "visibilitychange", "game": "connect_four", "puzzle": "15", "round": 0, "ts": "2026-07-24T13:40:14.901074+00:00"}
+{"type": "leave", "reason": "visibilitychange", "game": "connect_four", "puzzle": "15", "round": 0, "ts": "2026-07-24T13:45:20.089857+00:00"}

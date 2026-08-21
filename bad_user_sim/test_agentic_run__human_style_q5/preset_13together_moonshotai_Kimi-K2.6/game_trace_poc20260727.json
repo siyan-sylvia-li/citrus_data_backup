@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "im stuck between c8 and b7. which one gets me more discs at the end?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "my legal moves are b6 a7 c8 now. does b6 leave white any reply, or is it safe?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "was b7 really the best first move? i lost pretty bad"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "after white hit a3 and flipped the whole a-file, did i still have any way to come back or was it already lost?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "okay so what's the biggest lesson here for endgames? dont let them get the edge files?"
+  }
+]

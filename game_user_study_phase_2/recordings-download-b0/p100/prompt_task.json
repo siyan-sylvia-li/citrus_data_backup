@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Help me draft a 3 year plan cookbook for my online followers who love quick, healthy recipes. The person works four days weekly, limited time and budget",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 2
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.0,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-18T07:31:11.919230+00:00"
+}

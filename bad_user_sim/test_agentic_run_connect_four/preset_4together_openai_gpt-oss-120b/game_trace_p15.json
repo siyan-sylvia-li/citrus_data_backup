@@ -1,0 +1,31 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "play_move",
+    "move": 2
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "What is the current board after my last move (column 4) and Yellow's response?"
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  }
+]

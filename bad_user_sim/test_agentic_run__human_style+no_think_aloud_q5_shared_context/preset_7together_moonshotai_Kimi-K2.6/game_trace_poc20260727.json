@@ -1,0 +1,37 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "b7 and c8 both flip a lot. Which one wins in the end?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White played a8 and flipped a lot back. My legal moves are g2, b6, a7, c8. Which one should I play?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now I can play b6, g2, or a7. Which one gives me the most discs at the end?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I went with b6 instead of a7 and got crushed. Was a7 actually the only winning move there, or was I already in trouble after c8?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Board is full now. Game over, right? Anything left to do?"
+  }
+]

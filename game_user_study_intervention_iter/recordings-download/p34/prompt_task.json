@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Write a three year plan for me to grow my online quick healthy food recipes and a cookbook. I have limited budget and time to do writing so it needs to be time considerate with the time spread out across the three years appropriately.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.333,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.333,
+  "submitted_at": "2026-08-20T20:31:03.993279+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I create cooking videos online and have 1.2 million followers. My focus is healthy recipes that are quick and easy to make. I'd like you to create a 3-year step-by-step concrete plan for me in order to help me gain even more followers, and to publish a cookbook within the coming 3 years. I haven't decided yet whether to use traditional publishing or self-publishing for the cookbook, so please account for both options within the 3-year plan since I might go either way on that. I do have a limited budget, and cannot afford to commit 4 days per week to my work, so please take that into account as well.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T12:51:34.777435+00:00"
+}

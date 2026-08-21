@@ -1,0 +1,19 @@
+{
+  "created_prompt": "The owner of an online video site currently has 1.2M followers for her recipes for quick, healthy dishes . In  the next 3 years she wants to both grow the number of followers and publish a cookbook. The cookbook could be either self-published or produced by a traditional publisher.   \r\nPlease set out a 3 year plan for how she can achieve these aims , given she can only work 4 days a week and has a limited budget.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 4
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.5,
+  "median_score": 3.5,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-28T13:10:50.410323+00:00"
+}

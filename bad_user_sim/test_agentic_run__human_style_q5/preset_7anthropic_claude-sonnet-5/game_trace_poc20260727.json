@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I'm Black, down 20 to 34 with only 10 empty squares left. My legal moves are g2, b6, a7, b7, b8, c8. Which one gives me the best shot at winning the count at the end?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now it's 24 to 32, 8 empty squares left. My legal moves are g2, b6, a7, c8. Which one is best for the final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Down 22-36 now, 6 empty left, my only moves are g2, b6, a7. Which one actually wins me the most discs at the finish?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, looking back - why did white keep passing after I played a3 and a1? I wasn't fully sure why that worked so well."
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Was there ever a risk that white could've flipped my corner or edge discs back somehow, or once I got a1 and h1 was I basically safe?"
+  }
+]

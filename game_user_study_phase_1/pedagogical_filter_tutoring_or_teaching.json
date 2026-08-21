@@ -1,0 +1,1802 @@
+[
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67c6aaaa-dd60-8010-83c9-d093201c845d",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is trying to deepen their own understanding through follow-up conceptual questions and refinements."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/ce519acb-0d25-4fef-8479-87b3f37c1a17",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking for explanations of educational concepts to improve their own understanding."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67d808b4-9690-8003-8812-13ad2e701c06",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is a beginner asking for resources to learn and build intuition about AI, ML, DL, and data science."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/207a26a1-5672-41e8-9d5d-ac28934ea349",
+    "role":"teacher_or_author",
+    "keep":false,
+    "reason":"The user is requesting teaching guidance for elementary students, which is content creation for others rather than personal learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/6763bf02-35c8-800d-a45e-4365fc73b059",
+    "role":"other",
+    "keep":false,
+    "reason":"The user wants the assistant to compose and present their thoughts, not to learn or understand a subject."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/6808fc34-976c-8008-9154-18db393c7366",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking the assistant to explain and compare a psychological framework for their own understanding."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/68002234-97e0-8008-9c7d-2ffe187362fc",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is trying to understand and improve a scientific hypothesis for their own learning, including asking for assessment and conceptual refinement."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67ce086f-638c-800b-bfaf-49553fee6906",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking for an explanation to understand a concept themselves."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/e40b100a-b788-490a-9c5b-3a6f3832b2fa",
+    "role":"other",
+    "keep":false,
+    "reason":"The user is asking for expert clinical decision support and treatment planning for a case, not seeking to learn a topic for their own understanding."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67865955-b598-8012-8e64-d1da1a25b8ae",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking for conceptual understanding and evaluation of Critical Thinking Education as a solution, which is genuine learning-oriented help-seeking."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67fd04ff-1ba0-8012-a51e-9a2d560f582a",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking to understand a historical\/authorship question for their own learning, not to produce teaching content for others."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67b73298-7498-8004-b6c6-13796177d64e",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking for explanations and practice to understand JavaScript concepts for their own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/6870d9a0-f020-8002-9903-cd2e83047110",
+    "role":"other",
+    "keep":false,
+    "reason":"The user is requesting a comparative content output about famous figures rather than asking to learn or understand a topic for themselves."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/674bb035-312c-8008-b536-70bd6bb20660",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking multiple follow-up questions to understand consciousness and related AI concepts for their own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/68062bb0-1474-8000-8e57-63b6d4f18b99",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking an explanatory philosophical question to deepen their own understanding."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/66e3f04e-cd98-8008-aaf9-9ca933892f07",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking for help understanding a riddle\u2019s solution for their own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67745c8b-5f48-8011-9c85-a7177a689eb5",
+    "role":"teacher_or_author",
+    "keep":false,
+    "reason":"The user is asking for teaching-preparation guidance rather than trying to learn the subject themselves."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/66e504b4-b200-8005-8bb7-f18f324ea589",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is solving a puzzle and asking for help determining the possible pet assignments, which is genuine learning-oriented problem solving."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/cd53af57-8844-46c2-bced-19ab9010fcb7",
+    "role":"other",
+    "keep":false,
+    "reason":"The user is requesting expert-style clinical decision support and report generation, not asking to learn or understand a topic for themselves."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/47e500ca-f3e4-4e56-9af7-dc7dcf39071a",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking to understand a technical concept for their own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/698ce3c6-b2cb-465a-a467-1a3beabe4563",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking for an explanation of a concept for their own understanding."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/eecd3557-c2cf-4665-b368-ef08888e938f",
+    "role":"teacher_or_author",
+    "keep":false,
+    "reason":"The user is asking for a hiring rubric and its table format for applicant screening, which is content creation rather than personal learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/675ef6f1-74a8-8000-bc4f-9d217e2f169a",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking to understand a philosophical\/scientific distinction for their own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/681e961f-1a3c-8011-9971-9e132b966111",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking for a detailed explanation to understand the proof themselves, which is genuine learning-oriented help-seeking."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/a8f40c76-1a67-415b-9807-d0b9a188beac",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is actively asking to understand redox receptor mechanisms and specific examples for their own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/f6d3637d-e362-4a3c-99c7-034d84314409",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user wants flashcards to study pharmacology, indicating personal learning intent."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/687bdcc1-39ec-8010-b321-db85de09267d",
+    "role":"other",
+    "keep":false,
+    "reason":"The user is requesting expanded content for a themed writing piece, not seeking to learn a topic for themselves."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/66f4546b-1f7c-8005-8972-0334e7751505",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is trying to understand a scenario for their own learning and asks for step-by-step reasoning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/678ca706-f420-800a-ae82-997ecbd52aef",
+    "role":"other",
+    "keep":false,
+    "reason":"The user is offering a speculative statement rather than asking for help to learn or understand something."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/4c76d7c8-4e86-41e1-a632-8c025becef0d",
+    "role":"other",
+    "keep":false,
+    "reason":"The user is presenting explanatory content rather than asking to learn or understand something themselves."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/b91b59cf-7feb-48a9-b5d9-52c1016e1a2a",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking to understand how AI supports medical teaching, which is genuine learning-oriented help-seeking."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/3a0760e4-c12f-4aa0-8e54-1f6476c75bfd",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking to understand flipped classrooms and related educational concepts for their own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/96f98f38-f71b-48ab-a439-a48a371d8ca7",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking follow-up conceptual questions to understand self-reference in formal systems for their own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/679aae9d-d7a8-8012-bdfe-c63012c5e5ac",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking conceptual follow-up questions to build their own understanding of relativity and computing analogies."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67f983ca-5340-8000-abae-cd2b39696d56",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking for a simple explanation of a concept to understand it better."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/682cb259-d308-8012-a31f-4f793a240807",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking for an explanation of a theory to understand it, not to produce teaching materials or just get a one-off answer."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/4d5da913-666b-4363-921a-16fe6e33b5e6",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking to understand an educational concept for their own learning, not requesting teaching artifacts or a mere factual lookup."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67b311c7-614c-800a-83fd-502b7df7b285",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is clarifying a biology concept to understand the correct answer, which is learner-focused help-seeking."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67e0470e-faac-8000-8980-c6bfce3f9a21",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking for an explanation of a concept to understand it, which is genuine learner help-seeking."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/678fbcba-63ec-8004-88fa-621e67e540f6",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking the assistant to help reduce a term step by step to understand the calculus."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/6880ee47-04c4-8011-84be-5fd8df1c975f",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is seeking explanations about theological doctrines and traditions for their own understanding."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/789a965f-da79-4036-9d5a-4eda86cfa7e9",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking to understand the differences between classical and ecclesiastical Latin pronunciation."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/673ff108-0580-8001-a665-86cf5f342224",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking substantive follow-up questions to understand black hole charge for their own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/6828e07e-3244-8003-82ce-af5d00189b4b",
+    "role":"other",
+    "keep":false,
+    "reason":"The user is requesting content development for an ideological framework, not genuinely seeking to learn or understand a topic for their own education."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67e461c5-ad9c-800a-b42e-f268a41f2606",
+    "role":"teacher_or_author",
+    "keep":false,
+    "reason":"The user is defining a lesson-planning assistant and requesting teaching-resource generation instructions, not asking to learn a subject themselves."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/680c3dc1-e598-800a-9c17-b36dd53d894e",
+    "role":"other",
+    "keep":false,
+    "reason":"The user is requesting a political motive analysis rather than seeking pedagogical help for their own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67656a2c-a57c-800d-9e88-2704b38632f9",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is trying to understand a topic for their own learning by asking explanatory follow-up questions and requesting synthesis."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/310991b7-0f18-4d0d-950c-da64f359284e",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking for an explanation and solution to a puzzle to understand it themselves."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/f280d4e0-1aeb-4fe1-981d-8762f4780d90",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking to understand a topic for their own learning, not requesting teaching materials for others."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/682720df-88b4-800f-8b12-fb07ca0b6819",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking to understand a concept for their own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/0bd8d806-406e-4202-bc55-a391cd62f975",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is seeking to understand a team composition theory for their own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/47a09f33-4007-4b06-a590-8dd6293e3d62",
+    "role":"teacher_or_author",
+    "keep":false,
+    "reason":"The user is asking for a faculty resource document for educators, which is teaching-material creation rather than the user\u2019s own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/b13b06e9-0cfb-408f-b8a2-2281bff6af4e",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking for a beginner-friendly explanation of a React hook to understand it themselves."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67cb7ae9-9d1c-8011-b127-6eef108fb7bb",
+    "role":"teacher_or_author",
+    "keep":false,
+    "reason":"The user is requesting creation of a teaching\/narrative artifact rather than seeking to understand the material themselves."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/abb5975e-4c0f-44f6-a7c1-8d20aed22c2b",
+    "role":"other",
+    "keep":false,
+    "reason":"The user wants a sample interview response to use, not help learning the underlying skill or concept."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/e4d76bfa-e7f9-429b-89bb-90fd5444ca98",
+    "role":"teacher_or_author",
+    "keep":false,
+    "reason":"The user is requesting a quiz for students, which is teaching material creation rather than seeking personal understanding."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/8974a56f-e6ad-468d-8c4c-a2748faed035",
+    "role":"teacher_or_author",
+    "keep":false,
+    "reason":"The user is requesting teaching questions for students, not trying to understand the topic for their own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/6f47b8e2-3618-4e18-8782-5e2c8f5feeca",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking to learn about the Chabad Rebbe for their own understanding."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/010df84a-190a-4b21-96c8-4e85bd0d0ad2",
+    "role":"teacher_or_author",
+    "keep":false,
+    "reason":"The user is requesting an article to publish for readers, which is content creation rather than seeking personal learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/6881ecc6-3ed8-8008-ab7d-07f001c89591",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking to understand a reinforcement learning concept and its implications in self-play, which is genuine learning-oriented help-seeking."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/6802abbd-7050-800b-81bd-c57d10bb79b4",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking for an explanation of a concept to improve understanding, not primarily requesting content for others."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/679ccf2b-1418-8002-bbb0-8ea299dc9e16",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is trying to understand how to express a discrete loop in continuous mathematical terms for their own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/675dbb85-9704-8011-9ed7-93d696461abb",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking to understand literary connections across books, which is genuine pedagogical help-seeking."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/b979bbc2-068d-4fea-b06a-fe436ffed37f",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking for help proving a topology result for their own understanding, not generating instructional materials for others."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/679892fe-8a74-8005-9258-90f5d802d2b8",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking to work through a medical differential diagnosis for their own understanding."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/a8a1a65f-6cf4-4c5f-893a-6b43a5b1bed2",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking to understand a probability\/logic problem for their own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/31f591a6-3b0b-49cb-89f5-04454ba888b4",
+    "role":"other",
+    "keep":false,
+    "reason":"The user is seeking a direct true\/false verdict, not trying to learn or understand a topic."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/673531db-ee7c-800a-a19c-eb2d5da58df1",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking follow-up questions to understand genetics and gene-editing mechanisms for their own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/68446447-ba1c-8006-afb1-505b69495379",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking for help understanding and practicing a math concept for their own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/674ed5cb-93fa-4f2d-840f-e6d2a6f78b76",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user asks for beginner-friendly step-by-step instruction to learn Premiere Pro for their own use."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/6759ed63-31cc-8004-ac1e-a79f76d60699",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is seeking to understand how Stanford course grading and makeup policies work for their own academic situation."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/f2055ca2-41a3-4642-ad85-32d622cc1867",
+    "role":"teacher_or_author",
+    "keep":false,
+    "reason":"The user requested a lesson plan artifact for a course, which is content creation for teaching others rather than personal learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/66e833c9-cf74-8012-bbd5-4e3c0b8a6660",
+    "role":"other",
+    "keep":false,
+    "reason":"The user is asking for the answer to a riddle rather than seeking to learn a topic or skill for themselves."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/f15257bf-5f1b-47a9-87ae-216693879822",
+    "role":"teacher_or_author",
+    "keep":false,
+    "reason":"The user is requesting a quiz and teaching materials for their students, which is content creation rather than personal learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/68239516-05f8-8010-87e9-1bacf5529492",
+    "role":"other",
+    "keep":false,
+    "reason":"The user is requesting an article to be written about their interactions, which is content generation rather than genuine learner help-seeking."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67e865c3-345c-8000-bb9f-5ecd6fb5260a",
+    "role":"other",
+    "keep":false,
+    "reason":"This is reflective philosophical conversation rather than a genuine request to learn or understand a topic for the user's own education."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/45557eff-b3bc-473f-a9ff-878b7e834fb8",
+    "role":"teacher_or_author",
+    "keep":false,
+    "reason":"The user is requesting activity ideas and supporting materials for a camp program, which is content creation for others, not personal learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/4017cc8c-d287-4430-be14-d6a54e02888f",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is seeking help understanding and formatting a passage for their own comprehension."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67933676-5e2c-8010-a1a1-3131c537747b",
+    "role":"learner",
+    "keep":true,
+    "reason":"They are asking to understand the impact of severe grading on MFL GCSE take-up for their own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/6807fdae-2018-8012-aeed-7bbeaad60394",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking to understand how robots and AGI work, which is genuine learning-oriented help-seeking."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/68011c8a-4bbc-8002-8408-e96849e4e0e4",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is trying to understand and develop their own ideas through explanation and analysis."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/52f56384-9a88-4956-b7de-fb299f6a26d4",
+    "role":"teacher_or_author",
+    "keep":false,
+    "reason":"The user is requesting planning and discussion prompts for a city-planning session, which is content creation for others rather than genuine personal learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67857886-dffc-8006-ab7e-90382b1792a8",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking a sequence of clarifying philosophical questions to understand the topic for themselves."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/68288f09-dc88-8009-8914-9bf7ea1191fc",
+    "role":"learner",
+    "keep":true,
+    "reason":"They are requesting practice problems to prepare for their own exam and plan to review explanations afterward."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/678000f9-da94-8011-a4ab-ab673a4afaff",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking for strategic understanding of a chess variant for their own learning and analysis."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/a953a47a-d468-4a02-8ac8-3e8758528409",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is probing the logic of Bell\u2019s theorem assumptions to understand the concept for themselves."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/5c3d1130-820e-4728-91c9-c6b9919c08d3",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking how to solve a logic puzzle to understand the solution themselves."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/68270096-1c84-8005-9389-9e8a7484f50d",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking for a simple explanation to understand alphabetical ordering, indicating genuine learning intent."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/679cbc70-9bcc-8000-ba01-d0fae6356bad",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is trying to understand a philosophical claim about Rawls\u2019 theory rather than producing content for others."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/fb2624b0-4d1c-4397-a49e-3eb77b61a432",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking successive explanatory questions to build their own understanding of a biology topic."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/682206a1-f364-8005-885e-95d21141c7df",
+    "role":"teacher_or_author",
+    "keep":false,
+    "reason":"The user requested a polished technical report artifact rather than seeking to understand the material themselves."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/673f5662-121c-8011-bcee-5de29377b529",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user asks \u201cCould you explain this?\u201d, indicating they want to understand the philosophy for themselves."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/687d4048-1060-8011-98a0-395ab379d42d",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking substantive follow-up questions to understand a topic for their own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/68268be9-e0ec-8003-81de-3fdd556e4116",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking for help understanding and refining their own interpretation of the story, with follow-up clarification and conceptual analysis."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/6872c253-d820-8001-8404-002160c6059f",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking for explanations and help understanding the paper\u2019s arguments, which is genuine learning-oriented help-seeking."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/677bec06-57e8-8011-83cc-3ef62ac3b361",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking to understand a physics derivation for their own learning, not to produce teaching materials for others."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67e605b2-b738-8006-9b4f-e5c88d672ceb",
+    "role":"teacher_or_author",
+    "keep":false,
+    "reason":"The user is asking for teaching plans and exam-prep materials to use as instructional content, not seeking personal understanding of the topic."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/45968d7c-6d04-4c51-a063-852e3c662388",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking for an explanation of a grammar lesson for their own English learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/68779749-3148-8013-9d2e-8b93077690df",
+    "role":"other",
+    "keep":false,
+    "reason":"The user is participating in a fictional roleplay narrative, not asking to learn or understand something for their own education."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/ee66df81-b3ec-4ff3-8b2c-616fab7c30f6",
+    "role":"other",
+    "keep":false,
+    "reason":"The user is requesting help refining an introduction for presentation, not learning a concept or skill for their own understanding."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/6790365b-0554-8004-a2d8-df4216875256",
+    "role":"other",
+    "keep":false,
+    "reason":"The user requests a code implementation artifact rather than asking to learn the material themselves."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/68688976-3bb8-8003-bf13-b64fd79ba97a",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is requesting an interpretive reflection to understand a concept, which is learner-oriented rather than content production for others."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/675ceb8f-ee48-8006-837f-c6403f08c449",
+    "role":"other",
+    "keep":false,
+    "reason":"The user is mainly presenting or generating technical prose rather than asking to learn or solve a specific problem."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/677f2083-4918-800e-a6e1-dffcba9904ff",
+    "role":"other",
+    "keep":false,
+    "reason":"The user is requesting event-summary drafting for a wedding, not seeking to learn or understand something."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67310048-8518-800d-a885-6376446241c5",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking to understand a scientific\/philosophical concept for their own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/6733d97a-dea0-800a-bfac-0b5624db15be",
+    "role":"other",
+    "keep":false,
+    "reason":"The user is asking for a profile of someone else from scraped posts, which is content generation rather than personal learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/fff35cb0-8973-4cc7-88d4-97437339253d",
+    "role":"teacher_or_author",
+    "keep":false,
+    "reason":"The user is directing a student-role exercise and producing an answer for evaluation, which is content creation rather than personal learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/6732f57f-a3c8-8000-94f2-d477cbb28c56",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking to understand a psychology concept for their own learning, including follow-up conceptual clarification about awareness and sentience."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/1b384ca9-a9a2-4a19-85d0-0a00cf0d9f3d",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is requesting explanations and practice on chemistry topics for their own understanding."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/6882d7f8-5904-8000-9abd-1de15ba99350",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is trying to understand themselves through a personalized explanation, which is genuine learning-oriented self-reflection."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/80bfb9c2-dbaf-49ae-986b-4fb89014f13b",
+    "role":"teacher_or_author",
+    "keep":false,
+    "reason":"The request is for a teaching artifact (a rubric) to use with students, not for the user\u2019s own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67652535-d858-8010-85b9-5d93102210c1",
+    "role":"teacher_or_author",
+    "keep":false,
+    "reason":"The user is requesting lesson-planning content for pupils, not trying to understand the topic for their own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67fd002b-287c-800a-bc1f-7c072da0bcaf",
+    "role":"learner",
+    "keep":true,
+    "reason":"They are seeking personalized guidance to understand and improve their own skills and knowledge."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/36a5e52e-052a-4a7f-af7f-946aba82cd59",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is trying to understand and explore a physics concept for their own learning rather than producing teaching content."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/44364bfa-766f-4e77-81e5-e3e23bf6bc92",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is trying to understand a riddle\u2019s solution for their own learning rather than producing teaching materials."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/93a9d0ec-b02b-40d6-a503-f4d98c3ab837",
+    "role":"teacher_or_author",
+    "keep":false,
+    "reason":"The user is asking for a ready-made NCOER template, which is content production rather than personal learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/cded2994-bebc-4a1f-bc73-a85c48bd3230",
+    "role":"teacher_or_author",
+    "keep":false,
+    "reason":"The user is asking for a rubric to use in assessment, which is teaching material rather than a request to learn the topic themselves."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/63741d26-c7ec-4f88-8edd-766e94a3bb4b",
+    "role":"teacher_or_author",
+    "keep":false,
+    "reason":"The user is requesting teaching artifacts for a standard, which is content production rather than personal learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/66fbafb4-09f8-800c-bb8b-5e8d5f607714",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking to understand a physics concept for their own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/1fcb48db-d639-4db1-a4d6-c753a94de906",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking for help choosing and improving a sentence for their own understanding and writing."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/a4be0362-f1a1-4fb4-9605-aab3d6c2c1c7",
+    "role":"other",
+    "keep":false,
+    "reason":"The user wants a sample interview response, which is content creation rather than learning or problem-solving for their own understanding."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/682209ed-4f50-8000-81fb-47cb34a42db9",
+    "role":"learner",
+    "keep":true,
+    "reason":"The conversation is about understanding a concept, and the user is participating in an explanatory exchange rather than creating materials for others."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/96ccec84-69ca-4315-b6e0-16f2a612daf6",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking to solve a logic problem for their own understanding."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67c9f3a8-0b0c-8012-97f4-987b399fd375",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is seeking their own understanding of the conflict by asking for context, solutions, and evaluation of tradeoffs."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/680ea661-56dc-800d-a2f1-c2042eb74c3e",
+    "role":"other",
+    "keep":false,
+    "reason":"The user is proposing and refining an AI ethics framework rather than asking to learn or solve a pedagogical problem."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/676e99dd-e3e0-8000-a6d9-0e062da8b2b0",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking for help understanding a philosophical concept, which is genuine learning-oriented inquiry."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/680ca65d-8984-800f-9d14-31dfb744630b",
+    "role":"other",
+    "keep":false,
+    "reason":"The user asked for a generated set of points on a topic rather than seeking interactive explanation for their own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/f8f49116-b77d-42a7-bf33-0bd1726eea72",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is trying to understand and solve a riddle for their own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67572bf5-a2c8-8005-8658-cbc00700bb60",
+    "role":"learner",
+    "keep":true,
+    "reason":"They ask for a more detailed explanation of a technical concept from documentation to improve their own understanding."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/6747a890-b39c-8007-b69e-fa969640e2ad",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is exploring a concept for their own understanding by asking for possible co-adaptation scenarios."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/93bc94a3-a30e-40dd-9907-c81013db6de0",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is trying to learn how to solve a logic puzzle, not just requesting a standalone fact or teaching material."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/68733752-7a0c-8007-bf20-7a909d03e9a7",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking to learn a medical physics topic for their own understanding, not requesting materials to teach others."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67d5c8bb-c4dc-800d-b2ab-ab1b7044b885",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking conceptual follow-up questions to build their own understanding of mind, self, and AGI."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/686fafa3-df88-8012-b2f8-b8a081ac7c00",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking to understand a concept about the effects of incorrect input on intelligence."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/676e8996-6118-800d-92e3-8f6afaa234c8",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking to learn and compare concepts for their own understanding."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67e9f9ec-1978-8003-907e-e0632fa3017b",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking why software development differs from building construction, which is a genuine request to understand a concept."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/68027c79-4448-8000-b9a9-fade7aef5582",
+    "role":"other",
+    "keep":false,
+    "reason":"The user is seeking a factual verification of a claim, not engaging in learning-oriented discussion or skill-building."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/8462349f-9fca-4730-8ca3-eb32b43923f5",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking for help understanding and translating a philosophical passage for their own comprehension."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/78e4cf89-db71-4e45-a91c-03a6161f1484",
+    "role":"learner",
+    "keep":true,
+    "reason":"They are asking to understand their own Android skill level from their experience, which is genuine self-assessment help-seeking."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/a6397e81-1800-46c9-b774-998e8f455c0f",
+    "role":"other",
+    "keep":false,
+    "reason":"The user is requesting roleplay conversation about study skills, not clearly seeking personal learning help."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/eac25c3c-5b31-405f-95bf-b0c976f43339",
+    "role":"teacher_or_author",
+    "keep":false,
+    "reason":"The user is preparing lesson ideas for someone else to learn, so this is teaching content creation rather than personal learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67b69a62-a708-800b-8ca2-02d781453962",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is trying to understand a concept for their own learning by asking for a philosophical equivalent of a programming refactor."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/40d37480-ea87-493e-a07a-fa2984986bc9",
+    "role":"teacher_or_author",
+    "keep":false,
+    "reason":"The user is creating instructional materials for a course, so this is teacher\/author content production rather than personal learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67978e4a-73e0-8003-893e-e3e67a2e9714",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking to understand a topic for their own learning, not to create teaching materials for others."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/57b8d87c-f7c0-4eb1-8f31-c70a33b4021c",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking for an explanation of a fictional technical scenario to understand how it could work."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/68003afa-b0d4-8006-a6c3-62845b62481f",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking a genuine math question to understand a concept for their own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/6872bce7-6fa8-8001-9581-d7fb11978100",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking for explanations and help understanding the paper and related arguments for their own comprehension."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/723378ee-a100-4fd2-923a-c49dc525d8f1",
+    "role":"teacher_or_author",
+    "keep":false,
+    "reason":"They are requesting a classroom simulation for students, which is teaching material rather than personal learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/679d21a7-bc94-8008-9718-7ba45b3867f5",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking an educational question to improve their understanding of multivariable calculus."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/6734b0c6-4a00-8001-ae16-ac18fab59587",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is trying to solve and understand a logic puzzle for their own learning, asking for a diagram and solution steps."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/675d8c55-d74c-8010-ab6c-50c347242f35",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking to understand a French pronunciation rule for their own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/0e1c2d45-9533-453e-b2f6-6eceb44e0cf3",
+    "role":"other",
+    "keep":false,
+    "reason":"The user is making a speculative statement rather than asking for help to understand a topic or solve a learning problem."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/bbf236c6-3d88-49c8-8aad-ac811ab52eba",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking to learn a statistics concept for their own understanding."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/676c2d39-95e8-8007-ad2b-e922bc02ec31",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking about a logic puzzle to understand and solve it for themselves, which is genuine learning-oriented help-seeking."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/587cf259-890b-4c97-8c51-9d7096343b26",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking to understand recombinant DNA formation and restriction enzymes for their own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/674d893d-c20c-8003-91d4-d5dc3e3d5bfc",
+    "role":"teacher_or_author",
+    "keep":false,
+    "reason":"The user wants an agenda artifact for a workshop to give to others, not to learn the subject themselves."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67bf3246-0e28-8007-bf57-d70fd21a6805",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is trying to understand and evaluate a theological question for their own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/ec1018ec-1d86-4160-b587-354253c7d5cb",
+    "role":"teacher_or_author",
+    "keep":false,
+    "reason":"The user is defining a tutoring script for the assistant rather than seeking to learn a topic themselves."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/6722d130-8ce4-800d-bf7e-c1891dfdf781",
+    "role":"other",
+    "keep":false,
+    "reason":"This is a one-off puzzle question seeking an answer rather than genuine pedagogical learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67da3059-f31c-800f-804f-4f15d6240768",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user explicitly asks for an ELI5 explanation to understand the concept themselves."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/fc5a3185-fd4f-4fae-ac36-4acd7bb380b8",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is trying to understand and test a legal concept for their own learning by asking a follow-up question."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/e37e4444-3294-4848-8a37-acdaab22950c",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking for an explanation of a mathematical topic to understand it themselves."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/66f2c6cd-2670-800c-beb1-39b1ba3cf439",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking for an explanation of a topic to understand it, which is genuine learning-oriented help-seeking."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/a3fe6da2-ebd3-424a-87c3-221de78a5ea2",
+    "role":"teacher_or_author",
+    "keep":false,
+    "reason":"The user is asking for a scholarly paper to present to others, so this is content creation rather than personal learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/674bb321-bd38-8011-8347-35fa24a3e2a6",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking follow-up explanatory questions to understand nervous system and consciousness concepts for their own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/249a781f-f93e-4975-95ea-541449e434d8",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is trying to understand how an LLM-incorporation structure would work and whether it would be legally effective, which is genuine learning-oriented help-seeking."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/fd1de0c4-2322-4e29-8250-79a8ffc89ff0",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is trying to understand a psychological concept for their own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/685edb4d-4f20-8005-95bb-42464e8a7fa1",
+    "role":"learner",
+    "keep":true,
+    "reason":"They are asking to understand GPL plugin licensing implications for their own projects, not to produce teaching materials or just get a one-off answer."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/74a754d2-5da1-45f0-8398-4baa3704afd0",
+    "role":"teacher_or_author",
+    "keep":false,
+    "reason":"The user is requesting an instructional analysis of learning outcomes for course design, not seeking to learn the psychology content for themselves."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/681e9908-afdc-8011-a38f-cebe910d596e",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking for a detailed explanation to understand their own technical topic, which is genuine learning-oriented help-seeking."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/687be86c-9f0c-8004-9ad1-bc4af7284156",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking for guidance about their own career development and possible next steps, which is genuine personal learning\/help-seeking."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/9489a790-f4f1-4ed9-b757-4e988373f97a",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking to explain chess mistakes and piece movements to understand the game better."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/17b3882c-1279-4085-8de7-674be45139ec",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking for an explanation to understand a concept, which is genuine learning-oriented help-seeking."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/5c0f52d2-b403-4505-a4d2-c52656f1ef70",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking to understand why AI struggles with generating human hands, which is a learning-oriented question."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/75271cdb-83e6-4a69-88f4-1a38457dd0af",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is preparing for a UI\/UX interview and wants explanations and sample answers to learn from."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/6733d5ac-048c-8009-9ca2-279b5fa79810",
+    "role":"learner",
+    "keep":true,
+    "reason":"They are asking what a quoted passage means in a book they are reading, indicating genuine learning intent."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/687df885-b950-800c-8c45-04e6ab75fb1b",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is trying to understand developmental concepts and research evidence for their own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/686a2987-556c-8013-b930-a0d10d8a6e68",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking for help understanding and using TNEA counselling support for themselves."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/59b5acad-b2b0-4a71-9d36-07f6bc15d48a",
+    "role":"teacher_or_author",
+    "keep":false,
+    "reason":"The user is creating lesson materials and quiz questions for a class, which is teacher\/author content production rather than personal learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67beb123-5360-8000-b2c6-0506c36bf038",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is probing a philosophical concept for their own understanding and refining the argument through follow-up questions."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/582144c4-87cf-4784-aa84-4556024df168",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking to learn interpolation concepts and later requests an advanced lesson plan on the same topics, indicating genuine pedagogical help-seeking."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/1ddce7e1-2888-49d5-aa72-4e02ad9c9b59",
+    "role":"other",
+    "keep":false,
+    "reason":"The user is posing a hypothetical dilemma rather than seeking instruction or understanding for their own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/687de24c-c674-8009-9984-0fda56d1c10b",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is trying to understand a course concept about dynamic programming and semirings for their own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/130f0edb-3de7-4eb2-ad16-84c7fe0d2073",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking to understand a mathematical\/philosophical claim for their own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/6737aab7-ed64-8010-9699-e50e3ed8fd2f",
+    "role":"other",
+    "keep":false,
+    "reason":"The user is requesting a generated intelligence-style report, which is content production rather than genuine learning or understanding."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67314c96-e844-8000-998f-612defd14e0b",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking to understand a concept for their own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/b000e32a-9864-4b06-a271-d5debb2b917e",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is studying for their own test and asks for a cheat sheet to help them learn the material."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/5bc689bb-9a87-43de-a7c5-dbadd05b0b72",
+    "role":"learner",
+    "keep":true,
+    "reason":"They are trying to understand and refine their own conceptual model of dopamine, striatum, and cognitive control."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67fee4f9-fcb0-800c-977c-0ff23f4bbfd3",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking to understand the meaning and lessons of a story for their own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67448828-8260-800d-8c7b-153483048012",
+    "role":"teacher_or_author",
+    "keep":false,
+    "reason":"The user is a professor requesting teaching objectives for a course, so this is content creation for others rather than personal learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/b812a3d1-ce00-463d-9359-3500af75abfc",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking what a quoted passage means, indicating genuine effort to understand it."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/f05e81ed-54dc-45be-ba66-6feac651bc8e",
+    "role":"teacher_or_author",
+    "keep":false,
+    "reason":"The user is requesting a textbook-style summary to create teaching material, not asking to learn the content themselves."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/3018bbdb-6d51-4250-b76b-ca72a7c0936a",
+    "role":"teacher_or_author",
+    "keep":false,
+    "reason":"The user is requesting explanation and justification for a lesson plan they are preparing to teach children, which is teacher-facing content creation rather than learner help-seeking."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/13603ba8-6625-4c50-8b65-5030eda0a434",
+    "role":"learner",
+    "keep":true,
+    "reason":"They ask to have a concept explained to them like an undergraduate student, which is genuine learning-oriented help-seeking."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/6823efed-595c-8007-9425-47a9936ed6e7",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking for an explanation of how to address a sluggish transsulfuration pathway, which is genuine learning-oriented help-seeking."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67da09da-e1f4-800c-8d3c-80ec2217db9d",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking for help understanding and identifying parts of a prompt, which is a genuine learning-oriented request."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/6c649546-7ad8-40e5-99fd-83609040eb5f",
+    "role":"teacher_or_author",
+    "keep":false,
+    "reason":"The user is requesting a finished scientific paper for others, not asking to learn the material themselves."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/4dd476e5-9575-4348-af0c-0b46f30eda22",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is exploring and asking follow-up questions to understand neuroscience and hypothetical brain enhancement concepts for themselves."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/36e357d5-b1e5-4f5f-8d66-e6cfc4233d53",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is working through a bar exam essay problem and wants an IRAC analysis, indicating genuine learning-oriented help-seeking."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/674d9d9e-a0fc-8000-a08b-9651e6e9273e",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking to understand a technical concept for their own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/389056e8-fe9e-42b1-a7c2-260c86ac5092",
+    "role":"other",
+    "keep":false,
+    "reason":"The user asked for generated text, not for explanation or learning support."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/7bb66774-0038-4733-b394-9ed59c694fd3",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is seeking personalized coaching to improve their own skills and understanding, which is genuine learner help-seeking."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/678576bb-85f4-8010-bb5c-e753fe238af5",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking to understand a philosophical concept and its relevance to LLMs for their own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67b1e699-6c30-8002-8bcd-02143343ecd7",
+    "role":"teacher_or_author",
+    "keep":false,
+    "reason":"The user is asking for a specification document to hand off to code-generation systems, which is authoring work rather than personal learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67e1df3a-7868-8005-9bf4-a533251ce5ba",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking follow-up explanatory questions to understand a theological concept for their own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/672e38a9-eb90-8008-af72-11817a18aff4",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is studying MBBS pathology topics and asks for detailed explanations to understand them for their own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/6805bfa3-ea20-8004-bdd7-02c0278398c1",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is requesting help proving a mathematical statement for their own understanding."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67f7029e-5e84-8009-9230-7980245e1f41",
+    "role":"other",
+    "keep":false,
+    "reason":"The user is requesting mission decision-support outputs and persona responses, not seeking to learn or understand a concept for themselves."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/1ff6ba17-ccd4-407f-9e7b-98474c85e5f5",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking to understand a concept, not to produce teaching materials or just get a one-off answer."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/673c718b-163c-800d-8104-ba71ec13d8aa",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking to understand a theoretical concept in principal-agent problems for their own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67b7f06f-c690-800f-8c83-2d6c64044e90",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is trying to understand a philosophical distinction about AI awareness and pantheism for their own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67f95400-def0-8000-a628-39ae26f309e6",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking for help understanding a philosophical passage, which is genuine learner-oriented inquiry."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/684b27d4-050c-800d-9ad8-dc7de06ab9af",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking for help proving a math statement for their own understanding."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/672250c3-da88-8003-8075-6f4d3d0073f0",
+    "role":"teacher_or_author",
+    "keep":false,
+    "reason":"The user is requesting help constructing a thesis document, which is content creation for an artifact rather than personal learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/8f04ff6c-cfd8-475d-a019-aac892812024",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is following up to learn more about bipolar cells in the retina, indicating genuine pedagogical help-seeking."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/d46b8a6f-4be8-4949-b79d-a0f7a5a25385",
+    "role":"teacher_or_author",
+    "keep":false,
+    "reason":"The user is creating a tutoring script for the assistant to use with others, rather than seeking to learn something themselves."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/2dccd425-122c-448f-91bb-e3498843fc89",
+    "role":"teacher_or_author",
+    "keep":false,
+    "reason":"The user is asking the assistant to generate flashcards for others, which is teaching-material production rather than personal learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/e75d0a5c-3021-4e10-ad48-2bcbc13d455d",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is trying to understand and refine a user story for their own project, which is genuine learning-oriented assistance."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/91493766-1726-44ac-9ef1-e367989fcf77",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is seeking guidance to learn and improve their own communication skills through a curriculum."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/670ea33a-ad04-8010-a46f-d99de64bbd79",
+    "role":"other",
+    "keep":false,
+    "reason":"The user wants a personal reflection about themselves, not help understanding a topic or building a skill."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/6718b61c-c780-800f-ab75-fc0239d191d6",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking for an explanation of a topic to learn UX design, not requesting a teaching artifact for others."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67a43fb9-af58-8006-8c6c-dc7989ca684d",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking to understand a game theory concept with formal explanations and examples for students, which is genuine learning help-seeking."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/681d64fa-3a10-8003-a6f7-e75c9592040f",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking the assistant to explain and extend an interpretation for their own understanding of the genealogy and Hebrew meanings."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/588cab4c-7170-48e6-9335-078f466d297c",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is seeking advice to understand how to improve UX maturity for their own professional learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/68781960-d160-8006-9823-d941021a2996",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking to understand and analyze a biblical character for their own learning, not to produce teaching materials for others."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67e41622-cf28-8003-baf5-d4c5593f60bb",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is trying to understand how explanation levels work so they can learn and request the right depth of explanation."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/87e3766d-6a4c-4dd5-b058-fa9fc86748f9",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking for explanations of a physics concept to understand it themselves, not producing teaching materials for others."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67242ed6-1f0c-8011-8f51-f76c36e17c87",
+    "role":"other",
+    "keep":false,
+    "reason":"The user asked a riddle for its answer, not to understand a topic or skill."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/0b155b80-82ba-4945-a7ac-9152adf28c25",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking to understand a technical concept for their own learning, not to produce teaching materials or a final answer for someone else."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67f97e3f-132c-8004-8a04-dbf94544581e",
+    "role":"other",
+    "keep":false,
+    "reason":"The user is requesting a descriptive evaluation of themselves rather than seeking to learn or understand a subject."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/94b6d419-eede-495b-ba74-79952b33397d",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking to understand a technical concept for their own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67d0845b-fad0-8012-8a89-36c70ae08f6f",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking for an accessible explanation of a concept to improve their own understanding."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/6849eb81-08fc-800e-aaf5-04e8e429a8d6",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking to understand whether a thesis must be a complete sentence, which is a learning question."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/680800c4-5498-800c-adb6-ba17087d2207",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is trying to understand a theological interpretation and correct the assistant\u2019s explanation."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/678e463d-ef18-800e-888d-922c8857023d",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is trying to understand and critique an argument about polarity and Grok\u2019s response, which is personal learning rather than content production."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/7ddaca05-4173-4e11-bf11-e1b2cf25e465",
+    "role":"teacher_or_author",
+    "keep":false,
+    "reason":"The user is a teacher requesting analysis of student feedback for instructional purposes, not learning the topic themselves."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67c87bec-5c48-800f-85a5-24ad7b82d23e",
+    "role":"other",
+    "keep":false,
+    "reason":"The user wants character names and ages extracted from provided content, which is content retrieval rather than genuine learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/81c4e71f-2d6c-40cc-a42e-b8ab95adc6f3",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking a follow-up philosophical question to better understand the argument, which is genuine learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67081452-b614-8004-a502-fca30233ba05",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking to understand and prove a physics principle for their own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/682d1a78-314c-8010-bdf0-bcff041c2e02",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking to understand a medical mechanism and its related brain conditions for their own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/9c332f49-f0de-4777-888f-9cf26f6f7b14",
+    "role":"other",
+    "keep":false,
+    "reason":"The user is specifying a system use case and examples, not seeking to learn a topic for themselves."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/0ab9bd56-a1cd-4624-8e12-55d8733a1016",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking to understand what a doctorate is, indicating genuine learning intent."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67f1243c-3ef0-800f-8c94-c43f44f73243",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking for help understanding and analyzing a claim, which is genuine learning-oriented engagement."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/c198cea4-14a7-4f18-bd4f-56ec06ce2907",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking for an explanation and step-by-step theory to understand a concept for themselves."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/3dd7bd3e-2d8e-4fb7-879f-929b392d77ab",
+    "role":"teacher_or_author",
+    "keep":false,
+    "reason":"The user is creating a course description for students, so this is content production rather than personal learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/679d2cb1-5728-8001-8525-5bd4bea0829d",
+    "role":"other",
+    "keep":false,
+    "reason":"The user requests a direct answer to a riddle, with no clear intent to learn or engage in instruction."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/c0319c6a-aeaf-4617-95ca-afb073ef7314",
+    "role":"teacher_or_author",
+    "keep":false,
+    "reason":"The user is requesting a course outline and objectives for others, which is content creation rather than personal learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/24de2c91-04b8-4a0d-b99f-d9b0cc4ea238",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user wants guidance on how to analyze media with a theory lens and generate class discussion questions, which indicates learning intent."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/6772bddb-64b4-8002-b2a6-fb52ffbefa1f",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking to understand INTJ cognitive functions for their own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/6680fd74-d402-4869-8dee-54ed43628be7",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking to understand the difference between entrepreneur, engineer, and scientist for their own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/675bd957-4a98-8010-8fd5-0f0de6a10807",
+    "role":"teacher_or_author",
+    "keep":false,
+    "reason":"The user is requesting instructional design advice for pupils, not trying to learn the material themselves."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/d24165c0-86b8-47c9-baeb-b979428f318f",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking for an explanation to understand techno music and its effects, which is genuine learning-oriented help-seeking."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67ffaf0b-b790-8003-95ac-346980891612",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking to understand a brain-related concept for their own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67b2c7a5-7998-8002-92eb-1c645ea4d136",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking to learn the structure of ancient tragedy for their own understanding."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/687ffcea-f084-800d-8d24-d4811dbba951",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is trying to understand a concept through back-and-forth conceptual questioning, which is genuine learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/901b1b21-ca9e-4995-a82b-beb86d4f305b",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking for step-by-step explanation and treatment planning to understand and decide on sarcoma care for a presented case."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67b8938b-3a70-800f-80e7-7a60cfa1d344",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking for an explanation to understand reusable Kafka schemas for their own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/68735a08-8510-8011-ba3f-9dfc8118b781",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is trying to understand black holes for their own learning by asking for a reasoned explanation from first principles."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/7494c839-c536-4ad6-98fe-72b0aa28a5c1",
+    "role":"teacher_or_author",
+    "keep":false,
+    "reason":"The user is requesting classroom teaching materials for others, not trying to learn the topic themselves."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/6c924a13-c31f-45d6-afdd-785d3316fc76",
+    "role":"teacher_or_author",
+    "keep":false,
+    "reason":"The user is requesting teaching materials and course assessments for their students, which is content creation for others rather than personal learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/6553fe10-6b56-4426-9f16-33f03bf67921",
+    "role":"other",
+    "keep":false,
+    "reason":"The user wants a rewrite of text for self-presentation, not help learning the underlying subject."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/ae1e19e9-c773-44a4-9c20-d4ebbdef4b25",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is acting as a student seeking help understanding R programming concepts for their own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67c83bd2-c2f0-8013-a9f2-f1bf2ad32881",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is seeking explanation and clarification about philosophical concepts for their own understanding."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/c667381b-4c85-499c-b0ef-ff29d3d221b8",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is trying to understand Python concepts for their own learning and asks for simpler explanations."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67d349c7-7444-8009-9d24-167d04d358aa",
+    "role":"learner",
+    "keep":true,
+    "reason":"They are asking to learn legal terms for their own job preparation."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/7e02eed3-8487-4a87-8d50-35995a194a7f",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking follow-up conceptual questions to build their own understanding of molecular orbital theory."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/404f3235-7ab8-448d-8707-f1c6fd5c2513",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking to understand the difference between two technical concepts for their own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/013dc581-f31b-40bb-b4e3-394bc77b39f8",
+    "role":"teacher_or_author",
+    "keep":false,
+    "reason":"The user is creating and directing a game scenario rather than seeking to learn something themselves."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/68764ca4-4b38-8012-b2f3-0380f1b5902e",
+    "role":"other",
+    "keep":false,
+    "reason":"The user is requesting an interpretation of their own symbolic meaning rather than trying to learn a subject or skill."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67356957-3e04-8006-8b70-40eeafdd234f",
+    "role":"teacher_or_author",
+    "keep":false,
+    "reason":"The user is creating explanatory teaching content about logic relations rather than seeking help to learn it themselves."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/a45b8052-7b1e-4c3d-91ec-af06eb2e6385",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is working through a concept for their own understanding and refinement, asking follow-up questions in an ongoing learning dialogue."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/679d01c8-5f88-800d-8995-4288e7a5b1d7",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is seeking to understand the broader skill set behind coding and how it relates to LLM-assisted development."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/670fc8f4-865c-8002-a14f-595f4682d371",
+    "role":"teacher_or_author",
+    "keep":false,
+    "reason":"The user is a teacher asking for a discussion setup for students, so this is teaching-artifact creation rather than personal learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/675b3e64-8ed4-800d-b379-9a1cf4dc32e6",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking to solve and understand a riddle for their own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/674f88cf-dc44-8005-9a6b-63c0625f6c7a",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is seeking help understanding and refining their own business vision."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/76c259af-b97b-45ad-a8ec-9d74c609617c",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking to understand a concept and its application to AI, not requesting content for others or a mere lookup."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67c378bc-49d0-8013-9c96-caa573133052",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is a student seeking help with their own novel reflection assignment, which is genuine learning-oriented assistance."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/68467aca-7224-8010-b975-1ce49f335e1e",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking for an explanation of uploaded material to understand it for themselves."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/1a0808bb-e45d-408b-92fe-445b7ea5ebaa",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is trying to understand group theory better for their own conceptual grasp by asking for explanatory examples."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67cc85cb-11b0-8012-a415-ce41d14cace1",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is trying to deepen their own understanding of JEPA and entropy-based intelligence theory through back-and-forth conceptual discussion."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/a68da331-77f0-48dd-b5a9-57fbfc02f662",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is trying to understand a legal argument in the opinions for their own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67d58e98-48f0-8011-9200-6034e4f50574",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking follow-up questions to understand a theological concept for their own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/d8d25cb1-fc75-4d87-a5fc-ec3b084a1327",
+    "role":"other",
+    "keep":false,
+    "reason":"The user is posing a hypothetical reflective question rather than seeking pedagogical help for their own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/85c187e9-4dfd-492e-b733-94fc602c2c21",
+    "role":"teacher_or_author",
+    "keep":false,
+    "reason":"The user asked for a presentation to give others, so this is content creation rather than personal learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/ab3aeb1d-69df-494e-9c34-1411bd46be4e",
+    "role":"other",
+    "keep":false,
+    "reason":"The user is requesting a medical roleplay\/diagnostic interaction rather than seeking to learn a topic for their own understanding."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/25aca593-c3f1-4bcf-9997-8c7b1d4cab9d",
+    "role":"learner",
+    "keep":true,
+    "reason":"They are asking for tutoring to learn a topic themselves, with follow-up questions to build understanding."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67205cd0-66dc-800f-bc06-5391e41fd820",
+    "role":"teacher_or_author",
+    "keep":false,
+    "reason":"The user is requesting a lesson plan artifact for ESL Pre-K, which is content creation for teaching others, not personal learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67e6ab03-5da4-8003-9d8e-58de8db21d72",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is seeking an explanation to understand a concept for their own learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/3291d48f-7b19-42b0-b7a8-df30493954b6",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is practicing a communication skill for their own learning and wants feedback afterward."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/a6894f9e-cfe5-4fca-94ef-9a15ad6f8f2e",
+    "role":"teacher_or_author",
+    "keep":false,
+    "reason":"The user is defining an AI tutor script rather than asking to learn something personally."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/670dc9fc-d758-800b-8688-d84663cb37ee",
+    "role":"other",
+    "keep":false,
+    "reason":"The user wants a rewritten interpretation, not help learning or understanding a topic."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/67e78967-0e78-8012-a665-c97421e0bef6",
+    "role":"teacher_or_author",
+    "keep":false,
+    "reason":"The user is asking for textbook chapters and pedagogical content to give to others, which is authoring rather than learner help-seeking."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/681ccc38-f688-8003-b467-ce00d6fa5e9c",
+    "role":"teacher_or_author",
+    "keep":false,
+    "reason":"The user is requesting a persuasive encyclical-style text for others, which is content production rather than personal learning."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/680055af-14d0-8003-824e-7adcc7cf9341",
+    "role":"learner",
+    "keep":true,
+    "reason":"They are asking to understand the meaning of their own astrological placement and its interpretation."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/682e0e5d-0e64-8003-8966-56c2600ec2f3",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking to understand how generative AI supports personalized learning, which is genuine learning-oriented help-seeking."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/687d56f8-db74-8003-b6a0-2bd86e950e12",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking for an explanation\/analysis of a model concept for their own understanding."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/00050fa8-59d0-4f4f-b7e4-f423b11e1fe5",
+    "role":"other",
+    "keep":false,
+    "reason":"The user requested a summary of provided text, which is content generation rather than genuine learning-oriented help-seeking."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/6802ce51-f080-8003-93d4-ac8ae2396bd4",
+    "role":"other",
+    "keep":false,
+    "reason":"The request is for speculative content generation about a public figure\u2019s role in imagined systems, not for the user\u2019s own learning or understanding."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/6798d0b8-3488-800d-a42e-36b51a38ded4",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is actively trying to understand and extend the ideas through explanation and math, which is genuine learning-oriented help-seeking."
+  },
+  {
+    "url":"https:\/\/chatgpt.com\/share\/678e6d0d-9108-8008-9b04-260e14b60a0c",
+    "role":"learner",
+    "keep":true,
+    "reason":"The user is asking explanatory follow-up questions to understand brain and consciousness concepts for their own learning."
+  }
+]

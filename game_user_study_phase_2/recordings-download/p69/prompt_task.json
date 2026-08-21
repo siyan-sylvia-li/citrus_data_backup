@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Develop a rigorous , actionable three year growth and cookbook strategy for Julie a creator with 1.2M followers who is known for quick, healthy receipes. She works four days per week and has limited time and budget. Build a quarter by quarter roadmap covering audience growth, content strategy, community building, brand positioning, monetizing, partnership, cookbook development. launch and post launch growth. For every major stage define specific onbjective , proiorities measureable KPI`s realistic weekly action, estimated budget range and clear sucess criteria, Compare tradational publishing and self publishing in terms of upfront costs, timeline, creative control editorial, distribution , marketinbg responsibilities financial risk, scalibility and potential earning, recommanded the strongest publishing route for julie  and explain the trade offs. include a decision framework key assumptions , major risk , contingency plans and critia for changing strategy if growth, budget or workload differ from expectations. Keep the plan practical, resource efficient and acheiveable alongside her four day workweek.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 4
+    },
+    {
+      "model": "gpt",
+      "score": 4
+    },
+    {
+      "model": "nemotron",
+      "score": null
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 4.0,
+  "median_score": 4.0,
+  "threshold": 3.0,
+  "passed": false,
+  "rule": "mean",
+  "decisive_score": 4.0,
+  "submitted_at": "2026-08-18T19:10:47.125113+00:00"
+}

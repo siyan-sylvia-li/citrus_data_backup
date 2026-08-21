@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Create an overview for me to write a cooking book over the next 3 years. Split the plan into 2 parts, one where I self publish and one where I traditionally publish. I work 4 days a week on a limited budget. I have 1.2 million followers who love my quick and healthy recipes for reference for the book.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.667,
+  "submitted_at": "2026-08-20T02:47:06.253134+00:00"
+}

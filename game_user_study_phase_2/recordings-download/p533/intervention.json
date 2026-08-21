@@ -1,0 +1,28 @@
+{
+  "variant": "v2_think_pair",
+  "observation": "Group A seems to be asking for more guidance whereas Group B seems to ask if their own strategy is correct / good.",
+  "choice": "A",
+  "choice_correct": false,
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": null
+      }
+    ],
+    "n_judges": 2,
+    "mean_score": 3.0,
+    "median_score": 3.0,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-18T18:59:37.608415+00:00"
+}

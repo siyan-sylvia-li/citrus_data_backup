@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Help me write up a concrete three-year plan to grow online and publish a cookbook. Compare traditional vs. self-publishing means. I currently have a background of posting cooking videos of quick, healthy followers to 1.2M followers. I do work 4 days weekly, so I have limited time and a budget.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-06T22:55:33.610675+00:00"
+}

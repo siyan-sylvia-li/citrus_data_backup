@@ -1,0 +1,48 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "a7 and c8 both look strong. which one wins for black?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "was b7 actually the best first move here?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "could black ever have won this endgame?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "which move of mine cost me the most discs?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "got it. b7 or another move \u2014 did i have a shot?"
+  }
+]

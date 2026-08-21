@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Can you help me find the best first move here? Please focus on whether there is a forced win or an urgent defensive move."
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After Red 4 and Yellow 5, what is my best next column? I want the concrete move, not just the general idea."
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "The board now has Red stacked c4 rows 3-4, and a diagonal c6r1-c5r2-c4r3. What column should I play next to preserve the win?"
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now after Red 5 and Yellow 1, what exact column is best? Is there a winning threat I should complete immediately?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  }
+]

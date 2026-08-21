@@ -1,0 +1,25 @@
+{
+  "created_prompt": "I need a 3 year plan to grow my online following and publish a cookbook.  I currently work 4 days a week and have a limited budget and time.  My current social media followers is 1.2M and I make cooking videos using healthy recipes.  Please develop a reasonable plan that will allow me to achieve these goals.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.667,
+  "submitted_at": "2026-08-21T16:55:16.493408+00:00"
+}

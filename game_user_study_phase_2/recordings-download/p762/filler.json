@@ -1,0 +1,25 @@
+{
+  "reflection": "I think over a three year plan, she can go for self-publishing with her limited budget and time. Three years is plently of time.",
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 3
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.0,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-19T12:11:05.822717+00:00"
+}

@@ -1,0 +1,43 @@
+{
+  "puzzle": "oc20260727",
+  "decisions": 5,
+  "optimal_moves": 4,
+  "opener_optimal": true,
+  "discs_lost": 16,
+  "final_margin": 2,
+  "won": true,
+  "optimal_margin": 18,
+  "completed": true,
+  "moves": [
+    "b7",
+    "c8",
+    "a7",
+    "a3",
+    "g2!"
+  ],
+  "auto_played": [
+    "a1"
+  ],
+  "chat_turns": null,
+  "game": "othello",
+  "round": 0,
+  "ai_available": true,
+  "model_settings": {
+    "max_tokens": 100000
+  },
+  "questions_asked": 5,
+  "question_budget": 5,
+  "profile": {
+    "persona": "A graduate student from a different university conducting a similar study on the topic",
+    "age": 27,
+    "education": "some_postgrad",
+    "occupation": "education",
+    "ai_frequency": "daily"
+  },
+  "student_model": "anthropic:claude-sonnet-5",
+  "student_mode": "human_style_think",
+  "questions_required": 5,
+  "assistant_off": false,
+  "assistant_preset": "default",
+  "streamed": false
+}

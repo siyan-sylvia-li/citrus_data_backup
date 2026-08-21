@@ -1,0 +1,41 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "b6 looks tempting but I'm afraid White answers with a3. What's the best move here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White took a8 and I'm down again. Should I grab b6 now or go for c8?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "My legal moves now are g2, b8, c8. g2 flips the most\u2014should I play it?"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "At the very end, should I have picked c8 instead of b8?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Do you think I lost this puzzle at the very first move, or was it already unwinnable?"
+  }
+]

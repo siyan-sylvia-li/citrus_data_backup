@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Draft a three-year business/growth plan that will support Julie in expanding her online presence and help her decide wheter to publish a cookbook via traditional or self-publishing means. Consider that she works four days a week and has limited time and budget. The strategy should be step-by-step, broken down by year and quarter, and cover topics like content, audience growth, monetization options, cookbook development goals, and a manageable workload within her constraints.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 4
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.333,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-03T17:39:35.344091+00:00"
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "What's the best move for Black here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "What should I play now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Did I lose this at b7, or was the position already unwinnable?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "What move should I have played at the very start instead of b7?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Was c8 the right follow-up or was there a better second move?"
+  }
+]

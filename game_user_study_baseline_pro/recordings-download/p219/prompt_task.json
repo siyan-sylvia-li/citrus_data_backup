@@ -1,0 +1,19 @@
+{
+  "created_prompt": "I am a content creator that develops healthy recipes and cooking videos for a large audience. I would like to grow my online presence and publish a cookbook (either traditional or self-publishing) down the line. Help me devise a manageable and concrete three-year plan to assist me with working towards this goal four days a week.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-21T15:03:31.167749+00:00"
+}

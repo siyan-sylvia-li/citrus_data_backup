@@ -1,0 +1,30 @@
+[
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 2
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "In this position, is there a fork or double threat available for Red, or should I focus on the most active central file? I see potential on diagonals through the middle but the rows are oddly populated. Which structural feature matters most here?"
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 1
+  }
+]

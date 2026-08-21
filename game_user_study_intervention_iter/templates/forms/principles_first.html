@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Study — Before you play</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  <style>
+    .pf__hint { color:#486581; font-size:.9rem; margin:0 0 16px; line-height:1.5; }
+    .pf__msg { background:#fff; border:1px solid #cbd2d9; border-left:4px solid #a61b1b;
+               border-radius:6px; padding:12px 14px; margin:0 0 6px; line-height:1.45; }
+    .pf__msglab { color:#486581; font-size:.85rem; margin:0 0 18px; }
+    .pf__q { background:#e8f1ec; border:1px solid #CFE7D2; border-radius:8px;
+             padding:13px 15px; margin:0 0 14px; line-height:1.5; font-weight:600; }
+    .pf__box { width:100%; box-sizing:border-box; min-height:110px; padding:11px 12px;
+               border:1px solid #cbd2d9; border-radius:8px; font:inherit; line-height:1.45;
+               resize:vertical; }
+    .pf__box:focus { outline:3px solid rgba(45,90,67,.28); outline-offset:2px;
+                     border-color:#6DB38A; }
+    .pf__count { color:#486581; font-size:.85rem; margin:7px 0 14px; }
+  </style>
+</head>
+<body>
+  <header class="topbar"><h1 class="topbar__title">Game Study</h1></header>
+  <main class="start">
+    <div class="start__card" style="max-width:600px">
+      <h2 class="start__title">Before you play</h2>
+
+      <p class="pf__hint">{{ framing }}</p>
+
+      <div class="pf__msg">{{ start_message }}</div>
+      <p class="pf__msglab">A real message someone sent an AI assistant while playing a game.</p>
+
+      <p class="pf__q">{{ question }}</p>
+
+      <form method="post" action="{{ url_for('intervention') }}">
+        <textarea name="principles" id="pfBox" class="pf__box"
+                  placeholder="Write your answer here…">{{ prefill }}</textarea>
+        <p class="pf__count" id="pfCount"></p>
+        {% if error %}<p class="pt__error">{{ error }}</p>{% endif %}
+        <button type="submit" class="start__btn">Continue</button>
+      </form>
+    </div>
+  </main>
+  <script>
+    (function () {
+      var box = document.getElementById("pfBox"), out = document.getElementById("pfCount"),
+          need = {{ min_chars }};
+      function paint() {
+        var n = box.value.trim().length;
+        out.textContent = n >= need ? "" : (need - n) + " more characters";
+      }
+      box.addEventListener("input", paint); paint();
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Given this board (10 empty squares left, so should be exactly solvable), I'm Black. My legal moves are g2, b6, a7, b7, b8, c8. I calculated c8 flips 6 discs (d8, c7, d7, e6, f5, g4) which seems like the biggest immediate gain, but I'm worried about corner control (a1, a8, h1 still open) and what happens after White responds. Which move actually gives me the best final disc count with perfect play from both sides?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White just took a8 and flipped some of my discs back. Now my options are g2, b6, a7, c8. g2 flips 5 discs (f2,g3,g4,g5,g6) which looks huge, but it's diagonally adjacent to the open h1 corner. With only 8 empty squares left, what's the actual best move for the final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  }
+]

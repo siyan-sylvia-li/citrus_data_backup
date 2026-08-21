@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I currently post cooking videos to 1.2M followers. Over the next three years I want to grow my presence and eventually publich a cookbook. I can dedicate 1-2 days a week to this and am limited on the amount of money I can expend on the project. Please can you devise a concrete plane on how I can achieve this over the next three years. can you also add in the pros and cons of traditional vs self publishing a cookbook",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-10T14:51:26.182089+00:00"
+}

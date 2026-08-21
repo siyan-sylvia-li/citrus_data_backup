@@ -1,0 +1,34 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "What's the winning or best move for Red here? Please analyze the immediate tactics and the opponent's best reply."
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After my 4, Yellow played 5. What is Red's best next move now, and what threat or forced line should I be looking for?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Current position after Red 4,4,3 and Yellow 5,1,3: what exact move should Red play now? Please account for any immediate winning move."
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  }
+]

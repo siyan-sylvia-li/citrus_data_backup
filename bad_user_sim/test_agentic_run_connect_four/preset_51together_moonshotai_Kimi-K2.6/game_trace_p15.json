@@ -1,0 +1,34 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at this Connect Four endgame and trying to spot Red's best move. Is there a clear forcing win or should I focus on blocking a Yellow diagonal? I see potential at col 4 to extend a diagonal from c6r1 and c5r2, but I'm not sure if that's actually winning or if I'm missing something sharper elsewhere. Any nudge on what to prioritize?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 2
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I\u2019ve got my / diagonal (c6r1-c5r2-c4r3) aiming at c3r4, but c3r4 needs c3r3 filled first. Is there a good intermediate forcing move I should use so Yellow can\u2019t just block c3r4 when it opens \u2014 or should I focus on a different winning idea entirely?"
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 1
+  }
+]

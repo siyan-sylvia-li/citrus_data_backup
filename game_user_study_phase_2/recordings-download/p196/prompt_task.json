@@ -1,0 +1,25 @@
+{
+  "created_prompt": "help julie grow online and publish a cookbook best way possible on a limited budget and limited time",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 2
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    },
+    {
+      "model": "llama",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 1.333,
+  "median_score": 1,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 1.333,
+  "submitted_at": "2026-08-19T11:46:54.431028+00:00"
+}

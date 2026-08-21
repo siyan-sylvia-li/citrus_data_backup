@@ -1,0 +1,47 @@
+{
+  "puzzle": "oc20260727",
+  "decisions": 4,
+  "optimal_moves": 2,
+  "opener_optimal": true,
+  "discs_lost": 28,
+  "final_margin": -10,
+  "won": false,
+  "optimal_margin": 18,
+  "completed": true,
+  "moves": [
+    "b7",
+    "c8",
+    "g2!",
+    "b6!"
+  ],
+  "auto_played": [
+    "a1"
+  ],
+  "chat_turns": null,
+  "game": "othello",
+  "round": 0,
+  "ai_available": true,
+  "model_settings": {
+    "max_tokens": 50000
+  },
+  "questions_asked": 2,
+  "question_budget": 10,
+  "profile": {
+    "persona": "a high-school student interested in k-pop",
+    "age": 17,
+    "education": "less_than_hs",
+    "occupation": "student",
+    "ai_frequency": "daily",
+    "known_concepts": [
+      "Digital",
+      "Currency",
+      "Payment",
+      "Transaction",
+      "Peer",
+      "Peer-to-peer",
+      "Probability"
+    ]
+  },
+  "student_model": "together:moonshotai/Kimi-K2.6",
+  "streamed": false
+}

@@ -1,0 +1,28 @@
+{
+  "variant": "v9_two_rows",
+  "observation": "Group A is basically just starting, whereas Group B are more experienced players leaning on the crutch of the AI. they would be better off without it in my opinion",
+  "choice": "B",
+  "choice_correct": true,
+  "effort": {
+    "judges": [
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 3
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.0,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-19T11:18:33.049476+00:00"
+}

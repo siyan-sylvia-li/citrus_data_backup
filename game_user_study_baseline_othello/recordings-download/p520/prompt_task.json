@@ -1,0 +1,23 @@
+{
+  "created_prompt": "As I have limited time, would it be possible to upload all my cooking videos to you and then could you please try to edit them as best as possible to provide short-form content on my social media channels?\r\n\r\nI can even provide a voice recording for you to include into the edits. This would allow me to focus more on the business side rather than editing videos.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 1
+    },
+    {
+      "model": "gpt",
+      "score": 1
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 1.0,
+  "median_score": 1,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-20T14:15:30.038957+00:00"
+}

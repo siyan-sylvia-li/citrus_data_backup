@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at g2 and b6, but the bottom left cluster (a7, b7, b8, c8) feels risky. Any of these clearly better?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm seeing g2 as a big flip, but a7 and b6 are there too. Is g2 the move or is it a trap?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "g2 is still a trap, right? Between b6 and a7, which one handles the rest of the board better?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Thinking about g2 or b6, but the a7/b7/b8/c8 cluster looks messy. Any of these better?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at g2 and b6, but the bottom left cluster (a7, b7, b8, c8) feels risky. Any of these clearly better?"
+  }
+]

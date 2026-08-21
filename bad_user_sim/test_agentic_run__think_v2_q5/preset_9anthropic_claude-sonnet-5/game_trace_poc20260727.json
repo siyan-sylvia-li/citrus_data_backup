@@ -1,0 +1,45 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm way behind on disc count here (20 to 34) but there's only 10 empty squares left. Of my options - g2, b6, a7, b7, b8, c8 - which one actually gives me the best shot at catching up by the end? I can't work out all the flips in my head."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Good, gained some ground. Now down to 8 empty squares and my choices are g2, b6, a7, c8. Which keeps me on the best track?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Ouch, White just swept that whole bottom row, now it's 22 to 36. Only g2, b6, a7 left to pick from - is there still any way this ends in my favor, or should I just play for the smallest loss at this point?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I worked through it by hand and it looks like if I play a3, White has literally zero legal moves left (a1, g2, h1 are all bad for them) and has to pass, letting me grab g2 next for a huge flip. Am I reading that right, or am I fooling myself - is a3 really the move here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Looking back, I dropped to 20 vs 40 before that a3 trick turned it around. Was there something I could've done earlier, back when I played c8 or a7, that would've avoided falling behind so badly - or was that dip just unavoidable given the position?"
+  }
+]

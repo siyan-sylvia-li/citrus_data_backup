@@ -1,0 +1,45 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm way behind on pieces (20 vs 34) and there's only 10 empty spaces left on the board. I have to pick from g2, b6, a7, b7, b8, or c8. Which one gives me the best shot at catching up by the end? I don't really know how to think this through."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Good news, I'm at 24 vs 32 now. Down to 8 empty spots. My choices are g2, b6, a7, c8. Which one now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "That last one backfired bad, now I'm 22 to 36. Only g2, b6, a7 left as choices, then just a few more moves total. Which one now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Down to the wire, 20 vs 40, only a1, g2, a3 left as options. What should I do?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I ended up picking g2 near the end because it looked like it flipped a long line of pieces down that column, and I figured it'd work out even after White took the last corner spot. Was that actually the right call, or did I just get lucky it worked out to 33-31?"
+  }
+]

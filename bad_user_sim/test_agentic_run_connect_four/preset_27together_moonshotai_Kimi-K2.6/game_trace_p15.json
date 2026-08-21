@@ -1,0 +1,30 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I can spot a couple of two-piece diagonals and a vertical pair, but I\u2019m not seeing an immediate forced win. Should I focus on column 4 to extend that lower diagonal, or is there a column that creates a double threat I'm overlooking?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm poring over the follow-up and I'm going back and forth between pushing c3 to finish that big diagonal and playing c2 for the vertical pressure. Is one of those still the forced winner after Yellow answered c5 and c1, or is there a better third option I'm overlooking?"
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  }
+]

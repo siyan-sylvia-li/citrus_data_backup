@@ -1,0 +1,25 @@
+{
+  "reflection": "I would definitely tell her but devote one full day a week to her plan in addition to any other time over the week. I would also tell her not to worry for now about the publishing, just to work on the recipes and book itself and see if any publishing houses approached her as her fame grows",
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 3
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.0,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-18T20:03:50.365001+00:00"
+}

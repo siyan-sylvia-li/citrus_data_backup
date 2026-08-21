@@ -1,0 +1,30 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Which of my legal moves (g2, b6, a7, b7, b8, c8) gives Black the highest final disc count assuming White plays perfectly in this Othello endgame? Is c8 the best, or am I missing something?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After White replied a8, my legal moves are g2, b6, a7, c8. g2 seems huge since it flips half the g-file and f3. Is g2 the best continuation now, or is there a better endgame move?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "puzzle": "b220260706",
+  "decisions": 2,
+  "optimal_moves": 1,
+  "opener_optimal": false,
+  "discs_lost": 14,
+  "final_margin": -2,
+  "won": false,
+  "optimal_margin": 12,
+  "completed": true,
+  "moves": [
+    "g1!",
+    "g7"
+  ],
+  "auto_played": [
+    "h2"
+  ],
+  "chat_turns": null,
+  "game": "othello",
+  "round": 1,
+  "ai_available": false,
+  "model_settings": {
+    "max_tokens": 50000
+  },
+  "questions_asked": 0,
+  "question_budget": 0,
+  "profile": {
+    "persona": "A mental health professional who offers guidance and tools for healing and growth",
+    "age": 41,
+    "education": "master",
+    "occupation": "healthcare",
+    "ai_frequency": "monthly",
+    "known_concepts": [
+      "Digital",
+      "Currency",
+      "Payment",
+      "Ownership",
+      "Transaction",
+      "Fee",
+      "Verification",
+      "Probability"
+    ]
+  },
+  "student_model": "together:meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "streamed": false
+}

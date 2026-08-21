@@ -1,0 +1,22 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I'm not sure of the best first move here. Which column should I play, and why in simple terms?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After Yellow played 5, what should I do now? I want to make sure I don't miss a threat."
+  },
+  {
+    "tool": "play_move",
+    "move": 2
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  }
+]

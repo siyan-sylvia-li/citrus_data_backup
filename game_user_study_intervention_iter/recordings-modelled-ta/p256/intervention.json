@@ -1,0 +1,9 @@
+{
+  "dwell_seconds_server": 53.8,
+  "dwell_seconds_client": 53.6,
+  "n_examples_shown": 3,
+  "min_dwell_seconds": 30,
+  "form": "modelled_think_aloud",
+  "effort": null,
+  "submitted_at": "2026-08-20T02:21:50.289961+00:00"
+}

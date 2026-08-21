@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Please devise a concrete three-year plan for Julie to increase her online presence and publish a cookbook. Julie already has an olnine following of 1.2 million fans who enjoy her popular cooking videos, featuring quick and healthy recipes. In the plan, please make a recommendation about whether should self-publish or aim for traditional publishing, and keep in mind that as she currently works four days a week she has limited time and budget.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-24T13:06:33.938137+00:00"
+}

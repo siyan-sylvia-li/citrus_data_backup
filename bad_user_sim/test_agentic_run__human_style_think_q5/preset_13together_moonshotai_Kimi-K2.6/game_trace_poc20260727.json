@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "not sure between b6 and b7. which one's the better play?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "what move cost me the game? was it c8?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "was b7 actually the best first move, or is there a better one?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "what's a good rule of thumb for these endgames so i dont get crushed like that again?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "if i'd started with b8 instead would that have stopped white from taking a8?"
+  }
+]

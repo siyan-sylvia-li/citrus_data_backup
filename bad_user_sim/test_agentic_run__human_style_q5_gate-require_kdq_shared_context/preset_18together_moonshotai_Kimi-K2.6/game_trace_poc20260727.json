@@ -1,0 +1,34 @@
+[
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Why did a8 hurt me so badly after a7?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "What does a \"poisoned square\" mean in Othello endgames?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Why did White answer my c8 with b7 instead of grabbing a corner?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "What makes the c8-h3 diagonal so powerful in this position?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Why is giving White the a3 square after b6 so bad?"
+  }
+]

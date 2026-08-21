@@ -1,0 +1,25 @@
+{
+  "reflection": "I would appricate a step by step plan ideally quartely for reach year and how she would be able ot achieve this goal",
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 2
+      },
+      {
+        "model": "gpt",
+        "score": 2
+      },
+      {
+        "model": "nemotron",
+        "score": 1
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 1.667,
+    "median_score": 2,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-18T11:37:23.710630+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I create quick, healthy recipes and share my cooking videos with 1.2 million followers. Please devise a concrete, realistic 3-year plan that will enable me to grow my online presence and following, with the aim of publishing a cookery book that might me traditional or self-published.",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T12:58:57.084113+00:00"
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Given this exact endgame position (10 empties left, my legal moves are g2, b6, a7, b7, b8, c8), which move actually maximizes my final disc count assuming perfect play from White? Can you walk through the key line briefly?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White just took a8 and flipped b7 back. Now my options are g2, b6, a7, c8, with 8 empties left. Which move maximizes my final count now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White just swept the whole 8th row, now it's 22-36 with only 6 empties (a1,h1,g2,a3,b6,a7) and my moves are g2, b6, a7. Is this position recoverable at all, and what's the best line?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "That went worse than expected \u2014 now 20-40, 4 empties left (a1,h1,g2,a3), my moves are a1, g2, a3. What's the best I can do from here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Looking back, after I played a7 the count dropped to 20-40 when White played b6 \u2014 that felt like a huge swing. Can you explain why that happened and whether a7 was actually still correct there, or if I got lucky that the recovery line worked?"
+  }
+]

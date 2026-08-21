@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "does flipping g7 with b7 permanently kill white's a1 corner threat?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "wait, they played a8 and flipped my disc at b7 back to white. i thought the piece i just placed was safe?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "was there any way white could have stopped the h1 avalanche once i took a1?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "i thought a piece i just placed couldn't be flipped the very next turn. what rule lets that happen?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "they forced my last move into g2 automatically because only one square was legal. does that ever hurt my final count, or is it always neutral?"
+  }
+]

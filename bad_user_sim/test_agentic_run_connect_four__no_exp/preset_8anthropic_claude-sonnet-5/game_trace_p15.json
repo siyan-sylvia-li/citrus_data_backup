@@ -1,0 +1,30 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at a Connect 4 position. I see two candidate moves: playing column 2 (makes 3 vertical reds, forcing Yellow to block at c2r4), or playing column 4 (creates a diagonal R-R-R at c4r3-c5r2-c6r1, with the winning 4th spot at c3r4, which isn't accessible yet since column 3 only has 2 discs). Which of these is actually the stronger move, or is there something better I'm missing entirely?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Current board (Red=me):\nRow4: -,-,-,R,-,-,-\nRow3: -,-,-,R,Y,R,-\nRow2: -,R,Y,Y,R,Y,-\nRow1: Y,R,R,Y,Y,R,Y\n(cols 1-7 left to right)\n\nI still have a pending diagonal trap: c3r4-c4r3-c5r2-c6r1 (need c3 to reach height 3 first, then I take row4). But I don't want to play column 3 myself since that lets Yellow just block row4 immediately. What's the best move for me right now to make progress without giving anything away?"
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  }
+]

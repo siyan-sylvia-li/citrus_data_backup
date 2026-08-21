@@ -1,0 +1,33 @@
+{
+  "created_prompt": "Create a three-year plan to grow online presence and publish a cookbook. The subject is a girl that has 1.2m followers who love her videos of quick and healthy recipes. She works four days a week and has a limited time and budget. Also give advice on whether she should publish a traditional cookbook or self-publishing",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "original": {
+    "judges": {
+      "llama": 3,
+      "gpt": 3,
+      "qwen": null
+    },
+    "mean_score": 3.0,
+    "median_score": 3.0,
+    "passed": true
+  },
+  "time_taken": 2.379
+}

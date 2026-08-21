@@ -1,0 +1,49 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I've got these legal moves: g2, b6, a7, b7, b8, c8. There's only 10 empty squares left. Which move gives me the best final disc count if White plays smart? I'm not great at seeing this many moves ahead."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now my options are g2, b6, a7, c8. Which one keeps me in the best shape for the finish?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Down to g2, b6, a7 with only 6 empty squares left and White way ahead in count right now. Which move gives me the best shot at the finish?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Only a1, g2, a3 left as choices, 4 empty squares total on the board. Which one should I take to finish as strong as possible?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm still puzzling over why the order mattered so much at the end there - playing a1 before h1 gave me way more flips than if I'd done it the other order, right? Can you explain why the sequence made such a big difference?"
+  }
+]

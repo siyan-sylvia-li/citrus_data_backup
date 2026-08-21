@@ -1,0 +1,32 @@
+{
+  "created_prompt": "I create videos of two minute healthy recipes. I have 1.2 million followers on youtube and want to grow this to increase my income, but have limited time and money.    \r\nMy end goal is to grow my online presence and brand, and publish a cookbook.  \r\nGive me a strategy to grow the business with the constraint of limited time and money to a point where I can launch the cookbok and beyond, over a three year timescale. Also help me decide if it would be better as part of this strategy to try to get a traditional publisher or self-publish the cookbook, and tailor the strategy accordingly. Make it a concrete and achievable plan.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "original": {
+    "judges": {
+      "llama": 3,
+      "gpt": 3
+    },
+    "mean_score": 3.0,
+    "median_score": 3.0,
+    "passed": true
+  },
+  "time_taken": 17.813
+}

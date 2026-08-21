@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Devise a precise 3 year plan to help the growth in popularity of a content creator who does quick healthy recipes. The plan should include substantial growth on social media above 1.2 million followers as well as self-publishing a cookbook. This plan should also be budget friendly and fit a schedule of four days a week.",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.667,
+  "submitted_at": "2026-08-18T17:31:45.907561+00:00"
+}

@@ -1,0 +1,12 @@
+pid,round,puzzle,ai,skill_rating,age,education,genai_usage,gate_correct,gate_confidence,ai_turns,end_reason,decisions,score,decisions_first_n,score_first_n,kept_win_score,kept_win_first_n,opener_optimal,disc_loss_total,disc_loss_per_decision,seconds,completed,black_discs,white_discs,margin,moves,attempts,solved
+p568,R1,oc20260727,True,1,50,postgrad,weekly,False,1,6,manual,6,6,3,3,6,3,True,0,0.0,188,True,41,23,18,b7 c8 a7 a3 a1 h1,1,True
+p568,R2,oc20260713,False,1,50,postgrad,weekly,False,1,0,manual,4,1,3,1,1,1,True,36,9.0,22,True,18,46,-28,g7 a7! g8! b6!,1,False
+p169,R1,oc20260727,True,dont_know,51,bachelors,few_times_month,False,4,5,manual,3,0,3,0,0,0,False,48,16.0,53,True,17,47,-30,a7! b7! c8!,1,False
+p169,R2,oc20260713,False,dont_know,51,bachelors,few_times_month,False,4,0,manual,3,1,3,1,0,0,False,52,17.3,15,True,10,54,-44,h7! g8 b6!,1,False
+p373,R1,oc20260727,True,1,38,bachelors,few_times_week,True,1,7,manual,5,3,3,2,4,3,True,26,5.2,428,True,28,36,-8,b7 a7! b6 c8 g2!,1,False
+p373,R2,oc20260713,False,1,38,bachelors,few_times_week,True,1,0,manual,4,1,3,1,0,0,False,32,8.0,18,True,20,44,-24,f8! b7! g7 g8!,1,False
+p339,R1,oc20260727,True,1,51,bachelors,few_times_week,False,1,5,manual,5,4,3,3,3,3,True,22,4.4,85,True,30,34,-4,b7 c8 a7 a1! h1,1,False
+p339,R2,oc20260713,False,1,51,bachelors,few_times_week,False,1,0,manual,5,1,3,0,0,0,False,36,7.2,13,True,18,46,-28,b8! h7! a7! g8! b7,1,False
+p216,R1,oc20260727,True,1,25,associate,several_times_day,False,1,8,manual,6,6,3,3,6,3,True,0,0.0,286,True,41,23,18,b7 c8 a7 a3 a1 h1,1,True
+p216,R2,oc20260713,False,1,25,associate,several_times_day,False,1,0,manual,5,2,3,1,0,0,False,38,7.6,41,True,17,47,-30,b7! a7 h7! b8 g7!,1,False
+p687,R1,oc20260727,True,1,,,,True,3,1,,4,1,3,1,1,1,True,36,9.0,61,True,23,41,-18,b7 g2! a7! c8!,1,False

@@ -1,0 +1,34 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "g2 looks like it shuts down a lot of White's replies by flipping that diagonal. Is it better than b6 or b7?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Wait \u2014 if I play b7, can\u2019t White just hit a8 and flip b7 and c6 back? That feels like it undoes the whole point."
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Where did I actually blow this? Was g2 the losing move, or was it already bad before that?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After g2 was played and White hit a1, was there any move I could have played to still turn it around, or was b8 just delaying the inevitable?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Was b7 actually the best first shot in the opening position, or was there a better move like c8 or a7 that I should have played instead?"
+  }
+]

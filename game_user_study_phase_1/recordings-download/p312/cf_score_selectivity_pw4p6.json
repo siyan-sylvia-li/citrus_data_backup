@@ -1,0 +1,53 @@
+{
+  "puzzle": "w4p6",
+  "method": "scheme1_selectivity: per-move weight = 1 - |correct|/|legal|; raw rewards hard moves; norm in [0,1]",
+  "gradable": true,
+  "score_selectivity_raw": 0.0,
+  "score_selectivity_norm": 0.0,
+  "winning_line_selectivity_raw": 0.0,
+  "winning_line_selectivity_norm": 0.0,
+  "attempt1_selectivity_raw": 0.0,
+  "attempt1_selectivity_norm": 0.0,
+  "attempt_selectivity_raw": [
+    0.0
+  ],
+  "attempts_used": 1,
+  "flat_score": 0,
+  "flat_winning_line_score": 0,
+  "per_move_best_attempt": [
+    {
+      "move_number": 1,
+      "col": 4,
+      "legal": 7,
+      "n_best": 1,
+      "n_win": 1,
+      "sel_opt": 0.8571,
+      "sel_win": 0.8571,
+      "optimal": false,
+      "on_winning_line": false
+    },
+    {
+      "move_number": 2,
+      "col": 2,
+      "legal": 7,
+      "n_best": 1,
+      "n_win": 0,
+      "sel_opt": 0.8571,
+      "sel_win": null,
+      "optimal": false,
+      "on_winning_line": false
+    },
+    {
+      "move_number": 3,
+      "col": 5,
+      "legal": 7,
+      "n_best": 1,
+      "n_win": 0,
+      "sel_opt": 0.8571,
+      "sel_win": null,
+      "optimal": false,
+      "on_winning_line": false
+    }
+  ],
+  "computed_at": "2026-08-03T16:24:49.665608+00:00"
+}

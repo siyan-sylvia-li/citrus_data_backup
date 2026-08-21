@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Give me a 3 year plan to grow my online presence and publish a cookbook. I already have a 1.2m following for my cooking videos and they love my quick healthy recipes. I work 4 days a week so have limited time and budget. I don't know whether to self publish or Go down through traditional route.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-22T19:54:43.695449+00:00"
+}

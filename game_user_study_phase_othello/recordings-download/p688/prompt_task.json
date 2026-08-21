@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Devise me a three year plan, with actionable steps, that will help me to grow my online business in which I post videos to my large amount of followers. I want to grow my business and reach online by posting quick and healthy recipes, in order to publish a cookbook. I am uncertain on whether to publish traditionally or self-publish so I need pros and cons of each, and I want to ensure the plan is cost-effective and does not require more than four days work per week.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T13:03:32.782690+00:00"
+}

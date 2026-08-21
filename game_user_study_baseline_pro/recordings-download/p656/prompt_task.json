@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Create a detailed three\u2011year growth plan for Julie, a cooking content creator with 1.2M followers who posts quick, healthy recipes. The plan should include strategies for expanding her online presence, publishing a cookbook (compare traditional vs. self\u2011publishing), and balancing her limited time and budget while working four days a week. Provide actionable steps, timelines, and resource recommendations.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-23T17:09:54.932127+00:00"
+}

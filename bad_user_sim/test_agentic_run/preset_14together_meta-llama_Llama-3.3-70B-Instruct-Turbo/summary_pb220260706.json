@@ -1,0 +1,36 @@
+{
+  "puzzle": "b220260706",
+  "decisions": 2,
+  "optimal_moves": 1,
+  "opener_optimal": true,
+  "discs_lost": 12,
+  "final_margin": 0,
+  "won": false,
+  "optimal_margin": 12,
+  "completed": true,
+  "moves": [
+    "g7",
+    "g2!"
+  ],
+  "auto_played": [
+    "h2"
+  ],
+  "chat_turns": null,
+  "game": "othello",
+  "round": 1,
+  "ai_available": false,
+  "model_settings": {
+    "max_tokens": 50000
+  },
+  "questions_asked": 0,
+  "question_budget": 0,
+  "profile": {
+    "persona": "An aspiring actor who provides insights on character portrayals and performances",
+    "age": 26,
+    "education": "bachelors",
+    "occupation": "arts",
+    "ai_frequency": "few_times_week"
+  },
+  "student_model": "together:meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "streamed": false
+}

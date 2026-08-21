@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I think c8 looks really strong since it flips 6 white discs right away, but I'm worried White can just take a1 next and flip five of mine. Is c8 still the best endgame move here, or is there a sneaky play like b7 that's actually better?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After White played a8 and flipped my b7 right back, I'm choosing between a7 and b6. Both look like they flip four discs right away. Is one of them clearly better for the finish, or am I missing a killer line with a7?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I played b7 at the start because the assistant said it was sneakier than c8. But White just played a8 and flipped b7 right back. Was b7 actually a mistake that let White grab that corner?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Going back to the very first position \u2014 if I had played c8 instead of b7, would that have actually won the game? And later on, that g2 move flipped 8 discs but then White took back over. Was g2 itself a losing move, or did I mess up what came after it?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After White played a8 and flipped my b7 back, I played b6 instead of c8 because I wanted to stop White from using that spot. Was c8 the only real winning try there, or was the position already busted for Black after White got a8?"
+  }
+]

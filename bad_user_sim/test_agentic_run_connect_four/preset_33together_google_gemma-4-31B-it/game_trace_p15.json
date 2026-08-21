@@ -1,0 +1,22 @@
+[
+  {
+    "tool": "play_move",
+    "move": 2
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm having a bit of a hard time seeing the best move here. I see some potential lines, but I'm worried I'll walk into a trap. Could you help me figure out the strongest move for Red?"
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "play_move",
+    "move": 1
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  }
+]

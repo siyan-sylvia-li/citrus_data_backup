@@ -1,0 +1,17 @@
+{
+  "puzzle": "w4p6",
+  "round": 1,
+  "ai": false,
+  "score": 1,
+  "num_moves": 3,
+  "submitted_at": "2026-07-15T00:31:19.075262+00:00",
+  "winning_line_score": 0,
+  "attempt_scores": [
+    1
+  ],
+  "attempt_winning_line_scores": [
+    0
+  ],
+  "attempts_used": 1,
+  "backfilled": true
+}

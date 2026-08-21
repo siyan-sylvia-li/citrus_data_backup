@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I'm currently a cooking influenzer who is wanting to publish my own cookbook. I'm limited on time and money. What is suggested?",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 1
+    },
+    {
+      "model": "gpt",
+      "score": 2
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 1.333,
+  "median_score": 1,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-20T13:03:59.370066+00:00"
+}

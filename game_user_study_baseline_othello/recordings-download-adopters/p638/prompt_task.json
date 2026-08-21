@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Please write me a three year plan to allow me to move my instagram account forward to grow and allow me to publish a cookbook.\r\nI currently have 1.2 million followers and my account focuses on quick healthy recipes. \r\nI have limited time and budget to allow for extra time on my account.\r\nI would also like advise on whether to pursue a published or self published book",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-10T15:07:25.148516+00:00"
+}

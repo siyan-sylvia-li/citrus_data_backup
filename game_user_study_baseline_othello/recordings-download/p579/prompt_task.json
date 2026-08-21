@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Julie needs a plan to grow followers online and publish a cookbook within three years. She works four days a week and has limited time and budget. Can you make a concrete plan? She already has 1.2 million followers and isn\u2019t sure whether to self publish",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-20T14:16:17.113530+00:00"
+}

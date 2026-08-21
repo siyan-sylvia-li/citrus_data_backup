@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Create a three-year plan for me to publish a healthy recipe cookbook using these constraints: I can only work four days a week, I can spend no more than $500 and I must continue posting videos to increase my base of followers. Include information to help me decide whether I should publishy traditionally or self-publish.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-04T17:49:32.190128+00:00"
+}

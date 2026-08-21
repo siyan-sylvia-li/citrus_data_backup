@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Study — Before you play</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  <style>
+    .rw__bad { background:#fde2e2; border:1px solid #f3c4c4; border-radius:8px;
+               padding:11px 13px; margin:0 0 6px; line-height:1.45; }
+    .rw__badlab { color:#a61b1b; font-size:.85rem; font-weight:650; margin:0 0 14px; }
+    .rw__box { width:100%; box-sizing:border-box; min-height:84px; padding:11px 12px;
+               border:1px solid #cbd2d9; border-radius:8px; font:inherit; line-height:1.45;
+               resize:vertical; }
+    .rw__box:focus { outline:3px solid rgba(45,90,67,.28); outline-offset:2px;
+                     border-color:#6DB38A; }
+    .rw__reqs { list-style:none; padding:0; margin:12px 0 16px; }
+    .rw__req { display:flex; gap:9px; align-items:flex-start; padding:7px 0;
+               line-height:1.4; color:#486581; }
+    .rw__tick { flex:0 0 20px; height:20px; border-radius:50%; border:1px solid #cbd2d9;
+                background:#fff; text-align:center; line-height:19px; font-size:12px;
+                color:transparent; }
+    .rw__req--ok { color:#234936; }
+    .rw__req--ok .rw__tick { background:#6DB38A; border-color:#2D5A43; color:#fff; }
+    .rw__hint { color:#486581; font-size:.9rem; margin:0 0 14px; }
+    .rw__ttt { display:grid; grid-template-columns:repeat(3, 62px); gap:4px;
+               justify-content:center; margin:0 auto 10px; }
+    .rw__cell { width:62px; height:62px; border:1px solid #cbd2d9; border-radius:6px;
+                background:#fff; display:flex; align-items:center; justify-content:center;
+                font-size:30px; font-weight:700; color:#cbd2d9; }
+    .rw__cell--me   { color:#2D5A43; background:#e8f1ec; border-color:#CFE7D2; }
+    .rw__cell--them { color:#a61b1b; background:#fde2e2; border-color:#f3c4c4; }
+    .rw__legend { text-align:center; color:#486581; font-size:.9rem; margin:0 0 18px; }
+    .rw__task { background:#e8f1ec; border:1px solid #CFE7D2; border-radius:8px;
+                padding:12px 14px; margin:0 0 16px; line-height:1.5; font-weight:500; }
+  </style>
+</head>
+<body>
+  <header class="topbar"><h1 class="topbar__title">Game Study</h1></header>
+  <main class="start">
+    <div class="start__card" style="max-width:620px">
+      <h2 class="start__title">Before you play</h2>
+
+      <!-- Framing text comes from FRAMING in the form module. -->
+      <p class="rw__hint">{{ framing }}</p>
+
+      <div class="rw__ttt" role="img"
+           aria-label="Tic-tac-toe board. Opponent has the top-left and top-centre squares. You have the centre and bottom-left.">
+        {% for row in board %}{% for cell in row %}
+          <div class="rw__cell{% if cell %} rw__cell--{{ 'me' if cell == 'X' else 'them' }}{% endif %}">{{ cell }}</div>
+        {% endfor %}{% endfor %}
+      </div>
+      <p class="rw__legend"><strong>You are X.</strong> Your opponent is O, and it is your turn.</p>
+
+      <p class="rw__task">{{ task }}</p>
+
+      <div class="rw__bad">{{ start_message }}</div>
+      <p class="rw__badlab">The message to rewrite.</p>
+
+      <form method="post" action="{{ url_for('intervention') }}" id="rwForm">
+        <label for="rwBox" style="font-weight:650;display:block;margin-bottom:7px">
+          Your rewrite
+        </label>
+        <textarea id="rwBox" name="rewrite" class="rw__box"
+                  placeholder="Write your version here…">{{ prefill }}</textarea>
+        <input type="hidden" name="attempts" id="rwAttempts" value="[]" />
+
+        <ul class="rw__reqs" id="rwReqs">
+          <li class="rw__req" data-req="len"><span class="rw__tick">✓</span>
+            <span>At least {{ min_chars }} characters</span></li>
+          <li class="rw__req" data-req="cand"><span class="rw__tick">✓</span>
+            <span>Names the square you are thinking of playing</span></li>
+          <li class="rw__req" data-req="cons"><span class="rw__tick">✓</span>
+            <span>Says what that move would do — what it blocks, wins or sets up</span></li>
+        </ul>
+
+        {% if error %}<p class="pt__error">{{ error }}</p>{% endif %}
+        <button type="submit" class="start__btn" id="rwBtn" disabled>Continue</button>
+      </form>
+    </div>
+  </main>
+  <script>
+    // The two requirement patterns come from the form module, so this hint and the
+    // server-side gate can never disagree.
+    (function () {
+      var CAND = new RegExp({{ candidate_re | tojson }}, "i"),
+          CONS = new RegExp({{ consequence_re | tojson }}, "i"),
+          MIN = {{ min_chars }};
+      var box = document.getElementById("rwBox"),
+          btn = document.getElementById("rwBtn"),
+          reqs = document.getElementById("rwReqs"),
+          store = document.getElementById("rwAttempts"),
+          attempts = [], lastLogged = "", timer = null;
+
+      function state(t) {
+        return { len: t.trim().length >= MIN, cand: CAND.test(t), cons: CONS.test(t) };
+      }
+      function paint() {
+        var t = box.value, s = state(t), all = s.len && s.cand && s.cons;
+        Array.prototype.forEach.call(reqs.children, function (li) {
+          li.classList.toggle("rw__req--ok", !!s[li.dataset.req]);
+        });
+        btn.disabled = !all;
+        // Log a settled draft, not every keystroke: what they typed before the hints
+        // pushed them is the baseline measure.
+        clearTimeout(timer);
+        timer = setTimeout(function () {
+          var v = box.value.trim();
+          if (v && v !== lastLogged) {
+            lastLogged = v;
+            attempts.push({ text: v, checks: state(v), at: Date.now() });
+            store.value = JSON.stringify(attempts);
+          }
+        }, 1200);
+      }
+      box.addEventListener("input", paint);
+      document.getElementById("rwForm").addEventListener("submit", function () {
+        var v = box.value.trim();
+        if (v && v !== lastLogged) {
+          attempts.push({ text: v, checks: state(v), at: Date.now() });
+        }
+        store.value = JSON.stringify(attempts);
+      });
+      paint();
+    })();
+  </script>
+</body>
+</html>

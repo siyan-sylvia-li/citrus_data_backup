@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I would like a three year plan to eventually increase my online followers and create my own cookbook to sell my own recipes. I can't decide between traditional or self-publishing but need help determining which is more feasible. I have a limited budget and work 4 days a week so would like to create a realistic plan that I can work on during my 3 days off. Can you assist in creating this 3 year plan?",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T22:24:03.361079+00:00"
+}

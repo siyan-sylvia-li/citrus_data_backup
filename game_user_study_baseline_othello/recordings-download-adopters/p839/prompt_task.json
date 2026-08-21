@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Create a firm three year plan for a popular social media influencer (1.2 million followers) for how to write a cookbook. Recipes must be quick and simple to make, and healthy. Advise on how to publish (traditional or self publish). Plan must fit into a limited time (no more than two days a week) and limited budget (various options please). Plan must include how to develop online throughout the three year period.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T16:27:33.743618+00:00"
+}

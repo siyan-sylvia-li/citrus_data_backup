@@ -1,0 +1,8 @@
+{"game": "connect_four", "col": 3, "optimal": true, "optimal_cols": [3], "ai_col": 4, "status": "ongoing", "moves_left": 7, "ts": "2026-06-26T23:55:55.446042+00:00"}
+{"game": "connect_four", "col": 3, "optimal": true, "optimal_cols": [3], "ai_col": 0, "status": "ongoing", "moves_left": 6, "ts": "2026-06-26T23:56:09.071304+00:00"}
+{"game": "connect_four", "col": 1, "optimal": false, "optimal_cols": [4], "ai_col": null, "status": "retry", "moves_left": 5, "ts": "2026-06-26T23:56:18.736527+00:00"}
+{"game": "connect_four", "col": 5, "optimal": false, "optimal_cols": [4], "ai_col": null, "status": "retry", "moves_left": 4, "ts": "2026-06-26T23:58:16.796156+00:00"}
+{"game": "connect_four", "col": 2, "optimal": false, "optimal_cols": [4], "ai_col": null, "status": "retry", "moves_left": 3, "ts": "2026-06-26T23:59:37.469206+00:00"}
+{"game": "connect_four", "col": 3, "optimal": false, "optimal_cols": [4], "ai_col": null, "status": "retry", "moves_left": 2, "ts": "2026-06-26T23:59:41.930963+00:00"}
+{"game": "connect_four", "col": 6, "optimal": false, "optimal_cols": [4], "ai_col": null, "status": "retry", "moves_left": 1, "ts": "2026-06-26T23:59:45.869117+00:00"}
+{"game": "connect_four", "col": 0, "optimal": false, "optimal_cols": [4], "ai_col": null, "status": "failed", "moves_left": 0, "ts": "2026-06-26T23:59:49.043278+00:00"}

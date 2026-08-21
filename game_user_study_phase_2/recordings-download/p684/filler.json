@@ -1,0 +1,25 @@
+{
+  "reflection": "use ai to see which is better - traditional or self publishing. use AI to help her do this. then use AI to to also her her follow through with the plan",
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 2
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.667,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-18T11:33:57.420749+00:00"
+}

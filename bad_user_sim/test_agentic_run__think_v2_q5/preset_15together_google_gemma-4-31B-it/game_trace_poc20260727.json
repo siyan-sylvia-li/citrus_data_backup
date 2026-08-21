@@ -1,0 +1,44 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I took a bunch of discs with b7, but am I leaving myself open for the other guy to take them back?"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at the final board. Why did playing b8 let White take so much back?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Was there any move I could have made at the end to stop White from getting a1 and a3?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "You mentioned corners are safe. If I had taken a1, would that have changed everything?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "In this game, was there a move that looked good but was actually a trap?"
+  }
+]

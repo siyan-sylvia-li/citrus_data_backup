@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, I'm looking at my options\u2014g2, b6, a7, b7, b8, c8. Which one of these actually sets me up for the win? Trying to figure out which one limits White the most."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White just took a8. Now my moves are g2, b6, a7, and c8. Which one is the strongest play here to maximize my final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White's really pulling ahead (36 to 22). I've got g2, b6, and a7. Which move gives me the best chance to swing this back or at least minimize the loss?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm down to my last moves: a1, g2, and a3. I'm losing pretty bad (20-40). Should I grab the a1 corner, or go for the flip with g2 or a3? What's the best way to claw back some points?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  }
+]

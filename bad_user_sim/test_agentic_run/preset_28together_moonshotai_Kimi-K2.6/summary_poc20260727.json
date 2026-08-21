@@ -1,0 +1,36 @@
+{
+  "puzzle": "oc20260727",
+  "decisions": 4,
+  "optimal_moves": 1,
+  "opener_optimal": false,
+  "discs_lost": 44,
+  "final_margin": -26,
+  "won": false,
+  "optimal_margin": 18,
+  "completed": true,
+  "moves": [
+    "b6!",
+    "g2",
+    "c8!",
+    "a7!"
+  ],
+  "auto_played": [],
+  "chat_turns": null,
+  "game": "othello",
+  "round": 0,
+  "ai_available": true,
+  "model_settings": {
+    "max_tokens": 200000
+  },
+  "questions_asked": 1,
+  "question_budget": 10,
+  "profile": {
+    "persona": "A healthcare worker who goes above and beyond to provide personalized care and support",
+    "age": 35,
+    "education": "associate",
+    "occupation": "healthcare",
+    "ai_frequency": "few_times_month"
+  },
+  "student_model": "together:moonshotai/Kimi-K2.6",
+  "streamed": false
+}

@@ -1,0 +1,40 @@
+{
+  "puzzle": "15",
+  "decisions": 5,
+  "optimal_moves": 5,
+  "optimal_first_n": 3,
+  "decisions_first_n": 3,
+  "kept_win_moves": 5,
+  "opener_optimal": true,
+  "exact_decisions": 5,
+  "result": "red_win",
+  "won": true,
+  "plies_to_win_at_start": 9,
+  "completed": true,
+  "columns": [
+    "4",
+    "4",
+    "5",
+    "3",
+    "3"
+  ],
+  "auto_played": [],
+  "chat_turns": null,
+  "game": "connect_four",
+  "round": 0,
+  "ai_available": true,
+  "model_settings": {
+    "max_tokens": 100000
+  },
+  "questions_asked": 3,
+  "question_budget": 10,
+  "profile": {
+    "persona": "A representative from a government agency, prioritizing public safety and regulatory compliance",
+    "age": 47,
+    "education": "bachelors",
+    "occupation": "government",
+    "ai_frequency": "few_times_month"
+  },
+  "student_model": "anthropic:claude-sonnet-5",
+  "streamed": false
+}

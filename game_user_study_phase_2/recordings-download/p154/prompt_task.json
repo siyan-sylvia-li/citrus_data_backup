@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Provide me with a weeks worth of quick, healthy recipes for breakfast, lunch and dinner that are budget friendly and suitable for a family of four that can be scaled down to a couple",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 1
+    },
+    {
+      "model": "gpt",
+      "score": 1
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 1.0,
+  "median_score": 1,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 1.0,
+  "submitted_at": "2026-08-19T11:45:11.241425+00:00"
+}

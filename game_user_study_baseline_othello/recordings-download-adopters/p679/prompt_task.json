@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Create a business development strategy for Julie. \r\nJulie posts cooking videos to 1.2M followers who love her quick, healthy recipes.\r\nOver the next three years, she wants to grow online and publish a cookbook (torn on traditional vs. self-publishing).\r\nShe works four days weekly, with limited time and budget.\r\n\r\nWhat are the necessary steps that need to be made, and when should they be taken, so that she might achieve her goal? Do not exceed 2,000 words and break things down into bitesize pieces.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T14:09:12.038550+00:00"
+}

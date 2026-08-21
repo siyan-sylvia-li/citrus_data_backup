@@ -1,0 +1,40 @@
+{
+  "puzzle": "bg20260726",
+  "decisions": 2,
+  "optimal_moves": 1,
+  "opener_optimal": false,
+  "discs_lost": 8,
+  "final_margin": -4,
+  "won": false,
+  "optimal_margin": 4,
+  "completed": true,
+  "moves": [
+    "g8!",
+    "g7"
+  ],
+  "auto_played": [
+    "h7"
+  ],
+  "chat_turns": null,
+  "game": "othello",
+  "round": 1,
+  "ai_available": false,
+  "model_settings": {
+    "max_tokens": 100000
+  },
+  "questions_asked": 0,
+  "question_budget": 0,
+  "profile": {
+    "persona": "A Critical Political Scientist",
+    "age": 44,
+    "education": "postgrad",
+    "occupation": "education",
+    "ai_frequency": "few_times_week"
+  },
+  "student_model": "openai:gpt-5.6-luna",
+  "student_mode": "solution",
+  "questions_required": 5,
+  "assistant_off": false,
+  "assistant_preset": "default",
+  "streamed": false
+}

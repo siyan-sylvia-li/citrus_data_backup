@@ -1,0 +1,23 @@
+{
+  "created_prompt": "You have to digest Julie's cooking videos and give a title, description, and a set of steps for each recipe. For better organization, please tag every recipe with at least three different categories so they can be rearranged before publishing. Save the link to each recipe's original post, because you also have to meter the popularity of each recipe every week. You have to work for four days a week, which is when the new recipes get posted online, plus an extra day for metering the popularity and re-assessing the order of the recipes.\r\n\r\nConsider the pros and cons of self-publishing vs traditional publishing given the recipes, their reach, their style, and Julie's budget.\r\n\r\nThese steps should be done incrementally and in an agile way, revising and refactoring when it's considered necessary, either by you or Julie. However, during the last month of the timeframe, revising the recipes will be more important than including new recipes.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.333,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T15:43:04.042045+00:00"
+}

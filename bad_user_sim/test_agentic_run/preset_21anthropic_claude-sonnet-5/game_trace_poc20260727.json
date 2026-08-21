@@ -1,0 +1,45 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm Black, 10 empty squares left (g2, b6, a7, b7, b8, c8, a3, a1, h1, a8). My legal moves right now are g2, b6, a7, b7, b8, c8. Can you calculate which move leads to the best final disc count for me assuming White plays optimally? I need the single best move."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now 8 empty squares left: a1, h1, g2, a3, b6, a7, b8, c8. My legal moves are g2, b6, a7, c8. Which move gives me the best final count with optimal White play?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "6 squares left: a1, h1, g2, a3, b6, a7. My legal moves are g2, b6, a7. Which one is best for final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "4 squares left: a1, h1, g2, a3. My legal moves are a1, g2, a3. I calculated that a3 might lead to White having literally no legal moves for the rest of the game, letting me sweep all 4 remaining squares. Is a3 correct as the best move here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

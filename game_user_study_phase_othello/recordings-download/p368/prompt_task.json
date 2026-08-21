@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I am looking to create a 3 year plan. My primary goals are my online growth and creating and publishing a cookbook. Currently I stand at 1.2 million followers, and want to expand my range and capitalize on the following I have developed so far. I need ideas on how to maximize my time and budget, currently working 4 days weekly, as such my time and budget are limited. My current content is mainly focused on quick, healthy recipes for creation at home. My cookbook will be something similar.",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    },
+    {
+      "model": "llama",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-04T18:32:41.827952+00:00"
+}

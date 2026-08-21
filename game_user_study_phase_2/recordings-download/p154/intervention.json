@@ -1,0 +1,28 @@
+{
+  "variant": "v9_two_rows",
+  "observation": "Group A is expecting the AI to give them more answers directly, whereas Group B thinks about their moves more and asked either/or questions.  Both Groups are expecting the AI to assist them, but it seems like Group B is more active, whereas Group A is more passive with it their strategy and wanting the AI to do the work.",
+  "choice": "B",
+  "choice_correct": true,
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 4
+      },
+      {
+        "model": "gpt",
+        "score": 4
+      },
+      {
+        "model": "nemotron",
+        "score": 3
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.667,
+    "median_score": 4,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-19T11:49:15.988334+00:00"
+}

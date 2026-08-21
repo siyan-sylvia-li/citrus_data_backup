@@ -1,0 +1,37 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "best move here?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "How did I mess up so bad?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "what exactly are stable discs?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "looking at the legal moves (g2, b6, a7, b7, b8, c8), any obvious traps or high-value plays I should avoid or target?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I've heard about X-squares and C-squares in Othello strategy, how do those actually work in practice?"
+  }
+]

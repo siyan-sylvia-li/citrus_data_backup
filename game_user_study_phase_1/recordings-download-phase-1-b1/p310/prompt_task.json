@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I want you to devise a concrete 3 year plan.  \r\nSay I have 1.2 millin followers who love quick, healthy recipes. \r\nOver the next 3 years,  I want to grow further online and publish a cookbook but not sure about traditional vs self pulishing. \r\nI work 4 days weekly and don't havce much time and very low budget.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "qwen",
+      "score": null
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-15T01:04:33.111964+00:00"
+}

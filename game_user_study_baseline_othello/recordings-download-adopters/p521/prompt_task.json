@@ -1,0 +1,23 @@
+{
+  "created_prompt": "growing a social media platform is difficult. i currently have 1.2 million followers whom i post content surrounding cooking and quick healthy recipes. In the next 3 years it is my goal to grown more and publish a cookbook for my followers and beyond. i work four days a week and am on a tight time and money budget. can you devise me a 3 year plan following these guidelines to help me meet my goal of creating my own cookbook?",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-10T16:42:32.458138+00:00"
+}

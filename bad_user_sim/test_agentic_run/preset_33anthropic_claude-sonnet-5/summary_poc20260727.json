@@ -1,0 +1,40 @@
+{
+  "puzzle": "oc20260727",
+  "decisions": 6,
+  "optimal_moves": 6,
+  "opener_optimal": true,
+  "discs_lost": 0,
+  "final_margin": 18,
+  "won": true,
+  "optimal_margin": 18,
+  "completed": true,
+  "moves": [
+    "b7",
+    "c8",
+    "a7",
+    "a3",
+    "a1",
+    "h1"
+  ],
+  "auto_played": [
+    "g2"
+  ],
+  "chat_turns": null,
+  "game": "othello",
+  "round": 0,
+  "ai_available": true,
+  "model_settings": {
+    "max_tokens": 100000
+  },
+  "questions_asked": 3,
+  "question_budget": 10,
+  "profile": {
+    "persona": "A dietician who believes in complementing physical activity with the right nutrition",
+    "age": 34,
+    "education": "bachelors",
+    "occupation": "healthcare",
+    "ai_frequency": "few_times_week"
+  },
+  "student_model": "anthropic:claude-sonnet-5",
+  "streamed": false
+}

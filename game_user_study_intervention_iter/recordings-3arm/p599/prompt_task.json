@@ -1,0 +1,25 @@
+{
+  "created_prompt": "I'd like a three year plan to grow my online cooking business and release a cookbook.\r\nI have limited free time and cook quick healthy recipes on a budget",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 2
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.0,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.0,
+  "submitted_at": "2026-08-21T13:31:37.516907+00:00"
+}

@@ -1,0 +1,46 @@
+{
+  "puzzle": "b220260706",
+  "decisions": 3,
+  "optimal_moves": 3,
+  "opener_optimal": true,
+  "discs_lost": 0,
+  "final_margin": 12,
+  "won": true,
+  "optimal_margin": 12,
+  "completed": true,
+  "moves": [
+    "g7",
+    "h1",
+    "g2"
+  ],
+  "auto_played": [],
+  "chat_turns": null,
+  "game": "othello",
+  "round": 1,
+  "ai_available": false,
+  "model_settings": {
+    "max_tokens": 50000
+  },
+  "questions_asked": 0,
+  "question_budget": 0,
+  "profile": {
+    "persona": "An aspiring actor who provides insights on character portrayals and performances",
+    "age": 26,
+    "education": "bachelors",
+    "occupation": "arts",
+    "ai_frequency": "few_times_week"
+  },
+  "student_model": "together:moonshotai/Kimi-K2.6",
+  "student_mode": "human_style",
+  "questions_required": 5,
+  "assistant_off": false,
+  "assistant_model": "openai/gpt-5.5",
+  "tool_framing": "shared_context",
+  "gate": "require_kdq",
+  "gate_blocked": 0,
+  "gate_errors": 0,
+  "gate_passthrough": 0,
+  "gate_model": "openai/gpt-5.4-mini",
+  "assistant_preset": "default",
+  "streamed": false
+}

@@ -1,0 +1,25 @@
+{
+  "created_prompt": "make a 3 year plan for julie. she currently posts cooking vids to 1.2m people. in the next 3 years she wants to grow and publish a cookbook. she works 4 days a week with limited time and budget",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.333,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.333,
+  "submitted_at": "2026-08-18T11:33:02.069887+00:00"
+}

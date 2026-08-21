@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "At the very start, was b7 actually the optimal move, or could c8 have led to a better final score?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After White played a8, I went straight to a7. Was that too hasty\u2014should I have tried c8 or g2 first?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Once White hit a3 and flipped my whole left flank, was the game already dead lost, or was there still a defensive resource?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "If I\u2019d played b6 instead of a7 after a8, does Black\u2019s score improve at all?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Bottom line: from the original position, is Black theoretically lost with best play, or is there a forcing path to equality?"
+  }
+]

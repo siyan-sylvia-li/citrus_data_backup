@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Hi, I'm Julie, and cooking is my favorite hobby, so I'd love to turn it into a real side-job, ideally over the next three years. I already have over a million followers who love my videos so I'm starting to consider the idea of gathering all my quick, healthy meal recipes in a cookbook.\r\nCan you please advise me on whether I should choose to self publish my book or to publish it in a traditional way? I would also need a good plan to reach that goal in three years, but consider that I work 4 days a week, so my time and money are limited.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-04T14:11:34.828951+00:00"
+}

@@ -1,0 +1,32 @@
+{
+  "created_prompt": "Devise a three-year plan for Julie, highlighting where her progress needs to be at the end of each year. She posts cooking videos to 1.2m followers who love her quick, healthy recipes. Over the next three years she wants to grow online and publish a cookbook (not sure on trad vs self-publishing). She works four days weekly, with limited time and budget.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "original": {
+    "judges": {
+      "llama": 3,
+      "gpt": 3
+    },
+    "mean_score": 3.0,
+    "median_score": 3.0,
+    "passed": true
+  },
+  "time_taken": 1.9
+}

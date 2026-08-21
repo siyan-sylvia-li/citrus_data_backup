@@ -1,0 +1,45 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I\u2019ve got six possible moves here and I really can\u2019t tell which one wins the endgame. c8 looks like it flips a lot, but I\u2019m worried it opens up a big counter for White. Could you tell me which square is the right one to play?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Played b7 like you said, but White hit back with a8 and flipped b7 and c6. Down to four options now: g2, b6, a7, c8. g2 looks like it flips the most\u2014should I go with that?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Could I have done better if I played a7 instead of b6 at the very end?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Was there any move earlier that would have actually let me win this?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Why was c8 better than g2 when I had that choice?"
+  }
+]

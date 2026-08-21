@@ -1,0 +1,37 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Hey \u2014 which of my legal moves (g2, b6, a7, b7, b8, c8) is the winning play for Black in this endgame? The combinatorics are non-trivial and I\u2019m short on time to brute-force the tree."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After 1\u2026a8, my options are g2, b6, a7, c8. Is g2 still the right idea, or is b6/a7/c8 stronger here? Want to make sure I lock this up."
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Wait \u2014 on this board c8 only flips d8 for me (one disc). g2 flips five, b6 flips four. Are you sure c8 tops them, or is there a deeper endgame trap I\u2019m missing with g2/b6?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Looking back at the original start position, was b7 actually the best first move? I lost pretty badly after that line. Would g2 or b6 have been stronger out of the gate?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "If b7 was the mistake, which move from the original position wins it for Black \u2014 g2 or b6?"
+  }
+]

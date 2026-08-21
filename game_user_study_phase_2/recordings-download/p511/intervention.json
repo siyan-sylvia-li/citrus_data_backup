@@ -1,0 +1,28 @@
+{
+  "variant": "v2_think_pair",
+  "observation": "Group B gives suggestions to the AI for where they want to move whereas Group A just asks the AI where should they move to",
+  "choice": "B",
+  "choice_correct": true,
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.0,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-18T17:05:27.574389+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I need a concrete, three-year plan to publish a cookbook. Information about me: My name is Julie. I post cooking videos to 1.2M followers that highlight quick, healthy recipes. Over the next three years, I want to grow online and publish a cookbook. I work four days a week, and I have limited time and a limited budget.\r\nBased on this information, please devise a realistic and achievable three-year plan for me to grow online and publish a cookbook.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-10T18:35:01.898233+00:00"
+}

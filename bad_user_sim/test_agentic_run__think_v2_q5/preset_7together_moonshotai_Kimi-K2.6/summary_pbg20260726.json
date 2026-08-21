@@ -1,0 +1,39 @@
+{
+  "puzzle": "bg20260726",
+  "decisions": 3,
+  "optimal_moves": 2,
+  "opener_optimal": true,
+  "discs_lost": 10,
+  "final_margin": -6,
+  "won": false,
+  "optimal_margin": 4,
+  "completed": true,
+  "moves": [
+    "b2",
+    "h7!",
+    "g8"
+  ],
+  "auto_played": [],
+  "chat_turns": null,
+  "game": "othello",
+  "round": 1,
+  "ai_available": false,
+  "model_settings": {
+    "max_tokens": 200000
+  },
+  "questions_asked": 0,
+  "question_budget": 0,
+  "profile": {
+    "persona": "A devoted Christian who is actively involved in religious discussions",
+    "age": 45,
+    "education": "bachelors",
+    "occupation": "education",
+    "ai_frequency": "less_than_monthly"
+  },
+  "student_model": "together:moonshotai/Kimi-K2.6",
+  "student_mode": "think_v2",
+  "questions_required": 5,
+  "assistant_off": false,
+  "assistant_preset": "default",
+  "streamed": false
+}

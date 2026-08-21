@@ -1,0 +1,13 @@
+[
+  {
+    "tool": "play_move",
+    "move": "g8"
+  },
+  {
+    "tool": "play_move",
+    "move": "g7"
+  },
+  {
+    "tool": "view_board"
+  }
+]

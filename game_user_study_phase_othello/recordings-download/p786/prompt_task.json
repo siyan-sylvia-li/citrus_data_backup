@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I have an online account with 1.2 million followers. I post cooking videos of quick healthy recipes. I have 2 aims over the next 3 years - to grow my online following and to publish a cookbook, either traditionally or self published. I work 4 days a week only and do have a limited budget. Please create a 3 year plan for me to achieve these goals. Make it concrete rather than vague and aspoirational. Include specific tasks, actions, deadlines, goals, targets, accountability measures, actions that depend on whether those measures are met, dates, budgets, etc.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 4
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.333,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T16:05:11.092066+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Julie has a good following on social media and wantsto leverage this to publish a cookbook and grow her following further. She has limited time and budget, and wants a three year plan to achieve her goal. Please create a concrete actionable plan to achieve this. Include estimates of time involved in each step, and a strategy to build up a buzz online for her publication.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-03T15:24:38.987395+00:00"
+}

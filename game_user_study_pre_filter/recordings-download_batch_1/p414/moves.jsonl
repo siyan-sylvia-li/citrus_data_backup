@@ -1,0 +1,6 @@
+{"game": "connect_four", "col": 3, "optimal": true, "optimal_cols": [3], "ai_col": 4, "status": "ongoing", "moves_left": 7, "ts": "2026-06-26T21:27:37.669255+00:00"}
+{"game": "connect_four", "col": 3, "optimal": true, "optimal_cols": [3], "ai_col": 0, "status": "ongoing", "moves_left": 6, "ts": "2026-06-26T21:28:13.464541+00:00"}
+{"game": "connect_four", "col": 2, "optimal": false, "optimal_cols": [4], "ai_col": null, "status": "retry", "moves_left": 5, "ts": "2026-06-26T21:28:36.303915+00:00"}
+{"game": "connect_four", "col": 4, "optimal": true, "optimal_cols": [4], "ai_col": 0, "status": "ongoing", "moves_left": 4, "ts": "2026-06-26T21:28:46.871791+00:00"}
+{"game": "connect_four", "col": 2, "optimal": true, "optimal_cols": [2, 3, 4], "ai_col": 0, "status": "ongoing", "moves_left": 3, "ts": "2026-06-26T21:28:57.041201+00:00"}
+{"game": "connect_four", "col": 2, "optimal": true, "optimal_cols": [2, 4], "ai_col": null, "status": "solved", "moves_left": 2, "ts": "2026-06-26T21:28:59.714873+00:00"}

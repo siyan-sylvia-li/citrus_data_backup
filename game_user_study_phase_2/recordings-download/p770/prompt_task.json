@@ -1,0 +1,25 @@
+{
+  "created_prompt": "I want to devise 3 3 year plan to publish a cookbook, but I\u2019m torn between self-publishing and traditional publishing. I already have a social media account with over 1.2 million followers sharing quick, healthy recipes.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.333,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.333,
+  "submitted_at": "2026-08-18T18:28:09.011152+00:00"
+}

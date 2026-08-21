@@ -1,0 +1,11 @@
+{
+  "game": "othello",
+  "puzzle": "b220260706",
+  "round": 1,
+  "moves": [],
+  "final_fen": null,
+  "end_reason": "timeout",
+  "ai_turns": 0,
+  "ai_turns_required": 0,
+  "submitted_at": "2026-08-04T18:14:51.634184+00:00"
+}

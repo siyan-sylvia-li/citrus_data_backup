@@ -1,0 +1,40 @@
+{
+  "puzzle": "15",
+  "decisions": 5,
+  "optimal_moves": 5,
+  "optimal_first_n": 3,
+  "decisions_first_n": 3,
+  "kept_win_moves": 5,
+  "opener_optimal": true,
+  "exact_decisions": 5,
+  "result": "red_win",
+  "won": true,
+  "plies_to_win_at_start": 9,
+  "completed": true,
+  "columns": [
+    "4",
+    "4",
+    "5",
+    "4",
+    "4"
+  ],
+  "auto_played": [],
+  "chat_turns": null,
+  "game": "connect_four",
+  "round": 0,
+  "ai_available": true,
+  "model_settings": {
+    "max_tokens": 100000
+  },
+  "questions_asked": 4,
+  "question_budget": 10,
+  "profile": {
+    "persona": "A devoted football fan who prefers skillful forwards",
+    "age": 28,
+    "education": "hs_graduate",
+    "occupation": "manufacturing",
+    "ai_frequency": "weekly"
+  },
+  "student_model": "openai:gpt-5.6-luna",
+  "streamed": false
+}

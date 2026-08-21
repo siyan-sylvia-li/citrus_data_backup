@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Create a practical three-year plan for Julie, a cooking creator with 1.2M followers, to grow her audience and publish a cookbook while working four days a week with a limited budget. Include quarterly goals, content and revenue strategies, time and budget allocation, KPIs, risks, and checkpoints. Compare traditional vs. self-publishing and recommend the best option based on her constraints.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 4
+    },
+    {
+      "model": "gpt",
+      "score": 4
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.667,
+  "median_score": 4,
+  "threshold": 3.0,
+  "passed": false,
+  "rule": "mean",
+  "decisive_score": 3.667,
+  "submitted_at": "2026-08-18T11:44:37.132973+00:00"
+}

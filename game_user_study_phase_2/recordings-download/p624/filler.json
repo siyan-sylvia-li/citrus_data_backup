@@ -1,0 +1,25 @@
+{
+  "reflection": "I will advise Julie to keep doing what she knows how to do best, keep posting, and stay relevant. I will also advise Julie to keep posting at least two videos per day.",
+  "effort": {
+    "judges": [
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 2
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.667,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-18T20:16:20.035453+00:00"
+}

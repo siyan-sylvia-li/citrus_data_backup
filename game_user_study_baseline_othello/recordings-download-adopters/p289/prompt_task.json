@@ -1,0 +1,23 @@
+{
+  "created_prompt": "You're a project management expert who has lots of experience in helping influencers grow their presence and ultimately publish a book. \r\n\r\nBased on this, create a three year plan for someone who works only four days a week and has limited time and budget. This person already has 1.2m followers and posts cooking videos.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-10T12:34:26.959112+00:00"
+}

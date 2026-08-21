@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Could you please help create a detailed plan for Julie, who would like to publish a cookbook about 3 years from now.  She currently posts cooking videos online weekly, and has 1.2 million followers.  But she has limited free time as she works 4 days a week presently.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-10T19:17:47.276953+00:00"
+}

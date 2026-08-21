@@ -1,0 +1,22 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, this is a tricky endgame. I'm trying to find a forced win for Red here. I noticed if I don't play column 4 or 5, Yellow can drop in 5 (r3) and get a nasty diagonal threat with their pieces at c7r1 and c6r2. Is Red's best move 4, 5, or is there actually a clean forced win I'm missing? I don't want to let Yellow set up that diagonal."
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 2
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  }
+]

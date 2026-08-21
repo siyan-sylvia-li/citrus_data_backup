@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "My legal moves are g2, b6, a7, b7, b8, c8. b7 seems to flip a lot and stops white from taking a1. Should I play b7?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White just played a8. My legal moves are g2, b6, a7, c8. g2 looks big again\u2014should I go there?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White played b8 and now leads 36 to 22. My legal moves are g2, b6, a7. Is there still a way to come back? Which move should I play now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Did I just get lucky at the end, or was a3 really the only move that could turn it around?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Should I have gone for g2 earlier instead of c8? Feels like c8 let White run away with the corner."
+  }
+]

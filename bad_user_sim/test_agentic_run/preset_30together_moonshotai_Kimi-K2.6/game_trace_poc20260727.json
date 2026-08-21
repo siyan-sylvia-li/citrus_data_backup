@@ -1,0 +1,26 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Quick one: I\u2019m stuck between c8, b6, and b7. No matter what I play, White seems to have a monster reply at a3. Which of my six legal moves actually gives Black the best final disc count in this endgame?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Down to b8 or c8. Which one minimizes my deficit, or do they both end the same?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  }
+]

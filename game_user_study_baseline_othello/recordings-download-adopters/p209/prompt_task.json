@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Assume you are both a very successful cookbook publisher and an online media advisor with success on growing an audience. Given a sparse budget and only a few hours a week to devote to publishing the book and growing the online video audience, devise a plan to execute over three years that will lead to publishing the book and growing the audience.  Additional background is that the videos currently posted are for quick and healthy recipes with a 1.2M follower base.  Advise the publication method with the best chance of success in selling as many cookbooks as possible between self publication vs. traditional publication.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-10T17:26:11.424885+00:00"
+}

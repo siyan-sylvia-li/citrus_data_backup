@@ -1,0 +1,41 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "where should i put my first piece?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "which one of these is best? g2 or b6?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "did i make a mistake at the end?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "how do i win this thing?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "is there a trick to flipping more pieces?"
+  }
+]

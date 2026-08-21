@@ -1,0 +1,16 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "play_move",
+    "move": "g7"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "play_move",
+    "move": "h7"
+  }
+]

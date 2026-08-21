@@ -1,0 +1,50 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Which move is best here for Black if White plays the best defense? Please just tell me the square and a short reason."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After Black b7 and White a8, what is Black's best next move among g2, b6, a7, c8? Just give square."
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now after White b8, best Black move among g2, b6, a7?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After White b6, what is Black's best move now: a1, g2, or a3?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Only a1 or g2 now. Which one gives Black the better final result?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "For the last two empties, should Black play h1 or g2?"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

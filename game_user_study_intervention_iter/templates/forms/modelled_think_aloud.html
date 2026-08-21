@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Study — Before you play</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  <style>
+    .mta__note { background:#e8f1ec; border:1px solid #CFE7D2; border-radius:8px;
+                 padding:12px 14px; line-height:1.5; margin:0 0 20px; }
+    .mta__ex { border:1px solid #cbd2d9; border-radius:8px; padding:14px 16px;
+               margin:0 0 14px; background:#fff; }
+    .mta__label { font-weight:650; color:#2D5A43; font-size:.95rem; margin-bottom:8px; }
+    .mta__msg { background:#f3f7f4; border-radius:6px; padding:9px 11px;
+                margin:0 0 7px; line-height:1.45; }
+    .mta__msg:last-child { margin-bottom:0; }
+    .mta__wait { color:#486581; font-size:.9rem; margin:0 0 10px; }
+  </style>
+</head>
+<body>
+  <header class="topbar"><h1 class="topbar__title">Game Study</h1></header>
+  <main class="start">
+    <div class="start__card" style="max-width:640px">
+      <h2 class="start__title">Before you play</h2>
+
+      <!-- FRAMING is a placeholder in the form module; the wording is the study
+           owner's to write. -->
+      <p class="mta__note">{{ framing }}</p>
+
+      {% for ex in examples %}
+        <div class="mta__ex">
+          <div class="mta__label">{{ ex.label }}</div>
+          {% for m in ex.messages %}<div class="mta__msg">{{ m }}</div>{% endfor %}
+        </div>
+      {% endfor %}
+
+      {% if error %}<p class="pt__error">{{ error }}</p>{% endif %}
+
+      <form method="post" action="{{ url_for('intervention') }}" id="mtaForm">
+        <input type="hidden" name="elapsed_ms" id="mtaElapsed" value="0" />
+        <p class="mta__wait" id="mtaWait"></p>
+        <button type="submit" class="start__btn" id="mtaBtn" disabled>Continue</button>
+      </form>
+    </div>
+  </main>
+  <script>
+    // Dwell gate. The server enforces its own timer (see _run_form); this only stops the
+    // button being clickable early and reports the client-side reading for comparison.
+    (function () {
+      var need = {{ min_dwell }}, t0 = Date.now();
+      var btn = document.getElementById("mtaBtn"),
+          wait = document.getElementById("mtaWait"),
+          el = document.getElementById("mtaElapsed");
+      function tick() {
+        var left = Math.ceil(need - (Date.now() - t0) / 1000);
+        el.value = Date.now() - t0;
+        if (left > 0) {
+          wait.textContent = "You can continue in " + left + "s.";
+          setTimeout(tick, 250);
+        } else {
+          wait.textContent = "";
+          btn.disabled = false;
+        }
+      }
+      tick();
+      document.getElementById("mtaForm").addEventListener("submit", function () {
+        el.value = Date.now() - t0;
+      });
+    })();
+  </script>
+</body>
+</html>

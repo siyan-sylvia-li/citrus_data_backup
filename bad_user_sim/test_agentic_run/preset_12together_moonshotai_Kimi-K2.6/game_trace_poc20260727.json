@@ -1,0 +1,22 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "g2 looks huge here \u2014 flips f2 and the whole g-file. Is there any trap I\u2019m missing, or is g2 clearly better than b6/a7/c8?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Between b6 and a7 right now, which is better? a7 completes rank 7 but I worry White still has b8 or a3 replies. Does a7 actually win more reliably than b6?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  }
+]

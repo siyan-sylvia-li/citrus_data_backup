@@ -1,0 +1,17 @@
+{
+  "game": "connect_four",
+  "nasa_tlx": {
+    "effort": 6,
+    "frustration": 6,
+    "mental_demand": 7,
+    "performance": 3,
+    "physical_demand": 1,
+    "temporal_demand": 5
+  },
+  "ai_likert": {
+    "ai_consistent": 3,
+    "ai_easy_to_use": 2
+  },
+  "additional_feedback": "Since I couldn't ask the AI Assistant to recommend the next move, it took a while to decide what to ask it. Its reply was a wall of text and I was short on time, so I didn't read the answer. I just noted the bold text (which slots could allow yellow to win) and adopted that strategy. Wasted too many chances prior to asking the Assistant (didn't realise why I was losing chances at first). Perhaps I could have won if I asked it sooner, just to get the enlightenment to understand what I did wrong so I could then carry on playing my way.",
+  "submitted_at": "2026-06-27T01:57:43.112516+00:00"
+}

@@ -1,0 +1,2242 @@
+{
+  "p26": {
+    "created_prompt": "Looking for a 3 year plan for my business.  I do cooking videos, followed by 1.2m people.  I want to publish a cookbook. I have a small budget and small amount of time.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 2
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      }
+    ],
+    "n_judges": 2,
+    "mean_score": 2.5,
+    "median_score": 2.5,
+    "submitted_at": "2026-07-22T21:55:59.587382+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_1",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p810": {
+    "created_prompt": "Could you write an effective 3 year plan to grow my audience and publish a cookbook of some sort? I already have 1.2m followers for my healthy quick online cooking  videos but know I need more followers to be successful. I  only have 3 days a week to work on this and money is tight",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 2
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      }
+    ],
+    "n_judges": 2,
+    "mean_score": 2.5,
+    "median_score": 2.5,
+    "submitted_at": "2026-07-24T13:35:38.464203+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_1",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p129": {
+    "created_prompt": "I want to increase the number of followers of my social media platform and also publish a cookbook within the next three years. Provide a three-year plan to reach these goals with the understanding that I work four days a week and have limited time and budget.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 2
+      },
+      {
+        "model": "nemotron",
+        "score": 2
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.333,
+    "median_score": 2,
+    "submitted_at": "2026-08-05T17:03:15.279063+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_othello",
+    "tier": 2,
+    "prior_games": [
+      "connect_four"
+    ]
+  },
+  "p45": {
+    "created_prompt": "Create a low-cost business plan to build an online following for a cook creating quick and easy healthy meal recipes. The plan should grow the business over a three-year time frame, with the aim of establishing enough content and followers to create a published book or series of books.",
+    "judges": [
+      {
+        "model": "gpt",
+        "score": 2
+      },
+      {
+        "model": "llama",
+        "score": 2
+      }
+    ],
+    "n_judges": 2,
+    "mean_score": 2.0,
+    "median_score": 2.0,
+    "submitted_at": "2026-07-24T13:06:02.885314+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_1",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p760": {
+    "created_prompt": "I need a three year plan to go from just an influencer to author and viral influencer. I have 15 hours a week to devote and a limited budget.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 2
+      },
+      {
+        "model": "gpt",
+        "score": 2
+      },
+      {
+        "model": "nemotron",
+        "score": 2
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.0,
+    "median_score": 2,
+    "submitted_at": "2026-08-03T16:11:42.331987+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_1",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p321": {
+    "created_prompt": "Give me a solid plan to create a cookbook  about quick and healthy recipes suitable for my social media followers so that I can grow online in next 3 years.",
+    "judges": [
+      {
+        "model": "gpt",
+        "score": 2
+      },
+      {
+        "model": "llama",
+        "score": 2
+      }
+    ],
+    "n_judges": 2,
+    "mean_score": 2.0,
+    "median_score": 2.0,
+    "submitted_at": "2026-07-21T13:06:50.056024+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_baseline_pro",
+    "tier": 2,
+    "prior_games": [
+      "connect_four"
+    ]
+  },
+  "p709": {
+    "created_prompt": "please create a fail-safe plan for promoting my cooking videos online over the next 3 years and helping me to create a cookbook.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 2
+      },
+      {
+        "model": "gpt",
+        "score": 2
+      }
+    ],
+    "n_judges": 2,
+    "mean_score": 2.0,
+    "median_score": 2.0,
+    "submitted_at": "2026-07-23T16:08:46.968614+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_1",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p818": {
+    "created_prompt": "Make me a 3 year plan to grow online with cooking videos and publish a cookbook. Suggest me pros and cons of doing traditional and self publishing the book.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 2
+      },
+      {
+        "model": "gpt",
+        "score": 2
+      }
+    ],
+    "n_judges": 2,
+    "mean_score": 2.0,
+    "median_score": 2.0,
+    "submitted_at": "2026-07-16T15:06:50.030263+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_1",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p792": {
+    "created_prompt": "Make a three-year plan to grow my 1.2m follower cooking channel leading to a published cookbook, four day work week, include budget constraints",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 2
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      }
+    ],
+    "n_judges": 2,
+    "mean_score": 2.5,
+    "median_score": 2.5,
+    "submitted_at": "2026-07-22T20:26:50.248393+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_1",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p834": {
+    "created_prompt": "I need a realistic 3yr business plan to expand a cookery dream which involves publishing a cookbook with limited time and budget.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 2
+      },
+      {
+        "model": "gpt",
+        "score": 2
+      }
+    ],
+    "n_judges": 2,
+    "mean_score": 2.0,
+    "median_score": 2.0,
+    "submitted_at": "2026-07-22T20:10:57.306086+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_1",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p59": {
+    "created_prompt": "Write me a three year plan to build my cooking channel and publish a book of my recipes, I can commit less than 1 day a week and have a limited budget so your suggestions need to be self sustaining.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 2
+      },
+      {
+        "model": "gpt",
+        "score": 2
+      }
+    ],
+    "n_judges": 2,
+    "mean_score": 2.0,
+    "median_score": 2.0,
+    "submitted_at": "2026-07-22T20:22:28.341628+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_1",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p192": {
+    "created_prompt": "Create a 3 year plan on how to grow an audience online in relation to making recipe content, whilst also planning how to publish a cookbook",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 2
+      },
+      {
+        "model": "gpt",
+        "score": 2
+      }
+    ],
+    "n_judges": 2,
+    "mean_score": 2.0,
+    "median_score": 2.0,
+    "submitted_at": "2026-07-23T17:21:46.821198+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_1",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p793": {
+    "created_prompt": "I need a 3 year plan to assist me to develop my online presence with the aim to produce a cookbook. Only one day available each week and low budget.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 2
+      },
+      {
+        "model": "gpt",
+        "score": 2
+      },
+      {
+        "model": "nemotron",
+        "score": 2
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.0,
+    "median_score": 2,
+    "submitted_at": "2026-08-03T16:12:20.200307+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_1",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p44": {
+    "created_prompt": "Devise a three year plan for someone with an online following creating recipe and food content who wants to grow online and publish a cookbook but doesn't want to work more than four days a week and has a limited budget.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 2
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      }
+    ],
+    "n_judges": 2,
+    "mean_score": 2.5,
+    "median_score": 2.5,
+    "submitted_at": "2026-07-16T16:24:59.233347+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_1",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p487": {
+    "created_prompt": "I need to cook a three course meal for 10 people with a budget of one hundred dollars. One of the people can't eat gluten, one has a serious nut allergy, and one is a vegetarian. Please plan out a suitable meal which can be cooked by someone with an average amount of cooking experience, create the necessary shopping list, and provide detailed recipe instructions.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 1
+      },
+      {
+        "model": "gpt",
+        "score": 1
+      }
+    ],
+    "n_judges": 2,
+    "mean_score": 1.0,
+    "median_score": 1.0,
+    "submitted_at": "2026-07-22T20:36:05.948122+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_1",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p403": {
+    "created_prompt": "Can you create a three-year plan that will help me grow my followers and organize/tabulate my most-liked recipes using a limited budget. Please include most efficient way to gather data on digital vs traditional cookbooks but take into mind that I have limited time for all of this.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 2
+      }
+    ],
+    "n_judges": 2,
+    "mean_score": 2.5,
+    "median_score": 2.5,
+    "submitted_at": "2026-07-16T15:33:37.706692+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_1",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p505": {
+    "created_prompt": "Create a plan to raise awareness and create growth for a social media personality chef.  Focus on growing an audience with a goal of publishing a cookbook that uses quick and healthy recipes.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 2
+      },
+      {
+        "model": "gpt",
+        "score": 2
+      }
+    ],
+    "n_judges": 2,
+    "mean_score": 2.0,
+    "median_score": 2.0,
+    "submitted_at": "2026-07-22T20:49:25.069910+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_1",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p349": {
+    "created_prompt": "I need a plan to elevate my online cookery video to a cookbook. Not sure if I want online or self-published and I am already committed to four days a week.\r\nMy budget is limited. Can you help me acheive this with a plan for the next, say, three years?",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 2
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      }
+    ],
+    "n_judges": 2,
+    "mean_score": 2.5,
+    "median_score": 2.5,
+    "submitted_at": "2026-07-24T13:23:47.145928+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_1",
+    "tier": 2,
+    "prior_games": [
+      "connect_four"
+    ]
+  },
+  "p612": {
+    "created_prompt": "Provide a detailed concrete three year plan to scale Julie's business to meet her goals from the starting point of someone who just posts cooking videos to 1.2 million followers to reach her goal of growing her online following and publishing a cookbook within a three year time span with her having limited time and budget and being able to work four days a week.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 2
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.667,
+    "median_score": 3,
+    "submitted_at": "2026-08-03T16:13:05.820135+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_1",
+    "tier": 2,
+    "prior_games": [
+      "connect_four"
+    ]
+  },
+  "p680": {
+    "created_prompt": "Please give me a 3 year plan to grow my online cooking video following and publish a cookbook with limited time and investment",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 2
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      }
+    ],
+    "n_judges": 2,
+    "mean_score": 2.5,
+    "median_score": 2.5,
+    "submitted_at": "2026-07-22T20:27:46.057533+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_1",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p500": {
+    "created_prompt": "Please provide a three year plan for how to go from publishing recipes online to publishing a cookbook full of my recipes. Provide concrete steps in the process.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 2
+      },
+      {
+        "model": "gpt",
+        "score": 2
+      }
+    ],
+    "n_judges": 2,
+    "mean_score": 2.0,
+    "median_score": 2.0,
+    "submitted_at": "2026-07-22T13:03:23.428809+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_baseline_pro",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p712": {
+    "created_prompt": "Create a 3-year plan for a person who wants to get more online views and publish a cookbook. Keep in mind that she works four days a week and has not much time or money. She also already has 1.2 million followers for her recipe videos.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 2
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 2
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.333,
+    "median_score": 2,
+    "submitted_at": "2026-08-10T19:24:02.603319+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_baseline_othello",
+    "tier": 2,
+    "prior_games": [
+      "connect_four"
+    ]
+  },
+  "p208": {
+    "created_prompt": "You are a highly skilled advisor to a cooking influencer who has 1.2m followers who love quick healthy recipes. You need to devise a three year plan to help the influencer grow hugely online ie reaching over 10 million followers as well as publishing a traditional cookbook. The influencer has very limited time and budget.",
+    "judges": [
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "llama",
+        "score": 2
+      }
+    ],
+    "n_judges": 2,
+    "mean_score": 2.5,
+    "median_score": 2.5,
+    "submitted_at": "2026-07-28T13:34:44.569889+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_1",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p243": {
+    "created_prompt": "Create a 3 year plan, for a cooking orientated media creator. Media creator is currently creating content videos to over 1.2 million followers, with a focus on quick and healthy recipes. The goal is to grow this audience, and eventually publish a cookbook, either traditional or self-published. The plan should be detailed, yet concise, in an organized and actionable format.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 2
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.667,
+    "median_score": 3,
+    "submitted_at": "2026-08-03T16:24:43.680266+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_1",
+    "tier": 2,
+    "prior_games": [
+      "connect_four"
+    ]
+  },
+  "p320": {
+    "created_prompt": "I need a three year plan. I post healthy cooking videos and have 1.2 million followers. In the next three years I want to continue growing online and publish a cookbook. How do I achieve this?",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 2
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      }
+    ],
+    "n_judges": 2,
+    "mean_score": 2.5,
+    "median_score": 2.5,
+    "submitted_at": "2026-07-16T15:03:40.571751+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_1",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p625": {
+    "created_prompt": "The first thing is to determine which avenue she really wants to follow - print or online. I would suggest her audience could be more inclined to be attracted online as they're already engaged with her on that basis. Use the videos to promote the online recipe business, and determine the \"best sellers\". Only then use this information to move to real world print - it can be a \"greatest hits\" collection.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 2
+      },
+      {
+        "model": "gpt",
+        "score": 2
+      },
+      {
+        "model": "nemotron",
+        "score": 1
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 1.667,
+    "median_score": 2,
+    "submitted_at": "2026-08-03T16:25:10.193975+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_1",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p649": {
+    "created_prompt": "Please create a concrete three year plan for publishing a cookbook (traditional or self-published) based on my quick, healthy recipes from my cooking videos I publish keeping in my that I work four days every week and have a limited budget.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 2
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.667,
+    "median_score": 3,
+    "submitted_at": "2026-08-03T15:30:05.896691+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_1",
+    "tier": 2,
+    "prior_games": [
+      "connect_four"
+    ]
+  },
+  "p350": {
+    "created_prompt": "I have a social media account that is primarily cooking content with just over 1million followers, and I would like to grow this account. Please make a three year plan for me to try to increase my audience engagement and hopefully end up being able to produce and sell a cookbook of my own to them. I have a set limited budget, and I work four days a week so I can\u2019t spend a significant amount of time on it.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 2
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 2
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.333,
+    "median_score": 2,
+    "submitted_at": "2026-08-03T15:39:39.917748+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_1",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p476": {
+    "created_prompt": "Create a three-year plan for a woman who creates cooking recipe videos. She has a large following of 1.2m and wants advice on how to grow this further. Her style is healthy and quick. Include sections on growing an online presence and how to publish a cookbook",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 2
+      },
+      {
+        "model": "nemotron",
+        "score": 2
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.333,
+    "median_score": 2,
+    "submitted_at": "2026-08-10T16:22:11.038898+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_baseline_othello",
+    "tier": 2,
+    "prior_games": [
+      "connect_four"
+    ]
+  },
+  "p821": {
+    "created_prompt": "Help for a successful quick and healthy recipe influencer who wants to make a plan for the next 3 years to produce a cookbook but doesn't know how to publish and has limited time and budget.",
+    "judges": [
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "llama",
+        "score": 2
+      }
+    ],
+    "n_judges": 2,
+    "mean_score": 2.5,
+    "median_score": 2.5,
+    "submitted_at": "2026-07-16T14:57:59.393878+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_1",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p492": {
+    "created_prompt": "Give me a solid workflow to help me grow my online brand as a cooking influencer who already has 1.2M followers, with the ultimate goal of publishing a cookbook in the next three years, assuming that I only have 3 free days each week and that I want to keep a tight budget all throughout the workflow.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 2
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.667,
+    "median_score": 3,
+    "submitted_at": "2026-08-03T17:18:37.757832+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_1",
+    "tier": 2,
+    "prior_games": [
+      "connect_four"
+    ]
+  },
+  "p113": {
+    "created_prompt": "I have a social media channel with lots of followers. I post quick, healthy recipe cooking videos. I want to grow my channel and publish a cookbook over the next 3 years. Not sure if I should get a publisher or self publish the book. Please devise a detailed 3 year plan for me.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 2
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      }
+    ],
+    "n_judges": 2,
+    "mean_score": 2.5,
+    "median_score": 2.5,
+    "submitted_at": "2026-07-23T17:30:46.136115+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_1",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p245": {
+    "created_prompt": "Maria wants to learn how to sew because she's interested in tailoring. Over the next year, she wants to start making clothes for herself to understand the process. She works 5 days a week, with weekends off. She would like a one year plan to be able to make a skirt and top set.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 1
+      },
+      {
+        "model": "gpt",
+        "score": 1
+      }
+    ],
+    "n_judges": 2,
+    "mean_score": 1.0,
+    "median_score": 1.0,
+    "submitted_at": "2026-07-28T13:50:20.763030+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_1",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p95": {
+    "created_prompt": "Can you create a three-year plan on how to grow my video channel and to use the videos on my channel to create a cookbook and decide whether a traditional publisher or self-publishing the book would be better?",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 2
+      },
+      {
+        "model": "gpt",
+        "score": 2
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.333,
+    "median_score": 2,
+    "submitted_at": "2026-08-10T21:54:31.971169+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_baseline_othello",
+    "tier": 2,
+    "prior_games": [
+      "connect_four"
+    ]
+  },
+  "p276": {
+    "created_prompt": "Could you give me a three year plan, very detailed, to help me publish a cookbook and grow my own presence online? I already have 1.2 million followers who just love my quick, healthy cooking but I want more of an audience.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 2
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      }
+    ],
+    "n_judges": 2,
+    "mean_score": 2.5,
+    "median_score": 2.5,
+    "submitted_at": "2026-07-28T13:31:12.183392+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_1",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p603": {
+    "created_prompt": "First, research the steps needed to write a successful cookbook. It may help to look at diaries or blogs of influencers or minor celebrities who have done this, to understand the things that they have to do. You may also consult any self help books or websites about publishing cookbooks to understand the process.\r\nOnce you have identified the steps required, write a    three year plan to achieve this,  based on my four day working week and including time to meet my other commitments. You can look at my existing calendar to understand what my existing commitments and tasks are.,",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 2
+      },
+      {
+        "model": "nemotron",
+        "score": 1
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.0,
+    "median_score": 2,
+    "submitted_at": "2026-08-05T17:04:10.906445+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_othello",
+    "tier": 2,
+    "prior_games": [
+      "connect_four"
+    ]
+  },
+  "p558": {
+    "created_prompt": "I love playing board games and would like to bring the community together through board games nights once a week.\r\n\r\nMy goal is over the next 18 months to have community game nights for family in one of the church recreation rooms twice a month and maybe even tournaments depending on turnout.\r\n\r\nthe goal is for AI agent to develop a concrete plan for the next 18 months that include residents within our one single town.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 1
+      },
+      {
+        "model": "gpt",
+        "score": 1
+      }
+    ],
+    "n_judges": 2,
+    "mean_score": 1.0,
+    "median_score": 1.0,
+    "submitted_at": "2026-07-28T13:38:51.590523+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_1",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p779": {
+    "created_prompt": "I want to publish a cookbook within the next 3 years using my recipes in my online videos, what's the best way to ensure good sales of the book in the future?",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 2
+      },
+      {
+        "model": "gpt",
+        "score": 2
+      }
+    ],
+    "n_judges": 2,
+    "mean_score": 2.0,
+    "median_score": 2.0,
+    "submitted_at": "2026-07-24T13:08:11.099451+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_1",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p134": {
+    "created_prompt": "Help Julie, who is passionate about her quick and healthy recipes, grow her large social media following into a bigger online community including a website and a physical cookbook. Do this in the most efficient and cost-effective way.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 2
+      },
+      {
+        "model": "gpt",
+        "score": 2
+      }
+    ],
+    "n_judges": 2,
+    "mean_score": 2.0,
+    "median_score": 2.0,
+    "submitted_at": "2026-07-24T13:20:59.212440+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_1",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p104": {
+    "created_prompt": "Create a 3 year plan to build followers only and use the best recipes to make a cookbook. The current follower count is 1.2M but that needs to grow, and more recipes need to be published. Budget is limited and time is short (a few evenings and 3 other days a week).",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 2
+      },
+      {
+        "model": "gpt",
+        "score": 2
+      }
+    ],
+    "n_judges": 2,
+    "mean_score": 2.0,
+    "median_score": 2.0,
+    "submitted_at": "2026-07-22T20:26:11.328812+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_1",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p305": {
+    "created_prompt": "Please help me draft a 3 years plan, to help me sort out my cookbook whilst I work 4 days a week and don't have much extra money to put into the whole thing",
+    "judges": [
+      {
+        "model": "gpt",
+        "score": 2
+      },
+      {
+        "model": "nemotron",
+        "score": 1
+      },
+      {
+        "model": "llama",
+        "score": 2
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 1.667,
+    "median_score": 2,
+    "submitted_at": "2026-08-03T15:38:52.072671+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_1",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p437": {
+    "created_prompt": "Can you come up with a three year plan grow my followers for my short form healthy cooking videos and to build towards publishing  a cookbook.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 2
+      },
+      {
+        "model": "gpt",
+        "score": 2
+      }
+    ],
+    "n_judges": 2,
+    "mean_score": 2.0,
+    "median_score": 2.0,
+    "submitted_at": "2026-07-23T16:21:39.355030+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_1",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p122": {
+    "created_prompt": "I would like to publish a cookbook of quick healthy recipes in around 3 years time. I only have one day a week and a limited budget to achieve this. I need to grow my online following so it sells well. Write me a detailed plan of how to achieve my goal with timings and targets.",
+    "judges": [
+      {
+        "model": "gpt",
+        "score": 2
+      },
+      {
+        "model": "llama",
+        "score": 2
+      }
+    ],
+    "n_judges": 2,
+    "mean_score": 2.0,
+    "median_score": 2.0,
+    "submitted_at": "2026-07-16T17:43:31.776246+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_1",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p191": {
+    "created_prompt": "Jack would like to create a side job for himself without having to put any effort towards it. He is looking into faceless reels that upload themselves onto social media. Over the next 2 years he wants this to grow to the extent of a well paying side job so he can quit his full-time job.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 1
+      },
+      {
+        "model": "gpt",
+        "score": 1
+      }
+    ],
+    "n_judges": 2,
+    "mean_score": 1.0,
+    "median_score": 1.0,
+    "submitted_at": "2026-07-22T21:12:32.465678+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_1",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p532": {
+    "created_prompt": "Create a three year plan to increase my follower numbers for my cooking videos allowing that I have limited time and budget.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 2
+      },
+      {
+        "model": "gpt",
+        "score": 2
+      }
+    ],
+    "n_judges": 2,
+    "mean_score": 2.0,
+    "median_score": 2.0,
+    "submitted_at": "2026-07-22T20:26:39.507134+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_1",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p388": {
+    "created_prompt": "With limit time and budget, what is the best way to expand my recipe blog of 1.2M followers and publish a cookbook. I'm looking for a three year plan and can set aside one day a week to focus on the plan",
+    "judges": [
+      {
+        "model": "gpt",
+        "score": 2
+      },
+      {
+        "model": "llama",
+        "score": 2
+      }
+    ],
+    "n_judges": 2,
+    "mean_score": 2.0,
+    "median_score": 2.0,
+    "submitted_at": "2026-07-21T13:04:46.670932+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_baseline_pro",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p647": {
+    "created_prompt": "In a timescale of three years, taking account of limited time and money, create a step-by-step plan to grow an online audience and publish a cookbook based on the online content.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 2
+      },
+      {
+        "model": "gpt",
+        "score": 2
+      },
+      {
+        "model": "nemotron",
+        "score": 2
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.0,
+    "median_score": 2,
+    "submitted_at": "2026-08-07T14:15:07.844600+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_othello",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p831": {
+    "created_prompt": "I'm a chef with 1.2 million subscribers, and I want to grow my online presence even more. I also really want to finally publish my own cookbook, but I don't know if I should go with a traditional publisher or do it myself. I need you to create a concrete plan to grow my presence, and publish my cookbook over the next three years,",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 2
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 2
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.333,
+    "median_score": 2,
+    "submitted_at": "2026-08-10T17:52:34.784898+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_baseline_othello",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p333": {
+    "created_prompt": "Weigh up the time/committment required for whether it will be more beneficial to write a physical book rather than an ebook or similar and do the same for whether it is more time and cost effective to use a publishing house, or try to publish the book herself.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 2
+      },
+      {
+        "model": "gpt",
+        "score": 2
+      },
+      {
+        "model": "nemotron",
+        "score": 1
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 1.667,
+    "median_score": 2,
+    "submitted_at": "2026-08-10T18:08:56.639811+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_baseline_othello",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p577": {
+    "created_prompt": "Design a three-year scheduled plan that develops and drafts a cookbook, using Julie's recipes. Must include key tasks such as drafting, editing and publishing. Recommendation based on the pros and cons of traditional versus self-publishing. Include a detailed task list.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 2
+      },
+      {
+        "model": "nemotron",
+        "score": 2
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.333,
+    "median_score": 2,
+    "submitted_at": "2026-08-07T16:50:47.761794+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_baseline_othello",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p555": {
+    "created_prompt": "could you provide me with a 3 year plan that is solid. In the next 3 years i would like to publish a cook book but unsure about self publishing or through a publasist. i would also like to grow my online following. the plan must revolve around a 4 day work week and i have very limited time so must be easy to follow. I have a limited budget so i cant buy to many extras",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 2
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 2
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.333,
+    "median_score": 2,
+    "submitted_at": "2026-08-10T15:04:12.033053+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_baseline_othello",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p180": {
+    "created_prompt": "Devise a 3 year plan to allow me to publish a cookbook",
+    "judges": [
+      {
+        "model": "gpt",
+        "score": 2
+      },
+      {
+        "model": "nemotron",
+        "score": 1
+      },
+      {
+        "model": "llama",
+        "score": 1
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 1.333,
+    "median_score": 1,
+    "submitted_at": "2026-08-07T21:35:30.919088+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_baseline_othello",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p650": {
+    "created_prompt": "Please devise a 3 year plan to publish a cookbook for a content creator with 1.2 M followers who also works 4 days a week and has a limited budget",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 2
+      },
+      {
+        "model": "gpt",
+        "score": 2
+      },
+      {
+        "model": "nemotron",
+        "score": 2
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.0,
+    "median_score": 2,
+    "submitted_at": "2026-08-07T15:45:46.690710+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_baseline_othello",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p720": {
+    "created_prompt": "Create a 3 year plan for Julie to publish a cookbook for her quick, healthy recipes on a limited budget. She only has 3 days a week where she is available to work on it.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 2
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 1
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.0,
+    "median_score": 2,
+    "submitted_at": "2026-08-07T22:34:35.002878+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_baseline_othello",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p120": {
+    "created_prompt": "I want to get into sewing clothes, I already have the basic equipment and skills but still a beginner at pattern drafting and adjusting for various sizes. What would my steps be to achieve this goal>",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 1
+      },
+      {
+        "model": "gpt",
+        "score": 1
+      },
+      {
+        "model": "nemotron",
+        "score": 1
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 1.0,
+    "median_score": 1,
+    "submitted_at": "2026-08-07T15:10:30.584671+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_baseline_othello",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p354": {
+    "created_prompt": "Make a three year plan for publishing a cookbook on limited time and budget\r\nShow pros and cons for traditional vs self published",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 2
+      },
+      {
+        "model": "gpt",
+        "score": 2
+      },
+      {
+        "model": "nemotron",
+        "score": 1
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 1.667,
+    "median_score": 2,
+    "submitted_at": "2026-08-07T16:07:12.833691+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_baseline_othello",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p97": {
+    "created_prompt": "Paul wants to create a spending budget and investment strategy.\r\nThe goal is to reach 100k of equity in three years as a down payment for a house. \r\nHis current salary is 85k a year.",
+    "judges": [
+      {
+        "model": "nemotron",
+        "score": 1
+      },
+      {
+        "model": "gpt",
+        "score": 1
+      },
+      {
+        "model": "llama",
+        "score": 1
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 1.0,
+    "median_score": 1,
+    "submitted_at": "2026-08-07T15:11:28.485573+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_baseline_othello",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p689": {
+    "created_prompt": "Come up with a concrete three-year plan for launching a cooking video channel of 12.m followers into a cookbook deal and follower growth",
+    "judges": [
+      {
+        "model": "gpt",
+        "score": 2
+      },
+      {
+        "model": "nemotron",
+        "score": 1
+      },
+      {
+        "model": "llama",
+        "score": 2
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 1.667,
+    "median_score": 2,
+    "submitted_at": "2026-08-10T18:15:17.188896+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_baseline_othello",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p645": {
+    "created_prompt": "I need a monthly plan to help grow my online viewership and help write a cookbook. I work 4 days a week so do not exceed this amount of time for work alloted. I want video ideas for my recipes, and trending content to help scale. They are healthy options on a budget. At the end of each month give me an outline of what I can include in the cookbook from the given months worth of content",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 2
+      },
+      {
+        "model": "gpt",
+        "score": 2
+      },
+      {
+        "model": "nemotron",
+        "score": 2
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.0,
+    "median_score": 2,
+    "submitted_at": "2026-08-10T18:50:16.272404+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_baseline_othello",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p374": {
+    "created_prompt": "I am looking for a 3 year plan to help me reach my goals.  I have 1.2 million social media followers for my healthy recipes and want to grow my online presence and publish a cookbook as part of this 3 year plan.  I have limited time and budget. should I do traditional publishing or Self-publishing. Pros and cons of both, and help me with my plan.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 2
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 2
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.333,
+    "median_score": 2,
+    "submitted_at": "2026-08-10T20:49:36.770330+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_baseline_othello",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p692": {
+    "created_prompt": "Create a definitive and detailed 3 year plan to grow my cooking and recipe video business online giving consideration to my limited time and budget.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 2
+      },
+      {
+        "model": "gpt",
+        "score": 2
+      },
+      {
+        "model": "nemotron",
+        "score": 1
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 1.667,
+    "median_score": 2,
+    "submitted_at": "2026-08-10T16:28:13.123794+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_baseline_othello",
+    "tier": 2,
+    "prior_games": []
+  },
+  "p247": {
+    "created_prompt": "I need a three year plan to develop my online presence as a cook / deviser of recipes which I can execute in four days a week without spending much money.",
+    "judges": [
+      {
+        "model": "gpt",
+        "score": 2
+      },
+      {
+        "model": "llama",
+        "score": 2
+      },
+      {
+        "model": "nemotron",
+        "score": 1
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 1.667,
+    "median_score": 2,
+    "submitted_at": "2026-08-10T15:12:19.466876+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_baseline_othello",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p41": {
+    "created_prompt": "As an influencer prepare a three year plan for posting blogs on cooking using attached videos. Plan should be prepared to create four posts a week. Posts with recepies should take into account season, so that meals are prepared with fresh and healthy ingredients, locally obtainable. Posts on Friday should include recepies for more complicated meals, to be prepared during weekend when a person has more time, so that preparation time is around an hour. Posts during regular week should include recepies that take no more than half an hour to prepare. Make sure to include local cuisines like Italian, Spanish and French.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 2
+      },
+      {
+        "model": "gpt",
+        "score": 2
+      },
+      {
+        "model": "nemotron",
+        "score": 1
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 1.667,
+    "median_score": 2,
+    "submitted_at": "2026-08-10T15:09:35.610308+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_baseline_othello",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p336": {
+    "created_prompt": "Prepare  plans for publishing Jiule's recipies, selecting those corresponding to her 50 most popular videos, over a three year time-scale. Consider both self-publishing and traditional publishing routes.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 2
+      },
+      {
+        "model": "gpt",
+        "score": 2
+      },
+      {
+        "model": "nemotron",
+        "score": 2
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.0,
+    "median_score": 2,
+    "submitted_at": "2026-08-10T21:09:01.269862+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_baseline_othello",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p242": {
+    "created_prompt": "Julie posts videos to many followers who love her recipes. Over the next three years she would like to grow her online presence and publish a cookbook (still to be decided whether she will publish it herself or go the traditional route.  Can you help devise a solid 3 year plan for her?",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 2
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 2
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.333,
+    "median_score": 2,
+    "submitted_at": "2026-08-11T00:09:39.605971+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_baseline_othello",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p845": {
+    "created_prompt": "Hello,\r\nI\u2019m Julie, a food influencer who creates healthy, quick recipes. I usually get 1.2 million views\r\nOver the next three years, I want to grow my online presence and publish a cookbook. Bearing in mind that I work four days a week, I have limited time and budget.\r\nI\u2019d like you to draw up a concrete three-year plan.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 2
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.667,
+    "median_score": 3,
+    "submitted_at": "2026-08-10T14:57:50.671951+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_baseline_othello",
+    "tier": 2,
+    "prior_games": []
+  },
+  "p665": {
+    "created_prompt": "Collect the cooking recipes from the videos and display them in the form of a cookbook that can be published.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 1
+      },
+      {
+        "model": "gpt",
+        "score": 1
+      },
+      {
+        "model": "nemotron",
+        "score": 1
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 1.0,
+    "median_score": 1,
+    "submitted_at": "2026-08-07T16:56:02.695193+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_baseline_othello",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p604": {
+    "created_prompt": "Please write a clear, confident three-year plan for a person who is unsure where to go with thier blossoming social media career and finds the fast-changing pace overwhelming and is already busy as a working mother of an adoptee child.\r\n\r\nHere current set-up is: \r\n - 1.2M followers\r\n - she makes quick, healthy recipes\r\n - she's been been approached to publish a cookbook\r\n - shes budy with work and parenting and find the pace of social media attention overwhelming \r\n\r\n Here are her aims, in loose:\r\n\r\n - she wants to publish a cookbook, but may want to publish herself rather with a literary agetnt (Important: help her weigh up her options here and encourage a decision as part of her thrre-year plan)\r\n\r\n -  she hope to mix her recipes with her travel stories from a France trip, which takes on a more indulgent edge\r\n\r\n - she loves what she does but is overhwlmed by the pace and pressure of social media popularity. Advise how she can managed this as part of her three-year plan.\r\n\r\n - \r\n\r\n -",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "qwen",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 2
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.667,
+    "median_score": 3,
+    "submitted_at": "2026-06-26T23:40:30.789522+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_pre_filter",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p506": {
+    "created_prompt": "I want to grow my career, I've recently been offered a cookbook publishing deal which I'm keen to explore. But, my current life is quite full-on, I work 4 days per week, and I've just adopted a child. I want to create a 3-year plan that isn't going to overwhelm me, can you help?",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "qwen",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 2
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.667,
+    "median_score": 3,
+    "submitted_at": "2026-06-27T00:46:45.057563+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_pre_filter",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p757": {
+    "created_prompt": "I need a workable specific 3 year plan for growing my cooking video content following into a larger online presence (1 million plus currently). I want to travel to France and creatively combinefood blog content with the travel experience. My finances and time are limited for building it but I'm willing to work toward this goal gradually.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "qwen",
+        "score": 2
+      },
+      {
+        "model": "gpt",
+        "score": 2
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.333,
+    "median_score": 2,
+    "submitted_at": "2026-06-26T22:31:01.761785+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_pre_filter",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p156": {
+    "created_prompt": "Can you help Julie with creating a 3 year plan? She has a low budget and limited time and isn't sure where to start. She wants to publish a cookbook - should she use an agent or self-publish? She wants to start a food blog mixing recipes with stories from a French trip.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 2
+      },
+      {
+        "model": "qwen",
+        "score": 2
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.333,
+    "median_score": 2,
+    "submitted_at": "2026-06-27T00:00:13.999162+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_pre_filter",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p837": {
+    "created_prompt": "Act as a career planning expert and create a three-year plan for a busy, budget-limited, easy overwhelmed, Mom influencer (1.2M followers) who wants to grow online, publish a cookbook, and start a food blog.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "qwen",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 2
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.667,
+    "median_score": 3,
+    "submitted_at": "2026-06-26T22:40:21.385016+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_pre_filter",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p462": {
+    "created_prompt": "Jefferson freelances as a Tech Consultant, focusing on practical business solutions. For the next 3-5 months, they would like to get their solutions in-front of a more targeted audience. He would like to move from doing simple solutions to more involved and more specifically data engineering solutions. They work almost any day of the week, but always make at least 2-3 free multi-hour blocks of time per week.\r\n\r\nThe goal for the AI agent here is to lay out a path to follow for the next 3-5 months, increasing audience targeting.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 2
+      },
+      {
+        "model": "qwen",
+        "score": 3
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.667,
+    "median_score": 3,
+    "submitted_at": "2026-06-26T21:48:27.023159+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_pre_filter",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p116": {
+    "created_prompt": "My life has been an absolute mess lately. It's like I have no time anymore to do any of the things I once enjoyed, like playing guitar or working in my garden. All I do now is work, work, work. It's really starting to take a toll on me physically. I'm putting on weight, and I can't help but to notice the bags under my eyes getting larger with each passing day.\r\n\r\nWhat I want is for you to take on the role of my life coach. I want you to help me get back on the right track. Please, be positive, but also do not be afraid to be firm.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 2
+      },
+      {
+        "model": "qwen",
+        "score": 2
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.333,
+    "median_score": 2,
+    "submitted_at": "2026-06-27T00:25:43.646496+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_pre_filter",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p328": {
+    "created_prompt": "I want help creating a 3 year plan that will help me grow my online following, publish a cookbook and start an indulgent food blog that mixes travel and recipes. I have a very busy personal schedule including work and a family and I need a plan that is efficient and not overwhelming.",
+    "judges": [
+      {
+        "model": "qwen",
+        "score": 3
+      },
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 2
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.667,
+    "median_score": 3,
+    "submitted_at": "2026-06-26T23:31:02.153930+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_pre_filter",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p345": {
+    "created_prompt": "Please help me create a three year plan to accomplish the below three goals while still keeping a tight budget and having time for my new child:\r\n1. Expand the reach of my online cooking videos\r\n2. Publish a cookbook (whether self vs. traditional)\r\n3. Start a food blog the mixes travel stories and recipes",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "qwen",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 2
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.667,
+    "median_score": 3,
+    "submitted_at": "2026-06-26T23:15:46.747696+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_pre_filter",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p622": {
+    "created_prompt": "How many videos should you publish each month to achieve this goal?",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 1
+      },
+      {
+        "model": "gpt",
+        "score": 1
+      },
+      {
+        "model": "nemotron",
+        "score": 1
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 1.0,
+    "median_score": 1,
+    "submitted_at": "2026-08-05T13:28:39.158047+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_othello",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p304": {
+    "created_prompt": "In three years i want to publish my own cookbook. I have limited time each week but love to cook when I can. Within this timeframe can you devise a plan of action to complete my goal. With 1.2m followers i already have an audience and wish to use only healthy recipes",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 2
+      },
+      {
+        "model": "gpt",
+        "score": 2
+      },
+      {
+        "model": "nemotron",
+        "score": 1
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 1.667,
+    "median_score": 2,
+    "submitted_at": "2026-08-05T14:17:29.554157+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_othello",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p210": {
+    "created_prompt": "Come up with a concrete three year plan to help Julie grow her online cooking endeavour from just videos of recipes to her own cookbook and a bigger online presence. She only works four days a week and budget and time are limited.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 2
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.667,
+    "median_score": 3,
+    "submitted_at": "2026-08-07T14:48:59.250507+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_othello",
+    "tier": 2,
+    "prior_games": []
+  },
+  "p287": {
+    "created_prompt": "There is a northbound hiker on the PCT who would like to do a 150 mile section with his wife.  The wife has some requests and non-negotiables.  She does not want to hike in the desert heat.  Any portion of the hike that dips below 2000 feet in elevation is out.  She would also like to have a hotel option every four or five days.  They can hike 15-20 miles a day. Include while mile and approximate trail head or town they'd start and finish in.  Present three options that would work for this couple, listed as plans A, B, and C.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 1
+      },
+      {
+        "model": "gpt",
+        "score": 1
+      },
+      {
+        "model": "nemotron",
+        "score": 1
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 1.0,
+    "median_score": 1,
+    "submitted_at": "2026-08-04T18:19:10.870266+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_othello",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p152": {
+    "created_prompt": "Year 1 create a website with links to recipes and blogposts.\r\nYear 2 collect the data from visitors and present to pulibishers to convince them to publish the book.\r\nYear 3 collect the most viewed recipes from the site and create the cookbook.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 1
+      },
+      {
+        "model": "gpt",
+        "score": 2
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.0,
+    "median_score": 2,
+    "submitted_at": "2026-08-07T14:19:17.494874+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_othello",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p730": {
+    "created_prompt": "Can you devise a business plan to accomplish increasing my viewers to my cooking demos and publishing a cookbook.  My constraints are that I am available one day a week and have a limited budget but would like to accomplish this goal in 3 years.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 2
+      },
+      {
+        "model": "gpt",
+        "score": 2
+      },
+      {
+        "model": "nemotron",
+        "score": 2
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.0,
+    "median_score": 2,
+    "submitted_at": "2026-08-05T16:52:31.338683+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_othello",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p552": {
+    "created_prompt": "Give me a three-year plan for growing my 1.2 million online follower audience and publishing or self-publishing a collection of my speedy but healthy recipes with time and financial constraints somewhat limiting my options.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 2
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.667,
+    "median_score": 3,
+    "submitted_at": "2026-08-05T17:04:46.585904+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_othello",
+    "tier": 2,
+    "prior_games": []
+  },
+  "p190": {
+    "created_prompt": "You are a content creation consultant with extensive experience with developing strategies for growing the online presence of creators. I post cooking videos online to my 1.2M followers, who love my focus on quick, healthy recipes. I need you to devise an actionable, 3-year plan to grow my online presence and leverage this to publish a highly successful cookbook. I will be working 4 days a week and have a limited budget, so it is imperative that your plan will fit into my limited remaining time and financial constraints.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 2
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.667,
+    "median_score": 3,
+    "submitted_at": "2026-08-07T14:22:36.456534+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_othello",
+    "tier": 2,
+    "prior_games": []
+  },
+  "p753": {
+    "created_prompt": "I have limited time and money, but I need a 3 year plan to grow my cooking channel. I post cooking videos that have healthy recipes, and I hope to publish a cookbook that's either traditional or self-published.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 2
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 2
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.333,
+    "median_score": 2,
+    "submitted_at": "2026-08-04T13:47:53.123863+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_othello",
+    "tier": 2,
+    "prior_games": [
+      "connect_four"
+    ]
+  },
+  "p252": {
+    "created_prompt": "Create a detailed business plan to accomplish the following. This plan should include a breakdown of each steps, goals and timeframes for each and be realistic to aim.\r\n\r\nJulie currently has 1.2 million followers and posts cooking videos. By the end of the next three years, she would like to grow her following and also publish a cooking book. For the book, Julie is not sure whether to self publish or go the traditional route. Create two versions of the business plan which compare the options, the steps involved in each, and the associated advantages and disadvantages.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 2
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.667,
+    "median_score": 3,
+    "submitted_at": "2026-08-07T12:47:17.269712+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_othello",
+    "tier": 2,
+    "prior_games": []
+  },
+  "p14": {
+    "created_prompt": "3-year plan grow vlog cookbook traditional vs. self-publishing four days weekly limited time budget",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 1
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 1
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 1.667,
+    "median_score": 1,
+    "submitted_at": "2026-08-05T14:56:44.960944+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_othello",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p451": {
+    "created_prompt": "-Shawn wants to retire and live self-sustainably off grid in the next two years.\r\n-He already has a 10 acre plot of land. He needs the framework for building everything he needs on this property, electrical, water, food, home, etc. \r\n-He is able to work every weekend on this. His budget is reasonable, but not extravagant.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 1
+      },
+      {
+        "model": "gpt",
+        "score": 1
+      },
+      {
+        "model": "nemotron",
+        "score": 1
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 1.0,
+    "median_score": 1,
+    "submitted_at": "2026-08-05T14:47:17.255952+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_othello",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p683": {
+    "created_prompt": "create a 3 year plan to grow a cooking platform with over a million followers and  publish a cookbook while working with limited time and money",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 2
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 2
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.333,
+    "median_score": 2,
+    "submitted_at": "2026-08-05T13:36:21.809722+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_othello",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p101": {
+    "created_prompt": "Background. I am a cooking influencer known for quick health ly recipes.\r\n\r\nI work a normal job four days a week so have limited time to devote.to cooking \r\n\r\nI need an action able plan to grow audience and produce a cookbook.\r\n\r\nThree year timeframe with clear milestones.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 2
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.667,
+    "median_score": 3,
+    "submitted_at": "2026-08-05T13:31:33.992885+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_othello",
+    "tier": 2,
+    "prior_games": [
+      "connect_four"
+    ]
+  },
+  "p453": {
+    "created_prompt": "Help create a schedule for me to create and try out various recipes so that I can make a cookbook over the next three years. It needs to be budget friendly, and I also need some tips on growing my online fan base.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 2
+      },
+      {
+        "model": "gpt",
+        "score": 2
+      },
+      {
+        "model": "nemotron",
+        "score": 1
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 1.667,
+    "median_score": 2,
+    "submitted_at": "2026-07-30T18:44:02.482867+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_othello",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p497": {
+    "created_prompt": "Violet wants to open a sourdough bread bakery. She knows the basics of sourdough making but needs to refine her skills. She is currently working a full time job 8 hours per day 5 days per week, but wants to learn enough about bread making in the next 2 years to be able to quit and open her bakery. Please come up with a 2 year plan for how Violet can accomplish this.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 1
+      },
+      {
+        "model": "nemotron",
+        "score": 1
+      },
+      {
+        "model": "gpt",
+        "score": 1
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 1.0,
+    "median_score": 1,
+    "submitted_at": "2026-07-30T19:10:17.406227+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_phase_othello",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p174": {
+    "created_prompt": "I need a 3 year plan to help me achieve my goals over growing my online presence as well as publishing my own cookbook. I want to base my offering in quick healthy recipes . I currently work 4 days a week so my time is limited as is my budget.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 2
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      }
+    ],
+    "n_judges": 2,
+    "mean_score": 2.5,
+    "median_score": 2.5,
+    "submitted_at": "2026-07-22T14:42:01.084890+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_baseline_pro",
+    "tier": 1,
+    "prior_games": []
+  },
+  "p452": {
+    "created_prompt": "Please give me a three year plan to grow my social media cooking videos account. I also want to create a cooking book in this same time (which can be adpated from the cooking videos) Please have me with a solid plan.",
+    "judges": [
+      {
+        "model": "llama",
+        "score": 2
+      },
+      {
+        "model": "gpt",
+        "score": 2
+      }
+    ],
+    "n_judges": 2,
+    "mean_score": 2.0,
+    "median_score": 2.0,
+    "submitted_at": "2026-07-22T13:05:26.599147+00:00",
+    "source": "phase_1_carryover",
+    "source_study": "game_user_study_baseline_pro",
+    "tier": 1,
+    "prior_games": []
+  }
+}

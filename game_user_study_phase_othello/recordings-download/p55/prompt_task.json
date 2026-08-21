@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Please devise a concrete three year plan to help me grow my online following from its current level of 1.2 million followers and publish my own cookbook.\r\n\r\nPlease outline steps for how i can focus on quick and healthy recipes and set out the pros and cons for self-publishing a recipe book versus going through traditional publishing routes.\r\n\r\nPlease tailor any plan to my availability. Currently I work four days per week so have limited free time. I am also on a limited budget so tailor the approach to work within a manageable budget.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-05T13:44:51.661403+00:00"
+}

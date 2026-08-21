@@ -1,0 +1,25 @@
+{
+  "created_prompt": "im an online cooking content creator that posts quick healthy recipes, i intend to publish a cookbook either traditional or self publishing. I have a limited budget and work 4 days a week. give me a 3 year roadmap to ensure i hit these goals",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.667,
+  "submitted_at": "2026-08-18T16:57:05.129529+00:00"
+}

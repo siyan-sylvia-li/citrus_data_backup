@@ -1,0 +1,34 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "When I place a disc, does it only need to trap white discs in one direction to be legal, or does it have to trap them in every direction around the square?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "b6 is listed as legal, but to its left is a white disc on a6 and then the edge. How come it still counts?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I started with 20 discs, played 3 moves, but ended with 20. How does placing a disc not increase my total count? Does my own disc get subtracted somewhere?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "When white took that corner at a1, it flipped discs all the way across the top row and down column a. Does a corner move always flip every disc along the edges, or does it need black discs on both sides?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "At the very end white played c8 and then b7 was the only legal move left for me. a7 and a8 were still empty \u2014 how come they weren't legal?"
+  }
+]

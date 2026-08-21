@@ -1,0 +1,19 @@
+{
+  "created_prompt": "I create cooking videos.  During these videos I supply a quick and healthy recipe to my  viewers.  I want to grow my online audience and I also want to create and publish a cookbook with my recipes.  Can you supply me a three year plan with actual practical steps to grow my online presence and also so that at the end of three years I am able to publish my book.  You need to account for preparation for the videos, research for how to publish the book, collection, sorting and editing of recipes and more.  I can work four days a week on this project and I have a limited budget.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-22T13:19:30.729185+00:00"
+}

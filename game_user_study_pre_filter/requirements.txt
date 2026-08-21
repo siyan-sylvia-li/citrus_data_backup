@@ -1,0 +1,7 @@
+Flask>=3.0.0
+gunicorn>=21.0.0
+markdown>=3.5
+openai>=1.51.0
+python-dotenv>=1.0.0
+dspy>=2.5
+Pillow>=10

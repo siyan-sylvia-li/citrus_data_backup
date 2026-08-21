@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Please create a three year plan for a cooking influencer with 1.2 million followers to grow online and move into the publishing world. The core brand is currently focused around Julie who helps others with quick, healthy recipes. The plan should not require a significant financial outlay, should provide guidance on what kind of publishing route julie should take, and should review her online presence to discuss how she should grow it further.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-05T16:53:15.633419+00:00"
+}

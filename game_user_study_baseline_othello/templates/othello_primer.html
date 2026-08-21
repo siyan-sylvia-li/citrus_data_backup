@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Study — Quick rules primer</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  <style>
+    .primer__intro { color: #444; line-height: 1.55; margin: 0 0 1.25rem; }
+    .primer__subtitle { margin: 1.5rem 0 0.5rem; color: #2D5A43; font-size: 1.05rem; }
+    .primer__rules { padding-left: 1.1rem; line-height: 1.55; margin: 0 0 1.25rem; }
+    .primer__rules li { margin-bottom: 0.4rem; }
+    .primer__note {
+      background: #e8f1ec; border-radius: 6px; padding: 0.85rem 1rem;
+      line-height: 1.5; margin: 0 0 1.5rem; font-size: 0.95rem;
+    }
+    .primer__figure { display: block; margin: 0 auto 1.25rem; max-width: 300px; width: 100%; }
+    .primer__btn {
+      display: inline-block; width: 100%; box-sizing: border-box;
+      text-align: center; text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <h1 class="topbar__title">Game Study</h1>
+  </header>
+
+  <main class="start">
+    <div class="start__card">
+      <h2 class="start__title">Quick rules primer</h2>
+      <p class="primer__intro">
+        You're about to play three short <strong>Othello</strong> (also called Reversi) endgame puzzles.
+        You'll have <strong>5 minutes</strong> for the first and <strong>90 seconds</strong> for each
+        of the other two to <strong>play the position out to the end</strong>.
+      </p>
+
+      <img class="primer__figure"
+        src="{{ url_for('static', filename='othello.png') }}"
+        alt="An Othello board: black and white discs on a green 8x8 grid, with pale dots marking the legal moves" />
+
+      <h3 class="primer__subtitle">Othello rules</h3>
+      <ul class="primer__rules">
+        <li>Players take turns placing one disc of their color on an empty square.</li>
+        <li>A move is only legal if it <strong>traps</strong> a straight line of the
+          opponent's discs between the disc you just played and another of your own.</li>
+        <li>Every trapped disc <strong>flips</strong> to opposite color.</li>
+        <li>The game ends when neither player can move. <strong>Whoever has more discs
+          on the board wins.</strong></li>
+      </ul>
+
+      <a href="{{ url_for('study') }}" class="start__btn primer__btn">Start the game</a>
+    </div>
+  </main>
+</body>
+</html>

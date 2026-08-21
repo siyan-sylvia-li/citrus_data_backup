@@ -1,0 +1,18 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "i'm getting crushed here lol. between g2 and c8, which one is the better play?"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  }
+]

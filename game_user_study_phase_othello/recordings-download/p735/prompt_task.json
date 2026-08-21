@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I want to create a concrete three year plan to grow my presence online and publish my own cookbook. I currently have 1.2 million followers. My niche market is those who love quick, healthy recipes. I am undecided on the best way to publish my cookbook, traditional or self published. I only have four days a week I can work and limited time and budget.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-04T14:05:21.902859+00:00"
+}

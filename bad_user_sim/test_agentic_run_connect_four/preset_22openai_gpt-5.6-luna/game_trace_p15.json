@@ -1,0 +1,34 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Can you identify the optimal first move here and the key reason, especially any forced win or immediate threat?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After my 4 and Yellow's 5, the position is tactical. What is Red's best next column, and what threat does it create?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "The board now has Red at c4 rows 3-4 and Yellow just played c1. Is c4 still best, or should I play elsewhere? Please give just the strongest column and brief tactical line."
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  }
+]

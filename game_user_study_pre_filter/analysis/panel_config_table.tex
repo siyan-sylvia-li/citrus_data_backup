@@ -1,0 +1,29 @@
+% Requires \usepackage{booktabs}
+% Panel-vs-human agreement for judge-panel configurations (screener, n=34).
+\begin{table}[t]
+\centering
+\caption{Multi-model judge-panel configurations vs.\ a single human rater on the
+prompt-quality screener ($n{=}34$). Agreement is reported as ICC(2,1) (absolute
+agreement), quadratic-weighted $\kappa$, and Pearson $r$ between the panel score
+and the human evaluation; ``Exact'' is the exact-match rate of the rounded panel
+score (within-1-point agreement was $100\%$ for every configuration). ``Mean''
+is the panel's mean score (human mean $=2.53$); ``Latency'' is the mean panel
+wall-clock with the three models run in parallel. The chosen configuration is in
+bold.}
+\label{tab:panel-configs}
+\begin{tabular}{lcccccc}
+\toprule
+Panel configuration & ICC(2,1) & $\kappa_w$ & $r$ & Exact & Mean & Latency \\
+\midrule
+gpt-5.5 + ChainOfThought & 0.865 & 0.861 & 0.856 & 74\% & 2.53 & $\sim$7.0\,s \\
+gpt-5.5 + Predict & 0.829 & 0.825 & 0.856 & 68\% & 2.56 & $\sim$7.0\,s \\
+\textbf{gpt-5.4-mini CoT + Qwen/Llama Predict} & \textbf{0.817} & \textbf{0.812} & \textbf{0.877} & \textbf{68\%} & \textbf{2.64} & \textbf{$\sim$2.7\,s} \\
+gpt-5.4-mini + Predict (all) & 0.797 & 0.792 & 0.826 & 62\% & 2.72 & $\sim$1.7\,s \\
+gpt-5.5-mini + Predict$^{\dagger}$ & 0.766 & 0.761 & 0.859 & 59\% & 2.59 & --- \\
+\bottomrule
+\end{tabular}
+
+\vspace{2pt}
+{\footnotesize $^{\dagger}$Invalid model id: \texttt{gpt-5.5-mini} errored on
+all prompts, so this row is effectively the Qwen$+$Llama (Together-only) panel.}
+\end{table}

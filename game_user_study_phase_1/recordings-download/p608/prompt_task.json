@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Create a concrete three-year plan for somebody who posts quick and healthy cooking videos to 1.2 million followers and wants to grow online and publish a cookbook (either traditionally or self-published; not sure) and works 4 days weekly with limited time and budget.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-03T15:56:07.121563+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Can you help me make a three year plan for a cooking video channel. I have 1.2m followers and my channel features quick and healthy recipes. I work four days a week.  MY goal is grow my online channel, but I have a limited budget and limited time. I also want to publish a cookbook, but I don't know if I should self-publish or go traditional. Can you help me make a three year plan to meet my goals?",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-05T14:11:47.814385+00:00"
+}

@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Julie posts cooking videos to 1.2M followers who love her quick, healthy recipes. Over the next three years she wants to grow online and publish a cookbook (torn on traditional vs. self-publishing). She works four days weekly, with limited time and budget. Given this information, I want you to act as a career coach and mentor, and give me a concrete three-year action plan broken down into monthly actions for Julie, that are both achievable and realistic. This action plan should culminate in Julie being able to publish a cookbook AND grow her online channel. As she is torn between traditional or self-publishing, you need to be clear on the pros and cons of each, and if the three-year plan needs to branch at any point, make that clear within the plan itself.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 4
+    },
+    {
+      "model": "gpt",
+      "score": 4
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 4.0,
+  "median_score": 4.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-16T14:43:22.831036+00:00"
+}

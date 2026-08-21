@@ -1,0 +1,23 @@
+{
+  "created_prompt": "So I post videos that feature me cooking quick and healthy recipes. I have around 1.2 million followers which seems to be a good amount of fans. I figure that since they seem to love my featured recipes, I'd like to grow my online presence and eventually publish a cookbook. However, I work four days a week and have a limited amount of time and budget to work with towards these goals. Could you help me create a concrete three-year plan to help me grow my online presence and publish a cookbook? I'm torn between going the traditional publishing versus self-publishing route so if you could incorporate the pros and cons in the plan that would be great.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "qwen",
+      "score": null
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-15T18:09:41.707098+00:00"
+}

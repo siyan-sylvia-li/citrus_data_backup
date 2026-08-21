@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Please generate a three-year plan to accomplish the following: increase viewership and retention for my cooking channel, and publish a cookbook of my quick and healthy recipes. Please compare and contrast self-publishing and traditional publishing options, giving the pros and cons of each. Special consideration: I have limited time and funds to accomplish my goals, so please take that into consideration when you draft the 3-year plan.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-10T23:07:09.834446+00:00"
+}

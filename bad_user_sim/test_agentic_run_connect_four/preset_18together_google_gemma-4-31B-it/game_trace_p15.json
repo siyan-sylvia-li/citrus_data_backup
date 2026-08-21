@@ -1,0 +1,30 @@
+[
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 2
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at the board and I'm not seeing an obvious winning move. What's the best move for Red here to secure a win or a draw?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 1
+  }
+]

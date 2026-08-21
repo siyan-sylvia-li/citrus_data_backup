@@ -1,0 +1,45 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I'm thinking c8 might flip a good number of discs. Is that the best move, or is something like b8 or a7 better in the endgame? I don't want to give away too many corners."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "b6 flips a lot of discs right now. Is that the move to make here, or will I regret opening things up for White?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "a7 looks strong because it flips c7 and b7 back and secures the 7th rank. Is that the move here, or is g2 better to keep White's options limited? b6 seems like it opens too much."
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "was g2 at the end the best play, or could a1 have been better? i just went with g2 since white was passing."
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "When I played g2 near the end and White replied h1, the system auto-played a1 for me. Was a1 definitely the right square there, or was g2 actually the better move to maximize my final score?"
+  },
+  {
+    "tool": "view_board"
+  }
+]

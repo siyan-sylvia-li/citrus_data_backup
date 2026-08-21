@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I'm thinking b6 or maybe c8, but I'm not sure. Which one is better?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White took a8. I'm thinking b6 because it looks like it flips more, but is that a mistake?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm not sure what to do now. maybe b6? or g2?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at this board and it's a bit overwhelming. I'm thinking b7, does that look like a good start?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at this board... it's a lot. I think b6 or c8? Which is better?"
+  }
+]

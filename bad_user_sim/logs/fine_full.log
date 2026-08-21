@@ -1,0 +1,71 @@
+  20/600 turns
+  40/600 turns
+  60/600 turns
+  80/600 turns
+  100/600 turns
+  120/600 turns
+  140/600 turns
+  160/600 turns
+  180/600 turns
+2026/08/10 22:14:46 WARNING dspy.clients.lm: LM response was truncated due to exceeding max_tokens=2048. You can inspect the latest LM interactions with `dspy.inspect_history()`. To avoid truncation, consider passing a larger max_tokens when setting up dspy.LM. You may also consider increasing the temperature (currently None)  if the reason for truncation is repetition.
+  200/600 turns
+  220/600 turns
+  240/600 turns
+  260/600 turns
+  280/600 turns
+  300/600 turns
+  320/600 turns
+  340/600 turns
+  360/600 turns
+  380/600 turns
+  400/600 turns
+annotated 418 turn(s)
+
+==============================================================================
+1. PREVALENCE  (538 turns)
+==============================================================================
+                       fine code   turns  prevalence   flag
+                    Move Verdict     471       87.5%   
+                    Board Report     186       34.6%   
+             Local Justification     522       97.0%   SATURATED
+                     Worked Line     124       23.0%    *
+               General Principle      95       17.7%    *
+                            Hint      86       16.0%   
+                          Prompt      63       11.7%   
+  Comprehension Gauging Question       0        0.0%   too rare
+                      Paraphrase      23        4.3%   
+               Positive Feedback     100       18.6%   
+               Negative Feedback      20        3.7%   
+                Neutral Feedback      11        2.0%   
+  * pre-registered as transfer-bearing
+
+==============================================================================
+2. RELIABILITY
+==============================================================================
+mean pairwise Jaccard: 0.740
+Fleiss kappa (macro) : 0.523
+                    Move Verdict    0.834
+                    Board Report    0.366   BELOW 0.5
+             Local Justification    0.595
+                     Worked Line    0.574
+               General Principle    0.463   BELOW 0.5
+                            Hint    0.679
+                          Prompt    0.876
+  Comprehension Gauging Question      n/a
+                      Paraphrase    0.282   BELOW 0.5
+               Positive Feedback    0.454   BELOW 0.5
+               Negative Feedback    0.358   BELOW 0.5
+                Neutral Feedback    0.273   BELOW 0.5
+
+==============================================================================
+3. ROLL-UP FIDELITY
+==============================================================================
+fine labels collapse to the stored coarse labels on 411/538 turns (76%)
+  coarse-only: -    fine-only: ['Positive Feedback']
+  coarse-only: -    fine-only: ['Positive Feedback']
+  coarse-only: ['Positive Feedback']    fine-only: -
+  coarse-only: ['Negative Feedback']    fine-only: -
+  coarse-only: -    fine-only: ['Positive Feedback']
+  coarse-only: ['Hint']    fine-only: ['Neutral Feedback', 'Positive Feedback', 'Provide Correct Answer']
+  Disagreement is not automatically a defect: the two schemes were coded
+  in separate panel runs, so some of it is ordinary annotator variance.

@@ -1,0 +1,19 @@
+{
+  "created_prompt": "I am Julie and I have 1.2M followers in my recipe page. Over the next 3 years I want to grow online and publish a cookbook, either traditional or self-publishing. I have a limited budget and also work 4 days a week, so I have limited time. Please create me a concrete three-year plan.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-22T21:58:56.945351+00:00"
+}

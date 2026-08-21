@@ -1,0 +1,89 @@
+{
+  "log": [
+    {
+      "event": "round_presented",
+      "timestamp": 1787315761632,
+      "round": 1,
+      "option_order": [
+        "think_1",
+        "direct_1"
+      ]
+    },
+    {
+      "event": "started",
+      "timestamp": 1787315761632
+    },
+    {
+      "event": "johnny_choice",
+      "timestamp": 1787315782924,
+      "round": 1,
+      "choice_id": "direct_1",
+      "choice_type": "solution_request",
+      "presented_index": 1,
+      "knowledge_added": null
+    },
+    {
+      "event": "round_presented",
+      "timestamp": 1787315789564,
+      "round": 2,
+      "option_order": [
+        "check_2",
+        "direct_2"
+      ]
+    },
+    {
+      "event": "johnny_choice",
+      "timestamp": 1787315794859,
+      "round": 2,
+      "choice_id": "check_2",
+      "choice_type": "knowledge_question",
+      "presented_index": 0,
+      "knowledge_added": "opponentReply"
+    },
+    {
+      "event": "independent_started",
+      "timestamp": 1787315799915,
+      "knowledge": [
+        "opponentReply"
+      ]
+    },
+    {
+      "event": "independent_scenario_presented",
+      "timestamp": 1787315799915,
+      "target": "opponentReply"
+    },
+    {
+      "event": "independent_choice",
+      "timestamp": 1787315809179,
+      "selected": "opponentReply",
+      "target": "opponentReply",
+      "correct": true
+    },
+    {
+      "event": "outcome_shown",
+      "timestamp": 1787315815352,
+      "knowledge": [
+        "opponentReply"
+      ],
+      "transfer_success": true
+    },
+    {
+      "event": "completed",
+      "timestamp": 1787315827815
+    }
+  ],
+  "knowledge": [
+    "opponentReply"
+  ],
+  "transfer_success": true,
+  "n_restarts": 0,
+  "choice_types": [
+    "solution_request",
+    "knowledge_question"
+  ],
+  "independent_choice": "opponentReply",
+  "independent_target": "opponentReply",
+  "form": "johnny_connect_four_boost",
+  "effort": null,
+  "submitted_at": "2026-08-21T12:37:07.322907+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "created_prompt": "How do I create a three year plan for publishing a cookbook? I have 1.2 million followers who watch my recipe videos. I work four days weekly  with limited time and budget. I also want to know if I should do traditional or self-publishing?",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.667,
+  "submitted_at": "2026-08-20T01:40:03.375579+00:00"
+}

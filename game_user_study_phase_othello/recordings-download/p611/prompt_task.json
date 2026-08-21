@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I need a three year concrete plan for my cooking channel. I currently have 1.2 million followers who like my show and over the next three years I want to continue to grow and publish my own cookbook. I am torn between doing traditional publishing or doing self publishing. I currently work four days a week and have limited time and budget, can you work with me to create a three year plan that can work within these constraints to help me divise a three year growth plan?",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-04T13:05:03.061721+00:00"
+}

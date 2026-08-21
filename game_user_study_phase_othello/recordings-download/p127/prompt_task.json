@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Can you please create me a three year plan to help my grow my online following whilst writing and publishing a cookbook. \r\n\r\nI post cooking videos for my followers online and need to decide between a traditional or self publishing method for my book. \r\n\r\nI have limited time and budget and work four days a week to please take this into consideration when creating the three year plan.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-05T14:34:37.877815+00:00"
+}

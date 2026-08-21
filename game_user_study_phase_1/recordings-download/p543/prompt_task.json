@@ -1,0 +1,19 @@
+{
+  "created_prompt": "I\u2019m helping Julie map out the next three years of her business. She creates quick, healthy cooking videos and already has an audience of about 1.2 million followers. Her main goals are to keep growing online and publish her first cookbook, but she\u2019s still unsure whether traditional publishing or self-publishing would be the better fit. She only works four days a week and doesn\u2019t have a huge budget, so the plan needs to be realistic. Can you put together a practical three-year roadmap with clear priorities, milestones, content ideas, audience and revenue goals, and a suggested timeline for the cookbook? I\u2019d also like a comparison of traditional versus self-publishing, including the pros and cons of each, and your recommendation based on her situation",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 4
+    },
+    {
+      "model": "llama",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.5,
+  "median_score": 3.5,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-22T22:13:50.854447+00:00"
+}

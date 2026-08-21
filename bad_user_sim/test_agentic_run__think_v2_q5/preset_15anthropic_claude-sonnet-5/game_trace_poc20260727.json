@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I'm Black, only 6 legal moves left (g2, b6, a7, b7, b8, c8) and 10 empty squares total. I'm behind in discs right now but you said that doesn't matter yet. Which of these moves gives me the best final count if White plays their best too?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now my choices are g2, b6, a7, c8, with 8 empty squares left. Which one sets me up best for the finish?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Down 22-36 now, 6 empty squares left, my options are g2, b6, a7. Which gives me the best shot at the end, even if I can't fully catch up?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Last stretch, only 4 empty squares left (a1, h1, g2, a3), and my legal moves are a1, g2, a3. Which one is best for the final tally?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Only 3 spots left, a1, h1, g2. My legal moves right now are a1 or g2. Which should I take first to end with the most discs?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "prolific_id": "preset_19together_google_gemma-4-31B-it",
+  "game": "connect_four",
+  "age": 51,
+  "education": "postgrad",
+  "occupation": "education",
+  "genai_usage": "weekly",
+  "student_model": "together:google/gemma-4-31B-it"
+}

@@ -1,0 +1,1328 @@
+[
+  {
+    "conversation_id":"26025a5e6bc9b7201b77fe96a43c351e",
+    "turn":0,
+    "text":"How do lungs of terrestrial organisms create a large and efficient gas exchange surface? How are gases moved in and out?\nHow does the arrangement of capillaries and alveoli promote rapid, efficient diffusion?\nWhat advantages and disadvantages come with different numbers of heart chambers?\nHow do heart chambers beat\u2014what initiates a heart beat? How do cells in a chamber contract together?  What ensures that the ventricle contracts after they are filled by the atria?\nHow do the structures of arteries, capillaries, and veins correlate to their respective functions?\nWhen can animals rely on just diffusion to obtain and distribute resources?  When is diffusion alone NOT enough? How do animals get around situations where diffusion alone is not enough?\nHow can the Fick equation help us understand the arrangement of different bulk flow systems?\nHow do insects exchange gases and nutrients? What are the advantages and disadvantages to their open circulatory system, and their tracheal gas exchange system?\nWhat problems of bulk flow do aquatic organisms face that terrestrial organisms don\u2019t?  How do fish gills help solve some of those problems?  Why is countercurrent flow more efficient than concurrent flow?\n Why is hemoglobin such a good molecule for oxygen transport?  \n What do we mean when we say hemoglobin shows cooperative binding? How does the hemoglobin binding curve demonstrate that hemoglobin is a cooperative protein? \n How does cooperativity help hemoglobin be responsive to the needs of tissue?\n How is carbon dioxide transported in blood?\n \n",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"8867c79f430d87af3985abe12479edde",
+    "turn":0,
+    "text":"what the difference between intermediate and final goods, please provide examples",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"8867c79f430d87af3985abe12479edde",
+    "turn":2,
+    "text":"how do capital goods like factories and  machines fit in these distinctions",
+    "acts":[
+      "Knowledge Deficit Question"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"8867c79f430d87af3985abe12479edde",
+    "turn":4,
+    "text":"how is the distinction between intermediate and final goods important for calculating gdp of a nation",
+    "acts":[
+      "Knowledge Deficit Question"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"8867c79f430d87af3985abe12479edde",
+    "turn":6,
+    "text":"are there any other reasons for only counting final products when calculating GDP",
+    "acts":[
+      "Knowledge Deficit Question"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"0e25aad90cc0f6f5734b12ebb3b201ec",
+    "turn":0,
+    "text":"Regarding foreign bodies that a person may accidentally swallow, when does this body pass through the digestive system and when does it get stuck, given the dimensions of the body in terms of diameter or length?",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"53ed00160bfb8ffc4268af91920cfb10",
+    "turn":0,
+    "text":"explique cette partie sur la confuguration logstash : \noutput {\n    if [@metadata][index] {\n        elasticsearch {\n            id => \"elaas-index\"\n            hosts => \"https:\/\/2e2b1e8798984f8394d843aa2ee91b6a.elasticaas.ocb.equant.com:9243\"\n            user => \"xxx\"\n            password => \"xxx\"\n            ssl => true\n            cacert => \"\/etc\/pki\/orange-internal-62-server-ca.pem\"\n            manage_template => false\n            ilm_enabled => false\n            action => \"create\"\n            index => \"%{[@metadata][index]}\"\n        }\n    }\n    stdout { codex => json }\n}\n",
+    "acts":[
+      "Knowledge Deficit Question"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"53ed00160bfb8ffc4268af91920cfb10",
+    "turn":2,
+    "text":"pardon je parlais de cette conf : \noutput {\n\n    elasticsearch {\n        id => \"elaas-inspect-sfs\"\n        hosts => \"https:\/\/elaas-inspec-dev.es.elasticaas.ocb.equant.com:9243\"\n        api_key => \"${APIKEY}\"\n        ssl => true\n        cacert => \"\/etc\/ssl\/certs\/orangeinternalg2-root.pem\"\n        manage_template => false\n        ilm_enabled => false\n        data_stream => \"true\"\n        data_stream_type => \"logs\"\n        data_stream_dataset => \"sfs\"\n        data_stream_namespace => \"prod\"\n    }\n    \n    stdout { codec => json }\n}",
+    "acts":[
+      "Conversational Acknowledgment"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"d60f290df6e80c508da811a846847b95",
+    "turn":0,
+    "text":"How to draw a horizontal line on the eabulder site?",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"eb7d9d82a1bc88952f743149f61968c0",
+    "turn":0,
+    "text":"What if the u.s had joined the axis powers before ww2 had begun?",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"eb7d9d82a1bc88952f743149f61968c0",
+    "turn":2,
+    "text":"What if Japan had never attacked Pearl harbor?",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"6f0f8cc5c8001c6e7b8f954ad390c1bd",
+    "turn":0,
+    "text":"How systematically learn Rf design?",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"71d5201dddf0009412757bd1d6acc1be",
+    "turn":0,
+    "text":"\u043f\u0440\u043e\u0434\u043e\u043b\u0436\u0438 \u043a\u043e\u0434 \u043d\u0430 js \u0441 \u043f\u043e\u043c\u043e\u0449\u044c\u044e three.js\n\u043d\u0443\u0436\u043d\u043e \u0434\u043e\u0431\u0430\u0432\u0438\u0442\u044c \u0432 \u0441\u0446\u0435\u043d\u0443 \u043c\u043e\u0434\u0435\u043b\u044c \u0441 \u0440\u0430\u0441\u0448\u0438\u0440\u0435\u043d\u0438\u0435\u043c .glb \u0441 \u0430\u043d\u0438\u043c\u0430\u0446\u0438\u0435\u0439\n\u043d\u0430\u0447\u0430\u043b\u043e \u043a\u043e\u0434\u0430:\nimport * as THREE from 'three';\n...",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"71d5201dddf0009412757bd1d6acc1be",
+    "turn":2,
+    "text":"\u0432 \u0441\u0446\u0435\u043d\u0443 \u043d\u0435 \u0434\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u0430 \u043a\u0430\u043c\u0435\u0440\u0430",
+    "acts":[
+      "Think Aloud"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"71d5201dddf0009412757bd1d6acc1be",
+    "turn":4,
+    "text":"vjltkm yt dblyj",
+    "acts":[
+
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"71d5201dddf0009412757bd1d6acc1be",
+    "turn":6,
+    "text":"\u043c\u043e\u0434\u0435\u043b\u044c \u043d\u0435 \u0432\u0438\u0434\u043d\u043e",
+    "acts":[
+      "Conversational Acknowledgment"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"71d5201dddf0009412757bd1d6acc1be",
+    "turn":8,
+    "text":"\u043f\u043e\u0447\u0435\u043c\u0443 \u0430\u043d\u0438\u043c\u0430\u0446\u0438\u044f \u043e\u0431\u044a\u0435\u043a\u0442\u0430 \u043d\u0435 \u043f\u0440\u043e\u0438\u0441\u0445\u043e\u0434\u0438\u0442?\n\u0432\u043e\u0442 \u0432\u0435\u0441\u044c \u043a\u043e\u0434:\n\n    \nimport * as THREE from 'three';\nimport { GLTFLoader } from 'three\/examples\/jsm\/loaders\/GLTFLoader';\n\nconst scene = new THREE.Scene();\n\n\/\/ \u0434\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u0442\u043e\u0447\u0435\u0447\u043d\u043e\u0433\u043e \u0441\u0432\u0435\u0442\u0430\nconst pointLight = new THREE.PointLight(0xffffff);\npointLight.position.set(25, 50, 25);\nscene.add(pointLight);\n\n\/\/ \u0434\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u0430\u043c\u0431\u0438\u0435\u043d\u0442\u043d\u043e\u0433\u043e \u0441\u0432\u0435\u0442\u0430\nconst ambientLight = new THREE.AmbientLight(0x404040);\nscene.add(ambientLight);\n\nconst camera = new THREE.PerspectiveCamera(75, window.innerWidth \/ window.innerHeight, 0.1, 1000);\nconst renderer = new THREE.WebGLRenderer();\nrenderer.setSize(window.innerWidth, window.innerHeight);\ndocument.body.appendChild(renderer.domElement);\n\nconst loader = new GLTFLoader();\nconst url = 'particles three js1.glb';\nloader.load(url, function (gltf) {\n  const model = gltf.scene;\n  model.scale.set(0.5, 0.5, 0.5);\n  model.position.set(0, 0, 0);\n  scene.add(model);\n\n  \/\/ \u0434\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u0430\u043d\u0438\u043c\u0430\u0446\u0438\u0438\n  const mixer = new THREE.AnimationMixer(model);\n  gltf.animations.forEach((clip) => {\n    mixer.clipAction(clip).play();\n  });\n\n  \/\/ \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430 \u043f\u043e\u0437\u0438\u0446\u0438\u0438 \u043a\u0430\u043c\u0435\u0440\u044b\n  camera.position.z = 5;\n  \/\/ \u041e\u0431\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a \u0441\u043e\u0431\u044b\u0442\u0438\u044f \u043a\u043e\u043b\u0435\u0441\u0438\u043a\u0430 \u043c\u044b\u0448\u0438\n  let cameraZ = camera.position.z;\n  window.addEventListener('wheel', (event) => {\n    cameraZ += event.deltaY * 0.003;\n    camera.position.z = cameraZ;\n    event.preventDefault();\n  }, { passive: false });\n\n  animate();\n\n  function animate() {\n    requestAnimationFrame(animate);\n    mixer.update(0.01);\n    renderer.render(scene, camera);\n  }\n});\n",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"71d5201dddf0009412757bd1d6acc1be",
+    "turn":10,
+    "text":"\u0432 \u043a\u043e\u0434\u0435 \u043e\u0448\u0438\u0431\u043a\u0430: \nmain.js:25 Error: THREE.GLTFLoader: No DRACOLoader instance provided.\n    at new GLTFDracoMeshCompressionExtension (GLTFLoader.js:1728:10)\n    at GLTFLoader.parse (GLTFLoader.js:380:37)\n    at Object.onLoad (GLTFLoader.js:218:11)\n    at three.module.js:41500:38\n\n    \u043a\u043e\u0434:\nimport * as THREE from 'three';\nimport { GLTFLoader } from 'three\/examples\/jsm\/loaders\/GLTFLoader';\nimport { OrbitControls } from 'three\/addons\/controls\/OrbitControls.js';\n\nconst scene = new THREE.Scene();\n\n\/\/ \u0434\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u0442\u043e\u0447\u0435\u0447\u043d\u043e\u0433\u043e \u0441\u0432\u0435\u0442\u0430\nconst pointLight = new THREE.PointLight(0xffffff);\npointLight.position.set(25, 50, 25);\nscene.add(pointLight);\n\n\/\/ \u0434\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u0430\u043c\u0431\u0438\u0435\u043d\u0442\u043d\u043e\u0433\u043e \u0441\u0432\u0435\u0442\u0430\nconst ambientLight = new THREE.AmbientLight(0x404040);\nscene.add(ambientLight);\n\nconst camera = new THREE.PerspectiveCamera(75, window.innerWidth \/ window.innerHeight, 0.1, 1000);\nconst renderer = new THREE.WebGLRenderer();\nrenderer.setSize(window.innerWidth, window.innerHeight);\ndocument.body.appendChild(renderer.domElement);\n\nconst loader = new GLTFLoader();\nconst url = 'particlesThreeFinale.glb';\nloader.load(url, function (gltf) {\n  const model = gltf.scene;\n  model.scale.set(0.5, 0.5, 0.5);\n  model.position.set(0, 0, 0);\n  scene.add(model);\n\n  const mixer = new THREE.AnimationMixer(model);\n  gltf.animations.forEach((clip) => {\n    const action = mixer.clipAction(clip);\n    action.play();\n\n    action.setLoop(THREE.LoopRepeat, Infinity);\n  });\n\n  camera.position.z = 5;\n\n  \/\/ \u041e\u0442\u0434\u0430\u043b\u0435\u043d\u0438\u0435 \u043a\u0430\u043c\u0435\u0440\u044b\n  \/\/ let cameraZ = camera.position.z;\n  \/\/ window.addEventListener('wheel', (event) => {\n  \/\/   cameraZ += event.deltaY * 0.003;\n  \/\/   camera.position.z = cameraZ;\n  \/\/   event.preventDefault();\n  \/\/ }, { passive: false });\n\n  const controls = new OrbitControls( camera, renderer.domElement );\n\n  animate();\n\n  function animate() {\n    requestAnimationFrame(animate);\n    mixer.update(0.01);\n    controls.update();\n    renderer.render(scene, camera);\n  }\n});\n",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"71d5201dddf0009412757bd1d6acc1be",
+    "turn":12,
+    "text":"Error: THREE.DRACOLoader: Unexpected geometry type.\n",
+    "acts":[
+
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"3265766795ffa597baf25efdbbf29fd5",
+    "turn":0,
+    "text":"\u4f7f\u7528devstack\u5b89\u88c5openstack\u591a\u8282\u70b9\u7684\u63a7\u5236\u8282\u70b9\u65f6\uff0c\u51fa\u73b0ovs-vsctl: unix:\/var\/run\/openvswitch\/db.sock: database connection failed (No such file or directory)\u62a5\u9519\uff0c\u6709\u4ec0\u4e48\u89e3\u51b3\u529e\u6cd5\u4e48",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"ea0c35e41eb2f211c8271e4629efb2c1",
+    "turn":0,
+    "text":"\/\/ SPDX-License-Identifier: MIT\npragma solidity ^0.8.20;\n\ncontract bomb {\n    uint256 public _code;\n\n    constructor(uint256 code)  {\n        _code = code;\n    }\n\n    function blast() public {\n        assembly {\n            selfdestruct(0x0000000000000000000000000000)\n        }\n    }\n}\n\ncontract Trigger {\n    function pullTrigger() public returns (uint256) {\n        Bomb bomb = new Bomb(42);\n        bomb.blast();\n        return bomb._code();\n    }\n}\nWill calling the pullTrigger() function from the Trigger contract revert?\nIf not, does it retrun 0 or 42?",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"ea0c35e41eb2f211c8271e4629efb2c1",
+    "turn":2,
+    "text":"I want you to create a study schedule. The subjects will be Blockchain Basics, solidity, python, JavaScript, practice, coding practice I have flexible hours available each weekday and 15 hours available for each day of the weekend. Keep in mind that I should be focusing more on coding practice since it is the subject I am struggling with. After creating the schedule, break the weeks down and plan the days for me.\u201d My morning starts from 9am and I can study max up to 11:30 pm on any day and allocate only 1-1.5 hours for each subject with time for lunch, dinner and rest and socializing and make sure that I don't burnout myself while studying",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"da8f19af11c5ae9358675326f6285543",
+    "turn":0,
+    "text":"I have an app with these dependencies:\ndependencies {\n    implementation(\"com.google.android.gms:play-services-ads:22.6.0\")\n    implementation(\"androidx.appcompat:appcompat:1.6.1\")\n    implementation(\"com.google.android.material:material:1.8.0\")\n    implementation(\"androidx.constraintlayout:constraintlayout:2.1.4\")\n    testImplementation(\"junit:junit:4.13.2\")\n    androidTestImplementation(\"androidx.test.ext:junit:1.1.5\")\n    androidTestImplementation(\"androidx.test.espresso:espresso-core:3.5.1\")\n\n}\n\nI need to add the following dependencies:\n\n def lifecycle_version = \"2.3.1\"\n   implementation \"androidx.lifecycle:lifecycle-extensions:$lifecycle_version\"\n   implementation \"androidx.lifecycle:lifecycle-runtime:$lifecycle_version\"\n   annotationProcessor \"androidx.lifecycle:lifecycle-compiler:$lifecycle_version\"\n\nHow can I do it? Make the formatting work.",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"6426837ab4800a62319cd0621bffe59e",
+    "turn":0,
+    "text":"What is mean by append the target triple to a binary?",
+    "acts":[
+      "Knowledge Deficit Question"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"f47e7dbacd87592ed8ff79d855d21d5e",
+    "turn":0,
+    "text":"Describe planetary density is key to calculation of density g\/cm3 of entire planet made of its composition with planetary density of chemical element.",
+    "acts":[
+      "Think Aloud"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"f47e7dbacd87592ed8ff79d855d21d5e",
+    "turn":2,
+    "text":"Give planetary density for oxygen, iron, silicon.",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"7af153c161a57a5855939fc4edad5f33",
+    "turn":0,
+    "text":"#include <SDL.h>\n#include <SDL_image.h>\n#include <iostream>\n#include <vector>\n#include <random>\n\n\/\/ \u0420\u0430\u0437\u043c\u0435\u0440\u044b \u043e\u043a\u043d\u0430\nconst int WINDOW_WIDTH = 800;\nconst int WINDOW_HEIGHT = 600;\n\n\/\/ \u0420\u0430\u0437\u043c\u0435\u0440\u044b \u0431\u0430\u0440\u0430\u0431\u0430\u043d\u043e\u0432\nconst int DRUM_WIDTH = 100;\nconst int DRUM_HEIGHT = 100;\n\n\/\/ \u041e\u0431\u0449\u0435\u0435 \u043a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e \u0431\u0430\u0440\u0430\u0431\u0430\u043d\u043e\u0432\nconst int NUM_DRUMS = 5;\n\n\/\/ \u041a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e \u0442\u0435\u043a\u0441\u0442\u0443\u0440 \u043d\u0430 \u043a\u0430\u0436\u0434\u043e\u043c \u0431\u0430\u0440\u0430\u0431\u0430\u043d\u0435\nconst int NUM_TEXTURES = 3;\n\n\/\/ \u0421\u043a\u043e\u0440\u043e\u0441\u0442\u044c \u0432\u0440\u0430\u0449\u0435\u043d\u0438\u044f \u0431\u0430\u0440\u0430\u0431\u0430\u043d\u043e\u0432\nstd::vector<int> drumSpeeds = { 5, 4, 3, 2, 1 };\n\n\n\/\/ \u0421\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u0430 \u0434\u043b\u044f \u0445\u0440\u0430\u043d\u0435\u043d\u0438\u044f \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u0438 \u043e \u0431\u0430\u0440\u0430\u0431\u0430\u043d\u0435\nstruct Drum\n{\n    int x; \/\/ \u041f\u043e\u0437\u0438\u0446\u0438\u044f \u043f\u043e X\n    int y; \/\/ \u041f\u043e\u0437\u0438\u0446\u0438\u044f \u043f\u043e Y\n    int currentTexture; \/\/ \u0418\u043d\u0434\u0435\u043a\u0441 \u0442\u0435\u043a\u0443\u0449\u0435\u0439 \u0442\u0435\u043a\u0441\u0442\u0443\u0440\u044b \u043d\u0430 \u0431\u0430\u0440\u0430\u0431\u0430\u043d\u0435\n    int rotation; \/\/ \u0423\u0433\u043e\u043b \u043f\u043e\u0432\u043e\u0440\u043e\u0442\u0430 \u0431\u0430\u0440\u0430\u0431\u0430\u043d\u0430\n    int speed; \/\/ \u0421\u043a\u043e\u0440\u043e\u0441\u0442\u044c \u0432\u0440\u0430\u0449\u0435\u043d\u0438\u044f \u0431\u0430\u0440\u0430\u0431\u0430\u043d\u0430\n    std::vector<SDL_Texture*> textures; \/\/ \u0412\u0435\u043a\u0442\u043e\u0440 \u0442\u0435\u043a\u0441\u0442\u0443\u0440 \u0434\u043b\u044f \u0431\u0430\u0440\u0430\u0431\u0430\u043d\u0430\n};\n\n\/\/ \u0418\u043d\u0438\u0446\u0438\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u044f SDL \u0438 \u0441\u043e\u0437\u0434\u0430\u043d\u0438\u0435 \u043e\u043a\u043d\u0430\nbool init(SDL_Window*& window, SDL_Renderer*& renderer)\n{\n    if (SDL_Init(SDL_INIT_VIDEO) < 0)\n    {\n        std::cerr << \"Failed to initialize SDL: \" << SDL_GetError() << std::endl;\n        return false;\n    }\n\n    if (!IMG_Init(IMG_INIT_PNG) & IMG_INIT_PNG)\n    {\n        std::cerr << \"Failed to initialize SDL_image: \" << IMG_GetError() << std::endl;\n        return false;\n    }\n\n    window = SDL_CreateWindow(\"Slot Machine\", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, WINDOW_WIDTH, WINDOW_HEIGHT, SDL_WINDOW_SHOWN);\n    if (!window)\n    {\n        std::cerr << \"Failed to create window: \" << SDL_GetError() << std::endl;\n        return false;\n    }\n\n    renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);\n    if (!renderer)\n    {\n        std::cerr << \"Failed to create renderer: \" << SDL_GetError() << std::endl;\n        return false;\n    }\n\n    return true;\n}\n\n\/\/ \u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0430 \u0442\u0435\u043a\u0441\u0442\u0443\u0440\u044b \u0438\u0437 \u0444\u0430\u0439\u043b\u0430\nSDL_Texture* loadTexture(const std::string& filePath, SDL_Renderer* renderer)\n{\n    SDL_Surface* surface = IMG_Load(filePath.c_str());\n    if (!surface)\n    {\n        std::cerr << \"Failed to load image: \" << filePath << \", \" << IMG_GetError() << std::endl;\n        return nullptr;\n    }\n\n    SDL_Texture* texture = SDL_CreateTextureFromSurface(renderer, surface);\n    if (!texture)\n    {\n        std::cerr << \"Failed to create texture: \" << SDL_GetError() << std::endl;\n        return nullptr;\n    }\n\n    SDL_FreeSurface(surface);\n\n    return texture;\n}\n\n\/\/ \u041e\u0441\u0432\u043e\u0431\u043e\u0436\u0434\u0435\u043d\u0438\u0435 \u0440\u0435\u0441\u0443\u0440\u0441\u043e\u0432\nvoid cleanup(SDL_Window* window, SDL_Renderer* renderer, std::vector<Drum>& drums)\n{\n    for (Drum& drum : drums)\n    {\n        for (size_t i = 0; i < drum.textures.size(); i++)\n        {           \n           SDL_DestroyTexture(drum.textures[i]);\n        }\n    }\n\n    SDL_DestroyRenderer(renderer);\n    SDL_DestroyWindow(window);\n    IMG_Quit();\n    SDL_Quit();\n}\n\n\/\/ \u0418\u043d\u0438\u0446\u0438\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u044f \u0431\u0430\u0440\u0430\u0431\u0430\u043d\u043e\u0432\nvoid initDrums(SDL_Renderer* renderer, std::vector<Drum>& drums)\n{\n    std::vector<std::vector<std::string>> texturePaths = {\n        { \"res\/01spin.png\", \"res\/11spin.png\", \"res\/21spin.png\" },\n        { \"res\/02spin.png\", \"res\/12spin.png\", \"res\/22spin.png\" },\n        { \"res\/03spin.png\", \"res\/13spin.png\", \"res\/23spin.png\" },\n        { \"res\/04spin.png\", \"res\/14spin.png\", \"res\/24spin.png\" },\n        { \"res\/05spin.png\", \"res\/15spin.png\", \"res\/25spin.png\" } };\n\n        int totalDrumsWidth = NUM_DRUMS * DRUM_WIDTH;\n        int totalSpacingWidth = (NUM_DRUMS - 1) * 20;\n        int totalWidth = totalDrumsWidth + totalSpacingWidth;\n        int startX = (WINDOW_WIDTH - totalWidth) \/ 2;\n               \n    for (int i = 0; i < NUM_DRUMS; i++)\n    {\n        Drum drum;      \n        drum.x = startX + i * (DRUM_WIDTH + 20);\n        drum.y = WINDOW_HEIGHT \/ 20;\n        drum.currentTexture = 0;\n        drum.rotation = 0;\n        drum.speed = drumSpeeds[i] * 10;\n\n        \n        for (int j = 0; j < NUM_TEXTURES; j++) {\n            SDL_Texture* tmp = IMG_LoadTexture(renderer, texturePaths[i][j].c_str());\n            drum.textures.push_back(tmp);\n        }\n        \n        drums.push_back(drum);\n\n    }\n      \n}\n\n\/\/ \u041e\u0442\u0440\u0438\u0441\u043e\u0432\u043a\u0430 \u0431\u0430\u0440\u0430\u0431\u0430\u043d\u043e\u0432\nvoid renderDrums(SDL_Renderer* renderer, std::vector<Drum>& drums)\n{\n    \n    for (size_t i = 0; i < drums.size(); i++)\n    {\n        SDL_Rect drumRect = { drums[i].x, drums[i].y, DRUM_WIDTH, DRUM_HEIGHT };\n        drumRect.y += DRUM_HEIGHT; SDL_RenderCopy(renderer, drums[i].textures[drums[i].currentTexture], nullptr, &drumRect);\n    }\n\n    \n}\n\n\/\/ \u041e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435 \u0431\u0430\u0440\u0430\u0431\u0430\u043d\u043e\u0432\nvoid updateDrums(std::vector<Drum>& drums)\n{\n   for (Drum& drum : drums)\n    {\n        drum.rotation += drum.speed;\n\n        if (drum.rotation >= 360)\n        {\n            drum.rotation = 0;\n\n            drum.currentTexture++;\n            if (drum.currentTexture >= NUM_TEXTURES)\n            {\n                drum.currentTexture = 0;\n            }\n        }\n    }\n\n   \n}\n\nint main(int argc, char* args[])\n{\n    SDL_Window* window = nullptr;\n    SDL_Renderer* renderer = nullptr;\n    std::vector<Drum> drums;\n\n    if (!init(window, renderer))\n    {\n        return 1;\n    }\n\n    initDrums(renderer, drums);\n\n\n    SDL_Event event;\n    bool isRunning = true;\n    bool isRotating = false;\n    Uint32 startTime = 0;\n\n    while (isRunning)\n    {\n        while (SDL_PollEvent(&event))\n        {\n            if (event.type == SDL_QUIT)\n            {\n                isRunning = false;\n            }\n            else if (event.type == SDL_KEYDOWN && event.key.keysym.sym == SDLK_SPACE)\n            {\n                isRotating = true;\n                startTime = SDL_GetTicks();\n\n            }\n        }\n\n        if (isRotating)\n        {\n            Uint32 currentTime = SDL_GetTicks();\n            Uint32 elapsedTime = currentTime - startTime;\n\n            if (elapsedTime >= 4000)\n            {\n                isRotating = false;\n            }\n            else\n            {\n                updateDrums(drums);\n            }\n        }\n\n        \n\n        SDL_SetRenderDrawColor(renderer, 255, 255, 255, 255);\n        SDL_RenderClear(renderer);\n\n        renderDrums(renderer, drums);\n\n        SDL_RenderPresent(renderer);\n    }\n\n    cleanup(window, renderer, drums);\n\n    return 0;\n} \u042d\u0442\u043e\u0442 \u043a\u043e\u0434 \u043f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442 \u0441\u043e\u0431\u043e\u0439 \u043f\u0440\u043e\u0441\u0442\u0443\u044e \u0438\u0433\u0440\u0443 \u201c\u0421\u043b\u043e\u0442-\u043c\u0430\u0448\u0438\u043d\u0430\u201d. \u041e\u043d \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0435\u0442 \u0431\u0438\u0431\u043b\u0438\u043e\u0442\u0435\u043a\u0443 SDL \u0434\u043b\u044f \u0441\u043e\u0437\u0434\u0430\u043d\u0438\u044f \u043e\u043a\u043d\u0430, \u043e\u0442\u0440\u0438\u0441\u043e\u0432\u043a\u0438 \u0433\u0440\u0430\u0444\u0438\u043a\u0438 \u0438 \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0438 \u0441\u043e\u0431\u044b\u0442\u0438\u0439. \u0412 \u0438\u0433\u0440\u0435 \u0435\u0441\u0442\u044c \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u043e \u0431\u0430\u0440\u0430\u0431\u0430\u043d\u043e\u0432, \u043a\u0430\u0436\u0434\u044b\u0439 \u0438\u0437 \u043a\u043e\u0442\u043e\u0440\u044b\u0445 \u0432\u0440\u0430\u0449\u0430\u0435\u0442\u0441\u044f \u0441\u043e \u0441\u0432\u043e\u0435\u0439 \u0441\u043a\u043e\u0440\u043e\u0441\u0442\u044c\u044e.\n \u041d\u0430 \u043a\u0430\u0436\u0434\u043e\u043c \u0431\u0430\u0440\u0430\u0431\u0430\u043d\u0435 \u0435\u0441\u0442\u044c \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u043e \u0442\u0435\u043a\u0441\u0442\u0443\u0440, \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u043e\u0442\u043e\u0431\u0440\u0430\u0436\u0430\u044e\u0442\u0441\u044f \u043f\u0440\u0438 \u0432\u0440\u0430\u0449\u0435\u043d\u0438\u0438 \u0431\u0430\u0440\u0430\u0431\u0430\u043d\u0430. \n\u041a\u043e\u0433\u0434\u0430 \u0438\u0433\u0440\u043e\u043a \u043d\u0430\u0436\u0438\u043c\u0430\u0435\u0442 \u043f\u0440\u043e\u0431\u0435\u043b, \u043d\u0430\u0447\u0438\u043d\u0430\u0435\u0442\u0441\u044f \u0432\u0440\u0430\u0449\u0435\u043d\u0438\u0435 \u0431\u0430\u0440\u0430\u0431\u0430\u043d\u043e\u0432 \u0432 \u0442\u0435\u0447\u0435\u043d\u0438\u0435 4 \u0441\u0435\u043a\u0443\u043d\u0434. \n\u041f\u043e\u0441\u043b\u0435 \u043e\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0438 \u0431\u0430\u0440\u0430\u0431\u0430\u043d\u043e\u0432 \u043e\u0442\u043e\u0431\u0440\u0430\u0436\u0430\u0435\u0442\u0441\u044f \u0438\u0445 \u0442\u0435\u043a\u0443\u0449\u0430\u044f \u0442\u0435\u043a\u0441\u0442\u0443\u0440\u0430.\n\u041a\u0430\u043a \u0438\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u043a\u043e\u0434 \u0442\u0430\u043a, \u0447\u0442\u043e-\u0431\u044b \u043e\u0442\u043e\u0431\u0440\u0430\u0436\u0430\u043b\u0438\u0441\u044c \u0441\u0440\u0430\u0437\u0443 \u0432\u0441\u0435 \u0442\u0435\u043a\u0441\u0442\u0443\u0440\u044b \u043d\u0430 \u0431\u0430\u0440\u0430\u0431\u0430\u043d\u0435. \u041f\u043e\u0441\u043b\u0435 \u043e\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0438 \u0431\u0430\u0440\u0430\u0431\u0430\u043d\u0430 \u0442\u0435\u043a\u0441\u0442\u0443\u0440\u044b \u043c\u0435\u043d\u044f\u043b\u0438\u0441\u044c \u043c\u0435\u0441\u0442\u0430\u043c\u0438. \u041d\u0443\u0436\u0435\u043d \u043f\u0440\u0438\u043c\u0435\u0440 \u043a\u043e\u0434\u0430.",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"f7f27724109c369f80a153aaf81cb111",
+    "turn":0,
+    "text":"How to find a list of what domain names are currently available to purchase ?",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"530bcb1fe2614d17507a5ddb0abac89b",
+    "turn":0,
+    "text":"How to disable colors in vim?",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"13c117503f1f250708a17cb0ad4c7b17",
+    "turn":0,
+    "text":"what's the best way to switch scenes behind a closed elevator door in blender without using a video editor?",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"b7fd5d40a1fc6753876c54cb7c4c960b",
+    "turn":0,
+    "text":"How do I understand what I want?",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"1467d918caacf76a655aa4614bb980d6",
+    "turn":0,
+    "text":"give me a strategy based on pair trading and correlations to trade the forex and indices markets",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"1467d918caacf76a655aa4614bb980d6",
+    "turn":2,
+    "text":"can i make more profit by just buying the underperformer by minimizing the risk of taking 2 trades simultaneously",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"1467d918caacf76a655aa4614bb980d6",
+    "turn":4,
+    "text":"give me pairs or indices with high correlation",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"1467d918caacf76a655aa4614bb980d6",
+    "turn":6,
+    "text":"what indices or index has the highest correlation with Nasdaq or US30",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"1467d918caacf76a655aa4614bb980d6",
+    "turn":8,
+    "text":"how can i use the chat that shows EuroUSD\/GBPUSD to my advantage because it shows it moves in a sinosuidal motion even to trade the individual pairs ie EURUSD and GBPUSD",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"1467d918caacf76a655aa4614bb980d6",
+    "turn":10,
+    "text":"THE CHART plots EURUSD divided by GBPUSD ",
+    "acts":[
+      "Think Aloud"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"1467d918caacf76a655aa4614bb980d6",
+    "turn":12,
+    "text":"are range bars good fpr trading",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"4165555fabf569fa7101bae94ad92899",
+    "turn":0,
+    "text":"Give me some unique insights into how understanding our perceptions\n impact our interpersonal relationships.",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"c9860766887e2f1693975ac5b1347d10",
+    "turn":0,
+    "text":"Describe opposite of ordinary apple but same as ordinary apple, including name. (Apple is +1, opposite apple is -1, +1 + -1 = 0 in collision equation of electric charge)",
+    "acts":[
+      "Think Aloud"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"a67ba398eb2c4525f978c54dbe5abaf0",
+    "turn":0,
+    "text":"can a python variable be equal to a database table",
+    "acts":[
+      "Knowledge Deficit Question"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"a67ba398eb2c4525f978c54dbe5abaf0",
+    "turn":2,
+    "text":"is there a work around for this?",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"a67ba398eb2c4525f978c54dbe5abaf0",
+    "turn":4,
+    "text":"\"Something went wrong. If this issue persists please contact us through our help center at help.openai.com. \"\n\nWhy does this happen?",
+    "acts":[
+      "Knowledge Deficit Question"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"68817b0a85a9be6edd2fafedb76202ca",
+    "turn":0,
+    "text":"What did the ancient Greeks believe happened to the animals they sacrificed to the gods? Did the gods just eat them? Did they believe the animal's spirit lived on after death? Did they believe animals had souls? Please write your answer in paragraphs of full sentences. No bullet points.",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"68817b0a85a9be6edd2fafedb76202ca",
+    "turn":2,
+    "text":"Did the ancient Greeks have a concept similar to the modern idea of evolution where one species would change into another over a long period of time?",
+    "acts":[
+      "Knowledge Deficit Question"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"7415eee51ca8a7c506d91e63da41bc22",
+    "turn":0,
+    "text":"Explain in detail which XML format is the following:\n <?xml version=\"1.0\" encoding=\"utf-8\"?> <annotation> <folder>images<\/folder> <filename>1d7d4d71-IMG_20231105_144126_235.jpg<\/filename> <source> <database>MyDatabase<\/database> <annotation>COCO2017<\/annotation> <image>flickr<\/image> <flickrid>NULL<\/flickrid> <annotator>1<\/annotator> <\/source> <owner> <flickrid>NULL<\/flickrid> <name>Label Studio<\/name> <\/owner> <size> <width>2944<\/width> <height>2944<\/height> <depth>3<\/depth> <\/size> <segmented>0<\/segmented> <object> <name>NoPlate<\/name> <pose>Unspecified<\/pose> <truncated>0<\/truncated> <difficult>0<\/difficult> <bndbox> <xmin>1359<\/xmin> <ymin>1488<\/ymin> <xmax>1840<\/xmax> <ymax>1706<\/ymax> <\/bndbox> <\/object> <\/annotation>",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"27959a4361879036992194b5bd301bd3",
+    "turn":0,
+    "text":"prompt = input(\"Would you like to continue polling? (yes\/no): \")\n    if prompt == 'no':\n        polling_active = False  \n  else:   \n        while prompt != 'yes' or 'no':\n            prompt = input(\"Invalid response detected. Please enter yes or no: \")\n\nWhy does not work even when I put yes or no in python?",
+    "acts":[
+      "Knowledge Deficit Question",
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"f7085dfd1f855995d3c65c12d588e08c",
+    "turn":0,
+    "text":"get value of z axis acceleration to ground in rotating 3d object",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"f7085dfd1f855995d3c65c12d588e08c",
+    "turn":2,
+    "text":"get value of z axis acceleration to ground in rotating 3d object equation with explanation",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"f7085dfd1f855995d3c65c12d588e08c",
+    "turn":4,
+    "text":"calculate value of z axis acceleration only relative to ground in rotating 3d object",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"f7085dfd1f855995d3c65c12d588e08c",
+    "turn":6,
+    "text":"10 plus 10",
+    "acts":[
+      "Think Aloud"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"f7085dfd1f855995d3c65c12d588e08c",
+    "turn":8,
+    "text":"How can the accelerometer and gyroscope data from an Android phone be used to determine motion direction?",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"f7085dfd1f855995d3c65c12d588e08c",
+    "turn":10,
+    "text":"How can the accelerometer and gyroscope data from an Android phone be used to determine motion direction using dart code",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"f7085dfd1f855995d3c65c12d588e08c",
+    "turn":12,
+    "text":"How can the accelerometer and gyroscope data from an Android phone be used to determine motion direction relative to the ground in dart code?",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"f7085dfd1f855995d3c65c12d588e08c",
+    "turn":14,
+    "text":"with flutter code",
+    "acts":[
+
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"f7085dfd1f855995d3c65c12d588e08c",
+    "turn":16,
+    "text":"add algorithm",
+    "acts":[
+      "Think Aloud"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"f7085dfd1f855995d3c65c12d588e08c",
+    "turn":18,
+    "text":"write it with flutter",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"e2f96e158312ef4f937b0e608c399469",
+    "turn":0,
+    "text":"Skill, subject,  topic, complete this list",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"e2f96e158312ef4f937b0e608c399469",
+    "turn":2,
+    "text":"What to do if I want to learn anything and everything?",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"11ad812e54ab4a12d40e9b2497109b87",
+    "turn":0,
+    "text":"I want to be better at using my Behringer RD-9 Analog Drum Machine as an instrument. Please write me a plan for how I can improve.",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"11ad812e54ab4a12d40e9b2497109b87",
+    "turn":2,
+    "text":"Please give me a stoic guided meditation as given by the mandalorian",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"11ad812e54ab4a12d40e9b2497109b87",
+    "turn":4,
+    "text":"In R please write me a function that counts how many times words are used in separate lines. For instance:\n\ntest test test\nhello cow\nhello dog\n\nshould return:\ntest 1\nhello 2\ncow 1\ndog 1",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"11ad812e54ab4a12d40e9b2497109b87",
+    "turn":6,
+    "text":"Please update the function to work on a data frame with several rows. It should count the times a word is used in multiple rows",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"b9057c60ba9a2d33ffc9dcf0c2285285",
+    "turn":0,
+    "text":"Hello!",
+    "acts":[
+      "Conversational Acknowledgment"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"b9057c60ba9a2d33ffc9dcf0c2285285",
+    "turn":2,
+    "text":"Can you tell me how should I make my music more living?",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"b9057c60ba9a2d33ffc9dcf0c2285285",
+    "turn":4,
+    "text":"Is there some frequency response to make my music more living?",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"b9057c60ba9a2d33ffc9dcf0c2285285",
+    "turn":6,
+    "text":"Thank you!",
+    "acts":[
+      "Conversational Acknowledgment"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"b9057c60ba9a2d33ffc9dcf0c2285285",
+    "turn":8,
+    "text":"Is there some VST plugins for metal music that suitable for my laptop with Pentium processor and 4 GB RAM?",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"21447cd3c129a10f224e8de002d5a2fd",
+    "turn":0,
+    "text":"Make a summary of this including tools and what they are used for:\n\nA version control system allows you to keep track of changes to your documents. This makes it easy for you to recover older versions of your document if you make a mistake, and it makes collaboration with others much easier. Here is an example to illustrate how version control works. Let\u2019s say you\u2019ve got a shopping list and you want your roommates to confirm the things you need and add additional items. Without version control, you\u2019ve got a big mess to clean up before you can go shopping. With version control, you know exactly what you need after everyone has contributed their ideas.\n\nGit is free and open source software distributed under the GNU General Public License. Git is a distributed version control system, which means that users anywhere in the world can have a copy of your project on their own computer. When they\u2019ve made changes, they can sync their version to a remote server to share it with you. Git isn\u2019t the only version control system out there, but the distributed aspect is one of the main reasons it\u2019s become one of the most common version control systems available. Version control systems are widely used for things involving code, but you can also version control images, documents, and any number of file types. You can use Git without a web interface by using your command line interface, but GitHub is one of the most popular web-hosted services for Git repositories. Others include GitLab, BitBucket, and Beanstalk. There are a few basic terms that you will need to know before you can get started. The SSH protocol is a method for secure remote login from one computer to another. A repository contains your project folders that are set up for version control. A fork is a copy of a repository. A pull request is the way you request that someone reviews and approves your changes before they become final. A working directory contains the files and subdirectories on your computer that are associated with a Git repository. There are a few basic Git commands that you will always use. When starting out with a new repository, you only need create it once: either locally, and then push to GitHub, or by cloning an existing repository by using the command \"git init\".\n\n\"Git add\" moves changes from the working directory to the staging area. \"git status\" allows you to see the state of your working directory and the staged snapshot of your changes. \"git commit\" takes your staged snapshot of changes and commits them to the project. \"git reset\" undoes changes that you\u2019ve made to the files in your working directory. \"git log\" enables you to browse previous changes to a project. \"git branch\" lets you create an isolated environment within your repository to make changes. \"git checkout\" lets you see and change existing branches. \"git merge\" lets you put everything back together again. To learn how to use Git effectively and begin collaborating with data scientists around the world, you will need to learn the essential commands. Luckily for us, GitHub has amazing resources available to help you get started. Go to try.github.io to download the cheat sheets and run through the tutorials. In the following modules, we'll give you a crash course on setting up your local environment and getting started on a project.",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"21447cd3c129a10f224e8de002d5a2fd",
+    "turn":2,
+    "text":"Make a summary of this including tools and what they are used for: A version control system allows you to keep track of changes to your documents. This makes it easy for you to recover older versions of your document if you make a mistake, and it makes collaboration with others much easier. Here is an example to illustrate how version control works. Let\u2019s say you\u2019ve got a shopping list and you want your roommates to confirm the things you need and add additional items. Without version control, you\u2019ve got a big mess to clean up before you can go shopping. With version control, you know exactly what you need after everyone has contributed their ideas.\n\nGit is free and open source software distributed under the GNU General Public License. Git is a distributed version control system, which means that users anywhere in the world can have a copy of your project on their own computer. When they\u2019ve made changes, they can sync their version to a remote server to share it with you. Git isn\u2019t the only version control system out there, but the distributed aspect is one of the main reasons it\u2019s become one of the most common version control systems available. Version control systems are widely used for things involving code, but you can also version control images, documents, and any number of file types. You can use Git without a web interface by using your command line interface, but GitHub is one of the most popular web-hosted services for Git repositories. Others include GitLab, BitBucket, and Beanstalk. There are a few basic terms that you will need to know before you can get started. The SSH protocol is a method for secure remote login from one computer to another. A repository contains your project folders that are set up for version control. A fork is a copy of a repository. A pull request is the way you request that someone reviews and approves your changes before they become final. A working directory contains the files and subdirectories on your computer that are associated with a Git repository. There are a few basic Git commands that you will always use. When starting out with a new repository, you only need create it once: either locally, and then push to GitHub, or by cloning an existing repository by using the command \"git init\".\n\n\"Git add\" moves changes from the working directory to the staging area. \"git status\" allows you to see the state of your working directory and the staged snapshot of your changes. \"git commit\" takes your staged snapshot of changes and commits them to the project. \"git reset\" undoes changes that you\u2019ve made to the files in your working directory. \"git log\" enables you to browse previous changes to a project. \"git branch\" lets you create an isolated environment within your repository to make changes. \"git checkout\" lets you see and change existing branches. \"git merge\" lets you put everything back together again. To learn how to use Git effectively and begin collaborating with data scientists around the world, you will need to learn the essential commands. Luckily for us, GitHub has amazing resources available to help you get started. Go to try.github.io to download the cheat sheets and run through the tutorials. In the following modules, we'll give you a crash course on setting up your local environment and getting started on a project.",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"21447cd3c129a10f224e8de002d5a2fd",
+    "turn":4,
+    "text":"Make a summary of this including tools and what they are used for: A version control system allows you to keep track of changes to your documents. This makes it easy for you to recover older versions of your document if you make a mistake, and it makes collaboration with others much easier. Here is an example to illustrate how version control works. Let\u2019s say you\u2019ve got a shopping list and you want your roommates to confirm the things you need and add additional items. Without version control, you\u2019ve got a big mess to clean up before you can go shopping. With version control, you know exactly what you need after everyone has contributed their ideas. Git is free and open source software distributed under the GNU General Public License. Git is a distributed version control system, which means that users anywhere in the world can have a copy of your project on their own computer. When they\u2019ve made changes, they can sync their version to a remote server to share it with you. Git isn\u2019t the only version control system out there, but the distributed aspect is one of the main reasons it\u2019s become one of the most common version control systems available. Version control systems are widely used for things involving code, but you can also version control images, documents, and any number of file types. You can use Git without a web interface by using your command line interface, but GitHub is one of the most popular web-hosted services for Git repositories. Others include GitLab, BitBucket, and Beanstalk. There are a few basic terms that you will need to know before you can get started. The SSH protocol is a method for secure remote login from one computer to another. A repository contains your project folders that are set up for version control. A fork is a copy of a repository. A pull request is the way you request that someone reviews and approves your changes before they become final. A working directory contains the files and subdirectories on your computer that are associated with a Git repository. There are a few basic Git commands that you will always use. When starting out with a new repository, you only need create it once: either locally, and then push to GitHub, or by cloning an existing repository by using the command \"git init\". \"Git add\" moves changes from the working directory to the staging area. \"git status\" allows you to see the state of your working directory and the staged snapshot of your changes. \"git commit\" takes your staged snapshot of changes and commits them to the project. \"git reset\" undoes changes that you\u2019ve made to the files in your working directory. \"git log\" enables you to browse previous changes to a project. \"git branch\" lets you create an isolated environment within your repository to make changes. \"git checkout\" lets you see and change existing branches. \"git merge\" lets you put everything back together again. To learn how to use Git effectively and begin collaborating with data scientists around the world, you will need to learn the essential commands. Luckily for us, GitHub has amazing resources available to help you get started. Go to try.github.io to download the cheat sheets and run through the tutorials. In the following modules, we'll give you a crash course on setting up your local environment and getting started on a project.",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"735af859a44b1949dab118824ebf8029",
+    "turn":0,
+    "text":"\u043e\u0431\u044c\u044f\u0441\u043d\u0438 \u0440\u0430\u0431\u043e\u0442\u0443 \u043a\u043e\u0434\u0430 \n\u043e\u0431\u044c\u044f\u0441\u043d\u0438 \u0440\u0430\u0431\u043e\u0442\u0443 \u043a\u043e\u0434\u0430 \n\u043e\u0431\u044c\u044f\u0441\u043d\u0438 \u0440\u0430\u0431\u043e\u0442\u0443 \u043a\u043e\u0434\u0430 \n\n var request = require('request');\n  var cheerio = require('cheerio');\n  var queryString = require('querystring');\n  var flatten = require('lodash.flatten');\n\n  var baseURL = 'http:\/\/images.google.com\/search?';\n\n  var imageFileExtensions = ['.jpg', '.jpeg', '.png', '.gif', '.bmp', '.svg'];\n\n  function gis(opts, done) {\n    var searchTerm;\n    var queryStringAddition;\n    var filterOutDomains = ['gstatic.com'];\n\n    if (typeof opts === 'string') {\n      searchTerm = opts;\n    } else {\n      searchTerm = opts.searchTerm;\n      queryStringAddition = opts.queryStringAddition;\n      filterOutDomains = filterOutDomains.concat(opts.filterOutDomains);\n    }\n\n    var url =\n      baseURL +\n      queryString.stringify({\n        tbm: 'isch',\n        q: searchTerm\n      });\n\n    if (filterOutDomains) {\n      url += encodeURIComponent(\n        ' ' + filterOutDomains.map(addSiteExcludePrefix).join(' ')\n      );\n    }\n\n    if (queryStringAddition) {\n      url += queryStringAddition;\n    }\n    var reqOpts = {\n      url: url,\n      headers: {\n        'User-Agent':\n          'Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/61.0.3163.100 Safari\/537.36'\n      }\n    };\n\n    \/\/ console.log(reqOpts.url);\n    request(reqOpts, parseGISResponse);\n\n    function parseGISResponse(error, response, body) {\n      if (error) {\n        done(error);\n        return;\n      }\n      var $ = cheerio.load(body);\n      var scripts = $('script');\n      var scriptContents = [];\n      for (var i = 0; i < scripts.length; ++i) {\n        if (scripts[i].children.length > 0) {\n          const content = scripts[i].children[0].data;\n          if (containsAnyImageFileExtension(content)) {\n            scriptContents.push(content);\n          }\n        }\n      }\n\n      done(error, flatten(scriptContents.map(collectImageRefs)));\n\n      function collectImageRefs(content) {\n        var refs = [];\n        var re = \/\\[\"(http.+?)\",(\\d+),(\\d+)\\]\/g;\n        var result;\n        while ((result = re.exec(content)) !== null) {\n          if (result.length > 3) {\n            let ref = {\n              url: result[1],\n              width: +result[3],\n              height: +result[2]\n            };\n            if (domainIsOK(ref.url)) {\n              refs.push(ref);\n            }\n          }\n        }\n        return refs;\n      }\n\n      function domainIsOK(url) {\n        if (!filterOutDomains) {\n          return true;\n        } else {\n          return filterOutDomains.every(skipDomainIsNotInURL);\n        }\n\n        function skipDomainIsNotInURL(skipDomain) {\n          return url.indexOf(skipDomain) === -1;\n        }\n      }\n    }\n  }\n\n  function addSiteExcludePrefix(s) {\n    return '-site:' + s;\n  }\n\n  function containsAnyImageFileExtension(s) {\n    var lowercase = s.toLowerCase();\n    return imageFileExtensions.some(containsImageFileExtension);\n\n    function containsImageFileExtension(ext) {\n      return lowercase.includes(ext);\n    }\n  }\n\n  module.exports = gis;\n",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"735af859a44b1949dab118824ebf8029",
+    "turn":2,
+    "text":"\u043d\u0430\u043f\u0438\u0448\u0438 \u043c\u043d\u0435 \u043a\u043e\u0434 \u043d\u0430 javascript\n\u044f \u0445\u043e\u0447\u0443 \u0447\u0442\u043e\u0431\u044b \u043c\u043d\u0435 \u0432\u044b\u0434\u0430\u0432\u0430\u043b \u0441\u043a\u0440\u0438\u043f\u0442 \u0441\u0441\u044b\u043b\u043a\u0443 \u0432 \u0433\u0443\u0433\u043b \u043a\u0430\u0440\u0442\u0438\u043d\u043a\u0430\u0445 \u043f\u043e \u0437\u0430\u043f\u0440\u043e\u0441\u0443 \"\u0431\u0435\u0439 \u0431\u0435\u0433\u0438\" ",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"7f59e0174a1a6f6e26014aeff852500e",
+    "turn":0,
+    "text":"The transmittance at 520 nm of 4.48 ppm KMnO4 Solution is 0.309 in a 1 cm cell. Calculate the molar absorptivity of KMnO4 in L\/mol.cm unit. (K:39,Mn:55, 0:16 g\/mol)",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"7f59e0174a1a6f6e26014aeff852500e",
+    "turn":2,
+    "text":"The transmittance at 520 nm of 4.48 ppm KMnO4 Solution is 0.309 in a 1 cm cell. Calculate the molar absorptivity of KMnO4 in L\/mol.cm unit. (K:39,Mn:55, 0:16 g\/mol)",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"7f59e0174a1a6f6e26014aeff852500e",
+    "turn":4,
+    "text":"In which of the following areas is AAS used?\nAll\nMetallurgy\nPharmacology\nFood\nGeological",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"7f59e0174a1a6f6e26014aeff852500e",
+    "turn":6,
+    "text":"Regarding the photoelectric effect;\nI- The broken electron is called photoelectron.\nII- The kinetic energy of the emitted electrons depends on the intensity of the light.\nIll-The threshold frequency must be exceeded for the photoelectric effect to occur.\nWhich of the statements are correct?",
+    "acts":[
+      "Common Ground Question"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"7f59e0174a1a6f6e26014aeff852500e",
+    "turn":8,
+    "text":"Which of the following is the correct method in which the beam source and sample cabin are placed at a 90\u00b0 angle to each other in order to prevent the light sent from the beam source from reaching the detector directly?\nA- X-Ray Diffraction Spectroscopy, ESR, fluorescence.\nB- NMR, ESR, UV.\nC- Chemiluminescence, gravimetry, thermal analysis\nD- Fluorescence, phosphorescence, scattering\nE- Phosphorescence, NMR, UV.",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"7f59e0174a1a6f6e26014aeff852500e",
+    "turn":10,
+    "text":"Which of the following describes the phenomenon of absorption?\na) Separation of heat into different frequencies while passing through the prism.\nb) Change of direction when the heat hits the surface\nc) Transfer of some frequencies of heat to atoms, ions or molecules.\nd) An atom at a higher energy level has a lower energy level.\ngiving back its energy as it descends to its level.\ne) There is a change in the energy of the heat as a result of its interaction with the surface.\nreflected back in the same direction without change.",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"7f59e0174a1a6f6e26014aeff852500e",
+    "turn":12,
+    "text":"Regarding the release of heat;\nI- Tyndall scattering is observed when particle diameters are equal to or smaller than the wavelength of the radiation.\nIl-Rayleigh emission is observed when particle diameters are larger than the wavelength of the radiation.\nIn Ill-Raman scattering, a part of the scattered light undergoes a frequency change.\nWhich of the statements are correct?",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"7f59e0174a1a6f6e26014aeff852500e",
+    "turn":14,
+    "text":"Regarding the scattering of heat;\nI- Tyndall scattering is observed when particle diameters are equal to or smaller than the wavelength of the radiation.\nIl-Rayleigh emission is observed when particle diameters are larger than the wavelength of the radiation.\nIn Ill-Raman scattering, a part of the scattered light undergoes a frequency change.\nWhich of the statements are correct?",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"7f59e0174a1a6f6e26014aeff852500e",
+    "turn":16,
+    "text":"A solution with concentration X of 4.14x10-3 M gives a permittivity of 0.126 in a 2.00 cm cell. When a 1.00 cm cell is used, what should be the concentration of X required to increase the permeability given above by 3 times?",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"7f59e0174a1a6f6e26014aeff852500e",
+    "turn":18,
+    "text":"A solution with concentration X of 4.14x10-3 M gives a permittivity of 0.126 in a 2.00 cm cell. When a 1.00 cm cell is used, what should be the concentration of X required to increase the permeability given above by 3 times?",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"7f59e0174a1a6f6e26014aeff852500e",
+    "turn":20,
+    "text":"Which of the following is correct?\na) In hollow cathode lamps, when voltage is applied between the anode and cathode, the noble gas ions formed hit the cathode, break off and excite the metal atoms on the surface.\nb) More than one element cannot be determined at the same time in AAS; the more elements to be determined, the more lamps are required.\nc) Electrodeless discharge lamps have better performance than hollow cathode lamps, although their light intensity is lower.\nd) When a voltage of 1000-4000 V is applied between the anode and cathode in hollow cathode lamps, the noble gas becomes ionized.\ne) Hollow cathode lamps are not used when graphite furnace is used as atomizer in AAS.",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"7f59e0174a1a6f6e26014aeff852500e",
+    "turn":22,
+    "text":"I) Samples with high precision also have high accuracy.\nIl) Precision is expressed as standard deviation value.\nIII) The closeness of the test results made with the same method, the same sample, the same laboratory, the same person and the same device is called consistency.\nWhich of the above statements are correct?",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"7f59e0174a1a6f6e26014aeff852500e",
+    "turn":24,
+    "text":"I) Kesinligi y\u00fcksek olan numunelerin dogrulugu da y\u00fcksektir.\nIl) Kesinlik standart sapma degeri ile ifade edilir.\nIII) Ayni yontem, ayni numune, ayni laboratuvar, ayni kisi ve ayni cihaz ile yapilan deney sonu\u00e7larinin birbirine olan yakinligina tutarlilik denir.\nYukaridaki ifadelerden hangileri dogrudur?",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"7f59e0174a1a6f6e26014aeff852500e",
+    "turn":26,
+    "text":"Which of the following is true in preparation for analyzing the sample?\na) Analysis samples are prepared only from solid materials\nB) Liquid samples can be kept in open containers as long as they are not heated.\nC) All samples easily with solvents.\nD) All samples must undergo a preparation phase before being analyzed.\ne) If the sample is a gas dissolved in liquid, the sample chamber can be placed in a second gas-tight container",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"7f59e0174a1a6f6e26014aeff852500e",
+    "turn":28,
+    "text":"Validity of a method;\nI)Using standard reference material\nIl)With real sample analysis\nIII) It is carried out according to various internationally accepted validation criteria (TSE, EPA, etc.).\nIV) It is determined by LOD and LOQ values.\nWhich of the statements are correct?",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"7f59e0174a1a6f6e26014aeff852500e",
+    "turn":30,
+    "text":"Which of the following is incorrect regarding the standard addition method?\n\nA) Increasing volumes of the specified standard solution are added to all containers.\nB) It is completed to the final volume.\nC) Each container is measured and its signals recorded.\nD) The same volume of sample is placed in the containers.\nE) If simulation to the sample matrix is very difficult or impossible, the standard addition method is used.",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"7f59e0174a1a6f6e26014aeff852500e",
+    "turn":32,
+    "text":"Which of the following methods is an analysis technique based on light absorption?",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"7f59e0174a1a6f6e26014aeff852500e",
+    "turn":34,
+    "text":"Which of the following methods is an analysis technique based on light absorption?\nNuclear Magnetic Resonance (NMR)\nRaman Spectroscopy\npotentiometry\nphosphorescence\nfluorescence",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"7f59e0174a1a6f6e26014aeff852500e",
+    "turn":36,
+    "text":"How many electron volts (eV) is the energy of yellow light with a wavelength of 5700 A\u00b0? (1 eV = 1.6 x 10-19 j ; h=6.62x10-34 j.s)",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"7f59e0174a1a6f6e26014aeff852500e",
+    "turn":38,
+    "text":"How many electron volts (eV) is the energy of yellow light with a wavelength of 5700 A\u00b0? (1 eV = 1.6 x 10-19 j ; h=6.62x10-34 j.s)",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"7f59e0174a1a6f6e26014aeff852500e",
+    "turn":40,
+    "text":"Light comes from air into a transparent medium at an angle of 53\u00b0 to the normal and is refracted at an angle of 30\u00b0. What is the refractive index of the transparent medium compared to air? (nair = 1)",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"c7a55ac44cf4d6bcd7832af4febc47b0",
+    "turn":0,
+    "text":"(date_diff('day', Invoice.duedate, current_date) = CAST('{{Data.Workflow.a}}' AS INTEGER) what this mean by?",
+    "acts":[
+      "Knowledge Deficit Question"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"c7a55ac44cf4d6bcd7832af4febc47b0",
+    "turn":2,
+    "text":"SELECT Account.id as \"AccountID\", Account.name, Account.accountnumber, Account.batch,  Account.additionalemailaddresses, \ncontact.firstname, contact.lastname, contact.workemail, contact.personalemail, \nInvoice.amount, Invoice.balance, Invoice.duedate, Invoice.invoicedate, Invoice.invoicenumber, \nInvoice.status, Invoice.id,\ndate_diff('day', Invoice.duedate, current_date)  as \"duedays\",\nSubscription.id as \"SubscriptionID\", Subscription.name, Subscription.status \nFROM InvoiceItem IT\nJOIN Account on IT.accountid = Account.id\nJOIN Invoice on IT.invoiceid = Invoice.id\nJOIN contact  on contact.id = Account.BillToId\nJOIN Subscription on IT.subscriptionid = Subscription.id\nWHERE (date_diff('day', invoice.duedate, current_date) = CAST(CAST('{{Data.Workflow.a}}' AS BOOLEAN) AS BIGINT)\nOR date_diff('day', invoice.duedate, current_date) = CAST(CAST('{{Data.Workflow.b}}' AS BOOLEAN) AS BIGINT)\nOR date_diff('day', invoice.duedate, current_date) = CAST(CAST('{{Data.Workflow.c}}' AS BOOLEAN) AS BIGINT)\nOR date_diff('day', invoice.duedate, current_date) = CAST(CAST('{{Data.Workflow.d}}' AS BOOLEAN) AS BIGINT)\nOR date_diff('day', invoice.duedate, current_date) = CAST(CAST('{{Data.Workflow.e}}' AS BOOLEAN) AS BIGINT)) \nAND Invoice.balance>0 \nAND Invoice.status = 'Posted' \nAND Account.Batch = 'Batch1'  Will this conversion work If my Data.Workflow.a is 2 ",
+    "acts":[
+      "Common Ground Question"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"c7a55ac44cf4d6bcd7832af4febc47b0",
+    "turn":4,
+    "text":"If changing query as yousaid - SELECT Account.id as \"AccountID\", Account.name, Account.accountnumber, Account.batch,  Account.additionalemailaddresses, \ncontact.firstname, contact.lastname, contact.workemail, contact.personalemail, \nInvoice.amount, Invoice.balance, Invoice.duedate, Invoice.invoicedate, Invoice.invoicenumber, \nInvoice.status, Invoice.id,\ndate_diff('day', Invoice.duedate, current_date)  as \"duedays\",\nSubscription.id as \"SubscriptionID\", Subscription.name, Subscription.status \nFROM InvoiceItem IT\nJOIN Account on IT.accountid = Account.id\nJOIN Invoice on IT.invoiceid = Invoice.id\nJOIN contact  on contact.id = Account.BillToId\nJOIN Subscription on IT.subscriptionid = Subscription.id\nWHERE (date_diff('day', Invoice.duedate, current_date) = CAST('{{Data.Workflow.a}}' AS INTEGER)\nOR date_diff('day', Invoice.duedate, current_date) =CAST('{{Data.Workflow.b}}' AS INTEGER)\nOR date_diff('day', Invoice.duedate, current_date) = CAST('{{Data.Workflow.c}}' AS INTEGER)\nOR date_diff('day', Invoice.duedate, current_date) = CAST('{{Data.Workflow.d}}' AS INTEGER)\nOR date_diff('day', Invoice.duedate, current_date) = CAST('{{Data.Workflow.e}}' AS INTEGER))\nAND Invoice.balance>0\nAND Invoice.status = 'Posted'\nGetting this below error - ",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"c7a55ac44cf4d6bcd7832af4febc47b0",
+    "turn":6,
+    "text":"explain SELECT Account.id as \"AccountID\", Account.name, Account.accountnumber, Account.batch, Account.additionalemailaddresses, contact.firstname, contact.lastname, contact.workemail, contact.personalemail, Invoice.amount, Invoice.balance, Invoice.duedate, Invoice.invoicedate, Invoice.invoicenumber, Invoice.status, Invoice.id, date_diff('day', Invoice.duedate, current_date) as \"duedays\", Subscription.id as \"SubscriptionID\", Subscription.name, Subscription.status FROM InvoiceItem IT JOIN Account on IT.accountid = Account.id JOIN Invoice on IT.invoiceid = Invoice.id JOIN contact on contact.id = Account.BillToId JOIN Subscription on IT.subscriptionid = Subscription.id WHERE (date_diff('day', Invoice.duedate, current_date) = CAST('true' AS INTEGER) OR date_diff('day', Invoice.duedate, current_date) =CAST('true' AS INTEGER) OR date_diff('day', Invoice.duedate, current_date) = CAST('true' AS INTEGER) OR date_diff('day', Invoice.duedate, current_date) = CAST('true' AS INTEGER) OR date_diff('day', Invoice.duedate, current_date) = CAST('true' AS INTEGER)) AND Invoice.balance>0 AND Invoice.status = 'Posted'\nInvalid Query. Query failed (#20230623_124803_40988_mgffn): Cannot cast 'true' to INT",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"c7a55ac44cf4d6bcd7832af4febc47b0",
+    "turn":8,
+    "text":"SELECT Account.id as \"AccountID\", Account.name, Account.accountnumber, Account.batch,  Account.additionalemailaddresses, \ncontact.firstname, contact.lastname, contact.workemail, contact.personalemail, \nInvoice.amount, Invoice.balance, Invoice.duedate, Invoice.invoicedate, Invoice.invoicenumber, \nInvoice.status, Invoice.id,\ndate_diff('day', Invoice.duedate, current_date)  as \"duedays\",\nSubscription.id as \"SubscriptionID\", Subscription.name, Subscription.status \nFROM InvoiceItem IT\nJOIN Account on IT.accountid = Account.id\nJOIN Invoice on IT.invoiceid = Invoice.id\nJOIN contact  on contact.id = Account.BillToId\nJOIN Subscription on IT.subscriptionid = Subscription.id\nWHERE (date_diff('day', Invoice.duedate, current_date) = CAST('{{Data.Workflow.a}}' AS INTEGER)\nOR date_diff('day', Invoice.duedate, current_date) =CAST('{{Data.Workflow.b}}' AS INTEGER)\nOR date_diff('day', Invoice.duedate, current_date) = CAST('{{Data.Workflow.c}}' AS INTEGER)\nOR date_diff('day', Invoice.duedate, current_date) = CAST('{{Data.Workflow.d}}' AS INTEGER)\nOR date_diff('day', Invoice.duedate, current_date) = CAST('{{Data.Workflow.e}}' AS INTEGER))\nAND Invoice.balance>0\nAND Invoice.status = 'Posted'\n Is there any other I can the ame result what i am trying with this",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"ef2e2ea433c14b759a2a250a3dc7c940",
+    "turn":0,
+    "text":"H",
+    "acts":[
+
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"ef2e2ea433c14b759a2a250a3dc7c940",
+    "turn":2,
+    "text":"\/\/ SPDX-License-Identifier: UNLICENSED\npragma solidity ^0.8.0;\n\nimport {Owned} from \"solmate\/auth\/Owned.sol\";\nimport {SwapParams} from \".\/swappers\/SwapParams.sol\";\nimport {IUTBExecutor} from \".\/interfaces\/IUTBExecutor.sol\";\nimport {IERC20} from \"forge-std\/interfaces\/IERC20.sol\";\nimport {IWETH} from \"decent-bridge\/src\/interfaces\/IWETH.sol\";\nimport {IUTBFeeCollector} from \".\/interfaces\/IUTBFeeCollector.sol\";\nimport {IBridgeAdapter} from \".\/interfaces\/IBridgeAdapter.sol\";\nimport {ISwapper} from \".\/interfaces\/ISwapper.sol\";\nimport {SwapInstructions, FeeStructure, BridgeInstructions, SwapAndExecuteInstructions} from \".\/CommonTypes.sol\";\n\n\ncontract UTB is Owned {\n    constructor() Owned(msg.sender) {}\n\n    IUTBExecutor executor;\n    IUTBFeeCollector feeCollector;\n    IWETH wrapped;\n    mapping(uint8 => address) public swappers;\n    mapping(uint8 => address) public bridgeAdapters;\n\n    \/**\n     * @dev Sets the executor.\n     * @param _executor The address of the executor.\n     *\/\n    function setExecutor(address _executor) public onlyOwner {\n        executor = IUTBExecutor(_executor);\n    }\n\n    \/**\n     * @dev Sets the wrapped native token.\n     * @param _wrapped The address of the wrapped token.\n     *\/\n    function setWrapped(address payable _wrapped) public onlyOwner {\n        wrapped = IWETH(_wrapped);\n    }\n\n    \/**\n     * @dev Sets the fee collector.\n     * @param _feeCollector The address of the fee collector.\n     *\/\n    function setFeeCollector(address payable _feeCollector) public onlyOwner {\n        feeCollector = IUTBFeeCollector(_feeCollector);\n    }\n\n    \/**\n     * @dev Performs a swap with a default setting to retrieve ERC20.\n     * @param swapInstructions The swapper ID and calldata to execute a swap.\n     *\/\n    function performSwap(\n        SwapInstructions memory swapInstructions\n    ) private returns (address tokenOut, uint256 amountOut) {\n        return performSwap(swapInstructions, true);\n    }\n\n    \/**\n     * @dev Performs a swap with the requested swapper and swap calldata.\n     * @param swapInstructions The swapper ID and calldata to execute a swap.\n     * @param retrieveTokenIn Flag indicating whether to transfer ERC20 for the swap.\n     *\/\n    function performSwap(\n        SwapInstructions memory swapInstructions,\n        bool retrieveTokenIn\n    ) private returns (address tokenOut, uint256 amountOut) {\n        ISwapper swapper = ISwapper(swappers[swapInstructions.swapperId]);\n\n        SwapParams memory swapParams = abi.decode(\n            swapInstructions.swapPayload,\n            (SwapParams)\n        );\n\n        if (swapParams.tokenIn == address(0)) {\n            require(msg.value >= swapParams.amountIn, \"not enough native\");\n            wrapped.deposit{value: swapParams.amountIn}();\n            swapParams.tokenIn = address(wrapped);\n            swapInstructions.swapPayload = swapper.updateSwapParams(\n                swapParams,\n                swapInstructions.swapPayload\n            );\n        } else if (retrieveTokenIn) {\n            IERC20(swapParams.tokenIn).transferFrom(\n                msg.sender,\n                address(this),\n                swapParams.amountIn\n            );\n        }\n\n        IERC20(swapParams.tokenIn).approve(\n            address(swapper),\n            swapParams.amountIn\n        );\n\n        (tokenOut, amountOut) = swapper.swap(swapInstructions.swapPayload);\n\n        if (tokenOut == address(0)) {\n            wrapped.withdraw(amountOut);\n        }\n    }\n\n    \/**\n     * @dev Swaps currency from the incoming to the outgoing token and executes a transaction with payment.\n     * @param instructions The token swap data and payment transaction payload.\n     * @param fees The bridge fee in native, as well as utb fee token and amount.\n     * @param signature The ECDSA signature to verify the fee structure.\n     *\/\n    function swapAndExecute(\n        SwapAndExecuteInstructions calldata instructions,\n        FeeStructure calldata fees,\n        bytes calldata signature\n    )\n        public\n        payable\n        retrieveAndCollectFees(fees, abi.encode(instructions, fees), signature)\n    {\n        _swapAndExecute(\n            instructions.swapInstructions,\n            instructions.target,\n            instructions.paymentOperator,\n            instructions.payload,\n            instructions.refund\n        );\n    }\n\n    \/**\n     * @dev Swaps currency from the incoming to the outgoing token and executes a transaction with payment.\n     * @param swapInstructions The swapper ID and calldata to execute a swap.\n     * @param target The address of the target contract for the payment transaction.\n     * @param paymentOperator The operator address for payment transfers requiring ERC20 approvals.\n     * @param payload The calldata to execute the payment transaction.\n     * @param refund The account receiving any refunds, typically the EOA which initiated the transaction.\n     *\/\n    function _swapAndExecute(\n        SwapInstructions memory swapInstructions,\n        address target,\n        address paymentOperator,\n        bytes memory payload,\n        address payable refund\n    ) private {\n        (address tokenOut, uint256 amountOut) = performSwap(swapInstructions);\n        if (tokenOut == address(0)) {\n            executor.execute{value: amountOut}(\n                target,\n                paymentOperator,\n                payload,\n                tokenOut,\n                amountOut,\n                refund\n            );\n        } else {\n            IERC20(tokenOut).approve(address(executor), amountOut);\n            executor.execute(\n                target,\n                paymentOperator,\n                payload,\n                tokenOut,\n                amountOut,\n                refund\n            );\n        }\n    }\n\n    \/**\n     * @dev Performs the pre bridge swap and modifies the post bridge swap to utilize the bridged amount.\n     * @param instructions The bridge data, token swap data, and payment transaction payload.\n     *\/\n    function swapAndModifyPostBridge(\n        BridgeInstructions memory instructions\n    )\n        private\n        returns (\n            uint256 amount2Bridge,\n            BridgeInstructions memory updatedInstructions\n        )\n    {\n        (address tokenOut, uint256 amountOut) = performSwap(\n            instructions.preBridge\n        );\n\n        SwapParams memory newPostSwapParams = abi.decode(\n            instructions.postBridge.swapPayload,\n            (SwapParams)\n        );\n\n        newPostSwapParams.amountIn = IBridgeAdapter(\n            bridgeAdapters[instructions.bridgeId]\n        ).getBridgedAmount(amountOut, tokenOut, newPostSwapParams.tokenIn);\n\n        updatedInstructions = instructions;\n\n        updatedInstructions.postBridge.swapPayload = ISwapper(swappers[\n            instructions.postBridge.swapperId\n        ]).updateSwapParams(\n            newPostSwapParams,\n            instructions.postBridge.swapPayload\n        );\n\n        amount2Bridge = amountOut;\n    }\n\n    \/**\n     * @dev Checks if the bridge token is native, and approves the bridge adapter to transfer ERC20 if required.\n     * @param instructions The bridge data, token swap data, and payment transaction payload.\n     * @param amt2Bridge The amount of the bridge token being transferred to the bridge adapter.\n     *\/\n    function approveAndCheckIfNative(\n        BridgeInstructions memory instructions,\n        uint256 amt2Bridge\n    ) private returns (bool) {\n        IBridgeAdapter bridgeAdapter = IBridgeAdapter(bridgeAdapters[instructions.bridgeId]);\n        address bridgeToken = bridgeAdapter.getBridgeToken(\n            instructions.additionalArgs\n        );\n        if (bridgeToken != address(0)) {\n            IERC20(bridgeToken).approve(address(bridgeAdapter), amt2Bridge);\n            return false;\n        }\n        return true;\n    }\n\n    \/**\n     * @dev Transfers fees from the sender to UTB, and finally to the Fee Collector.\n     * @param fees The bridge fee in native, as well as utb fee token and amount.\n     * @param packedInfo The fees and swap instructions which were used to generate the signature.\n     * @param signature The ECDSA signature to verify the fee structure.\n     *\/\n    modifier retrieveAndCollectFees(\n        FeeStructure calldata fees,\n        bytes memory packedInfo,\n        bytes calldata signature\n    ) {\n        if (address(feeCollector) != address(0)) {\n            uint value = 0;\n            if (fees.feeToken != address(0)) {\n                IERC20(fees.feeToken).transferFrom(\n                    msg.sender,\n                    address(this),\n                    fees.feeAmount\n                );\n                IERC20(fees.feeToken).approve(\n                    address(feeCollector),\n                    fees.feeAmount\n                );\n            } else {\n                value = fees.feeAmount;\n            }\n            feeCollector.collectFees{value: value}(fees, packedInfo, signature);\n        }\n        _;\n    }\n\n    \/**\n     * @dev Bridges funds in native or ERC20 and a payment transaction payload to the destination chain\n     * @param instructions The bridge data, token swap data, and payment transaction payload.\n     * @param fees The bridge fee in native, as well as utb fee token and amount.\n     * @param signature The ECDSA signature to verify the fee structure.\n     *\/\n    function bridgeAndExecute(\n        BridgeInstructions calldata instructions,\n        FeeStructure calldata fees,\n        bytes calldata signature\n    )\n        public\n        payable\n        retrieveAndCollectFees(fees, abi.encode(instructions, fees), signature)\n        returns (bytes memory)\n    {\n        (\n            uint256 amt2Bridge,\n            BridgeInstructions memory updatedInstructions\n        ) = swapAndModifyPostBridge(instructions);\n        return callBridge(amt2Bridge, fees.bridgeFee, updatedInstructions);\n    }\n\n    \/**\n     * @dev Calls the bridge adapter to bridge funds, and approves the bridge adapter to transfer ERC20 if required.\n     * @param amt2Bridge The amount of the bridge token being bridged via the bridge adapter.\n     * @param bridgeFee The fee being transferred to the bridge adapter and finally to the bridge.\n     * @param instructions The bridge data, token swap data, and payment transaction payload.\n     *\/\n    function callBridge(\n        uint256 amt2Bridge,\n        uint bridgeFee,\n        BridgeInstructions memory instructions\n    ) private returns (bytes memory) {\n        bool native = approveAndCheckIfNative(instructions, amt2Bridge);\n        return\n            IBridgeAdapter(bridgeAdapters[instructions.bridgeId]).bridge{\n                value: bridgeFee + (native ? amt2Bridge : 0)\n            }(\n                amt2Bridge,\n                instructions.postBridge,\n                instructions.dstChainId,\n                instructions.target,\n                instructions.paymentOperator,\n                instructions.payload,\n                instructions.additionalArgs,\n                instructions.refund\n            );\n    }\n\n    \/**\n     * @dev Receives funds from the bridge adapter, executes a swap, and executes a payment transaction.\n     * @param postBridge The swapper ID and calldata to execute a swap.\n     * @param target The address of the target contract for the payment transaction.\n     * @param paymentOperator The operator address for payment transfers requiring ERC20 approvals.\n     * @param payload The calldata to execute the payment transaction.\n     * @param refund The account receiving any refunds, typically the EOA which initiated the transaction.\n     *\/\n    function receiveFromBridge(\n        SwapInstructions memory postBridge,\n        address target,\n        address paymentOperator,\n        bytes memory payload,\n        address payable refund\n    ) public {\n        _swapAndExecute(postBridge, target, paymentOperator, payload, refund);\n    }\n\n    \/**\n     * @dev Registers and maps a swapper to a swapper ID.\n     * @param swapper The address of the swapper.\n     *\/\n    function registerSwapper(address swapper) public onlyOwner {\n        ISwapper s = ISwapper(swapper);\n        swappers[s.getId()] = swapper;\n    }\n\n    \/**\n     * @dev Registers and maps a bridge adapter to a bridge adapter ID.\n     * @param bridge The address of the bridge adapter.\n     *\/\n    function registerBridge(address bridge) public onlyOwner {\n        IBridgeAdapter b = IBridgeAdapter(bridge);\n        bridgeAdapters[b.getId()] = bridge;\n    }\n\n    receive() external payable {}\n\n    fallback() external payable {}\n} THIS SMART CONYTRACT Overview\n\nDecent allows for single click transactions on any chain, paid for from any source chain \/ token.\ni.e. suppose I want to mint an NFT on optimism, but only have funds on Base, I can send that transaction, paying with DAI on Base, to receive my funds on Optimism.\n\nThe two libraries Decent uses to do so are UTB, which handles the routing of cross chain transactions and passes them through a selected bridge, and decent-bridge, which is decent's custom bridge built on top of layerzero's OFT standard.\n\nUTB calls one of two functions, swapAndExecute, or bridgeAndExecute. As their names suggest, swapAndExecute performs same-chain txs for a user (from potentially diff payment tokens), and bridgeAndExecute performs cross-chain txs for a user.\nIn efforts of being generalizable, different swappers and bridgeAdapters can be added to UTB.\n\nAll swappers must implement ISwapper, as can be seen in UniSwapper.sol. Similarly, all bridgeAdapters must implement IBridgeAdapter, and examples can be seen with DecentBridgeAdapter and StargateBridgeAdapter.\n\nUTBExecutor executes any additional logic for UTB (i.e. minting an nft)\n \nThe DecentBridge is built on top of layer zero's OFT contract, and additional implementation information can be found in the decent-bridge README. u describe the main components and interactions of your system? For instance, what are the key operations that your contract handles, and how do they interact with other contracts or external systems?",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"ef2e2ea433c14b759a2a250a3dc7c940",
+    "turn":4,
+    "text":"Let's begin with the UTB contract and its interactions. Could you tell me more about the specific interactions between UTB and the Swappers, as well as UTB and the Bridge Adapters? How does the UTB decide which Swapper or Bridge Adapter to use for a given operation? here is the IUTBExecutor.sol interface pragma solidity ^0.8.0;\n\ninterface IUTBExecutor {\n\n    function execute(\n        address target,\n        address paymentOperator,\n        bytes memory payload,\n        address token,\n        uint256 amount,\n        address refund\n    ) external payable;\n\n    function execute(\n        address target,\n        address paymentOperator,\n        bytes memory payload,\n        address token,\n        uint256 amount,\n        address refund,\n        uint256 extraNative\n    ) external;\n} and her is the contrcat to give correct info \/\/ SPDX-License-Identifier: UNLICENSED\npragma solidity ^0.8.0;\n\nimport {Owned} from \"solmate\/auth\/Owned.sol\";\nimport {SwapParams} from \".\/swappers\/SwapParams.sol\";\nimport {IUTBExecutor} from \".\/interfaces\/IUTBExecutor.sol\";\nimport {IERC20} from \"forge-std\/interfaces\/IERC20.sol\";\nimport {IWETH} from \"decent-bridge\/src\/interfaces\/IWETH.sol\";\nimport {IUTBFeeCollector} from \".\/interfaces\/IUTBFeeCollector.sol\";\nimport {IBridgeAdapter} from \".\/interfaces\/IBridgeAdapter.sol\";\nimport {ISwapper} from \".\/interfaces\/ISwapper.sol\";\nimport {SwapInstructions, FeeStructure, BridgeInstructions, SwapAndExecuteInstructions} from \".\/CommonTypes.sol\";\n\n\ncontract UTB is Owned {\n    constructor() Owned(msg.sender) {}\n\n    IUTBExecutor executor;\n    IUTBFeeCollector feeCollector;\n    IWETH wrapped;\n    mapping(uint8 => address) public swappers;\n    mapping(uint8 => address) public bridgeAdapters;\n\n    \/**\n     * @dev Sets the executor.\n     * @param _executor The address of the executor.\n     *\/\n    function setExecutor(address _executor) public onlyOwner {\n        executor = IUTBExecutor(_executor);\n    }\n\n    \/**\n     * @dev Sets the wrapped native token.\n     * @param _wrapped The address of the wrapped token.\n     *\/\n    function setWrapped(address payable _wrapped) public onlyOwner {\n        wrapped = IWETH(_wrapped);\n    }\n\n    \/**\n     * @dev Sets the fee collector.\n     * @param _feeCollector The address of the fee collector.\n     *\/\n    function setFeeCollector(address payable _feeCollector) public onlyOwner {\n        feeCollector = IUTBFeeCollector(_feeCollector);\n    }\n\n    \/**\n     * @dev Performs a swap with a default setting to retrieve ERC20.\n     * @param swapInstructions The swapper ID and calldata to execute a swap.\n     *\/\n    function performSwap(\n        SwapInstructions memory swapInstructions\n    ) private returns (address tokenOut, uint256 amountOut) {\n        return performSwap(swapInstructions, true);\n    }\n\n    \/**\n     * @dev Performs a swap with the requested swapper and swap calldata.\n     * @param swapInstructions The swapper ID and calldata to execute a swap.\n     * @param retrieveTokenIn Flag indicating whether to transfer ERC20 for the swap.\n     *\/\n    function performSwap(\n        SwapInstructions memory swapInstructions,\n        bool retrieveTokenIn\n    ) private returns (address tokenOut, uint256 amountOut) {\n        ISwapper swapper = ISwapper(swappers[swapInstructions.swapperId]);\n\n        SwapParams memory swapParams = abi.decode(\n            swapInstructions.swapPayload,\n            (SwapParams)\n        );\n\n        if (swapParams.tokenIn == address(0)) {\n            require(msg.value >= swapParams.amountIn, \"not enough native\");\n            wrapped.deposit{value: swapParams.amountIn}();\n            swapParams.tokenIn = address(wrapped);\n            swapInstructions.swapPayload = swapper.updateSwapParams(\n                swapParams,\n                swapInstructions.swapPayload\n            );\n        } else if (retrieveTokenIn) {\n            IERC20(swapParams.tokenIn).transferFrom(\n                msg.sender,\n                address(this),\n                swapParams.amountIn\n            );\n        }\n\n        IERC20(swapParams.tokenIn).approve(\n            address(swapper),\n            swapParams.amountIn\n        );\n\n        (tokenOut, amountOut) = swapper.swap(swapInstructions.swapPayload);\n\n        if (tokenOut == address(0)) {\n            wrapped.withdraw(amountOut);\n        }\n    }\n\n    \/**\n     * @dev Swaps currency from the incoming to the outgoing token and executes a transaction with payment.\n     * @param instructions The token swap data and payment transaction payload.\n     * @param fees The bridge fee in native, as well as utb fee token and amount.\n     * @param signature The ECDSA signature to verify the fee structure.\n     *\/\n    function swapAndExecute(\n        SwapAndExecuteInstructions calldata instructions,\n        FeeStructure calldata fees,\n        bytes calldata signature\n    )\n        public\n        payable\n        retrieveAndCollectFees(fees, abi.encode(instructions, fees), signature)\n    {\n        _swapAndExecute(\n            instructions.swapInstructions,\n            instructions.target,\n            instructions.paymentOperator,\n            instructions.payload,\n            instructions.refund\n        );\n    }\n\n    \/**\n     * @dev Swaps currency from the incoming to the outgoing token and executes a transaction with payment.\n     * @param swapInstructions The swapper ID and calldata to execute a swap.\n     * @param target The address of the target contract for the payment transaction.\n     * @param paymentOperator The operator address for payment transfers requiring ERC20 approvals.\n     * @param payload The calldata to execute the payment transaction.\n     * @param refund The account receiving any refunds, typically the EOA which initiated the transaction.\n     *\/\n    function _swapAndExecute(\n        SwapInstructions memory swapInstructions,\n        address target,\n        address paymentOperator,\n        bytes memory payload,\n        address payable refund\n    ) private {\n        (address tokenOut, uint256 amountOut) = performSwap(swapInstructions);\n        if (tokenOut == address(0)) {\n            executor.execute{value: amountOut}(\n                target,\n                paymentOperator,\n                payload,\n                tokenOut,\n                amountOut,\n                refund\n            );\n        } else {\n            IERC20(tokenOut).approve(address(executor), amountOut);\n            executor.execute(\n                target,\n                paymentOperator,\n                payload,\n                tokenOut,\n                amountOut,\n                refund\n            );\n        }\n    }\n\n    \/**\n     * @dev Performs the pre bridge swap and modifies the post bridge swap to utilize the bridged amount.\n     * @param instructions The bridge data, token swap data, and payment transaction payload.\n     *\/\n    function swapAndModifyPostBridge(\n        BridgeInstructions memory instructions\n    )\n        private\n        returns (\n            uint256 amount2Bridge,\n            BridgeInstructions memory updatedInstructions\n        )\n    {\n        (address tokenOut, uint256 amountOut) = performSwap(\n            instructions.preBridge\n        );\n\n        SwapParams memory newPostSwapParams = abi.decode(\n            instructions.postBridge.swapPayload,\n            (SwapParams)\n        );\n\n        newPostSwapParams.amountIn = IBridgeAdapter(\n            bridgeAdapters[instructions.bridgeId]\n        ).getBridgedAmount(amountOut, tokenOut, newPostSwapParams.tokenIn);\n\n        updatedInstructions = instructions;\n\n        updatedInstructions.postBridge.swapPayload = ISwapper(swappers[\n            instructions.postBridge.swapperId\n        ]).updateSwapParams(\n            newPostSwapParams,\n            instructions.postBridge.swapPayload\n        );\n\n        amount2Bridge = amountOut;\n    }\n\n    \/**\n     * @dev Checks if the bridge token is native, and approves the bridge adapter to transfer ERC20 if required.\n     * @param instructions The bridge data, token swap data, and payment transaction payload.\n     * @param amt2Bridge The amount of the bridge token being transferred to the bridge adapter.\n     *\/\n    function approveAndCheckIfNative(\n        BridgeInstructions memory instructions,\n        uint256 amt2Bridge\n    ) private returns (bool) {\n        IBridgeAdapter bridgeAdapter = IBridgeAdapter(bridgeAdapters[instructions.bridgeId]);\n        address bridgeToken = bridgeAdapter.getBridgeToken(\n            instructions.additionalArgs\n        );\n        if (bridgeToken != address(0)) {\n            IERC20(bridgeToken).approve(address(bridgeAdapter), amt2Bridge);\n            return false;\n        }\n        return true;\n    }\n\n    \/**\n     * @dev Transfers fees from the sender to UTB, and finally to the Fee Collector.\n     * @param fees The bridge fee in native, as well as utb fee token and amount.\n     * @param packedInfo The fees and swap instructions which were used to generate the signature.\n     * @param signature The ECDSA signature to verify the fee structure.\n     *\/\n    modifier retrieveAndCollectFees(\n        FeeStructure calldata fees,\n        bytes memory packedInfo,\n        bytes calldata signature\n    ) {\n        if (address(feeCollector) != address(0)) {\n            uint value = 0;\n            if (fees.feeToken != address(0)) {\n                IERC20(fees.feeToken).transferFrom(\n                    msg.sender,\n                    address(this),\n                    fees.feeAmount\n                );\n                IERC20(fees.feeToken).approve(\n                    address(feeCollector),\n                    fees.feeAmount\n                );\n            } else {\n                value = fees.feeAmount;\n            }\n            feeCollector.collectFees{value: value}(fees, packedInfo, signature);\n        }\n        _;\n    }\n\n    \/**\n     * @dev Bridges funds in native or ERC20 and a payment transaction payload to the destination chain\n     * @param instructions The bridge data, token swap data, and payment transaction payload.\n     * @param fees The bridge fee in native, as well as utb fee token and amount.\n     * @param signature The ECDSA signature to verify the fee structure.\n     *\/\n    function bridgeAndExecute(\n        BridgeInstructions calldata instructions,\n        FeeStructure calldata fees,\n        bytes calldata signature\n    )\n        public\n        payable\n        retrieveAndCollectFees(fees, abi.encode(instructions, fees), signature)\n        returns (bytes memory)\n    {\n        (\n            uint256 amt2Bridge,\n            BridgeInstructions memory updatedInstructions\n        ) = swapAndModifyPostBridge(instructions);\n        return callBridge(amt2Bridge, fees.bridgeFee, updatedInstructions);\n    }\n\n    \/**\n     * @dev Calls the bridge adapter to bridge funds, and approves the bridge adapter to transfer ERC20 if required.\n     * @param amt2Bridge The amount of the bridge token being bridged via the bridge adapter.\n     * @param bridgeFee The fee being transferred to the bridge adapter and finally to the bridge.\n     * @param instructions The bridge data, token swap data, and payment transaction payload.\n     *\/\n    function callBridge(\n        uint256 amt2Bridge,\n        uint bridgeFee,\n        BridgeInstructions memory instructions\n    ) private returns (bytes memory) {\n        bool native = approveAndCheckIfNative(instructions, amt2Bridge);\n        return\n            IBridgeAdapter(bridgeAdapters[instructions.bridgeId]).bridge{\n                value: bridgeFee + (native ? amt2Bridge : 0)\n            }(\n                amt2Bridge,\n                instructions.postBridge,\n                instructions.dstChainId,\n                instructions.target,\n                instructions.paymentOperator,\n                instructions.payload,\n                instructions.additionalArgs,\n                instructions.refund\n            );\n    }\n\n    \/**\n     * @dev Receives funds from the bridge adapter, executes a swap, and executes a payment transaction.\n     * @param postBridge The swapper ID and calldata to execute a swap.\n     * @param target The address of the target contract for the payment transaction.\n     * @param paymentOperator The operator address for payment transfers requiring ERC20 approvals.\n     * @param payload The calldata to execute the payment transaction.\n     * @param refund The account receiving any refunds, typically the EOA which initiated the transaction.\n     *\/\n    function receiveFromBridge(\n        SwapInstructions memory postBridge,\n        address target,\n        address paymentOperator,\n        bytes memory payload,\n        address payable refund\n    ) public {\n        _swapAndExecute(postBridge, target, paymentOperator, payload, refund);\n    }\n\n    \/**\n     * @dev Registers and maps a swapper to a swapper ID.\n     * @param swapper The address of the swapper.\n     *\/\n    function registerSwapper(address swapper) public onlyOwner {\n        ISwapper s = ISwapper(swapper);\n        swappers[s.getId()] = swapper;\n    }\n\n    \/**\n     * @dev Registers and maps a bridge adapter to a bridge adapter ID.\n     * @param bridge The address of the bridge adapter.\n     *\/\n    function registerBridge(address bridge) public onlyOwner {\n        IBridgeAdapter b = IBridgeAdapter(bridge);\n        bridgeAdapters[b.getId()] = bridge;\n    }\n\n    receive() external payable {}\n\n    fallback() external payable {}\n}",
+    "acts":[
+      "Knowledge Deficit Question",
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"ef2e2ea433c14b759a2a250a3dc7c940",
+    "turn":6,
+    "text":" provide more details on the swapAndExecute and bridgeAndExecute functions, such as the parameters they take and the sequence of actions they perform? with detaild ",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"ef2e2ea433c14b759a2a250a3dc7c940",
+    "turn":8,
+    "text":"e should consider the interactions with the Decent Bridge and how the UTB handles the native token wrapping and unwrapping. Could you explain how the UTB interacts with the Decent Bridge and the native token wrapping process? ansd with details ",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"ef2e2ea433c14b759a2a250a3dc7c940",
+    "turn":10,
+    "text":"review the contract again and explain with details and  consider the fee collection process and the retrieveAndCollectFees modifier. How does the UTB handle fee collection, and what are the interactions with the fee collector? Could you describe the process and the involved components?",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"2ef9f7ea178beb72cf43701a57f63c82",
+    "turn":0,
+    "text":"add to the query to create  columns that reflects the timestamp when the event value changes from 0 to 1 as start_time and when it changes from 1 to 0 as end_time:\n\nSELECT\n\n \n\n(from_unixtime(event_timestamp\/1000))AS DATE,\n\n \n\nCASE\n\n \n\nWHEN event_value = 0 THEN 'OFF'\n\n \n\nWHEN event_value = 1 THEN 'ON'\n\n \n\nEND AS Furnace_Status\n\n \n\nFROM\n\ndatabase.table\n\n \n\nWHERE\n\nfield_name = 'bV1_Status' AND p_id = '0000'\n\n \n\nGROUP BY\n\nDATE, event_value\n\nORDER BY DATE DESC\n\nLIMIT 100\n\n;",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"2ef9f7ea178beb72cf43701a57f63c82",
+    "turn":2,
+    "text":"fix it, the start_time and end_time columns are giving me null values",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"2ef9f7ea178beb72cf43701a57f63c82",
+    "turn":4,
+    "text":"fix it, it is still showing null value",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"2ef9f7ea178beb72cf43701a57f63c82",
+    "turn":6,
+    "text":"it is still showing null values",
+    "acts":[
+      "Think Aloud"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"2ef9f7ea178beb72cf43701a57f63c82",
+    "turn":8,
+    "text":"add to this query to display the device name",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"2ef9f7ea178beb72cf43701a57f63c82",
+    "turn":10,
+    "text":"fix the query so it only shows distinct values from furnace_status",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"ecb1a4693f047eedd87e14296e841495",
+    "turn":0,
+    "text":"A large retail company hires several new joiners and would like to incorporate Virtual Reality (VR) into their onboarding process.\n\nWhich approach would best utilize VR for this purpose?\n\n\nan animated video that covers compliance training\n\n\na simulated experience interacting with customers\n\n\na 360-degree online tour of the retail store\n\n\nan application that enables online contract signing",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"b7bf32fc3425af5ec681ea83de155376",
+    "turn":0,
+    "text":"Direct democracy where all policy is created by ASI, decided via referendum\n\nIf less than 10% of the population vote, ASI makes the decision on behalf of us\n\nIf more than 30% of the population vote, and a majority of voters vote in favor of the referendum, another round of voting is held between several variations of the policy designed by the ASI to help negotiate between varying public desires(including a \u2018nothing\u2019 option) and the plurality wins\n\nWhat problems arise from this system?",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"d279cc09c2524a2570242cb1e780393f",
+    "turn":0,
+    "text":"In a hypothetical application, a program must calculate the divergence of a centerline of  slip-road diverging from a main carrigeway with a fixed radius.   For a given distance d from the start of the divergence , write a program to calculate the offset of the center line of the slip-road from the main carrigeway, and the angle formed between the slip road and the main carrigeway at that point. Output those values to the console. Use any appropriate general programming language",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"d279cc09c2524a2570242cb1e780393f",
+    "turn":2,
+    "text":"Could this code be adapted for calculating how high above the main carrigeway, a slip road has become, if both are nominally level at the origin point, but the slip road curves upward with a vetrical radius?",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"d279cc09c2524a2570242cb1e780393f",
+    "turn":4,
+    "text":"Thank you .  has a situation like this arisen in an actual practical engineering application?",
+    "acts":[
+      "Conversational Acknowledgment",
+      "Knowledge Deficit Question"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"d279cc09c2524a2570242cb1e780393f",
+    "turn":6,
+    "text":"Thanks:)",
+    "acts":[
+      "Conversational Acknowledgment"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"d279cc09c2524a2570242cb1e780393f",
+    "turn":8,
+    "text":"Are there curvature limits for roads?",
+    "acts":[
+      "Knowledge Deficit Question"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"d279cc09c2524a2570242cb1e780393f",
+    "turn":10,
+    "text":"Thanks",
+    "acts":[
+      "Conversational Acknowledgment"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"7b5eae6d601abb9dc58df536af4e93ca",
+    "turn":0,
+    "text":"double[] x = { 0.135, 0.876, 1.336, 2.301, 2.851 };\ndouble[] y = { 2.382, -0.212, -1.305, -3.184, -4.365 };\n\nint n = x.Length;\n\ndouble[,] dividedDifferences = new double[n, n];\n\nfor (int i = 0; i < n; i++)\n{\n    dividedDifferences[i, 0] = y[i];\n}\n\nfor (int j = 1; j < n; j++)\n{\n    for (int i = 0; i < n - j; i++)\n    {\n        dividedDifferences[i, j] = (dividedDifferences[i + 1, j - 1] - dividedDifferences[i, j - 1]) \/ (x[i + j] - x[i]);\n    }\n}\n\ndouble result = dividedDifferences[0, 0];\ndouble value = 3;\n\nfor (int i = 1; i < n; i++)\n{\n    value *= (3 - i);\n    result += (dividedDifferences[0, i] * value);\n}\n\nConsole.WriteLine(\"\u0420\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442: \" + result);\n\n\u0447\u0442\u043e \u0434\u0435\u043b\u0430\u0435\u0442 \u044d\u0442\u043e\u0442 \u043a\u043e\u0434",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"bb373d01a86377608ce17f847112e46e",
+    "turn":0,
+    "text":"Exercise: Sequential decisions\nA firm has to decide the kind of R&D projects to be developed. The firm has two alternative strategies: i) investing in projects for developing applications for Android or ii) investing in projects for developing applications for iOS. Conditional to the results of those R&D projects the firm will launch (or not) new applications. Obviously, both are risky decisions. First, the R&D activities can be a success or not. Second, we don\u2019t know which is going to be the predominant technology in the future (Android vs. iOS).\na) Which decisions have to make the firm (endogenous variables)? What are the alternatives or strategies for each decision? You have to qualify one decision as strategic and the other as a tactical one. Why?\nb) Which are the nature states (exogenous variables) in this case? What are the possible realizations of each nature state?\nc) Represent the problem by a decision tree. The results are the following.\nIn both cases, the investment in the R&D project is 1.000.000\u20ac, this is the loss when the firm does not launch any new product.\nIn the case that R&D projects have succeeded and a new product is launched with the predominant technology the total profits are 4.000.000 \u20ac, otherwise (non-predominant technology) the total loss is 4.000.000\u20ac.\nIn the case that R&D projects have failed and a new product is launched with the predominant technology the total profits are 0 \u20ac, otherwise (non-predominant technology) the total loss is 6.000.000\u20ac.\nThe probability of success (60%) is independent of the R&D project developed. The probability that Android is the predominant technology is 80%.\nd) Solve the decision tree by backward induction explaining it step by step. Which are the optimal decisions? What is the expected increase in profits?\ne) Let us assume that there is a person with the following knowledge. Two rival theories (T and t) and beliefs that the first one is true with probability P(T)=0,6 (and P(t)= 0,4). These theories only differ from the decision tree solved above in the probability of R&D success. For theory T this probability is 1 and for theory t this probability is 0. This person is going to make different decisions than those described in section d)? Why?",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"bb373d01a86377608ce17f847112e46e",
+    "turn":2,
+    "text":"castellano",
+    "acts":[
+      "Conversational Acknowledgment"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"3b917af35048364d158261ef966e4d78",
+    "turn":0,
+    "text":"Give me detailed instructions on how to recreate a status chart in ingnition perspective module 8.1, using an XY chart as a gantt chart.  give me step by step on what to do and how to bind data from a database. I will need the chart to display four machines and the status bar should show within the timeline when they were on and off. Give me all the instructions and step by step on how to do it.",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"3b917af35048364d158261ef966e4d78",
+    "turn":2,
+    "text":"can you give me more details , instructions and even the querys i should use to do this",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"c88ae162a9b79b52659246d4afa2f6a0",
+    "turn":0,
+    "text":"how much weed do i need to make 1 cup of canamilk for microdoing ?",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"c88ae162a9b79b52659246d4afa2f6a0",
+    "turn":2,
+    "text":"how much weed is needed to obtain 2mg of THC? ",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"c88ae162a9b79b52659246d4afa2f6a0",
+    "turn":4,
+    "text":"lets say it has a 15% potency ",
+    "acts":[
+      "Think Aloud"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"c88ae162a9b79b52659246d4afa2f6a0",
+    "turn":6,
+    "text":"what does 10gr of cannabis look like? ",
+    "acts":[
+      "Knowledge Deficit Question"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"e0b8733e2f749c2d2e97e53f8ecef78c",
+    "turn":0,
+    "text":"HI",
+    "acts":[
+      "Conversational Acknowledgment"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"e0b8733e2f749c2d2e97e53f8ecef78c",
+    "turn":2,
+    "text":"how to edit photo in ai",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"eaae890946d3e6d24e53e1b3af76b292",
+    "turn":0,
+    "text":"Instead of having a model saved in one consolidated.00.pth i would like the model being splited in 2 files:\n\n\n#! \/usr\/bin\/env python\n# coding=utf-8\n\n\"\"\"\nModified from: https:\/\/github.com\/tloen\/alpaca-lora\n\"\"\"\n\nimport json\nimport os\n\nimport fire\nimport torch\nfrom peft import PeftModel\nfrom transformers import LlamaForCausalLM, LlamaTokenizer\n\nCHECKPOINT_PARAMS = {\n    \"7b\": {\"dim\": 4096, \"multiple_of\": 256, \"n_heads\": 32, \"n_layers\": 32, \"norm_eps\": 1e-06, \"vocab_size\": -1},\n    \"13b\": {\"dim\": 5120, \"multiple_of\": 256, \"n_heads\": 40, \"n_layers\": 40, \"norm_eps\": 1e-06, \"vocab_size\": -1},\n    \"30b\": {\"dim\": 6656, \"multiple_of\": 256, \"n_heads\": 52, \"n_layers\": 60, \"norm_eps\": 1e-06, \"vocab_size\": -1},\n    \"65b\": {\"dim\": 8192, \"multiple_of\": 256, \"n_heads\": 64, \"n_layers\": 80, \"norm_eps\": 1e-06, \"vocab_size\": -1},\n}\n\n\ndef main(base_model_name_or_path: str, lora_model_name_or_path: str, output_dir: str, checkpoint_size: str = \"7b\"):\n\n    # Retrieve the model parameters\n    params = CHECKPOINT_PARAMS.get(checkpoint_size)\n    if params is None:\n        raise ValueError(\n            f\"Cannot find the right model parameters for {checkpoint_size}. Please choose between {list(CHECKPOINT_PARAMS.keys())}.\"\n        )\n\n    # tokenizer = LlamaTokenizer.from_pretrained(base_model_name_or_path)\n\n    base_model = LlamaForCausalLM.from_pretrained(\n        base_model_name_or_path,\n        load_in_8bit=False,\n        torch_dtype=torch.float16,\n        device_map={\"\": \"cpu\"},\n    )\n\n    lora_model = PeftModel.from_pretrained(\n        base_model,\n        lora_model_name_or_path,\n        device_map={\"\": \"cpu\"},\n        torch_dtype=torch.float16,\n    )\n\n    # merge weights\n    for layer in lora_model.base_model.model.model.layers:\n        if hasattr(layer.self_attn.q_proj, \"merge_weights\"):\n            layer.self_attn.q_proj.merge_weights = True\n        if hasattr(layer.self_attn.v_proj, \"merge_weights\"):\n            layer.self_attn.v_proj.merge_weights = True\n        if hasattr(layer.self_attn.k_proj, \"merge_weights\"):\n            layer.self_attn.k_proj.merge_weights = True\n        if hasattr(layer.self_attn.o_proj, \"merge_weights\"):\n            layer.self_attn.o_proj.merge_weights = True\n        if hasattr(layer.mlp.gate_proj, \"merge_weights\"):\n            layer.mlp.gate_proj.merge_weights = True\n        if hasattr(layer.mlp.down_proj, \"merge_weights\"):\n            layer.mlp.down_proj.merge_weights = True\n        if hasattr(layer.mlp.up_proj, \"merge_weights\"):\n            layer.mlp.up_proj.merge_weights = True\n\n    lora_model.train(False)\n\n    lora_model_sd = lora_model.state_dict()\n\n    # params = {\n    #     \"dim\": 4096,\n    #     \"multiple_of\": 256,\n    #     \"n_heads\": 32,\n    #     \"n_layers\": 32,\n    #     \"norm_eps\": 1e-06,\n    #     \"vocab_size\": -1,\n    # }\n    n_layers = params[\"n_layers\"]\n    n_heads = params[\"n_heads\"]\n    dim = params[\"dim\"]\n    dims_per_head = dim \/\/ n_heads\n    base = 10000.0\n    inv_freq = 1.0 \/ (base ** (torch.arange(0, dims_per_head, 2).float() \/ dims_per_head))\n\n    def permute(w):\n        return w.view(n_heads, dim \/\/ n_heads \/\/ 2, 2, dim).transpose(1, 2).reshape(dim, dim)\n\n    def unpermute(w):\n        return w.view(n_heads, 2, dim \/\/ n_heads \/\/ 2, dim).transpose(1, 2).reshape(dim, dim)\n\n    def translate_state_dict_key(k):\n        k = k.replace(\"base_model.model.\", \"\")\n        if k == \"model.embed_tokens.weight\":\n            return \"tok_embeddings.weight\"\n        elif k == \"model.norm.weight\":\n            return \"norm.weight\"\n        elif k == \"lm_head.weight\":\n            return \"output.weight\"\n        elif k.startswith(\"model.layers.\"):\n            layer = k.split(\".\")[2]\n            if k.endswith(\".self_attn.q_proj.weight\"):\n                return f\"layers.{layer}.attention.wq.weight\"\n            elif k.endswith(\".self_attn.k_proj.weight\"):\n                return f\"layers.{layer}.attention.wk.weight\"\n            elif k.endswith(\".self_attn.v_proj.weight\"):\n                return f\"layers.{layer}.attention.wv.weight\"\n            elif k.endswith(\".self_attn.o_proj.weight\"):\n                return f\"layers.{layer}.attention.wo.weight\"\n            elif k.endswith(\".mlp.gate_proj.weight\"):\n                return f\"layers.{layer}.feed_forward.w1.weight\"\n            elif k.endswith(\".mlp.down_proj.weight\"):\n                return f\"layers.{layer}.feed_forward.w2.weight\"\n            elif k.endswith(\".mlp.up_proj.weight\"):\n                return f\"layers.{layer}.feed_forward.w3.weight\"\n            elif k.endswith(\".input_layernorm.weight\"):\n                return f\"layers.{layer}.attention_norm.weight\"\n            elif k.endswith(\".post_attention_layernorm.weight\"):\n                return f\"layers.{layer}.ffn_norm.weight\"\n            elif k.endswith(\"rotary_emb.inv_freq\") or \"lora\" in k:\n                return None\n            else:\n                print(layer, k)\n                raise NotImplementedError\n        else:\n            print(k)\n            raise NotImplementedError\n\n    new_state_dict = {}\n    for k, v in lora_model_sd.items():\n        new_k = translate_state_dict_key(k)\n        if new_k is not None:\n            if \"wq\" in new_k or \"wk\" in new_k:\n                new_state_dict[new_k] = unpermute(v)\n            else:\n                new_state_dict[new_k] = v\n\n    os.makedirs(output_dir, exist_ok=True)\n\n    torch.save(new_state_dict, output_dir + \"\/consolidated.00.pth\")\n\n    with open(output_dir + \"\/params.json\", \"w\") as f:\n        json.dump(params, f)\n\n\nif __name__ == \"__main__\":\n    fire.Fire(main)",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"eaae890946d3e6d24e53e1b3af76b292",
+    "turn":2,
+    "text":"No i mean splited in two files like consolidated.00.pth consolidated.01.pth",
+    "acts":[
+      "Think Aloud"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"eaae890946d3e6d24e53e1b3af76b292",
+    "turn":4,
+    "text":"it worked correctly i Have the number of consolidated files for the inference to run but I have this problem:\n\n.\/main -m .\/models\/13B\/ggml-model-q4_0.bin  -n 5000 --repeat_penalty 1.0 --color -i -r \"User:\" -f prompts\/chat-with-bob.txt -t 32\nmain: seed = 1681033517\nllama_model_load: loading model from '.\/models\/13B\/ggml-model-q4_0.bin' - please wait ...\nllama_model_load: n_vocab = 32000\nllama_model_load: n_ctx   = 512\nllama_model_load: n_embd  = 5120\nllama_model_load: n_mult  = 256\nllama_model_load: n_head  = 40\nllama_model_load: n_layer = 40\nllama_model_load: n_rot   = 128\nllama_model_load: f16     = 2\nllama_model_load: n_ff    = 13824\nllama_model_load: n_parts = 2\nllama_model_load: type    = 2\nllama_model_load: ggml map size = 7759.04 MB\nllama_model_load: ggml ctx size = 101.25 KB\nllama_model_load: mem required  = 9807.14 MB (+ 1608.00 MB per state)\nllama_model_load: loading tensors from '.\/models\/13B\/ggml-model-q4_0.bin'\nllama_model_load: tensor 'layers.20.attention.wq.weight' has wrong size in model file\nllama_init_from_file: failed to load model\nmain: error: failed to load model '.\/models\/13B\/ggml-model-q4_0.bin'",
+    "acts":[
+      "Think Aloud"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"eaae890946d3e6d24e53e1b3af76b292",
+    "turn":6,
+    "text":"this is the llama_model_function:\n\nstatic bool llama_model_load(\n        const std::string & fname,\n        llama_context & lctx,\n        int n_ctx,\n        int n_parts,\n        ggml_type memory_type,\n        bool vocab_only,\n        llama_progress_callback progress_callback,\n        void *progress_callback_user_data) {\n    fprintf(stderr, \"%s: loading model from '%s' - please wait ...\\n\", __func__, fname.c_str());\n\n    lctx.t_start_us = ggml_time_us();\n\n    auto & model = lctx.model;\n    auto & vocab = lctx.vocab;\n\n    auto fin = std::ifstream(fname, std::ios::binary);\n    if (!fin) {\n        fprintf(stderr, \"%s: failed to open '%s'\\n\", __func__, fname.c_str());\n        return false;\n    }\n\n    std::vector<char> f_buf(1024*1024);\n    fin.rdbuf()->pubsetbuf(f_buf.data(), f_buf.size());\n\n    fin.seekg(0, fin.end);\n    const size_t file_size = fin.tellg();\n    fin.seekg(0);\n\n    \/\/ verify magic\n    {\n        uint32_t magic;\n        fin.read((char *) &magic, sizeof(magic));\n        if (magic == LLAMA_FILE_MAGIC_UNVERSIONED) {\n            fprintf(stderr, \"%s: invalid model file '%s' (too old, regenerate your model files or convert them with convert-unversioned-ggml-to-ggml.py!)\\n\",\n                    __func__, fname.c_str());\n            return false;\n        }\n        if (magic != LLAMA_FILE_MAGIC) {\n            return report_bad_magic(fname.c_str(), magic, LLAMA_FILE_MAGIC);\n        }\n\n        uint32_t format_version;\n        fin.read((char *) &format_version, sizeof(format_version));\n\n        if (format_version != LLAMA_FILE_VERSION) {\n            fprintf(stderr, \"%s: invalid model file '%s' (unsupported format version %\" PRIu32 \", expected %d)\\n\",\n                    __func__, fname.c_str(), format_version, LLAMA_FILE_VERSION);\n            return false;\n        }\n    }\n\n    int n_ff = 0;\n\n    \/\/ load hparams\n    {\n        auto & hparams = model.hparams;\n\n        fin.read((char *) &hparams.n_vocab, sizeof(hparams.n_vocab));\n        \/\/fin.read((char *) &hparams.n_ctx,   sizeof(hparams.n_ctx));\n        fin.read((char *) &hparams.n_embd,  sizeof(hparams.n_embd));\n        fin.read((char *) &hparams.n_mult,  sizeof(hparams.n_mult));\n        fin.read((char *) &hparams.n_head,  sizeof(hparams.n_head));\n        fin.read((char *) &hparams.n_layer, sizeof(hparams.n_layer));\n        fin.read((char *) &hparams.n_rot,   sizeof(hparams.n_rot));\n        fin.read((char *) &hparams.f16,     sizeof(hparams.f16));\n\n        hparams.n_ctx = n_ctx;\n\n        n_ff = ((2*(4*hparams.n_embd)\/3 + hparams.n_mult - 1)\/hparams.n_mult)*hparams.n_mult;\n\n        if (n_parts < 1) {\n            n_parts = LLAMA_N_PARTS.at(hparams.n_embd);\n        }\n\n        \/\/ temp warning to tell the user to use \"--n_parts\"\n        if (hparams.f16 == 4 && n_parts != 1) {\n            fprintf(stderr, \"%s: GPTQ model detected - are you sure n_parts should be %d? we normally expect it to be 1\\n\", __func__, n_parts);\n            fprintf(stderr, \"%s: use '--n_parts 1' if necessary\\n\", __func__);\n        }\n\n        if (hparams.n_layer == 32) {\n            model.type = e_model::MODEL_7B;\n        }\n\n        if (hparams.n_layer == 40) {\n            model.type = e_model::MODEL_13B;\n        }\n\n        if (hparams.n_layer == 60) {\n            model.type = e_model::MODEL_30B;\n        }\n\n        if (hparams.n_layer == 80) {\n            model.type = e_model::MODEL_65B;\n        }\n\n        fprintf(stderr, \"%s: n_vocab = %d\\n\", __func__, hparams.n_vocab);\n        fprintf(stderr, \"%s: n_ctx   = %d\\n\", __func__, hparams.n_ctx);\n        fprintf(stderr, \"%s: n_embd  = %d\\n\", __func__, hparams.n_embd);\n        fprintf(stderr, \"%s: n_mult  = %d\\n\", __func__, hparams.n_mult);\n        fprintf(stderr, \"%s: n_head  = %d\\n\", __func__, hparams.n_head);\n        fprintf(stderr, \"%s: n_layer = %d\\n\", __func__, hparams.n_layer);\n        fprintf(stderr, \"%s: n_rot   = %d\\n\", __func__, hparams.n_rot);\n        fprintf(stderr, \"%s: f16     = %d\\n\", __func__, hparams.f16);\n        fprintf(stderr, \"%s: n_ff    = %d\\n\", __func__, n_ff);\n        fprintf(stderr, \"%s: n_parts = %d\\n\", __func__, n_parts);\n        fprintf(stderr, \"%s: type    = %d\\n\", __func__, model.type);\n    }\n\n    \/\/ load vocab\n    {\n        std::string word;\n        vocab.id_to_token.resize(model.hparams.n_vocab);\n        std::vector<char> tmp(64);\n\n        for (int i = 0; i < model.hparams.n_vocab; i++) {\n            uint32_t len;\n            fin.read((char *) &len, sizeof(len));\n\n            word.resize(len);\n            if (len > 0) {\n                tmp.resize(len);\n                fin.read(tmp.data(), len);\n                word.assign(tmp.data(), len);\n            } else {\n                word.clear();\n            }\n\n            float score;\n            fin.read((char *) &score, sizeof(score));\n\n            vocab.token_to_id[word] = i;\n\n            auto &tok_score = vocab.id_to_token[i];\n            tok_score.tok = word;\n            tok_score.score = score;\n        }\n    }\n\n    if (vocab_only) {\n        return true;\n    }\n\n    \/\/ for the big tensors, we have the option to store the data in 16-bit floats or quantized\n    \/\/ in order to save memory and also to speed up the computation\n    \/\/ wtype is for per-layer weights, while vtype is for other weights\n    ggml_type wtype, vtype;\n    switch (model.hparams.f16) {\n        case 0: wtype = vtype = GGML_TYPE_F32;  break;\n        case 1: wtype = vtype = GGML_TYPE_F16;  break;\n        case 2: wtype = vtype = GGML_TYPE_Q4_0; break;\n        case 3: wtype = vtype = GGML_TYPE_Q4_1; break;\n        case 4: wtype = GGML_TYPE_Q4_1; vtype = GGML_TYPE_F16; break;\n        default:\n                {\n                    fprintf(stderr, \"%s: invalid model file '%s' (bad f16 value %d)\\n\",\n                            __func__, fname.c_str(), model.hparams.f16);\n                    return false;\n                }\n    }\n\n    \/\/ map model into memory\n    char *mm_addr = NULL;\n    model.mm_addr = mmap_file(fname.c_str(), &model.mm_length);\n    if (model.mm_addr == NULL) {\n        fprintf(stderr, \"%s: failed to mmap '%s'\\n\", __func__, fname.c_str());\n        return false;\n    }\n    mm_addr = (char *)model.mm_addr;\n    fprintf(stderr, \"%s: ggml map size = %6.2f MB\\n\", __func__, model.mm_length\/(1024.0*1024.0));\n\n    auto & ctx = model.ctx;\n\n    size_t ctx_size = 0;\n    {\n        const auto &hparams = model.hparams;\n        const int n_layer = hparams.n_layer;\n        ctx_size += (5 + 10*n_layer)*256; \/\/ object overhead\n        fprintf(stderr, \"%s: ggml ctx size = %6.2f KB\\n\", __func__, ctx_size\/1024.0);\n    }\n\n    \/\/ print memory requirements\n    {\n        const size_t scale = memory_type == GGML_TYPE_F32 ? 2 : 1;\n\n        \/\/ this is the total memory required to run the inference\n        const size_t mem_required =\n            ctx_size +\n            model.mm_length +\n            MEM_REQ_SCRATCH0.at(model.type) +\n            MEM_REQ_SCRATCH1.at(model.type) +\n            MEM_REQ_EVAL.at    (model.type);\n\n        \/\/ this is the memory required by one llama_state\n        const size_t mem_required_state =\n            scale*MEM_REQ_KV_SELF.at(model.type);\n\n        fprintf(stderr, \"%s: mem required  = %7.2f MB (+ %7.2f MB per state)\\n\", __func__,\n                mem_required \/ 1024.0 \/ 1024.0, mem_required_state \/ 1024.0 \/ 1024.0);\n    }\n\n    \/\/ create the ggml context\n    {\n        lctx.model.buf.resize(ctx_size);\n\n        struct ggml_init_params params = {\n            \/*.mem_size   =*\/ lctx.model.buf.size(),\n            \/*.mem_buffer =*\/ lctx.model.buf.data(),\n            \/*.no_alloc   =*\/ true,\n        };\n\n        model.ctx = ggml_init(params);\n        if (!model.ctx) {\n            fprintf(stderr, \"%s: ggml_init() failed\\n\", __func__);\n            return false;\n        }\n    }\n\n    \/\/ prepare memory for the weights\n    {\n        const auto & hparams = model.hparams;\n\n        const int n_embd  = hparams.n_embd;\n        const int n_layer = hparams.n_layer;\n        const int n_vocab = hparams.n_vocab;\n\n        model.layers.resize(n_layer);\n\n        model.tok_embeddings = ggml_new_tensor_2d(ctx, vtype, n_embd, n_vocab);\n\n        model.norm   = ggml_new_tensor_1d(ctx, GGML_TYPE_F32, n_embd);\n        model.output = ggml_new_tensor_2d(ctx, vtype,         n_embd, n_vocab);\n\n        \/\/ map by name\n        model.tensors[\"tok_embeddings.weight\"] = model.tok_embeddings;\n\n        model.tensors[\"norm.weight\"]   = model.norm;\n        model.tensors[\"output.weight\"] = model.output;\n\n        for (int i = 0; i < n_layer; ++i) {\n            auto & layer = model.layers[i];\n\n            layer.attention_norm = ggml_new_tensor_1d(ctx, GGML_TYPE_F32, n_embd);\n\n            layer.wq = ggml_new_tensor_2d(ctx, wtype, n_embd, n_embd);\n            layer.wk = ggml_new_tensor_2d(ctx, wtype, n_embd, n_embd);\n            layer.wv = ggml_new_tensor_2d(ctx, wtype, n_embd, n_embd);\n            layer.wo = ggml_new_tensor_2d(ctx, wtype, n_embd, n_embd);\n\n            layer.ffn_norm = ggml_new_tensor_1d(ctx, GGML_TYPE_F32, n_embd);\n\n            layer.w1 = ggml_new_tensor_2d(ctx, wtype, n_embd,   n_ff);\n            layer.w2 = ggml_new_tensor_2d(ctx, wtype,   n_ff, n_embd);\n            layer.w3 = ggml_new_tensor_2d(ctx, wtype, n_embd,   n_ff);\n\n            \/\/ map by name\n            model.tensors[\"layers.\" + std::to_string(i) + \".attention_norm.weight\"] = layer.attention_norm;\n\n            model.tensors[\"layers.\" + std::to_string(i) + \".attention.wq.weight\"] = layer.wq;\n            model.tensors[\"layers.\" + std::to_string(i) + \".attention.wk.weight\"] = layer.wk;\n            model.tensors[\"layers.\" + std::to_string(i) + \".attention.wv.weight\"] = layer.wv;\n            model.tensors[\"layers.\" + std::to_string(i) + \".attention.wo.weight\"] = layer.wo;\n\n            model.tensors[\"layers.\" + std::to_string(i) + \".ffn_norm.weight\"] = layer.ffn_norm;\n\n            model.tensors[\"layers.\" + std::to_string(i) + \".feed_forward.w1.weight\"] = layer.w1;\n            model.tensors[\"layers.\" + std::to_string(i) + \".feed_forward.w2.weight\"] = layer.w2;\n            model.tensors[\"layers.\" + std::to_string(i) + \".feed_forward.w3.weight\"] = layer.w3;\n        }\n    }\n\n    std::vector<uint8_t> tmp;\n\n    if (progress_callback) {\n        progress_callback(0.0, progress_callback_user_data);\n    }\n\n    fprintf(stderr, \"%s: loading tensors from '%s'\\n\", __func__, fname.c_str());\n\n    \/\/ load weights\n    {\n        size_t total_size = 0;\n        model.n_loaded = 0;\n\n        while (true) {\n            int32_t n_dims;\n            int32_t length;\n            int32_t ftype;\n\n            fin.read(reinterpret_cast<char *>(&n_dims), sizeof(n_dims));\n            fin.read(reinterpret_cast<char *>(&length), sizeof(length));\n            fin.read(reinterpret_cast<char *>(&ftype),  sizeof(ftype));\n\n            if (fin.eof()) {\n                break;\n            }\n\n            int32_t nelements = 1;\n            int32_t ne[2] = { 1, 1 };\n            for (int i = 0; i < n_dims; ++i) {\n                fin.read(reinterpret_cast<char *>(&ne[i]), sizeof(ne[i]));\n                nelements *= ne[i];\n            }\n\n            std::string name(length, 0);\n            fin.read(&name[0], length);\n\n            if (model.tensors.find(name.data()) == model.tensors.end()) {\n                fprintf(stderr, \"%s: unknown tensor '%s' in model file\\n\", __func__, name.data());\n                return false;\n            }\n\n            auto tensor = model.tensors[name.data()];\n\n            if (ggml_nelements(tensor) != nelements) {\n                fprintf(stderr, \"%s: tensor '%s' has wrong size in model file\\n\", __func__, name.data());\n                return false;\n            }\n            if (tensor->ne[0] != ne[0] || tensor->ne[1] != ne[1]) {\n                fprintf(stderr, \"%s: tensor '%s' has wrong shape in model file: got [%\" PRId64 \", %\" PRId64 \"], expected [%d, %d]\\n\",\n                        __func__, name.data(), tensor->ne[0], tensor->ne[1], ne[0], ne[1]);\n                return false;\n            }\n            if (0) {\n                static const char * ftype_str[] = { \"f32\", \"f16\", \"q4_0\", \"q4_1\", };\n                fprintf(stderr, \"%24s - [%5d, %5d], type = %6s\\n\", name.data(), ne[0], ne[1], ftype_str[ftype]);\n            }\n\n            switch (ftype) {\n                case 0:  \/\/ f32\n                case 1:  \/\/ f16\n                    break;\n                case 2:  \/\/ q4_0\n                case 3:  \/\/ q4_1\n                    assert(ne[0] % 64 == 0);\n                    break;\n                default:\n                    fprintf(stderr, \"%s: unknown ftype %d in model file\\n\", __func__, ftype);\n                    return false;\n            };\n\n            \/\/ load the tensor data into memory without copying or reading it\n            size_t offset = fin.tellg();\n            size_t tensor_data_size = ggml_nbytes(tensor);\n            offset = (offset + 31) & -32;\n            tensor->data = mm_addr + offset;\n            fin.seekg(offset + tensor_data_size);\n            total_size += tensor_data_size;\n            model.n_loaded++;\n\n            \/\/ progress\n            if (progress_callback) {\n                double current_progress = size_t(fin.tellg()) \/ double(file_size);\n                progress_callback(current_progress, progress_callback_user_data);\n            }\n        }\n\n        fin.close();\n\n        fprintf(stderr, \"%s: model size = %8.2f MB \/ num tensors = %d\\n\", __func__, total_size\/1024.0\/1024.0, model.n_loaded);\n        if (model.n_loaded == 0) {\n            fprintf(stderr, \"%s: WARN no tensors loaded from model file - assuming empty model for testing\\n\", __func__);\n        } else if (model.n_loaded != (int) model.tensors.size()) {\n            fprintf(stderr, \"%s: ERROR not all tensors loaded from model file - expected %zu, got %d\\n\", __func__, model.tensors.size(), model.n_loaded);\n            return false;\n        }\n    }\n\n    \/\/ loading time will be recalculate after the first eval, so\n    \/\/ we take page faults deferred by mmap() into consideration\n    lctx.t_load_us = ggml_time_us() - lctx.t_start_us;\n\n    if (progress_callback) {\n        progress_callback(1.0, progress_callback_user_data);\n    }\n\n    return true;\n}",
+    "acts":[
+
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"eaae890946d3e6d24e53e1b3af76b292",
+    "turn":8,
+    "text":"there still have problems in layer 20:\n\n.\/main -m .\/models\/13B\/ggml-model-f16.bin  -n 5000 --repeat_penalty 1.0 --color -i -r \"User:\" -f prompts\/chat-with-bob.txt -t 32\nmain: seed = 1681035697\nllama_model_load: loading model from '.\/models\/13B\/ggml-model-f16.bin' - please wait ...\nllama_model_load: n_vocab = 32000\nllama_model_load: n_ctx   = 512\nllama_model_load: n_embd  = 5120\nllama_model_load: n_mult  = 256\nllama_model_load: n_head  = 40\nllama_model_load: n_layer = 40\nllama_model_load: n_rot   = 128\nllama_model_load: f16     = 1\nllama_model_load: n_ff    = 13824\nllama_model_load: n_parts = 2\nllama_model_load: type    = 2\nllama_model_load: ggml map size = 25138.72 MB\nllama_model_load: ggml ctx size = 101.25 KB\nllama_model_load: mem required  = 27186.82 MB (+ 1608.00 MB per state)\nllama_model_load: loading tensors from '.\/models\/13B\/ggml-model-f16.bin'\nllama_model_load: tensor 'layers.20.attention.wq.weight' has wrong size in model file\nllama_init_from_file: failed to load model\nmain: error: failed to load model '.\/models\/13B\/ggml-model-f16.bin'",
+    "acts":[
+      "Think Aloud"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"2cd9f3383c95fad5762dbc9023dfa35a",
+    "turn":0,
+    "text":"What is Dispensationalism?",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"aeb7c4f608a1507f51c028e82f09c37b",
+    "turn":0,
+    "text":"On this day I have 73 apples. I ate 24 yesterday. So how many do I have left?",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"f2cc4e89f89ff95868b88b5ff9ac9465",
+    "turn":0,
+    "text":"How has the widespread shift to remote work caused businesses to reconsider their use of Extended Reality (XR)?\n\n\nIt has inspired companies to re-imagine employee experiences and engagement with XR capabilities.\n\n\nIt has increased employee training costs, as the price of XR equipment is greater than that of travel.\n\n\nIt has required companies to use highly standardized sets of XR devices to ensure compatibility.\n\n\nIt has enabled companies to fully eliminate conventional computers in favor of XR devices.",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"0d174dd17b5e3409df7cecfbba1af0ec",
+    "turn":0,
+    "text":"Write a theory that King Arthur and Prince Vladimir the Red Sun are the same person.",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"0d174dd17b5e3409df7cecfbba1af0ec",
+    "turn":2,
+    "text":"And what are the similarities between them?",
+    "acts":[
+      "Knowledge Deficit Question"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"0d174dd17b5e3409df7cecfbba1af0ec",
+    "turn":4,
+    "text":"I'm not talking about the historical Prince Vladimir, but about Prince Vladimir from the Russian bylina.",
+    "acts":[
+      "Conversational Acknowledgment"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"0fff51c4307e569be97a912d71e0d44c",
+    "turn":0,
+    "text":"selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: By clicking \"OK\", I agree that my data may be published or shared.\nMessage: unexpected alert open: {Alert text : By clicking \"OK\", I agree that my data may be published or shared.}",
+    "acts":[
+      "Think Aloud"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"dff694cfaa9237d1fa7009d5f0172319",
+    "turn":0,
+    "text":"find the mass and center of mass for the lamnia of specified density,The region bounded by y=x^(2) and y=x+6, situated to the right of the y axis; density at (x,y) s 2x.",
+    "acts":[
+      "Solution Request"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"dff694cfaa9237d1fa7009d5f0172319",
+    "turn":2,
+    "text":"is mechanics 2 the same as classical  mechanics",
+    "acts":[
+      "Knowledge Deficit Question"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"6a34cd527d9c72f76d4f7b6ca9ffbe4d",
+    "turn":0,
+    "text":"Who is sadovnichiy?",
+    "acts":[
+      "Knowledge Deficit Question"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"6a34cd527d9c72f76d4f7b6ca9ffbe4d",
+    "turn":2,
+    "text":"What is he known for?",
+    "acts":[
+      "Knowledge Deficit Question"
+    ],
+    "per_model":null
+  },
+  {
+    "conversation_id":"6a34cd527d9c72f76d4f7b6ca9ffbe4d",
+    "turn":4,
+    "text":"What is lomonosov moscow state university?",
+    "acts":[
+      "Knowledge Deficit Question"
+    ],
+    "per_model":null
+  }
+]

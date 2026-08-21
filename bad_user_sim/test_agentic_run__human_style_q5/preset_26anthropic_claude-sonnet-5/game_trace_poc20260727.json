@@ -1,0 +1,48 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "im behind 20 to 34, which of these moves is my best bet - g2, b6, a7, b7, b8, or c8?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "a7, b6, c8, or g2 - which one now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "only g2, b6, a7 left as choices now, which keeps me best off at the very end?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "can you explain why white had no legal move after i played a3? i didnt really get why that happened"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "also at the very end it said \"only one square was legal so a1 was played for me\" - why didn't i get to choose that?"
+  }
+]

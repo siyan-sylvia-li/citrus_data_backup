@@ -1,0 +1,26 @@
+{
+  "prolific_id": "p574",
+  "game": "connect_four",
+  "rounds": [
+    {
+      "puzzle": "15",
+      "ai": true,
+      "ai_survey": true,
+      "gate": true,
+      "time_limit": 360
+    },
+    {
+      "puzzle": "w4p6",
+      "ai": false,
+      "ai_survey": false,
+      "time_limit": 180
+    }
+  ],
+  "skill_rating": "2",
+  "age": 34,
+  "education": "postgrad",
+  "occupation": "professional",
+  "genai_usage": "never",
+  "consented_at": "2026-07-14T23:41:07.908488+00:00",
+  "submitted_at": "2026-07-14T23:47:34.153900+00:00"
+}

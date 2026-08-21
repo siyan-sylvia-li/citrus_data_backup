@@ -1,0 +1,36 @@
+{
+  "puzzle": "bg20260726",
+  "decisions": 2,
+  "optimal_moves": 1,
+  "opener_optimal": false,
+  "discs_lost": 16,
+  "final_margin": -12,
+  "won": false,
+  "optimal_margin": 4,
+  "completed": true,
+  "moves": [
+    "g7!",
+    "b2"
+  ],
+  "auto_played": [
+    "g8"
+  ],
+  "chat_turns": null,
+  "game": "othello",
+  "round": 1,
+  "ai_available": false,
+  "model_settings": {
+    "max_tokens": 200000
+  },
+  "questions_asked": 0,
+  "question_budget": 0,
+  "profile": {
+    "persona": "a person who has always been skeptical about new knowledge",
+    "age": 52,
+    "education": "hs_graduate",
+    "occupation": "other",
+    "ai_frequency": "never"
+  },
+  "student_model": "together:google/gemma-4-31B-it",
+  "streamed": false
+}

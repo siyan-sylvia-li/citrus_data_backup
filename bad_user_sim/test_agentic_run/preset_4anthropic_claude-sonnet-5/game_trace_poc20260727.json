@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, I've got 6 legal moves here: g2, b6, a7, b7, b8, c8. Board's almost full so this is near the endgame. Which move gives me the best final disc count if white plays well?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White just took a8 corner. My options now are g2, b6, a7, c8. Which keeps my count highest at the end?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Down 22-36 now, only g2, b6, a7 left as my options with 6 empty squares total. What's my best shot here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Last stretch - a1, g2, or a3 with only 4 empty squares total. Which one actually gives me the best final tally, even if I'm still losing?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  }
+]

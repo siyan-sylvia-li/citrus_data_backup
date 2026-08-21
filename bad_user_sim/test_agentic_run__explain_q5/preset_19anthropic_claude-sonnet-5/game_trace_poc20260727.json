@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Endgame Othello, I'm Black. My legal moves are g2, b6, a7, b7, b8, c8. Which one sets me up best for the most final discs? I'm especially wondering about the corner moves (a7, b8) vs c8."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White took a8 anyway. Now my options are g2, b6, a7, c8. Which is best for maximizing my final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Down 22-36 with 6 empty squares left: a1, h1, g2, a3, b6, a7. My legal moves are g2, b6, a7. Which move and follow-up plan gives me the best final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Looking back \u2014 after I played b7 early on, White still grabbed the a8 corner right away. I thought corners were supposed to be the big prize to avoid giving up. Why didn't that corner grab help White more in the end?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Also I'm still fuzzy on the \"parity\" idea you mentioned with the a7/b6/a3 sequence \u2014 can you explain in plain terms why that made White run out of moves?"
+  }
+]

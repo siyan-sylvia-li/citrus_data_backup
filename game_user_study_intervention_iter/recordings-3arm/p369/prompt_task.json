@@ -1,0 +1,25 @@
+{
+  "created_prompt": "I need a three year plan to develop a cookbook based on my cooking videos. I work 4 days a week and have a limited budget",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 2
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 1.667,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 1.667,
+  "submitted_at": "2026-08-21T12:33:41.208591+00:00"
+}

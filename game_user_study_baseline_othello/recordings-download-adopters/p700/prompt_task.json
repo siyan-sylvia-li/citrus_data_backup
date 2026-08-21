@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Julie is a content creater for quick healthy recipes and currently has 1.2 million followers. In the next 36 months she want grow online as much as possible and publish a cook book. she has not decided on traditional or self-publishing. she currently works four days a week so she has limited time and budget. Make a comprehensive and detailed plan for her to maximize her growth over the next three years and help her decide whether to use traditional or self-publishing for her cook book",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T21:46:09.822371+00:00"
+}

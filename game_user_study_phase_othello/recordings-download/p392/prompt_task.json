@@ -1,0 +1,23 @@
+{
+  "created_prompt": "My healthy recipes cooking videos have 1.2 million followers. I want to grow the online business and publish a cookbook, open to suggestions on how to publish. Limited time and budget. I need a three year plan to achieve this.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-05T13:23:17.421410+00:00"
+}

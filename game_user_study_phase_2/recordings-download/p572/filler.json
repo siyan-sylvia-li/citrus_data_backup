@@ -1,0 +1,25 @@
+{
+  "reflection": "I would say that she should start writing down a lot of her most popular and favourite recipes, maybe 2 or 3 recipes a day when she has time. She should also do a bit of research (or have AI do the research) on publishers that can work on a budget.",
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 4
+      },
+      {
+        "model": "nemotron",
+        "score": 3
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.333,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-18T22:37:46.532158+00:00"
+}

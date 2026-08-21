@@ -1,0 +1,19 @@
+{
+  "created_prompt": "I need a detailed, 3 year plan to help me grow my online following.  I post healthy, quick, recipes and currently have 1.2 million followers.   During this 3 years, I not only want to grow online but I also want to publish a cookbook, I need that to be included in the plan as well.  I haven\u2019t decided if I should do traditional or self publish.   Finally, I have a limited budget, and I work 4 days a week so the plan should be mindful of my limited time and budget.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-22T21:54:43.043782+00:00"
+}

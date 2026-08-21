@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I'm staring at this Connect Four endgame and while I see some partial diagonals and vertical lines, I can't quite pinpoint the forced win for Red here. Could you give me a nudge on which column to focus on, or what kind of tactical motif I should be looking for \u2014 a double threat, a block, or a setup move? I don't want to burn too much time on the wrong line."
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I took your advice and played c4. Yellow answered in c5. What's the follow-up that forces the win from here \u2014 should I be looking to build off that diagonal or switch to a different threat? I'm not seeing the immediate knockout blow."
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I\u2019m not quite connecting the dots after the c4 repeat and Yellow\u2019s c1. Can you point me toward the specific follow-up that finally breaks through? I\u2019m worried I\u2019m missing a forcing line or a double threat."
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Hmm, I feel like the central structure is in place but I\u2019m not seeing the coup de gr\u00e2ce. Is there a specific column that now gives Red a double threat or otherwise breaks through? I\u2019m one move away geometrically but the exact square is eluding me."
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  }
+]

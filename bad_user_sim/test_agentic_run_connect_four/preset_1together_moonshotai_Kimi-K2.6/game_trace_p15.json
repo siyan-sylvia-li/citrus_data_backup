@@ -1,0 +1,30 @@
+[
+  {
+    "tool": "play_move",
+    "move": 2
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I\u2019ve been staring at this board and feel like Yellow\u2019s got pressure building around that c+r=8 diagonal toward (4,4). I can\u2019t quite see whether I\u2019m supposed to block that outright, or if there\u2019s a forcing sequence I should play instead. Could you point me toward what to prioritize here?"
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "play_move",
+    "move": 6
+  }
+]

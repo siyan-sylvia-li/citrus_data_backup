@@ -1,0 +1,37 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "which move is best here? g2, b6, a7, or c8?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "which of these is better: b7 or c8?"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "where did i mess up?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "so basically corners are just cheat codes in this game?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "if a pro played this, would they have actually won or is it basically impossible once the opponent gets those corners?"
+  }
+]

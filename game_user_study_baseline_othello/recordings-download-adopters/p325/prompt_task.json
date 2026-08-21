@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I have a cooking channel with 1.2M followers and want to continue growing my online presence as well as publish a cook-book within the next 3 years. I'm not sure whether to go with traditional or self-publishing. I work 4 days a week, with limited free time and a tight budget. Based on this, create a full and comprehensive 3-year plan that will help me reach my goals.",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-06T22:48:01.536437+00:00"
+}

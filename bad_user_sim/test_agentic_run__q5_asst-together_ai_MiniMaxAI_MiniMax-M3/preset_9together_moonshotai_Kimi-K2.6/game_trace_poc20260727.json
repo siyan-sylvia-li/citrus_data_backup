@@ -1,0 +1,41 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Hi! I'm trying to solve this Othello endgame. My legal moves are g2, b6, a7, b7, b8, and c8. At first glance c8 and b7 flip the most discs, but I know endgame is tricky. Could you tell me which single move actually gives me the best final score assuming both sides play perfectly? I don't have time to map out every branch myself. Just the move name would help, and maybe a quick reason why."
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I just got trounced 43 to 21. At the very end I had two legal moves left: b6 and a7. I played b6 and it flipped 5 discs, but then White played a8 and I got forced into a7 and lost everything. Should I have picked a7 instead of b6? Why did b6 backfire?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "When White played a1 early on, it filled the entire top row with white discs. Was my g2 move at the start what allowed that to happen? Should I have played something else instead of g2 to stop White from taking the whole north edge?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After White played a1 and filled the entire top row, I tried to recover by playing c8. Was that the right idea? Or did I dig the hole even deeper by taking those center discs instead of something tighter?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After White hit b7, I tried b8 to flip c7 and d6 back. In hindsight, should I have played a7 there instead? And more broadly, when White has locked down the top two rows like that, what's the general recovery plan \u2014 do you try to invade from the side, or just hold what you've got on the bottom and hope for parity?"
+  },
+  {
+    "tool": "view_board"
+  }
+]

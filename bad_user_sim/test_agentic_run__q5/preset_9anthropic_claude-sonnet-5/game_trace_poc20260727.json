@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I'm Black. Looking at this endgame board, which of my legal moves (g2, b6, a7, b7, b8, c8) gives me the best final disc count if White plays well? I'm not great at reading ahead in this game."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White just took a8. Now my options are g2, b6, a7, c8. Which keeps me in the best shape?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Down 22-36 now, only g2, b6, a7 left. Which one should I take?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Last few squares now: a1, g2, a3 are my options (h1 also empty but not legal for me). Which move finishes best for me?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Just a1 or g2 left for me, with h1 also open on the board. Which should I play to end with the most discs?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

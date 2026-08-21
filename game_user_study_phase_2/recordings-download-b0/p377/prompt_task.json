@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I want a plan to make a successful fitness channel where I explain the various ways to get and stay fit including workout regiments, dietary plans and proper supplements intake. As most people take years to get in shape, I would like a 3 year plan in order to make sure everyone can achieve the goals they aim for, regardless of their work or life schedule.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 1
+    },
+    {
+      "model": "gpt",
+      "score": 1
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 1.0,
+  "median_score": 1,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-18T07:07:30.257807+00:00"
+}

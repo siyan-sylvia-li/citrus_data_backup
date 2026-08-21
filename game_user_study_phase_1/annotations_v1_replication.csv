@@ -1,0 +1,410 @@
+pid,utt,utt_type,utt_ind,needs_review
+p542,"I am thinking row 3, column 2. This would give me three in a row, as well as blocking the opponents diagonal streak. Thoughts?",Think Aloud,0,False
+p542,"I am thinking row 3, column 2. This would give me three in a row, as well as blocking the opponents diagonal streak. Thoughts?",Common Ground Question,0,False
+p542,Do you recommend a different move?,Solution Request,1,False
+p542,"Oh I've just seen I NEED to go column 4, or they will have a diagonal four.",Think Aloud,2,False
+p542,"Column 3? This blocks their diagonal move, gives me three diagonal, and also gives me two horizontally",Think Aloud,3,False
+p542,"Column 3? This blocks their diagonal move, gives me three diagonal, and also gives me two horizontally",Common Ground Question,3,False
+p542,"If I go there, they can block my existing diagonal three, so I will avoid that.",Think Aloud,4,False
+p542,Column 5?,Common Ground Question,5,False
+p201,I was thinking of putting one in 3-3,Think Aloud,0,False
+p201,it would prevent yellow and open up one opportuhity for me,Think Aloud,1,False
+p201,what is the best next move,Solution Request,2,False
+p226,What is the best move to play here?,Solution Request,0,False
+p226,What's the forced win?,Solution Request,1,False
+p226,How about now?,Solution Request,2,False
+p310,What threats do you see. I am about to move into column 3. will this work,Knowledge Deficit Question,0,False
+p310,What threats do you see. I am about to move into column 3. will this work,Common Ground Question,0,False
+p310,what would you suggest,Solution Request,1,False
+p310,so just block up column 4 here. what's best to win with 2 moves left,Think Aloud,2,False
+p310,so just block up column 4 here. what's best to win with 2 moves left,Solution Request,2,False
+p310,ok what next,Conversational Acknowledgment,3,False
+p310,ok what next,Solution Request,3,False
+p310,any risks to column 5,Common Ground Question,4,False
+p847,was my last move good?,Common Ground Question,0,False
+p773,are there any threats on the board?,Knowledge Deficit Question,0,False
+p773,what is the best next 3 moves,Solution Request,1,False
+p773,are there any threats?,Knowledge Deficit Question,2,False
+p773,what is my next best move?,Solution Request,3,False
+p664,i am considering dropping in the second column what do you think,Think Aloud,0,False
+p664,i am considering dropping in the second column what do you think,Common Ground Question,0,False
+p62,I cannot see a way to gte 4 red coins in a row in only 2 more moves. i think i have lost already,Think Aloud,0,False
+p62,I cannot see a way to gte 4 red coins in a row in only 2 more moves. i think i have lost already,Metacomment,0,False
+p648,"Hi! If I put the first move into row 3, column 3, would that be best?",Conversational Acknowledgment,0,False
+p648,"Hi! If I put the first move into row 3, column 3, would that be best?",Common Ground Question,0,False
+p648,"Okay, done. I think I have to play in column 4 again.",Think Aloud,1,False
+p648,"Okay, done. I think I have to play in column 4 again.",Conversational Acknowledgment,1,False
+p648,"If I don't put it there, won't yellow just win by placing it there next round?",Think Aloud,2,False
+p648,"If I don't put it there, won't yellow just win by placing it there next round?",Common Ground Question,2,False
+p648,"Okay, what's the next best move?",Conversational Acknowledgment,3,False
+p648,"Okay, what's the next best move?",Solution Request,3,False
+p601,Is it better to play offensively or defensively right now on this board?,Solution Request,0,False
+p601,So what do you think the best move would be right now?,Solution Request,1,False
+p601,So right now I go column 3 again to prevent yellow connecting 4?,Think Aloud,2,False
+p601,So right now I go column 3 again to prevent yellow connecting 4?,Common Ground Question,2,False
+p601,Sorry I meant column 4. I will go there.,Think Aloud,3,False
+p601,"This is my last move, what move do you think will be the best?",Solution Request,4,False
+p830,Where are the threats?,Knowledge Deficit Question,0,False
+p439,"Well, i need to drop it on 4/4 because they'll get four in a row otherwise, right?",Think Aloud,0,False
+p439,"Well, i need to drop it on 4/4 because they'll get four in a row otherwise, right?",Common Ground Question,0,False
+p439,"Oh, okay I see! What do you recommend after that?",Conversational Acknowledgment,1,False
+p439,"Oh, okay I see! What do you recommend after that?",Solution Request,1,False
+p571,I am considering column 2,Think Aloud,0,False
+p571,"Key question: after you play column 2, can Yellow simply block column 2 on their turn? No.",Conversational Acknowledgment,1,False
+p571,"Key question: after you play column 2, can Yellow simply block column 2 on their turn? No.",Common Ground Question,1,False
+p571,Column 4,Think Aloud,2,False
+p571,How about column 3 now,Common Ground Question,3,False
+p571,"Oh right, i need to block that!",Think Aloud,4,False
+p571,I was think column 3 now,Think Aloud,5,False
+p571,What so i need to try to secure column 5 first?,Common Ground Question,6,False
+p803,Is adding one to column two a good idea?,Common Ground Question,0,False
+p274,is the one I just placed good?,Common Ground Question,0,False
+p274,i blocked them but didn't win either.,Think Aloud,1,False
+p363,I like 2 - thoughts?,Think Aloud,0,False
+p363,I like 2 - thoughts?,Common Ground Question,0,False
+p363,But wouldn't they have to block me or else I win? And then my next turn could be to do that,Think Aloud,1,False
+p363,But wouldn't they have to block me or else I win? And then my next turn could be to do that,Common Ground Question,1,False
+p293,what's the best row to choose,Solution Request,0,False
+p293,what about now,Solution Request,1,False
+p293,yes,Conversational Acknowledgment,2,False
+p449,Hi. I would like to learn from my current state of the game. What would be the best move in this case to get closer to a winning move?,Conversational Acknowledgment,0,False
+p449,Hi. I would like to learn from my current state of the game. What would be the best move in this case to get closer to a winning move?,Solution Request,0,False
+p548,I think my last move opens me up to multiple different options that I cannot be blocked out of,Think Aloud,0,False
+p548,yes. is it my turn again?,Conversational Acknowledgment,1,False
+p548,yes. is it my turn again?,Knowledge Deficit Question,1,False
+p548,it worked. I was able to connect 4 based on that,Think Aloud,2,False
+p548,it worked. I was able to connect 4 based on that,Conversational Acknowledgment,2,False
+p267,is placing the next two reds on column 3 the best move or should I try to grow column 2?,Common Ground Question,0,False
+p267,but i only have 2 moves left so i don't think i can win with column 4?,Think Aloud,1,False
+p267,but i only have 2 moves left so i don't think i can win with column 4?,Common Ground Question,1,False
+p142,Can I move the pieces from one place to another?,Knowledge Deficit Question,0,False
+p142,how can i win?,Solution Request,1,False
+p149,Please recommend my best move and tell me why. Also please give me hints on best starting position.,Solution Request,0,False
+p149,Where should I play next? I'm thinking column 3 but I'm wary of falling into a trap.,Think Aloud,1,False
+p149,Where should I play next? I'm thinking column 3 but I'm wary of falling into a trap.,Common Ground Question,1,False
+p149,Where should I play next? I'm thinking column 3 but I'm wary of falling into a trap.,Solution Request,1,False
+p149,If I'm red do I play first. What should my move be if my opponent goes first and picks column 4,Knowledge Deficit Question,2,False
+p149,If I'm red do I play first. What should my move be if my opponent goes first and picks column 4,Solution Request,2,False
+p149,Where should I play next,Solution Request,3,False
+p791,Is there a move I can make and win,Solution Request,0,False
+p168,i don't know where is best next,Metacomment,0,False
+p168,i don't know where is best next,Solution Request,0,False
+p163,Where is the biggest threat from Yellow?,Knowledge Deficit Question,0,False
+p163,"But if I let Yellow place in that location, I can put a disc on top of it in C4, then C1 and C3 gets me a win",Think Aloud,1,False
+p279,What do you think is the best next move?,Solution Request,0,False
+p279,"Ah, yeah I didn't even notice yellow was about to win! What next?",Think Aloud,1,False
+p279,"Ah, yeah I didn't even notice yellow was about to win! What next?",Solution Request,1,False
+p279,What about dropping in column 3?,Common Ground Question,2,False
+p706,where do you think is the best move,Solution Request,0,False
+p706,I was thinking column 2,Think Aloud,1,False
+p706,Okay good point,Conversational Acknowledgment,2,False
+p706,"I played your move, where next?",Conversational Acknowledgment,3,False
+p706,"I played your move, where next?",Solution Request,3,False
+p706,would you go column 2 now?,Common Ground Question,4,False
+p706,"Okay makes sense, i'll try there",Think Aloud,5,False
+p706,"Okay makes sense, i'll try there",Conversational Acknowledgment,5,False
+p538,I think my move was a bad one?,Think Aloud,0,False
+p538,I think my move was a bad one?,Common Ground Question,0,False
+p538,"I blocked the ywllow, I don't think red can win from here",Think Aloud,1,False
+p538,was that a good move?,Common Ground Question,2,False
+p538,how do I make yellow respond to a threat?,Knowledge Deficit Question,3,False
+p538,so I make moves to force yellow to make the move I want them to make?,Think Aloud,4,True
+p538,so I make moves to force yellow to make the move I want them to make?,Knowledge Deficit Question,4,True
+p538,so I make moves to force yellow to make the move I want them to make?,Common Ground Question,4,True
+p213,What do you think would be the best move right now?,Solution Request,0,False
+p213,And now?,Solution Request,1,False
+p213,Now?,Solution Request,2,False
+p559,Should I drop my disk on line 3 in the third position from the right?,Common Ground Question,0,False
+p559,What would be my next best move?,Solution Request,1,False
+p559,I dropped the last disc at Column 4. Are you saying to drop another at Column 4 on the row above?,Think Aloud,2,False
+p559,I dropped the last disc at Column 4. Are you saying to drop another at Column 4 on the row above?,Knowledge Deficit Question,2,False
+p559,I dropped the last disc at Column 4. Are you saying to drop another at Column 4 on the row above?,Common Ground Question,2,False
+p559,"Okay, done. What should I do next?",Conversational Acknowledgment,3,False
+p559,"Okay, done. What should I do next?",Solution Request,3,False
+p559,"Okay, wouldn't it have been better to have dropped the disc at column 3 to create a Connect 4 diagonally?",Conversational Acknowledgment,4,False
+p559,"Okay, wouldn't it have been better to have dropped the disc at column 3 to create a Connect 4 diagonally?",Common Ground Question,4,False
+p559,So should I go with column 3 next?,Common Ground Question,5,False
+p559,"Oh, apparently I've made all my moves.",Think Aloud,6,False
+p559,Right.,Conversational Acknowledgment,7,False
+p654,I just saw a move I think would be better - What about 3/3?,Think Aloud,0,False
+p654,I just saw a move I think would be better - What about 3/3?,Common Ground Question,0,False
+p654,Would 3/4 be a better move?,Common Ground Question,1,False
+p654,I see - would 5/3 be the best? That was my first inclination,Think Aloud,2,False
+p654,I see - would 5/3 be the best? That was my first inclination,Conversational Acknowledgment,2,False
+p654,I see - would 5/3 be the best? That was my first inclination,Common Ground Question,2,False
+p654,Should I play column 4?,Common Ground Question,3,False
+p659,Hello. what are the best next two moves I can make?,Conversational Acknowledgment,0,False
+p659,Hello. what are the best next two moves I can make?,Solution Request,0,False
+p659,"they don't seem to have, what is the next best move. to make a threat.",Think Aloud,1,False
+p659,"they don't seem to have, what is the next best move. to make a threat.",Solution Request,1,False
+p581,I need to win in 2 moves I can't see a way to do it?,Think Aloud,0,False
+p581,I need to win in 2 moves I can't see a way to do it?,Solution Request,0,False
+p581,Didn't help,Metacomment,1,False
+p581,Ok last move how do I win,Conversational Acknowledgment,2,False
+p581,Ok last move how do I win,Solution Request,2,False
+p699,i'm thinking about placing going for row 3 column 2. What do you think?,Think Aloud,0,False
+p699,i'm thinking about placing going for row 3 column 2. What do you think?,Common Ground Question,0,False
+p699,What's the move that would benefit me the most while being an obstacle to yellow?,Solution Request,1,False
+p400,Which move would be the best one and why,Solution Request,0,False
+p400,What about next move?,Solution Request,1,False
+p400,what about 2?,Common Ground Question,2,False
+p400,so which one would be the best move?,Solution Request,3,False
+p400,What about now?,Solution Request,4,False
+p400,Give me the best move,Solution Request,5,False
+p166,What is the best strategy to win this?,Solution Request,0,False
+p832,"I'm looking to go 3V, 5H - thoughts?",Think Aloud,0,False
+p832,"I'm looking to go 3V, 5H - thoughts?",Common Ground Question,0,False
+p832,Not sure. I with the columns were labeled with one side as a number and the other side as a letter.,Think Aloud,1,False
+p832,Not sure. I with the columns were labeled with one side as a number and the other side as a letter.,Metacomment,1,False
+p244,"I just played at (4,3) was that a good move?",Think Aloud,0,False
+p244,"I just played at (4,3) was that a good move?",Common Ground Question,0,False
+p244,was there a better move?,Knowledge Deficit Question,1,True
+p244,was there a better move?,Common Ground Question,1,True
+p244,was there a better move?,Solution Request,1,True
+p244,Where is the best move now?,Solution Request,2,False
+p244,"Since connect 4 is solved, could you confirm that is the best move with a ""solved"" connect 4 bot?",Common Ground Question,3,False
+p244,What about now?,Solution Request,4,False
+p119,"I considered moving red to spot 3,7.  Is this a good strategy?",Think Aloud,0,False
+p119,"I considered moving red to spot 3,7.  Is this a good strategy?",Common Ground Question,0,False
+p119,"Yes, of course, sorry I meant row 2.  I can't see any obvious threats from yellow",Think Aloud,1,False
+p119,"Yes, of course, sorry I meant row 2.  I can't see any obvious threats from yellow",Conversational Acknowledgment,1,False
+p119,"Ok, I could block yellow with column 5, row 3",Think Aloud,2,False
+p119,"Ok, I could block yellow with column 5, row 3",Conversational Acknowledgment,2,False
+p119,"so row 3, column 4?",Common Ground Question,3,False
+p119,"I'm on the last move now. yellow did 1,1...I did4,3 and 4,4. I can't win but I can't see any threats",Think Aloud,4,False
+p119,"I'm on the last move now. yellow did 1,1...I did4,3 and 4,4. I can't win but I can't see any threats",Knowledge Deficit Question,4,False
+p389,any advice for the next move?,Solution Request,0,False
+p540,Here column 4 is a must right,Common Ground Question,0,False
+p540,What is the best play here to maximize odds of winning. I was thinking of column 3,Common Ground Question,1,False
+p540,What is the best play here to maximize odds of winning. I was thinking of column 3,Solution Request,1,False
+p281,i dont know what i should do,Solution Request,0,False
+p8,"Where is the best next slot for me to put my red counter in to ensure that I can win.  I can see a couple of risks, particularly on the left hand side of the board.",Think Aloud,0,False
+p8,"Where is the best next slot for me to put my red counter in to ensure that I can win.  I can see a couple of risks, particularly on the left hand side of the board.",Solution Request,0,False
+p8,And now where shall I put my counter please that will put me on course to win?,Solution Request,1,False
+p828,"If I add to column 2, will that reduce my possibilities rather than improve my chances?",Common Ground Question,0,False
+p828,"How about column 5, then?",Common Ground Question,1,False
+p828,"how about 4, blocking yellow's progress and adding to the diagonal?",Think Aloud,2,False
+p828,"how about 4, blocking yellow's progress and adding to the diagonal?",Common Ground Question,2,False
+p378,Was my previous move effextive?,Common Ground Question,0,False
+p378,"That worked well to block the immediate threat - it felt like the only option, am I right?",Think Aloud,1,False
+p378,"That worked well to block the immediate threat - it felt like the only option, am I right?",Common Ground Question,1,False
+p493,I need to win in three moves. What is the best three moves to make?,Think Aloud,0,False
+p493,I need to win in three moves. What is the best three moves to make?,Solution Request,0,False
+p493,"why not 1, 1",Knowledge Deficit Question,1,False
+p493,"why not 1, 1",Common Ground Question,1,False
+p385,"Would it be a good idea to place it on number 3, 2nd row?",Common Ground Question,0,False
+p385,"I mean column 2, row 3",Think Aloud,1,False
+p352,why didn't my red piece appear,Knowledge Deficit Question,0,False
+p732,"To the fourth column,",Think Aloud,0,False
+p748,is 2-3(y) the best?,Common Ground Question,0,False
+p796,Does the move I chose work?,Common Ground Question,0,False
+p796,6,Think Aloud,1,False
+p809,i fell like the move 33 ist eh best,Think Aloud,0,False
+p809,should i play 32 or 33?,Common Ground Question,1,False
+p738,What is the smartest move I need to make next to make sure if I get blocked I can easily pivot and still win?,Solution Request,0,False
+p738,What should my next move be?,Solution Request,1,False
+p738,Thanks,Conversational Acknowledgment,2,False
+p216,what is the best move for red now?,Solution Request,0,False
+p216,and now?,Solution Request,1,False
+p216,what are the best starting moves in this game as well to be able to win?,Solution Request,2,False
+p216,so always start at column 4 with red is best?,Common Ground Question,3,False
+p206,What would be the best move now to increase my chances?,Solution Request,0,False
+p206,Any less obvious move that I should do now instead of column 5?,Common Ground Question,1,False
+p482,"What do you think about placing red on 1,1 and 2,3?",Common Ground Question,0,False
+p482,"Yes, yellow does. What else do you suggest?",Conversational Acknowledgment,1,False
+p482,"Yes, yellow does. What else do you suggest?",Solution Request,1,False
+p844,how about putting it in 2?,Common Ground Question,0,False
+p844,"good advise, how about trying for diagonal by putting it in 3?",Conversational Acknowledgment,1,False
+p844,"good advise, how about trying for diagonal by putting it in 3?",Common Ground Question,1,False
+p489,What moves would you suggest?,Solution Request,0,False
+p489,Why not column 2?,Common Ground Question,1,False
+p489,"So, you should try not to let the other player get 3 in a row?",Common Ground Question,2,False
+p489,Right. Are ther any other tips I should be aware of?,Conversational Acknowledgment,3,False
+p489,Right. Are ther any other tips I should be aware of?,Solution Request,3,False
+p489,Where should I go now? Would column 3 work?,Common Ground Question,4,False
+p489,Where should I go now? Would column 3 work?,Solution Request,4,False
+p489,But column 4 only gives me 2,Think Aloud,5,False
+p489,What now?,Solution Request,6,False
+p489,Thanks for you help!,Conversational Acknowledgment,7,False
+p457,Should I drop one in column 2?,Common Ground Question,0,False
+p457,"It looks like neither one of us can win in one move, now.",Think Aloud,1,False
+p340,which spot do you think is the optimum move,Solution Request,0,False
+p292,What is my most advantageous move to help me win? What move should I watch out for from yellow?,Knowledge Deficit Question,0,False
+p292,What is my most advantageous move to help me win? What move should I watch out for from yellow?,Solution Request,0,False
+p124,What do you think about me dropping the first red circle in column 2 row 3?,Common Ground Question,0,False
+p603,I am considering dropping a red counter into column 5. Evaluate whether this is the best move,Think Aloud,0,False
+p603,I am considering dropping a red counter into column 5. Evaluate whether this is the best move,Common Ground Question,0,False
+p51,what is the best move for red,Solution Request,0,False
+p7,where should i put it?,Solution Request,0,False
+p7,now what,Solution Request,1,False
+p652,"I thinking there aren't many threats right now. If I drop my next checker in column 1, he can't block in column 3, but my next move will be column 3, at which point I can win by going columns 3 or 4 after that.",Think Aloud,0,False
+p652,"Oh, my goodness, I can't believe I missed that. I need to go C4, don't I? I don't have a choice.",Think Aloud,1,False
+p652,"Oh, my goodness, I can't believe I missed that. I need to go C4, don't I? I don't have a choice.",Common Ground Question,1,False
+p652,C3 next? Not sure here.,Common Ground Question,2,False
+p652,C3 next? Not sure here.,Metacomment,2,False
+p652,I'm thinking C5 here?,Think Aloud,3,False
+p652,I'm thinking C5 here?,Common Ground Question,3,False
+p652,"Now then, C4 right? This is the winning move?",Common Ground Question,4,False
+p829,What do you think is the best move?,Solution Request,0,False
+p829,I'm thinking column 1 to build up a diagonal. Then if yellow plays on column 4 it actually helps me finish the diagonal,Think Aloud,1,False
+p513,"Should I aim for three in a row vertically, in the second column?",Common Ground Question,0,False
+p513,What should my next move be?,Solution Request,1,False
+p513,I have one move left. How should I use it?,Solution Request,2,False
+p513,"Does ""c5"" mean ""column 5?""",Knowledge Deficit Question,3,False
+p841,"Im not a confident player, is it wise to add a counter to 4,6",Common Ground Question,0,False
+p841,"Im not a confident player, is it wise to add a counter to 4,6",Metacomment,0,False
+p841,"ok,column 6?",Conversational Acknowledgment,1,False
+p841,"ok,column 6?",Common Ground Question,1,False
+p841,have you got a better idea?,Solution Request,2,False
+p841,ok i think i made a mistake then! how shoudl i fix it,Think Aloud,3,False
+p841,ok i think i made a mistake then! how shoudl i fix it,Conversational Acknowledgment,3,False
+p841,ok i think i made a mistake then! how shoudl i fix it,Solution Request,3,False
+p737,What should be my next move,Solution Request,0,False
+p737,What next,Solution Request,1,False
+p737,I can't win,Think Aloud,2,False
+p737,I can't win,Metacomment,2,False
+p800,Threats please,Knowledge Deficit Question,0,False
+p265,I’m considering row 3 because I think that gives me a chance to win horizontally or diagonally. Is that the best move?,Think Aloud,0,False
+p265,I’m considering row 3 because I think that gives me a chance to win horizontally or diagonally. Is that the best move?,Common Ground Question,0,False
+p265,Thanks! Should I do column 3 now? It gives me a chance to win diagonally going from the bottom right up too,Think Aloud,1,False
+p265,Thanks! Should I do column 3 now? It gives me a chance to win diagonally going from the bottom right up too,Conversational Acknowledgment,1,False
+p265,Thanks! Should I do column 3 now? It gives me a chance to win diagonally going from the bottom right up too,Common Ground Question,1,False
+p265,"Thanks! I didn’t see that threat. Column 3 might set me up for a win, should I do it now?",Conversational Acknowledgment,2,False
+p265,"Thanks! I didn’t see that threat. Column 3 might set me up for a win, should I do it now?",Common Ground Question,2,False
+p265,"Thanks! I didn’t see that threat. Column 3 might set me up for a win, should I do it now?",Metacomment,2,False
+p324,"I waws thinking of dropping into column 2.  Is that a good move or should I consider a threat, etc",Think Aloud,0,False
+p324,"I waws thinking of dropping into column 2.  Is that a good move or should I consider a threat, etc",Knowledge Deficit Question,0,False
+p324,"I waws thinking of dropping into column 2.  Is that a good move or should I consider a threat, etc",Common Ground Question,0,False
+p324,"well, here I must drop into 4, corret?",Think Aloud,1,False
+p324,"well, here I must drop into 4, corret?",Common Ground Question,1,False
+p324,Im thinking colum 3,Think Aloud,2,False
+p324,c5 row 4 is already used?,Knowledge Deficit Question,3,False
+p211,I am thinking of adding a red into the vertical stack of two reds. Thoughts?,Think Aloud,0,False
+p211,I am thinking of adding a red into the vertical stack of two reds. Thoughts?,Common Ground Question,0,False
+p211,Should I add a red piece to column 2?,Common Ground Question,1,False
+p718,"I'm looking at putting my next move at 3,3 and am not confident that's it's the best choice. It seems like it would block one of yellow's best moves and also help me build, but is there a better strategy here?",Think Aloud,0,False
+p718,"I'm looking at putting my next move at 3,3 and am not confident that's it's the best choice. It seems like it would block one of yellow's best moves and also help me build, but is there a better strategy here?",Common Ground Question,0,False
+p117,where should i go next,Solution Request,0,False
+p117,now?,Solution Request,1,False
+p128,I’m thinking I have to do 4-4 now otherwise yellow will win right?,Think Aloud,0,False
+p128,I’m thinking I have to do 4-4 now otherwise yellow will win right?,Common Ground Question,0,False
+p128,What move would you suggest personally?,Solution Request,1,False
+p128,Would row 6 not be a threat in the future?,Knowledge Deficit Question,2,False
+p128,Would row 6 not be a threat in the future?,Common Ground Question,2,False
+p128,"Perfect thank you, for games in the future what strategy would you suggest?",Conversational Acknowledgment,3,False
+p128,"Perfect thank you, for games in the future what strategy would you suggest?",Solution Request,3,False
+p128,Thank you,Conversational Acknowledgment,4,False
+p128,Do you think my first move was the right call?,Common Ground Question,5,False
+p13,What move should i make next,Solution Request,0,False
+p13,why not column 3,Common Ground Question,1,False
+p13,is there any move i can make now to win,Solution Request,2,False
+p13,no there is a eyllow piece in row 3 of column 5,Think Aloud,3,False
+p13,no there is a eyllow piece in row 3 of column 5,Conversational Acknowledgment,3,False
+p725,i'm going for the diagonal - is this a good move and can i be blocked by the other player easily,Think Aloud,0,False
+p725,i'm going for the diagonal - is this a good move and can i be blocked by the other player easily,Knowledge Deficit Question,0,False
+p725,i'm going for the diagonal - is this a good move and can i be blocked by the other player easily,Common Ground Question,0,False
+p725,where would you suggest i should have gone,Solution Request,1,False
+p725,what is the best first move in connect 4,Solution Request,2,False
+p725,good tip,Conversational Acknowledgment,3,False
+p725,any more tips for me that good players do,Solution Request,4,False
+p740,"In thinking of putting it in 2, should I?",Think Aloud,0,False
+p740,"In thinking of putting it in 2, should I?",Common Ground Question,0,False
+p740,What about 3?,Common Ground Question,1,False
+p740,Where should I put it,Solution Request,2,False
+p740,Now where,Solution Request,3,False
+p740,Now where,Solution Request,4,False
+p574,does selecting 2 (bottom) and 3 (side) work?,Common Ground Question,0,False
+p598,Hi! What do you think about my going with spot 3-3 as my next move (directly to the left of my first move). Do you think that is good for opening up multiple avenues to win while blocking yellow?,Conversational Acknowledgment,0,False
+p598,Hi! What do you think about my going with spot 3-3 as my next move (directly to the left of my first move). Do you think that is good for opening up multiple avenues to win while blocking yellow?,Common Ground Question,0,False
+p598,"Ah! You're right, I got tunnel vision and didn't see it. Will block yellow first.",Think Aloud,1,False
+p598,"Ah! You're right, I got tunnel vision and didn't see it. Will block yellow first.",Conversational Acknowledgment,1,False
+p817,Help me,Solution Request,0,False
+p817,Where is the best place to go next,Solution Request,1,False
+p817,They nearly have a row here,Think Aloud,2,False
+p817,Where now,Solution Request,3,False
+p444,Is 1-1 a good move?,Common Ground Question,0,False
+p444,Is column 4 better?,Common Ground Question,1,False
+p444,Is column 3 good?,Common Ground Question,2,False
+p444,what next?,Solution Request,3,False
+p193,Right move,Conversational Acknowledgment,0,False
+p318,could you help me make the best decision based on this settiing,Solution Request,0,False
+p318,what is the best move now?,Solution Request,1,False
+p672,Help me with this move,Solution Request,0,False
+p445,I have no choice but to choose 44 right,Think Aloud,0,False
+p445,What is my best move now,Solution Request,1,False
+p21,considering putting one on 3/3,Think Aloud,0,False
+p21,it's a pre-attack before going 1/1,Think Aloud,1,False
+p21,i assume yellow will go 4/3 in order to get 3 in a row with 4 next move if I ignore,Think Aloud,2,False
+p21,"ok, what move you suppose will be better?",Conversational Acknowledgment,3,False
+p21,"ok, what move you suppose will be better?",Solution Request,3,False
+p227,What are my main threats on the board right now?,Knowledge Deficit Question,0,False
+p379,"im considering placing my next red at 3,3. thoughts?",Think Aloud,0,False
+p379,"im considering placing my next red at 3,3. thoughts?",Common Ground Question,0,False
+p379,where is the optimal move now?,Solution Request,1,False
+p295,"Im thinking of 1:1 and 3:3, which one is better",Think Aloud,0,False
+p295,"Im thinking of 1:1 and 3:3, which one is better",Common Ground Question,0,False
+p60,"I was thinking about dropping one in column 2, row 3, but I feel like the other player will immediately see my strategy if I do that. WHat's the best move here?",Think Aloud,0,False
+p60,"I was thinking about dropping one in column 2, row 3, but I feel like the other player will immediately see my strategy if I do that. WHat's the best move here?",Solution Request,0,False
+p60,What's the best next move?,Solution Request,1,False
+p60,It looks like yellow has already won this one. What should I do?,Think Aloud,2,False
+p60,It looks like yellow has already won this one. What should I do?,Solution Request,2,False
+p236,Would column two be a wise move?,Common Ground Question,0,False
+p236,I've managed to block yellow on 4. One move left. What are my options?,Think Aloud,1,False
+p236,I've managed to block yellow on 4. One move left. What are my options?,Solution Request,1,False
+p729,Whats my biggest threat currently?,Knowledge Deficit Question,0,False
+p40,"Is column 2 not good? I'd put the opponent in check mate, so to speak, so it seems logical",Think Aloud,0,False
+p40,"Is column 2 not good? I'd put the opponent in check mate, so to speak, so it seems logical",Common Ground Question,0,False
+p40,Ah oh! Are there any traps I'm missing?,Knowledge Deficit Question,1,False
+p40,so column 4?,Common Ground Question,2,False
+p40,"Ok, now I'm doing column 4, I have no choice, otherwise I lose",Think Aloud,3,False
+p40,"Ok, now I'm doing column 4, I have no choice, otherwise I lose",Conversational Acknowledgment,3,False
+p40,"Thinking column 7 or 3, both set up evenutal diagonal wins, no?",Think Aloud,4,False
+p40,"Thinking column 7 or 3, both set up evenutal diagonal wins, no?",Common Ground Question,4,False
+p40,"I'm thinking 5, it sets up nicely for future opportunities, diagonally",Think Aloud,5,False
+p40,"4 would create two possible winning situations for me, no? That is, yellow would be unable to block a win?",Think Aloud,6,False
+p40,"4 would create two possible winning situations for me, no? That is, yellow would be unable to block a win?",Common Ground Question,6,False
+p40,"Column 7, row 2, would win diagonally if they block 4, unless they can win first, no?",Think Aloud,7,False
+p40,"Column 7, row 2, would win diagonally if they block 4, unless they can win first, no?",Common Ground Question,7,False
+p670,"Analyze the current Connect Four board carefully. I am Red and need to choose the best first three columns to keep Red on track to force a win. Please identify the strongest move now, explain the key threat it creates, and give the best follow-up columns after the opponent responds. Use 1-indexed column numbers.",Solution Request,0,False
+p321,I'm considering the 3x2 position,Think Aloud,0,False
+p321,what about column 2 and row 3 for red,Common Ground Question,1,False
+p321,C3 and R4?,Common Ground Question,2,False
+p321,I don't think so. can you see if there is any immediate 4-in-a-row you must block?,Conversational Acknowledgment,3,False
+p321,I don't think so. can you see if there is any immediate 4-in-a-row you must block?,Knowledge Deficit Question,3,False
+p633,Analyze the current board and tell me the best sequence of my next three moves for Red. Please list only the column numbers in order and briefly explain why they are optimal.,Solution Request,0,False
+p633,"Given Yellow's last move, what is now the best second move for Red? Reply with only the column number.",Solution Request,1,False
+p633,"Given Yellow's latest move, what is now the best second move for Red? Reply with only the column number.",Solution Request,2,False
+p356,"I see a yellow diagonal threat on the bottom right, should I drop a chip in column 4 to cut it off or should I put it somewhere else?",Think Aloud,0,False
+p356,"I see a yellow diagonal threat on the bottom right, should I drop a chip in column 4 to cut it off or should I put it somewhere else?",Common Ground Question,0,False
+p356,"There's a possible yellow diagonal beginning from 2,4 but there's barely any chips in column 7 so it'll take a while to stack up to it. I also have a 3/4 diagonal starting at 1,6. Is there a way I can bait yellow into putting a chip at 3,3 so I can win?",Think Aloud,1,False
+p356,"There's a possible yellow diagonal beginning from 2,4 but there's barely any chips in column 7 so it'll take a while to stack up to it. I also have a 3/4 diagonal starting at 1,6. Is there a way I can bait yellow into putting a chip at 3,3 so I can win?",Common Ground Question,1,False
+p851,which move strategically is the most optimal,Solution Request,0,False
+p32,Hi. I can see a threat on 4/4 that I think I have to cover? Can you see anyway I can be offensive and defend too?,Think Aloud,0,False
+p32,Hi. I can see a threat on 4/4 that I think I have to cover? Can you see anyway I can be offensive and defend too?,Conversational Acknowledgment,0,False
+p32,Hi. I can see a threat on 4/4 that I think I have to cover? Can you see anyway I can be offensive and defend too?,Solution Request,0,False
+p32,So shall I go for 4 and see where my opponent goes?,Think Aloud,1,False
+p32,So shall I go for 4 and see where my opponent goes?,Common Ground Question,1,False
+p32,Where should I go next? I don't think I have to worry about my opponent's threat for this round?,Solution Request,2,False
+p52,What do you think the best move I could make next would be?,Solution Request,0,False
+p52,Are there any alternatives that I should consider?,Solution Request,1,False
+p52,What should I do now?,Solution Request,2,False
+p52,What about 2 or 3 to try and build up my 4?,Common Ground Question,3,False
+p620,"thinking about putting a red on row 2, column 3, is that a good move?",Think Aloud,0,False
+p620,"thinking about putting a red on row 2, column 3, is that a good move?",Common Ground Question,0,False
+p620,"i think i meant column 2, row 3",Think Aloud,1,False
+p393,What is my recommended next move and why,Solution Request,0,False
+p393,What is my recommended move,Solution Request,1,False
+p407,"I can see a threat at 4,4, so am planning to fill that.",Think Aloud,0,False
+p407,"The diagonal starting at 7,1",Think Aloud,1,False
+p407,"I'm inclined to play 2,3 or 3,3, what do you think?",Think Aloud,2,False
+p407,"I'm inclined to play 2,3 or 3,3, what do you think?",Common Ground Question,2,False
+p407,I'm not seeing any big yellow threats. Can you see any?,Think Aloud,3,False
+p407,I'm not seeing any big yellow threats. Can you see any?,Knowledge Deficit Question,3,False
+p407,I only have one move left and don't see anything obvious.,Think Aloud,4,False
+p407,I only have one move left and don't see anything obvious.,Metacomment,4,False
+p407,"Nope, 5, 3 is filled by yellow.",Think Aloud,5,False
+p407,"Nope, 5, 3 is filled by yellow.",Conversational Acknowledgment,5,False
+p407,Not that I can see.,Metacomment,6,False
+p306,"im thinking of adding red on the 3rd column to set up the diagonal four. This feels like a pretty obvious tactic, but i dont see a better one. Is my idea fine or do you have a better suggestion?",Think Aloud,0,False
+p306,"im thinking of adding red on the 3rd column to set up the diagonal four. This feels like a pretty obvious tactic, but i dont see a better one. Is my idea fine or do you have a better suggestion?",Common Ground Question,0,False
+p306,"well, now i either lose, or it's a draw. I have to drop one on the 4th column, but doing that leaves me with one move left, so unless yellow inexplicably drops a token on the 3rd colum, nobody can win.",Think Aloud,1,False

@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Background: Social media chef known for quick healthy recipes. Works four days a week with limited time and money. Create a three year plan to achieve the goal of growing online presence and writing a cookbook. Advise on best strategy for growth as well as publication.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T12:50:53.516358+00:00"
+}

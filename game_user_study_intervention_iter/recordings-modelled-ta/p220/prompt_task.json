@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Please lay out an EXTREMELY detailed guideline for the next three years of how to best grow my online cooking video page, publish a cookbook, and manage my four day work week, on a limited time and money. Include dates from my calendar, the best online advice and trending data, and all other necessary recommended organizational material as per the best online examples. Use any of my info needed.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.667,
+  "submitted_at": "2026-08-20T02:31:32.497885+00:00"
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I've got 10 empty squares left and 6 legal moves (g2, b6, a7, b7, b8, c8). I'm behind in disc count right now (20 to 34) but I know that doesn't matter yet. Can you help me figure out which single move gives me the best final outcome, assuming white plays well too? I can't calculate this whole tree myself."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Down to 8 empty squares. My legal moves are g2, b6, a7, c8. Same question \u2014 which one wins me the most discs at the end with best play from white?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "6 empty squares left, options g2, b6, a7. White's way ahead on count now but you said that doesn't matter till the end. Which move now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  }
+]

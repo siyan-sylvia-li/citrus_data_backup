@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "If I play b6 now, White seems to get c8 and flip a bunch back. Is there a principle for why taking b6 is risky compared to a quieter move like a7?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After White's a3 the board shows a7 and c6 as White, which I didn't expect from a3 alone. Did I miss a wider flip or is the row reading off? I need to be sure before I pick between a1, g2, b6, c8."
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I don't understand why a7 turned White after White played a3 \u2014 they don't seem to be in a straight line. What rule or direction caused that flip?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "When I played g2 it flipped stones in three different directions at once. Does every legal direction flip independently, or is there some overall limit?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Are corner discs permanently safe once placed, or is there any way they can be flipped back later in the game?"
+  }
+]

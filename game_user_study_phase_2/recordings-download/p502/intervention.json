@@ -1,0 +1,28 @@
+{
+  "variant": "v2_think_pair",
+  "observation": "Participants in group 1 have never played it before and do not really have much no knowledge on it. But group 2 have very good concept of it and uses the AI more for strategy only and not for everything",
+  "choice": "B",
+  "choice_correct": true,
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 3
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.0,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-18T18:32:04.094411+00:00"
+}

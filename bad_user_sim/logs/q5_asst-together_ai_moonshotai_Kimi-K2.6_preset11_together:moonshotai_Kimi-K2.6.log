@@ -1,0 +1,169 @@
+    (HTTP 429: waiting 2s, attempt 1)
+    (HTTP 429: waiting 4s, attempt 2)
+    (HTTP 429: waiting 8s, attempt 3)
+Traceback (most recent call last):
+  File "/data/home/siyanli/agentic_sim/bad_user_sim/agentic_sim.py", line 831, in <module>
+    runs = sim.run()                     # every round the study runs, in order
+  File "/data/home/siyanli/agentic_sim/bad_user_sim/agentic_sim.py", line 628, in run
+    self.result = self._play_puzzle(puzzle_id, rnd["ai"], history)
+  File "/data/home/siyanli/agentic_sim/bad_user_sim/agentic_sim.py", line 649, in _play_puzzle
+    return student_agent.run_sync(
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/agent/abstract.py", line 582, in run_sync
+    return _utils.get_event_loop().run_until_complete(
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/agent/abstract.py", line 446, in run
+    node = await agent_run.next(node)  # pyright: ignore[reportArgumentType]
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/run.py", line 404, in next
+    return await self._run_node_with_hooks(node, self._advance_graph)
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/run.py", line 328, in _run_node_with_hooks
+    return await self._wrap_and_advance(run_context, node, step_fn)
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/run.py", line 298, in _wrap_and_advance
+    result = await cap.on_node_run_error(run_context, node=node, error=e)
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/capabilities/combined.py", line 331, in on_node_run_error
+    raise error
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/capabilities/combined.py", line 328, in on_node_run_error
+    return await capability.on_node_run_error(cap_ctx, node=node, error=error)
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/capabilities/abstract.py", line 536, in on_node_run_error
+    raise error
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/capabilities/combined.py", line 328, in on_node_run_error
+    return await capability.on_node_run_error(cap_ctx, node=node, error=error)
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/capabilities/abstract.py", line 536, in on_node_run_error
+    raise error
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/run.py", line 296, in _wrap_and_advance
+    result = await cap.wrap_node_run(run_context, node=node, handler=step_fn)
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/capabilities/combined.py", line 314, in wrap_node_run
+    return await chain(node)
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/capabilities/combined.py", line 745, in wrapped
+    return await cap.wrap_node_run(_ctx_for_cap(cap, ctx), node=node, handler=inner)
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/capabilities/abstract.py", line 515, in wrap_node_run
+    return await handler(node)
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/capabilities/combined.py", line 745, in wrapped
+    return await cap.wrap_node_run(_ctx_for_cap(cap, ctx), node=node, handler=inner)
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/capabilities/abstract.py", line 515, in wrap_node_run
+    return await handler(node)
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/run.py", line 274, in _advance_graph
+    task = await self._graph_run.next(task)
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_graph/graph_builder.py", line 557, in next
+    return await anext(self)
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_graph/graph_builder.py", line 534, in __anext__
+    raise self._next.error
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_graph/graph_builder.py", line 844, in _run_tracked_task
+    result = await self._run_task(t_)
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_graph/graph_builder.py", line 886, in _run_task
+    output = await node.call(step_context)
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_graph/step.py", line 253, in _call_node
+    return await node.run(GraphRunContext(state=ctx.state, deps=ctx.deps))
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/_agent_graph.py", line 1069, in run
+    async with self.stream(ctx):
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/contextlib.py", line 206, in __aexit__
+    await anext(self.gen)
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/_agent_graph.py", line 1089, in stream
+    async for _event in stream:
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/_agent_graph.py", line 1253, in _run_stream
+    async for event in self._events_iterator:
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/_agent_graph.py", line 1216, in _run_stream
+    async for event in self._handle_tool_calls(ctx, tool_calls):
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/_agent_graph.py", line 1277, in _handle_tool_calls
+    async for event in process_tool_calls(
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/_agent_graph.py", line 1735, in process_tool_calls
+    async for event in _call_tools(
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/_agent_graph.py", line 1943, in _call_tools
+    if event := await handle_call_or_result(coro_or_task=task, index=index):  # pyright: ignore[reportArgumentType]
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/_agent_graph.py", line 1886, in handle_call_or_result
+    (await coro_or_task) if inspect.isawaitable(coro_or_task) else coro_or_task.result()
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/_agent_graph.py", line 1999, in _call_tool
+    tool_result = await tool_manager.execute_tool_call(validated)
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/tool_manager.py", line 499, in execute_tool_call
+    return await self._execute_tool_call_impl(
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/tool_manager.py", line 731, in _execute_tool_call_impl
+    tool_result = await self._run_execute_hooks(
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/tool_manager.py", line 335, in _run_execute_hooks
+    tool_result = await cap.on_tool_execute_error(ctx, call=call, tool_def=tool_def, args=args, error=e)
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/capabilities/combined.py", line 536, in on_tool_execute_error
+    raise error
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/capabilities/combined.py", line 531, in on_tool_execute_error
+    return await capability.on_tool_execute_error(
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/capabilities/abstract.py", line 759, in on_tool_execute_error
+    raise error
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/capabilities/combined.py", line 531, in on_tool_execute_error
+    return await capability.on_tool_execute_error(
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/capabilities/abstract.py", line 759, in on_tool_execute_error
+    raise error
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/tool_manager.py", line 327, in _run_execute_hooks
+    tool_result = await cap.wrap_tool_execute(
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/capabilities/combined.py", line 515, in wrap_tool_execute
+    return await chain(args)
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/capabilities/combined.py", line 758, in wrapped
+    return await cap.wrap_tool_execute(
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/capabilities/abstract.py", line 729, in wrap_tool_execute
+    return await handler(args)
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/capabilities/combined.py", line 758, in wrapped
+    return await cap.wrap_tool_execute(
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/capabilities/abstract.py", line 729, in wrap_tool_execute
+    return await handler(args)
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/tool_manager.py", line 312, in do_execute
+    return await self._raw_execute(
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/tool_manager.py", line 754, in _raw_execute
+    tool_result = await self.toolset.call_tool(
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/toolsets/_tool_search.py", line 397, in call_tool
+    return await self.wrapped.call_tool(name, tool_args, ctx, tool)
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/toolsets/wrapper.py", line 66, in call_tool
+    return await self.wrapped.call_tool(name, tool_args, ctx, tool)
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/toolsets/combined.py", line 94, in call_tool
+    return await tool.source_toolset.call_tool(name, tool_args, ctx, tool.source_tool)
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/toolsets/function.py", line 658, in call_tool
+    return await tool.call_func(tool_args, ctx)
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/_function_schema.py", line 87, in call
+    return await run_in_executor(function, *args, **kwargs)
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/_utils.py", line 121, in run_in_executor
+    return await run_sync(wrapped_func)
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/anyio/to_thread.py", line 63, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 2518, in run_sync_in_worker_thread
+    return await future
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/anyio/_backends/_asyncio.py", line 1002, in run
+    result = context.run(func, *args)
+  File "/data/home/siyanli/agentic_sim/bad_user_sim/agentic_sim.py", line 339, in consult_assistant
+    response = ctx.deps.assistant.answer(question)
+  File "/data/home/siyanli/agentic_sim/bad_user_sim/assistant_agent.py", line 297, in answer
+    raw = self.lm(messages=messages)
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/dspy/utils/callback.py", line 326, in sync_wrapper
+    return fn(instance, *args, **kwargs)
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/dspy/clients/base_lm.py", line 129, in __call__
+    response = self.forward(prompt=prompt, messages=messages, **kwargs)
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/dspy/clients/lm.py", line 186, in forward
+    results = completion(
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/dspy/clients/cache.py", line 279, in sync_wrapper
+    result = fn(*args, **kwargs)
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/dspy/clients/lm.py", line 392, in litellm_completion
+    return litellm.completion(
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/litellm/utils.py", line 1720, in wrapper
+    return litellm.completion_with_retries(*args, **kwargs)
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/litellm/main.py", line 4540, in completion_with_retries
+    return retryer(original_function, *args, **kwargs)
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/tenacity/__init__.py", line 470, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/tenacity/__init__.py", line 371, in iter
+    result = action(retry_state)
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/tenacity/__init__.py", line 413, in exc_check
+    raise retry_exc.reraise()
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/tenacity/__init__.py", line 184, in reraise
+    raise self.last_attempt.result()
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/tenacity/__init__.py", line 473, in __call__
+    result = fn(*args, **kwargs)
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/litellm/utils.py", line 1775, in wrapper
+    raise e
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/litellm/utils.py", line 1596, in wrapper
+    result = original_function(*args, **kwargs)
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/litellm/main.py", line 4502, in completion
+    raise exception_type(
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 2466, in exception_type
+    raise e
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 401, in exception_type
+    raise RateLimitError(
+litellm.exceptions.RateLimitError: litellm.RateLimitError: RateLimitError: Together_aiException - Too many requests in a short window for model moonshotai/Kimi-K2.6. Our rate limits are dynamic - they shift with live model capacity and your traffic shape, so steady traffic and exponential back-off help. Retry starting from ~2s (X-RateLimit-Reset header). If you hit rate limits often, consider a dedicated endpoint or batch inference. See https://docs.together.ai/docs/rate-limits.

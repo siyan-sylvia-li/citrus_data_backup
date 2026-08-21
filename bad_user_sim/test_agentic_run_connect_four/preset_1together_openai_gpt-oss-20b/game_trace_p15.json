@@ -1,0 +1,22 @@
+[
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "play_move",
+    "move": 1
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "From the current board after our last move (Red played 3, Yellow responded appropriately), what is the optimal sequence of next moves for Red, assuming optimal play by Yellow, to finish the game?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After moving 4 then 3 then 1, what is the best next move for Red to try to force a win or draw?"
+  }
+]

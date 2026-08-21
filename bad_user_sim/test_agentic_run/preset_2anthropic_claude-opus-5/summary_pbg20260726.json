@@ -1,0 +1,54 @@
+{
+  "puzzle": "bg20260726",
+  "decisions": 2,
+  "optimal_moves": 0,
+  "opener_optimal": false,
+  "discs_lost": 14,
+  "final_margin": -10,
+  "won": false,
+  "optimal_margin": 4,
+  "completed": true,
+  "moves": [
+    "g8!",
+    "h7!"
+  ],
+  "auto_played": [
+    "g7"
+  ],
+  "chat_turns": null,
+  "game": "othello",
+  "round": 1,
+  "ai_available": false,
+  "model_settings": {
+    "max_tokens": 100000
+  },
+  "questions_asked": 0,
+  "question_budget": 0,
+  "profile": {
+    "persona": "A data scientist who brings a quantitative and analytical approach to problem-solving",
+    "age": 32,
+    "education": "master",
+    "occupation": "tech",
+    "ai_frequency": "multiple_daily",
+    "known_concepts": [
+      "Digital",
+      "Currency",
+      "Payment",
+      "Ownership",
+      "Transaction",
+      "Fee",
+      "Probability",
+      "Protocol",
+      "Peer",
+      "Peer-to-peer",
+      "Hash",
+      "Signature",
+      "Verification",
+      "Consensus",
+      "Proof-of-work",
+      "Timestamp"
+    ]
+  },
+  "student_model": "anthropic:claude-opus-5",
+  "streamed": false
+}

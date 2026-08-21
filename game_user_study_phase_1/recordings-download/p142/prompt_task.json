@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Create a three year plan to grow an online presence and publish a cookbook. The budget and time are limited, cook style is quick and healthy, and there are 1.2M followers presently. Compare sef-publishing vs. Traditional.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-22T21:11:01.013799+00:00"
+}

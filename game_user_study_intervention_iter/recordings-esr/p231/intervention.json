@@ -1,0 +1,41 @@
+{
+  "idea": "i would recommend watching youtube videos on how to play chess, or look up tutorials",
+  "n_chars": 84,
+  "start_message": "What do you think would be the best move right now?",
+  "selected": "say_thinking",
+  "selected_type": "think_aloud",
+  "selected_carries_forward": true,
+  "others_shown": [
+    "ask_answer",
+    "look_ahead"
+  ],
+  "option_order": [
+    "say_thinking",
+    "ask_answer",
+    "look_ahead"
+  ],
+  "seconds_on_page": 69,
+  "form": "elicit_select_reply",
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 1
+      },
+      {
+        "model": "gpt",
+        "score": 2
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.0,
+    "median_score": 2,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-20T13:07:22.500633+00:00"
+}

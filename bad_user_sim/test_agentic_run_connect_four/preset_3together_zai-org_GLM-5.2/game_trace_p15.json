@@ -1,0 +1,29 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm Red in this Connect Four position. My main idea is the diagonal c6r1-c5r2-c4r3 needing c3r4, but c3r4 requires c3r3 to be filled first. Yellow just blocked my c1r1 diagonal. If I play c3r3 now, I get a single threat at c3r4 which Yellow blocks. Is there any way to create a double threat or win from this position, or is it a draw?"
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 7
+  }
+]

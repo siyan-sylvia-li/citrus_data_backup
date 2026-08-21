@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I am a maker of cooking videos and I have a large online following. I want to grow the numbers of people following me and make them to watch more of my videos by making my videos informative, fun, and engaging. I also want to publish a cookbook containing recipes from my cooking videos. I do not know yet how to publish that book, e.g. either via a publisher or by self publishing. I am working four days a week and have limited time and budget. \r\nPlease create for me a detailed and concrete three-year plan about how to achieve my goals, i.e., increase the number of people watching my videos, making them engage more with my videos, and helping my to write a cook book and the best way to publish it, i.e., maximizing the number of people buying and using my cookbook.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-10T23:14:11.788219+00:00"
+}

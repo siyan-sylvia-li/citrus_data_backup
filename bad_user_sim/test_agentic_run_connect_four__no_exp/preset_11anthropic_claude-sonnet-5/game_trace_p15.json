@@ -1,0 +1,41 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm new at this. I think yellow is setting up two diagonal traps (one through c3r2/c4r1 heading toward c1, and one through c6r2/c7r1 heading toward c4). I'm thinking of playing column 2 first since it blocks one of those AND stacks my reds for a vertical threat. Does that sound like the right call?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Really? Why column 4 over column 2 - what am I missing?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 2
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I've got a diagonal three going (c2r2, c3r3, c4r4) and the winning spot is c5r5, but column 5 is only filled to row 3 right now. If I just play column 5 myself, won't that let Yellow immediately take row 5 and block me? What should I actually play?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  }
+]

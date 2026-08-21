@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Which move is best here for Black if White plays its best? Please give the line or at least the first square."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After White played a8, my legal moves are g2, b6, a7, c8. Which one should I play next for the best final result?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now after White b8, should Black play g2, b6, or a7? Which is best?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Only a1, g2, a3 are legal now, with four empties left. Which one is safest for Black?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "The game ended after I chose g2 and the interface completed the last moves. Was g2 the right choice for the best final Black count?"
+  }
+]

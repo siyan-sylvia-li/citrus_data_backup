@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Hi! I am dreaming about growing my hobby into my life. I post cooking videos to 1.2 million followers and the feedback I get makes me want to grow. Can you help me devisen a concrete three year plan for me? I work four days a week so my budget is limited and also my time. What my followers like are my quick and healthy recipes. I have a dream to publish a cookbook can you give me the pros and cons about traditional publishing vs doing it myself? I also want to grow my following but still be true to myself. Do you think you can help me with a concrete plan?",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T21:37:04.296549+00:00"
+}

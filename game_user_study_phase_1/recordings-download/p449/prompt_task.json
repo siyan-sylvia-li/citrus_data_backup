@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Devise me a plan spanning three years to write a best-selling cookbook. Please help me pick out recipes that would be most interesting based on my already published recipes with the most engagement and pair that data with current cooking online trends. Help me decide on a practical index that would facilitate weekly meal planning for an average homecook. I would like to receive advice from you on how to structure the cooking instructions. Share with me if there's any evidence that it would be more helpful to include step-by-step images for the instructions.\r\nI can work four days weekly on writing the book, and I  have a limited budget. For this reason, I would like to make the most out of the work that I have already put out, rework on some of my most popular recipes to make them more accessible, whilst being trendy and engaging. Please brainstorm some ideas with me to achieve these goals.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-16T16:09:47.972975+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Can you devise a 4 day weekly plan that will help me grow my cookbook within my budget",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 2
+    },
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 1.667,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-20T14:09:18.317982+00:00"
+}

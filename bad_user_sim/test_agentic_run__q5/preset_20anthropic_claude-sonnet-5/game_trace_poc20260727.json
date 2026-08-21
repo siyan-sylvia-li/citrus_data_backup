@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Hi, I'm new to this game. I have to pick a move from g2, b6, a7, b7, b8, or c8. Which one is smartest and why, in simple terms?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White just took corner a8. Now I can play g2, b6, a7, or c8. What's my best move here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White has 36 and I only have 22, just 6 spaces left. Can I still come back? What should I play - g2, b6, or a7?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Only 4 empty squares left: a1, g2, a3, h1 (h1 not legal for me yet). Between a1, g2, and a3, which really turns this around for me at the very end?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Can you explain why White got stuck with no legal move after I played a3? I don't really get how a player can just have nothing to do."
+  }
+]

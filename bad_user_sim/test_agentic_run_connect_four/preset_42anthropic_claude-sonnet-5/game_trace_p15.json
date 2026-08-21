@@ -1,0 +1,30 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, I'm looking at this Connect Four board and it's my move as Red. I don't see an obvious win or an obvious threat from Yellow. Is there a move that's clearly best here, and why?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Blocked that diagonal. Now what \u2014 is there a move that sets me up for a real winning threat, or do I need to keep playing defense?"
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  }
+]

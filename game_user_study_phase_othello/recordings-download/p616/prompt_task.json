@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I have an online platform where I post cooking videos and recipes. I have around 1.2million followers and get good engagement from my cooking content. \r\n\r\nMy goal is to build my online brand, increase my presence and over the next three years want to publish a cookbook with all my recipes. I'm not sure the best way to go about publishing a book though.  \r\n\r\nPlease could you generate me a concrete three year plan for how best to grow my personal brand, help me organise my recipes for the book and give me some options on how to go about publishing? I'm not sure whether I should go with more traditional methods or try and self publish. \r\n\r\nI really want this to be a success and have a strong vision for myself three years from now.  Please could you build me a plan?",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-05T15:14:10.587743+00:00"
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Wait, how did I lose that many discs? Like, where did it go wrong?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "What's the deal with the corners? Like why are they so important?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Those X-squares you mentioned... how do I avoid giving the corner away if I have to play near them?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "You mentioned stable discs. Is there a way to tell if a disc is actually stable or if it could still flip?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Got it. So if I'm just starting out, is there like one golden rule I should keep in mind for the next one?"
+  }
+]

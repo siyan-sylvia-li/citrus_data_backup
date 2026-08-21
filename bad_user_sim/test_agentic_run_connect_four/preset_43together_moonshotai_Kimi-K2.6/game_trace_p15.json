@@ -1,0 +1,34 @@
+[
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Yellow just played in column 5. Is Red's position still winning after the sequence: Red col 4, Yellow col 5? If so, what should Red play next to force a win? I'm trying to look at column 3 and column 6 but not seeing the clean double threat."
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After Red played column 4 twice, and Yellow played columns 5 and 1, what is Red's winning next move? I don't see the immediate forced win with my current reads on columns 3 or 6. Any hint without giving the full line?"
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After Red c4, Yellow c1; Red c4, Yellow c5; Red c5, Yellow c1 \u2014 what is Red's winning next move? I can't see the forced continuation. Is it a double threat or a direct sequence? Please give the move."
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 7
+  }
+]

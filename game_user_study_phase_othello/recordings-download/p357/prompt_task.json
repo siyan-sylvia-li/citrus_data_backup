@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I am a cooking influencer with a large following and I want help creating a three year plan. My goals are to grow my following by posting healthy recipes and to publish a cookbook, either self published or traditional. I work 4 days of the week and have a limited budget to work with. Please develop a plan that covers the next three years in detail and explains how I can meet my goals.",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-05T14:37:19.261000+00:00"
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Can you analyze this Connect Four position and tell me the best column for Red, including the opponent's strongest reply?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After Red 4 and Yellow 5, what's Red's best next move? Please check immediate wins and traps, not just general strategy."
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Current board after Yellow played 1: is Red's best move really column 2, or should I continue column 4? Which move has the best forced result?"
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now after Red 5 and Yellow 1, what's the exact best move? I see column 2 makes a 3-high vertical threat; please verify whether that beats column 4 or 6."
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  }
+]

@@ -1,0 +1,45 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm down 20 to 34, only a few empty squares left (g2, b6, a7, b7, b8, c8). Which move gives me the best shot at flipping this around by the end?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Down 24-32 now, legal moves are g2, b6, a7, c8. Which one sets me up best for the finish?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "That last move blew up on me, White's way ahead now 36-22. With just g2, b6, a7 left, is there any way to still climb back, and which move is safest?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Looking back, why did that b7 and c8 advice early on end up so bad for me (I dropped to 22-36)? Was there a better path from the start?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "One more thing - was the a3 move really the key turning point, or would g2 first have worked just as well?"
+  }
+]

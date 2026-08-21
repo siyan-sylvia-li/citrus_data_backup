@@ -1,0 +1,26 @@
+=== shared_context + student_mode=default ===
+launching 80 runs, 10 at a time, 5s apart
+
+interrupted — cleaning up
+stopping 10 run(s)...
+Terminated
+Terminated
+Terminated
+FAIL	q5_shared_context_preset8_together:google_gemma-4-31B-it	logs/q5_shared_context_preset8_together:google_gemma-4-31B-it.log
+FAIL	q5_shared_context_preset7_openai:gpt-5.6-luna	logs/q5_shared_context_preset7_openai:gpt-5.6-luna.log
+FAIL	q5_shared_context_preset9_anthropic:claude-sonnet-5	logs/q5_shared_context_preset9_anthropic:claude-sonnet-5.log
+Terminated
+FAIL	q5_shared_context_preset7_together:moonshotai_Kimi-K2.6	logs/q5_shared_context_preset7_together:moonshotai_Kimi-K2.6.log
+Terminated
+FAIL	q5_shared_context_preset8_anthropic:claude-sonnet-5	logs/q5_shared_context_preset8_anthropic:claude-sonnet-5.log
+Terminated
+Terminated
+Terminated
+Terminated
+FAIL	q5_shared_context_preset9_together:google_gemma-4-31B-it	logs/q5_shared_context_preset9_together:google_gemma-4-31B-it.log
+FAIL	q5_shared_context_preset7_together:google_gemma-4-31B-it	logs/q5_shared_context_preset7_together:google_gemma-4-31B-it.log
+FAIL	q5_shared_context_preset8_openai:gpt-5.6-luna	logs/q5_shared_context_preset8_openai:gpt-5.6-luna.log
+FAIL	q5_shared_context_preset8_together:moonshotai_Kimi-K2.6	logs/q5_shared_context_preset8_together:moonshotai_Kimi-K2.6.log
+Terminated
+FAIL	q5_shared_context_preset7_anthropic:claude-sonnet-5	logs/q5_shared_context_preset7_anthropic:claude-sonnet-5.log
+remaining: 0

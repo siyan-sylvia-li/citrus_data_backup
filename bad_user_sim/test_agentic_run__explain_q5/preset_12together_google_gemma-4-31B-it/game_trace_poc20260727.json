@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I've got g2, b6, a7, and c8 as my legal moves. Which one is the best play to maximize my score?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now I have g2, b6, and a7. Which one should I go for?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I've got a1, g2, and a3. Which one should I play now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I have a1 and g2. Which one is the best move to finish the game?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm down to h1 and g2. h1 looks like a great corner move that'll flip a bunch of discs on the first row. Is h1 the best way to close this out?"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

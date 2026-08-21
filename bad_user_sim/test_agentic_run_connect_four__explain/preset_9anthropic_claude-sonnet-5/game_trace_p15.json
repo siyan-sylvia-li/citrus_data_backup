@@ -1,0 +1,37 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Hi - looking at this board, is there a move right now that either wins for me outright, or that I desperately need to block for Yellow? I noticed my reds at c5r2 and c6r1 look like they might build toward a diagonal if I play column 4. Am I on the right track, or missing a bigger danger?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I have three in a diagonal (c4r3, c5r2, c6r1) that would win with c3r4. But column 3 only has 2 discs so far, so if I play it now, Yellow can just play on top next and block at r4. What's the smart move here - do I play something else and wait, or is there a way to force this?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I count only c5r4 (new) and c6r3 as red on that sum-9 diagonal - that's just two in a row, not three. Wouldn't I need BOTH c4r5 and c7r2 filled with red, not just one, to actually get four in a row? Am I missing a third red disc somewhere on that line?"
+  },
+  {
+    "tool": "play_move",
+    "move": 2
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Well, I lost - Yellow got four with c2r4, c3r3, c4r2, c5r1 diagonally. I get it now that forcing them into c2r4 actually handed them a piece they needed. Just so I understand for next time: should I have noticed that danger before pushing them into column 2?"
+  }
+]

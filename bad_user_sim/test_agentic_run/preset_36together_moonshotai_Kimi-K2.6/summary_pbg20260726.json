@@ -1,0 +1,35 @@
+{
+  "puzzle": "bg20260726",
+  "decisions": 3,
+  "optimal_moves": 1,
+  "opener_optimal": true,
+  "discs_lost": 16,
+  "final_margin": -12,
+  "won": false,
+  "optimal_margin": 4,
+  "completed": true,
+  "moves": [
+    "b2",
+    "h7!",
+    "g7!"
+  ],
+  "auto_played": [],
+  "chat_turns": null,
+  "game": "othello",
+  "round": 1,
+  "ai_available": false,
+  "model_settings": {
+    "max_tokens": 50000
+  },
+  "questions_asked": 0,
+  "question_budget": 0,
+  "profile": {
+    "persona": "A fellow enthusiast who runs a blog dedicated to reviewing and recommending niche products",
+    "age": 32,
+    "education": "some_college",
+    "occupation": "other",
+    "ai_frequency": "daily"
+  },
+  "student_model": "together:moonshotai/Kimi-K2.6",
+  "streamed": false
+}

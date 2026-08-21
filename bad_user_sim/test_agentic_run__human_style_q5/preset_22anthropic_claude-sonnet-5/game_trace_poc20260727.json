@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I'm Black, down 20-34 discs. My legal moves are g2, b6, a7, b7, b8, c8. Which one gives me the best shot at flipping the most discs by the end? I don't want to just grab discs now if it backfires later."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White just took a8 corner. My options now are g2, b6, a7, c8. Which keeps me from giving away more corners/edges, and which is actually best for the final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "If I play g2 now (flips f2,g3,g4,g5,g6 - 5 discs), does that let White grab h1 corner next turn and end up worse for me overall, compared to playing b6 or a7 instead?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Looking back - when I played a3 and White had to pass, was that the key moment that turned the game around for me? I want to understand why that worked."
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After White passed, I played g2 next (flipping 5), then White took h1 (flipping g2 back), then I was forced into a1. Was that the best possible order for me, or did I get lucky that it still worked out to a win?"
+  }
+]

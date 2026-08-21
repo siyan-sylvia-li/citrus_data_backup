@@ -1,0 +1,30 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Hey there, I'm new to figuring these puzzles out. Looking at this board, is there a move I should make right now that either wins for me or stops Yellow from winning? I don't want to just guess and mess it up."
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Ok now what? I don't see either of us with an immediate 4 in a row, but is there a trap I should be watching for, or a good move for me to set something up?"
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  }
+]

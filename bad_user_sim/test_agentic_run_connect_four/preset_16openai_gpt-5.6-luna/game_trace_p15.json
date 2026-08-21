@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Can you analyze the Connect Four position and give the best column for Red, including the opponent's strongest reply?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After Red 4, Yellow played 5. In this exact position, what is Red's best next move and what's the tactical idea?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Yellow blocked column 1 after my second 4. What is the exact best Red move now? Please check immediate winning threats, not just center control."
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Current position after Red 5, Yellow 1 again: should I play 6 to extend the row-4 threat, or another column? What's the best move under optimal defense?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  }
+]

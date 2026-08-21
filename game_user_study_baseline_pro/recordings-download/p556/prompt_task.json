@@ -1,0 +1,19 @@
+{
+  "created_prompt": "I'd like to come up with a three-year plan. I'm currently working four days per week, so my budget is limited and I only have a few days off to work on what I'm actually passionate about. I currently make cooking videos, I have 1.2M followers who absolutely adore my quick recipes. I'd also like to get a cookbook out in this time, whether it's traditional or self-published. I love doing all of it and I'd like to make it my job eventually. How can I get there in three years?",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-21T15:05:53.942051+00:00"
+}

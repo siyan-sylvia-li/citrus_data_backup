@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Can you help plan a three year plan for my cooking career, I currently have about 1.2 million followers and I usually post about quick and healthy recipes, that are also easy on the budget. I'd love to be able to grow my online presence while also publishing a cookbook. The problem with the cookbook is I don't know whether to seek publication or to publish it myself. I also work four days a week so I can't be busy extremely busy from Monday to Thursday.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-20T14:05:23.000328+00:00"
+}

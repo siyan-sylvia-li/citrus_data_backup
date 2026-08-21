@@ -1,0 +1,37 @@
+{
+  "puzzle": "w4p6",
+  "decisions": 2,
+  "optimal_moves": 1,
+  "optimal_first_n": 1,
+  "decisions_first_n": 2,
+  "kept_win_moves": 1,
+  "opener_optimal": true,
+  "exact_decisions": 2,
+  "result": "yellow_win",
+  "won": false,
+  "plies_to_win_at_start": 7,
+  "completed": true,
+  "columns": [
+    "3",
+    "6!"
+  ],
+  "auto_played": [],
+  "chat_turns": null,
+  "game": "connect_four",
+  "round": 1,
+  "ai_available": false,
+  "model_settings": {
+    "max_tokens": 50000
+  },
+  "questions_asked": 0,
+  "question_budget": 0,
+  "profile": {
+    "persona": "An organized and goal-oriented individual with a background in software development",
+    "age": 41,
+    "education": "bachelors",
+    "occupation": "it",
+    "ai_frequency": "few_times_week"
+  },
+  "student_model": "together:meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "streamed": false
+}

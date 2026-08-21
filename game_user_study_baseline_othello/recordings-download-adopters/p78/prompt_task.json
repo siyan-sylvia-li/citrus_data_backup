@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I have 1.2m followers of my cooking videos. Provide a plan to grow my followers and publish a healthy recipe cookbook within three years from now and working only up to four days a week only. Show the relative timescale of traditional vs self publishing and the benefits and disadvantages of both",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-10T20:36:38.954459+00:00"
+}

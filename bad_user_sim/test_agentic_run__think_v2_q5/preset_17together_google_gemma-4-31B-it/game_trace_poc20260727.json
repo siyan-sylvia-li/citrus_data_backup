@@ -1,0 +1,34 @@
+[
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at the bottom row and thinking about risk management\u2014is c8 a solid move here, or does it leave me too exposed to a counter-attack?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm analyzing the board's current layout. Looking at the bottom right, is c8 a high-yield move here, or am I just chasing a short-term gain?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm trying to do a post-mortem on this. Looking back, where exactly did my strategy fail? I felt like I had the momentum after a7."
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "You mentioned \"stable edges.\" Just to be clear on the terminology\u2014is a disc \"stable\" once it can't be flipped back, similar to a locked-in gain in a portfolio? How do I spot those early?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "You brought up \"mobility control\" earlier. I'm curious\u2014does that basically mean limiting the opponent's available moves to force them into a bad play, similar to cornering a competitor in a market?"
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "created_prompt": "How would I manage my time over three years working four days weekly to create a cook book based on the recipes I share on my social media with 1.2 million followers who love my quick healthy recipes. Give me options and variations of what to do if I was going to go self published instead of going through publisher. I am not sure yet how to publish.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": null
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 3.0,
+  "submitted_at": "2026-08-21T13:45:41.343168+00:00"
+}

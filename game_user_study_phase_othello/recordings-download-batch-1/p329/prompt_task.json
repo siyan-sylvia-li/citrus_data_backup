@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I'm a youtuber who posts cooking videos.  I've already grown an audience of 1.2 million viewers by posting quick, healthy recipes.  I'm a grown woman who has a limited budget and time, but I've been working on this four days per week.  I want you to write a three year plan for me to grow my online audience and publish a cookbook.  I'm not sure if I want to go the traditional publishing route with a big publisher or just self publish and publicize it on my channel.",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-03T19:58:50.748735+00:00"
+}

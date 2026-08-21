@@ -1,0 +1,25 @@
+{
+  "created_prompt": "I currently post videos to 1.2m followers and over the next 3 years would like to grow online and publish a cookbook. What concrete plan would you advise for me to be able to reach that goal?",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.0,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.0,
+  "submitted_at": "2026-08-19T11:37:13.583292+00:00"
+}

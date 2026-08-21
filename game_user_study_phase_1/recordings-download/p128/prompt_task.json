@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Hi I post cooking videos and have 1.2 million followers, my content is focused on quick and healthy recipes. Over the next 3 years I have 2 goals: to grow online and to publish a cookbook, for the cookbook I\u2019m torn between traditional or self-publishing) I\u2019d like you to consider, I work 4 days weekly and have limited time and budget. Can you please devise a concrete 3 year plan for me?",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-24T14:06:06.068498+00:00"
+}

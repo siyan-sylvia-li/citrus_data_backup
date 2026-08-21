@@ -1,0 +1,34 @@
+{
+  "prolific_id": "p662",
+  "game": "connect_four",
+  "rounds": [
+    {
+      "puzzle": "15",
+      "ai": false,
+      "ai_survey": false,
+      "gate": true,
+      "time_limit": 360,
+      "intro": {
+        "title": "Puzzle 1",
+        "body": "You will have <strong>six minutes</strong> to play the first three moves in this win-in-five-moves puzzle."
+      }
+    },
+    {
+      "puzzle": "w4p6",
+      "ai": false,
+      "ai_survey": false,
+      "time_limit": 180,
+      "intro": {
+        "title": "Puzzle 2",
+        "body": "You will have <strong>three minutes</strong> to play the first three moves in this win-in-four-moves puzzle."
+      }
+    }
+  ],
+  "skill_rating": "2",
+  "age": 56,
+  "education": "some_postgrad",
+  "occupation": "healthcare",
+  "genai_usage": "few_times_week",
+  "consented_at": "2026-07-21T13:02:26.502159+00:00",
+  "submitted_at": "2026-07-21T13:13:39.690493+00:00"
+}

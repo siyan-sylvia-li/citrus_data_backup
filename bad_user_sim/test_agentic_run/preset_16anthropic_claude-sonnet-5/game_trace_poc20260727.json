@@ -1,0 +1,26 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Othello endgame, 10 empty squares left, I'm Black. My legal moves are g2, b6, a7, b7, b8, c8. I'm down 20-34 in discs but it's all about final count. Which move sets me up best for the endgame? Can you walk through the best line briefly?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  }
+]

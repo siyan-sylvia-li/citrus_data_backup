@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I don't usually use AI much\u2014could use a hand here. c8 looks strong since it flips a lot of white discs, but I'm worried White could hit back with a1 and do real damage. Among my six legal moves (g2, b6, a7, b7, b8, c8), which one actually leaves me with the highest final score if both sides play perfectly?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "My legal moves are now g2, b6, a7, and c8. g2 seems tempting, but I'm not sure if it opens a door for White. Which one gives Black the best final score from here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now my legal moves are g2, b6, and a7. Which one should I play to finish strongest?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now it's a1, g2, or a3. a3 flips the most discs right now\u2014should I go with it?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White has no move and has to pass. I can play a1 or g2. Does the order matter, or should I just pick one?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

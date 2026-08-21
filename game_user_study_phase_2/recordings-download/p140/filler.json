@@ -1,0 +1,25 @@
+{
+  "reflection": "My advise would be to first decide on type of publishing, and then begin writing! Get down all her recipe ideas, keep posting online multiple times a day and keep building that online presence so theres a readily available platform for advertising once the book is done.",
+  "effort": {
+    "judges": [
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "llama",
+        "score": 4
+      },
+      {
+        "model": "nemotron",
+        "score": 3
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.333,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-19T11:13:17.918868+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "created_prompt": "I want to publish a new cookbook in order to grow my online presence. I currently have 1.2m followers, would it be better for me to self-publish?",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 2
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 1.667,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 1.667,
+  "submitted_at": "2026-08-21T13:34:37.656593+00:00"
+}

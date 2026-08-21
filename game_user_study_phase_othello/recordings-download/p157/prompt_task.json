@@ -1,0 +1,23 @@
+{
+  "created_prompt": "You are a growth consultant specialist for digital creators. Your next client is Julie:\r\nJulie posts cooking videos to 1.2M followers who love her quick, healthy recipes.\r\nOver the next three years she wants to grow online and publish a cookbook (torn on traditional vs. self-publishing).\r\nShe works four days weekly, limited time and budget.\r\n\r\nCreate a concrete 3-year plan for Julie. Suggest action for Year 1, Year 2 and Year 3. Compare pros and cons of traditional publishing and self-publishing the cookbook. Also devise a weekly plan to follow to achieve growth year by year.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 4
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.333,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T14:02:07.108863+00:00"
+}

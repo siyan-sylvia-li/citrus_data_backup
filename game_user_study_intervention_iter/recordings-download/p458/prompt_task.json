@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Create a 3 year plan for growing my brand on social media as a healthy recipe influence, I have 1.2m followers now and want to eventually publish a cookbook",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    },
+    {
+      "model": "llama",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.333,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.333,
+  "submitted_at": "2026-08-20T20:29:28.792978+00:00"
+}

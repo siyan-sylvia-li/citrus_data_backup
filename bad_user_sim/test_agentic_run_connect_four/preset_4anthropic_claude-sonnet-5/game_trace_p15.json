@@ -1,0 +1,33 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, looking at this Connect Four board, I'm thinking about dropping in column 4 because it seems to set up a diagonal for me (c6r1, c5r2, then c4r3). But I'm worried that opens up something for yellow with column 5. Is column 4 actually a good move, or is there something better/safer?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "If I play c4 now, then yellow plays c5 (landing c5r3), doesn't that give yellow 3 in a diagonal (c7r1, c6r2, c5r3) needing c4r4 to win \u2014 and since my move already made c4 height 3, wouldn't yellow's NEXT turn let them drop right into c4r4 and win, unless I block it myself first? What should I do about that?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  }
+]

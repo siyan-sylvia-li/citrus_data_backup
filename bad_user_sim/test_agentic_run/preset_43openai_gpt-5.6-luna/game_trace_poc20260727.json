@@ -1,0 +1,50 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Which legal move is best here for Black if White plays perfectly? Just give me the square and maybe the reason."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After b7 and White's a8, what's Black's best next move from g2, b6, a7, c8? Please give just the square."
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After c8, White played b8. Best Black move now: g2, b6, or a7?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now after a7 then White b6, which is best for Black: a1, g2, or a3?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Three empties left, White passed. Is a1 or g2 the better Black move?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Last choice with h1 and g2 legal, White has passed: which one gives Black the better final result?"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

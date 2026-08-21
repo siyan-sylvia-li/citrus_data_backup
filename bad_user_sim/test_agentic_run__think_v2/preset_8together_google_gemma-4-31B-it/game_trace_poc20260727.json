@@ -1,0 +1,29 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "What's the optimal move for Black in this position? I'm considering b7 for the immediate gain, but I'm worried about the counter-play."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm weighing b8, c8, and g2. b8 seems to take b7 and b6, while c8 takes d8 and g2 takes f2. Which one minimizes White's ability to reclaim and maximizes my final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  }
+]

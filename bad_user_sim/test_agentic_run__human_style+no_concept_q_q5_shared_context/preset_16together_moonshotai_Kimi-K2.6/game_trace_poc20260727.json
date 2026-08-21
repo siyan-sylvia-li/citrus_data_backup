@@ -1,0 +1,34 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "c8 looks like it flips a bunch right now \u2014 is that the move here, or does something like b7 play better for endgame parity?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now my options are g2, b6, a7, c8 after that a8 reply. Which one holds up best for endgame?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Should I have played c8 first instead of b7?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Was this endgame winnable for Black at all?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "What was the best first move in that position?"
+  }
+]

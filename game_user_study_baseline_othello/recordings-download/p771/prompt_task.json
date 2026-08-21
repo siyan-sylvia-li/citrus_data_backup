@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I have a successful online following of 1.2million people who watch my quick, healthy recipes. I would like to grow my presence over the next three years and publish a cookbook.\r\nAssist in creating a three year plan to reach these goals, including social media strategy, on the ground strategy, business to business strategy- design this plan for a limited budget and with step I can take in the three days a week I have free from work.\r\nAdditionally, assist in weighing up the pro's and con's of traditional vs self publishing my cookbook. What is most attractive to readers and will make my cookbook sell well?",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-20T13:58:01.695071+00:00"
+}

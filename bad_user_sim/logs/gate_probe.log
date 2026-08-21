@@ -1,0 +1,8 @@
+launching 5 runs, 5 at a time, 5s apart
+ok	human_style_q5_gate-concept_q_shared_context_preset7_anthropic:claude-sonnet-5
+ok	human_style_q5_gate-concept_q_shared_context_preset9_anthropic:claude-sonnet-5
+ok	human_style_q5_gate-concept_q_shared_context_preset8_anthropic:claude-sonnet-5
+ok	human_style_q5_gate-concept_q_shared_context_preset11_anthropic:claude-sonnet-5
+ok	human_style_q5_gate-concept_q_shared_context_preset10_anthropic:claude-sonnet-5
+
+done: 5 ok, 0 failed  (logs/human_style_q5_gate-concept_q_shared_context_results.tsv)

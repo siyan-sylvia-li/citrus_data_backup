@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I post cooking videos to 1.2M followers.  I currently work 4 days a week and have limited time and budget.  Please devise a 3 year plan to help me grow online and publish a cookbook either traditionally or self-publish.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "qwen",
+      "score": null
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-14T23:15:59.416095+00:00"
+}

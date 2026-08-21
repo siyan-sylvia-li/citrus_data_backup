@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Can you produce a strategy to develop a business over a three year time-frame? The business is founded around a popular video channel showing how to cook quick healthy meals. It has 1.2m followers. The woman running this channel works four days a week and has limited time and budget, but want to grow their online following and publish a cook book - either traditional method or self-publishing. Considering all of these factors, craft a sophisticated but concrete and practical three-year strategy to achieve this person's goals.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-30T16:12:35.810022+00:00"
+}

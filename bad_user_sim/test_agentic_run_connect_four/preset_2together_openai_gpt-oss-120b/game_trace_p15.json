@@ -1,0 +1,65 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "What is the optimal move (column number) for Red in this position?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Given the current board, which column gives Red a forced win assuming optimal play?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Given the current Connect Four board state, which column (1-7) should Red play to achieve the best outcome assuming perfect play from both sides?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Optimal move for Red?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Which column should Red play to achieve the best result in this endgame puzzle?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 2
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Given the current board, what column should Red play next to maintain a forced win (if any) or best outcome?"
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Is playing column 3 now a winning move for Red?"
+  }
+]

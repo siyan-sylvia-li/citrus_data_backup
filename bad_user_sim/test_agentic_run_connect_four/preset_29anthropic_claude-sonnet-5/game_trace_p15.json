@@ -1,0 +1,45 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, I'm looking at this board and I don't see an obvious win for me. Is there a move right now that either wins for me or that I NEED to play to stop yellow from winning next turn?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "If I play column 2 now, I'd have three red in a column (rows 1-3). Is that a good forcing move, or does it let yellow set up something nasty when they block it at the top?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Yellow has c7r1, c6r2, c5r3 all yellow on a diagonal. If yellow plays column 4 next, doesn't that land on r4 and complete their diagonal for a win? Do I need to block column 4 right now?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at my reds at c4r3, c5r2, c6r1 - that's a diagonal. If I play column 3, it lands at r3, and then wouldn't the very next slot up in column 3 (r4) complete my four-in-a-row diagonal? Does that force yellow to block column 3 right away?"
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "play_move",
+    "move": 2
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  }
+]

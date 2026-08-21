@@ -1,0 +1,41 @@
+{
+  "idea": "Simply study and learn the previous moves and games played.",
+  "n_chars": 59,
+  "start_message": "What do you think would be the best move right now?",
+  "selected": "say_thinking",
+  "selected_type": "think_aloud",
+  "selected_carries_forward": true,
+  "others_shown": [
+    "look_ahead",
+    "ask_answer"
+  ],
+  "option_order": [
+    "look_ahead",
+    "say_thinking",
+    "ask_answer"
+  ],
+  "seconds_on_page": 66,
+  "form": "elicit_select_reply",
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 2
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.667,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-20T17:30:36.909695+00:00"
+}

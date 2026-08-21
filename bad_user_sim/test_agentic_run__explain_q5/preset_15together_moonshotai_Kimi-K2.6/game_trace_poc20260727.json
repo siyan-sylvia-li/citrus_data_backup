@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "which of my legal moves g2 b6 a7 b7 b8 c8 wins the endgame for black? c8 flips a lot but i'm worried it's a trap. i can't work through all the branches myself in time."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "white answered a8. now my options are g2 b6 a7 c8. g2 flips a lot but i worry it opens a1 for white. b6 flips c6 d6 e6 and c5. which one keeps me winning?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "white played b8. now my legal moves are g2 b6 a7. which one should i play to win?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "why was b7 the winning first move instead of c8? c8 flipped way more discs so it looked stronger to me. what did i miss?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "after i played a3 white had no legal moves and had to pass. why was white completely stuck there?"
+  }
+]

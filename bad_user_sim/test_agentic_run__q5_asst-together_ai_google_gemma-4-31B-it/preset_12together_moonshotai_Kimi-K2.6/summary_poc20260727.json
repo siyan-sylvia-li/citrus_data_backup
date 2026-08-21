@@ -1,0 +1,49 @@
+{
+  "puzzle": "oc20260727",
+  "decisions": 5,
+  "optimal_moves": 4,
+  "opener_optimal": true,
+  "discs_lost": 20,
+  "final_margin": -2,
+  "won": false,
+  "optimal_margin": 18,
+  "completed": true,
+  "moves": [
+    "b7",
+    "g2!",
+    "c8",
+    "a7",
+    "b6"
+  ],
+  "auto_played": [
+    "a1"
+  ],
+  "chat_turns": null,
+  "game": "othello",
+  "round": 0,
+  "ai_available": true,
+  "model_settings": {
+    "max_tokens": 50000
+  },
+  "questions_asked": 5,
+  "question_budget": 5,
+  "profile": {
+    "persona": "a university student with big future plans",
+    "age": 20,
+    "education": "some_college",
+    "occupation": "other",
+    "ai_frequency": "daily"
+  },
+  "student_model": "together:moonshotai/Kimi-K2.6",
+  "student_mode": "default",
+  "questions_required": 5,
+  "assistant_off": false,
+  "assistant_model": "together_ai/google/gemma-4-31B-it",
+  "tool_framing": "default",
+  "gate": null,
+  "gate_blocked": 0,
+  "gate_errors": 0,
+  "gate_model": null,
+  "assistant_preset": "default",
+  "streamed": false
+}

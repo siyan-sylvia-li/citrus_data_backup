@@ -1,0 +1,34 @@
+[
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I just finished my first endgame and got crushed \u2014 Black ending with 19 vs White 45 after playing c8, then b6, then b8. What was my critical mistake?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Was c8 even the right first move, or should I have picked a7 or b6 instead?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "What about b6 \u2014 was that at least okay, or did it also set me up badly?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After b6, the only moves left were g2, a8, b8. Should I have picked g2 instead?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "If I replay this puzzle, what's the one rule of thumb I should keep in my head?"
+  }
+]

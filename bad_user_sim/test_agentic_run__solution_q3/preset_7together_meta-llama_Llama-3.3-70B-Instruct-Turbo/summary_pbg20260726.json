@@ -1,0 +1,38 @@
+{
+  "puzzle": "bg20260726",
+  "decisions": 3,
+  "optimal_moves": 2,
+  "opener_optimal": true,
+  "discs_lost": 14,
+  "final_margin": -10,
+  "won": false,
+  "optimal_margin": 4,
+  "completed": true,
+  "moves": [
+    "b2",
+    "g7!",
+    "h7"
+  ],
+  "auto_played": [],
+  "chat_turns": null,
+  "game": "othello",
+  "round": 1,
+  "ai_available": false,
+  "model_settings": {
+    "max_tokens": 50000
+  },
+  "questions_asked": 0,
+  "question_budget": 0,
+  "profile": {
+    "persona": "A devoted Christian who is actively involved in religious discussions",
+    "age": 45,
+    "education": "bachelors",
+    "occupation": "education",
+    "ai_frequency": "less_than_monthly"
+  },
+  "student_model": "together:meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "student_mode": "solution",
+  "questions_required": 3,
+  "assistant_preset": "default",
+  "streamed": false
+}

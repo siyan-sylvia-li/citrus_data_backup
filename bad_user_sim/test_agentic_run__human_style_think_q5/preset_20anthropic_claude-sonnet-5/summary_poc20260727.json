@@ -1,0 +1,44 @@
+{
+  "puzzle": "oc20260727",
+  "decisions": 6,
+  "optimal_moves": 6,
+  "opener_optimal": true,
+  "discs_lost": 0,
+  "final_margin": 18,
+  "won": true,
+  "optimal_margin": 18,
+  "completed": true,
+  "moves": [
+    "b7",
+    "c8",
+    "a7",
+    "a3",
+    "a1",
+    "h1"
+  ],
+  "auto_played": [
+    "g2"
+  ],
+  "chat_turns": null,
+  "game": "othello",
+  "round": 0,
+  "ai_available": true,
+  "model_settings": {
+    "max_tokens": 100000
+  },
+  "questions_asked": 5,
+  "question_budget": 5,
+  "profile": {
+    "persona": "An aging person who is considering picking up a new hobby late in life.",
+    "age": 68,
+    "education": "hs_graduate",
+    "occupation": "other",
+    "ai_frequency": "never"
+  },
+  "student_model": "anthropic:claude-sonnet-5",
+  "student_mode": "human_style_think",
+  "questions_required": 5,
+  "assistant_off": false,
+  "assistant_preset": "default",
+  "streamed": false
+}

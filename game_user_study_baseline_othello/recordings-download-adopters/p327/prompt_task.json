@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I want you to help me create two separate three-year step by step plan that will lead to me publishing a cook book. \r\n\r\nI want one plan to be a traditional route to publishing and the other one a self-publishing route.\r\n\r\nI post cooking videos on this channel (link to channel). These are the recipes I would like featured in the cookbook. Prioritise recipes from videos that perform the best.\r\n\r\nI only have a maximum of three days a week to donate to this project as I work four days.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-10T17:22:42.428389+00:00"
+}

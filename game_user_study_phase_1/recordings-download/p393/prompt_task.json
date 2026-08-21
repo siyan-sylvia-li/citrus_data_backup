@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Plan a three-year strategy for a content creator to grow online audience and publish a cookbook. The creator currently posts cooking videos featuring quick, healthy recipes to 1.2 million followers. She has limited time and budget for this project. Explain short and longer term plans, and include any pitfalls that could be foreseen. Explain pros and cons of traditional vs self-published book, and make a recommendation. Cite your sources and do not use Quora.",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-28T16:11:34.382403+00:00"
+}

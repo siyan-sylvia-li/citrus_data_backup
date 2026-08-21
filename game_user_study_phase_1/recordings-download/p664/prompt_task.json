@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Give a concrete three year plan of how to grow online and publish a cookbook (torn on traditional vs. self-publishing). Working 4 days a week, limited time and budget. Posts cooking videos to 1.2M followers who love quick, healthy recipes.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-24T13:18:05.052533+00:00"
+}

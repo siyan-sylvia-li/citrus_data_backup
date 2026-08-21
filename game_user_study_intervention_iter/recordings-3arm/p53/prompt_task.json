@@ -1,0 +1,25 @@
+{
+  "created_prompt": "I plan on growing my own youtube channel and publishing my own book over the next 3 years. I work 4 days a week so only have 1-2 days a week spare to spend time on this. I also have a limited budget. In regards to the book i need pros and cons of traditional publishing and self-publishing. I want a step by step guide on what i should do for the whole plan and break it down into quarters for 3 years (12 points total)",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.667,
+  "submitted_at": "2026-08-21T12:52:53.002902+00:00"
+}

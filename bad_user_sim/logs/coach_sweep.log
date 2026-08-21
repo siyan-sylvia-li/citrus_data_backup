@@ -1,0 +1,52 @@
+=== coach: together_ai/MiniMaxAI/MiniMax-M3 ===
+launching 10 runs, 8 at a time, 5s apart
+FAIL	q5_asst-together_ai_MiniMaxAI_MiniMax-M3_preset14_together:moonshotai_Kimi-K2.6	logs/q5_asst-together_ai_MiniMaxAI_MiniMax-M3_preset14_together:moonshotai_Kimi-K2.6.log
+ok	q5_asst-together_ai_MiniMaxAI_MiniMax-M3_preset10_together:moonshotai_Kimi-K2.6
+ok	q5_asst-together_ai_MiniMaxAI_MiniMax-M3_preset13_together:moonshotai_Kimi-K2.6
+ok	q5_asst-together_ai_MiniMaxAI_MiniMax-M3_preset11_together:moonshotai_Kimi-K2.6
+ok	q5_asst-together_ai_MiniMaxAI_MiniMax-M3_preset7_together:moonshotai_Kimi-K2.6
+ok	q5_asst-together_ai_MiniMaxAI_MiniMax-M3_preset9_together:moonshotai_Kimi-K2.6
+ok	q5_asst-together_ai_MiniMaxAI_MiniMax-M3_preset8_together:moonshotai_Kimi-K2.6
+ok	q5_asst-together_ai_MiniMaxAI_MiniMax-M3_preset16_together:moonshotai_Kimi-K2.6
+ok	q5_asst-together_ai_MiniMaxAI_MiniMax-M3_preset15_together:moonshotai_Kimi-K2.6
+ok	q5_asst-together_ai_MiniMaxAI_MiniMax-M3_preset12_together:moonshotai_Kimi-K2.6
+
+done: 9 ok, 1 failed  (logs/q5_asst-together_ai_MiniMaxAI_MiniMax-M3_results.tsv)
+FAIL	q5_asst-together_ai_MiniMaxAI_MiniMax-M3_preset14_together:moonshotai_Kimi-K2.6	logs/q5_asst-together_ai_MiniMaxAI_MiniMax-M3_preset14_together:moonshotai_Kimi-K2.6.log
+=== coach: together_ai/moonshotai/Kimi-K2.6 ===
+launching 10 runs, 8 at a time, 5s apart
+FAIL	q5_asst-together_ai_moonshotai_Kimi-K2.6_preset11_together:moonshotai_Kimi-K2.6	logs/q5_asst-together_ai_moonshotai_Kimi-K2.6_preset11_together:moonshotai_Kimi-K2.6.log
+ok	q5_asst-together_ai_moonshotai_Kimi-K2.6_preset7_together:moonshotai_Kimi-K2.6
+FAIL	q5_asst-together_ai_moonshotai_Kimi-K2.6_preset13_together:moonshotai_Kimi-K2.6	logs/q5_asst-together_ai_moonshotai_Kimi-K2.6_preset13_together:moonshotai_Kimi-K2.6.log
+FAIL	q5_asst-together_ai_moonshotai_Kimi-K2.6_preset8_together:moonshotai_Kimi-K2.6	logs/q5_asst-together_ai_moonshotai_Kimi-K2.6_preset8_together:moonshotai_Kimi-K2.6.log
+ok	q5_asst-together_ai_moonshotai_Kimi-K2.6_preset9_together:moonshotai_Kimi-K2.6
+FAIL	q5_asst-together_ai_moonshotai_Kimi-K2.6_preset10_together:moonshotai_Kimi-K2.6	logs/q5_asst-together_ai_moonshotai_Kimi-K2.6_preset10_together:moonshotai_Kimi-K2.6.log
+ok	q5_asst-together_ai_moonshotai_Kimi-K2.6_preset14_together:moonshotai_Kimi-K2.6
+ok	q5_asst-together_ai_moonshotai_Kimi-K2.6_preset12_together:moonshotai_Kimi-K2.6
+FAIL	q5_asst-together_ai_moonshotai_Kimi-K2.6_preset15_together:moonshotai_Kimi-K2.6	logs/q5_asst-together_ai_moonshotai_Kimi-K2.6_preset15_together:moonshotai_Kimi-K2.6.log
+FAIL	q5_asst-together_ai_moonshotai_Kimi-K2.6_preset16_together:moonshotai_Kimi-K2.6	logs/q5_asst-together_ai_moonshotai_Kimi-K2.6_preset16_together:moonshotai_Kimi-K2.6.log
+
+done: 4 ok, 6 failed  (logs/q5_asst-together_ai_moonshotai_Kimi-K2.6_results.tsv)
+FAIL	q5_asst-together_ai_moonshotai_Kimi-K2.6_preset11_together:moonshotai_Kimi-K2.6	logs/q5_asst-together_ai_moonshotai_Kimi-K2.6_preset11_together:moonshotai_Kimi-K2.6.log
+FAIL	q5_asst-together_ai_moonshotai_Kimi-K2.6_preset13_together:moonshotai_Kimi-K2.6	logs/q5_asst-together_ai_moonshotai_Kimi-K2.6_preset13_together:moonshotai_Kimi-K2.6.log
+FAIL	q5_asst-together_ai_moonshotai_Kimi-K2.6_preset8_together:moonshotai_Kimi-K2.6	logs/q5_asst-together_ai_moonshotai_Kimi-K2.6_preset8_together:moonshotai_Kimi-K2.6.log
+FAIL	q5_asst-together_ai_moonshotai_Kimi-K2.6_preset10_together:moonshotai_Kimi-K2.6	logs/q5_asst-together_ai_moonshotai_Kimi-K2.6_preset10_together:moonshotai_Kimi-K2.6.log
+FAIL	q5_asst-together_ai_moonshotai_Kimi-K2.6_preset15_together:moonshotai_Kimi-K2.6	logs/q5_asst-together_ai_moonshotai_Kimi-K2.6_preset15_together:moonshotai_Kimi-K2.6.log
+FAIL	q5_asst-together_ai_moonshotai_Kimi-K2.6_preset16_together:moonshotai_Kimi-K2.6	logs/q5_asst-together_ai_moonshotai_Kimi-K2.6_preset16_together:moonshotai_Kimi-K2.6.log
+=== coach: together_ai/google/gemma-4-31B-it ===
+launching 10 runs, 8 at a time, 5s apart
+ok	q5_asst-together_ai_google_gemma-4-31B-it_preset11_together:moonshotai_Kimi-K2.6
+ok	q5_asst-together_ai_google_gemma-4-31B-it_preset8_together:moonshotai_Kimi-K2.6
+ok	q5_asst-together_ai_google_gemma-4-31B-it_preset13_together:moonshotai_Kimi-K2.6
+ok	q5_asst-together_ai_google_gemma-4-31B-it_preset9_together:moonshotai_Kimi-K2.6
+ok	q5_asst-together_ai_google_gemma-4-31B-it_preset10_together:moonshotai_Kimi-K2.6
+ok	q5_asst-together_ai_google_gemma-4-31B-it_preset7_together:moonshotai_Kimi-K2.6
+FAIL	q5_asst-together_ai_google_gemma-4-31B-it_preset14_together:moonshotai_Kimi-K2.6	logs/q5_asst-together_ai_google_gemma-4-31B-it_preset14_together:moonshotai_Kimi-K2.6.log
+ok	q5_asst-together_ai_google_gemma-4-31B-it_preset16_together:moonshotai_Kimi-K2.6
+FAIL	q5_asst-together_ai_google_gemma-4-31B-it_preset12_together:moonshotai_Kimi-K2.6	logs/q5_asst-together_ai_google_gemma-4-31B-it_preset12_together:moonshotai_Kimi-K2.6.log
+ok	q5_asst-together_ai_google_gemma-4-31B-it_preset15_together:moonshotai_Kimi-K2.6
+
+done: 8 ok, 2 failed  (logs/q5_asst-together_ai_google_gemma-4-31B-it_results.tsv)
+FAIL	q5_asst-together_ai_google_gemma-4-31B-it_preset14_together:moonshotai_Kimi-K2.6	logs/q5_asst-together_ai_google_gemma-4-31B-it_preset14_together:moonshotai_Kimi-K2.6.log
+FAIL	q5_asst-together_ai_google_gemma-4-31B-it_preset12_together:moonshotai_Kimi-K2.6	logs/q5_asst-together_ai_google_gemma-4-31B-it_preset12_together:moonshotai_Kimi-K2.6.log
+COACH SWEEP DONE

@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Can you help me devise a business plan on a limited budget. I post cooking videos and over the next three years I want to grow online and publish a cookbook. I have 1.2M followers at present, I work 4 days per week and am torm between self publishing or going down the traditional route.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-03T16:20:14.142719+00:00"
+}

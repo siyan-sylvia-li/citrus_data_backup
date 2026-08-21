@@ -1,0 +1,33 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm considering column 2 to stack a third red and force Yellow to block on top. Does that force actually get me anywhere, or am I feeding Yellow's c5r1-c4r2-c3r3-c2r4 diagonal?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "What about playing column 3 right now? It kills that diagonal before it starts and gives me c2r2+c3r3 pointing at c1r1 and c4r4. Is 3 the best move here, or is something else stronger?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  }
+]

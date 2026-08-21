@@ -1,0 +1,32 @@
+{
+  "created_prompt": "> Julie is a food content creator with 1.2M followers (quick, healthy recipes), working 4 days/week with limited time and budget. She wants to grow her online presence and publish a cookbook over 3 years, undecided on traditional vs. self-publishing. Create a concrete 3-year plan covering content growth, cookbook development, publishing path, and revenue strategy within her constraints.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "original": {
+    "judges": {
+      "llama": 3,
+      "gpt": 3
+    },
+    "mean_score": 3.0,
+    "median_score": 3.0,
+    "passed": true
+  },
+  "time_taken": 2.018
+}

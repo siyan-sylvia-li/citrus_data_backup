@@ -1,0 +1,9 @@
+{
+  "prolific_id": "preset_1anthropic_claude-opus-5",
+  "game": "connect_four",
+  "age": 41,
+  "education": "master",
+  "occupation": "healthcare",
+  "genai_usage": "monthly",
+  "student_model": "anthropic:claude-opus-5"
+}

@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Devise a 3 year plan for Julie to publish a cookbook using the following information:\r\n\r\nJulie posts cooking videos to 1.2M followers who love her quick, healthy recipes.\r\nOver the next three years she wants to grow online and publish a cookbook (torn on traditional vs. self-publishing).\r\nShe works four days weekly, limited time and budget.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T13:40:15.128419+00:00"
+}

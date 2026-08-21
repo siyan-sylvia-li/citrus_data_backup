@@ -1,0 +1,37 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I've got g2, a7, and c8. Which one's the best move here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Looking back, was b8 actually a good first move or did I mess up early?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at the board... g2, b6, a7, b7, b8, c8. Any of these look like a safe bet to start with?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Could you explain why c8 was such a bad choice at the end? It felt like I was taking a lot of pieces."
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "If I'm playing against someone this good, is there a general rule for the corners that I should just memorize?"
+  }
+]

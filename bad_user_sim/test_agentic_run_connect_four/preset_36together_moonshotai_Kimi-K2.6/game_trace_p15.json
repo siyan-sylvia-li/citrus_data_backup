@@ -1,0 +1,34 @@
+[
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I played c4 like I thought was best, and Yellow answered c5. I'm trying to work out if I have a forced win from here or if I should be looking for a draw. Can you help me see the right continuation?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "play_move",
+    "move": 2
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I've burned a lot of time calculating forks that keep getting blocked. Now Yellow's sitting pretty solid. Am I losing this, or is there still a forced way through that I'm not seeing? Feels like I'm one move away from either a win or a collapse."
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  }
+]

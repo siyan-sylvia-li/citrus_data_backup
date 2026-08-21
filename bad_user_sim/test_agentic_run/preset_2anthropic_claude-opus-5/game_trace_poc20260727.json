@@ -1,0 +1,33 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Quick eval: I like g2 (flips f2, f3, e4, d5 and doesn't seem to hand White h1 since h1 flips nothing). Is g2 actually the best of g2/b6/a7/b7/b8/c8 with perfect play from here, or does one of the bottom-left moves win more?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After b7, doesn't White just take a8 (flipping b7 and c6 back on the diagonal) and own that corner? Does that not hurt more than the 5 discs I gain?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "g2 vs b6 here: g2 flips 5 (f2,g3,g4,g5,g6) and looks stable, but then White b6 flips b2-b5+c7. b6 only flips 4 for me and they look loose (a7/b8/c8 all flip them back). Also White seems to have a monster a3 either way. Which of my 4 moves maximizes my final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  }
+]

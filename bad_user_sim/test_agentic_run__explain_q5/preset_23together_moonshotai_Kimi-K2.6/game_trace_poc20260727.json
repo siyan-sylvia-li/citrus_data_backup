@@ -1,0 +1,37 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "This endgame is tricky. I can see b7 flips an entire row, but it also opens lines toward the corners for White. c8 and a7 look quieter but might control corner access better. Which move from {b7, c8, a7} gives Black the highest final disc count against optimal play, and very briefly why?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Walk me through why b7 was better than c8 on move 1. What specific replies did b7 neutralise that c8 allowed?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "When I played b8 second move, was there any better option among g2, b6, or a7?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "In the final position after White took a1, was there actually any theoretical way for Black to avoid a decisive loss, or was it already cut and dried?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "If you had to teach one heuristic for sharp endgames like this, what would it be \u2014 maximising immediate flips, controlling corners, or parity of remaining moves?"
+  }
+]

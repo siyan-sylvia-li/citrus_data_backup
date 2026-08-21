@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Devise a 3 year business plan for Julie. She currently has a 1.2M following for her videos and wants to increase this number and also publish a cookbook. With consideration of limited time and budget, make the plan for both goals and give the benefits and drawbacks of self-publishing her new book compared to a publishing house.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-24T13:55:19.569992+00:00"
+}

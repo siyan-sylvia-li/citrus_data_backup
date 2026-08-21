@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "b7 looks like it flips a ton of discs in row 7, but is it the best endgame move? or does something like b6 or c8 set up better? i don't want to give white a corner"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "why did b6 backfire so hard? i thought i was taking the edge"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "was there any way to avoid white getting a1 and a3 at the end?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "should i have played c8 instead of b8?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "what was my biggest mistake after b7?"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I need help putting together a plan for my friend Julie. She makes cooking videos, quick, healthy stuff, and she's built up about 1.2M followers, which is an amazing accomplishment, but she feels a bit stuck on what comes next.\r\n\r\nHere's the situation: she wants to keep growing over the next three years, and her big dream is to publish a cookbook. Problem is she can't decide between going the traditional route with a publisher or just self-publishing. She goes back and forth on it constantly. Also worth knowing: she only works four days a week and doesn't have a big budget, so anything that assumes she can throw money or endless hours at this won't work!!\r\n\r\nCan you sketch out a realistic three-year plan for her? Roughly what she should focus on each year, when the cookbook stuff should actually start, and honestly \u2014 which publishing route makes more sense for someone in her position? Give me a straight answer on that, not just \"it depends.\"\r\n\r\nIt'd also help to know how she should split her four working days, what she can realistically expect to earn from along the way, and what could go wrong with the plan so she's not blindsided.\r\n\r\nKeep it practical. She's the kind of person who wants to know what to do Monday morning, not read a business school essay.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 4
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.333,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-05T12:36:06.803141+00:00"
+}

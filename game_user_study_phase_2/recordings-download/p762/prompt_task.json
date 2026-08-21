@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Please help me with a thre year plan. I would love to write a cookbook. I love to cook quick healthy meals and my followers love them so much. I'm not sure how to go about it, shouls I go for traditional or self-publishing? I work four days a week, so my time is limited and so is my budget.",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.667,
+  "submitted_at": "2026-08-19T12:09:40.374243+00:00"
+}

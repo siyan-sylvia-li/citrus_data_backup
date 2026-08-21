@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I enjoy cooking and posting quick and healthy cooking videos. My goal over the next three years is to grow my online following and publish a cookbook. I have limited time and budget, as I work 4 days a week. Could you help me come up with a solid 3 year plan.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-05T15:38:33.965231+00:00"
+}

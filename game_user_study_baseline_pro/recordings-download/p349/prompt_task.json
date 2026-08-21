@@ -1,0 +1,19 @@
+{
+  "created_prompt": "I would like to develop my online cooking video channel into a cookbook. I'm not sure if its best to self-publish or go traditional with a publisher.\r\nI would like to develop this over three years, how, when and what should I be doing to acheive my goal?",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-22T13:17:45.344998+00:00"
+}

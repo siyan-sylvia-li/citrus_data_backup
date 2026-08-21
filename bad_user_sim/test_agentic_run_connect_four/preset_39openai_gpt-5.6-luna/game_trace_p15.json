@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Can you analyze the current position and tell me the best column for Red, including the opponent's strongest reply?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After my 4 and Yellow's 5, what's the best Red move now? Please account for any immediate Yellow threats."
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Current board has Red stacked in column 4. Should I continue with column 4, or is there a tactical move elsewhere that creates a faster threat?"
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now that Red has c4-r4 and c5-r4, what's the strongest move? Is c6 the key to extend that row, or should I stack c4/c5?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  }
+]

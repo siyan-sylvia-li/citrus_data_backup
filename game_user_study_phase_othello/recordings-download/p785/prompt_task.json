@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I need a three-year plan to help a popular internet chef expand her reach by producing a cookbook featuring her recipes. She's busy, with a limited time and budget. Please make this action plan for her, while answering time management and budget details for two different scenarios: whether she self-publishes, or chooses to go through a traditional publisher.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-04T18:22:29.672732+00:00"
+}

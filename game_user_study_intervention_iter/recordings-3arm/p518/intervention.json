@@ -1,0 +1,29 @@
+{
+  "variant": "v9_reasons",
+  "observation": "group B has identified potential moves prior to seeking AI assistance to clarify benefits/risks and analyse options",
+  "choice": "B",
+  "choice_correct": true,
+  "form": "contrasting_cases",
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 4
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 3
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.333,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-21T17:00:59.401444+00:00"
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, I'm staring at this endgame and c8 looks like it flips a ton of discs, but I'm worried it's a trap. Could you tell me which of my legal moves actually wins by the biggest margin, or if any lose outright? I don't have time to map out the whole tree."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White just played a8. My options now are g2, b6, a7, c8. Which one is the winning move for Black in this endgame?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I\u2019m down 22\u201336 after White played b8. My legal moves are g2, b6, a7. Which one keeps me in the game and maximizes my final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "The game ended 23\u201341. Was the real losing move c8, or did I already mess up with b7? Where did it fall apart?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "If b7 was the losing move at the start, what should Black have played instead on that very first turn to actually win? Was there a clear winning move from the original position?"
+  }
+]

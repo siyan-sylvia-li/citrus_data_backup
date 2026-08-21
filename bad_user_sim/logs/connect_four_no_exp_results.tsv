@@ -1,0 +1,10 @@
+ok	connect_four_no_exp_preset7_together:meta-llama_Llama-3.3-70B-Instruct-Turbo
+ok	connect_four_no_exp_preset8_together:meta-llama_Llama-3.3-70B-Instruct-Turbo
+ok	connect_four_no_exp_preset10_together:meta-llama_Llama-3.3-70B-Instruct-Turbo
+ok	connect_four_no_exp_preset9_together:meta-llama_Llama-3.3-70B-Instruct-Turbo
+ok	connect_four_no_exp_preset11_together:meta-llama_Llama-3.3-70B-Instruct-Turbo
+ok	connect_four_no_exp_preset7_anthropic:claude-sonnet-5
+ok	connect_four_no_exp_preset8_anthropic:claude-sonnet-5
+ok	connect_four_no_exp_preset10_anthropic:claude-sonnet-5
+ok	connect_four_no_exp_preset9_anthropic:claude-sonnet-5
+ok	connect_four_no_exp_preset11_anthropic:claude-sonnet-5

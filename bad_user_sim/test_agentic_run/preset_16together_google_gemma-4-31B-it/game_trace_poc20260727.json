@@ -1,0 +1,22 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "b7 looks like a huge move because it flips 5 discs, but I'm worried it might open up a strong move for White, like b6. Is b7 the optimal move here, or should I play something else first to secure the board?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White just took the corner at a8. I have g2, b6, a7, and c8. Which one is the best play to maintain pressure and maximize my final score?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  }
+]

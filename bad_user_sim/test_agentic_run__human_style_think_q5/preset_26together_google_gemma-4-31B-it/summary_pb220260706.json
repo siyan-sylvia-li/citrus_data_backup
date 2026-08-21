@@ -1,0 +1,41 @@
+{
+  "puzzle": "b220260706",
+  "decisions": 2,
+  "optimal_moves": 0,
+  "opener_optimal": false,
+  "discs_lost": 24,
+  "final_margin": -12,
+  "won": false,
+  "optimal_margin": 12,
+  "completed": true,
+  "moves": [
+    "g2!",
+    "h2!"
+  ],
+  "auto_played": [
+    "g7"
+  ],
+  "chat_turns": null,
+  "game": "othello",
+  "round": 1,
+  "ai_available": false,
+  "model_settings": {
+    "max_tokens": 200000
+  },
+  "questions_asked": 0,
+  "question_budget": 0,
+  "profile": {
+    "persona": "A fellow local resident who appreciates and supports the preservation of the community's traditions",
+    "age": 58,
+    "education": "some_college",
+    "occupation": "other",
+    "ai_frequency": "less_than_monthly"
+  },
+  "student_model": "together:google/gemma-4-31B-it",
+  "student_mode": "human_style_think",
+  "questions_required": 5,
+  "assistant_off": false,
+  "assistant_model": "openai/gpt-5.5",
+  "assistant_preset": "default",
+  "streamed": false
+}

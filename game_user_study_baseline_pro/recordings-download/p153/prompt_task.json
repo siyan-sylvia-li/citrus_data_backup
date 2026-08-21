@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Please create a realistic 3-year plan for a food content creator named Julie. She currently has 1.2M followers for her quick healthy recipe videos. Over the next three years, she wants to grow her online presence and release a cookbook, but she is torn between traditional publishing and self-publishing.\r\n\r\nShe only works four days a week and has a limited budget and time. Please include a clear comparison and recommendation for which publishing path makes the most sense for her situation, along with a year-by-year roadmap that fits her schedule and budget without burning her out.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-21T13:10:13.793180+00:00"
+}

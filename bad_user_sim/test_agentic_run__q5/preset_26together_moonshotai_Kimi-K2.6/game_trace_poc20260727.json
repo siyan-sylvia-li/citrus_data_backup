@@ -1,0 +1,45 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Which of Black's legal moves (g2, b6, a7, b7, b8, c8) leads to the highest final disc count assuming optimal play from both sides? White seems to have a big a3 counter after most of them."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White just replied a8. Black's legal moves are now g2, b6, a7, c8. Which of these leaves Black with the highest final disc count assuming optimal play from both sides? I'm concerned White still has a3 as a strong reply."
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "What was my biggest mistake in this endgame, and could any earlier move have turned the tide for Black?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "From the very first position with moves g2 b6 a7 b7 b8 c8, was Black already doomed, or could a different first move have changed the endgame completely?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "What's a simple rule of thumb for this replay so I don't hand White an easy corner like a8 again?"
+  }
+]

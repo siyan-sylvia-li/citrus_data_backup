@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I'm Black. Legal moves are g2, b6, a7, b7, b8, c8. Only 10 empty squares left total. Which move gives me the best final disc count assuming White plays optimally? Can you walk through the key reasoning briefly?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White just took a8 corner. Now my legal moves are g2, b6, a7, c8, with 8 empty squares left. What's the best move now to maximize my final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "If I play g2 (flips f2,g3,g4,g5,g6), White can respond with a3 which flips a4,a5,b3,c3,b4,b2 \u2014 a huge 6-disc swing back. Is g2 still my best move despite that, or should I play b6 or a7 instead given this specific tactic?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Only 4 empty squares left: a1, h1, g2, a3. My legal moves are a1, g2, a3. Can you fully work out which of these three leads to the best final Black count, playing out all the forced sequences to the end?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  }
+]

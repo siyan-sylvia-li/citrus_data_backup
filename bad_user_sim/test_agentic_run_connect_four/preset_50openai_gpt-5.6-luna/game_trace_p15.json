@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Could you identify the best move for Red here and briefly explain the main threat I should be watching for?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After Red 4 and Yellow 5, what is Red's strongest next move, and is there an immediate Yellow threat to block?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now that column 4 has two Red discs stacked at rows 3\u20134, should I continue in column 4 or create a different threat? What is the best move?"
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After Red 5 and Yellow 1, what is the precise best move now? Please account for any forced win or necessary block."
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  }
+]

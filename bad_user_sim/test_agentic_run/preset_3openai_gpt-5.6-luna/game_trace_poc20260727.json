@@ -1,0 +1,50 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Which move is best here for Black against best play? Just give me the square and a quick reason."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After b7 and White a8, what's Black's best next move? Please just name the square."
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After c8 and White b8, which of g2, b6, or a7 is best for Black?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now with four empties and legal a1, g2, a3, which move gives Black the best final result?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White passed after a3. Between a1 and g2 now, which is the winning move for Black?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Final two choices h1 or g2: which should Black play for the higher final disc count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

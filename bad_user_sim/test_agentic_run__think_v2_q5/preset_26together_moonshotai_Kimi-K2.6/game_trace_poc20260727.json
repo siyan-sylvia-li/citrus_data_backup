@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I\u2019m eyeing b6 since it flips a whole row of white discs, but I\u2019m worried White could answer with b7 or a3 and wipe me out just as bad. Which of my legal moves\u2014g2, b6, a7, b7, b8, or c8\u2014really leaves me with the most discs once the board is finished?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White answered a8 and flipped my b7 and c6 back. Now my choices are g2, b6, a7, c8. g2 looks big but I worry white takes b6 and steals my whole b-column. What\u2019s the best move now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now I only have g2, b6, or a7 left. g2 flips the most discs right now, but will it hold up through the end?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now my options are a1, g2, a3. a3 flips four discs including diagonally to e7. Is that the one I should play?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Wait, the game just ended, but I\u2019m a little fuzzy\u2014why did White get stuck with no moves at the very end? Could they have done anything earlier to keep from getting boxed out like that?"
+  }
+]

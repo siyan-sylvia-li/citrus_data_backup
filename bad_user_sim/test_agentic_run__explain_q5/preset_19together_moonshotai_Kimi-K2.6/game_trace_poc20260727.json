@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at b6 and c8 as strong candidates \u2014 b6 flips seven discs and c8 flips six. In an endgame this tight, I can't calculate the exact finish. Which of my legal moves actually maximizes my final disc count against best play?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "At the very start of that puzzle, I picked b7 because it preserved corner access, but b6 and c8 both flipped more discs immediately. Could you walk me through why b7 was actually the maximizing move there, or did I misapply the principle?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After b7, White played a8 and I replied g2. Was g2 a blunder, or was the position already collapsing because a8 seized the corner tempo?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "In that final position with four empty squares left, I played b8 instead of c8. Was either move salvageable, or was the game mathematically lost by then?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "From a teaching standpoint, what\u2019s the clearest heuristic I should pass on to students about endgame disc flips\u2014that immediate count is misleading, and why?"
+  }
+]

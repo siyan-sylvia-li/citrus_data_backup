@@ -1,0 +1,31 @@
+{
+  "created_prompt": "Hi, please can you put together a 3 year plan for growing my online presence and branch out into new channels of growth. I have successfully grown my cooking videos to 1.2 million followers and wish to expand from here. I want to start an food blog, with a mix of recipes and lifestyle content, particularly stories form my trip to France. I'm short on time and budget but determined. I'm looking for a concrete plan with actionable steps to take me to my goals.",
+  "judges": [
+    {
+      "model": "qwen",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 2
+    },
+    {
+      "model": "llama",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.333,
+  "threshold": 3.0,
+  "passed": false,
+  "original": {
+    "judges": {
+      "llama": 3,
+      "qwen": 3,
+      "gpt": 3
+    },
+    "mean_score": 3.0,
+    "passed": true
+  },
+  "time_taken": 2.268
+}

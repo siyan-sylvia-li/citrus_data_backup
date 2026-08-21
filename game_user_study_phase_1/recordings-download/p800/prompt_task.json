@@ -1,0 +1,19 @@
+{
+  "created_prompt": "I have a long term plan to create a cookbook. I am not sure on a traditional or self publishing route but I do know I want to be in a position to do this in 3 years. Currently, I have social media where I post daily cooking videos to my 1.2 million followers. My brand has become quick and healthy recipes.  I need you to create a 3 year plan to help me grow my audience online and get my cookbook published.  I need to understand which social media channels to focus on, with growth focused content and timings. I need an idea of how to collate the information, when to contact publishers, how to market it, how much money it will take - I need you to focus on all aspects and explain it clearly and concisely for me, with the larger goal broken into small chunks with a solid timeline.  I work 4 days a week so I am limited on time and funds.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-22T20:43:36.548372+00:00"
+}

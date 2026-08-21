@@ -1,0 +1,28 @@
+{
+  "variant": "v2_think_pair",
+  "observation": "group a is quite has quite in-depth instructions and are very detailed where as group b is far more direct in its questions",
+  "choice": "A",
+  "choice_correct": false,
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 3
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.0,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-18T22:53:24.214173+00:00"
+}

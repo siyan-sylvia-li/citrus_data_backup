@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I have a cooking show that has about 1.2m followers that focuses on quick, healthy food. My goal is to grow my following and publish a cookbook eventually. I can only work about four days weekly and have a limited budget. Build me a three-year plan for my business.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T16:37:10.544083+00:00"
+}

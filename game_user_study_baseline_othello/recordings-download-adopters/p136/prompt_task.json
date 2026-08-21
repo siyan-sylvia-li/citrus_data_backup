@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Can you devise a three year plan to grow my passion for cooking healthy recipes? I currently have 1.2M followers that watch my videos every day on how to cook and eat healthy, but I want to expand my presence to reach out a further audience, perhaps expanding into something like a website to publish all my recipes or a cookbook. I don't have a lot of time to work on this though as I work four days a week and have limited amount of time and money to really put all my efforts into it.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-10T16:14:13.576051+00:00"
+}

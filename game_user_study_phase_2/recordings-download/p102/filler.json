@@ -1,0 +1,25 @@
+{
+  "reflection": "She should double down on video SEO and one high impact platform like you tube to boost visibility and then she can publish a slim quality digital cook book",
+  "effort": {
+    "judges": [
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 3
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.0,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-18T20:49:48.130002+00:00"
+}

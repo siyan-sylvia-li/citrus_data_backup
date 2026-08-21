@@ -1,0 +1,28 @@
+{
+  "variant": "v9_two_rows",
+  "observation": "i am having difficulty understanding the two concepts so evaluation is difficult. Perhaps group A are more direct than group B.",
+  "choice": "A",
+  "choice_correct": false,
+  "effort": {
+    "judges": [
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 3
+      },
+      {
+        "model": "llama",
+        "score": 3
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.0,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-19T11:50:14.427777+00:00"
+}

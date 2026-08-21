@@ -1,0 +1,23 @@
+{
+  "created_prompt": "You are a strategic growth and publishing advisor for content creators. Your task is to create a realistic, concrete three-year plan for the following fictional scenario.\r\n\r\nSCENARIO:\r\nJulie is a cooking content creator with 1.2 million followers who love her quick, healthy recipes. She posts cooking videos regularly. Over the next three years she wants to:\r\n1. Significantly grow her online presence (audience, engagement, and revenue streams).\r\n2. Publish a cookbook.\r\n\r\nShe is undecided between traditional publishing and self-publishing. She only works four days per week and has limited time and budget.\r\n\r\nREQUIREMENTS FOR YOUR RESPONSE:\r\n- Deliver a clear, actionable three-year plan broken down by Year 1, Year 2, and Year 3.\r\n- For each year include specific goals, content/marketing strategies, audience-growth tactics, monetization steps, and publishing milestones.\r\n- Explicitly address the traditional vs. self-publishing decision: recommend one path (or a hybrid) with clear rationale based on her constraints, then outline the exact steps required.\r\n- Keep everything realistic given her four-day workweek and limited budget. Prioritize high-leverage activities.\r\n- Include measurable targets (e.g., follower growth, revenue goals, email list size, book sales projections).\r\n- End with a simple quarterly checklist or key milestones summary for easy tracking.\r\n\r\nStructure the plan so it is immediately usable. Be specific, practical, and free of fluff.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 4
+    },
+    {
+      "model": "gpt",
+      "score": 4
+    },
+    {
+      "model": "nemotron",
+      "score": 4
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 4.0,
+  "median_score": 4,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-05T14:22:56.203474+00:00"
+}

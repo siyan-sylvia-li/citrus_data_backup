@@ -1,0 +1,19 @@
+{
+  "created_prompt": "I love cooking healthy and easy recipes and I regularly post these online and now have 1.2 million followers! My plan is to expand my online base and publish a book, (either via traditional publishing routes or self publishing).  Please create a 3 year, step by step plan, to assist me in achieving these goals.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-24T13:08:19.856578+00:00"
+}

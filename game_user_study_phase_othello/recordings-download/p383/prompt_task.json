@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Assume the role of a world class online content manager and project manager.\r\n\r\nDevise a three year plan for Julie, who has 1.2 million followers on her account where she posts quick, easy recipes.\r\n\r\nJulie wants to grow her online presence and reach, while also expanding into publishing a cookbook.\r\n\r\nShe has limited time and buget and needs the guidance of content manager and project manager to constantly make the most of her time and also to make the most effective use of her time.\r\n\r\nMake her a three year plan, explained in simple terms, with clear action plans, landmarks and an overall timeframe.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-05T15:16:07.555379+00:00"
+}

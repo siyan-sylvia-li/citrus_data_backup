@@ -1,0 +1,49 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "This is a 10-empty-square endgame, so it's basically fully solvable. My legal moves are g2, b6, a7, b7, b8, c8. Which one gives me the best final disc count assuming white defends optimally? I really can't brute force 10 plies by hand, so I need your read on this."
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Quick follow-up - why does c8 backfire even though it flips more discs immediately? Just want to understand the mechanism before I commit to b7."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White grabbed a8 and flipped b7+c6 back via the diagonal to d5 - didn't see that coming. Now it's Black 24, White 32, my legal moves are g2, b6, a7, c8, and corners a1/h1 are still open. What's the best move here for the endgame count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Down 22-36 now with only 6 empties left (a1,h1,g2,a3,b6,a7) and legal moves g2, b6, a7. This is small enough to fully solve - what's the best move and is there any realistic path back, or should I just play out the least-bad line?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White deviated and played b6 instead, now it's 20-40 with just a1,h1,g2,a3 left and my options are a1, g2, a3. What's the best finishing move now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  }
+]

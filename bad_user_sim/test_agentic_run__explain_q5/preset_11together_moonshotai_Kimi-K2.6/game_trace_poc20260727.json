@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I've got six legal moves here\u2014g2, b6, a7, b7, b8, c8. b7 flips a whole bunch right away, but I can't tell if White has a counter that'll wipe me out. With optimal play from both sides, which move wins me the most discs in the end?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "The game just ended and I got crushed 22 to 42. Did I throw it away with that last move, or was I already in a losing position before that? Be honest. Where did I mess up?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "When I had the choice between b8 and c8 at the end, you said b8 was the right call earlier. But after I played it, White played c8 and then I had no moves left. Would c8 have been better, or was I just trapped either way?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After I played b7, White hit me with a8 and then a7. Was b7 still the right first move, or did I open the door for White to seal up that corner? Should I have gone with g2 first instead?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "So for future puzzles like this, what's the simple rule of thumb? Is it always protect the corners first, even if it means passing up big flips?"
+  }
+]

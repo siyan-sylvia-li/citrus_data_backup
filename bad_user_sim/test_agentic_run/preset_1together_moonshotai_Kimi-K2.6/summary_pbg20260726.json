@@ -1,0 +1,46 @@
+{
+  "puzzle": "bg20260726",
+  "decisions": 2,
+  "optimal_moves": 0,
+  "opener_optimal": false,
+  "discs_lost": 14,
+  "final_margin": -10,
+  "won": false,
+  "optimal_margin": 4,
+  "completed": true,
+  "moves": [
+    "g8!",
+    "h7!"
+  ],
+  "auto_played": [
+    "g7"
+  ],
+  "chat_turns": null,
+  "game": "othello",
+  "round": 1,
+  "ai_available": false,
+  "model_settings": {
+    "max_tokens": 200000
+  },
+  "questions_asked": 0,
+  "question_budget": 0,
+  "profile": {
+    "persona": "A mental health professional who offers guidance and tools for healing and growth",
+    "age": 41,
+    "education": "master",
+    "occupation": "healthcare",
+    "ai_frequency": "monthly",
+    "known_concepts": [
+      "Digital",
+      "Currency",
+      "Payment",
+      "Ownership",
+      "Transaction",
+      "Fee",
+      "Verification",
+      "Probability"
+    ]
+  },
+  "student_model": "together:moonshotai/Kimi-K2.6",
+  "streamed": false
+}

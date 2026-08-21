@@ -1,0 +1,32 @@
+{
+  "created_prompt": "Please provide me with a three year plan to grow my cooking business online, with a view to also publishing my own cookbook.  I cook healthy and quick meals and currently have 1.2 million followers.  Please structure the plan so that I have a month to month 'to do' list to reach my goals over 36 months, building momentum every month. Please also help me decide if my cookbook should be published traditionally or self-published.",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "original": {
+    "judges": {
+      "gpt": 3,
+      "llama": 3
+    },
+    "mean_score": 3.0,
+    "median_score": 3.0,
+    "passed": true
+  },
+  "time_taken": 21.339
+}

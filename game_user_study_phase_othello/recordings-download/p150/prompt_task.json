@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Please create a solid 3-year plan to help me build my online presence/following and publish a cookbook based on my quick, healthy recipes?  I currently have 1.2M followers and I have limited time and budget to put into this project.  I'm also not sure if traditional or self-publishing the cookbook is the right path for me.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-03T19:56:21.326949+00:00"
+}

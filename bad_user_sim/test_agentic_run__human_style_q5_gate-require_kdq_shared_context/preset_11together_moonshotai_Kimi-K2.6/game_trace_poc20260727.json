@@ -1,0 +1,41 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "if i play c8, white can hit b8 next and flip c8 back along with d8 and e8, right? why does that happen "
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "why did white get three turns in a row at the end? is that legal?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "what makes a corner like a1 so much better than an edge square like b1?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "can one move flip discs in more than one direction at the same time?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "in the endgame when there were just 4 empty squares, how do i know if a square is actually legal without counting out every line?"
+  }
+]

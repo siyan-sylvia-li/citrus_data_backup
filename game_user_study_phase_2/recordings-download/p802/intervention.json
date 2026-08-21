@@ -1,0 +1,28 @@
+{
+  "variant": "v2_think_pair",
+  "observation": "I noticed that some relied on the AI from the get go, asking questions, while some analyzed, came up with a solution and verified it with the AI",
+  "choice": "B",
+  "choice_correct": true,
+  "effort": {
+    "judges": [
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "llama",
+        "score": 4
+      },
+      {
+        "model": "nemotron",
+        "score": 3
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.333,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-18T20:10:28.933606+00:00"
+}

@@ -1,0 +1,33 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm Black, way behind in disc count (20 vs 34) with only 10 empty squares left: g2, b6, a7, b7, b8, c8, a1, h1, a3, a8. My legal moves right now are g2, b6, a7, b7, b8, c8. Which one should I play to end up with the most discs when the board fills up, assuming White plays their best?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White just took corner a8. Now Black 24, White 32, 8 empty squares left: a1, h1, g2, a3, b6, a7, b8, c8. My legal moves are g2, b6, a7, c8. Which move gives me the best final result with White playing optimally?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  }
+]

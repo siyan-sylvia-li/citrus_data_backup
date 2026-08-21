@@ -1,0 +1,23 @@
+{
+  "created_prompt": "You are a marketing and branding expert, help me grow my social media cooking business.\r\n\r\nI post videos of recipes (healthy only) and have a good following, but would like to grow this and also branch out into producing a book. I'm open to either traditional or self-published on the book. Remember my budget and time is limited as this is more of a side-gig currently.\r\n\r\nGive me a three year plan with clear actionable steps of how to grow my channel and have a successful book launch.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T13:52:44.752134+00:00"
+}

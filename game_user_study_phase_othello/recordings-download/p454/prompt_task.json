@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Create a three year plan that outlines the steps I need to take to publish a cookbook based on my cooking videos that I upload to my 1.2million followers. With only 4 days a week to work and a limited budget, also generate pros and cons between self-publishing and traditional and the best way to recuperate costs involved when creating my cookbook.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-05T12:34:13.831689+00:00"
+}

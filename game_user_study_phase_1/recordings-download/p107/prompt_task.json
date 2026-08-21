@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I post cooking videos to a significant number of followers (1.2M+).  Followers indicate they love quick, healthy recipes.\r\nOver the next three years I'd like to continue to grow my online presence and following, and I would also like to publish a cookbook.  I'm not sure yet whether I want to go the traditional publishing route or self-publish.  \r\nI work four days each week and am significantly time and budget constrained.  \r\nPlease generate a specific three-year plan for how I could achieve my goals, given my situation and constraints.  Focus on measurable and realistic steps.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-03T16:38:58.992057+00:00"
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Hey! I'm Black in this Othello endgame. My legal moves are g2, b6, a7, b7, b8, c8. Which one should I play to maximize my final disc count assuming White plays optimally?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Okay, I played b7 and White played a8. Now my options are g2, b6, a7, c8. Which one is best for my final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White played b8. Now I can play g2, b6, or a7. Which move gives me the best final score?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White played b6 and now I can go a1, g2, or a3. What's my best move here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White passed. Now it's just a1 vs g2. Which gives me the better final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "created_prompt": "I need a three-year plan to succeed on my goal of growing my followers and eventually publishing a cookbook. I post cooking videos sharing quick and healthy recipes. I currently have 1.2M followers, and am looking to grow that number, so any suggestion on different ways and platforms for doing that would be welcome. My goal is to have enough of a following to allow me to publish a cookbook, either my traditional means or self-publishing. I work four days a week, and therefore my time and budget are limited. Make sure that the plan is well-structured, easy to follow, and takes my constraints into account. List each year, and the goals for that year separately.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-28T13:57:40.971775+00:00"
+}

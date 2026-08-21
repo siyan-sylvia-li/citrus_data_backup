@@ -1,0 +1,25 @@
+{
+  "reflection": "Start focusing on publishing little everyday. Keep publishing the cookbook a priority. Research some websites to publish books. Take help of AI",
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 2
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.667,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-18T22:20:47.310038+00:00"
+}

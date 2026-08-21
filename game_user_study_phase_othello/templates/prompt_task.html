@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Study — Prompt Task</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  <style>
+    .ptask__scenario {
+      background: #f0f7f2; border: 1px solid #cfe3d6; border-left: 4px solid #2D5A43;
+      border-radius: 6px; padding: 14px 18px; margin: 0 0 18px; color: #334e41; line-height: 1.5;
+    }
+    .ptask__scenario ul { margin: 8px 0 0; padding-left: 20px; }
+    .ptask__scenario li { margin-bottom: 6px; }
+    textarea.start__input { min-height: 170px; resize: vertical; font-family: inherit; line-height: 1.45; }
+    .ptask__overlay {
+      position: fixed; inset: 0; background: rgba(0,0,0,0.6); color: #fff; z-index: 9999;
+      display: none; align-items: center; justify-content: center; text-align: center;
+      padding: 2rem; font-size: 1.15rem; line-height: 1.6;
+    }
+    .ptask__overlay--on { display: flex; }
+    .ptask__spinner {
+      width: 42px; height: 42px; border: 4px solid rgba(255,255,255,0.3); border-top-color: #fff;
+      border-radius: 50%; animation: ptask-spin 1s linear infinite; margin: 0 auto 1rem;
+    }
+    @keyframes ptask-spin { to { transform: rotate(360deg); } }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <h1 class="topbar__title">Game Study</h1>
+  </header>
+
+  <main class="start">
+    <form class="start__card" method="post" action="{{ url_for('prompt_task') }}" id="ptask-form">
+      <h2 class="start__title">Warm-up: write a prompt</h2>
+      <p class="start__body">
+        Your goal here is to provide a <strong>SINGLE prompt</strong> for a state-of-the-art AI agent to complete a task under a hypothetical scenario.
+      </p>
+
+      <div class="ptask__scenario">{{ scenario | safe }}</div>
+
+      {% if error %}
+        <div class="start__error">{{ error }}</div>
+      {% endif %}
+
+      <label class="start__label" for="created_prompt">Your prompt to the AI assistant</label>
+      <textarea
+        id="created_prompt"
+        name="created_prompt"
+        class="start__input"
+        placeholder="Type the prompt you would send to an AI assistant…"
+        required
+        autofocus
+      >{{ prefill }}</textarea>
+
+      <button type="submit" class="start__btn">Submit &amp; continue</button>
+    </form>
+  </main>
+
+  <div class="ptask__overlay" id="ptask-overlay" aria-hidden="true">
+    <div>
+      <div class="ptask__spinner"></div>
+      Evaluating your prompt… this may take a few seconds.
+    </div>
+  </div>
+
+  <script>
+    // Show a spinner overlay while the server scores the prompt (synchronous POST).
+    document.getElementById('ptask-form').addEventListener('submit', function () {
+      document.getElementById('ptask-overlay').classList.add('ptask__overlay--on');
+    });
+  </script>
+</body>
+</html>

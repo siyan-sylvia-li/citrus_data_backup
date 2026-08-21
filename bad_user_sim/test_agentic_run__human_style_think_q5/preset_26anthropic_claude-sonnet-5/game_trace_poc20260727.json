@@ -1,0 +1,45 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm behind pretty bad on this board, only 10 empty squares left. Which of my options (g2, b6, a7, b7, b8, c8) gives me the best shot at flipping things back in my favor by the end?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Ok that worked out, now I'm at 24 to 32. Which of g2, b6, a7, c8 is my best play now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "That went bad, White grabbed the whole bottom row. Down 22-36 now with only g2, b6, a7 left to pick from. What's best here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Down 20-40 with 4 empty left: a1, g2, a3. Which one really sets me up best for the finish?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now that it's over and I won 33-31, I'm curious - was there a spot where I could've done even better, or did I basically play that ending as well as possible?"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Can you devise a three year plan for my social media cooking account, which posts quick healthy recipes, to help grow my social media presence and to work out how best to publish a cook book. I have limited time and budget and work four days a week and I want to know if it would be better to publish via a traditional route or to self publish with these constraints in mind",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-05T12:57:17.685260+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Please can you create a three-year plan, realistic to work on one day per week, to use my online recipies on my social media and turn them into a cook book. I'd like to increase my online presence all whilst keeping spending to a minimum",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.333,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.333,
+  "submitted_at": "2026-08-21T12:54:49.197050+00:00"
+}

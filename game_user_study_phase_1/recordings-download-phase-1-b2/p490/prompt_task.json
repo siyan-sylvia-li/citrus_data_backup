@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I would like you to create a concrete three-year plan for Julie to be able to achieve her goal. She posts cooking videos to 1.2M followers who love her quick, healthy recipes. What she wants is to be able to grow online and publish a cookbook. The thing is that she works four days weekly with limited time and budget.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "qwen",
+      "score": null
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-15T18:18:33.208332+00:00"
+}

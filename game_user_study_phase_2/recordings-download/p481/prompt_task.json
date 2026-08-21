@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Hi, I was wondering if you could help me with a three year plan. I want to grow my online platform to a much larger audience so I have more people willing to buy my book I plan to publish. I mainly post about healthy cooking videos, I don't have much free time but can you give me a step by step guide to get me there. Thanks",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.333,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.333,
+  "submitted_at": "2026-08-19T18:23:59.820021+00:00"
+}

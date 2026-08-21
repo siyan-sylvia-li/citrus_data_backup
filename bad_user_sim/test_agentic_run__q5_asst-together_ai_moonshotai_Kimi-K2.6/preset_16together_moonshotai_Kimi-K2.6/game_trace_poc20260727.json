@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Hey AI\u2014could use a hand here. Of these six legal moves (g2, b6, a7, b7, b8, c8), which one puts me in the best shape for the rest of the endgame? I care about final disc count, not just immediate flips."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Okay, the board\u2019s done and I lost 31-33. Walk me through where I went wrong\u2014after b7, was c8 a mistake? g2 felt strong at the time but White punished me with h1."
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "So what should I have played instead of g2 at that point? My legal moves were b6, a7, c8. Would a7 have been the right call?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "One more thing\u2014after I played b7, White went a8. That seemed slow, but it set up a3 later which wrecked my a-file. What was the tactical idea behind a8?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Last one\u2014when I played c8 earlier, it only flipped d8. If a7 was the winning move instead of g2, would c8 have ever been useful later, or was it just a wasted tempo no matter what?"
+  }
+]

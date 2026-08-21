@@ -1,0 +1,41 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Which of these is the safest one to start with, b6 or c8?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Hey did that go through? Which is safer, b6 or c8?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Whoa that flipped a ton for white. What should I play now, a7 or c8 or something else?"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "This is getting tight, only 6 squares left. Which of b7, b8, c8 should I play now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now which one, a7, a8, or c8?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "created_prompt": "As Julie's consultant, craft a realistic 3 year plan respecting her 1.2M followers, 4 day week and roughly $2k budget. Deliver phased milestones for year 1  up to year 3. Give recommendations, sustainable schedule and tasks",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "original": {
+    "judges": {
+      "llama": 3,
+      "gpt": 3
+    },
+    "mean_score": 3.0,
+    "median_score": 3.0,
+    "passed": true
+  },
+  "time_taken": 4.508
+}

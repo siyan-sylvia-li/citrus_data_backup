@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Can you identify the best move here and briefly explain the key endgame sequence? I want the move that maximizes Black's final discs against best play."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After Black b7 and White a8, the legal moves are g2, b6, a7, c8. Which Black move is best now under optimal play?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After c8, White b8; remaining Black moves g2, b6, a7. What is the optimal move now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now after White b6, Black has a1, g2, a3 with four empties. Which move maximizes final discs against best White play?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After Black a3 and White passed, should I play a1 or g2 for the best final result?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

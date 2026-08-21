@@ -1,0 +1,40 @@
+{
+  "puzzle": "w4p6",
+  "decisions": 5,
+  "optimal_moves": 4,
+  "optimal_first_n": 2,
+  "decisions_first_n": 3,
+  "kept_win_moves": 5,
+  "opener_optimal": true,
+  "exact_decisions": 5,
+  "result": "red_win",
+  "won": true,
+  "plies_to_win_at_start": 7,
+  "completed": true,
+  "columns": [
+    "3",
+    "1",
+    "7!",
+    "5",
+    "5"
+  ],
+  "auto_played": [],
+  "chat_turns": null,
+  "game": "connect_four",
+  "round": 1,
+  "ai_available": false,
+  "model_settings": {
+    "max_tokens": 100000
+  },
+  "questions_asked": 0,
+  "question_budget": 0,
+  "profile": {
+    "persona": "A local resident with insider knowledge of their favorite travel destinations",
+    "age": 33,
+    "education": "bachelors",
+    "occupation": "other",
+    "ai_frequency": "few_times_week"
+  },
+  "student_model": "anthropic:claude-sonnet-5",
+  "streamed": false
+}

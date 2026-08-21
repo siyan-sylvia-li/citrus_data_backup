@@ -1,0 +1,30 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I'm weighing b7 and c8. b7 blocks White's a1 corner and flips the c7-g7 row. c8 flips six discs but leaves the a1 corner open. Assuming optimal play from here, which move maximizes Black's final disc count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White just played a8. My legal moves are g2, b6, a7, c8. Which one maximizes Black's final disc count with optimal play?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After White played b8, my legal moves are g2, b6, and a7. Which one maximizes Black's final disc count with optimal play?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  }
+]

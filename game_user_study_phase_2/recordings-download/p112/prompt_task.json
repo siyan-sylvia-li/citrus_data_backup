@@ -1,0 +1,25 @@
+{
+  "created_prompt": "I would like you to help me create a concrete 3 year plan to publish my own cookbook. I have 1.2M followers who love my quick, healthy recipes and I want to create a cookbook but I'm torn on traditional vs self publishing. Could you create a 3 year plan for each and compare and contrast them with financials baked into the comparison?",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.667,
+  "submitted_at": "2026-08-18T16:30:21.608663+00:00"
+}

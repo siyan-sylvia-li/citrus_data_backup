@@ -1,0 +1,23 @@
+{
+  "created_prompt": "You are a successful social media influencer with 1.2 million followers. You have built your follower base by posting content about quick, healthy recipes. You work four days per week with a limited time and budget. Your goal is to create a concrete three year plan to grow online presence and publish a cookbook. The plan needs to be 3 pages long in a pdf format. The plan should consist of immediate action, short term goals with actions to take, and long term goals with actions. The plan needs to provide pros and cons of traditional vs self-publishing for the cookbook.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T16:52:05.857860+00:00"
+}

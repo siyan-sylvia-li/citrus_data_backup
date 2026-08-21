@@ -1,0 +1,49 @@
+=== framing=shared_context mode=default ===
+launching 10 runs, 6 at a time, 5s apart
+ok	q5_shared_context_preset7_anthropic:claude-sonnet-5
+ok	q5_shared_context_preset9_anthropic:claude-sonnet-5
+ok	q5_shared_context_preset8_anthropic:claude-sonnet-5
+ok	q5_shared_context_preset7_together:moonshotai_Kimi-K2.6
+ok	q5_shared_context_preset10_anthropic:claude-sonnet-5
+FAIL	q5_shared_context_preset9_together:moonshotai_Kimi-K2.6	logs/q5_shared_context_preset9_together:moonshotai_Kimi-K2.6.log
+ok	q5_shared_context_preset11_anthropic:claude-sonnet-5
+ok	q5_shared_context_preset8_together:moonshotai_Kimi-K2.6
+FAIL	q5_shared_context_preset10_together:moonshotai_Kimi-K2.6	logs/q5_shared_context_preset10_together:moonshotai_Kimi-K2.6.log
+ok	q5_shared_context_preset11_together:moonshotai_Kimi-K2.6
+
+done: 8 ok, 2 failed  (logs/q5_shared_context_results.tsv)
+FAIL	q5_shared_context_preset9_together:moonshotai_Kimi-K2.6	logs/q5_shared_context_preset9_together:moonshotai_Kimi-K2.6.log
+FAIL	q5_shared_context_preset10_together:moonshotai_Kimi-K2.6	logs/q5_shared_context_preset10_together:moonshotai_Kimi-K2.6.log
+=== framing=shared_context mode=human_style ===
+launching 10 runs, 6 at a time, 5s apart
+ok	human_style_q5_shared_context_preset9_together:moonshotai_Kimi-K2.6
+ok	human_style_q5_shared_context_preset7_anthropic:claude-sonnet-5
+ok	human_style_q5_shared_context_preset8_anthropic:claude-sonnet-5
+ok	human_style_q5_shared_context_preset9_anthropic:claude-sonnet-5
+ok	human_style_q5_shared_context_preset8_together:moonshotai_Kimi-K2.6
+ok	human_style_q5_shared_context_preset11_anthropic:claude-sonnet-5
+ok	human_style_q5_shared_context_preset10_anthropic:claude-sonnet-5
+ok	human_style_q5_shared_context_preset10_together:moonshotai_Kimi-K2.6
+ok	human_style_q5_shared_context_preset7_together:moonshotai_Kimi-K2.6
+ok	human_style_q5_shared_context_preset11_together:moonshotai_Kimi-K2.6
+
+done: 10 ok, 0 failed  (logs/human_style_q5_shared_context_results.tsv)
+=== coach=together_ai/MiniMaxAI/MiniMax-M3 ===
+launching 5 runs, 5 at a time, 5s apart
+ok	q5_asst-together_ai_MiniMaxAI_MiniMax-M3_preset9_anthropic:claude-sonnet-5
+ok	q5_asst-together_ai_MiniMaxAI_MiniMax-M3_preset10_anthropic:claude-sonnet-5
+ok	q5_asst-together_ai_MiniMaxAI_MiniMax-M3_preset7_anthropic:claude-sonnet-5
+ok	q5_asst-together_ai_MiniMaxAI_MiniMax-M3_preset11_anthropic:claude-sonnet-5
+ok	q5_asst-together_ai_MiniMaxAI_MiniMax-M3_preset8_anthropic:claude-sonnet-5
+
+done: 5 ok, 0 failed  (logs/q5_asst-together_ai_MiniMaxAI_MiniMax-M3_results.tsv)
+=== coach=together_ai/moonshotai/Kimi-K2.6 ===
+launching 5 runs, 5 at a time, 5s apart
+ok	q5_asst-together_ai_moonshotai_Kimi-K2.6_preset7_anthropic:claude-sonnet-5
+ok	q5_asst-together_ai_moonshotai_Kimi-K2.6_preset11_anthropic:claude-sonnet-5
+ok	q5_asst-together_ai_moonshotai_Kimi-K2.6_preset10_anthropic:claude-sonnet-5
+ok	q5_asst-together_ai_moonshotai_Kimi-K2.6_preset8_anthropic:claude-sonnet-5
+ok	q5_asst-together_ai_moonshotai_Kimi-K2.6_preset9_anthropic:claude-sonnet-5
+
+done: 5 ok, 0 failed  (logs/q5_asst-together_ai_moonshotai_Kimi-K2.6_results.tsv)
+SMALL PROBES DONE

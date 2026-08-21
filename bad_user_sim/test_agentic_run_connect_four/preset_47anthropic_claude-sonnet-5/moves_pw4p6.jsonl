@@ -1,0 +1,4 @@
+{"game": "connect_four", "puzzle": "w4p6", "round": 0, "attempt": 1, "decision_number": 1, "optimal": false, "ts": "2026-08-05T19:44:42.101803+00:00", "best_moves": [3], "game_over": false, "move": "5", "col": 4, "kept_win": true, "ai_col": 4}
+{"game": "connect_four", "puzzle": "w4p6", "round": 0, "attempt": 1, "decision_number": 2, "optimal": false, "ts": "2026-08-05T19:45:55.303619+00:00", "best_moves": [6], "game_over": false, "move": "2", "col": 1, "kept_win": false, "ai_col": 3}
+{"game": "connect_four", "puzzle": "w4p6", "round": 0, "attempt": 1, "decision_number": 3, "optimal": true, "ts": "2026-08-05T19:47:07.452577+00:00", "best_moves": [2], "game_over": false, "move": "2", "col": 1, "kept_win": true, "ai_col": 0}
+{"game": "connect_four", "puzzle": "w4p6", "round": 0, "attempt": 1, "decision_number": 4, "optimal": true, "ts": "2026-08-05T19:47:16.566538+00:00", "best_moves": [2], "game_over": true, "move": "2", "col": 1, "kept_win": true, "ai_col": null}

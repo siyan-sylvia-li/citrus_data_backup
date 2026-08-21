@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Create a three-year plan for online growth and eventual cookbook publication. Consider an influencer with 1.2 million followers who love her quick, healthy recipes, and limit the influencer's work to four days per week. Time and budget are limited, but she'd like to publish her cookbook in about 3 years. Also consider whether traditional or self-publishing would be best in this situation.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-05T15:05:50.583174+00:00"
+}

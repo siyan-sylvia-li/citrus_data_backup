@@ -1,0 +1,45 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I'm Black, 6 legal moves: g2, b6, a7, b7, b8, c8. Only 10 empty squares left total. Which move gives me the best final disc count assuming White plays optimally? Can you briefly walk through why?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now legal moves are g2, b6, a7, c8, only 8 empty squares left. Which one is best for final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Down to 22 vs 36, 6 empty squares left, my moves are g2, b6, a7. Which is best, and am I still able to win this or is it lost?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I want to sanity check my read on that position. After I played a3, White had literally zero legal moves and had to pass. Was that pass actually forced/correct, or did I miss a legal move White had there?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Looking back at the whole endgame, was 33-31 actually the best possible final score for me with perfect play from that starting position, or could I have squeezed out more?"
+  }
+]

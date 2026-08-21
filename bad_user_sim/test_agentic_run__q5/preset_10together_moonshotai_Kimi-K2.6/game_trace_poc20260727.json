@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at this Othello endgame. My legal moves are g2, b6, a7, b7, b8, c8. I think b6 and c8 flip a lot of stones but I'm worried about White's counterplay. Can you tell me which move leads to the best final score for Black with optimal play?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I played b7 and White played a8, which flipped b7 and c6 back. Now my legal moves are g2, b6, a7, c8. I see b6 and g2 flip a lot, but White might be able to undo them with a7 or h1. Which move is actually best for Black here?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Wait\u2014if I play c8 right now, isn\u2019t White just going to reply a3 and flip six of my discs (a4, a5, b2, b3, b4, c3)? That drops me to 20 vs White 38 with 6 empties left. Are you sure c8 is the right move?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "In the position after White played a8 and my options were g2, b6, a7, c8, I impulsively played a7. Was that actually better than b6 or g2? I worried b6 would let White sweep the left edge."
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "You told me c8 was best partly because of the c8 \u2192 a3 \u2192 a1 corner line, but White actually replied b8 instead of a3. Did White\u2019s b8 refute that plan, or did the c8 move still work for other reasons?"
+  }
+]

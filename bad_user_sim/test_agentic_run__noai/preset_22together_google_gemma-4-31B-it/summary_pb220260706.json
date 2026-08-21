@@ -1,0 +1,40 @@
+{
+  "puzzle": "b220260706",
+  "decisions": 2,
+  "optimal_moves": 1,
+  "opener_optimal": false,
+  "discs_lost": 16,
+  "final_margin": -4,
+  "won": false,
+  "optimal_margin": 12,
+  "completed": true,
+  "moves": [
+    "g2!",
+    "g7"
+  ],
+  "auto_played": [
+    "h2"
+  ],
+  "chat_turns": null,
+  "game": "othello",
+  "round": 1,
+  "ai_available": false,
+  "model_settings": {
+    "max_tokens": 200000
+  },
+  "questions_asked": 0,
+  "question_budget": 0,
+  "profile": {
+    "persona": "A politician who advocates for policies aligned with public opinion",
+    "age": 55,
+    "education": "postgrad",
+    "occupation": "government",
+    "ai_frequency": "few_times_month"
+  },
+  "student_model": "together:google/gemma-4-31B-it",
+  "student_mode": "default",
+  "questions_required": 0,
+  "assistant_off": true,
+  "assistant_preset": "default",
+  "streamed": false
+}

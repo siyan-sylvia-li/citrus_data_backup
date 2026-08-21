@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Please devise a concrete three year plan to grow online and publish a cook book, unsure on whether to go for traditional or self publishing. Please note this person works 4 days weekly, and are limited with time and budget. This person also post cooking videos to her 1.2million followers",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-20T13:31:21.778440+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Please give me a concrete 3 year plan on getting a cookbook published using recipes from my growing online cooking videos. I would like to grow my online presence as well. Please give me the pros and cons of traditional publishing and self publishing as I am torn. I have limited time and money. I can put in 4 days a week. Please put this in a very easy to read - easy to follow plan.",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.667,
+  "submitted_at": "2026-08-18T18:57:34.277408+00:00"
+}

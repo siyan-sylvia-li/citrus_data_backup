@@ -1,0 +1,34 @@
+[
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Down to g2 or b6. b6 keeps the left solid but g2 grabs more edges maybe? Which should I pick?"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Did I throw this away with c8 or was it already lost?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Would b6 first instead of c8 have been better?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "What about a8 instead of a7 after White played b7?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "When I got forced into b6 at the end, was there any move before that which avoided getting auto-b6\u2019d?"
+  }
+]

@@ -1,0 +1,45 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "down 20-34 with only 10 empty squares left. My options are g2, b6, a7, b7, b8, c8. Which one actually gives me the best shot at winning the count by the end?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White grabbed a8 corner and flipped my b7. Now down 24-32 with 8 empty left, options g2, b6, a7, c8. What's best now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Looking back, when I played b6 flipping c6/d6/e6/c5 in one of my mental branches - did white's follow-up at a7 (flipping b6/c5/d4) actually require b6 to still be black going into that move? I want to make sure I had the flip logic right there."
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Was there ever a line where I could've actually won this, or was I already too far behind after white took the corner at a8?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Earlier you told me to play b7 which is what let white grab a8. Was there a way to avoid handing over that corner, looking back at my very first move choice?"
+  }
+]

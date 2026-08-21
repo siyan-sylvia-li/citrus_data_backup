@@ -1,0 +1,40 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "The board is pretty sharp\u2014Black is down 20 to 34, so this is all about the endgame swing. I can see a few candidate first moves, but tracing the full minimax tree mentally is risky. Between b7 (which grabs the whole 7th rank but exposes the b-file), c8 (takes the diagonal and the d8 edge), and the quieter a7, which look do you think holds up under perfect play? What\u2019s the minimax-winning first move for Black here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I played b7 and White snapped back with a8, flipping my b7 and c6. Now it\u2019s Black 24, White 32, with 8 empties left and my options narrowed to g2, b6, a7, c8. b6 looks like the biggest immediate swing, but after White\u2019s a8 the whole left side is a minefield. Which of these four holds up as the minimax follow-up?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Looking back at the start, was this endgame already a theoretical loss for Black from the initial board, or did I hand White the win by choosing b7 first?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After White replied a8, was c8 truly the minimax best reply, or did b6 or a7 have a better shot at salvaging the count?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "When I'm deep in an endgame like this and down on discs, what's a fast heuristic to decide between a 'big flip' like b6 and a quieter edge move like c8?"
+  },
+  {
+    "tool": "view_board"
+  }
+]

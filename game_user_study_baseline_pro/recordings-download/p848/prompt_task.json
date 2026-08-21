@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Am a cooking show content generator and my angle is quick, healthy recipes. Over the next 3 years I want to:\r\n\r\n1. Grow my online presence\r\n2. Write a cookbook\r\n3. Determine which route would work best for my cookbook: self publishing vs traditional\r\n\r\nI work 4 days per week, and have a limited budget. Devise for me a concrete plan to achieve the bullet pointed aims in a 3 year period.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-22T13:05:39.028879+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I post cooking videos online to my 1.2million followers. In the next three years, I want to grow my following and publish a cookbook. I have a limited budget and am also time poor. Devise a three year plan to help me reach my goals",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-10T15:54:05.373278+00:00"
+}

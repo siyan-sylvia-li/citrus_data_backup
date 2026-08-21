@@ -1,0 +1,12 @@
+act,scheme,solved_count,solved_per_turn,solved_per_participant,unsolved_count,unsolved_per_turn,unsolved_per_participant
+Common Ground Question,student,1,0.037,0.17,0,0.0,0.0
+Conversational Acknowledgment,student,4,0.148,0.67,0,0.0,0.0
+Knowledge Deficit Question,student,15,0.556,2.5,8,0.8,2.0
+Metacomment,student,1,0.037,0.17,0,0.0,0.0
+Partial Answer,student,1,0.037,0.17,0,0.0,0.0
+Read Aloud,student,1,0.037,0.17,0,0.0,0.0
+Think Aloud,student,11,0.407,1.83,2,0.2,0.5
+Forced Choice,tutor,1,0.037,0.17,1,0.1,0.25
+
+_participants,,6,,,4,,
+_user_turns,,27,,,10,,

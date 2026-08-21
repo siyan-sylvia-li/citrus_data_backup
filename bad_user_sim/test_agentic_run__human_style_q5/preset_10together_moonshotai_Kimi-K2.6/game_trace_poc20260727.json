@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "b7 or c8? b7 flips 5 in row 7 plus maybe a6? c8 flips c7, d7, d8, and the diagonal through g4. Which first move maximizes final Black count here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "after b7 a8, is g2 or b6 the better follow-up for final disc count? g2 flips 6 right away, b6 flips c5/c6/d6/e6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "c8 lets white respond b8 and flip c8-d8-e8 back, right? that seems awful. am i missing something?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "current legal moves are g2, b6, a7. g2 flips 6 now, b6 flips 4, a7 flips 2. which one gives the best final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "game ended and i won 33-31 but did i mess up somewhere? should i have played a1 instead of g2 to get more?"
+  }
+]

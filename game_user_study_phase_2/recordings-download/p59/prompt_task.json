@@ -1,0 +1,24 @@
+{
+  "created_prompt": "Write me a three year plan to build my cooking channel and publish a book of my recipes, I can commit less than 1 day a week and have a limited budget so your suggestions need to be self sustaining.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 2
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 2.0,
+  "median_score": 2.0,
+  "submitted_at": "2026-07-22T20:22:28.341628+00:00",
+  "source": "phase_1_carryover",
+  "source_study": "game_user_study_phase_1",
+  "tier": 1,
+  "prior_games": [],
+  "passed": true,
+  "rule": "carried over from phase 1",
+  "matched_phase1": true
+}

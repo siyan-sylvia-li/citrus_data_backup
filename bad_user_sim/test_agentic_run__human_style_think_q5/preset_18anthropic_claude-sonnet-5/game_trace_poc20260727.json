@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I have g2, b6, a7, b7, b8, c8 as options. Which one sets me up best for the rest of the game?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White just took a8. Of my options g2, b6, a7, c8, which is best now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "6 squares left, I'm Black at 22 vs White 36. My options are g2, b6, a7. Which minimizes White's best comeback, especially around a3?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Why did White keep passing at the end there - did I actually trap them or did they just not have any good options at all?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Was the order I played those last squares (a3, then a1, then h1, then g2) actually what caused that mobility trap, or would it have ended the same either way?"
+  }
+]

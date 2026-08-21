@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Would you help Julie to develop a plan to achieve an online following for her recipes and publish a cookbook in the next 3 years. (She's not sure if the book will be traditional or self published, so could you advise on that too? She currently works 4 days a week, so has limited budget and time but currently has 1.2m followers",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-04T13:53:08.458017+00:00"
+}

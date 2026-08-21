@@ -1,0 +1,36 @@
+{
+  "puzzle": "oc20260727",
+  "decisions": 4,
+  "optimal_moves": 2,
+  "opener_optimal": true,
+  "discs_lost": 36,
+  "final_margin": -18,
+  "won": false,
+  "optimal_margin": 18,
+  "completed": true,
+  "moves": [
+    "b7",
+    "g2!",
+    "c8",
+    "b6!"
+  ],
+  "auto_played": [],
+  "chat_turns": null,
+  "game": "othello",
+  "round": 0,
+  "ai_available": true,
+  "model_settings": {
+    "max_tokens": 50000
+  },
+  "questions_asked": 3,
+  "question_budget": 10,
+  "profile": {
+    "persona": "a scholarly student deep into historical studies",
+    "age": 23,
+    "education": "some_college",
+    "occupation": "education",
+    "ai_frequency": "daily"
+  },
+  "student_model": "together:meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "streamed": false
+}

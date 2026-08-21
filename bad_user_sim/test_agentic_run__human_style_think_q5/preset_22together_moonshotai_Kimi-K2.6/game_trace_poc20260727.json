@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "which move wins from my legal list: g2, b6, a7, b7, b8, c8? i need the optimal endgame move for Black with best play from both sides"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "after White played a8, my legal moves are g2 b6 a7 c8. which wins the endgame with best play?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Was b7 actually the right first move, or did I lose the game there already?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After White played a8, was c8 a mistake? Could a7 have held on better for Black?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "With perfect play from the very start of this puzzle, is it a forced win for White no matter what Black does?"
+  }
+]

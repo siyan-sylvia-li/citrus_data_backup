@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Create a detailed, three year plan focused on online growth, sustainability, and creating a cookbook within the timeframe using these points of reference:\r\n\r\n1: User currently has 1.2 million followers for her online videos.\r\n2: User works in unrelated field for 4 days, so time and budget are limited.\r\n3: User is undecided on traditional publishing or self-publishing.\r\n\r\nCreate an easy to read plan over the course of the three year scope for her to grow and release a cookbook with given information and limits.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-06T22:47:14.318609+00:00"
+}

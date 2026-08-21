@@ -1,0 +1,6 @@
+2026/08/13 01:32:32 WARNING dspy.clients.lm: LM response was truncated due to exceeding max_tokens=4096. You can inspect the latest LM interactions with `dspy.inspect_history()`. To avoid truncation, consider passing a larger max_tokens when setting up dspy.LM. You may also consider increasing the temperature (currently None)  if the reason for truncation is repetition.
+2026/08/13 01:33:19 WARNING dspy.clients.lm: LM response was truncated due to exceeding max_tokens=4096. You can inspect the latest LM interactions with `dspy.inspect_history()`. To avoid truncation, consider passing a larger max_tokens when setting up dspy.LM. You may also consider increasing the temperature (currently None)  if the reason for truncation is repetition.
+2026/08/13 01:34:46 WARNING dspy.clients.lm: LM response was truncated due to exceeding max_tokens=4096. You can inspect the latest LM interactions with `dspy.inspect_history()`. To avoid truncation, consider passing a larger max_tokens when setting up dspy.LM. You may also consider increasing the temperature (currently None)  if the reason for truncation is repetition.
+round 0 oc20260727   ai=True  questions=5 4/5 optimal  won=False
+round 1 b220260706   ai=False questions=0 3/3 optimal  won=True
+round 1 bg20260726   ai=False questions=0 3/3 optimal  won=True

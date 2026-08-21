@@ -1,0 +1,30 @@
+[
+  {
+    "tool": "play_move",
+    "move": 2
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at the board. I see a potential horizontal line for me on row 3 (I have c2r3 and c6r3), but I'm worried about Yellow's vertical threat in col 4 and a diagonal threat from c7r1/c6r2. If I play c4r3 to block the vertical, does that just help Yellow get to c4r4 for their diagonal? What's the optimal move here?"
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "play_move",
+    "move": 6
+  }
+]

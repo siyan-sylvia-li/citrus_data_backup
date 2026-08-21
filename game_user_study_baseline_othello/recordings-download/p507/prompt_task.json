@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Write Julie a three year plan so she can publish a cookbook. She is torn between traditional and self-publishing. She currently has 1.2m followers online, who she posts quick and healthy recipes to. Julie works 4 days a week, so she can't dedicate her full time to publishing a cookbook. What should she do?",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-20T13:22:16.489999+00:00"
+}

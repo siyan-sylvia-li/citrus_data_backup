@@ -1,0 +1,19 @@
+{
+  "created_prompt": "I need a concrete, three-year plan that helps me to do two specific things: \r\n\r\nGrow my online presence, when I have 1.2M followers currently watching my cooking videos.\r\n\r\nPublish a cookbook full of quick healthy recipes, and help me decide between traditional or self-publishing.\r\n\r\nI have a limited budget, and limited time because I work four days a week.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-22T20:57:22.593863+00:00"
+}

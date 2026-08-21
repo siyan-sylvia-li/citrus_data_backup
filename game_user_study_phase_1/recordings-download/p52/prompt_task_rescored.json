@@ -1,0 +1,32 @@
+{
+  "created_prompt": "Hi, I've built up 1.2m followers posting cooking videos of quick and healthy recipes. I'm aiming to grow online and publish a cookbook over the next 3 years, but I'm not sure yet whether that would be using the traditional or self-publishing method. Can you give me a concrete three year plan to do this, taking account of my limited time and budget, and that I work four days a week.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "original": {
+    "judges": {
+      "llama": 3,
+      "gpt": 3
+    },
+    "mean_score": 3.0,
+    "median_score": 3.0,
+    "passed": true
+  },
+  "time_taken": 10.358
+}

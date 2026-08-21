@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Can you identify the optimal first move here under best play, and briefly give the principal variation? I want to prioritize corner access and parity."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "At this position only b8 and c8 remain for Black, then White likely takes the other. Which is the better move under exact play, and what final disc count does it yield?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Can you independently verify the completed line after 1 b7 a8 2 g2 h1 3 b6 a7 4 b8 c8, including passes and final count?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Was b8 definitely superior to c8 at the final decision point, rather than relying on a heuristic? Please compare exact outcomes."
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Please audit whether any legal move or flip was missed in the last four-square sequence, especially a1 and a3."
+  }
+]

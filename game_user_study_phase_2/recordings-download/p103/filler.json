@@ -1,0 +1,25 @@
+{
+  "reflection": "Work hard and be consistent. Consistency is the most important thing to grow on social media",
+  "effort": {
+    "judges": [
+      {
+        "model": "gpt",
+        "score": 2
+      },
+      {
+        "model": "llama",
+        "score": 2
+      },
+      {
+        "model": "nemotron",
+        "score": 1
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 1.667,
+    "median_score": 2,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-18T19:23:32.964061+00:00"
+}

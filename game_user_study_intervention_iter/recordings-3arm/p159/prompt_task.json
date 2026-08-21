@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Julie currently posts cooking videos online and wants to scale this over 3 years both online and by publishing a cook book - what would be a successful 3 year plan to make this happen with limited time (availability only 3 days a week) and a limited budget. Please include budgeting, a monthly specific strategy and a clear plan that highlights whether or not it is best to self publish the cookbook",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.667,
+  "submitted_at": "2026-08-21T13:49:45.287133+00:00"
+}

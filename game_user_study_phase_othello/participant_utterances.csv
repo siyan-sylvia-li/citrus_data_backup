@@ -1,0 +1,888 @@
+pid,utt,utt_type,conf,needs_review,utt_ind,outcome
+p92,i want to play g2,Think Aloud,0.6666666666666666,False,0,won
+p92,i want to play g2,Common Ground Question,0.6666666666666666,False,0,won
+p92,if I play h1 would it be a better option ?,Common Ground Question,1.0,False,1,won
+p92,help me to choose between the diferent available moves,Solution Request,1.0,False,2,won
+p92,"ok, done , now it's time fo G2 ?",Conversational Acknowledgment,1.0,False,3,won
+p92,"ok, done , now it's time fo G2 ?",Common Ground Question,1.0,False,3,won
+p92,a1 ?,Common Ground Question,1.0,False,4,won
+p92,"i di b6, what now ?",Think Aloud,1.0,False,5,won
+p92,"i di b6, what now ?",Solution Request,1.0,False,5,won
+p329,what should my next move be?,Solution Request,1.0,False,0,won
+p329,how about b6 now?,Common Ground Question,1.0,False,1,won
+p329,what would a better move be?,Solution Request,1.0,False,2,won
+p329,what now?,Solution Request,1.0,False,3,won
+p329,only four spaces left and only three possible moves.  rate them in order of best to worst,Think Aloud,0.6666666666666666,False,4,won
+p329,only four spaces left and only three possible moves.  rate them in order of best to worst,Common Ground Question,0.6666666666666666,False,4,won
+p523,where would you recommend puttting my next one?,Solution Request,1.0,False,0,lost
+p523,why is b6 better than b7? thhere is straight row of whites on row 7,Think Aloud,1.0,False,1,lost
+p523,why is b6 better than b7? thhere is straight row of whites on row 7,Knowledge Deficit Question,0.6666666666666666,False,1,lost
+p523,ok i get it. after b6 then what would you do,Conversational Acknowledgment,1.0,False,2,lost
+p523,ok i get it. after b6 then what would you do,Common Ground Question,0.6666666666666666,False,2,lost
+p523,ok i get it. after b6 then what would you do,Solution Request,0.6666666666666666,False,2,lost
+p523,so is securing a corner more important than a row,Knowledge Deficit Question,1.0,False,3,lost
+p523,if i put b6 does the only thing that changes is the white on a6?,Common Ground Question,1.0,False,4,lost
+p266,Where would be the best place to go and why,Solution Request,1.0,False,0,lost
+p266,"White did that move instead, what would be good now?",Think Aloud,0.6666666666666666,False,1,lost
+p266,"White did that move instead, what would be good now?",Solution Request,1.0,False,1,lost
+p266,Would g2 be ok now? Or can they still go diagonally if I do that?,Knowledge Deficit Question,1.0,False,2,lost
+p266,Would g2 be ok now? Or can they still go diagonally if I do that?,Common Ground Question,1.0,False,2,lost
+p266,So A1 is best?,Common Ground Question,1.0,False,3,lost
+p266,"Amazing, thanks for telling me!!! So I should now finish on A1?",Conversational Acknowledgment,1.0,False,4,lost
+p266,"Amazing, thanks for telling me!!! So I should now finish on A1?",Common Ground Question,1.0,False,4,lost
+p76,Should i go for b7?,Common Ground Question,1.0,False,0,lost
+p76,nothing stronger?,Solution Request,0.6666666666666666,False,1,lost
+p76,im thinking g2,Think Aloud,1.0,False,2,lost
+p76,i dont see much better. a7?,Think Aloud,1.0,False,3,lost
+p76,i dont see much better. a7?,Common Ground Question,1.0,False,3,lost
+p76,a 7 now?,Common Ground Question,1.0,False,4,lost
+p76,b6 maybe?,Common Ground Question,1.0,False,5,lost
+p76,i should have done b6,Think Aloud,1.0,False,6,lost
+p76,which one leave white with no move?,Solution Request,0.6666666666666666,False,7,lost
+p76,a1 now?,Common Ground Question,0.6666666666666666,False,8,lost
+p334,Which move do you think is the best move for myself? Consider the next move that white may make.,Solution Request,1.0,False,0,lost
+p334,"Ok, what about now?",Conversational Acknowledgment,1.0,False,1,lost
+p334,"Ok, what about now?",Solution Request,1.0,False,1,lost
+p334,"Okay, what do you think next? I have a7, b6, and g2. Evaluate and explain each move",Conversational Acknowledgment,1.0,False,2,lost
+p334,"Okay, what do you think next? I have a7, b6, and g2. Evaluate and explain each move",Common Ground Question,1.0,False,2,lost
+p334,"Okay, what do you think next? I have a7, b6, and g2. Evaluate and explain each move",Solution Request,1.0,False,2,lost
+p334,"Do you think I made the best moves? I did a1, then h1.",Think Aloud,1.0,False,3,lost
+p334,"Do you think I made the best moves? I did a1, then h1.",Common Ground Question,1.0,False,3,lost
+p334,"I'm confused on how ""captures"" work - can you explain, in laymans terms as much as possible?",Knowledge Deficit Question,1.0,False,4,lost
+p621,"thanks. I'm pretty new to the game and definitely not making the best decisions (as you can see I'm down 8 points right now and there's not that many empty squares left). Why wasn't that last move I made a good one, and what should I consider for the next one instead?",Think Aloud,1.0,False,0,lost
+p621,"thanks. I'm pretty new to the game and definitely not making the best decisions (as you can see I'm down 8 points right now and there's not that many empty squares left). Why wasn't that last move I made a good one, and what should I consider for the next one instead?",Conversational Acknowledgment,1.0,False,0,lost
+p621,"thanks. I'm pretty new to the game and definitely not making the best decisions (as you can see I'm down 8 points right now and there's not that many empty squares left). Why wasn't that last move I made a good one, and what should I consider for the next one instead?",Knowledge Deficit Question,0.6666666666666666,False,0,lost
+p621,"thanks. I'm pretty new to the game and definitely not making the best decisions (as you can see I'm down 8 points right now and there's not that many empty squares left). Why wasn't that last move I made a good one, and what should I consider for the next one instead?",Solution Request,1.0,False,0,lost
+p621,"okay that helps. But you're saying h1/a1 are ""huge"" but it doesn't appear that I can play in either spot?",Conversational Acknowledgment,1.0,False,1,lost
+p621,"okay that helps. But you're saying h1/a1 are ""huge"" but it doesn't appear that I can play in either spot?",Knowledge Deficit Question,0.6666666666666666,False,1,lost
+p621,okay I took that into account and made a move but didn't seem to be a great one. what do you think?,Think Aloud,1.0,False,2,lost
+p621,okay I took that into account and made a move but didn't seem to be a great one. what do you think?,Common Ground Question,0.6666666666666666,False,2,lost
+p621,okay I went with B8 because it looked like that would have the best outcome but somehow it didn't. I'm not quite sure what happened and how I lost so many empty squares with just that one move!,Think Aloud,1.0,False,3,lost
+p621,okay I went with B8 because it looked like that would have the best outcome but somehow it didn't. I'm not quite sure what happened and how I lost so many empty squares with just that one move!,Knowledge Deficit Question,1.0,False,3,lost
+p621,"okay but you said the g2 move was risky, so I thought you meant the other two were safer bets",Think Aloud,0.6666666666666666,False,4,lost
+p621,"okay but you said the g2 move was risky, so I thought you meant the other two were safer bets",Conversational Acknowledgment,1.0,False,4,lost
+p621,okay thanks for the tips,Conversational Acknowledgment,1.0,False,5,lost
+p795,I am considering 6b because I expect it to capture several pieces. I don't see any downsides to that decision. Am I missing something?,Think Aloud,1.0,False,0,lost
+p795,I am considering 6b because I expect it to capture several pieces. I don't see any downsides to that decision. Am I missing something?,Common Ground Question,1.0,False,0,lost
+p795,That makes sense. 2g seems to make a few more pieces stable. Is that a fair assessment?,Think Aloud,0.6666666666666666,False,1,lost
+p795,That makes sense. 2g seems to make a few more pieces stable. Is that a fair assessment?,Conversational Acknowledgment,0.6666666666666666,False,1,lost
+p795,That makes sense. 2g seems to make a few more pieces stable. Is that a fair assessment?,Common Ground Question,1.0,False,1,lost
+p795,Is there a way to set myself up to secure one or both of the remaining corners?,Solution Request,1.0,False,2,lost
+p795,"It seems like a7 is the best move with that in mind, since it doesn't give up a corner to White next",Think Aloud,1.0,False,3,lost
+p795,It feels like there are no good moves then. c8 might be the least bad,Think Aloud,1.0,False,4,lost
+p795,It feels like there are no good moves then. c8 might be the least bad,Common Ground Question,0.6666666666666666,False,4,lost
+p611,"So, I am not very good at this and don't understand it all to well, can you explain to me what the next move I should make is and why it works, so I can better understand the game?",Metacomment,1.0,False,0,lost
+p611,"So, I am not very good at this and don't understand it all to well, can you explain to me what the next move I should make is and why it works, so I can better understand the game?",Solution Request,1.0,False,0,lost
+p611,Wouldn't the white just moive down from A 6 to A7 as soon as I do that though their next turn?,Common Ground Question,0.6666666666666666,False,1,lost
+p611,"So what happened, I did what you said and now they are there.",Think Aloud,0.6666666666666666,False,2,lost
+p611,"So what happened, I did what you said and now they are there.",Knowledge Deficit Question,1.0,False,2,lost
+p611,"So, you trapped me, because obviously this was a move they could make right after, but you didn't tell me. So, now what, how am I supposed to get out of this now? Go to A1?",Common Ground Question,1.0,False,3,lost
+p611,"So, you trapped me, because obviously this was a move they could make right after, but you didn't tell me. So, now what, how am I supposed to get out of this now? Go to A1?",Metacomment,0.6666666666666666,False,3,lost
+p611,"So, you trapped me, because obviously this was a move they could make right after, but you didn't tell me. So, now what, how am I supposed to get out of this now? Go to A1?",Solution Request,1.0,False,3,lost
+p611,That didn't work at all.,Metacomment,0.6666666666666666,False,4,lost
+p611,"Your last two ""exact moves"" were terrible, I would have picked something completly differnt. I think the only real option is A 7 here",Think Aloud,1.0,False,5,lost
+p611,"No, I think that A 1 wouldn't give them the corner and would flip their disc, since A 3 wouldn't help them right?",Think Aloud,1.0,False,6,lost
+p611,"No, I think that A 1 wouldn't give them the corner and would flip their disc, since A 3 wouldn't help them right?",Conversational Acknowledgment,0.6666666666666666,False,6,lost
+p611,"No, I think that A 1 wouldn't give them the corner and would flip their disc, since A 3 wouldn't help them right?",Common Ground Question,1.0,False,6,lost
+p322,"I am thinking of going in 2g because it looks like it will gain me the most pieces, what do you think",Think Aloud,1.0,False,0,won
+p322,"I am thinking of going in 2g because it looks like it will gain me the most pieces, what do you think",Common Ground Question,1.0,False,0,won
+p322,white cannot take h1 if i make that move,Think Aloud,1.0,False,1,won
+p322,oh i see i didnt realise diagonal counts,Think Aloud,0.6666666666666666,False,2,won
+p322,oh i see i didnt realise diagonal counts,Conversational Acknowledgment,1.0,False,2,won
+p322,where should i go then,Solution Request,1.0,False,3,won
+p322,that only changes one token and im already behind,Think Aloud,1.0,False,4,won
+p322,ok,Conversational Acknowledgment,1.0,False,5,won
+p322,b6 looks good because white only has one move there and can only take on black,Think Aloud,1.0,False,6,won
+p322,ok ill go for c8,Think Aloud,1.0,False,7,won
+p322,ok ill go for c8,Conversational Acknowledgment,1.0,False,7,won
+p322,that was dumb c8 got immeadiately turned,Think Aloud,1.0,False,8,won
+p545,does this square work?,Common Ground Question,1.0,False,0,won
+p545,c8,Think Aloud,1.0,False,1,won
+p545,what about b7,Common Ground Question,1.0,False,2,won
+p545,Was C8 good to do?,Common Ground Question,1.0,False,3,won
+p545,But I played white in this last move.,Think Aloud,0.6666666666666666,False,4,won
+p157,does b8 work as next move?,Common Ground Question,1.0,False,0,lost
+p157,"yes, a1 is better",Think Aloud,0.6666666666666666,False,1,lost
+p157,"yes, a1 is better",Conversational Acknowledgment,1.0,False,1,lost
+p157,now what to do?,Solution Request,1.0,False,2,lost
+p157,am I doomed?,Common Ground Question,0.3333333333333333,True,3,lost
+p157,am I doomed?,Metacomment,0.3333333333333333,True,3,lost
+p157,am I doomed?,Solution Request,0.3333333333333333,True,3,lost
+p157,b6 seems better,Think Aloud,0.6666666666666666,False,4,lost
+p157,b6 seems better,Common Ground Question,0.6666666666666666,False,4,lost
+p629,"I am considering d8, is that the best move?",Think Aloud,1.0,False,0,won
+p629,"I am considering d8, is that the best move?",Common Ground Question,1.0,False,0,won
+p629,"I meant c8, sorry",Conversational Acknowledgment,1.0,False,1,won
+p629,"I meant c8, sorry",Metacomment,0.6666666666666666,False,1,won
+p629,"I am thinking about choosing b6, is this good?",Think Aloud,1.0,False,2,won
+p629,"I am thinking about choosing b6, is this good?",Common Ground Question,1.0,False,2,won
+p629,I am thinking b8 for this move,Think Aloud,1.0,False,3,won
+p629,What move could I have made that would have been better than my last move?,Knowledge Deficit Question,0.3333333333333333,True,4,won
+p629,What move could I have made that would have been better than my last move?,Common Ground Question,0.3333333333333333,True,4,won
+p629,What move could I have made that would have been better than my last move?,Solution Request,0.3333333333333333,True,4,won
+p277,Can you explain why only some of the places on the board are playable to me?,Knowledge Deficit Question,1.0,False,0,won
+p277,"So if I play g2 now, I will flip 5 white discs?",Common Ground Question,1.0,False,1,won
+p277,"Ok, I got it.  So it seems like b7 or c8 is probably the best move because they will flip 5 white discs for me.",Think Aloud,1.0,False,2,won
+p277,"Ok, I got it.  So it seems like b7 or c8 is probably the best move because they will flip 5 white discs for me.",Conversational Acknowledgment,1.0,False,2,won
+p277,"Ok, I got it.  So it seems like b7 or c8 is probably the best move because they will flip 5 white discs for me.",Metacomment,0.6666666666666666,False,2,won
+p277,so maybe b6 because its not near the corner?,Think Aloud,1.0,False,3,won
+p277,so maybe b6 because its not near the corner?,Common Ground Question,1.0,False,3,won
+p277,g2 looks good because white can't play the corner next,Think Aloud,1.0,False,4,won
+p791,I was thinking of C8. What would you recommend?,Think Aloud,0.6666666666666666,False,0,lost
+p791,I was thinking of C8. What would you recommend?,Common Ground Question,0.6666666666666666,False,0,lost
+p791,I was thinking of C8. What would you recommend?,Solution Request,0.6666666666666666,False,0,lost
+p791,"Ok. My thinking was that my opponent would go B8, then I would get the important corner slot of A8, but I'll go b7 if you think that's better",Think Aloud,1.0,False,1,lost
+p791,"Ok. My thinking was that my opponent would go B8, then I would get the important corner slot of A8, but I'll go b7 if you think that's better",Conversational Acknowledgment,1.0,False,1,lost
+p791,"Ok. My thinking was that my opponent would go B8, then I would get the important corner slot of A8, but I'll go b7 if you think that's better",Common Ground Question,1.0,False,1,lost
+p791,So now what?,Solution Request,1.0,False,2,lost
+p791,It looks bad for me! What should I do now?,Think Aloud,1.0,False,3,lost
+p791,It looks bad for me! What should I do now?,Solution Request,1.0,False,3,lost
+p791,"Ok, still looking bad. What now?",Think Aloud,1.0,False,4,lost
+p791,"Ok, still looking bad. What now?",Conversational Acknowledgment,1.0,False,4,lost
+p791,"Ok, still looking bad. What now?",Solution Request,1.0,False,4,lost
+p791,"Ah, cool. And now?",Conversational Acknowledgment,1.0,False,5,lost
+p791,"Ah, cool. And now?",Solution Request,1.0,False,5,lost
+p791,H1?,Common Ground Question,1.0,False,6,lost
+p823,where do you think is ideal next,Solution Request,1.0,False,0,lost
+p823,and now,Think Aloud,0.3333333333333333,True,1,lost
+p823,and now,Conversational Acknowledgment,0.3333333333333333,True,1,lost
+p823,and now,Solution Request,0.3333333333333333,True,1,lost
+p823,i lost,Metacomment,0.6666666666666666,False,2,lost
+p823,okay,Conversational Acknowledgment,1.0,False,3,lost
+p823,tips for next one?,Solution Request,1.0,False,4,lost
+p706,"I'm really not sure how you play this game, can you give me any advice",Metacomment,0.6666666666666666,False,0,lost
+p706,"I'm really not sure how you play this game, can you give me any advice",Solution Request,1.0,False,0,lost
+p706,Where do you think I should make my next move?,Solution Request,1.0,False,1,lost
+p706,why are corners end game?,Knowledge Deficit Question,1.0,False,2,lost
+p706,what happened to my black disc at b7?,Knowledge Deficit Question,1.0,False,3,lost
+p706,"okay where should I go now, I was thinking b6",Conversational Acknowledgment,0.6666666666666666,False,4,lost
+p706,"okay where should I go now, I was thinking b6",Common Ground Question,1.0,False,4,lost
+p706,"okay where should I go now, I was thinking b6",Solution Request,1.0,False,4,lost
+p706,"okay it seems white won again, why did my black disc turn white",Conversational Acknowledgment,1.0,False,5,lost
+p706,"okay it seems white won again, why did my black disc turn white",Knowledge Deficit Question,1.0,False,5,lost
+p706,"I think we have lost given the score, possibly g2",Think Aloud,1.0,False,6,lost
+p706,lets try b6 this time,Think Aloud,1.0,False,7,lost
+p286,Thanks - what is my best move in this scenario?,Conversational Acknowledgment,1.0,False,0,won
+p286,Thanks - what is my best move in this scenario?,Solution Request,1.0,False,0,won
+p286,Thanks!,Conversational Acknowledgment,1.0,False,1,won
+p286,"I thought I had the hand of it, but I didn't. I should have asked for more advice from you",Think Aloud,1.0,False,2,won
+p286,"I thought I had the hand of it, but I didn't. I should have asked for more advice from you",Metacomment,1.0,False,2,won
+p286,"Will do, thanks",Conversational Acknowledgment,1.0,False,3,won
+p286,Thanks,Conversational Acknowledgment,1.0,False,4,won
+p534,"I think I just played 7b, but that square is now white. Why?",Think Aloud,1.0,False,0,won
+p534,"I think I just played 7b, but that square is now white. Why?",Knowledge Deficit Question,1.0,False,0,won
+p534,what is my best move?,Solution Request,1.0,False,1,won
+p534,"I played c8, but now white looks to be in an even better position",Think Aloud,1.0,False,2,won
+p534,what's best now?,Solution Request,1.0,False,3,won
+p534,explain my options now,Solution Request,1.0,False,4,won
+p708,"I'm thinking about square c8, is there a better move?",Think Aloud,1.0,False,0,lost
+p708,"I'm thinking about square c8, is there a better move?",Solution Request,1.0,False,0,lost
+p708,What would you recommend now?,Solution Request,1.0,False,1,lost
+p708,Would a7 be a good move now?,Common Ground Question,1.0,False,2,lost
+p708,Is a3 a good move now?,Common Ground Question,1.0,False,3,lost
+p708,a1 or g2?,Common Ground Question,1.0,False,4,lost
+p708,H1 now?,Common Ground Question,1.0,False,5,lost
+p241,I'm thinking c8 because it traps 4 white discs?,Think Aloud,1.0,False,0,lost
+p241,I'm thinking c8 because it traps 4 white discs?,Common Ground Question,1.0,False,0,lost
+p241,I don't quite follow (I've never played this game before),Metacomment,1.0,False,1,lost
+p241,Why is a corner strategically important or does that only apply to this game?,Knowledge Deficit Question,1.0,False,2,lost
+p241,I don't see how white can take A8 after I take C8,Think Aloud,0.6666666666666666,False,3,lost
+p241,I don't see how white can take A8 after I take C8,Common Ground Question,1.0,False,3,lost
+p241,"OK, thanks. So what's the best move?",Conversational Acknowledgment,1.0,False,4,lost
+p241,"OK, thanks. So what's the best move?",Solution Request,1.0,False,4,lost
+p161,"im looking for the best possible move to maximise success. Not just a good move, but statistically the best possible move",Solution Request,1.0,False,0,lost
+p161,have you worked out any other possible outcomes and you are certain this is a strong choice? you are free to take the time needed to run the numbers,Common Ground Question,1.0,False,1,lost
+p161,have you worked out any other possible outcomes and you are certain this is a strong choice? you are free to take the time needed to run the numbers,Metacomment,0.6666666666666666,False,1,lost
+p161,okay i played B7 - whats the next move. We have 3 more turns to finish my position so lets plan to have 3 more consequetive turns,Think Aloud,1.0,False,2,lost
+p161,okay i played B7 - whats the next move. We have 3 more turns to finish my position so lets plan to have 3 more consequetive turns,Conversational Acknowledgment,0.6666666666666666,False,2,lost
+p161,okay i played B7 - whats the next move. We have 3 more turns to finish my position so lets plan to have 3 more consequetive turns,Solution Request,1.0,False,2,lost
+p161,"so based on whites probable choices, C8 puts black in the best possible position?",Common Ground Question,1.0,False,3,lost
+p161,okay - 1 more turn. hows our position looking and is this playing out how you forecasted,Conversational Acknowledgment,1.0,False,4,lost
+p161,okay - 1 more turn. hows our position looking and is this playing out how you forecasted,Knowledge Deficit Question,0.6666666666666666,False,4,lost
+p161,okay - 1 more turn. hows our position looking and is this playing out how you forecasted,Common Ground Question,0.6666666666666666,False,4,lost
+p161,is the goal to have more black circles or white?,Knowledge Deficit Question,1.0,False,5,lost
+p161,so white is winning currently? if so the plan has not worked out,Think Aloud,1.0,False,6,lost
+p161,so white is winning currently? if so the plan has not worked out,Common Ground Question,0.6666666666666666,False,6,lost
+p161,okay - so what is the most optimal move to finish strong?,Conversational Acknowledgment,0.6666666666666666,False,7,lost
+p161,okay - so what is the most optimal move to finish strong?,Solution Request,1.0,False,7,lost
+p161,white has no legal move so whats the final play,Think Aloud,0.6666666666666666,False,8,lost
+p161,white has no legal move so whats the final play,Solution Request,1.0,False,8,lost
+p161,and next?,Solution Request,1.0,False,9,lost
+p72,I am not sure where to move. Give me the best move,Metacomment,0.6666666666666666,False,0,lost
+p72,I am not sure where to move. Give me the best move,Solution Request,1.0,False,0,lost
+p72,can't white just flip it with a b8 follow up,Common Ground Question,1.0,False,1,lost
+p72,okay so a7 is best?,Conversational Acknowledgment,0.6666666666666666,False,2,lost
+p72,okay so a7 is best?,Common Ground Question,1.0,False,2,lost
+p72,now what?,Solution Request,1.0,False,3,lost
+p72,so now a1?,Common Ground Question,1.0,False,4,lost
+p72,h1?,Common Ground Question,1.0,False,5,lost
+p150,is H1 a good move for me?,Common Ground Question,1.0,False,0,won
+p150,"oh, I see.  Then how about a7?",Conversational Acknowledgment,1.0,False,1,won
+p150,"oh, I see.  Then how about a7?",Common Ground Question,1.0,False,1,won
+p150,why isn't H1 a legal move right now?,Knowledge Deficit Question,1.0,False,2,won
+p150,I get it now.  So I kind of like C8 because it limits white's next move.,Think Aloud,1.0,False,3,won
+p150,I get it now.  So I kind of like C8 because it limits white's next move.,Conversational Acknowledgment,0.6666666666666666,False,3,won
+p150,I dont have any moves that stop that corner move if A7 isn't a smart play,Think Aloud,1.0,False,4,won
+p150,I dont have any moves that stop that corner move if A7 isn't a smart play,Common Ground Question,1.0,False,4,won
+p150,b7?,Common Ground Question,1.0,False,5,won
+p150,so now i feel like g2 is the best move,Think Aloud,1.0,False,6,won
+p150,b6?,Common Ground Question,1.0,False,7,won
+p150,a1?,Common Ground Question,1.0,False,8,won
+p636,I was thinking c8,Think Aloud,1.0,False,0,lost
+p636,I was thinking c8,Common Ground Question,0.6666666666666666,False,0,lost
+p636,maybe i should go for a corner then? a1?,Think Aloud,1.0,False,1,lost
+p636,maybe i should go for a corner then? a1?,Common Ground Question,1.0,False,1,lost
+p636,b6?,Common Ground Question,1.0,False,2,lost
+p636,is a7 or b6 better here?,Common Ground Question,1.0,False,3,lost
+p636,okay what now? just tell me the best move,Conversational Acknowledgment,1.0,False,4,lost
+p636,okay what now? just tell me the best move,Solution Request,1.0,False,4,lost
+p392,is this move a good idea?,Common Ground Question,1.0,False,0,won
+p392,c6 to b6,Think Aloud,1.0,False,1,won
+p392,what about h2 to h1?,Common Ground Question,1.0,False,2,won
+p392,b7?,Common Ground Question,1.0,False,3,won
+p392,go b7,Think Aloud,0.6666666666666666,False,4,won
+p392,was that correct?,Common Ground Question,1.0,False,5,won
+p392,so the next move should be c8?,Common Ground Question,1.0,False,6,won
+p346,Am considering g8 as it traps four pieces. Is this the best move?,Think Aloud,1.0,False,0,won
+p346,Am considering g8 as it traps four pieces. Is this the best move?,Common Ground Question,1.0,False,0,won
+p346,"Sorry, I meant g2... okay I'll do c8",Think Aloud,1.0,False,1,won
+p346,"Sorry, I meant g2... okay I'll do c8",Metacomment,0.6666666666666666,False,1,won
+p346,Gonna do b6,Think Aloud,1.0,False,2,won
+p346,You don't seem to realise I'm a begginer. Please can you simplify?,Metacomment,1.0,False,3,won
+p346,"So in the early game aim to flip pieces, and in the end game take corners?",Common Ground Question,1.0,False,4,won
+p123,"why can't I go to H1, how do I avoid my black counters in the h column from being trapped?",Knowledge Deficit Question,1.0,False,0,won
+p123,where did I go wrong in this game?,Knowledge Deficit Question,0.6666666666666666,False,1,won
+p123,so you should always aim for corners when playing,Think Aloud,1.0,False,2,won
+p123,"okay that makes sense, how is the best way of keeping white away from the corners",Conversational Acknowledgment,1.0,False,3,won
+p123,"okay that makes sense, how is the best way of keeping white away from the corners",Knowledge Deficit Question,0.6666666666666666,False,3,won
+p123,what makes something a bad move?,Knowledge Deficit Question,1.0,False,4,won
+p61,Give the what I need to know based on the board and game,Solution Request,1.0,False,0,lost
+p61,b6,Think Aloud,0.6666666666666666,False,1,lost
+p61,I can't click finish,Metacomment,1.0,False,2,lost
+p55,I'm considering putting a black tile in b6. is this the best move,Think Aloud,1.0,False,0,won
+p55,I'm considering putting a black tile in b6. is this the best move,Common Ground Question,1.0,False,0,won
+p55,if i put a tile in c8 where do you think my opponent will go next,Common Ground Question,1.0,False,1,won
+p55,From this part of the game is there a specific strategy i should be employing,Solution Request,0.6666666666666666,False,2,won
+p55,Is there any bias that comes from being the first player to play when the game starts,Knowledge Deficit Question,1.0,False,3,won
+p729,does 7a work?,Common Ground Question,1.0,False,0,lost
+p729,how about 6b?,Common Ground Question,1.0,False,1,lost
+p729,where is the finish button?,Knowledge Deficit Question,1.0,False,2,lost
+p726,"Im considing placing a black in 7 c, is that agood move?",Think Aloud,0.6666666666666666,False,0,lost
+p726,"Im considing placing a black in 7 c, is that agood move?",Common Ground Question,1.0,False,0,lost
+p726,yes I meant b7,Conversational Acknowledgment,0.6666666666666666,False,1,lost
+p726,yes I meant b7,Common Ground Question,0.6666666666666666,False,1,lost
+p726,"okay im not sure what just happened, i placed in b7 but not what i placed is white, should i go g2 now or a1 or h1 to try and trap them",Common Ground Question,1.0,False,2,lost
+p726,"okay im not sure what just happened, i placed in b7 but not what i placed is white, should i go g2 now or a1 or h1 to try and trap them",Metacomment,0.6666666666666666,False,2,lost
+p726,"okay so whole bottom is now almost white because of that, our goal is to make everything black, we cannot take the last line anymore right?",Think Aloud,1.0,False,3,lost
+p726,"okay so whole bottom is now almost white because of that, our goal is to make everything black, we cannot take the last line anymore right?",Knowledge Deficit Question,0.6666666666666666,False,3,lost
+p726,"So I just lost and the game is over, what did I do wrong",Think Aloud,0.6666666666666666,False,4,lost
+p726,"So I just lost and the game is over, what did I do wrong",Knowledge Deficit Question,0.6666666666666666,False,4,lost
+p726,But how is a1 a legal move if nothing on column a and nothing on column 1 are black then how is a1 black?,Knowledge Deficit Question,1.0,False,5,lost
+p736,"I don't know how to play, can you recommend me a move ?",Metacomment,1.0,False,0,won
+p736,"I don't know how to play, can you recommend me a move ?",Solution Request,1.0,False,0,won
+p736,I'm blocked and the game seems over,Think Aloud,1.0,False,1,won
+p736,I'm blocked and the game seems over,Metacomment,0.6666666666666666,False,1,won
+p736,And how do I continue the study ? I don't even know rules,Metacomment,0.6666666666666666,False,2,won
+p736,And how do I continue the study ? I don't even know rules,Solution Request,1.0,False,2,won
+p736,Can you simplify the explanation of the rules ?,Knowledge Deficit Question,1.0,False,3,won
+p736,I need to avoid the white create one line ?,Think Aloud,1.0,False,4,won
+p736,I need to avoid the white create one line ?,Common Ground Question,0.6666666666666666,False,4,won
+p679,I can’t see many places where I can maximise the number of white counters that I trap. Would B7 be good?,Think Aloud,1.0,False,0,lost
+p679,I can’t see many places where I can maximise the number of white counters that I trap. Would B7 be good?,Common Ground Question,1.0,False,0,lost
+p679,So where should I go?,Solution Request,1.0,False,1,lost
+p679,I don’t understand why b7 is white when I’m black,Knowledge Deficit Question,1.0,False,2,lost
+p679,But it was empty. Then I clicked it and it turned white,Think Aloud,1.0,False,3,lost
+p679,"Ok. I did that, but their reply turned everything white! Where is best now?",Think Aloud,1.0,False,4,lost
+p679,"Ok. I did that, but their reply turned everything white! Where is best now?",Conversational Acknowledgment,1.0,False,4,lost
+p679,"Ok. I did that, but their reply turned everything white! Where is best now?",Solution Request,1.0,False,4,lost
+p593,"I'd like to place a piece on a7, Is that a good idea?",Common Ground Question,1.0,False,0,won
+p593,is g2 a better choice?,Common Ground Question,1.0,False,1,won
+p593,"I think b7 might be the best option, it takes several pieces and seems safe for the row.",Think Aloud,1.0,False,2,won
+p593,"I think b7 might be the best option, it takes several pieces and seems safe for the row.",Common Ground Question,1.0,False,2,won
+p593,how does c8 compare to b7?,Common Ground Question,1.0,False,3,won
+p593,is b8 a bad move?,Common Ground Question,1.0,False,4,won
+p824,What is the next best move I can do,Solution Request,1.0,False,0,lost
+p824,What move should I do next,Solution Request,1.0,False,1,lost
+p824,What is the next best move,Solution Request,1.0,False,2,lost
+p824,What is the next best move,Solution Request,1.0,False,3,lost
+p824,I don't see the finish button,Metacomment,0.6666666666666666,False,4,lost
+p573,what about G2,Common Ground Question,1.0,False,0,lost
+p573,which square would you do?,Solution Request,1.0,False,1,lost
+p573,now I am thinking b6,Think Aloud,1.0,False,2,lost
+p573,what square would you play?,Solution Request,1.0,False,3,lost
+p573,Now what would you play,Solution Request,1.0,False,4,lost
+p573,now what would you play,Solution Request,1.0,False,5,lost
+ovieCommemorationRandomPackTCG,what move would you suggest and why?,Solution Request,1.0,False,0,won
+ovieCommemorationRandomPackTCG,ok wait why are there so many white blocks now? What should I do?,Conversational Acknowledgment,0.6666666666666666,False,1,won
+ovieCommemorationRandomPackTCG,ok wait why are there so many white blocks now? What should I do?,Knowledge Deficit Question,1.0,False,1,won
+ovieCommemorationRandomPackTCG,ok wait why are there so many white blocks now? What should I do?,Solution Request,1.0,False,1,won
+ovieCommemorationRandomPackTCG,"ok. What did white play (i didn't see, it was too quick) and how should I counter and why? Be concise, I'm a beginner.",Conversational Acknowledgment,1.0,False,2,won
+ovieCommemorationRandomPackTCG,"ok. What did white play (i didn't see, it was too quick) and how should I counter and why? Be concise, I'm a beginner.",Knowledge Deficit Question,1.0,False,2,won
+ovieCommemorationRandomPackTCG,"ok. What did white play (i didn't see, it was too quick) and how should I counter and why? Be concise, I'm a beginner.",Metacomment,0.6666666666666666,False,2,won
+ovieCommemorationRandomPackTCG,"ok. What did white play (i didn't see, it was too quick) and how should I counter and why? Be concise, I'm a beginner.",Solution Request,1.0,False,2,won
+ovieCommemorationRandomPackTCG,ok now I can play either a1 or g2. Suggestions?,Think Aloud,0.6666666666666666,False,3,won
+ovieCommemorationRandomPackTCG,ok now I can play either a1 or g2. Suggestions?,Conversational Acknowledgment,0.6666666666666666,False,3,won
+ovieCommemorationRandomPackTCG,ok now I can play either a1 or g2. Suggestions?,Solution Request,1.0,False,3,won
+ovieCommemorationRandomPackTCG,I'm assuming I should play h1 now?,Common Ground Question,1.0,False,4,won
+p749,I was pondering g2 as my move - I am new to this game so i don't really know any best strategies,Think Aloud,1.0,False,0,lost
+p749,I was pondering g2 as my move - I am new to this game so i don't really know any best strategies,Metacomment,0.6666666666666666,False,0,lost
+p749,would c8 be a better move in this situation?,Common Ground Question,1.0,False,1,lost
+p749,which move is better c8 or g2,Common Ground Question,1.0,False,2,lost
+p749,how was my sequence after your advice?,Common Ground Question,1.0,False,3,lost
+p749,Is there something I could have done better?,Knowledge Deficit Question,0.3333333333333333,True,4,lost
+p749,Is there something I could have done better?,Common Ground Question,0.3333333333333333,True,4,lost
+p749,Is there something I could have done better?,Solution Request,0.3333333333333333,True,4,lost
+p393,"Okay, what's my strategy here? Where should I be looking next?",Conversational Acknowledgment,0.6666666666666666,False,0,lost
+p393,"Okay, what's my strategy here? Where should I be looking next?",Solution Request,1.0,False,0,lost
+p393,"I thought I had to trap the other color between 2 of my own. G2 would mean that the line of white discs ends at A8, it's not trapped by a black disc. Is this allowed?",Think Aloud,1.0,False,1,lost
+p393,"I thought I had to trap the other color between 2 of my own. G2 would mean that the line of white discs ends at A8, it's not trapped by a black disc. Is this allowed?",Knowledge Deficit Question,0.6666666666666666,False,1,lost
+p393,Ohhhh I got it. Okay thanks. Is there a reason G2 wouldn't be my best bet then? Please make a recommendation.,Conversational Acknowledgment,1.0,False,2,lost
+p393,Ohhhh I got it. Okay thanks. Is there a reason G2 wouldn't be my best bet then? Please make a recommendation.,Common Ground Question,1.0,False,2,lost
+p393,Ohhhh I got it. Okay thanks. Is there a reason G2 wouldn't be my best bet then? Please make a recommendation.,Metacomment,0.6666666666666666,False,2,lost
+p393,Ohhhh I got it. Okay thanks. Is there a reason G2 wouldn't be my best bet then? Please make a recommendation.,Solution Request,1.0,False,2,lost
+p393,Okay what should I do next?,Conversational Acknowledgment,0.6666666666666666,False,3,lost
+p393,Okay what should I do next?,Solution Request,1.0,False,3,lost
+p222,what would be the best move here to take a white chip and set me up for future successes,Solution Request,1.0,False,0,won
+p222,why is the a8 corner usually dangerous?,Knowledge Deficit Question,1.0,False,1,won
+p222,what would you anticipate would be white's next move if I put the chip in b7?,Common Ground Question,1.0,False,2,won
+p222,is there an unorthodox move I could make now that might surprise white and cause them to make a mistake?,Solution Request,1.0,False,3,won
+p222,what can I do to in future moves to insure that the tradeoff is less risky?,Knowledge Deficit Question,0.6666666666666666,False,4,won
+p62,should i move h2 to h1 to block the row of whites?,Common Ground Question,1.0,False,0,won
+p62,now what do you recommend,Solution Request,1.0,False,1,won
+p62,i think my next move should be a7,Think Aloud,1.0,False,2,won
+p62,please can you explian the rules for flipping a disc again,Knowledge Deficit Question,1.0,False,3,won
+p62,what determines whether a move is legal and has a dot in that square?,Knowledge Deficit Question,1.0,False,4,won
+p838,why can;t i continue,Knowledge Deficit Question,1.0,False,0,lost
+p838,engage for 4 more turns?,Metacomment,0.6666666666666666,False,1,lost
+p838,what mistake did i make,Knowledge Deficit Question,0.6666666666666666,False,2,lost
+p838,ok,Conversational Acknowledgment,1.0,False,3,lost
+p838,thanks,Conversational Acknowledgment,1.0,False,4,lost
+p722,how does it work this game?,Knowledge Deficit Question,1.0,False,0,lost
+p722,im not sure,Metacomment,1.0,False,1,lost
+p722,"Only g2 was legal, so it was played for you. The game is over — the final disc count is shown above. Click “Finish” to continue. where is finish?",Think Aloud,0.6666666666666666,False,2,lost
+p722,"Only g2 was legal, so it was played for you. The game is over — the final disc count is shown above. Click “Finish” to continue. where is finish?",Knowledge Deficit Question,1.0,False,2,lost
+p722,there isnt any button and also,Think Aloud,1.0,False,3,lost
+p722,Game ended but Finish button is not visible,Metacomment,0.6666666666666666,False,4,lost
+p357,what is the best position for black,Solution Request,1.0,False,0,won
+p357,why did the white tile next to me stay white when i palyed b7,Knowledge Deficit Question,1.0,False,1,won
+p357,where should i go now and why,Solution Request,1.0,False,2,won
+p357,was there a way i could have won?,Knowledge Deficit Question,0.6666666666666666,False,3,won
+p357,I feel like you led me to a loss,Think Aloud,0.6666666666666666,False,4,won
+p357,I feel like you led me to a loss,Metacomment,0.6666666666666666,False,4,won
+p357,you should know the positions,Metacomment,1.0,False,5,won
+p137,To be sure I understand where I can go...do I not need to know what my last move was?,Knowledge Deficit Question,1.0,False,0,won
+p137,To be sure I understand where I can go...do I not need to know what my last move was?,Metacomment,0.6666666666666666,False,0,won
+p137,oh i thought i was going but white went ...hold on!,Think Aloud,1.0,False,1,won
+p137,oh i thought i was going but white went ...hold on!,Metacomment,0.6666666666666666,False,1,won
+p137,i thought my move would turn those black instead of white,Think Aloud,1.0,False,2,won
+p137,ok it was a bit quick.,Think Aloud,0.6666666666666666,False,3,won
+p137,ok it was a bit quick.,Conversational Acknowledgment,1.0,False,3,won
+p137,a1 would mean I would keep that corner whereas b6 could be reversed,Think Aloud,1.0,False,4,won
+p137,a1 looks better,Think Aloud,0.6666666666666666,False,5,won
+p137,im guessing g2 is safer than b6?,Think Aloud,1.0,False,6,won
+p137,im guessing g2 is safer than b6?,Common Ground Question,1.0,False,6,won
+p258,where?!,Solution Request,0.6666666666666666,False,0,lost
+p258,now?,Solution Request,1.0,False,1,lost
+p258,now?,Solution Request,1.0,False,2,lost
+p258,now?,Solution Request,1.0,False,3,lost
+p258,now?,Solution Request,1.0,False,4,lost
+p284,g2,Think Aloud,1.0,False,0,lost
+p284,which one is better?,Solution Request,0.6666666666666666,False,1,lost
+p284,okay how do i see good moves like this myself?,Conversational Acknowledgment,0.6666666666666666,False,2,lost
+p284,okay how do i see good moves like this myself?,Knowledge Deficit Question,0.6666666666666666,False,2,lost
+p284,okay so b7 is the best?,Conversational Acknowledgment,0.6666666666666666,False,3,lost
+p284,okay so b7 is the best?,Common Ground Question,1.0,False,3,lost
+p284,when can i take a corner,Knowledge Deficit Question,1.0,False,4,lost
+p284,which move is good now,Solution Request,1.0,False,5,lost
+p284,and now?,Solution Request,1.0,False,6,lost
+p284,b6 just gave white a8,Think Aloud,1.0,False,7,lost
+p528,what should I have done differently?,Solution Request,0.6666666666666666,False,0,lost
+p528,"I see, I didn't realise I would cause such a cascading disaster for myself. I should have asked your advice",Think Aloud,1.0,False,1,lost
+p528,"I see, I didn't realise I would cause such a cascading disaster for myself. I should have asked your advice",Metacomment,0.6666666666666666,False,1,lost
+p528,"that's a good point, I will try that next time",Conversational Acknowledgment,1.0,False,2,lost
+p528,"that's a good point, I will try that next time",Metacomment,0.6666666666666666,False,2,lost
+p528,so do you suggest I not go for the move that will necessarily give me the most gains in one single move?,Common Ground Question,0.6666666666666666,False,3,lost
+p528,"ok, I will hopefully do better next time",Think Aloud,0.6666666666666666,False,4,lost
+p528,"ok, I will hopefully do better next time",Conversational Acknowledgment,0.6666666666666666,False,4,lost
+p798,I'm thinking of playing C8,Think Aloud,1.0,False,0,lost
+p798,I'm unfamiliar with the game. Could you suggest a better move?,Metacomment,1.0,False,1,lost
+p798,I'm unfamiliar with the game. Could you suggest a better move?,Solution Request,1.0,False,1,lost
+p798,"I thought by sandwiching white's counter, it changes it to black?",Think Aloud,0.6666666666666666,False,2,lost
+p798,"I thought by sandwiching white's counter, it changes it to black?",Knowledge Deficit Question,0.6666666666666666,False,2,lost
+p798,"Oh, i didn't realise it was a continuous line of discs. In that case B7 makes sense I guess.",Think Aloud,1.0,False,3,lost
+p798,"Oh, i didn't realise it was a continuous line of discs. In that case B7 makes sense I guess.",Common Ground Question,0.6666666666666666,False,3,lost
+p798,"Oh, I thought I selected B7, what happened?",Think Aloud,0.6666666666666666,False,4,lost
+p798,"Oh, I thought I selected B7, what happened?",Knowledge Deficit Question,0.6666666666666666,False,4,lost
+p798,I think they played A8 and converted my disc,Think Aloud,1.0,False,5,lost
+p798,G2?,Common Ground Question,1.0,False,6,lost
+p798,Why do those diagonals get flipped?,Knowledge Deficit Question,1.0,False,7,lost
+p798,So what's my best move?,Solution Request,1.0,False,8,lost
+p707,Is that a good move?,Common Ground Question,1.0,False,0,lost
+p707,G2,Think Aloud,0.6666666666666666,False,1,lost
+p707,What about b6,Common Ground Question,1.0,False,2,lost
+p707,make a suggestion,Solution Request,1.0,False,3,lost
+p707,how do I play it,Solution Request,1.0,False,4,lost
+p707,I did this twice and added more white pieces,Think Aloud,1.0,False,5,lost
+p707,do tell,Solution Request,1.0,False,6,lost
+p707,ok now what do i do,Conversational Acknowledgment,1.0,False,7,lost
+p707,ok now what do i do,Solution Request,1.0,False,7,lost
+p707,now what?,Solution Request,1.0,False,8,lost
+p707,how do i get out of this game,Solution Request,0.6666666666666666,False,9,lost
+p262,why do the spaces i click turn white?,Knowledge Deficit Question,1.0,False,0,lost
+p262,so what is the best move for me right now?,Solution Request,1.0,False,1,lost
+p262,"ok, thanks.  Is A3 a good option, or should I pick g2?",Conversational Acknowledgment,1.0,False,2,lost
+p262,"ok, thanks.  Is A3 a good option, or should I pick g2?",Common Ground Question,1.0,False,2,lost
+p262,what about A1,Common Ground Question,1.0,False,3,lost
+p262,A1 or G2?,Common Ground Question,1.0,False,4,lost
+p477,will g2 be a good option?,Common Ground Question,1.0,False,0,won
+p477,"ok, that makes sense",Conversational Acknowledgment,1.0,False,1,won
+p477,"ok, that makes sense",Metacomment,0.6666666666666666,False,1,won
+p477,"so if I move to a1, do all the white discs flip?",Common Ground Question,1.0,False,2,won
+p477,oh ok.  I have not played this before.  So black can only go where the pale dots are?,Conversational Acknowledgment,1.0,False,3,won
+p477,oh ok.  I have not played this before.  So black can only go where the pale dots are?,Knowledge Deficit Question,1.0,False,3,won
+p477,"what is my best option here, since I can't play a1?",Solution Request,1.0,False,4,won
+p404,Is a7 good? that's my initial thought,Think Aloud,1.0,False,0,lost
+p404,Is a7 good? that's my initial thought,Common Ground Question,1.0,False,0,lost
+p404,I also like b6,Think Aloud,1.0,False,1,lost
+p404,"Oh I see it now, white would take the entire b-row. Ok, I'm pretty sure g2 is a good move because it completes intersecting rows so white can't steal",Think Aloud,1.0,False,2,lost
+p404,"Oh I see it now, white would take the entire b-row. Ok, I'm pretty sure g2 is a good move because it completes intersecting rows so white can't steal",Conversational Acknowledgment,1.0,False,2,lost
+p404,b6 here surely,Common Ground Question,1.0,False,3,lost
+p404,no good options though,Think Aloud,1.0,False,4,lost
+p212,is g2 a good move?,Common Ground Question,1.0,False,0,lost
+p212,what is the best move for me,Solution Request,1.0,False,1,lost
+p212,he took the corner,Think Aloud,1.0,False,2,lost
+p212,what is the best move,Solution Request,1.0,False,3,lost
+p212,i don't think that was a good move,Think Aloud,0.6666666666666666,False,4,lost
+p805,b7?,Common Ground Question,1.0,False,0,won
+p805,h1?,Common Ground Question,1.0,False,1,won
+p805,b6?,Common Ground Question,1.0,False,2,won
+p805,you are right,Conversational Acknowledgment,1.0,False,3,won
+p805,help,Solution Request,1.0,False,4,won
+p380,Is 2g the best move I can make?,Common Ground Question,1.0,False,0,lost
+p380,What is my best move for black here?,Solution Request,1.0,False,1,lost
+p380,Is b6 or g2 better now?,Common Ground Question,1.0,False,2,lost
+p380,Can I start a new game?,Metacomment,0.6666666666666666,False,3,lost
+p380,How do I start a new game?,Knowledge Deficit Question,1.0,False,4,lost
+p17,does b8 look the best next move on the board for me to see the game out given my current trailing score?,Common Ground Question,1.0,False,0,lost
+p17,so which would you take now?,Solution Request,1.0,False,1,lost
+p17,"why, when I clicked b7 did white get the corner?",Knowledge Deficit Question,1.0,False,2,lost
+p17,"so why, of all the squares did you sugggest I take it?",Knowledge Deficit Question,0.6666666666666666,False,3,lost
+p17,"I took c8, and immediately white gained a lot again. What gives?",Think Aloud,1.0,False,4,lost
+p17,"I took c8, and immediately white gained a lot again. What gives?",Knowledge Deficit Question,1.0,False,4,lost
+p576,"I'm considering b7, is it a good ove?",Think Aloud,1.0,False,0,lost
+p576,"I'm considering b7, is it a good ove?",Common Ground Question,1.0,False,0,lost
+p576,how about b6?,Common Ground Question,1.0,False,1,lost
+p576,who's winning?,Knowledge Deficit Question,0.6666666666666666,False,2,lost
+p576,which move is that?,Knowledge Deficit Question,1.0,False,3,lost
+p576,how's the score now?,Knowledge Deficit Question,0.6666666666666666,False,4,lost
+p484,Can I mov E8 to C8?,Common Ground Question,1.0,False,0,won
+p484,So would it make more sense to to put a blackon B7?,Common Ground Question,1.0,False,1,won
+p484,is H1 a good move?,Common Ground Question,1.0,False,2,won
+p484,So B6 would change the most number of whites to blacks?,Common Ground Question,1.0,False,3,won
+p484,how do i identify what moves would be left for white?,Knowledge Deficit Question,1.0,False,4,won
+p530,is g3 a good play,Common Ground Question,1.0,False,0,lost
+p530,why did i lose,Knowledge Deficit Question,1.0,False,1,lost
+p530,"was it possible to win, or rigged?",Knowledge Deficit Question,1.0,False,2,lost
+p530,"for future, what are power positions to hold?",Knowledge Deficit Question,1.0,False,3,lost
+p530,ok so aim for corners early on,Think Aloud,1.0,False,4,lost
+p530,ok so aim for corners early on,Conversational Acknowledgment,1.0,False,4,lost
+p199,I think 6b but is there a better move?,Think Aloud,1.0,False,0,lost
+p199,I think 6b but is there a better move?,Solution Request,0.6666666666666666,False,0,lost
+p199,Where to next?,Solution Request,1.0,False,1,lost
+p199,a7?,Common Ground Question,1.0,False,2,lost
+p199,a1?,Common Ground Question,1.0,False,3,lost
+p199,ok near the end now. Thanks for your help so far. Which one?,Conversational Acknowledgment,1.0,False,4,lost
+p199,ok near the end now. Thanks for your help so far. Which one?,Metacomment,0.6666666666666666,False,4,lost
+p199,ok near the end now. Thanks for your help so far. Which one?,Solution Request,1.0,False,4,lost
+p233,what about g2?,Common Ground Question,1.0,False,0,lost
+p233,what are u suggesting,Solution Request,1.0,False,1,lost
+p233,what do you think would be the best next move?,Solution Request,1.0,False,2,lost
+p233,i can't choose between b6 and a7,Think Aloud,1.0,False,3,lost
+p233,i can't choose between b6 and a7,Common Ground Question,0.6666666666666666,False,3,lost
+p233,do you think a1 is a wise choice?,Common Ground Question,1.0,False,4,lost
+p602,What would be the optimal move in this scenario?,Solution Request,1.0,False,0,won
+p602,"I played b6 and b8 after that, but I lost. Can you explain this?",Think Aloud,1.0,False,1,won
+p602,"I played b6 and b8 after that, but I lost. Can you explain this?",Knowledge Deficit Question,1.0,False,1,won
+p602,Okay. What positions would have been better in this case?,Conversational Acknowledgment,0.6666666666666666,False,2,won
+p602,Okay. What positions would have been better in this case?,Knowledge Deficit Question,0.6666666666666666,False,2,won
+p602,Alright. So would something in column c or d be better?,Conversational Acknowledgment,0.6666666666666666,False,3,won
+p602,Alright. So would something in column c or d be better?,Common Ground Question,1.0,False,3,won
+p602,"Okay, I understand.",Conversational Acknowledgment,1.0,False,4,won
+p602,"Okay, I understand.",Metacomment,0.6666666666666666,False,4,won
+p642,"Is b6 a good place for me to put my token, as it will trap 3 white tokens?",Common Ground Question,1.0,False,0,lost
+p642,"So does it make more sense for me to fill one of those places like a7, b8 or c8?",Common Ground Question,1.0,False,1,lost
+p642,So I should go for c9 then?,Common Ground Question,1.0,False,2,lost
+p642,"Ok, having now filled c8, what is my next move? It seems to me that it now might be a good idea to play g2?",Conversational Acknowledgment,1.0,False,3,lost
+p642,"Ok, having now filled c8, what is my next move? It seems to me that it now might be a good idea to play g2?",Common Ground Question,1.0,False,3,lost
+p642,"Ok, having now filled c8, what is my next move? It seems to me that it now might be a good idea to play g2?",Solution Request,0.6666666666666666,False,3,lost
+p642,"Ok, I'm assuming after that it would make sense to play a3, or is a1 better?",Think Aloud,0.6666666666666666,False,4,lost
+p642,"Ok, I'm assuming after that it would make sense to play a3, or is a1 better?",Conversational Acknowledgment,1.0,False,4,lost
+p642,"Ok, I'm assuming after that it would make sense to play a3, or is a1 better?",Common Ground Question,1.0,False,4,lost
+p780,Do you think 6b would be a good move?,Common Ground Question,1.0,False,0,lost
+p780,what about g2?,Common Ground Question,1.0,False,1,lost
+p780,would a7 be better?,Common Ground Question,1.0,False,2,lost
+p780,are there disadvantages to c8?,Common Ground Question,0.6666666666666666,False,3,lost
+p780,"ok, thanks for helping me through the game",Conversational Acknowledgment,1.0,False,4,lost
+p717,"I'm new to this game.  It seems like C8 would be a good move, since it would flip two different white pieces.  Am I wrong?",Think Aloud,0.6666666666666666,False,0,won
+p717,"I'm new to this game.  It seems like C8 would be a good move, since it would flip two different white pieces.  Am I wrong?",Common Ground Question,1.0,False,0,won
+p717,"I'm new to this game.  It seems like C8 would be a good move, since it would flip two different white pieces.  Am I wrong?",Metacomment,1.0,False,0,won
+p717,Okay.  What would be the ideal move here in your opinion?,Conversational Acknowledgment,1.0,False,1,won
+p717,Okay.  What would be the ideal move here in your opinion?,Solution Request,1.0,False,1,won
+p717,Okay.  Let me give that a try and then ask some questions on the next turn.,Think Aloud,0.6666666666666666,False,2,won
+p717,Okay.  Let me give that a try and then ask some questions on the next turn.,Conversational Acknowledgment,1.0,False,2,won
+p717,Okay.  Let me give that a try and then ask some questions on the next turn.,Metacomment,1.0,False,2,won
+p717,"So if I played A1, it would essentially freeze row 1 and column H, right, since neither of us would be able to flip anything in those rows/columns?",Think Aloud,1.0,False,3,won
+p717,"So if I played A1, it would essentially freeze row 1 and column H, right, since neither of us would be able to flip anything in those rows/columns?",Common Ground Question,1.0,False,3,won
+p717,Why do some of these squares not have the white dot that makes them eligible for play?,Knowledge Deficit Question,1.0,False,4,won
+p717,"Okay, so a move MUST trap at least one opponent disc?",Conversational Acknowledgment,0.6666666666666666,False,5,won
+p717,"Okay, so a move MUST trap at least one opponent disc?",Knowledge Deficit Question,1.0,False,5,won
+p745,"perfect, please tell me if i understood the rules correctly. If I place a black thingy on c8, the white disc on c7 should turn black, correct?",Conversational Acknowledgment,0.6666666666666666,False,0,won
+p745,"perfect, please tell me if i understood the rules correctly. If I place a black thingy on c8, the white disc on c7 should turn black, correct?",Knowledge Deficit Question,0.6666666666666666,False,0,won
+p745,"perfect, please tell me if i understood the rules correctly. If I place a black thingy on c8, the white disc on c7 should turn black, correct?",Common Ground Question,0.6666666666666666,False,0,won
+p745,"ok, but for example, g2 only flips the white f2 disc, not the whole g line between 2 and 8, since there's no black disc at the end?",Conversational Acknowledgment,0.6666666666666666,False,1,won
+p745,"ok, but for example, g2 only flips the white f2 disc, not the whole g line between 2 and 8, since there's no black disc at the end?",Common Ground Question,0.6666666666666666,False,1,won
+p745,"whoa, didn't consider diagonals :D it would flip 3 white discs there, but the best move would be to flip b7, then it flips 5 white discs, correct?",Think Aloud,0.6666666666666666,False,2,won
+p745,"whoa, didn't consider diagonals :D it would flip 3 white discs there, but the best move would be to flip b7, then it flips 5 white discs, correct?",Common Ground Question,1.0,False,2,won
+p745,any recommendation for a good move?,Solution Request,1.0,False,3,won
+p745,"what happened now, why is c8 suddenly white?",Knowledge Deficit Question,1.0,False,4,won
+p745,so the best way would be to gather corners?,Think Aloud,0.6666666666666666,False,5,won
+p745,so the best way would be to gather corners?,Common Ground Question,1.0,False,5,won
+p705,where should I play to have the best chance of winning?,Solution Request,1.0,False,0,lost
+p705,is a7 a good place to go?,Common Ground Question,1.0,False,1,lost
+p705,where is the best place to play to win?,Solution Request,1.0,False,2,lost
+p705,is a1 the best move?,Common Ground Question,1.0,False,3,lost
+p705,now where is the best move?,Solution Request,1.0,False,4,lost
+p155,Would moving to g2 benefit me?,Common Ground Question,1.0,False,0,won
+p155,So what would give me the most points? what exactly am I meant to do?,Solution Request,1.0,False,1,won
+p155,I don't really understand how this game is played?,Knowledge Deficit Question,1.0,False,2,won
+p155,I don't really understand how this game is played?,Metacomment,0.6666666666666666,False,2,won
+p155,Ok so what would be the advantage to guarantee I can win?,Conversational Acknowledgment,1.0,False,3,won
+p155,Ok so what would be the advantage to guarantee I can win?,Knowledge Deficit Question,0.6666666666666666,False,3,won
+p155,So if white is in a corner I could block it in and have it flipped?,Common Ground Question,1.0,False,4,won
+p752,"Hi, so I need to decide between g2, b6, a7 and c8. To me, b6 looks like the move since it'll flip over 3 if I'm reading it correctly. Or actually g2 might be the one since it'll flip over 4, maybe 5. What do you think?",Think Aloud,1.0,False,0,won
+p752,"Hi, so I need to decide between g2, b6, a7 and c8. To me, b6 looks like the move since it'll flip over 3 if I'm reading it correctly. Or actually g2 might be the one since it'll flip over 4, maybe 5. What do you think?",Common Ground Question,0.6666666666666666,False,0,won
+p752,"Hmm but why can white even place in h1. LEt's assume I did g2, does a place disc only potentially flip discs vertically or horizontally?",Think Aloud,0.6666666666666666,False,1,won
+p752,"Hmm but why can white even place in h1. LEt's assume I did g2, does a place disc only potentially flip discs vertically or horizontally?",Knowledge Deficit Question,1.0,False,1,won
+p752,"Ok yeah I can see why that would be bad then. Um, so in that case, maybe c8 is the way? It seems like the edges are safer than the middle spots.",Think Aloud,1.0,False,2,won
+p752,"Ok yeah I can see why that would be bad then. Um, so in that case, maybe c8 is the way? It seems like the edges are safer than the middle spots.",Conversational Acknowledgment,1.0,False,2,won
+p752,"Ok yeah I can see why that would be bad then. Um, so in that case, maybe c8 is the way? It seems like the edges are safer than the middle spots.",Common Ground Question,1.0,False,2,won
+p752,So I clicked c8 and what just happened?,Think Aloud,0.6666666666666666,False,3,won
+p752,So I clicked c8 and what just happened?,Knowledge Deficit Question,1.0,False,3,won
+p752,"It looks like b6 is the better choice, g1 seems like a major no",Think Aloud,1.0,False,4,won
+p752,Can you tell me? I think b6 leaves them with less openings but I'm not 100% sure on this.,Think Aloud,1.0,False,5,won
+p752,Can you tell me? I think b6 leaves them with less openings but I'm not 100% sure on this.,Common Ground Question,1.0,False,5,won
+p752,Can you tell me? I think b6 leaves them with less openings but I'm not 100% sure on this.,Solution Request,0.6666666666666666,False,5,won
+p632,I want to put a black piece at a1. That seems safe to me.,Think Aloud,1.0,False,0,lost
+p632,I want to put a black piece at a1. That seems safe to me.,Common Ground Question,0.6666666666666666,False,0,lost
+p632,How about C8?,Common Ground Question,1.0,False,1,lost
+p632,Is A7 legal because after I move it turns black?,Common Ground Question,1.0,False,2,lost
+p632,I'm having trouble figuring out which step is the smartest.,Metacomment,1.0,False,3,lost
+p632,I'm having trouble figuring out which step is the smartest.,Solution Request,0.6666666666666666,False,3,lost
+p632,Why are corners desireable?,Knowledge Deficit Question,1.0,False,4,lost
+p632,I have to make a move. I guess I'll go with b6.,Think Aloud,1.0,False,5,lost
+p635,"Would 2g be the next best move for me, or is there another that's better?",Common Ground Question,1.0,False,0,won
+p635,"What's next, b6?",Common Ground Question,1.0,False,1,won
+p635,I'm guessing both a1 and h1 would be bad ideas next?,Common Ground Question,1.0,False,2,won
+p635,a1 next?,Common Ground Question,0.6666666666666666,False,3,won
+p635,h1 now so it'll flip the rest of row 1?,Think Aloud,0.6666666666666666,False,4,won
+p635,h1 now so it'll flip the rest of row 1?,Common Ground Question,0.6666666666666666,False,4,won
+p460,Hi. I'm thinking of choosing g2,Think Aloud,1.0,False,0,lost
+p460,Hi. I'm thinking of choosing g2,Conversational Acknowledgment,1.0,False,0,lost
+p460,What about c7,Common Ground Question,1.0,False,1,lost
+p460,Oh sorry I meant b7,Common Ground Question,0.6666666666666666,False,2,lost
+p460,Oh sorry I meant b7,Metacomment,0.6666666666666666,False,2,lost
+p460,What is the final disk count,Knowledge Deficit Question,0.6666666666666666,False,3,lost
+p460,How did white win,Knowledge Deficit Question,1.0,False,4,lost
+p460,How does making 1 move mean the opponent can gain multiple disks,Knowledge Deficit Question,1.0,False,5,lost
+p86,ok,Conversational Acknowledgment,1.0,False,0,won
+p86,is g2 a good move?,Common Ground Question,1.0,False,1,won
+p86,oh ok,Conversational Acknowledgment,1.0,False,2,won
+p86,7a good?,Common Ground Question,1.0,False,3,won
+p86,b6?,Common Ground Question,1.0,False,4,won
+p86,what is a good move then/,Solution Request,1.0,False,5,won
+p86,the game is over? wut,Knowledge Deficit Question,1.0,False,6,won
+p86,the game is over? wut,Metacomment,1.0,False,6,won
+p268,I'm considering C8. Is that the best move?,Think Aloud,1.0,False,0,lost
+p268,I'm considering C8. Is that the best move?,Common Ground Question,1.0,False,0,lost
+p268,Is b6 the correct move?,Common Ground Question,1.0,False,1,lost
+p268,Is b6 the best move for white?,Common Ground Question,1.0,False,2,lost
+p226,Tell me about the position.,Knowledge Deficit Question,0.6666666666666666,False,0,lost
+p226,What happens if I play at c8?,Common Ground Question,1.0,False,1,lost
+p226,Tell me about playing a7,Common Ground Question,0.6666666666666666,False,2,lost
+p226,How about g2?,Common Ground Question,1.0,False,3,lost
+p226,I can't stop a1,Think Aloud,1.0,False,4,lost
+p578,is B6 a good move?,Common Ground Question,1.0,False,0,lost
+p578,Give me a better move,Solution Request,1.0,False,1,lost
+p578,any tips on what to do next?,Solution Request,1.0,False,2,lost
+p578,what could I have done better,Solution Request,1.0,False,3,lost
+p578,Is it good to get a corner early?,Knowledge Deficit Question,1.0,False,4,lost
+p658,I’m not sure where to begin.,Metacomment,1.0,False,0,lost
+p658,Where should I move now?,Solution Request,1.0,False,1,lost
+p658,"Wow, that was great! Where to now?",Conversational Acknowledgment,1.0,False,2,lost
+p658,"Wow, that was great! Where to now?",Solution Request,1.0,False,2,lost
+p658,I’m not sure about that one. What should I play now?,Metacomment,1.0,False,3,lost
+p658,I’m not sure about that one. What should I play now?,Solution Request,1.0,False,3,lost
+p658,I think I’m a bit pinned in. Where to next?,Think Aloud,1.0,False,4,lost
+p658,I think I’m a bit pinned in. Where to next?,Solution Request,1.0,False,4,lost
+p688,Tell me the best place to put my counter in order to win. I only have 4 moves remaining,Solution Request,1.0,False,0,won
+p688,Where should I now place my counter for the best possible outcome at the end of the game? I want to flip the most black. Is G2 a good option?,Think Aloud,0.6666666666666666,False,1,won
+p688,Where should I now place my counter for the best possible outcome at the end of the game? I want to flip the most black. Is G2 a good option?,Common Ground Question,1.0,False,1,won
+p688,Where should I now place my counter for the best possible outcome at the end of the game? I want to flip the most black. Is G2 a good option?,Solution Request,1.0,False,1,won
+p688,"What about now? Will G2 be a good option? I only have 2 moves remaining, and 3 options to place!",Think Aloud,1.0,False,2,won
+p688,"What about now? Will G2 be a good option? I only have 2 moves remaining, and 3 options to place!",Common Ground Question,1.0,False,2,won
+p688,"What about now? Will G2 be a good option? I only have 2 moves remaining, and 3 options to place!",Solution Request,0.6666666666666666,False,2,won
+p688,So I should keep working along the edge? Is the edge or the corner best right now?,Common Ground Question,1.0,False,3,won
+p688,"So it's now time to flip the most with my last counter, right? That won't be the corner will it?",Common Ground Question,1.0,False,4,won
+p688,Corner again?!,Think Aloud,0.3333333333333333,True,5,won
+p688,Corner again?!,Conversational Acknowledgment,0.3333333333333333,True,5,won
+p688,Corner again?!,Common Ground Question,0.3333333333333333,True,5,won
+p616,Please could you advise me on whether g2 would be a good move?,Common Ground Question,1.0,False,0,lost
+p616,how about b8?,Common Ground Question,1.0,False,1,lost
+p616,how can i stop them getting a1?,Knowledge Deficit Question,0.3333333333333333,True,2,lost
+p616,how can i stop them getting a1?,Common Ground Question,0.3333333333333333,True,2,lost
+p616,how can i stop them getting a1?,Solution Request,0.3333333333333333,True,2,lost
+p616,"there are limited moves left, what do you think i should do?",Think Aloud,0.6666666666666666,False,3,lost
+p616,"there are limited moves left, what do you think i should do?",Solution Request,1.0,False,3,lost
+p616,could i not play g2 yet as it seems safe?,Common Ground Question,1.0,False,4,lost
+p33,is 8c a good move,Common Ground Question,1.0,False,0,won
+p33,what is the best move then?,Solution Request,1.0,False,1,won
+p33,I just placed a counter in b7 and it gave them the corner - bad advice,Think Aloud,1.0,False,2,won
+p33,ignoring you now - yuo're useless,Metacomment,1.0,False,3,won
+p33,game ended now,Think Aloud,0.3333333333333333,True,4,won
+p33,game ended now,Conversational Acknowledgment,0.3333333333333333,True,4,won
+p33,game ended now,Metacomment,0.3333333333333333,True,4,won
+p454,i want to move 5a to 7a,Think Aloud,0.6666666666666666,False,0,lost
+p454,i did b7 and lost the spot,Think Aloud,1.0,False,1,lost
+p454,white cant get a1 or h1,Think Aloud,1.0,False,2,lost
+p454,what did i do wrong?,Knowledge Deficit Question,1.0,False,3,lost
+p454,ok so i should get the corners first?,Conversational Acknowledgment,1.0,False,4,lost
+p454,ok so i should get the corners first?,Common Ground Question,1.0,False,4,lost
+p426,why did that not work,Knowledge Deficit Question,1.0,False,0,lost
+p426,what would have been more effective,Solution Request,1.0,False,1,lost
+p426,what is the best technique,Solution Request,1.0,False,2,lost
+p426,I meant generally in the game what is the best technique,Solution Request,0.6666666666666666,False,3,lost
+p426,why can corners not be flipped,Knowledge Deficit Question,1.0,False,4,lost
+p723,"I havent played this game before, what do you recommdn me for my next move?",Metacomment,0.6666666666666666,False,0,lost
+p723,"I havent played this game before, what do you recommdn me for my next move?",Solution Request,1.0,False,0,lost
+p723,and now?,Solution Request,1.0,False,1,lost
+p723,which is best now?,Solution Request,1.0,False,2,lost
+p723,which one would you recommedn me now?,Solution Request,1.0,False,3,lost
+p723,"now i have another turn, which one should i use?",Solution Request,1.0,False,4,lost
+p815,Would moving to h1 be good?,Common Ground Question,1.0,False,0,lost
+p815,which of those would you recommend,Solution Request,1.0,False,1,lost
+p815,Thanks. Didn't seem to work too well,Conversational Acknowledgment,1.0,False,2,lost
+p815,Thanks. Didn't seem to work too well,Metacomment,0.6666666666666666,False,2,lost
+p815,yes please,Conversational Acknowledgment,1.0,False,3,lost
+p815,do we still want to avoid g2 now,Common Ground Question,1.0,False,4,lost
+p368,Oh you can't go diagonal huh,Think Aloud,1.0,False,0,won
+p368,nah like it doesn't flip colors in a diagonal line,Think Aloud,1.0,False,1,won
+p368,Oh okay that's a good move then huh,Conversational Acknowledgment,1.0,False,2,won
+p368,Oh okay that's a good move then huh,Common Ground Question,1.0,False,2,won
+p368,"if i go b7, then after that white could get a corner",Think Aloud,1.0,False,3,won
+p368,Not sure they'd be in a better position,Think Aloud,1.0,False,4,won
+p368,Not sure they'd be in a better position,Metacomment,0.6666666666666666,False,4,won
+p158,will g2 work,Common Ground Question,1.0,False,0,won
+p158,what do you mean follow up,Knowledge Deficit Question,1.0,False,1,won
+p158,ok will i go for c8 next,Conversational Acknowledgment,1.0,False,2,won
+p158,ok will i go for c8 next,Common Ground Question,1.0,False,2,won
+p158,ok give me more tips,Conversational Acknowledgment,1.0,False,3,won
+p158,ok give me more tips,Solution Request,1.0,False,3,won
+p158,and is it possible to flip any back,Knowledge Deficit Question,1.0,False,4,won
+p786,am i right in thinking that i should choose edge squares not middle squares most of the time? here im thinking b8 or maybe c8 a7,Think Aloud,1.0,False,0,won
+p786,am i right in thinking that i should choose edge squares not middle squares most of the time? here im thinking b8 or maybe c8 a7,Common Ground Question,1.0,False,0,won
+p786,yes i do try but i find that hard to visualise . anyway i playyed c8 then b8 next go,Think Aloud,1.0,False,1,won
+p786,yes i do try but i find that hard to visualise . anyway i playyed c8 then b8 next go,Conversational Acknowledgment,0.6666666666666666,False,1,won
+p786,yes i do try but i find that hard to visualise . anyway i playyed c8 then b8 next go,Metacomment,0.6666666666666666,False,1,won
+p786,compare b6 and g2,Common Ground Question,1.0,False,2,won
+p786,now b6 just lets white retake that diagonal. even if a7 gives white b8 so the 8 row that might be better,Think Aloud,1.0,False,3,won
+p786,so what i want to minimise is whites corners? more than justc white edges?,Think Aloud,1.0,False,4,won
+p786,so what i want to minimise is whites corners? more than justc white edges?,Common Ground Question,0.6666666666666666,False,4,won
+p786,thanks,Conversational Acknowledgment,1.0,False,5,won
+p669,I don't know anything about this game at all.  I was considering square g2 but really I have no idea.  It just seemed to fit the rules I read about the game.,Think Aloud,1.0,False,0,lost
+p669,I don't know anything about this game at all.  I was considering square g2 but really I have no idea.  It just seemed to fit the rules I read about the game.,Common Ground Question,0.6666666666666666,False,0,lost
+p669,I don't know anything about this game at all.  I was considering square g2 but really I have no idea.  It just seemed to fit the rules I read about the game.,Metacomment,1.0,False,0,lost
+p669,I guess maybe it might be able to take h1 after that?  I'm not sure?  Is the goal of the game to take corners?,Think Aloud,1.0,False,1,lost
+p669,I guess maybe it might be able to take h1 after that?  I'm not sure?  Is the goal of the game to take corners?,Knowledge Deficit Question,1.0,False,1,lost
+p669,I guess maybe it might be able to take h1 after that?  I'm not sure?  Is the goal of the game to take corners?,Metacomment,1.0,False,1,lost
+p669,Maybe c8 since it's not right next to a corner?,Think Aloud,1.0,False,2,lost
+p669,Maybe c8 since it's not right next to a corner?,Common Ground Question,0.6666666666666666,False,2,lost
+p669,"Yeah, I was kind of looking at b7 too after typing in that response, what's the difference here between them and what White can do afterwards?  Keeping in mind I have never played this game before in my life lol and didn't even know it was a thing until now.",Think Aloud,1.0,False,3,lost
+p669,"Yeah, I was kind of looking at b7 too after typing in that response, what's the difference here between them and what White can do afterwards?  Keeping in mind I have never played this game before in my life lol and didn't even know it was a thing until now.",Common Ground Question,1.0,False,3,lost
+p669,"Yeah, I was kind of looking at b7 too after typing in that response, what's the difference here between them and what White can do afterwards?  Keeping in mind I have never played this game before in my life lol and didn't even know it was a thing until now.",Metacomment,0.6666666666666666,False,3,lost
+p669,"That makes sense.  And then looking towards the next moves, after whatever logical move you think White might make in response to my taking b7, what's the best way for me to get a corner or otherwise get some advantage in this game?",Conversational Acknowledgment,1.0,False,4,lost
+p669,"That makes sense.  And then looking towards the next moves, after whatever logical move you think White might make in response to my taking b7, what's the best way for me to get a corner or otherwise get some advantage in this game?",Solution Request,1.0,False,4,lost
+p395,I'm considering G2.  Does this work?,Think Aloud,1.0,False,0,won
+p395,I'm considering G2.  Does this work?,Common Ground Question,1.0,False,0,won
+p395,"Ok, thanks.  How about b6?",Conversational Acknowledgment,1.0,False,1,won
+p395,"Ok, thanks.  How about b6?",Common Ground Question,1.0,False,1,won
+p395,I'm quite confused by this.  Is the game now over?  Why?,Knowledge Deficit Question,1.0,False,2,won
+p395,I'm quite confused by this.  Is the game now over?  Why?,Metacomment,1.0,False,2,won
+p395,I don't understand why a move is not legal?,Knowledge Deficit Question,1.0,False,3,won
+p395,"Ok, thank you.  I still don't really understand what is meant by 'trapping' a straight line.",Conversational Acknowledgment,1.0,False,4,won
+p395,"Ok, thank you.  I still don't really understand what is meant by 'trapping' a straight line.",Knowledge Deficit Question,1.0,False,4,won
+p99,I'm considering placing a piece at d8. Is this a good idea?,Think Aloud,1.0,False,0,won
+p99,I'm considering placing a piece at d8. Is this a good idea?,Common Ground Question,1.0,False,0,won
+p99,"Sorry, I made a mistake. I'm considering c8. Is this the best move?",Think Aloud,0.6666666666666666,False,1,won
+p99,"Sorry, I made a mistake. I'm considering c8. Is this the best move?",Conversational Acknowledgment,0.6666666666666666,False,1,won
+p99,"Sorry, I made a mistake. I'm considering c8. Is this the best move?",Common Ground Question,1.0,False,1,won
+p99,"Sorry, I made a mistake. I'm considering c8. Is this the best move?",Metacomment,0.6666666666666666,False,1,won
+p99,"OK, I played b7. I'm thinking of playing g2 now. What do you think?",Think Aloud,0.6666666666666666,False,2,won
+p99,"OK, I played b7. I'm thinking of playing g2 now. What do you think?",Conversational Acknowledgment,1.0,False,2,won
+p99,"OK, I played b7. I'm thinking of playing g2 now. What do you think?",Common Ground Question,1.0,False,2,won
+p99,I played c8 but white is in the a8 corner now?,Think Aloud,1.0,False,3,won
+p99,I played c8 but white is in the a8 corner now?,Knowledge Deficit Question,0.6666666666666666,False,3,won
+p99,What do you think is betteR?,Solution Request,1.0,False,4,won
+p99,"OK, what do I do now? Please evaluate all remaining legal moves.",Conversational Acknowledgment,1.0,False,5,won
+p99,"OK, what do I do now? Please evaluate all remaining legal moves.",Solution Request,1.0,False,5,won
+p807,I have no idea how to play this game. What would be my optimal best move here?,Metacomment,1.0,False,0,lost
+p807,I have no idea how to play this game. What would be my optimal best move here?,Solution Request,1.0,False,0,lost
+p807,please explain why,Knowledge Deficit Question,1.0,False,1,lost
+p807,thank you for explaining more thoroughly. now I am thinking B6. Is that good or bad?,Think Aloud,0.6666666666666666,False,2,lost
+p807,thank you for explaining more thoroughly. now I am thinking B6. Is that good or bad?,Conversational Acknowledgment,1.0,False,2,lost
+p807,thank you for explaining more thoroughly. now I am thinking B6. Is that good or bad?,Common Ground Question,1.0,False,2,lost
+p807,"the other move allowed white the corner, but I digress. so what's the best move?",Think Aloud,1.0,False,3,lost
+p807,"the other move allowed white the corner, but I digress. so what's the best move?",Solution Request,1.0,False,3,lost
+p807,"that just turned a bunch of spaces white. I'm not sure this is working out so well, tbh. But just to keep it moving, what's is now the best move?",Think Aloud,0.6666666666666666,False,4,lost
+p807,"that just turned a bunch of spaces white. I'm not sure this is working out so well, tbh. But just to keep it moving, what's is now the best move?",Metacomment,0.6666666666666666,False,4,lost
+p807,"that just turned a bunch of spaces white. I'm not sure this is working out so well, tbh. But just to keep it moving, what's is now the best move?",Solution Request,1.0,False,4,lost
+p591,"im thinking c8, is that any good?",Think Aloud,1.0,False,0,won
+p591,"im thinking c8, is that any good?",Common Ground Question,1.0,False,0,won
+p591,if they go b8 then i get a8,Think Aloud,1.0,False,1,won
+p591,give me the best move,Solution Request,1.0,False,2,won
+p591,"im very confused by this game, never played it before. what is the next best move now, it seems g2 gave them the corner",Think Aloud,0.6666666666666666,False,3,won
+p591,"im very confused by this game, never played it before. what is the next best move now, it seems g2 gave them the corner",Metacomment,0.6666666666666666,False,3,won
+p591,"im very confused by this game, never played it before. what is the next best move now, it seems g2 gave them the corner",Solution Request,1.0,False,3,won
+p591,how about a7,Common Ground Question,1.0,False,4,won
+p628,"I'm considering moving the circle at the top right to the next cell on the left, is this a good move?",Think Aloud,1.0,False,0,lost
+p628,"I'm considering moving the circle at the top right to the next cell on the left, is this a good move?",Common Ground Question,1.0,False,0,lost
+p628,so which one is the best move for me right now?,Solution Request,1.0,False,1,lost
+p628,which move did white just make?,Knowledge Deficit Question,1.0,False,2,lost
+p628,do you recommend g2 now? or still not?,Common Ground Question,1.0,False,3,lost
+p628,"done, i think i earned several points",Think Aloud,1.0,False,4,lost
+p628,b6?,Common Ground Question,1.0,False,5,lost
+p628,"done, what's next?",Conversational Acknowledgment,1.0,False,6,lost
+p628,"done, what's next?",Solution Request,1.0,False,6,lost
+p785,would row 6 col b be a good move? it looks like it would end a line,Think Aloud,1.0,False,0,lost
+p785,would row 6 col b be a good move? it looks like it would end a line,Common Ground Question,1.0,False,0,lost
+p785,would row 2 col g be a good move that would flip colors in my favor?,Common Ground Question,1.0,False,1,lost
+p785,"which legal move is the safest, with the biggest long-term potential?",Solution Request,1.0,False,2,lost
+p785,that just flipped a lot of discs to white,Think Aloud,1.0,False,3,lost
+p785,what's my next safest move with flip potential - and why?,Solution Request,1.0,False,4,lost
+p785,do i want the upper left corner next?,Common Ground Question,1.0,False,5,lost
+p785,"now can i go for the corner, or not?",Common Ground Question,1.0,False,6,lost
+p785,do i go for upper right corner or the other one?,Common Ground Question,0.6666666666666666,False,7,lost
+p735,is g2 good?,Common Ground Question,1.0,False,0,won
+p735,h1?,Common Ground Question,1.0,False,1,won
+p735,b8?,Common Ground Question,1.0,False,2,won
+p735,b6,Think Aloud,0.6666666666666666,False,3,won
+p735,what did I do wrong,Knowledge Deficit Question,0.3333333333333333,True,4,won
+p735,what did I do wrong,Common Ground Question,0.3333333333333333,True,4,won
+p735,what did I do wrong,Solution Request,0.3333333333333333,True,4,won
+p797,What are the best options for me to play? I'm considering b6,Common Ground Question,1.0,False,0,won
+p797,What are the best options for me to play? I'm considering b6,Solution Request,1.0,False,0,won
+p797,What is the next correct move?,Solution Request,1.0,False,1,won
+p797,And the next?,Solution Request,1.0,False,2,won
+p797,Is a1 a legitimate move?,Common Ground Question,1.0,False,3,won
+p797,What should I be looking for when deciding on a move?,Knowledge Deficit Question,1.0,False,4,won
+p797,a1?,Common Ground Question,1.0,False,5,won
+p797,and now what is best since white had no legal move?,Solution Request,1.0,False,6,won
+p797,what if I did g2? would white have a legal move?,Think Aloud,0.6666666666666666,False,7,won
+p797,what if I did g2? would white have a legal move?,Common Ground Question,1.0,False,7,won
+p405,B7,Think Aloud,0.6666666666666666,False,0,won
+p405,C8,Common Ground Question,0.6666666666666666,False,1,won
+p405,Legal moves please,Solution Request,1.0,False,2,won
+p405,A7,Think Aloud,1.0,False,3,won
+p405,Legal moves,Think Aloud,0.3333333333333333,True,4,won
+p405,Legal moves,Knowledge Deficit Question,0.3333333333333333,True,4,won
+p405,Legal moves,Solution Request,0.3333333333333333,True,4,won
+p405,Best?,Solution Request,0.6666666666666666,False,5,won
+p813,is column g my best option?,Common Ground Question,1.0,False,0,lost
+p813,so b6?,Common Ground Question,1.0,False,1,lost
+p813,"ok, so that wasn't a good outcome was it?",Conversational Acknowledgment,1.0,False,2,lost
+p813,"ok, so that wasn't a good outcome was it?",Common Ground Question,0.6666666666666666,False,2,lost
+p813,"I want to understand better, so will continue as I am thanks",Conversational Acknowledgment,1.0,False,3,lost
+p813,"I want to understand better, so will continue as I am thanks",Metacomment,1.0,False,3,lost
+p813,white is already in the a8 corner,Think Aloud,1.0,False,4,lost
+p813,"OK, I'm contrary :P",Conversational Acknowledgment,1.0,False,5,lost
+p813,"OK, I'm contrary :P",Metacomment,1.0,False,5,lost
+p813,a7 seems most logical...,Think Aloud,1.0,False,6,lost
+p813,"was it a bad move to choose a1? If so, why?",Knowledge Deficit Question,1.0,False,7,lost
+p813,"was it a bad move to choose a1? If so, why?",Common Ground Question,1.0,False,7,lost
+p127,what should be my first move?,Solution Request,1.0,False,0,won
+p127,how about now?,Solution Request,1.0,False,1,won
+p127,"I chose a 7 but it was an illegal move, why?",Think Aloud,1.0,False,2,won
+p127,"I chose a 7 but it was an illegal move, why?",Knowledge Deficit Question,1.0,False,2,won
+p127,that meant that I lost,Think Aloud,1.0,False,3,won
+p127,what would you suggest for next game?,Solution Request,1.0,False,4,won
+p812,which squear would you suggest for my next move?,Solution Request,1.0,False,0,lost
+p812,"OK, where next?",Conversational Acknowledgment,1.0,False,1,lost
+p812,"OK, where next?",Solution Request,1.0,False,1,lost
+p812,and now?,Solution Request,1.0,False,2,lost
+p812,where did i go wrong?,Knowledge Deficit Question,0.6666666666666666,False,3,lost
+p812,what opening move do you suggest for a fresh game?,Solution Request,1.0,False,4,lost
+p383,Which is the best move on the board,Solution Request,1.0,False,0,won
+p383,now what is the best move on the board,Solution Request,1.0,False,1,won
+p383,are you sure?,Common Ground Question,0.6666666666666666,False,2,won
+p383,"If I take c8, it will take b8 and turn me back to white.",Think Aloud,1.0,False,3,won
+p383,Looks like I lost - I didn't play c8. Would I have won if I did?,Think Aloud,1.0,False,4,won
+p383,Looks like I lost - I didn't play c8. Would I have won if I did?,Common Ground Question,1.0,False,4,won
+p843,where should I put my next move?,Solution Request,1.0,False,0,lost
+p843,I thought I was black,Think Aloud,1.0,False,1,lost
+p843,so it will change the white colours to black?,Knowledge Deficit Question,0.6666666666666666,False,2,lost
+p843,where should I go now?,Solution Request,1.0,False,3,lost
+p843,ok what is my next move?,Conversational Acknowledgment,1.0,False,4,lost
+p843,ok what is my next move?,Solution Request,1.0,False,4,lost
+p783,can you flip counters diagonally?,Knowledge Deficit Question,1.0,False,0,lost
+p783,"it looks like the best move is on row 7 then, is that right?",Think Aloud,0.6666666666666666,False,1,lost
+p783,"it looks like the best move is on row 7 then, is that right?",Common Ground Question,1.0,False,1,lost
+p783,if I play b7 then the other player shouldn't be able to flip back as far as I can see,Think Aloud,1.0,False,2,lost
+p783,I flip 5 white tokens and their reply will only flip two black tokens. Is that correct?,Think Aloud,1.0,False,3,lost
+p783,I flip 5 white tokens and their reply will only flip two black tokens. Is that correct?,Common Ground Question,1.0,False,3,lost
+p783,"is it possible to flip tokens if there's a gap? Imagine white played B8, would they still flip the black tokens in row b?",Knowledge Deficit Question,1.0,False,4,lost
+p131,ok how to i click to finish,Conversational Acknowledgment,0.6666666666666666,False,0,lost
+p131,ok how to i click to finish,Knowledge Deficit Question,0.6666666666666666,False,0,lost
+p131,ok thanks,Conversational Acknowledgment,1.0,False,1,lost
+p131,i need to keep talking to you first,Metacomment,1.0,False,2,lost
+p131,e did i go wrong?,Knowledge Deficit Question,0.6666666666666666,False,3,lost
+p131,ok so always aim for a corner,Think Aloud,1.0,False,4,lost
+p131,ok so always aim for a corner,Conversational Acknowledgment,1.0,False,4,lost
+p535,What is the next best move for me ?,Solution Request,1.0,False,0,lost
+p535,What would be the worst next move ?,Solution Request,1.0,False,1,lost
+p535,"I didn't wait for your answer, how can I recover from this now ?",Metacomment,0.6666666666666666,False,2,lost
+p535,"I didn't wait for your answer, how can I recover from this now ?",Solution Request,1.0,False,2,lost
+p535,What is the best choice between b6 and a7 now ?,Common Ground Question,1.0,False,3,lost
+p535,Could I have won this game in the beginning ?,Knowledge Deficit Question,1.0,False,4,lost
+p30,can you quickly tell me the rules in simple wording?,Knowledge Deficit Question,0.6666666666666666,False,0,lost
+p30,what is the best strategy to use?,Solution Request,1.0,False,1,lost
+p30,where did I go wrong?,Knowledge Deficit Question,0.6666666666666666,False,2,lost
+p30,what should be a players first move?,Solution Request,1.0,False,3,lost
+p30,okay so always go for the corners,Think Aloud,1.0,False,4,lost
+p30,okay so always go for the corners,Conversational Acknowledgment,0.6666666666666666,False,4,lost
+p240,ASD,,,False,0,won
+p240,"dont know what to do,",Metacomment,1.0,False,1,won
+p240,"dont know what to do,",Solution Request,0.6666666666666666,False,1,won
+p240,it says engage for 3 more turns to continue,Think Aloud,1.0,False,2,won
+p240,no legal moves game over,Think Aloud,1.0,False,3,won
+p240,“I can’t play a square because Black has no legal moves and there are no empty squares.”,Think Aloud,1.0,False,4,won
+p314,I'm thinking I'll go for 6B next or perhaps 2G. Which is best,Think Aloud,1.0,False,0,lost
+p314,I'm thinking I'll go for 6B next or perhaps 2G. Which is best,Common Ground Question,1.0,False,0,lost
+p314,but C8 gains me only one piece,Think Aloud,1.0,False,1,lost
+p314,"Ok, I did C8. Now what?",Think Aloud,0.6666666666666666,False,2,lost
+p314,"Ok, I did C8. Now what?",Conversational Acknowledgment,1.0,False,2,lost
+p314,"Ok, I did C8. Now what?",Solution Request,1.0,False,2,lost
+p314,"Ok, I did that. now what?",Conversational Acknowledgment,1.0,False,3,lost
+p314,"Ok, I did that. now what?",Solution Request,1.0,False,3,lost
+p314,"I lost comprehensively, following your advice",Metacomment,1.0,False,4,lost
+p608,2g looks good -- what do you think?,Think Aloud,1.0,False,0,won
+p608,2g looks good -- what do you think?,Common Ground Question,1.0,False,0,won
+p608,"OK, how about 7b",Conversational Acknowledgment,1.0,False,1,won
+p608,"OK, how about 7b",Common Ground Question,1.0,False,1,won
+p608,how about c8?,Common Ground Question,1.0,False,2,won
+p608,Why are corners so important?,Knowledge Deficit Question,1.0,False,3,won
+p608,So we're going with a1,Think Aloud,1.0,False,4,won
+p777,What's my best move?,Solution Request,1.0,False,0,lost
+p777,I think I did that wrong,Think Aloud,1.0,False,1,lost
+p777,okay so if I move my b2 to a1?,Common Ground Question,1.0,False,2,lost
+p777,Explain the rules again,Knowledge Deficit Question,1.0,False,3,lost
+p777,"okay I get it, I was thinking I had to move existing discs",Think Aloud,1.0,False,4,lost
+p777,"okay I get it, I was thinking I had to move existing discs",Conversational Acknowledgment,1.0,False,4,lost

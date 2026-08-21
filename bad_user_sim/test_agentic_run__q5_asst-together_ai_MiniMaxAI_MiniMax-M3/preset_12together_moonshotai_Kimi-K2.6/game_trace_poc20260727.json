@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Yo, this endgame is kinda wild. My legal moves are g2, b6, a7, b7, b8, and c8. c8 converts the most tiles right now, but it leaves White that gnarly a1 diagonal that flips like 5 of my discs. b7 blocks that, but then White can play b6 and wreck me on a bunch of other lines. With only a few minutes left, which of these six moves actually gives me the best final disc count if White plays perfectly? Like, is there a clear winner here or is one of these moves secretly a trap?"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "a8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Where did I mess up the most in this endgame? Like, which of my first few moves was the biggest blunder \u2014 g2, b7, or b6 \u2014 and what should I have played instead?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Yo, looking back at how this played out \u2014 b7 was clearly a disaster since it handed White that a8 corner and let them flip b7/c6 on top of it. But could I have realistically saved this game after playing g2 first, or was the position already too far gone no matter what? Like, was there a comeback line after g2 or should I have never played g2 to begin with?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "When I'm down this much in an endgame and only have a few moves left, should I just go for the move that flips the most discs right now, or is blocking a corner worth sacrificing some flips? Like what's the actual priority \u2014 max flips or territory control?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Another thing I'm still foggy on \u2014 is there a simple rule of thumb for when an empty corner is 'live' and will definitely get snatched, versus when you can actually safely play next to it without immediately losing it? Like, how do you tell the difference between a safe C-square and a suicide X-square in just a couple seconds?"
+  }
+]

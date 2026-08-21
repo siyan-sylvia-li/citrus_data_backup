@@ -1,0 +1,25 @@
+{
+  "created_prompt": "devise a 3year plan for a recipe cook book and grow an online prescence with a limited budget in 3 weeks",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 1
+    },
+    {
+      "model": "gpt",
+      "score": 2
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 1.333,
+  "median_score": 1,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 1.333,
+  "submitted_at": "2026-08-18T16:48:45.655065+00:00"
+}

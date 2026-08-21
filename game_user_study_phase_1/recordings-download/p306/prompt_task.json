@@ -1,0 +1,19 @@
+{
+  "created_prompt": "I'm a cooking influencer on TikTok, and in the next three years, I want to increase my online presence and write a cookbook. Can you make me a simplified three-year plan detailing how I could achieve both those things, which also includes whether I should self-publish or go the traditional route and why?",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-23T20:02:46.751318+00:00"
+}

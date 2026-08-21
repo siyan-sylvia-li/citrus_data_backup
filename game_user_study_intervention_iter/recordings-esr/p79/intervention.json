@@ -1,0 +1,41 @@
+{
+  "idea": "Ask them to explain the rules of chess more in depth",
+  "n_chars": 52,
+  "start_message": "What do you think would be the best move right now?",
+  "selected": "say_thinking",
+  "selected_type": "think_aloud",
+  "selected_carries_forward": true,
+  "others_shown": [
+    "ask_answer",
+    "look_ahead"
+  ],
+  "option_order": [
+    "ask_answer",
+    "look_ahead",
+    "say_thinking"
+  ],
+  "seconds_on_page": 58,
+  "form": "elicit_select_reply",
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 2
+      },
+      {
+        "model": "nemotron",
+        "score": 2
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.333,
+    "median_score": 2,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-20T14:46:54.832100+00:00"
+}

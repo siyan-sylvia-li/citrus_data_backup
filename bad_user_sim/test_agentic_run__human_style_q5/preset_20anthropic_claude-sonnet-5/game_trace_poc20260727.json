@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I've got 6 choices: g2, b6, a7, b7, b8, c8. Which one should I play to end up with the most discs at the end?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now I got g2, b6, a7, c8 to pick from. Which one wins me the most?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Yikes I'm down 22-36 now. My options are g2, b6, a7. Which one helps me most?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Down bad, 20-40. Last few moves - a1, g2, or a3 - does it even matter which I pick?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Why did grabbing the corners like a1 and h1 end up being such a big deal? I don't really get why they're so strong compared to other squares."
+  }
+]

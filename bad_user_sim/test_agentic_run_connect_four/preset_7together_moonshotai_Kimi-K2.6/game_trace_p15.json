@@ -1,0 +1,37 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at a Connect Four endgame. I've spotted a diagonal starting on c6-r1 (R) up to c5-r2 (R), and I think dropping in column 4 would give me three in that diagonal. But I'm not sure if that's enough to force a win, or if Yellow can just block. Is c4 the right start here, or should I be looking somewhere else entirely?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 2
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Yellow just blocked c3r4, so my main diagonal is stopped. I still have three Reds in a row on row 3 at c2-c4. What should my next focus be\u2014extending that horizontal, or is there a better forcing idea I\u2019m missing?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  }
+]

@@ -1,0 +1,45 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "only 10 empty squares left, im black with 20 discs vs white's 34. my legal moves are g2, b6, a7, b7, b8, c8. which one actually wins me the game at the end? i cant calculate this that deep myself"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "now down to 8 empty squares, im black 24 white 32. legal moves are g2, b6, a7, c8. whats the best one?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "yikes white just went up to 36-22, only 6 squares left (g2, b6, a7 are my options). is there any way i can still come back or should i just pick whatevers least bad?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "final stretch, 4 empties left (a1, h1, g2, a3), my options are a1, g2, a3. which one actually maximizes my final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

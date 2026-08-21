@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Create a concise three year plan for Julie, a cooking creator with 1.2M followers, who creates food recipes.\r\n\r\nJulie works four days a week with limited time, and wants to publish a cookbook. Julie is unsure about traditional vs self publishing, \r\n\r\nInclude goals and milestones for each year or biannual. Provide a description of traditional vs self publishing. \r\n\r\nRecommend the best option for Julie and explain why. Have realistic plans and goals for her timeline and budget.",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 3.0,
+  "submitted_at": "2026-08-20T02:59:14.209091+00:00"
+}

@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Create a simple 3 year plan to help julie grow her cooking channel and publish her cookbook. Include easy steps for each year, compare traditional and self-publishing and keep the plan suitable for her limited time and budget.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-22T13:08:28.672398+00:00"
+}

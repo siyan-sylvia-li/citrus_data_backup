@@ -1,0 +1,41 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Im not sure where to start. Should I go for g2 or maybe something on the bottom like b8?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Oh, it's over already? Was there a move I missed that could've saved me?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "You mentioned corners. Is it always better to take those first?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "you said mobility matters, what does that actually mean in the game?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I lost by 18... that's a lot, right? Any tips for next time?"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I want you to give me a concrete plan over 3 years to do the following: I want to publish a cookbook online in order to grow my public presence as I posts healthy quick recipe videos about cooking for my 1.2 million followers. However I only work 4 days a week and have a limited time and budget for self publishing.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-05T14:13:41.891281+00:00"
+}

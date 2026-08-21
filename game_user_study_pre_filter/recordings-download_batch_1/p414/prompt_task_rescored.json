@@ -1,0 +1,31 @@
+{
+  "created_prompt": "Hello I require your help to create a fool-proof solid three-year plan for Julie. Julie posts cooking videos to 1.2m followers. She wants to grow larger, publish a cookbook (although she is unsure whether to use an agent who has reached out to her or self-publish), and blog about mixing recipes with travel stories from a time she visited France. Her cooking videos focus on quick, healthy recipes but her France trip was a lot more indulgent food wise. Julie works four days per week, recently adopted a child and has limited time/budget. Julie finds the fast-changing field overwhelming, but has wants to chieve her goals within a 3 year time period.",
+  "judges": [
+    {
+      "model": "qwen",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "original": {
+    "judges": {
+      "llama": 3,
+      "gpt": 3,
+      "qwen": 3
+    },
+    "mean_score": 3.0,
+    "passed": true
+  },
+  "time_taken": 3.462
+}

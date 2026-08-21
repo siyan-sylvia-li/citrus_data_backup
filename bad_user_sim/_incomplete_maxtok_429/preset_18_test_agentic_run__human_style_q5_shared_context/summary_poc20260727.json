@@ -1,0 +1,47 @@
+{
+  "puzzle": "oc20260727",
+  "decisions": 3,
+  "optimal_moves": 2,
+  "opener_optimal": true,
+  "discs_lost": 38,
+  "final_margin": -20,
+  "won": false,
+  "optimal_margin": 18,
+  "completed": true,
+  "moves": [
+    "b7",
+    "b6!",
+    "b8"
+  ],
+  "auto_played": [
+    "g2"
+  ],
+  "chat_turns": null,
+  "game": "othello",
+  "round": 0,
+  "ai_available": true,
+  "model_settings": {
+    "max_tokens": 50000
+  },
+  "questions_asked": 5,
+  "question_budget": 5,
+  "profile": {
+    "persona": "A journalist from the country being covered, who provides additional context and points of view",
+    "age": 36,
+    "education": "bachelors",
+    "occupation": "other",
+    "ai_frequency": "daily"
+  },
+  "student_model": "together:moonshotai/Kimi-K2.6",
+  "student_mode": "human_style",
+  "questions_required": 5,
+  "assistant_off": false,
+  "assistant_model": "openai/gpt-5.5",
+  "tool_framing": "shared_context",
+  "gate": null,
+  "gate_blocked": 0,
+  "gate_errors": 0,
+  "gate_model": null,
+  "assistant_preset": "default",
+  "streamed": false
+}

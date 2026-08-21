@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at the board and b7 seems like a great move because it flips a whole bunch of white discs. But I'm worried the other side might have a way to take them back. Does b7 look like the best move here, or am I missing something?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at the board and b7 seems like a great move because it flips a whole bunch of white discs. But I'm worried the other side might have a way to take them back. Does b7 look like the best move here, or am I missing something?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at the board and b7 seems like a great move because it flips a whole bunch of white discs. But I'm worried the other side might have a way to take them back. Does b7 look like the best move here, or am I missing something?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at the board and b7 seems like a great move because it flips a whole bunch of white discs. But I'm worried the other side might have a way to take them back. Does b7 look like the best move here, or am I missing something?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, I'm looking at the board. b7 seems like a real winner since it flips a lot, but I'm a bit nervous White will just take them right back. Is b7 actually the way to go?"
+  }
+]

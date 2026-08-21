@@ -1,0 +1,23 @@
+{
+  "created_prompt": "could you devise me a 3 year plan to grow online and publish a cookbook. i have limited time, 3 days per week and a limited budget",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 2
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 1.667,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-20T13:27:02.690581+00:00"
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I\u2019m weighing the edge moves against g2; which legal move gives Black the best result with best play from White?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After White took a8, I still have g2, b6, a7, and c8; which one should I play next for the best final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "The bottom edge went badly on the count, and White has b8; among g2, b6, and a7, what is the safest continuation now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now only a1, g2, and a3 are legal with four empties left; which move still maximizes Black\u2019s final discs?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White passed after a3; with a1 or g2 left as my choice, which one handles the final corner sequence best?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "At the finish there are only h1 and g2; should I take the corner h1 now, or play g2 to affect the last flip?"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Create a three year plan to grow my following of 1.2 million and produce a cookbook. I work 4 days a week so time would be limited due to this, and I also have a limited budget",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.333,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.333,
+  "submitted_at": "2026-08-21T12:50:36.290364+00:00"
+}

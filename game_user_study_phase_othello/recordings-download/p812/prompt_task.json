@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I have a substantial online presence, where people watch my cooking videos. I want to grow my following and publish a book of my recipes, but am unsure whether to approach a publisher or produce it myself. I currently work four days per week, and have a limited budget. Please evaluate my situation and ambitions and generate a three year plan aimed at achieving my goals,",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T13:21:27.724492+00:00"
+}

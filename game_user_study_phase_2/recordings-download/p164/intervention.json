@@ -1,0 +1,28 @@
+{
+  "variant": "v2_think_pair",
+  "observation": "Group A interacts with the AI assistant in a purely transactional and demanding manner, using short commands and demanding immediate answers without offering any personal strategic context or reasoning. In contrast, Group B actively articulates their own strategic thinking, analyzes threats, proposes specific moves, and evaluates long-term board outcomes while asking the AI to critique or build upon their hypotheses.",
+  "choice": "B",
+  "choice_correct": true,
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 4
+      },
+      {
+        "model": "gpt",
+        "score": 4
+      },
+      {
+        "model": "nemotron",
+        "score": 4
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 4.0,
+    "median_score": 4,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-18T20:19:14.126719+00:00"
+}

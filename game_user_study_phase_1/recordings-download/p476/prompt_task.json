@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Design a three-year plan for a woman with 1.2m followers. Her cooking style is quick and healthy. The 3 year plan must include a strategy for follower growth and publishing a cookbook. Design the plan around a four day week, and a limited budget. Keep the style direct and outline each step clearly.",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-03T17:16:50.796576+00:00"
+}

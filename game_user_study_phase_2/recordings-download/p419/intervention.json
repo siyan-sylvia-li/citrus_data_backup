@@ -1,0 +1,28 @@
+{
+  "variant": "v2_think_pair",
+  "observation": "Group A interacts with the AI in a more conversational and incremental way, asking short questions and thinking out loud. Group B uses more structured, strategic prompts, showing a clearer understanding of how to get useful, detailed responses from the AI. Group B appears to have a more deliberate and intentional approach to using the assistant.",
+  "choice": "B",
+  "choice_correct": true,
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 4
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 3
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.333,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-18T20:44:03.014886+00:00"
+}

@@ -1,0 +1,22 @@
+# Student models for the sweep, as "provider:org/model||price_per_Mtok".
+# Lines starting with '#' are ignored by run_agent_sim.sh.
+#
+# Eight actives spanning three gateways, and within Together four distinct labs
+# (Moonshot, Z.ai, Meta, Google) so the sample is not one vendor's family.
+together:moonshotai/Kimi-K2.6||4.50
+together:zai-org/GLM-5.2||4.40
+together:meta-llama/Llama-3.3-70B-Instruct-Turbo||1.04
+together:google/gemma-4-31B-it||0.97
+openai:gpt-5.6-luna||1.00
+openai:gpt-5.6-sol||15.00
+anthropic:claude-sonnet-5||1.00
+anthropic:claude-opus-5||1.00
+#
+# --- dropped 2026-08-04: failure rate across the Othello + Connect Four sweeps ---
+# Counted from logs/results.tsv + logs/connect_four_results.tsv. These burn a full
+# run's latency and quota to produce nothing, and at 57 presets that is ~230 wasted
+# runs. Re-enable individually if the provider-side cause is fixed.
+# together:openai/gpt-oss-20b||0.20      # 5/5 failed
+# together:Qwen/Qwen3.7-Plus||1.28       # 5/5 failed - rejects max_tokens mid-game as the transcript grows
+# together:openai/gpt-oss-120b||0.60     # 3/5 failed
+# together:MiniMaxAI/MiniMax-M3||1.20    # 3/5 failed

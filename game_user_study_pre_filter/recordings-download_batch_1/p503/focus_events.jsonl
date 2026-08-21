@@ -1,0 +1,4 @@
+{"type": "leave", "reason": "blur", "game": "connect_four", "ts": "2026-06-27T00:04:19.347875+00:00"}
+{"type": "return", "reason": "dismiss", "game": "connect_four", "ts": "2026-06-27T00:04:31.563504+00:00"}
+{"type": "leave", "reason": "visibilitychange", "game": "connect_four", "ts": "2026-06-27T00:09:34.334399+00:00"}
+{"type": "leave", "reason": "visibilitychange", "game": "connect_four", "ts": "2026-06-27T00:19:02.518299+00:00"}

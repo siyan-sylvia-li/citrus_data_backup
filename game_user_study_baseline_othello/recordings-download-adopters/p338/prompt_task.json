@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Create a three-year plan for publishing a cookbook (determine pros and cons for traditional vs self-publishing) and using it to grow online audience. The cookbook needs to have quick, healthy recipes that are easy to demonstrate in video format. Time and budget are limited and modest.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T22:29:44.879376+00:00"
+}

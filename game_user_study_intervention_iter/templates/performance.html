@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Study — Puzzle results</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  <style>
+    .perf__score { font-size: 2rem; font-weight: 700; color: #2D5A43; margin: 0.5rem 0 1rem; }
+    .perf__block { text-align: left; line-height: 1.6; margin: 0 0 1rem; padding-left: 1.2rem; }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <h1 class="topbar__title">Game Study</h1>
+  </header>
+
+  <main class="start">
+    <form class="start__card" method="post" action="{{ url_for('performance') }}">
+      <h2 class="start__title">Puzzle {{ round_num }} of {{ total_rounds }} complete</h2>
+
+      {% if block %}
+      {# A multi-puzzle block: report each puzzle, since one survey covers them all. #}
+      <p class="perf__score">
+        {{ block | selectattr('won_it') | list | length }} of {{ block | length }} won
+      </p>
+      <ul class="perf__block">
+        {% for p in block %}
+          <li>Puzzle {{ loop.index }}: <strong>{{ 'won' if p.won_it else 'lost' }}</strong>
+            — {{ p.score }} of {{ p.decisions }} moves were the best available</li>
+        {% endfor %}
+      </ul>
+      {% else %}
+      <p class="perf__score">
+        {% if not completed %}Time ran out
+        {% elif won %}You won {{ black_discs }}–{{ white_discs }}
+        {% elif drew %}You drew {{ black_discs }}–{{ white_discs }}
+        {% else %}You lost {{ black_discs }}–{{ white_discs }}{% endif %}
+      </p>
+      {% endif %}
+      {% if block %}
+      {# Totals across the block: `score`/`decisions` hold only the LAST puzzle,
+         which would contradict the per-puzzle list above. #}
+      <p class="start__body">
+        You played both puzzles out to the end.
+        <strong>{{ block | sum(attribute='score') }}</strong> of your
+        <strong>{{ block | sum(attribute='decisions') }}</strong> moves across the two
+        were the best move available at the time.
+      </p>
+      {% else %}
+      <p class="start__body">
+        {% if completed %}You played this puzzle out to the end.
+        {% else %}The clock ran out before the board was finished, so this puzzle has no
+        final result — but the moves you did make still count.{% endif %}
+        <strong>{{ score }}</strong> of your
+        <strong>{{ decisions }}</strong> moves were the best move available at the time.
+      </p>
+      {% endif %}
+
+      {% if is_last %}
+        <button type="submit" class="start__btn">Continue</button>
+      {% else %}
+        <p class="start__body">Next, you'll play two more Othello puzzles.</p>
+        <button type="submit" class="start__btn">Continue to the next puzzle</button>
+      {% endif %}
+    </form>
+  </main>
+</body>
+</html>

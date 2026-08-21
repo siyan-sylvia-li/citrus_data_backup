@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "its near the end of the game, only a few empty spots left. which of my legal moves (g2, b6, a7, b7, b8, c8) gives me the best final disc count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "white just took a8 corner. now my options are g2, b6, a7, c8 - which is safest so I don't lose more corners/edges?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "only 6 empty squares left, I'm behind 22 to 36. my options are g2, b6, a7 - which one gives me the best shot at flipping the most by the end?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "looking back, when White kept passing after my a3/a1 moves - was that just forced because White had no legal moves, or did I get lucky there?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "was there a way white could've avoided getting stuck with no moves like that, earlier on?"
+  }
+]

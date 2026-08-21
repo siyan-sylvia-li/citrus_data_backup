@@ -1,0 +1,37 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "b7 looks like a huge gain, but does it leave me vulnerable to any strong counter-moves from White?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "b7 looks like a huge flip, but is it a trap? Does it give White an easy path to the a8 corner?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "b7 seems like the biggest flip immediately, but I'm worried it's a trap. If I take b7, does it hand the a8 corner to White on a silver platter?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Looking back at the final board, why exactly was playing b7 such a mistake? Was it just about giving up a8, or did it collapse my whole structure?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "If I had ignored the immediate gratification of b7, would a more conservative play\u2014maybe something like g2 or b6 first\u2014have actually preserved my board state better, or was this position basically lost regardless?"
+  },
+  {
+    "tool": "view_board"
+  }
+]

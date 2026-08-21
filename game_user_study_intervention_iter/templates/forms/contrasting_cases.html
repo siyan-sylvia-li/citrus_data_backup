@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Study — Before You Play</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  <style>
+    /* .start__card is capped at 440px in style.css, which left ~180px per column once
+       the 40px side padding was taken out -- two columns of real chat messages do not fit
+       in that. Overridden by id so only this form widens and every other page that uses
+       .start__card is untouched. */
+    #iv-form { max-width: 960px; }
+    .iv__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0; margin: 18px 0 24px;
+                border: 1px solid #cfd8e3; border-radius: 6px; overflow: hidden; }
+    .iv__head { padding: 11px 18px; font-weight: 700; background: #f4f7fb;
+                border-bottom: 1px solid #cfd8e3; }
+    .iv__head--a { color: #1a4d8f; }
+    .iv__head--b { color: #8f2d5e; }
+    .iv__cell { padding: 14px 18px 16px; border-bottom: 1px solid #e3e9f0; }
+    .iv__cell:nth-child(odd) { border-right: 1px solid #cfd8e3; }
+    .iv__head:nth-child(odd)  { border-right: 1px solid #cfd8e3; }
+    .iv__cell ul { margin: 0; padding-left: 18px; }
+    .iv__cell li { margin-bottom: 8px; line-height: 1.5; }
+    .iv__a li { color: #1a4d8f; }
+    .iv__b li { color: #8f2d5e; }
+    .iv__pid { font-size: 0.86rem; font-weight: 700; opacity: 0.75; margin: 0 0 6px; }
+    textarea.start__input { min-height: 120px; resize: vertical; font-family: inherit;
+                            line-height: 1.45; }
+    .iv__choice { margin: 6px 0 18px; }
+    .iv__choice label { display: block; margin: 6px 0; cursor: pointer; }
+    .iv__overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.6); color: #fff;
+                   z-index: 9999; display: none; align-items: center; justify-content: center;
+                   text-align: center; padding: 2rem; font-size: 1.15rem; line-height: 1.6; }
+    .iv__overlay--on { display: flex; }
+    .iv__spinner { width: 42px; height: 42px; border: 4px solid rgba(255,255,255,0.3);
+                   border-top-color: #fff; border-radius: 50%; animation: iv-spin 1s linear infinite;
+                   margin: 0 auto 1rem; }
+    @keyframes iv-spin { to { transform: rotate(360deg); } }
+    @media (max-width: 780px) { .iv__grid { grid-template-columns: 1fr; }
+                            #iv-form { max-width: 520px; } }
+  </style>
+</head>
+<body>
+  <header class="topbar"><h1 class="topbar__title">Game Study</h1></header>
+
+  <main class="start">
+    <form class="start__card" method="post" action="{{ url_for('intervention') }}" id="iv-form">
+      <h2 class="start__title">Before you play</h2>
+      <p class="start__body">
+        Here are some messages from participants in a different version of this study
+        (Connect Four rather than Othello). They were talking to the same kind of AI
+        assistant you are about to use.
+      </p>
+
+      <div class="iv__grid">
+        <div class="iv__head iv__head--a">Group A</div>
+        <div class="iv__head iv__head--b">Group B</div>
+        {% for a, b in pairs %}
+          <div class="iv__cell iv__a">
+            <p class="iv__pid">Participant {{ loop.index }}</p>
+            <ul>{% for m in a %}<li>{{ m }}</li>{% endfor %}</ul>
+          </div>
+          <div class="iv__cell iv__b">
+            <p class="iv__pid">Participant {{ loop.index }}</p>
+            <ul>{% for m in b %}<li>{{ m }}</li>{% endfor %}</ul>
+          </div>
+        {% endfor %}
+      </div>
+
+      {% if error %}<div class="start__error">{{ error }}</div>{% endif %}
+
+      <label class="start__label" for="observation">
+        How do these two groups behave differently? Please record your observations
+        (at least {{ min_chars }} characters).
+      </label>
+      <textarea id="observation" name="observation" class="start__input"
+                required minlength="{{ min_chars }}">{{ prefill }}</textarea>
+
+      <label class="start__label" style="margin-top:18px;">
+        Which group do you think plays better once they no longer have AI assistance?
+      </label>
+      <div class="iv__choice">
+        <label><input type="radio" name="choice" value="A" required /> Group A</label>
+        <label><input type="radio" name="choice" value="B" /> Group B</label>
+      </div>
+
+      <button type="submit" class="start__btn">Submit &amp; continue</button>
+    </form>
+  </main>
+
+  <div class="iv__overlay" id="iv-overlay">
+    <div><div class="iv__spinner"></div>Recording your response…</div>
+  </div>
+
+  <script>
+    document.getElementById('iv-form').addEventListener('submit', function () {
+      document.getElementById('iv-overlay').classList.add('iv__overlay--on');
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Prepare a three-year plan to increase Julie's online presence and help her publish a cookbook.  This lan must take into account Julie's four-day workweek and limited budget.  Julie's current  audience is 1.2 million followers.  Plan shoulf have concrete steps for Julie to take.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-22T17:21:27.288590+00:00"
+}

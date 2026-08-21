@@ -1,0 +1,28 @@
+{
+  "variant": "v2_think_pair",
+  "observation": "Some of them seek affirmation of an existing idea or plan or strategy, others seem satisfied to simply let the LLM make the decisions for them.",
+  "choice": "B",
+  "choice_correct": true,
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 3
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.0,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-18T17:26:04.867974+00:00"
+}

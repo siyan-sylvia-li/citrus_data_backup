@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, I'm Black in this Othello endgame. My legal moves are g2, b6, a7, b7, b8, c8. Can you quickly tell me which one leaves me with the most discs assuming perfect play from White? I don't want to burn time simulating everything by hand."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After I played b7, White responded a8. Now my legal moves are g2, b6, a7, c8. Under perfect play, which move gives Black the highest final disc count?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I\u2019m leaning toward c8. If I play c8 and White plays perfectly, what\u2019s the best sequence from there? I want to get through this endgame quickly."
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White responded b8 after my c8. My legal moves are now g2, b6, a7. Which one is the best under perfect play, and what\u2019s the rough sequence after it?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "In that last position before the auto-played g2, was there any chance White could have had a legal move if I had chosen g2 instead of h1 first, or was the game effectively decided either way?"
+  }
+]

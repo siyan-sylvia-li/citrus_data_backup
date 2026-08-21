@@ -1,0 +1,23 @@
+{
+  "created_prompt": "You are a career coach and cookbook publisher and advising me on a future project to grow my online cooking brand and publish a cookbook of quick and healthy recipes.   I am a video content creator that posts cooking videos for quick healthy recipes.  I have 1.2 Million followers. Create a concrete three-year plan to build my brand that ends in the publishing of a cookbook .  I work 4 days a week and have a limited amount of time and budget for this effort.  I will also be looking for advice on whether the cookbook should be published through traditional channels or self-published.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T12:39:36.802425+00:00"
+}

@@ -1,0 +1,45 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I have to pick one of these moves: g2, b6, a7, b7, b8, c8. Which one actually gives me the best result at the end of the game? I don't really know how to think this many moves ahead."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White just took the a8 corner. Now I can play g2, b6, a7, or c8. Which is best so I don't hand over another corner?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm down 22 to 36 now with only 6 empty squares left. My choices are g2, b6, or a7. Is there any way this turns around, and which move should I make?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Only 4 squares left now: a1, h1, g2, a3. My choices are a1, g2, or a3. a1 is a corner - should I take it, or is there a better play here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

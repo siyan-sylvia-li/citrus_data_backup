@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I am a social media influencer who produces cooking videos to over one million followers. Over the next three years I want to grow my following as well as publish a cookbook.\r\n\r\nI currently work four days a week with limited time and budget.\r\n\r\nCreate a concrete, actionable three-year plan to achieve my goals of growing my following and publishing a cookbook.\r\n\r\nThe plan should include overarching goals as well as specific, actionable tasks that I should be doing on a weekly/daily basis. I need a concrete plan that can be followed, not ideas on things I could potentially try.\r\n\r\nIn addition to the plan, add contingent ideas so that if I am not hitting the goals set that I have different avenues to try.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-10T16:16:47.971126+00:00"
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Can you help me choose the best move here? Which of g2, b6, a7, b7, b8, c8 gives Black the best endgame result with best play?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After White's a8, what is Black's best next move among g2, b6, a7, c8? Please be specific."
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now only g2, b6, a7 are legal. Which one should I play for the best final disc count against optimal White?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "At this position (empties a1, h1, g2, a3), which Black move is best: a1, g2, or a3? I want the actual minimax choice."
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "The game just finished after h1 forced g2, with Black winning 41\u201323. Is that final result correct?"
+  }
+]

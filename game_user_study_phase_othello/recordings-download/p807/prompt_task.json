@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Develop for me a three year plan that will help me grow my online presence and publish a cookbook (trad or self-pub?!). Currently have 1.2M followers who are into healthy fast recipes. Currently work four days a week and my time and budget are limited.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-05T13:11:34.051151+00:00"
+}

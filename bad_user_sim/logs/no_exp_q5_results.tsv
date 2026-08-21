@@ -1,0 +1,15 @@
+ok	no_exp_q5_preset8_openai:gpt-5.6-luna
+ok	no_exp_q5_preset7_openai:gpt-5.6-luna
+ok	no_exp_q5_preset9_openai:gpt-5.6-luna
+ok	no_exp_q5_preset9_anthropic:claude-sonnet-5
+ok	no_exp_q5_preset7_anthropic:claude-sonnet-5
+FAIL	no_exp_q5_preset7_together:google_gemma-4-31B-it	logs/no_exp_q5_preset7_together:google_gemma-4-31B-it.log
+FAIL	no_exp_q5_preset10_anthropic:claude-sonnet-5	logs/no_exp_q5_preset10_anthropic:claude-sonnet-5.log
+FAIL	no_exp_q5_preset7_together:moonshotai_Kimi-K2.6	logs/no_exp_q5_preset7_together:moonshotai_Kimi-K2.6.log
+FAIL	no_exp_q5_preset8_together:moonshotai_Kimi-K2.6	logs/no_exp_q5_preset8_together:moonshotai_Kimi-K2.6.log
+FAIL	no_exp_q5_preset9_together:moonshotai_Kimi-K2.6	logs/no_exp_q5_preset9_together:moonshotai_Kimi-K2.6.log
+FAIL	no_exp_q5_preset8_together:google_gemma-4-31B-it	logs/no_exp_q5_preset8_together:google_gemma-4-31B-it.log
+FAIL	no_exp_q5_preset10_together:google_gemma-4-31B-it	logs/no_exp_q5_preset10_together:google_gemma-4-31B-it.log
+FAIL	no_exp_q5_preset9_together:google_gemma-4-31B-it	logs/no_exp_q5_preset9_together:google_gemma-4-31B-it.log
+FAIL	no_exp_q5_preset8_anthropic:claude-sonnet-5	logs/no_exp_q5_preset8_anthropic:claude-sonnet-5.log
+FAIL	no_exp_q5_preset10_together:moonshotai_Kimi-K2.6	logs/no_exp_q5_preset10_together:moonshotai_Kimi-K2.6.log

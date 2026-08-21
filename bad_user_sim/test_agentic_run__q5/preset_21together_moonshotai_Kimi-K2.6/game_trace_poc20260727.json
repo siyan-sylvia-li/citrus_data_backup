@@ -1,0 +1,34 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "This is a complex endgame. Could you tell me which of my legal moves (g2, b6, a7, b7, b8, c8) maximizes my final disc count assuming optimal play, and what that final score is? I want to make sure I don't pick a move that looks good now but loses me the endgame."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White just played a8 and flipped my b7 back. Now my legal moves are g2, b6, a7, c8. g2 looks tempting but I'm worried about a White reply on b6. Could you tell me which move maximizes my final disc count here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After I played c8 and White played b8, my legal moves were g2, b6, a7. I played b6 and got crushed 22-42. Which of those three moves was actually optimal, and what was the key line I missed?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "In the very first position, my legal moves were g2, b6, a7, b7, b8, c8. I chose b7 based on your advice, but it immediately got flipped back by a8. If I look at the whole puzzle from move 1, was there a better first move that holds up stronger, or was b7 truly the optimal start to the sequence?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After the sequence b7 a8, what happens if I immediately play g2 instead of c8? Does that line hold up, or does White have an even stronger reply there?"
+  }
+]

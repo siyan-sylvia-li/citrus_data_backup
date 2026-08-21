@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Julie currently posts to 1.2 million followers cooking videos that feature her quick, healthy recipes. She works four days weekly, and her time and budget are limited. Please come up with a concrete three-year plan for her to grow online and publish a cookbook. She is not sure whether to use self-publishing or traditional publishing for the cookbook.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 3.0,
+  "submitted_at": "2026-08-21T13:54:57.643911+00:00"
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I've got g2, b6, a7, and c8. b6 looks like it flips a few, but I don't want to open up the board for White. Which one is the most solid play here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  }
+]

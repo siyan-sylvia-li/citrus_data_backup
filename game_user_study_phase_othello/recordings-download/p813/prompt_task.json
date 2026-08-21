@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Hi, Julie posts cooking videos and wants to grow her already considerable social media page following, and  publish a cook book. She has set her goal as three years from now for the book. Time and budget are limited. Please create an actionable plan with timings and expected outcomes.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-05T12:51:49.644452+00:00"
+}

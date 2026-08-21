@@ -1,0 +1,41 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm new to this. Which of these moves looks the safest for me to start with?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm a bit confused. Why did I lose by so much? Did I make a big mistake somewhere?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "You mentioned \"stable discs\"... I'm not sure I follow. What does that mean exactly?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I remember playing 'c8' earlier. Was that a bad move, or did it at least help a bit?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Thanks. If I were to play this again, what's one simple thing I should keep in mind so I don't get crushed like this?"
+  }
+]

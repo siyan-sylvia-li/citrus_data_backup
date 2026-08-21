@@ -1,0 +1,49 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Which of my legal moves (g2, b6, a7, b7, b8, c8) leaves me with the most discs at the very end, assuming White plays perfectly?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "My legal moves are now g2, b6, a7, c8. b6 flips 4 but might let White play c8 and flip a bunch back. c8 only flips 1 now. a7 flips 1. g2 flips 2. Which one leaves me with the most discs at the end?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I lost a lot of discs going from b7 to c8 \u2014 why was c8 still better than b6 in that spot? What does White do if I play b6 instead?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Why did White pass after a3? It seems like they still had pieces on the board \u2014 was it because every empty square was surrounded by Black?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "At the very end when I played h1, did g2 get auto-played because White had no legal moves at all? Just want to make sure I understand why that last move got forced."
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at this board and I notice my red pieces at c6r1 and c5r2 seem to line up diagonally toward c4 and c3. Is playing column 4 a safe, good move right now, or is there a threat from Yellow I should be blocking instead?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I've got red diagonal pieces at c6r1, c5r2, c4r3 \u2014 three in a row aiming at c3r4. Column 3 only has 2 pieces so far so that winning spot isn't open yet. What should I play now so I don't mess up that setup, and is there a risk if I play column 2 or something else?"
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "If we both just avoid column 3 and fill up the rest of the board, could it end up that I'M the one forced to play column 3 first (handing Yellow the win instead)? What's the actual correct move for me right now to make sure this trap works in my favor?"
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  }
+]

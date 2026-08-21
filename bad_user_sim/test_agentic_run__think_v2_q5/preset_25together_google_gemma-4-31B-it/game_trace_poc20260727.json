@@ -1,0 +1,41 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at the final board and I'm just not getting how White flipped so many pieces at the end. Was b8 a huge mistake?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at my options: g2, b6, a7, b7, b8, c8. Any of these stand out as a strong opening move for this endgame?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at the board and I see g2, b6, a7, b7, b8, and c8 as my legal moves. Any of these look like a safer bet to start with?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Since it's over, can you explain the \"corner\" strategy a bit more? I've heard it's important, but I'm not exactly sure how to use it to my advantage."
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Looking back at the rules, it said not to simulate the whole game. Is there a quicker way to judge a move's value without doing all that mental math?"
+  }
+]

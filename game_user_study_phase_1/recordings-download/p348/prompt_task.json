@@ -1,0 +1,19 @@
+{
+  "created_prompt": "I need you to help me come up with a solid 3-year plan. I currently publish cooking videos to my 1.2 million followers, and I want to grow my platform as well as publish a cookbook. I work four days a week and have limited time/budget.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-23T16:20:26.516433+00:00"
+}

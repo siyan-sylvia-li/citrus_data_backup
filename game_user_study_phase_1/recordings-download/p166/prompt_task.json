@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Can you create a three-year plan for me as a cooking influencer? I want to grow online and publish a cookbook within those three years. I work 4 days a week and have a limited budget.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-16T15:51:28.443233+00:00"
+}

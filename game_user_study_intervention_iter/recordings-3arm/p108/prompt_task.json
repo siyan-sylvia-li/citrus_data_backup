@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Please can you devise for me a 3-year plan for publishing a cooking book. I have a large social media following of 1.2 million and people seem to love my quick and healthy recipes. Therefore i would like to publish a book of my recipes. However i cannot decide whether to self publish or to publish traditionally through a publishing house.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.667,
+  "submitted_at": "2026-08-21T13:12:37.481503+00:00"
+}

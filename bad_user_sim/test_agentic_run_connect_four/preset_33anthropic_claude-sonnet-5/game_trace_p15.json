@@ -1,0 +1,29 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Hi! Looking at this board, I don't see an immediate win for me, but I'm torn between playing column 2 (builds my vertical and blocks a sneaky yellow diagonal) or column 5 (kills yellow's diagonal through c6r2/c7r1). Is one of these clearly better, or is there something stronger I'm missing?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  }
+]

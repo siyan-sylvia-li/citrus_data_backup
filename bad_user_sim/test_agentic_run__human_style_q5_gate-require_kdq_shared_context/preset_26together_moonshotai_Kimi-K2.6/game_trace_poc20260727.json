@@ -1,0 +1,41 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "b7 flips a whole row of white discs. Is that the kind of move you want in the endgame, or does it usually backfire?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I got wiped out at the end there. What did I do wrong?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Why do corner discs never flip back? Is there a special rule for corners?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "what does 'stable edge' mean exactly? is it just edge discs or something else?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "why did c8 flip discs all the way up to f5? i don't see the straight line there"
+  }
+]

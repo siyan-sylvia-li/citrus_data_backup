@@ -1,0 +1,25 @@
+{
+  "created_prompt": "devise a concrete three-year plan for Julie she posts healthy cooking videos to 1.2M followers over the next three years she wants to grow online and publish a cookbook but has limited money and time",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.667,
+  "submitted_at": "2026-08-21T13:41:22.026403+00:00"
+}

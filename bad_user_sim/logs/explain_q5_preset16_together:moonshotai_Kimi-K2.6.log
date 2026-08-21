@@ -1,0 +1,70 @@
+    (HTTP 429: waiting 2s, attempt 1)
+    (HTTP 429: waiting 2s, attempt 1)
+    (HTTP 429: waiting 4s, attempt 2)
+    (moonshotai/Kimi-K2.6: max_tokens 200000 -> 50000)
+    (moonshotai/Kimi-K2.6: max_tokens 50000 -> 12500)
+    (moonshotai/Kimi-K2.6: max_tokens 12500 -> 4096)
+Traceback (most recent call last):
+  File "/data/home/siyanli/agentic_sim/bad_user_sim/agentic_sim.py", line 701, in <module>
+    runs = sim.run()                     # every round the study runs, in order
+  File "/data/home/siyanli/agentic_sim/bad_user_sim/agentic_sim.py", line 523, in run
+    self.result = self._play_puzzle(puzzle_id, rnd["ai"], history)
+  File "/data/home/siyanli/agentic_sim/bad_user_sim/agentic_sim.py", line 544, in _play_puzzle
+    return student_agent.run_sync(
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/agent/abstract.py", line 582, in run_sync
+    return _utils.get_event_loop().run_until_complete(
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/agent/abstract.py", line 446, in run
+    node = await agent_run.next(node)  # pyright: ignore[reportArgumentType]
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/run.py", line 404, in next
+    return await self._run_node_with_hooks(node, self._advance_graph)
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/run.py", line 328, in _run_node_with_hooks
+    return await self._wrap_and_advance(run_context, node, step_fn)
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/run.py", line 298, in _wrap_and_advance
+    result = await cap.on_node_run_error(run_context, node=node, error=e)
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/capabilities/combined.py", line 331, in on_node_run_error
+    raise error
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/capabilities/combined.py", line 328, in on_node_run_error
+    return await capability.on_node_run_error(cap_ctx, node=node, error=error)
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/capabilities/abstract.py", line 536, in on_node_run_error
+    raise error
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/capabilities/combined.py", line 328, in on_node_run_error
+    return await capability.on_node_run_error(cap_ctx, node=node, error=error)
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/capabilities/abstract.py", line 536, in on_node_run_error
+    raise error
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/run.py", line 296, in _wrap_and_advance
+    result = await cap.wrap_node_run(run_context, node=node, handler=step_fn)
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/capabilities/combined.py", line 314, in wrap_node_run
+    return await chain(node)
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/capabilities/combined.py", line 745, in wrapped
+    return await cap.wrap_node_run(_ctx_for_cap(cap, ctx), node=node, handler=inner)
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/capabilities/abstract.py", line 515, in wrap_node_run
+    return await handler(node)
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/capabilities/combined.py", line 745, in wrapped
+    return await cap.wrap_node_run(_ctx_for_cap(cap, ctx), node=node, handler=inner)
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/capabilities/abstract.py", line 515, in wrap_node_run
+    return await handler(node)
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/run.py", line 274, in _advance_graph
+    task = await self._graph_run.next(task)
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_graph/graph_builder.py", line 557, in next
+    return await anext(self)
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_graph/graph_builder.py", line 534, in __anext__
+    raise self._next.error
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_graph/graph_builder.py", line 844, in _run_tracked_task
+    result = await self._run_task(t_)
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_graph/graph_builder.py", line 886, in _run_task
+    output = await node.call(step_context)
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_graph/step.py", line 253, in _call_node
+    return await node.run(GraphRunContext(state=ctx.state, deps=ctx.deps))
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/_agent_graph.py", line 1069, in run
+    async with self.stream(ctx):
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/contextlib.py", line 206, in __aexit__
+    await anext(self.gen)
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/_agent_graph.py", line 1089, in stream
+    async for _event in stream:
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/_agent_graph.py", line 1253, in _run_stream
+    async for event in self._events_iterator:
+  File "/data/home/siyanli/miniconda3/envs/citrus/lib/python3.10/site-packages/pydantic_ai/_agent_graph.py", line 1111, in _run_stream
+    raise exceptions.UnexpectedModelBehavior(
+pydantic_ai.exceptions.UnexpectedModelBehavior: Model token limit (4096) exceeded before any response was generated. Increase the `max_tokens` model setting, or simplify the prompt to result in a shorter response that will fit within the limit.

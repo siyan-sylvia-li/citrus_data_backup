@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Julie has 1.2 million followers for her quick healthy cooking videos and she wants to grow her online buiness over the next three years and publish a cookbook but she is not sure if she should go with a traditional publisher or self-publish. She works four days a week so she has limited time and budget. Create a realistic three year plan for Julie. Include how she should grow her audience, make money, build her brand and work into getting the cookbook written and published. Break the plan down by year and keep it realistic and feasible.",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T15:17:00.882441+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "created_prompt": "I need help growing an online cooking social media account. I also want to publish a cookbook. I work four days weekly and have a limited time and budget.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 2
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 1.667,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 1.667,
+  "submitted_at": "2026-08-20T01:07:10.473407+00:00"
+}

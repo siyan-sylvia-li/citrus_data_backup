@@ -1,0 +1,40 @@
+{
+  "prolific_id": "p69",
+  "game": "othello",
+  "rounds": [
+    {
+      "puzzle": "oc20260727",
+      "ai": true,
+      "ai_survey": true,
+      "gate": true,
+      "time_limit": 480,
+      "intro": {
+        "title": "Puzzle 1",
+        "body": "An <strong>AI assistant</strong> will be available to help you for this round. This is your <strong>only chance</strong> to use it in this study.<br>You MUST send the assistant <strong>5+ messages while you play</strong>. You will not be able to finish the round otherwise."
+      }
+    },
+    {
+      "puzzle": "b220260706",
+      "ai": false,
+      "ai_survey": false,
+      "survey": false,
+      "time_limit": 90,
+      "intro": {
+        "title": "Puzzles 2 and 3",
+        "body": "Two more puzzles, back to back. There is <strong>no AI assistant</strong> for either, and you will <strong>not</strong> need to fill out the AI assistant questionnaire afterward."
+      }
+    },
+    {
+      "puzzle": "bg20260726",
+      "ai": false,
+      "ai_survey": false,
+      "time_limit": 90,
+      "intro": {
+        "title": "Puzzle 3",
+        "body": "Last puzzle \u2014 same rules."
+      }
+    }
+  ],
+  "skill_rating": "1",
+  "started_at": "2026-08-18T19:02:43.845208+00:00"
+}

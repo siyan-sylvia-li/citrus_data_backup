@@ -1,0 +1,37 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I keep trying to reason through the endgame, but I'm stuck between b6 (looks like it flips a lot) and the corner moves like b8. I don't trust my mental math. What move should I play here, and why?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After b7 and White's a8, now my options are g2, b6, a7, c8. g2 looks like it flips a whole column, but c8 maybe nabs the corner region. I'm second-guessing myself again\u2014what's my best move here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm doing my best to count through, and b6 seems like it flips a solid block and might trap White into only having a3. But then again, g2 looks juicy too. Before I commit, can you confirm which of my three moves\u2014b6, g2, or a7\u2014wins me the most discs in the end?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "That was rough\u201422 to 42. Was White\u2019s lead actually unavoidable by this stage, or could a different first move have turned it around?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I played b6 when you said a7. Did that one choice cost me the endgame, or was White already too strong no matter what?"
+  },
+  {
+    "tool": "view_board"
+  }
+]

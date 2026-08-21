@@ -1,0 +1,50 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Considering my legal moves g2, b6, a7, b7, b8, c8, which one would give me the highest chance of having the most discs at the end of the game?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Which of my legal moves g2, b6, a7, c8 would result in the highest disc count for me at the end of the game?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Considering my current legal moves g2, b6, a7, which move would give me the best chance of maximizing my disc count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Given my current legal moves a1, g2, a3, which one would result in the best outcome for me?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Considering my current legal moves a1 and g2, which one would give me the best outcome?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Considering my current legal moves h1 and g2, which one would give me the best outcome?"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

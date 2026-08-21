@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Write a step by step 3 year plan for growing an audience for online cooking tutorials with these things in mind:\r\nthe person has only a few days a week to work on this\r\nbudget is very low\r\nalso wants to write a cookbook in that time period\r\nwould like information and advice about traditional versus self-publishing of cookbook including costs, steps to accomplish each options and estimated investment of time",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T15:01:03.279477+00:00"
+}

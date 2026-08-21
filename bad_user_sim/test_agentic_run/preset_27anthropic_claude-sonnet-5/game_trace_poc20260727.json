@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I'm Black with 20 discs vs White's 34, but only 10 squares left empty (g2, b6, a7, b7, b8, c8 are my legal moves). Which of these gives me the best shot at flipping the game in my favor by the end? I know discs can flip back so current count doesn't matter much, just want the best final outcome."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now Black 24 White 32, 8 empty left, my legal moves are g2, b6, a7, c8. Which one sets me up best for the finish?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Down to 6 empty squares: a1, h1, g2, a3, b6, a7. My legal moves are g2, b6, a7. Black 22 White 36 right now. Which move actually wins me the most discs at the very end? This is small enough to fully calculate I'd think."
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

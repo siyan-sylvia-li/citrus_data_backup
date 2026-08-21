@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Make a three-year plan for Julie, who wants to grow online and publish a cook book. She has 1.2 million followers who watch her cooking videos currently, and works four days a week, leaving limited time and resources to spare.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-10T23:55:08.685951+00:00"
+}

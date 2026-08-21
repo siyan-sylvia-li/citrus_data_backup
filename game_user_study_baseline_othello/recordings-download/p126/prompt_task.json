@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Draft a concrete 3-year plan for Julie who posts cooking videos to 1.2M followers, recipes are quick and healthy, she wants to grow online and publish a cookbook. Limited time and budget",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.333,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-20T13:23:12.542948+00:00"
+}

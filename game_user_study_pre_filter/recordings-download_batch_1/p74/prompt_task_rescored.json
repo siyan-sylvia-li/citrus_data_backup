@@ -1,0 +1,31 @@
+{
+  "created_prompt": "Can you help me device a 3 year plan to grow my online presence and publish a lifestyle cookbook with quick easy recopies. I've already grown my following to 1.2M followers. I do this while working 4 days a week on my real job, and while raising a child I've just adopted.\r\nWrite a concrete 3 year plan to reach my goal.",
+  "judges": [
+    {
+      "model": "qwen",
+      "score": 2
+    },
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.0,
+  "threshold": 3.0,
+  "passed": false,
+  "original": {
+    "judges": {
+      "llama": 3,
+      "qwen": 3,
+      "gpt": 3
+    },
+    "mean_score": 3.0,
+    "passed": true
+  },
+  "time_taken": 2.354
+}

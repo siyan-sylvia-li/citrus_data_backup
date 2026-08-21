@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I have limited time, and limited funds. I already post cooking videos to 1.2 million subscribers who love my work. My goal is to grow my online presence, while also publishing a cookbook. I\u2019m not sure which way to go with the cookbook, traditional or self published. Can you please give me a concrete step by step plan for the next three years?",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-30T19:14:58.816473+00:00"
+}

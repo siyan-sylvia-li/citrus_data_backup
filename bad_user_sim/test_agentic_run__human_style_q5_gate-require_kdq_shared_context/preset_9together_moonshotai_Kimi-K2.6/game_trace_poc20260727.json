@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "If I play at c8, does it flip every white disc in a straight line all the way out to the black disc at h3, even across five squares? Or does the flipping stop somewhere in between?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After c8, what legal moves would White have left? I'm trying to get a sense of whether c8 opens up corners for White later."
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After b7, what are White's legal moves? I'm hoping White doesn't get a corner."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "If I play c8 next, how many of my discs does White flip by replying a3?"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I don't get why b7 let White play a8 right after. Doesn't a8 need a line through b7, and since b7 was my black disc, why does that help White?"
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Can you identify the best column for Red here and the key threat or defense behind it?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After Red 4 and Yellow 5, what is Red's strongest next move? Please focus on any immediate winning threat, not just general positioning."
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "The center column is blocked now (Yellow at c4r6). Which column should Red play next to preserve a win\u2014there may be a diagonal setup involving c5, c6, and c7."
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "play_move",
+    "move": 7
+  }
+]

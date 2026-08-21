@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "What column should I play here? Can you quickly explain the winning idea so I know what to do after Yellow moves?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Yellow played 5. I don't see an instant win\u2014what's my best column now, and what's the threat?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Is column 3 the move now after Yellow played 1? If yes, how does it still work when Yellow can drop on top in 3?"
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Okay, Yellow stacked column 1 again. What's the forcing follow-up now?"
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  }
+]

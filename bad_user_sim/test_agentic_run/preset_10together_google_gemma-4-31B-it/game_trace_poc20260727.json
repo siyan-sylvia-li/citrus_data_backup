@@ -1,0 +1,50 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, looking at these legal moves (g2, b6, a7, b7, b8, c8), which one is the best play here to maximize my final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White just took a8. Now my moves are g2, b6, a7, c8. Which one's the best call now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Left with g2, b6, and a7. Which one is the optimal play now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I've got a1, g2, and a3 left. a1 is a corner\u2014is that the move to make here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I've got a1 and g2 left. If I take g2, I flip a bunch in the g-column, but if I take a1, it's a corner. Which one sets me up for a better finish?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Between h1 and g2, which one is the better move? I'm thinking h1 might flip the whole top row since a1 is black."
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

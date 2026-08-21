@@ -1,0 +1,9 @@
+{
+  "prolific_id": "preset_36openai_gpt-5.6-luna",
+  "game": "connect_four",
+  "age": 32,
+  "education": "some_college",
+  "occupation": "other",
+  "genai_usage": "daily",
+  "student_model": "openai:gpt-5.6-luna"
+}

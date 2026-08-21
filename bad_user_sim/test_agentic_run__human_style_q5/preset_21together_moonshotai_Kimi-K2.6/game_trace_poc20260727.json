@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "b7 and c8 both flip a bunch of discs. Which one's the better endgame move for black?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Current position: black to move, legal moves g2 b6 a7 c8. What's the best endgame move for black?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Given the current board, black to move with options g2 b6 a7. Is there any move that doesn't lose, or if all lose, which loses by the least?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Game just ended 22-42. Where did I mess up \u2014 b7, c8, or a1?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "So what was the right first move from the original position \u2014 g2 or b6?"
+  }
+]

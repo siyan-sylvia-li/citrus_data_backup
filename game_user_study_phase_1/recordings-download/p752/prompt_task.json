@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Please create a three-year plan that is focused on me expanding my business. I currently have 1.2M followers online and I'm known for quick, healthy recipes. I would like to get to the point where I can publish a cookbook. I'm not sure whether to go a traditional route via a publisher or self-publish it. I ccurently work 4 days weekly on this so I have limited extra time and budget.\r\n\r\nConcisely, I would like to publish a cookbook\r\nIncrease my presence online and continue the momentum I have\r\nAll without expanding beyond my current workload.\r\n\r\nThe three-year plan needs to be very concrete and concise.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-03T15:41:02.147396+00:00"
+}

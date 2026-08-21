@@ -1,0 +1,41 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I just lost that puzzle badly \u2014 went b7, b6, g2, b8 and ended with only 22 discs. Was b7 the wrong starting move, or did I mess up later? What should the first move have been?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "So b7 was the killer \u2014 it's that X-square trap. Would a7 have been safer, or should I have started with g2 or c8?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "What's a quick rule so I don't fall for that corner trap again? Avoid squares next to empty corners?"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Would c8 have been a better first move than b7?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "no moves left on this full board. what now?"
+  }
+]

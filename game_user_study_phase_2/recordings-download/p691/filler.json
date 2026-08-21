@@ -1,0 +1,25 @@
+{
+  "reflection": "Go get it - you have this. You have a loyal online following and is growing. Continue your online brand to generate additional revenue and start looking at ways to get your cookbook published.",
+  "effort": {
+    "judges": [
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 1
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.333,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-18T22:21:29.208669+00:00"
+}

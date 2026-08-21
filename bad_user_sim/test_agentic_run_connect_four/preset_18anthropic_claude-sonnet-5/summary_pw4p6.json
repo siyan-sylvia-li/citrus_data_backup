@@ -1,0 +1,40 @@
+{
+  "puzzle": "w4p6",
+  "decisions": 5,
+  "optimal_moves": 3,
+  "optimal_first_n": 2,
+  "decisions_first_n": 3,
+  "kept_win_moves": 5,
+  "opener_optimal": true,
+  "exact_decisions": 5,
+  "result": "red_win",
+  "won": true,
+  "plies_to_win_at_start": 7,
+  "completed": true,
+  "columns": [
+    "3",
+    "1",
+    "2!",
+    "4!",
+    "3"
+  ],
+  "auto_played": [],
+  "chat_turns": null,
+  "game": "connect_four",
+  "round": 1,
+  "ai_available": false,
+  "model_settings": {
+    "max_tokens": 100000
+  },
+  "questions_asked": 0,
+  "question_budget": 0,
+  "profile": {
+    "persona": "A journalist from the country being covered, who provides additional context and points of view",
+    "age": 36,
+    "education": "bachelors",
+    "occupation": "other",
+    "ai_frequency": "daily"
+  },
+  "student_model": "anthropic:claude-sonnet-5",
+  "streamed": false
+}

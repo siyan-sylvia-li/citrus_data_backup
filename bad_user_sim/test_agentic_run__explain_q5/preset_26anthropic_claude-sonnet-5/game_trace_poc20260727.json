@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Hi - I'm Black and White has way more discs than me right now (34 to 20), only 10 empty squares left. My legal moves are g2, b6, a7, b7, b8, c8. Which one gives me the best shot at winning by the end?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White just took a8 corner. Now my options are g2, b6, a7, c8. There's still a1 and h1 corners open too. Which move should I make now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Yikes, white is now at 36 to my 22, only 6 squares left (a1, h1, g2, a3, b6, a7). My legal moves are g2, b6, a7. Is there any way to salvage this, and which move is least bad?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Looking back, that c8 move you had me play really seemed to backfire - white jumped from 32 to 36 right after. Was that actually a mistake, or was it still the best option I had at the time?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Also I'm curious why white couldn't play at g2 right after I took h1 - can you explain in plain terms why that square became a dead end for them?"
+  }
+]

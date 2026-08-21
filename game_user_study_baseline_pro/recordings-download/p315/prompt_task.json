@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Can you help me come up with a concrete plan for scaling my cooking work?  I want to publish a cookbook and considerably increase my 1.2M online followers of my cooking videos. I've got three years--four days/week and not much money. I can do traditional or self-publishing (if it's not too expensive). Can you give me some measurable steps and a timeline to achieve these goals?",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-22T13:15:58.612527+00:00"
+}

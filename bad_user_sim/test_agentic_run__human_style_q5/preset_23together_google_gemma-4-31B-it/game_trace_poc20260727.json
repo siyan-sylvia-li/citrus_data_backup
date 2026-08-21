@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at b8 and c8, but I'm worried about giving away a corner. Is that a risk here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Between g2, b6, a7, and c8, which one minimizes White's next options?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm trailing by quite a bit. Does b6 give me a decent swing, or should I look at a7?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I've got a1, g2, and a3. I'm way behind\u2014is taking the corner at a1 the priority, or should I go for the bigger flip at g2?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Does g2 give White a way to take h1? Thinking about the tradeoff vs just taking a1 now."
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Write me a three year plan for growing my cooking video business that will help me grow and publish a cookbook. I currently have 1.2 million followers and post videos focusing on quick and healthy recipes. I work four days a week and have limited time and budget.",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.667,
+  "submitted_at": "2026-08-19T11:26:38.917389+00:00"
+}

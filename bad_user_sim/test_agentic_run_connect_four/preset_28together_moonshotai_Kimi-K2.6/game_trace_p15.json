@@ -1,0 +1,17 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "What should I be looking for on this board to find the move that forces a win? Are there any double threats I'm missing with the current setup?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  }
+]

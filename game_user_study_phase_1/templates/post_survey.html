@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Study — Post-study survey</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  <style>
+    .survey__item {
+      margin: 1.5rem 0;
+      padding-bottom: 1.25rem;
+      border-bottom: 1px solid #eee;
+    }
+    .survey__item:last-of-type { border-bottom: 0; }
+    .survey__prompt {
+      font-weight: 600;
+      margin: 0 0 0.75rem;
+      line-height: 1.4;
+    }
+    .survey__scale {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 0.5rem;
+    }
+    .survey__option {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 0.6rem 0.4rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.85rem;
+      line-height: 1.25;
+      background: #fff;
+      transition: background 0.15s, border-color 0.15s;
+    }
+    .survey__option:hover { background: #f3f7f4; }
+    .survey__option input { margin-bottom: 0.35rem; }
+    .survey__option input:checked + span { font-weight: 600; }
+    .survey__option:has(input:checked) {
+      border-color: #2D5A43;
+      background: #e8f1ec;
+    }
+    @media (max-width: 560px) {
+      .survey__scale { grid-template-columns: 1fr; }
+      .survey__option { flex-direction: row; justify-content: flex-start; gap: 0.5rem; padding: 0.5rem 0.75rem; }
+      .survey__option input { margin-bottom: 0; }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <h1 class="topbar__title">Post-study survey</h1>
+  </header>
+
+  <main class="start">
+    <form class="start__card" method="post" action="{{ url_for('post_survey') }}">
+      <p class="survey__progress" style="font-size:0.8rem;color:#777;margin:0 0 0.5rem;">Page 2 of 2</p>
+      <h2 class="start__title">Almost done</h2>
+
+      <p class="start__body">
+        Please complete this short external survey about the AI assistant. It
+        opens in a new tab — once you have submitted it, return here and click
+        <strong>Continue</strong> to finish the study.
+      </p>
+
+      {% if error %}
+        <div class="start__error">{{ error }}</div>
+      {% endif %}
+
+      <a
+        class="start__btn"
+        href="{{ form_url }}"
+        target="_blank"
+        rel="noopener"
+        style="display:block;text-align:center;text-decoration:none;margin-bottom:1rem;"
+      >Open the Survey Form</a>
+
+      <input type="hidden" name="page" value="external" />
+      <button type="submit" class="start__btn">Continue</button>
+    </form>
+  </main>
+</body>
+</html>

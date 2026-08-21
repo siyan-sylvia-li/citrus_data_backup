@@ -1,0 +1,34 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, I'm staring at this endgame and it's not obvious. b7 and c8 both flip a bunch of discs immediately, but I'm wary of giving White a killer response. Between g2, b6, a7, b7, b8, and c8, what's the move that actually maximizes my final disc count assuming White plays perfectly? I don't want to rely on just immediate flips."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Nice \u2014 the a8 reply flipped back b7 and c6, which changes the lines significantly. g2 and b6 both flip 5 discs now, while c8 looks neutered and a7 only gets 2. I could try to work through the tree, but with endgame accuracy being everything, which of g2, b6, a7, c8 actually holds up best against perfect play? I want to avoid a hidden White counter that undoes the mass."
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "So did I already lose this at the very first move? Was b7 actually the correct start, or was the puzzle lost from that very first decision under perfect play?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After White played a8, I had g2, b6, a7, c8. You said c8 was the quiet best move, but it only flipped d8 and then White took b8. Why was c8 still better than b6, which flipped four discs immediately?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Given how badly this ended, what heuristic should I have used at move 1 to avoid getting strung along like that? Corner avoidance, frontier count, or just assume that any line where White gets a stable a1/h1 corner is death?"
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Write a 3 year plan for someone who posts cooking videos to followers with limited time and budget restraints. Wants to grow online and publish a cook book. Torn on traditional vs self publishing",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.333,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.333,
+  "submitted_at": "2026-08-18T17:02:03.626849+00:00"
+}

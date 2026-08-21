@@ -1,0 +1,43 @@
+{
+  "puzzle": "w4p6",
+  "decisions": 6,
+  "optimal_moves": 3,
+  "optimal_first_n": 2,
+  "decisions_first_n": 3,
+  "kept_win_moves": 6,
+  "opener_optimal": true,
+  "exact_decisions": 6,
+  "result": "red_win",
+  "won": true,
+  "plies_to_win_at_start": 7,
+  "completed": true,
+  "columns": [
+    "3",
+    "1",
+    "4!",
+    "7!",
+    "4!",
+    "3"
+  ],
+  "auto_played": [],
+  "chat_turns": null,
+  "game": "connect_four",
+  "round": 1,
+  "ai_available": false,
+  "model_settings": {
+    "max_tokens": 100000
+  },
+  "questions_asked": 0,
+  "question_budget": 0,
+  "profile": {
+    "persona": "A graduate student from a different university conducting a similar study on the topic",
+    "age": 27,
+    "education": "some_postgrad",
+    "occupation": "education",
+    "ai_frequency": "daily"
+  },
+  "student_model": "anthropic:claude-sonnet-5",
+  "student_mode": "default",
+  "assistant_preset": "explain",
+  "streamed": false
+}

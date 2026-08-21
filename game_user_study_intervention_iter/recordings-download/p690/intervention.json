@@ -1,0 +1,71 @@
+{
+  "log": [
+    {
+      "event": "round_presented",
+      "timestamp": 1787258241789,
+      "round": 1,
+      "option_order": [
+        "direct_1",
+        "think_1"
+      ]
+    },
+    {
+      "event": "started",
+      "timestamp": 1787258241789
+    },
+    {
+      "event": "johnny_choice",
+      "timestamp": 1787258252236,
+      "round": 1,
+      "choice_id": "direct_1",
+      "choice_type": "solution_request",
+      "presented_index": 0,
+      "knowledge_added": null
+    },
+    {
+      "event": "round_presented",
+      "timestamp": 1787258263925,
+      "round": 2,
+      "option_order": [
+        "check_2",
+        "direct_2"
+      ]
+    },
+    {
+      "event": "johnny_choice",
+      "timestamp": 1787258265813,
+      "round": 2,
+      "choice_id": "direct_2",
+      "choice_type": "solution_request",
+      "presented_index": 1,
+      "knowledge_added": null
+    },
+    {
+      "event": "independent_started",
+      "timestamp": 1787258276730,
+      "knowledge": []
+    },
+    {
+      "event": "outcome_shown",
+      "timestamp": 1787258283381,
+      "knowledge": [],
+      "transfer_success": false
+    },
+    {
+      "event": "completed",
+      "timestamp": 1787258289296
+    }
+  ],
+  "knowledge": [],
+  "transfer_success": false,
+  "n_restarts": 0,
+  "choice_types": [
+    "solution_request",
+    "solution_request"
+  ],
+  "independent_choice": null,
+  "independent_target": null,
+  "form": "johnny_connect_four_boost",
+  "effort": null,
+  "submitted_at": "2026-08-20T20:38:09.589937+00:00"
+}

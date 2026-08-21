@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I'm playing Black in this Othello endgame with 10 empty squares left. My legal moves are g2, b6, a7, b7, b8, c8. Corners a1, h1, a8 are still open. Which move sets me up best to eventually control those corners and win the disc count? Can you walk me through the reasoning simply?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White just took a8. Now my options are g2, b6, a7, c8, with a1 and h1 corners still open. Which move gives me the best shot at winning the final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Down to 6 empty squares: a1, h1, g2, a3, b6, a7. My options are g2, b6, a7. I count g2 flips 5 discs (f2,g3,g4,g5,g6), which seems like the biggest gain, but corners a1 and h1 are still open. Is g2 still the right call, or does it expose me to losing those corners?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

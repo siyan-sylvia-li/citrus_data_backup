@@ -1,0 +1,34 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "What is the strongest move for Red here, and what is the key best-play continuation? Please account for immediate threats."
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After 4,5,4 and Yellow 1, what is Red's best next column? Please identify any immediate Yellow winning threat and whether Red can force a win."
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Board after my 5 and Yellow 1: should I play 4, 6, or another column? What is the concrete winning plan, not just general strategy?"
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  }
+]

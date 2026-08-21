@@ -1,0 +1,23 @@
+{
+  "created_prompt": "make a three-year business plan to scale up a popular video channel that focuses on healthy eating for people with limited time, with the ultimate goal beyond growth being to publish a cookbook. with an availability of four days per week and budget limitations, provide plans for how traditional publishing or self-publishing might play out over the course of three years, while growing from 1.2 million followers in that time",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T21:52:32.877358+00:00"
+}

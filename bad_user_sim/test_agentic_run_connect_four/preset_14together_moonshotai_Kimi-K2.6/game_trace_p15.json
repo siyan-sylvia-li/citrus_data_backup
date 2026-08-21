@@ -1,0 +1,18 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "This is a pretty sharp endgame. I can see some threads for Red\u2014like a potential diagonal through the middle and a vertical stack on the left\u2014but I\u2019m not certain which move actually forces the win. Any quick insight on the best developing move here? Is there a forced sequence Red should ride?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 2
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  }
+]

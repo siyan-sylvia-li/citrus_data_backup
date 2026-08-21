@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Help me design a concrete three-year plan to grow my 1.2M cooking video followers into a published cookbook (traditional or self-published?) with a limited time and budget.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "qwen",
+      "score": null
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-14T23:51:25.890124+00:00"
+}

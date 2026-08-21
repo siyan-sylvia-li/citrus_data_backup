@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "white played a8 and took my b7 back. now i got g2 a7 b8 c8. g2 flips a bunch but im not sure if a7 is better to save row 7. what do you think?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "game ended already. where did i go wrong? was b6 a bad first pick?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "could i have gotten a1 instead? or was it already whites for sure"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "so in endgame dont go for the move that flips the most? thats backwards from what i thought"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "so b8 was okay but i was already behind because of b6? thats rough. thanks for the tips"
+  }
+]

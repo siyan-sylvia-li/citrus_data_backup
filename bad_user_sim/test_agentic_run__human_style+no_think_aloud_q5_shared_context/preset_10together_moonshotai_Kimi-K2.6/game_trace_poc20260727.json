@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Which of my legal moves is best for maximizing my final disc count?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Why is b7 better than c8? c8 seems to flip more discs immediately."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Where did I go wrong in that game?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Would c8 at move 3 have been better than g2?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Could I have saved the a8 corner somehow?"
+  }
+]

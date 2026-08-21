@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Create a step-by-step, three-year plan to help Julie move from posting cooking videos on her social media channel of healthy recipes toward publishing a cookbook and continuing to grow her social following. Allocate time around Julie four-day work schedule and limited time and finances. Make the result actionable with measurable goals.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-28T13:54:49.795788+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Act as a person and help me publish a cookbook (torn on traditional vs self-publishing. Make it to be a 3 year plan",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 2
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 1.667,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 1.667,
+  "submitted_at": "2026-08-18T11:42:29.146164+00:00"
+}

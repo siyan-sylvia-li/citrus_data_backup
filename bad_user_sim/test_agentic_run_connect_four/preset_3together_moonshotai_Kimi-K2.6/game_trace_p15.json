@@ -1,0 +1,34 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "hi \u2014 i'm looking at this connect four endgame and i'm stuck between a couple moves. i see column 2 gives me three vertical, but if yellow blocks there i'm not sure i still win. is column 2 the right play, or is there a sneakier diagonal threat i'm missing? what's the first move here?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "okay i played 4 and yellow answered in 5. what's my next play to keep the win alive? is it still that c2 vertical to force a block, or is there a different threat now?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "okay i did c4 and yellow answered c1. i see a potential diagonal with c1r2-c2r2-c3r3-c4r4 if i play c3, but yellow can block in c3r4. should i keep building the center or switch to forcing c2? what's the next move to keep the win?"
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  }
+]

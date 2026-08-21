@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Create a concrete three-year plan on how Julie can develop from social media posting her recipes to her 1.2M followers to publishing a cookbook, while maintaining social media growth. Outline the pros and cons of traditional vs. self-publishing. Make the plan realistic and achievable while on a limited time budget.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-04T13:23:47.764391+00:00"
+}

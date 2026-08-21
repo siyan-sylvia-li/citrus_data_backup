@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Currently, I post cooking videos in between working four days a week, and I have 1.2million followers. I cover my living expense through my for-day-a-week job, so my available budget and time are limited. That said, over the next three years, I'd like to expand the scope of my online activities and also publish a cookbook.\r\nFirst, please tell me concretely how I could expand my online activities over the course of three years, In addition, regarding publishing the book, please compare self-publishing versus publishing through a traditional publisher, and give me a plan for achieving this withing three years as well.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-10T23:38:22.938128+00:00"
+}

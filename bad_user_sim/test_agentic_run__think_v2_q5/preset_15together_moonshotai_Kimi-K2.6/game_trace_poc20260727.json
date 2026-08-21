@@ -1,0 +1,37 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "b6 and c8 both look like they flip a lot. Does one of them shut White out better so I end up with more discs?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I messed that up pretty bad. Could you walk me through whether b6 was a bad first move, and if c8 would've been better to start?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Okay, so giving up that corner was the killer. After White took a1, I had g2, a7, b7, b8, c8 left. Was c8 really the best there, or should I have tried something else?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "When the game auto-played g2 for me after White's a3, was that really my only choice? I couldn't tell if a7 or b8 were already legal then."
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "At the very end I had a7, a8, b8 and picked a7, then White ran the table on me. Was it already too late no matter what, or would a8 or b8 have saved me a few discs?"
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "The long diagonal to a1 looks lethal for White, and a3 and b6 look like nightmare follow-ups. Is b7 the only move that blocks a1, or is there a better endgame sequence I should be aiming for?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I just lost 22-42 after opening with b7. Was b7 actually the best first move, or was a7 better to take the corner immediately?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Right \u2014 a8 wasn't legal at first, only a7. So b7 was probably right. But after White played a8, should I have answered with a7 instead of b6 to fight for that corner?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "If I face this exact setup again, is b7 still the right plan, or should I consider g2 first to lock down the right edge?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "One last thing \u2014 when White played a8 after my b6, the whole left edge collapsed. Would a7 on that turn have slowed that down at all?"
+  },
+  {
+    "tool": "view_board"
+  }
+]

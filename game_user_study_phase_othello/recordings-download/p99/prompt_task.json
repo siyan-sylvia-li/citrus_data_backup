@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Help me develop a concrete three year plan to accomplish my dual goals of growing online and publishing a cookbook.\r\n\r\nGrowing online: I currently have 1.2M followers who watch my videos. I focus on quick, healthy recipes. I want to grow my online presence over the next three years.\r\n\r\nCookbook: I would like to publish a cookbook, either self-published or via traditional publishing methods. I'm not sure which, so you should bear this in mind when creating the plan as I may choose one or the other.\r\n\r\nI work four days a week, so I have a limited time and budget. Create a three-year plan to help me accomplish these goals. Break this down by year, month, and week, so that I can see measurable progress toward goals each week.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 4
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.333,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-05T17:29:16.467191+00:00"
+}

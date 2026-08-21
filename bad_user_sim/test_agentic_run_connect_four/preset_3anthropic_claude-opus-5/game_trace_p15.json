@@ -1,0 +1,37 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "quick gut check \u2014 I want to play column 5 to sit on c5r3 and kill yellow's c7r1/c6r2 diagonal before it hits c4r4. but yellow has two stacked in col 4. is col 5 right or do i have to block col 4 first?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "but if i play c4r3, yellow just drops c5 and that makes c7r1-c6r2-c5r3-c4r4 a live threat, so i'm forced to c4r4 anyway and my row 3 is dead. if instead i take c5r3 myself, yellow's col-4 stack only ever gets to three and i block c4r4 with tempo. doesn't c5 come out ahead?"
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 7
+  }
+]

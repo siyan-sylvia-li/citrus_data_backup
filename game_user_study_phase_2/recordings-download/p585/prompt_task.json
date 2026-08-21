@@ -1,0 +1,25 @@
+{
+  "created_prompt": "My name is Julie and I post cooking videos online. i have 1.2million followers , i want to grow online even further so i can publish a torn on traditional cookbook. i work 4 days a week and i have al imited time and bugdet so pelase help me come up wuth a concreet 3 year plan to achieve this.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.333,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.333,
+  "submitted_at": "2026-08-18T11:36:44.355729+00:00"
+}

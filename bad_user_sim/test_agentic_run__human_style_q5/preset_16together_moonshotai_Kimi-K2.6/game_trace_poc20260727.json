@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Which of b6, a7, c8 wins from 29-29? b6 and a7 both give white a big counter on the next turn."
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Where did I lose this? Was it b7, c8, or the whole endgame approach?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "So b7 was an X-square mistake? Why was a8 so strong for white after that?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "If I had to choose one move to undo, should it have been g2 or b7?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Any quick rule for spotting X-square traps in endgame? I usually catch them earlier."
+  }
+]

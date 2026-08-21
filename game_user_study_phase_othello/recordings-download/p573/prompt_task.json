@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Develop a three year plan to produce a cook book that contains only quick and healthy recipes. Please tell me the advantages of both traditional publishing and self publishing. How can this plan help me to grow online? I don't have much time to spend on this with a limited budget.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T14:27:01.763512+00:00"
+}

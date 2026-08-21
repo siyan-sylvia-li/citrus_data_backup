@@ -1,0 +1,17 @@
+{
+  "game": "connect_four",
+  "nasa_tlx": {
+    "effort": 5,
+    "frustration": 1,
+    "mental_demand": 4,
+    "performance": 7,
+    "physical_demand": 1,
+    "temporal_demand": 3
+  },
+  "ai_likert": {
+    "ai_consistent": 4,
+    "ai_easy_to_use": 5
+  },
+  "additional_feedback": "I think the columns and rows should have been numbered on the actual image to make the notation easier to describe.",
+  "submitted_at": "2026-06-27T01:06:38.569381+00:00"
+}

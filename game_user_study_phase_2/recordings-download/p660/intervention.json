@@ -1,0 +1,28 @@
+{
+  "variant": "v9_two_rows",
+  "observation": "One group is asking for general help.  They are asking questions about what is the best move.  The other group is asking questions about a specific move.",
+  "choice": "B",
+  "choice_correct": true,
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 4
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 3
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.333,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-19T11:27:35.434585+00:00"
+}

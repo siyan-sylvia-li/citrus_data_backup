@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I am a food content creator and post cooking videos and recipes to my 1.2M followers. I want to both continue to grow my current platform and also publish a cookbook of my recipes, though I am unsure whether to aim for either traditional or self-publishing. Could you help me devise a three year plan to try and achieve these goals? When formulating the plan, please consider that I work four days per week and have a limited budget.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-05T13:04:36.728932+00:00"
+}

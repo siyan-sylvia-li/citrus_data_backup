@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Please develop a three year growth plan for a cooking influencer who works 4 days a week with a limited budget who wants to grow their online following and  publish a cookbook. They are also not sure if they want to do traditional publishing or self publishing",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.667,
+  "submitted_at": "2026-08-19T11:23:16.086904+00:00"
+}

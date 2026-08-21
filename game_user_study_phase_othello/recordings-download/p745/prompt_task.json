@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Please devise a concrete 3 year plan for the following scenario: \r\nJulie wants to grow her already large online following and publish a cookbook. Her online community watches her content for the quick and healthy recipes. Since she works 4 times a week, she only has 10-20 hours weekly with little budget to spare. \r\nPlease follow two different scenarios, one with a traditional publication of the cookbook and one with a self-publishing approach. Compare both paths regarding the needs of the online community and her time and monetary ressources. I want to see two approachable 3-year plans with summary for a recommendation which path suits her better.",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-05T13:57:33.158079+00:00"
+}

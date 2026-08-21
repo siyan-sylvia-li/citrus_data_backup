@@ -1,0 +1,41 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I'm Black and I'm down 20 to 34 with only 10 empty squares left. My options are g2, b6, a7, b7, b8, c8. Which one gives me the best shot at catching up by the end?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now I can play g2, b6, a7, or c8. g2 looks like it flips a bunch (f2, g3, g4, g5, g6) - is that really the strongest move here, or is there a trap I'm not seeing?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Only g2, b6, or a7 left to choose from right now with 6 empty squares total. Which of these three actually gives me the best final result, playing it all the way out?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Looking back, was giving up that a7 move (letting White grab b6 and flip a whole bunch) the moment things really went south for me? I'm trying to understand where I lost the thread."
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I actually did play a7 that turn, and White still answered with b6 right after and flipped a bunch of my column. Was that b6 swing avoidable at all, or was it already locked in by that point no matter what I played?"
+  }
+]

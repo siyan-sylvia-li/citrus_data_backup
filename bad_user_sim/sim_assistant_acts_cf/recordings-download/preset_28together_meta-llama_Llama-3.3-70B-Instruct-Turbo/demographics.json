@@ -1,0 +1,9 @@
+{
+  "prolific_id": "preset_28together_meta-llama_Llama-3.3-70B-Instruct-Turbo",
+  "game": "connect_four",
+  "age": 35,
+  "education": "associate",
+  "occupation": "healthcare",
+  "genai_usage": "few_times_month",
+  "student_model": "together:meta-llama/Llama-3.3-70B-Instruct-Turbo"
+}

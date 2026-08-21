@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Devise a 3 year plan with 2 similtaneous outcomes:\r\nOutcome 1: Encourage online growth\r\nCaveat: limited time and budget. Already work 4 days a week in another job.\r\nOutcome 2: Publish cook book.\r\nCaveat: discuss traditional vs self-pblishing",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.667,
+  "submitted_at": "2026-08-18T11:36:58.522427+00:00"
+}

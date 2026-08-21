@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Devise a concrete three-year plan for Julie, considering the goal is wanting to grow online and publish a a cookbook (which still torn on traditional vs. self-publishing) and also considering Julie posts cooking videos to 1.2M followers who love her quick, healthy recipes and works four days weekly, limited time and budget. Be detailed and as reaslistic as possible, mentioning what should be a priority first to focus on and include the goals to measure on a planner so the progress can be tracked over time.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "qwen",
+      "score": null
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-14T23:57:04.690880+00:00"
+}

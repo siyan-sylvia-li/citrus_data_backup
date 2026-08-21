@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Please create a concrete three year plan for publishing a cookbook (traditional or self-published) based on my quick, healthy recipes from my cooking videos I publish keeping in my that I work four days every week and have a limited budget.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-03T15:30:05.896691+00:00"
+}

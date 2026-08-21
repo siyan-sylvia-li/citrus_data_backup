@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Generate a three-year plan to gain traction online in the cooking/recipe niche for social media with a starting base of 1.2M followers, this plan should include advice on publishing a cookbook, the pros and cons of traditional vs. self-publishing, and take into account that time and the budget is quite limited (work takes up 4 days out of the week).",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-23T16:13:11.990064+00:00"
+}

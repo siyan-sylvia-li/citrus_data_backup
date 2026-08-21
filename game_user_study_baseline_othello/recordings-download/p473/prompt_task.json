@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Can you create a business plan over a period of 3 years to grow an online cooking and recipe social media account (currently with 1.2m followers) and with the aim to publish a cookbook within this time, I have a low budget and 1-3 days a week.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.333,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-20T13:50:52.883698+00:00"
+}

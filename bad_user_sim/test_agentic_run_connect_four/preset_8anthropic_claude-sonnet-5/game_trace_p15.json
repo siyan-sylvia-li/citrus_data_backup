@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, first time doing one of these C4 endgame puzzles. Looking at this board, is there a clear best move for Red right now, and what's the reasoning? I'm seeing a possible diagonal setup with c5r2/c6r1 but not sure how to think about it strategically."
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Ok so I've got R's at c4r3, c5r2, c6r1 - if I ever get c3r4 I win that diagonal. But c3 is only filled to row2 right now, so someone has to play row3 first before row4 opens up. I don't want to be the one who plays c3 row3 since then yellow just blocks row4. What's my best move right now to work toward forcing yellow into playing c3 first, or is there a better plan?"
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "play_move",
+    "move": 6
+  },
+  {
+    "tool": "play_move",
+    "move": 1
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 7
+  }
+]

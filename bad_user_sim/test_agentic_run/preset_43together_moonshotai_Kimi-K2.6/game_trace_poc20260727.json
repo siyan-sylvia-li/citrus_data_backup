@@ -1,0 +1,22 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "b6 flips the most rn but c8 feels safer on the edge. which should i play to win this endgame?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "my legal moves are g2, b6, a7, c8 after white hit a8. b6 flips the most but i think white answers c8. what's my best move here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  }
+]

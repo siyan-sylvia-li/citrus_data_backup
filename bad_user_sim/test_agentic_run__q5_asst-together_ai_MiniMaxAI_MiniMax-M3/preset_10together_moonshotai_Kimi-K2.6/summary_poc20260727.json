@@ -1,0 +1,48 @@
+{
+  "puzzle": "oc20260727",
+  "decisions": 4,
+  "optimal_moves": 1,
+  "opener_optimal": true,
+  "discs_lost": 36,
+  "final_margin": -18,
+  "won": false,
+  "optimal_margin": 18,
+  "completed": true,
+  "moves": [
+    "b7",
+    "a7!",
+    "c8!",
+    "g2!"
+  ],
+  "auto_played": [
+    "a1"
+  ],
+  "chat_turns": null,
+  "game": "othello",
+  "round": 0,
+  "ai_available": true,
+  "model_settings": {
+    "max_tokens": 200000
+  },
+  "questions_asked": 5,
+  "question_budget": 5,
+  "profile": {
+    "persona": "A graduate student from a different university conducting a similar study on the topic",
+    "age": 27,
+    "education": "some_postgrad",
+    "occupation": "education",
+    "ai_frequency": "daily"
+  },
+  "student_model": "together:moonshotai/Kimi-K2.6",
+  "student_mode": "default",
+  "questions_required": 5,
+  "assistant_off": false,
+  "assistant_model": "together_ai/MiniMaxAI/MiniMax-M3",
+  "tool_framing": "default",
+  "gate": null,
+  "gate_blocked": 0,
+  "gate_errors": 0,
+  "gate_model": null,
+  "assistant_preset": "default",
+  "streamed": false
+}

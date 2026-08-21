@@ -1,0 +1,32 @@
+{
+  "created_prompt": "You are a business advisor skilled in growth of small social businesses. Devise a 3 year plan for Julie who wants to grow online and publish a cookbook (undecided between traditional or self publishing). Julie currently posts cooking videos ro 1.2million followers who love her quick and healthy recipes. Do not hallucinate.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "original": {
+    "judges": {
+      "llama": 3,
+      "gpt": 3
+    },
+    "mean_score": 3.0,
+    "median_score": 3.0,
+    "passed": true
+  },
+  "time_taken": 2.951
+}

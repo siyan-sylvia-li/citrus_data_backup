@@ -1,0 +1,50 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I\u2019m looking at the edge moves, and I\u2019m not sure which one avoids giving White a strong reply. Which legal move is best if White also plays carefully?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After b7, White took a8 and I have g2, b6, a7, or c8. I\u2019m trying to protect the corners; what should I play next?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "That bottom edge is mostly White now, so I\u2019m worried c8 was not enough. With g2, b6, and a7 left, which one gives Black the best finish?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now a1 is open, plus g2 and a3. I\u2019d normally take the corner, but can you confirm a1 is still the safest move here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White passed, and only a1 or g2 remain for me. The corner seems valuable now; should I take a1 first?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "We\u2019re down to h1 and g2, with White still passing. I\u2019m leaning toward the h1 corner; is there any trap in taking it?"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

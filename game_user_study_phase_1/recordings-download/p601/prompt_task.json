@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Hi, I want you to help me to come up with a three year plan to help me grow online and eventually publish a cooking book. Right now I have 1.2 million followers online for my cooking videos which specialise in quick and healthy recipes. My goal would be to further grow online and eventually publish a cookbook (not sure whether a traditional or self-published). I work four days a week currently so I have limited time as well as a limited budget. Can you help me with this 3 year plan?",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-28T13:25:10.237600+00:00"
+}

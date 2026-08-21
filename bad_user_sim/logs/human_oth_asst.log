@@ -1,0 +1,60 @@
+  25 turns
+  50 turns
+  75 turns
+  100 turns
+  125 turns
+  150 turns
+  175 turns
+  200 turns
+  225 turns
+  250 turns
+  275 turns
+  300 turns
+  325 turns
+  350 turns
+  375 turns
+  400 turns
+  425 turns
+  450 turns
+  475 turns
+  500 turns
+  525 turns
+  550 turns
+  575 turns
+  600 turns
+  625 turns
+  650 turns
+annotated 667 human turn(s)
+
+HUMAN OTHELLO | 120 participants | 667 coded assistant turns
+  112 have both solo scores (outcome mean -14.1, sd 11.9)
+  reliability: Jaccard 0.731  Fleiss kappa 0.532
+
+                             act  prev%    sd  kappa     rho       p      q  tag
+                    Move Verdict   80.0  31.6   0.80  -0.198   0.037  0.157  
+                    Board Report   82.5  29.1   0.70  +0.231   0.014  0.155  
+             Local Justification   97.5  22.2   0.67  -0.111   0.243  0.534  
+                     Worked Line   45.8  13.8   0.61  +0.062   0.519  0.715  <PREDICTED +>
+               General Principle   95.0  27.8   0.71  +0.061   0.520  0.715  <PREDICTED +>
+                            Hint   66.7  24.7   0.61  +0.113   0.235  0.534  
+                          Prompt   77.5  22.3   0.78  +0.050   0.604  0.738  
+  Comprehension Gauging Question    0.0   0.0  -0.00     n/a     nan      -  no variance
+                      Paraphrase    6.7   4.7   0.29  +0.029   0.758  0.758  
+               Positive Feedback   35.8  14.5   0.36  +0.038   0.690  0.758  
+               Negative Feedback   45.8  15.6   0.54  +0.192   0.043  0.157  
+                Neutral Feedback   40.0  12.4   0.31  +0.091   0.338  0.620  
+
+                             act   human%    sim%    diff
+                    Move Verdict     41.0    90.8   -49.7
+                    Board Report     41.4    20.0   +21.4
+             Local Justification     74.9    88.3   -13.4
+                     Worked Line     11.4    21.4   -10.0
+               General Principle     59.4    33.2   +26.2
+                            Hint     26.3     2.6   +23.7
+                          Prompt     29.3     2.0   +27.3
+  Comprehension Gauging Question      0.0     0.0    +0.0
+                      Paraphrase      1.2     0.5    +0.7
+               Positive Feedback      9.2     3.9    +5.3
+               Negative Feedback     11.9     2.4    +9.5
+                Neutral Feedback      8.7     0.5    +8.2
+  share = mean % of a conversation's assistant turns carrying the act

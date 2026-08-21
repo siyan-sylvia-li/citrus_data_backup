@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Please devise a specific 3 year plan to help online growth and writing and publishing a cookbook. At the moment cooking videos are posted to 1.2 million followers who prefer fast and healthy recipes. I work 4 days a week, have limited time and limited budget. I am unsure whether to self-publish or use traditional publishing methods so please include both options with pros and cons for both included in the 3 year plan.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-03T16:13:07.411490+00:00"
+}

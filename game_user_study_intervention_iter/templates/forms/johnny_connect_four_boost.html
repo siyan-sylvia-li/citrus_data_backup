@@ -1,0 +1,572 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Johnny Learns with AI</title>
+<style>
+:root{
+  --bg:#ECF5EA;--panel:#fff;--text:#1f2933;--muted:#486581;--border:#cbd2d9;
+  /* Greens match static/style.css: --accent is the topbar green, --accent-btn the
+     primary-button green it darkens to on hover. --yellow/--red stay as they are:
+     they identify the Connect Four discs, not the theme. */
+  --accent:#2D5A43;--accent-btn:#6DB38A;--accent-soft:#CFE7D2;--panel-soft:#e8f1ec;
+  --yellow:#f4c542;--red:#d95b5b;--knowledge:#fff7d6
+}
+*{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+button{font:inherit}.page{width:min(940px,calc(100% - 28px));margin:28px auto 60px}.topbar{display:flex;justify-content:space-between;gap:18px;align-items:flex-start;margin-bottom:18px}
+h1{margin:0 0 6px;font-size:24px}.muted{color:var(--muted);font-size:14px}.legend{display:flex;gap:14px;flex-wrap:wrap;margin-top:10px;font-size:14px}.legend-item{display:flex;gap:7px;align-items:center}
+.dot{width:16px;height:16px;border-radius:50%;border:1px solid}.yellow{background:var(--yellow);border-color:#9a7614}.red{background:var(--red);border-color:#923d3d}
+.layout{display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:20px;align-items:start}@media(max-width:760px){.layout{grid-template-columns:1fr}.page{width:min(100% - 18px,940px)}.stats{grid-template-columns:1fr!important}}
+.card{background:var(--panel);border:1px solid var(--border);border-radius:16px;padding:16px}.avatar-row{display:flex;align-items:center;gap:13px;margin-bottom:16px}
+.avatar{position:relative;width:68px;height:68px;border-radius:50%;border:1px solid var(--border);background:var(--accent-soft);display:flex;align-items:center;justify-content:center}
+.jb-cat{display:block;overflow:visible}
+/* A slow double-blink -- enough to read as alive, not enough to pull the eye off the task. */
+@keyframes jb-blinkeyes{0%,92%,100%{transform:scaleY(1)}94%,97%{transform:scaleY(.08)}}
+.jb-eyes{transform-origin:32px 32px;animation:jb-blinkeyes 6.5s ease-in-out infinite}
+.backpack-bubble{position:absolute;right:-5px;bottom:-4px;width:30px;height:30px;border:1px solid var(--border);background:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center}
+.phase{color:var(--muted);font-size:14px;margin-top:3px}.board-wrap{margin-bottom:14px}.board{max-width:390px;margin:0 auto;display:grid;grid-template-columns:repeat(7,1fr);gap:5px;padding:9px;background:var(--panel-soft);border:1px solid var(--border);border-radius:12px}
+.cell{aspect-ratio:1;border-radius:50%;border:1px solid var(--border);background:#fff}.cell.y{background:var(--yellow);border-color:#9a7614}.cell.r{background:var(--red);border-color:#923d3d}
+.caption{text-align:center;margin-top:8px;color:var(--muted);font-size:13px}.chat-label{font-weight:650;margin-bottom:6px}.choices{display:grid;gap:9px;margin-top:14px}
+.choice,.knowledge-button{width:100%;text-align:left;padding:12px 13px;border:1px solid var(--border);border-radius:11px;background:#fff;cursor:pointer;line-height:1.4}
+.choice:hover,.knowledge-button:hover{border-color:var(--accent-btn);background:#f3f7f4}.choice:focus-visible,.knowledge-button:focus-visible,.primary:focus-visible,.secondary:focus-visible{outline:3px solid rgba(45,90,67,.28);outline-offset:2px}
+.response{margin-top:14px;padding-top:14px;border-top:1px solid var(--border)}
+/* Neutral base; the outcome classes below colour it by what happened. */
+.stored,.feedback{margin-top:12px;background:var(--knowledge);border-radius:10px;padding:10px 11px;font-size:14px;border:1px solid transparent}
+/* GOOD  = something reusable was gained or reused (study green).
+   MIXED = the immediate move was solved, but nothing carried forward (amber).
+   POOR  = nothing available to carry forward at all (study red).
+   Colours come from static/style.css so they read as the same app. */
+.stored.outcome-good,.feedback.outcome-good{background:var(--panel-soft);border-color:var(--accent-soft);color:#234936}
+.stored.outcome-mixed,.feedback.outcome-mixed{background:#fff7d6;border-color:#f0dfa8;color:#b45309}
+.stored.outcome-poor,.feedback.outcome-poor{background:#fde2e2;border-color:#f3c4c4;color:#a61b1b}
+.primary,.secondary{border-radius:10px;padding:10px 15px;cursor:pointer}.primary{margin-top:14px;border:0;background:var(--accent-btn);color:#fff;font-weight:650}
+.primary:hover{background:var(--accent)}.primary:disabled{background:var(--accent-soft);color:var(--muted);cursor:default}.secondary{border:1px solid var(--border);background:#fff}
+.backpack-title{font-weight:700;margin-bottom:10px}.knowledge-item{border:1px solid var(--border);border-radius:10px;padding:10px;margin-top:8px;font-size:14px;line-height:1.4;background:#fff}
+.goal{margin-top:12px;line-height:1.45}.callout{background:var(--panel-soft);border:1px solid var(--accent-soft);border-radius:13px;padding:13px 14px;margin-bottom:14px}.scenario{margin-top:14px}
+.outcome{text-align:center;padding:6px 0 4px}.outcome-cat{font-size:68px;line-height:1;margin-bottom:8px}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:20px 0}.stat{border:1px solid var(--border);border-radius:12px;padding:13px;background:#fff}
+.stat-label,.tiny{color:var(--muted);font-size:13px}.stat-value{margin:5px 0 2px;font-size:26px;font-weight:750}.takeaway{text-align:left;background:var(--knowledge);border-radius:13px;padding:15px;line-height:1.5}.hidden{display:none!important}
+/* --- animation ------------------------------------------------------------
+   Every duration here is short on purpose. The session has a time budget and the
+   activity is already the most effortful form by self-report, so motion is used to
+   direct attention, not to add steps. All of it is disabled under
+   prefers-reduced-motion, where the same states are reached instantly. */
+@keyframes jb-fadeup { from{opacity:0;transform:translateY(7px)} to{opacity:1;transform:translateY(0)} }
+@keyframes jb-pop    { 0%{transform:scale(1)} 45%{transform:scale(1.16)} 100%{transform:scale(1)} }
+.jb-in            { animation:jb-fadeup .26s ease-out both; }
+.jb-pop           { animation:jb-pop .42s ease-out both; }
+.jb-caret::after  { content:"\2586"; margin-left:2px; animation:jb-blink .7s steps(1) infinite; }
+@keyframes jb-blink { 50%{opacity:0} }
+.jb-fly{position:fixed;z-index:60;pointer-events:none;background:#fff;
+  border:1px solid var(--accent-soft);border-left:4px solid var(--accent-btn);
+  border-radius:8px;padding:9px 11px;font-size:13px;line-height:1.35;
+  box-shadow:0 6px 18px rgba(0,0,0,.13);
+  transition:transform .78s cubic-bezier(.5,-0.1,.6,1), opacity .78s ease-in, filter .5s}
+.jb-fly--lost{border-left-color:#f0dfa8;border-color:#f0dfa8;
+  transition:transform .6s ease-in, opacity .6s ease-in, filter .6s}
+/* progress dots */
+.jb-steps{display:flex;gap:7px;justify-content:center;margin:0 0 12px}
+.jb-step{width:8px;height:8px;border-radius:50%;background:var(--border);transition:background .25s,transform .25s}
+.jb-step--on{background:var(--accent-btn);transform:scale(1.35)}
+.jb-step--done{background:var(--accent)}
+@media (prefers-reduced-motion: reduce){
+  .jb-in,.jb-pop,.jb-eyes{animation:none!important}
+  .jb-fly{display:none!important}
+  .jb-caret::after{animation:none}
+}
+</style>
+</head>
+<body>
+<main class="page">
+  <div class="topbar">
+    <div>
+      <h1>Help Johnny learn with AI</h1>
+      <div class="muted">Johnny is learning Connect Four. Help Johnny decide what to say to the AI assistant.</div>
+      <div class="legend">
+        <span class="legend-item"><span class="dot yellow"></span><strong>Johnny = Yellow</strong></span>
+        <span class="legend-item"><span class="dot red"></span>Opponent = Red</span>
+      </div>
+    </div>
+    <button id="restartBtn" class="secondary" type="button">Restart</button>
+  </div>
+
+  <div class="layout">
+    <section>
+      <div class="avatar-row">
+        <div class="avatar" role="img" aria-label="Johnny, a cat">
+          <svg class="jb-cat" viewBox="0 0 64 64" width="46" height="46" aria-hidden="true">
+            <!-- ears -->
+            <path d="M12 22 L14 7 L27 15 Z" fill="var(--yellow)" stroke="#9a7614" stroke-width="2"
+                  stroke-linejoin="round"/>
+            <path d="M52 22 L50 7 L37 15 Z" fill="var(--yellow)" stroke="#9a7614" stroke-width="2"
+                  stroke-linejoin="round"/>
+            <path d="M15.5 18.5 L16.6 11 L23 15.4 Z" fill="#e8b7b7"/>
+            <path d="M48.5 18.5 L47.4 11 L41 15.4 Z" fill="#e8b7b7"/>
+            <!-- head -->
+            <ellipse cx="32" cy="34" rx="22" ry="19" fill="var(--yellow)" stroke="#9a7614"
+                     stroke-width="2"/>
+            <!-- eyes: the group is what blinks -->
+            <g class="jb-eyes">
+              <ellipse cx="24" cy="32" rx="2.7" ry="3.4" fill="#3a2c10"/>
+              <ellipse cx="40" cy="32" rx="2.7" ry="3.4" fill="#3a2c10"/>
+              <circle cx="25.1" cy="30.7" r=".95" fill="#fff"/>
+              <circle cx="41.1" cy="30.7" r=".95" fill="#fff"/>
+            </g>
+            <!-- muzzle -->
+            <path d="M32 38 l-3 -2.6 h6 Z" fill="#9a7614"/>
+            <path d="M32 38 v2.6 M32 40.6 q-3 2.4 -5.6 .4 M32 40.6 q3 2.4 5.6 .4"
+                  stroke="#9a7614" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+            <!-- whiskers -->
+            <g stroke="#9a7614" stroke-width="1.3" stroke-linecap="round" opacity=".75">
+              <path d="M12 33 h7 M12.5 37.5 l6.5 -1.4"/>
+              <path d="M52 33 h-7 M51.5 37.5 l-6.5 -1.4"/>
+            </g>
+          </svg>
+          <div class="backpack-bubble" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="17" height="17">
+              <path d="M6 9.5a6 6 0 0 1 12 0V20a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 6 20Z"
+                    fill="var(--accent-btn)" stroke="var(--accent)" stroke-width="1.5"/>
+              <path d="M9.2 9.2a2.8 2.8 0 0 1 5.6 0" fill="none" stroke="var(--accent)"
+                    stroke-width="1.5" stroke-linecap="round"/>
+              <rect x="9" y="13.4" width="6" height="4.4" rx="1.1" fill="var(--accent-soft)"
+                    stroke="var(--accent)" stroke-width="1.2"/>
+            </svg>
+          </div>
+        </div>
+        <div><strong>Johnny</strong><div id="phase" class="phase">AI-assisted move 1 of 2</div></div>
+      </div>
+
+      <section id="assistedSection">
+        <div class="jb-steps" id="jbSteps" aria-hidden="true"></div>
+        <div class="card board-wrap">
+          <div id="board" class="board" aria-label="Connect Four board"></div>
+          <div class="caption">Focus on how Johnny uses the AI.</div>
+        </div>
+        <div class="card">
+          <div class="chat-label">🤖 AI</div>
+          <div id="aiPrompt"></div>
+          <div id="choiceArea">
+            <div style="margin-top:14px;font-weight:650">What should Johnny say to the AI next?</div>
+            <div id="choices" class="choices"></div>
+          </div>
+          <div id="responseArea" class="response hidden" aria-live="polite">
+            <div class="chat-label">🤖 AI</div>
+            <div id="responseText"></div>
+            <div id="storedNotice" class="stored"></div>
+            <button id="nextBtn" class="primary" type="button">Continue</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="transferSection" class="hidden">
+        <div class="callout">
+          <strong>📵 The AI is gone.</strong>
+          <div class="muted" style="margin-top:4px">Johnny faces a new situation. You can help him use something he learned earlier.</div>
+        </div>
+        <div class="card">
+          <strong>New situation</strong>
+          <p id="scenarioText" class="scenario"></p>
+          <div id="applyInstruction" style="font-weight:650">Click the idea in Johnny's backpack that fits this situation.</div>
+          <div id="transferFeedback" class="feedback hidden" aria-live="polite"></div>
+          <button id="outcomeBtn" class="primary hidden" type="button">See game outcome</button>
+        </div>
+      </section>
+
+      <section id="outcomeSection" class="hidden">
+        <div class="card">
+          <div class="outcome">
+            <div id="outcomeCat" class="outcome-cat">😸</div>
+            <h2>Game outcome</h2>
+            <p id="outcomeHeadline" class="muted"></p>
+          </div>
+          <div class="stats">
+            <div class="stat"><div class="stat-label">With AI</div><div class="stat-value">2 / 2</div><div class="tiny">moves completed</div></div>
+            <div class="stat"><div class="stat-label">Backpack</div><div id="outcomeKnowledge" class="stat-value">0</div><div class="tiny">reusable ideas</div></div>
+            <div class="stat"><div class="stat-label">Without AI</div><div id="outcomeTransfer" class="stat-value">-</div><div class="tiny">idea applied</div></div>
+          </div>
+          <div class="takeaway"><strong>💡 Takeaway</strong><div id="takeawayText" style="margin-top:7px"></div></div>
+          <button id="completeBtn" class="primary" type="button">Continue to the next activity</button>
+        </div>
+      </section>
+    </section>
+
+    <aside id="backpackAside">
+      <div class="card"><div class="backpack-title">🎒 Johnny's Backpack: What Johnny has Learned</div><div id="knowledgeBox"></div></div>
+    </aside>
+  </div>
+</main>
+
+<script>
+window.johnnyBoostLog = [];
+// Optional copy: some of these elements get removed when the layout is trimmed, and a
+// write to a missing one used to throw mid-flow -- which silently aborted startTransfer()
+// before it rendered the scenario. Writes through setText no-op instead.
+function setText(id,text){const el=$(id);if(el)el.textContent=text;}
+
+// Writes a message AND its outcome colour together, so the two can never disagree.
+// tone: "good" | "mixed" | "poor". html=true for messages carrying <strong>/<br>.
+function setOutcome(id,tone,text,html=false){
+  const el=$(id);
+  if(!el)return;
+  el.classList.remove("outcome-good","outcome-mixed","outcome-poor");
+  el.classList.add("outcome-"+tone);
+  if(html){el.innerHTML=text;}else{el.textContent=text;}
+}
+
+function logEvent(event,data={}){
+  const row={event,timestamp:Date.now(),...data};
+  window.johnnyBoostLog.push(row);
+  console.log("[JohnnyBoost]",row);
+}
+
+const knowledgeCatalog={
+  multipleThreats:{
+    text:"Look for moves that create more than one future threat.",
+    scenario:"Johnny reaches a new board. One option creates a single threat, while another creates two different threats that Red would have to respond to.",
+    success:"Creating multiple threats can make a position harder for the opponent to defend."
+  },
+  compareOptions:{
+    text:"Compare what options will still be available after each move.",
+    scenario:"Johnny has two reasonable-looking options. One would leave him several possible continuations, while the other would leave very few.",
+    success:"Comparing future options can be more useful than judging only the immediate move."
+  },
+  opponentReply:{
+    text:"Check the opponent's strongest reply before committing.",
+    scenario:"Johnny sees an attractive move, but Red may have a strong response immediately afterward.",
+    success:"Checking the opponent's reply can reveal whether an attractive move is actually safe."
+  }
+};
+
+const rounds=[
+  {
+    board:[
+      "","","","","","","",
+      "","","","","","","",
+      "","","","","","","",
+      "","","","R","","","",
+      "","","Y","Y","R","","",
+      "R","Y","R","Y","R","",""
+    ],
+    aiPrompt:"Johnny sees a few possible moves. Please help Johnny decide what to say.",
+    choices:[
+      {id:"direct_1",type:"solution_request",text:"Which column should I play? I am feeling quite confused.",aiReply:"Play column 4.",knowledge:null},
+      {id:"think_1",type:"think_aloud",text:"I'm thinking column 4 because it could give me two ways to connect four...",aiReply:"Good strategy. Creating more than one future threat can make it harder for Red to block everything.",knowledge:"multipleThreats"},
+    ]
+  },
+  {
+    board:[
+      "","","","","","","",
+      "","","","","","","",
+      "","","","","","","",
+      "","","","Y","","","",
+      "","R","Y","R","Y","","",
+      "R","Y","R","Y","R","",""
+    ],
+    aiPrompt:"Johnny has reached another decision. What should he ask this time?",
+    choices:[
+      {id:"direct_2",type:"solution_request",text:"Can you tell me the best move please? Thanks.",aiReply:"Play column 6.",knowledge:null},
+      {id:"check_2",type:"knowledge_question",text:"Could you help me look one move ahead at Red's strongest response?",aiReply:"Yes. Looking at Red's strongest reply can reveal whether an attractive move is actually safe.",knowledge:"opponentReply"}
+    ]
+  }
+];
+
+let roundIndex=0;
+let knowledge=[];
+let transferTarget=null;
+let transferSuccess=null;
+const $=id=>document.getElementById(id);
+
+function shuffle(items){
+  const copy=[...items];
+  for(let i=copy.length-1;i>0;i--){
+    const j=Math.floor(Math.random()*(i+1));
+    [copy[i],copy[j]]=[copy[j],copy[i]];
+  }
+  return copy;
+}
+
+const REDUCED = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+// Progress dots: one per assisted round plus the solo step, so the participant can see
+// how much is left. Purely orientation -- nothing is gated on it.
+function renderSteps(active){
+  const box=$("jbSteps"); if(!box) return;
+  box.innerHTML="";
+  for(let i=0;i<rounds.length+1;i++){
+    const d=document.createElement("div");
+    d.className="jb-step"+(i===active?" jb-step--on":(i<active?" jb-step--done":""));
+    box.appendChild(d);
+  }
+}
+
+// Types the assistant's reply out instead of pasting it, so the reply reads as a
+// response to what was just sent. Click anywhere to skip; reduced-motion skips it.
+function typeInto(el,text,done){
+  if(REDUCED){ el.textContent=text; done&&done(); return; }
+  el.textContent=""; el.classList.add("jb-caret");
+  let i=0, cancelled=false;
+  const finish=()=>{ if(cancelled)return; cancelled=true; el.textContent=text;
+                     el.classList.remove("jb-caret"); document.removeEventListener("click",finish);
+                     done&&done(); };
+  document.addEventListener("click",finish);
+  (function step(){
+    if(cancelled) return;
+    if(i>=text.length) return finish();
+    // punctuation gets a longer beat, which reads like speech rather than a ticker
+    const ch=text[i++]; el.textContent+=ch;
+    setTimeout(step, ".,!?".includes(ch)?90:12);
+  })();
+}
+
+// NOTE: there is deliberately NO board animation here. An earlier version dropped a disc
+// when the reply named a column ("Play column 4.") and did nothing when the reply gave a
+// reason instead. That was both misleading and backwards: Johnny plays a move either way --
+// the reasoning reply simply does not name it -- so animating one and not the other implied
+// the reasoning produced no move, and handed the visually consequential moment to the worst
+// option. Motion goes on what actually differs between the choices: whether anything
+// reusable is retained.
+
+// Flies a card from the reply into the backpack (or lets it dissolve when nothing was
+// retained), so "I came away with something" and "I came away with nothing" are both
+// visible events rather than one being an absence.
+function flyToBackpack(text, kept){
+  const from = $("responseArea").getBoundingClientRect();
+  const target = document.querySelector(".backpack-bubble");
+  if(!target || REDUCED) return;
+  const to = target.getBoundingClientRect();
+  const card = document.createElement("div");
+  card.className = "jb-fly" + (kept ? "" : " jb-fly--lost");
+  card.textContent = (kept ? "\uD83E\uDDE0 " : "") + text;
+  card.style.left = from.left + "px";
+  card.style.top  = (from.top + 8) + "px";
+  card.style.width = Math.min(from.width, 260) + "px";
+  document.body.appendChild(card);
+  requestAnimationFrame(() => {
+    if(kept){
+      card.style.transform =
+        `translate(${to.left - from.left + 4}px, ${to.top - from.top - 8}px) scale(.18)`;
+      card.style.opacity = "0";
+    }else{
+      card.style.transform = "translateY(26px) scale(.94)";
+      card.style.opacity = "0";
+      card.style.filter = "blur(3px)";
+    }
+  });
+  setTimeout(() => card.remove(), 900);
+}
+
+function renderBoard(state){
+  $("board").innerHTML="";
+  state.forEach(v=>{
+    const cell=document.createElement("div");
+    cell.className="cell";
+    if(v==="Y")cell.classList.add("y");
+    if(v==="R")cell.classList.add("r");
+    $("board").appendChild(cell);
+  });
+}
+
+function renderKnowledge(clickable=false){
+  const box=$("knowledgeBox");
+  box.innerHTML="";
+  if(!knowledge.length){
+    const empty=document.createElement("div");
+    empty.className="muted";
+    empty.textContent="Johnny's backpack is empty.";
+    box.appendChild(empty);
+    return;
+  }
+  knowledge.forEach(key=>{
+    const info=knowledgeCatalog[key];
+    if(clickable){
+      const btn=document.createElement("button");
+      btn.type="button";
+      btn.className="knowledge-button";
+      btn.textContent="🧠 "+info.text;
+      btn.addEventListener("click",()=>applyKnowledge(key));
+      box.appendChild(btn);
+    }else{
+      const item=document.createElement("div");
+      item.className="knowledge-item";
+      item.textContent="🧠 "+info.text;
+      box.appendChild(item);
+    }
+  });
+}
+
+function addKnowledge(key){
+  if(key && !knowledge.includes(key)) knowledge.push(key);
+  renderKnowledge(false);
+}
+
+function showRound(){
+  const round=rounds[roundIndex];
+  $("phase").textContent=`AI-assisted move ${roundIndex+1} of ${rounds.length}`;
+  renderSteps(roundIndex);
+  renderBoard(round.board);
+  $("aiPrompt").textContent=round.aiPrompt;
+  $("choices").innerHTML="";
+  $("choiceArea").classList.remove("hidden");
+  $("responseArea").classList.add("hidden");
+
+  const presented=shuffle(round.choices);
+  presented.forEach((choice,index)=>{
+    const btn=document.createElement("button");
+    btn.type="button";
+    btn.className="choice jb-in";
+    btn.style.animationDelay=(index*70)+"ms";
+    btn.textContent=`“${choice.text}”`;
+    btn.addEventListener("click",()=>selectChoice(choice,index));
+    $("choices").appendChild(btn);
+  });
+  logEvent("round_presented",{round:roundIndex+1,option_order:presented.map(c=>c.id)});
+}
+
+function selectChoice(choice,presentedIndex){
+  $("choiceArea").classList.add("hidden");
+  $("responseArea").classList.remove("hidden");
+  $("responseArea").classList.add("jb-in");
+  logEvent("johnny_choice",{round:roundIndex+1,choice_id:choice.id,choice_type:choice.type,presented_index:presentedIndex,knowledge_added:choice.knowledge});
+
+  // The outcome is written only AFTER the reply finishes typing, so the consequence
+  // lands after the reply rather than beside it.
+  const reveal=()=>{
+    if(choice.knowledge){
+      const idea = knowledgeCatalog[choice.knowledge].text;
+      flyToBackpack(idea, true);
+      // The notice and the backpack update land as the card arrives, so the card is
+      // seen going in rather than the state changing behind it.
+      setTimeout(() => {
+        addKnowledge(choice.knowledge);
+        setOutcome("storedNotice","good","🎒 Johnny packed away: "+idea);
+        $("storedNotice").classList.add("jb-in");
+        const bp=document.querySelector(".backpack-bubble");
+        if(bp && !REDUCED){ bp.classList.remove("jb-pop"); void bp.offsetWidth; bp.classList.add("jb-pop"); }
+      }, REDUCED ? 0 : 620);
+    }else{
+      flyToBackpack("nothing to carry forward", false);
+      setTimeout(() => {
+        setOutcome("storedNotice","mixed","Johnny got the move he needed, but nothing reusable went into his backpack.");
+        $("storedNotice").classList.add("jb-in");
+      }, REDUCED ? 0 : 480);
+    }
+  };
+  $("storedNotice").textContent="";
+  typeInto($("responseText"), choice.aiReply, reveal);
+}
+
+function startTransfer(){
+  $("assistedSection").classList.add("hidden");
+  $("transferSection").classList.remove("hidden");
+  $("phase").textContent="Johnny is on his own";
+  renderSteps(rounds.length);
+  setText("goalText","The AI is gone. Johnny can only use ideas he packed away earlier.");
+  logEvent("independent_started",{knowledge:[...knowledge]});
+
+  if(!knowledge.length){
+    $("scenarioText").textContent="Johnny reaches a new situation, but his backpack is empty.";
+    $("applyInstruction").classList.add("hidden");
+    $("transferFeedback").classList.remove("hidden");
+    setOutcome("transferFeedback","poor","<strong>Nothing to unpack 😿</strong><br>The AI helped Johnny earlier, but he did not leave those conversations with a reusable idea.",true);
+    transferSuccess=false;
+    $("outcomeBtn").classList.remove("hidden");
+    return;
+  }
+
+  transferTarget=knowledge[Math.floor(Math.random()*knowledge.length)];
+  $("scenarioText").textContent=knowledgeCatalog[transferTarget].scenario;
+  renderKnowledge(true);
+  logEvent("independent_scenario_presented",{target:transferTarget});
+}
+
+function applyKnowledge(key){
+  transferSuccess=key===transferTarget;
+  $("transferFeedback").classList.remove("hidden");
+  $("outcomeBtn").classList.remove("hidden");
+  logEvent("independent_choice",{selected:key,target:transferTarget,correct:transferSuccess});
+
+  if(transferSuccess){
+    setOutcome("transferFeedback","good","<strong>Johnny remembered! 😸</strong><br>"+knowledgeCatalog[key].success,true);
+  }else{
+    setOutcome("transferFeedback","mixed","<strong>Useful idea, but not the best match.</strong><br>Another idea in Johnny's backpack fits this situation more directly.",true);
+  }
+}
+
+function showOutcome(){
+  $("transferSection").classList.add("hidden");
+  $("outcomeSection").classList.remove("hidden");
+  $("backpackAside").classList.add("hidden");
+  $("phase").textContent="Game complete";
+  $("outcomeKnowledge").textContent=knowledge.length;
+  $("outcomeTransfer").textContent=transferSuccess?"✓":"-";
+
+  if(!knowledge.length){
+    $("outcomeCat").textContent="😿";
+    $("outcomeHeadline").textContent="Johnny completed both assisted moves, but had nothing to draw on once the AI was gone.";
+    $("takeawayText").textContent="Getting an answer can solve the current problem without necessarily leaving you with something you can use later.";
+  }else if(transferSuccess){
+    $("outcomeCat").textContent="😸";
+    $("outcomeHeadline").textContent=`Johnny carried ${knowledge.length} reusable ${knowledge.length===1?"idea":"ideas"} into the new situation.`;
+    $("takeawayText").textContent="AI can do more than help with the next answer. Using it to develop or check your own understanding can leave you with ideas you can use again later.";
+  }else{
+    $("outcomeCat").textContent="🐱";
+    $("outcomeHeadline").textContent=`Johnny carried ${knowledge.length} reusable ${knowledge.length===1?"idea":"ideas"} forward.`;
+    $("takeawayText").textContent="Leaving an AI interaction with reusable ideas gives you something to work with later. The next step is recognizing when each idea applies.";
+  }
+  logEvent("outcome_shown",{knowledge:[...knowledge],transfer_success:transferSuccess});
+}
+
+function resetGame(){
+  roundIndex=0;knowledge=[];transferTarget=null;transferSuccess=null;
+  $("assistedSection").classList.remove("hidden");
+  $("transferSection").classList.add("hidden");
+  $("outcomeSection").classList.add("hidden");
+  $("backpackAside").classList.remove("hidden");
+  $("applyInstruction").classList.remove("hidden");
+  $("transferFeedback").classList.add("hidden");
+  $("transferFeedback").classList.remove("outcome-good","outcome-mixed","outcome-poor");
+  $("storedNotice").classList.remove("outcome-good","outcome-mixed","outcome-poor");
+  $("storedNotice").textContent="";
+  $("outcomeBtn").classList.add("hidden");
+  setText("goalText","Use the AI now, while trying to leave with something useful for later.");
+  renderKnowledge(false);
+  showRound();
+  logEvent("restarted");
+}
+
+$("nextBtn").addEventListener("click",()=>{
+  if(roundIndex<rounds.length-1){roundIndex++;showRound();}
+  else startTransfer();
+});
+$("outcomeBtn").addEventListener("click",showOutcome);
+$("restartBtn").addEventListener("click",resetGame);
+$("completeBtn").addEventListener("click",()=>{
+  logEvent("completed");
+  window.dispatchEvent(new CustomEvent("johnnyBoostComplete",{detail:{log:window.johnnyBoostLog,knowledge:[...knowledge],transferSuccess}}));
+  $("completeBtn").disabled=true;
+  $("completeBtn").textContent="Activity complete ✓";
+});
+
+renderKnowledge(false);
+showRound();
+logEvent("started");
+</script>
+<!-- ------------------------------------------------------------------------
+     Integration glue. Not part of the activity: it forwards the activity's own
+     completion event to the Flask route, which hands it to
+     interventions/forms/johnny_connect_four_boost.py:validate().
+     ------------------------------------------------------------------------ -->
+{% if error %}
+<div class="page"><div class="card" style="border-color:#a61b1b;background:#fde2e2;color:#a61b1b">{{ error }}</div></div>
+{% endif %}
+<form id="boostPost" method="post" action="{{ url_for('intervention') }}" class="hidden">
+  <input type="hidden" name="payload" id="boostPayload" />
+</form>
+<script>
+window.addEventListener("johnnyBoostComplete", function (e) {
+  document.getElementById("boostPayload").value = JSON.stringify(e.detail);
+  document.getElementById("boostPost").submit();
+});
+</script>
+</body>
+</html>

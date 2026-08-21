@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I post healthy cooking videos to my 1.2 million followers. Over the next 3 years, I want to grow online and publish a cookbook. I'm torn between going the self-publishing route and the traditional way. I work four days a week and have limited time and budget. Devise a concrete three-year plan for me.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-30T19:01:17.466084+00:00"
+}

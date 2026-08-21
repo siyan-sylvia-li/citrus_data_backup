@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Which legal move is optimal here for Black under best play, and what's the key endgame rationale? Please give just the square plus a brief line if useful."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After 1... (Black b7, White a8), Black has g2, b6, a7, c8. What's the best continuation under optimal play? Give the move only if confident."
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now after c8 and White b8, remaining Black moves g2, b6, a7. Which is optimal under best play?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Remaining empties a1, g2, a3; after White b6, which Black move is optimal?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "At this exact state, is a1 or g2 better for Black under perfect play? Please compare the forced final sequence/count briefly."
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

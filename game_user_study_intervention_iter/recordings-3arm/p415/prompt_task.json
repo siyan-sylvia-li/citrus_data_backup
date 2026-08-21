@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Create a three year plan for a successful online cooking channel for a continued growth of the channel and to create a cookbook. It is undecided if the publishing of the cookbook will be through a publishing company or self publishing. \r\n\r\nThis plan is to work with an individual with a four day a week work schedule and a limited budget.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.667,
+  "submitted_at": "2026-08-21T12:34:45.747245+00:00"
+}

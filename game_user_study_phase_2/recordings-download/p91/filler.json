@@ -1,0 +1,25 @@
+{
+  "reflection": "Julie should follow her cooking interest very seriously. She needs to give more focus to create and post cooking video.",
+  "effort": {
+    "judges": [
+      {
+        "model": "gpt",
+        "score": 2
+      },
+      {
+        "model": "nemotron",
+        "score": null
+      },
+      {
+        "model": "llama",
+        "score": 2
+      }
+    ],
+    "n_judges": 2,
+    "mean_score": 2.0,
+    "median_score": 2.0,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-18T18:52:36.237166+00:00"
+}

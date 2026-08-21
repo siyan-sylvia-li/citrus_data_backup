@@ -1,0 +1,17 @@
+{
+  "game": "connect_four",
+  "nasa_tlx": {
+    "effort": 5,
+    "frustration": 6,
+    "mental_demand": 6,
+    "performance": 6,
+    "physical_demand": 1,
+    "temporal_demand": 7
+  },
+  "ai_likert": {
+    "ai_consistent": 5,
+    "ai_easy_to_use": 5
+  },
+  "additional_feedback": "",
+  "submitted_at": "2026-06-26T21:37:48.022628+00:00"
+}

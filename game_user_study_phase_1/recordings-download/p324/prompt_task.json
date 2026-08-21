@@ -1,0 +1,19 @@
+{
+  "created_prompt": "I would like you to prepare a three year plan for developing a published cookbook and grow my subscriber base and online presence.  I already have many quick, healthy recipes and a substantial following of 1.2 million viewers.  Give me concrete month by month steps to build upon my current status.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-24T14:00:52.611240+00:00"
+}

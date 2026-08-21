@@ -1,0 +1,34 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, I'm down 20-34 here and my legal moves are g2, b6, a7, b7, b8, c8. b6 and c8 look like they flip the most discs, but I'm worried about opening up corners for White. Should I go with one of the big captures or is there a quieter move I'm missing?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "So g2 and a7 are basically handing White a corner immediately. Of the remaining four (b6, b7, b8, c8), which one holds up best if White replies perfectly? I can't see past move 2 clearly."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "crap, b7 let White take a8 and now it's 24-32. My moves are g2, b6, a7, c8. g2 still looks like it gives up h1. Which one limits the bleeding?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "c8 vs b6 - both look huge but White can hit back. Which one actually wins or loses by less?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "down 22-36 now with only g2, b6, a7 available. g2 feels like it hands White h1. Is a7 the only move that doesn't donate a corner?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  }
+]

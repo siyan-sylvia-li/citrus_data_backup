@@ -1,0 +1,37 @@
+[
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Was c8 the right opening move here, or did I hand White the game with that?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "What should I have played instead of a7?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "How do I spot corner traps in endgames like this earlier?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Did I have any winning line from the original position, or was it already losing for Black?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Why did b6 flip so many discs back to White? I thought it was safe."
+  }
+]

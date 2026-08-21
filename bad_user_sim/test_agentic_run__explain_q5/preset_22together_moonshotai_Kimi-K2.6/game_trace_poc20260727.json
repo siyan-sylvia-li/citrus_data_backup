@@ -1,0 +1,34 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I have six legal moves in this Othello endgame: g2, b6, a7, b7, b8, c8. White is ahead 34-20. Which move maximizes Black's final disc count assuming optimal play from White? I'm especially wondering whether a7, b7, or c8 is best given White's possible counter-moves."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After White played a8, my legal moves are g2, b6, a7, and c8. Which of these four maximizes Black's final disc count assuming White plays optimally? I'm especially concerned about giving White the a1 corner or another edge sequence."
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Looking back at the start of this endgame, I played b7 on your advice, but then White took a8 and the whole left edge fell apart. Was b7 actually the correct first move, or did I miss a better opening among g2, b6, a7, or c8?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After White took a8 and I had g2, b6, a7, c8, you recommended c8. But when I later played b6, White replied a7 and the a-file locked up. From that exact position with White at a8, was any of my four options actually able to prevent White from controlling the a-file, or was the damage from a8 already done?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "If you had to give me one strategic lesson from this endgame, would it be 'never let White take the corner,' or is there something deeper about move order and edge parity I should remember for next time?"
+  }
+]

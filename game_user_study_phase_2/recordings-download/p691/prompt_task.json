@@ -1,0 +1,25 @@
+{
+  "created_prompt": "I currently post cooking videos on YouTube. I want to continue to grow my brand online and publish a cookbook in the next 3 years. Please draft me a 3 year plan on how I can accomplish this.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 2
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 1.667,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 1.667,
+  "submitted_at": "2026-08-18T22:19:58.590258+00:00"
+}

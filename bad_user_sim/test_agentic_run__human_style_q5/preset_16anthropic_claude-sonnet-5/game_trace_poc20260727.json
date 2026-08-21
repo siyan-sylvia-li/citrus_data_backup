@@ -1,0 +1,45 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "only 10 empties left, my options are g2, b6, a7, b7, b8, c8. which one is actually best here, not just for flips now but for the whole rest of the game?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "white took a8. now my options are g2, b6, a7, c8 - which keeps me best off at the end?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "down to g2, b6, a7 with only 6 empties total left on the board. which move gives me the best final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "quick check - was a3 actually the right call there, or did I just get lucky that white had no moves? want to know if my logic held up"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "also curious - earlier you told me to play g2 first when I had g2/b6/a7 as options, but I ended up going a7 instead per your later answer. did that a7 call end up costing me discs in the long run, or was it fine?"
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "b6 looks like it captures a lot of discs in one go, but I'm worried it might open up that left side for White. Among g2, b6, a7, b7, b8, c8, which move gives me the best final count if White plays optimally?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After White played a8, g2 looks huge \u2014 it flips eight discs. That feels almost too good to be true. Is g2 the clear pick now, or does one of the quieter moves like b6 or a7 set me up better?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "That c8 move I played sure left me in a hole \u2014 22 to 36. Now White owns the whole bottom row. Of the moves I have left (g2, b6, a7), which one keeps me in the game?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "It says I have no legal move and must pass, and the board has zero empty squares. Is the puzzle already finished, or am I missing something?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "The board display I'm looking at says Black 33, White 31. Is the count on the board off, or did the assistant get it wrong?"
+  }
+]

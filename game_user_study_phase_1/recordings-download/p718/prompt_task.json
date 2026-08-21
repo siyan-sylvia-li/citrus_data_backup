@@ -1,0 +1,19 @@
+{
+  "created_prompt": "My friend Julie is a great cook with a huge online following for her videos showcasing her quick, healthy recipes. She's asked for my help in devising a strategy to increase her online audience beyond her current 1.2 million followers. She's also thinking about putting together a cookbook. To help me help her, I'd like you to put together the following: (1) a structured three-year plan to foster the online growth; and (2) a thorough pros & cons list of self-publishing vs. going through a traditional publisher for her cookbooks. When generating these, please be mindful that Julie is limited to working on this project no more than 4 days per week, and doesn't have a lot free cash to put into the project right now (so plan using a limited budget).",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-22T21:49:17.883710+00:00"
+}

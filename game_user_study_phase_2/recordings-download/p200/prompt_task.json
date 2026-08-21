@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Devise a 3 year plan to publish a cookbook. Limited time and budget. Working 4 days weekly",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 2
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 1.667,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 1.667,
+  "submitted_at": "2026-08-18T22:17:29.522487+00:00"
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, looking at this Connect 4 board, I'm Red. Yellow's got some sneaky diagonal setups going (like through c6r2/c7r1 and c4r2/c5r1). What's the strongest move for me right now to stay safe and start pushing toward a win?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  }
+]

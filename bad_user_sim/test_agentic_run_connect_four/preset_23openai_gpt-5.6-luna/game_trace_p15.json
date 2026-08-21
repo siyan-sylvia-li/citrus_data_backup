@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Can you identify the winning move or best minimax move for Red here, and briefly explain the opponent's key threat?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After Red 4 and Yellow 5, what is Red's best next column? Please check immediate winning threats rather than only positional advice."
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now there is no immediate red win. Which column preserves a forced win (or best result) from this position, and what specific Yellow reply must I anticipate?"
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Yellow chose column 1 instead of 6. From the current board, what is Red's best move now? Please account for any immediate Yellow threats."
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "play_move",
+    "move": 1
+  },
+  {
+    "tool": "play_move",
+    "move": 2
+  },
+  {
+    "tool": "play_move",
+    "move": 2
+  }
+]

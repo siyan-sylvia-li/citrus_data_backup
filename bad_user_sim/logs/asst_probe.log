@@ -1,0 +1,31 @@
+=== coach: together_ai/MiniMaxAI/MiniMax-M3 ===
+launching 3 runs, 3 at a time, 5s apart
+FAIL	q5_asst-together_ai_MiniMaxAI_MiniMax-M3_preset7_anthropic:claude-sonnet-5	logs/q5_asst-together_ai_MiniMaxAI_MiniMax-M3_preset7_anthropic:claude-sonnet-5.log
+FAIL	q5_asst-together_ai_MiniMaxAI_MiniMax-M3_preset8_anthropic:claude-sonnet-5	logs/q5_asst-together_ai_MiniMaxAI_MiniMax-M3_preset8_anthropic:claude-sonnet-5.log
+FAIL	q5_asst-together_ai_MiniMaxAI_MiniMax-M3_preset9_anthropic:claude-sonnet-5	logs/q5_asst-together_ai_MiniMaxAI_MiniMax-M3_preset9_anthropic:claude-sonnet-5.log
+
+done: 0 ok, 3 failed  (logs/q5_asst-together_ai_MiniMaxAI_MiniMax-M3_results.tsv)
+FAIL	q5_asst-together_ai_MiniMaxAI_MiniMax-M3_preset7_anthropic:claude-sonnet-5	logs/q5_asst-together_ai_MiniMaxAI_MiniMax-M3_preset7_anthropic:claude-sonnet-5.log
+FAIL	q5_asst-together_ai_MiniMaxAI_MiniMax-M3_preset8_anthropic:claude-sonnet-5	logs/q5_asst-together_ai_MiniMaxAI_MiniMax-M3_preset8_anthropic:claude-sonnet-5.log
+FAIL	q5_asst-together_ai_MiniMaxAI_MiniMax-M3_preset9_anthropic:claude-sonnet-5	logs/q5_asst-together_ai_MiniMaxAI_MiniMax-M3_preset9_anthropic:claude-sonnet-5.log
+=== coach: together_ai/moonshotai/Kimi-K2.6 ===
+launching 3 runs, 3 at a time, 5s apart
+FAIL	q5_asst-together_ai_moonshotai_Kimi-K2.6_preset7_anthropic:claude-sonnet-5	logs/q5_asst-together_ai_moonshotai_Kimi-K2.6_preset7_anthropic:claude-sonnet-5.log
+FAIL	q5_asst-together_ai_moonshotai_Kimi-K2.6_preset8_anthropic:claude-sonnet-5	logs/q5_asst-together_ai_moonshotai_Kimi-K2.6_preset8_anthropic:claude-sonnet-5.log
+FAIL	q5_asst-together_ai_moonshotai_Kimi-K2.6_preset9_anthropic:claude-sonnet-5	logs/q5_asst-together_ai_moonshotai_Kimi-K2.6_preset9_anthropic:claude-sonnet-5.log
+
+done: 0 ok, 3 failed  (logs/q5_asst-together_ai_moonshotai_Kimi-K2.6_results.tsv)
+FAIL	q5_asst-together_ai_moonshotai_Kimi-K2.6_preset7_anthropic:claude-sonnet-5	logs/q5_asst-together_ai_moonshotai_Kimi-K2.6_preset7_anthropic:claude-sonnet-5.log
+FAIL	q5_asst-together_ai_moonshotai_Kimi-K2.6_preset8_anthropic:claude-sonnet-5	logs/q5_asst-together_ai_moonshotai_Kimi-K2.6_preset8_anthropic:claude-sonnet-5.log
+FAIL	q5_asst-together_ai_moonshotai_Kimi-K2.6_preset9_anthropic:claude-sonnet-5	logs/q5_asst-together_ai_moonshotai_Kimi-K2.6_preset9_anthropic:claude-sonnet-5.log
+=== coach: together_ai/google/gemma-4-31B-it ===
+launching 3 runs, 3 at a time, 5s apart
+FAIL	q5_asst-together_ai_google_gemma-4-31B-it_preset7_anthropic:claude-sonnet-5	logs/q5_asst-together_ai_google_gemma-4-31B-it_preset7_anthropic:claude-sonnet-5.log
+FAIL	q5_asst-together_ai_google_gemma-4-31B-it_preset9_anthropic:claude-sonnet-5	logs/q5_asst-together_ai_google_gemma-4-31B-it_preset9_anthropic:claude-sonnet-5.log
+FAIL	q5_asst-together_ai_google_gemma-4-31B-it_preset8_anthropic:claude-sonnet-5	logs/q5_asst-together_ai_google_gemma-4-31B-it_preset8_anthropic:claude-sonnet-5.log
+
+done: 0 ok, 3 failed  (logs/q5_asst-together_ai_google_gemma-4-31B-it_results.tsv)
+FAIL	q5_asst-together_ai_google_gemma-4-31B-it_preset7_anthropic:claude-sonnet-5	logs/q5_asst-together_ai_google_gemma-4-31B-it_preset7_anthropic:claude-sonnet-5.log
+FAIL	q5_asst-together_ai_google_gemma-4-31B-it_preset9_anthropic:claude-sonnet-5	logs/q5_asst-together_ai_google_gemma-4-31B-it_preset9_anthropic:claude-sonnet-5.log
+FAIL	q5_asst-together_ai_google_gemma-4-31B-it_preset8_anthropic:claude-sonnet-5	logs/q5_asst-together_ai_google_gemma-4-31B-it_preset8_anthropic:claude-sonnet-5.log
+ASSISTANT PROBE DONE

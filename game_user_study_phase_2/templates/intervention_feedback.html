@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Study — Before You Play</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  <style>
+    .ivf__verdict { border-radius: 6px; padding: 14px 18px; margin: 0 0 18px;
+                    line-height: 1.55; border: 1px solid; }
+    .ivf__verdict--right { background: #f0f7f2; border-color: #cfe3d6; color: #2c4d3c; }
+    .ivf__verdict--wrong { background: #fdf3f0; border-color: #f0d2c8; color: #6d3b2f; }
+    .ivf__key { background: #f4f7fb; border: 1px solid #cfd8e3; border-left: 4px solid #1a4d8f;
+                border-radius: 6px; padding: 14px 18px; margin: 0 0 20px; line-height: 1.55; }
+  </style>
+</head>
+<body>
+  <header class="topbar"><h1 class="topbar__title">Game Study</h1></header>
+  <main class="start">
+    <div class="start__card">
+      <h2 class="start__title">Before you play</h2>
+
+      {% if correct %}
+        <div class="ivf__verdict ivf__verdict--right">
+          <strong>That's right.</strong> Group B went on to play better than Group A once
+          the AI assistant was taken away.
+        </div>
+      {% else %}
+        <div class="ivf__verdict ivf__verdict--wrong">
+          <strong>Actually, it was Group B.</strong> Group B went on to play better than
+          Group A once the AI assistant was taken away.
+        </div>
+      {% endif %}
+
+      <div class="ivf__key">
+        What set Group B apart: they <strong>said what they were thinking</strong> and
+        <strong>asked and reflected about specific moves</strong> rather than asking the assistant for next moves directly.
+      </div>
+
+      <form method="post" action="{{ url_for('intervention_continue') }}">
+        <button type="submit" class="start__btn">Continue</button>
+      </form>
+    </div>
+  </main>
+</body>
+</html>

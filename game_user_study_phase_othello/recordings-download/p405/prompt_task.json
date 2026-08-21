@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Devise a concrete 3-year plan for Julie to grow the following of her online cookery show, and to publish a cookbook.\r\nPoints to consider: already 1.2m followers.\r\nQuick healthy recipes.\r\nJulie works 4 days a week, so time and budget for the show/book is constrained.\r\nDiscuss the pros and cons of traditional publishing vs self-publishing.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-05T15:24:49.810426+00:00"
+}

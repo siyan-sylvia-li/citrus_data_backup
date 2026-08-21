@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Devise a three-year plan for someone wishing to grow their online presence and publish a book based on the following information -- Julie already has 1.2M followers and focuses on quick and healthy recipes. Her goal is to publish a cookbook within the next three years and needs a plan to help achieve this. She also needs advice on the benefits of self-publishing versus traditional publishing.",
+  "judges": [
+    {
+      "model": "nemotron",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T15:27:41.880331+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "created_prompt": "What\u2019s the best way for me to grow my social media content on a budget, with a time constraint following a 3 year plan?",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 2
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 1.667,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-20T13:14:14.612752+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "created_prompt": "How would I grow my cooking videos. My recipes are healthy and loved, as my 1.2m followers say. I want a cookbook, I have, limited time and budget. How would you go about this?",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 2
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.0,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.0,
+  "submitted_at": "2026-08-18T19:59:15.981656+00:00"
+}

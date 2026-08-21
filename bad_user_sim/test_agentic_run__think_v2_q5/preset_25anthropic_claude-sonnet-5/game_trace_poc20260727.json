@@ -1,0 +1,49 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Down 20-34 with only 10 empty squares left (corners a1/a8/h1 area involved). My legal moves are g2, b6, a7, b7, b8, c8. Which one actually wins me the most discs by the end, assuming white defends well? I don't want to just grab the move that flips the most right now if it backfires."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White just took a8 corner. Now my options are g2, b6, a7, c8, with only 8 empty squares left total. Which move sets me up best for the final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Down 22-36 now, 6 empty squares left (a1, h1, g2, a3, b6, a7), my legal moves are g2, b6, a7. This looks bad for me \u2014 is there any way to actually come back, and which move gives me the best shot?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "4 squares left: a1, h1, g2, a3. My legal moves are a1, g2, a3. Which one gives me the best final tally here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "3 squares left: a1, h1, g2. Should I just take the a1 corner now, or does g2 matter more for the final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

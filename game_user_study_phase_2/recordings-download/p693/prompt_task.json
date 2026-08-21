@@ -1,0 +1,25 @@
+{
+  "created_prompt": "I need a plan to publish a cookbook.  I already have the recipes and a target audience of 1.2M followers on my TikTok channel.  I need to decide whether to self-publish or engage an agent.  I haven't a lot of extra time, since I work four days a week at a regular job, and my budget is limited.  I need a workable plan to make the book a reality, and would like to complete the project over the next three years.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.667,
+  "submitted_at": "2026-08-19T11:28:53.881023+00:00"
+}

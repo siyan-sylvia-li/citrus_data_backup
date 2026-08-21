@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Julie is really good cook who wants to grow online and publish own cookbook  which could be torn on traditional or self-published. She posts healthy and quick cooking video to 1,2 M followers. She works four days per week with limited time and budget. Please suggest proper three years plan to grow more.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": null
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 2.5,
+  "median_score": 2.5,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.5,
+  "submitted_at": "2026-08-18T18:50:40.603613+00:00"
+}

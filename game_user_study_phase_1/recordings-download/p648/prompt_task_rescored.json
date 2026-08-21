@@ -1,0 +1,32 @@
+{
+  "created_prompt": "Please create a concrete three-year plan for a social media account with 1.2M followers. The account focuses on quick, healthy recipes. I would like to both grow online and release a cookbook within the next three years, though I'm unsure about traditional vs. self-publishing. I also have a limited amount of time and budget, working only four days a week.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "original": {
+    "judges": {
+      "gpt": 3,
+      "llama": 3
+    },
+    "mean_score": 3.0,
+    "median_score": 3.0,
+    "passed": true
+  },
+  "time_taken": 7.395
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Hi - I'm looking at this board and trying to figure out if Yellow has any sneaky diagonal threat I should worry about right now, especially around columns 4 and 5. What should I be watching for?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Am I right that Yellow's c7r1, c6r2 diagonal could become a real threat if they get c5r3 and eventually c4r4? Should I block by playing column 5 myself right now?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "play_move",
+    "move": 2
+  },
+  {
+    "tool": "play_move",
+    "move": 1
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  }
+]

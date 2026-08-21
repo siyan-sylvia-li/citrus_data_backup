@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I need a bullet proof 3 year plan on how to grow my online following and publish a cookbook. I currently post cooking videos to my 1.2 million followers and am known for quickly and healthy recipes. I work 4 days a week with my regular job so time and budget are limited. Also, I want to know if traditional or self-publishing would be better for someone like me.",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 4
+    },
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.333,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T16:09:04.010841+00:00"
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Which legal move is objectively best here against optimal play? Please give the principal variation or at least the best first move."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After b7 and White a8, current legal moves are g2, b6, a7, c8. What's the best continuation move?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After c8, White played b8. Current legal g2, b6, a7\u2014what's Black's optimal move now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After a7 b6, legal moves are a1, g2, a3. Which one is optimal for Black?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now after White's pass, only a1 or g2. Is g2 still optimal, and what will White's reply be?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "At the final two empties h1 and g2, do they lead to the same final count, or is one strictly better?"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  }
+]

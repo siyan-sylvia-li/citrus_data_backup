@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Please devise a concrete and actionable 3 year business plan for a social media creator who posts healthy, quick recipes. She has 1.2 million followers, works four days weekly, and has limited time and budget. The goal of the plan is to grow online and publish a cookbook either traditionally or self-publish.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 4
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.333,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-30T19:38:48.733861+00:00"
+}

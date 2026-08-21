@@ -1,0 +1,41 @@
+{
+  "idea": "I'd ask the assistant to explain the reasoning behind each move, so I can learn the strategy myself...",
+  "n_chars": 102,
+  "start_message": "What do you think would be the best move right now?",
+  "selected": "look_ahead",
+  "selected_type": "knowledge_question",
+  "selected_carries_forward": true,
+  "others_shown": [
+    "say_thinking",
+    "ask_answer"
+  ],
+  "option_order": [
+    "look_ahead",
+    "say_thinking",
+    "ask_answer"
+  ],
+  "seconds_on_page": 41,
+  "form": "elicit_select_reply",
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 3
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.0,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-20T19:30:06.098220+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Hi.  I would like you create a three year plan to help grow a new online video blog.  The online videos focus on quick and healthy recipes for home cooks.  There is also a plan to release a cookbook, though it still up in the air whether a traditional publishing vs. self-publishing route is preferred.  The channel already has a following with 1.2 million followers.  The channel creator is also limited in resources, only being able to devote four days weekly and with a small budget.  Please create a concrete plan given these circumstances.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T12:47:53.845835+00:00"
+}

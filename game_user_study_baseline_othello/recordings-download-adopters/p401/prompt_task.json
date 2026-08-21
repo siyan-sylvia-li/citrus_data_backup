@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Could you create a three-year plan for Julie, who wants to grow her presence online and publish a cookbook for her followers who love her quick, healthy recipes? Julie is unsure if she wants to create a traditional or self-publish her cookbook at this time. She has a busy schedule working four days a week, so time is limited along with a budget.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-10T16:11:26.285267+00:00"
+}

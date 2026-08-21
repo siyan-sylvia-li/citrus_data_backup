@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Study — Informed Consent</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+  <header class="topbar">
+    <h1 class="topbar__title">Game Study</h1>
+  </header>
+
+  <main class="consent">
+    <form class="consent__card" method="post" action="{{ url_for('consent') }}">
+      <h2 class="consent__title">Informed Consent</h2>
+
+      <div class="consent__scroll">
+
+      <section class="consent__section">
+        <h3>About this study</h3>
+        <!-- <p>
+          This is a research study on how people make decisions while playing
+          games with the help of AI assistants. Your goal is to play the
+          <strong><span class="topic-name">{{ topic }}</span></strong> game and,
+          at each step, <strong>make the move you think is best</strong>. We're
+          not testing prior skill — it's fine if you're not an expert; just make
+          the best decision you can with the help available.
+        </p> -->
+        <p>
+          This is a research study on how <strong>users with different AI usage skills</strong> make
+          decisions while playing games.
+          Your goal is to play two
+          <strong><span class="topic-name">{{ topic }}</span></strong> puzzles.
+        </p>
+      </section>
+
+      <section class="consent__section">
+        <h3>What you will do (~9 minutes)</h3>
+        <ol>
+          <li>A <b>prompt-writing task (~2 minutes)</b>.</li>
+          <li>IF YOUR CREATED PROMPT IS HIGH-QUALITY: Play the first <b><span class="topic-name">{{ topic }}</span></b> game (3 minutes).</li>
+          <li><b>Reflection questions</b> (~1 minute).</li>
+          <li>Play the second game (3 minutes).</li>
+          <li><b>Reflection questions</b> (~1 minute).</li>
+        </ol>
+      </section>
+
+      <section class="consent__section">
+        <h3>Voluntary Participation</h3>
+        <p>
+          Participation is voluntary and you may withdraw any time.
+        </p>
+      </section>
+
+      <section class="consent__section">
+        <h3>Eligibility</h3>
+        <p>
+          <!-- PLACEHOLDER: e.g. You must be 18 or older and ... -->
+          You must be 18 years of age or older to participate. You must not be a skilled Connect Four player. 
+        </p>
+      </section>
+
+      <section class="consent__section">
+        <h3>Risks & discomforts</h3>
+        <p>
+          Participation in this study involves minimal risk.
+        </p>
+      </section>
+
+      <section class="consent__section">
+        <h3>Benefits</h3>
+        <p>
+          There are no direct benefits to you from participating beyond the
+          listed compensation.
+        </p>
+      </section>
+
+      <section class="consent__section">
+        <h3>Confidentiality & data retention</h3>
+        <p>
+          We collect your Prolific ID, the prompt you create, demographics, and the moves you make during the game. Data
+          is stored securely and used for research only; de-identified results
+          may be published.
+        </p>
+      </section>
+
+      <section class="consent__section">
+        <h3>Questions or concerns</h3>
+        <p>
+          This study is conducted by Siyan Li, at Together AI. If you have
+          questions about the study, contact siyanli@together.ai.
+        </p>
+      </section>
+
+      </div><!-- /.consent__scroll -->
+
+      {% if error %}
+        <div class="start__error">{{ error }}</div>
+      {% endif %}
+
+      <label class="consent__check">
+        <input type="checkbox" name="consent" value="yes" required />
+        <span>
+          I have read and understood the information above, and I consent to
+          participate in this study.
+        </span>
+      </label>
+
+      <button type="submit" class="consent__btn">I agree, continue</button>
+    </form>
+  </main>
+</body>
+</html>

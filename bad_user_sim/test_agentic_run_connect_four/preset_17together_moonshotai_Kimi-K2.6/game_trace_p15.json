@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I see a potential diagonal threat along c6r1-c5r2-c4r3 if I drop in column 4, but I'm not sure if it's a true forced win. Could you analyze the key variations after Red plays column 4 (and maybe column 2) and tell me the best first move here?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "If Red plays c4 first, is that a forced win against perfect defense, or can Yellow hold to a draw? I'm looking for the column that actually secures the best result."
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Yellow answered c5 after my c4. What's Red's winning continuation now?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After c4 and Yellow c5, I played c4 again and Yellow answered c1. What's my winning next move now?"
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  }
+]

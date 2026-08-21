@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I need to create a three-year work task plan to help guide my work in posting cooking videos to my social media followers, grow my following, and publish a cookbook. I need to decide on traditional or self-publishing for the cookbook and could use guidance on this. My time constraints are I work four days per week, 3 hours per day, and I have minimal money to spend on this. Can you help me create the work plan?",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-10T15:10:26.179363+00:00"
+}

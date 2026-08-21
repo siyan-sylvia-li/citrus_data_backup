@@ -1,0 +1,35 @@
+{
+  "prolific_id": "p737",
+  "game": "connect_four",
+  "rounds": [
+    {
+      "puzzle": "15",
+      "ai": true,
+      "ai_survey": true,
+      "gate": true,
+      "time_limit": 360,
+      "intro": {
+        "title": "Puzzle 1",
+        "body": "An <strong>AI assistant</strong> will be available to help you for this round. This is your <strong>only chance</strong> to use it in this study. You may ask your questions about Connect Four to help your second puzzle."
+      }
+    },
+    {
+      "puzzle": "w4p6",
+      "ai": false,
+      "ai_survey": false,
+      "time_limit": 180,
+      "intro": {
+        "title": "Puzzle 2",
+        "body": "There is <strong>no AI assistant</strong> here, and you will <strong>not</strong> need to fill out the AI assistant questionnaire afterward."
+      }
+    }
+  ],
+  "skill_rating": "2",
+  "age": 36,
+  "education": "bachelors",
+  "occupation": "other",
+  "occupation_other": "Unemployed",
+  "genai_usage": "never",
+  "consented_at": "2026-07-24T13:26:20.047701+00:00",
+  "submitted_at": "2026-07-24T13:37:32.731328+00:00"
+}

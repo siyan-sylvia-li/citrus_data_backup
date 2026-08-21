@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I'm considering b7 because it flips a lot of discs. Is this the best move, or does it give White a strong response?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I've got g2, b6, a7, and c8. a7 feels like it might be too risky, and c8 seems okay, but I'm not sure. Which one is the play here to keep the lead?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I've got g2, b6, and a7. g2 looks like it flips the most (f2 and the g-column), but I'm worried it might let White take the h1 corner. Is g2 still the best move, or should I go with a7 or b6 to play it safer?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm torn between a1 and g2. g2 seems like it'd flip a bunch of discs, but a1 is a corner, and I know those are usually gold. Which one is actually better for the final score?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at the board and b7 seems like a power move that flips a ton. Is that the right call, or am I just playing into White's hands?"
+  }
+]

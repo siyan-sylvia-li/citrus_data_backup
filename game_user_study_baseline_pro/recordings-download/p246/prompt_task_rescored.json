@@ -1,0 +1,32 @@
+{
+  "created_prompt": "Julie makes cooking videos online. She has 1.2M followers already who love her quick, healthy recipes. She works four days a week and has a limited budget and limited time. Help her come up with a three-year plan to grow online and publish a cookbook. Also help her decide between traditional vs. self-publishing her book.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 4
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.333,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "original": {
+    "judges": {
+      "llama": 3,
+      "gpt": 3
+    },
+    "mean_score": 3.0,
+    "median_score": 3.0,
+    "passed": true
+  },
+  "time_taken": 18.036
+}

@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Create a list of strategies that can be used to increase to number of online subscribers to a cooking video channel while seeking to publish a physical cookbook",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 2
+    },
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 1.667,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 1.667,
+  "submitted_at": "2026-08-19T11:03:57.583554+00:00"
+}

@@ -1,0 +1,40 @@
+ok	think_v2_preset7_openai:gpt-5.6-luna
+ok	think_v2_preset8_openai:gpt-5.6-luna
+ok	think_v2_preset9_openai:gpt-5.6-luna
+ok	think_v2_preset7_anthropic:claude-sonnet-5
+ok	think_v2_preset8_anthropic:claude-sonnet-5
+ok	think_v2_preset9_anthropic:claude-sonnet-5
+ok	think_v2_preset10_openai:gpt-5.6-luna
+ok	think_v2_preset10_anthropic:claude-sonnet-5
+ok	think_v2_preset7_together:moonshotai_Kimi-K2.6
+ok	think_v2_preset9_together:moonshotai_Kimi-K2.6
+FAIL	think_v2_preset8_together:moonshotai_Kimi-K2.6	logs/think_v2_preset8_together:moonshotai_Kimi-K2.6.log
+ok	think_v2_preset7_anthropic:claude-sonnet-5
+ok	think_v2_preset7_together:moonshotai_Kimi-K2.6
+ok	think_v2_preset7_openai:gpt-5.6-luna
+ok	think_v2_preset8_anthropic:claude-sonnet-5
+ok	think_v2_preset8_openai:gpt-5.6-luna
+ok	think_v2_preset9_anthropic:claude-sonnet-5
+ok	think_v2_preset11_openai:gpt-5.6-luna
+ok	think_v2_preset9_together:moonshotai_Kimi-K2.6
+ok	think_v2_preset9_openai:gpt-5.6-luna
+ok	think_v2_preset10_anthropic:claude-sonnet-5
+ok	think_v2_preset10_openai:gpt-5.6-luna
+ok	think_v2_preset11_openai:gpt-5.6-luna
+ok	think_v2_preset11_anthropic:claude-sonnet-5
+ok	think_v2_preset11_anthropic:claude-sonnet-5
+ok	think_v2_preset11_together:moonshotai_Kimi-K2.6
+FAIL	think_v2_preset10_together:moonshotai_Kimi-K2.6	logs/think_v2_preset10_together:moonshotai_Kimi-K2.6.log
+ok	think_v2_preset11_together:moonshotai_Kimi-K2.6
+FAIL	think_v2_preset8_together:moonshotai_Kimi-K2.6	logs/think_v2_preset8_together:moonshotai_Kimi-K2.6.log
+ok	think_v2_preset11_together:google_gemma-4-31B-it
+ok	think_v2_preset11_together:google_gemma-4-31B-it
+ok	think_v2_preset10_together:moonshotai_Kimi-K2.6
+ok	think_v2_preset8_together:google_gemma-4-31B-it
+ok	think_v2_preset8_together:google_gemma-4-31B-it
+ok	think_v2_preset7_together:google_gemma-4-31B-it
+FAIL	think_v2_preset7_together:google_gemma-4-31B-it	logs/think_v2_preset7_together:google_gemma-4-31B-it.log
+FAIL	think_v2_preset10_together:google_gemma-4-31B-it	logs/think_v2_preset10_together:google_gemma-4-31B-it.log
+FAIL	think_v2_preset9_together:google_gemma-4-31B-it	logs/think_v2_preset9_together:google_gemma-4-31B-it.log
+FAIL	think_v2_preset10_together:google_gemma-4-31B-it	logs/think_v2_preset10_together:google_gemma-4-31B-it.log
+FAIL	think_v2_preset9_together:google_gemma-4-31B-it	logs/think_v2_preset9_together:google_gemma-4-31B-it.log

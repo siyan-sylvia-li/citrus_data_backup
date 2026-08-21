@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Create a 3 year plan for someone who posts cooking videos of quick, healthy recipes to 1.2M followers online. The plan must help her grow, consist of 4 days each week, and take into account limited time and budget. it should also include publishing a cookbook and give advice as to whether traditional vs self publishing would be the best option.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 4
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.333,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-05T15:25:36.768414+00:00"
+}

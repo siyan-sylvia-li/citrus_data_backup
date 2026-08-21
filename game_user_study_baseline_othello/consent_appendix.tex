@@ -1,0 +1,72 @@
+% Requires: \usepackage[most]{tcolorbox}  (in preamble)
+% Optional:  \usepackage{enumitem}
+%
+% Verbatim transcription of the participant-facing informed consent page
+% (game_user_study_baseline_othello/templates/consent.html).
+% The template variable {{ topic }} is instantiated as "Othello" in this study.
+
+\begin{tcolorbox}[
+  breakable,
+  enhanced,
+  colback=gray!3,
+  colframe=gray!55,
+  boxrule=0.5pt,
+  arc=2pt,
+  left=8pt, right=8pt, top=8pt, bottom=8pt,
+  title={\textbf{Informed Consent}},
+  fonttitle=\bfseries,
+  coltitle=black,
+  colbacktitle=gray!18,
+  label={box:consent}
+]
+\small
+\setlength{\parskip}{4pt}
+\setlength{\parindent}{0pt}
+
+\textbf{About this study.}
+This is a research study on how \textbf{users with different AI usage skills} make
+decisions while playing games. Your goal is to play three \textbf{Othello} puzzles.
+
+\textbf{What you will do ($\sim$12 minutes).}
+\begin{enumerate}[leftmargin=1.4em,itemsep=1pt,topsep=2pt]
+  \item A \textbf{prompt-writing task ($\sim$2 minutes)}.
+  \item IF YOUR CREATED PROMPT IS HIGH-QUALITY: Play the first \textbf{Othello} game (5 minutes).
+  \item \textbf{Reflection questions} ($\sim$1 minute).
+  \item Play a round of two games (3 minutes).
+  \item \textbf{Reflection questions} ($\sim$1 minute).
+\end{enumerate}
+
+\textbf{Voluntary participation.}
+Participation is voluntary and you may withdraw any time.
+
+\textbf{Eligibility.}
+You must be 18 years of age or older to participate. You must not be a skilled
+Othello player.
+
+\textbf{Risks \& discomforts.}
+Participation in this study involves minimal risk.
+
+\textbf{Benefits.}
+There are no direct benefits to you from participating beyond the listed
+compensation.
+
+\textbf{Confidentiality \& data retention.}
+We collect your Prolific ID, the prompt you create, demographics, and the moves
+you make during the game. Data is stored securely and used for research only;
+de-identified results may be published.
+
+\textbf{Questions or concerns.}
+This study is conducted by \textsc{[Author]}, at \textsc{[Institution]}. If you have
+questions about the study, contact \textsc{[email]}.
+
+\medskip
+\hrule
+\medskip
+
+$\square$~~I have read and understood the information above, and I consent to
+participate in this study.
+
+\medskip
+\fbox{\textbf{I agree, continue}}
+
+\end{tcolorbox}

@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "When I played g2 it flipped a bunch of discs and I was ahead, then White played a1 and the board flipped back hard. Can you explain what made a1 so devastating for me?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "At the start my legal moves were g2, b6, a7, b7, b8, c8. Could I have taken a corner like a1 or h1 right away, or was I forced to play toward a corner instead?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Which of my first legal moves were adjacent to the corners? I remember squares next to corners are dangerous\u2014X-squares or C-squares\u2014but I mix them up. Were b7 or c8 one of those risky spots?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "From my original legal moves\u2014g2, b6, a7, b7, b8, c8\u2014which was the least bad to start from? Or was Black already in a losing position no matter what I picked?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After my c8 move, the board showed White playing b8, then h1, then a3. Does that mean I had to pass multiple times because I had no legal moves left, or did I miss a turn I could have played?"
+  }
+]

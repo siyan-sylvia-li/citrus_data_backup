@@ -1,0 +1,22 @@
+{
+  "created_prompt": "Help me create a 3 year plan to grow online and to publish a cookbook.  I have 1.2M followers for my quick and healthy recipes.  Currently I work 4 days a week and I have childcare responsibilities, meaning limited time and budget for this project.  I'm not sure if I should self publish or use a traditional publisher, or perhaps creating a food blog combining my food with my trips abroad.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "qwen",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-06-26T23:53:03.799773+00:00"
+}

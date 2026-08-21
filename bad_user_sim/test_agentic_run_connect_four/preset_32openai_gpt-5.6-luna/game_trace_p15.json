@@ -1,0 +1,54 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "What is the strongest Red move here, and what immediate tactical threat should I be watching for?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After Yellow's move in column 5, which column should I play now? Is there a forcing Red threat, or do I need to block?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "The board now has Red stacked at c4 rows 3-4. What is the best next move, especially regarding Yellow's diagonal threats?"
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "play_move",
+    "move": 6
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After Red's row-4 run c4-c6, Yellow added c1 again. What move now best preserves a win? Please account for the fact c7 would only land at row 2."
+  },
+  {
+    "tool": "play_move",
+    "move": 1
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now that c1-r4 is blocked, what is the strongest Red move from this position? Is there a specific diagonal or setup I should pursue?"
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After Red c3 and Yellow filling c1, which move is objectively best now? Please identify any immediate win or required block rather than just a general setup."
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  }
+]

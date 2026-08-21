@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I need  some help creating a plan to expand my online business, if you could help. I do my online work in my spare time as I work 4 days a week. I've spent the last few years producing cooking videos and have managed to get 1.2 million follows; however, new subscribers has really slowed down recently and I'm looking for new ways to attract more followers. I'm also considered writing my own cook book as m quick and healthy recipes are a real hit on the channel, but I'm not sure if to go down the traditional route or self publish. I need the plan to realistic targets over the next 3 years.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-04T13:46:12.011093+00:00"
+}

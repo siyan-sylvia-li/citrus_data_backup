@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Study — A few questions</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  <style>
+    /* Reveal the "Other" text box only when the Other option is selected. */
+    #occupation_other_wrap { display: none; margin-top: 8px; }
+    #occupation_other_wrap.show { display: block; }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <h1 class="topbar__title">Game Study</h1>
+  </header>
+
+  <main class="start">
+    <form class="start__card" method="post" action="{{ url_for('demographics') }}" id="demo-form">
+      <h2 class="start__title">One Last Thing!</h2>
+      <p class="start__body">
+        All responses are associated only with your participant ID.
+      </p>
+
+      {% if error %}
+        <div class="start__error">{{ error }}</div>
+      {% endif %}
+
+      <label class="start__label" for="age">What is your age?</label>
+      <input
+        type="number"
+        id="age"
+        name="age"
+        class="start__input"
+        value="{{ prefill.age }}"
+        min="{{ age_min }}"
+        max="{{ age_max }}"
+        step="1"
+        inputmode="numeric"
+        required
+      />
+
+      <label class="start__label" for="education">
+        What is the highest level of school you have completed or the highest degree you have received?
+      </label>
+      <select id="education" name="education" class="start__input" required>
+        <option value="" disabled {% if not prefill.education %}selected{% endif %}>Select…</option>
+        {% for value, label in education_options %}
+          <option value="{{ value }}" {% if prefill.education == value %}selected{% endif %}>{{ label }}</option>
+        {% endfor %}
+      </select>
+
+      <label class="start__label" for="occupation">What industry or field do you currently work in?</label>
+      <select id="occupation" name="occupation" class="start__input" required>
+        <option value="" disabled {% if not prefill.occupation %}selected{% endif %}>Select…</option>
+        {% for value, label in occupation_options %}
+          <option value="{{ value }}" {% if prefill.occupation == value %}selected{% endif %}>{{ label }}</option>
+        {% endfor %}
+      </select>
+      <div id="occupation_other_wrap" class="{% if prefill.occupation == 'other' %}show{% endif %}">
+        <input
+          type="text"
+          id="occupation_other"
+          name="occupation_other"
+          class="start__input"
+          placeholder="Please specify your industry or field"
+          value="{{ prefill.occupation_other }}"
+        />
+      </div>
+
+      <label class="start__label" for="genai_usage">How frequently do you use Generative AI?</label>
+      <select id="genai_usage" name="genai_usage" class="start__input" required>
+        <option value="" disabled {% if not prefill.genai_usage %}selected{% endif %}>Select…</option>
+        {% for value, label in genai_usage_options %}
+          <option value="{{ value }}" {% if prefill.genai_usage == value %}selected{% endif %}>{{ label }}</option>
+        {% endfor %}
+      </select>
+
+      <button type="submit" class="start__btn">Submit & Finish</button>
+    </form>
+  </main>
+
+  <script>
+    // Toggle the "Other" free-text box based on the occupation selection.
+    (function () {
+      const sel = document.getElementById('occupation');
+      const wrap = document.getElementById('occupation_other_wrap');
+      const other = document.getElementById('occupation_other');
+      function sync() {
+        const isOther = sel.value === 'other';
+        wrap.classList.toggle('show', isOther);
+        other.required = isOther;
+      }
+      sel.addEventListener('change', sync);
+      sync();
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Can you identify the best move here under optimal play, and briefly give the resulting outcome? I want the minimax choice rather than just a disc-count heuristic."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After Black b7 and White a8, Black has g2, b6, a7, c8. What is the optimal continuation move under minimax?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now after c8, White b8, with Black legal g2, b6, a7: which move is minimax-optimal?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After a7 and White b6, Black can play a1, g2, or a3. Which is the exact minimax move now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White passed after a3. Between Black a1 and g2, which is minimax-optimal, considering the remaining h1 and the opponent's reply?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  }
+]

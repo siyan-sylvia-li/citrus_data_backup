@@ -1,0 +1,35 @@
+# Files NOT uploaded to Cloud Build when deploying with `gcloud run deploy --source .`
+.git
+.gitignore
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+.env.local
+.vscode/
+.idea/
+*.swp
+.DS_Store
+*.ipynb
+app_og.py
+# Collected participant data lives in a mounted GCS bucket at runtime,
+# never in the build context / image.
+recordings/
+recordings-local/
+
+# Offline puzzle-design tooling & docs — kept in the repo for reproducibility,
+# but never imported at runtime (only engine.py is loaded by the app).
+games/connect_four/connect_four_ai.py
+games/connect_four/precompute.py
+games/connect_four/solver.py
+games/connect_four/rank_first3.py
+games/connect_four/rank_similar_puzzles.py
+games/connect_four/scan_win4.py
+games/connect_four/generate_central_puzzles.py
+games/connect_four/place_central_candidates.py
+games/connect_four/DIFFICULTY.md
+games/connect_four/PUZZLE_SELECTION.md
+games/connect_four/zeilberger_positions.json

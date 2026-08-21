@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Create a three-year plan with concrete steps for a healthy cooking influencer with 1.2 million followers.\r\n\r\nThe plan should include steps to grow her online footprint and publish a cookbook (include pros/cons of traditional vs self publishing the book).\r\n\r\nShe works four days a week.  Time and budget are limited.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-03T15:34:25.835424+00:00"
+}

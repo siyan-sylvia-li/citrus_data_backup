@@ -1,0 +1,47 @@
+{
+  "puzzle": "oc20260727",
+  "decisions": 5,
+  "optimal_moves": 4,
+  "opener_optimal": true,
+  "discs_lost": 20,
+  "final_margin": -2,
+  "won": false,
+  "optimal_margin": 18,
+  "completed": true,
+  "moves": [
+    "b7",
+    "g2!",
+    "c8",
+    "a7",
+    "b6"
+  ],
+  "auto_played": [
+    "a1"
+  ],
+  "chat_turns": null,
+  "game": "othello",
+  "round": 0,
+  "ai_available": true,
+  "model_settings": {
+    "max_tokens": 200000
+  },
+  "questions_asked": 1,
+  "question_budget": 10,
+  "profile": {
+    "persona": "A talented musician who contributes his skills and knowledge during the listening parties",
+    "age": 29,
+    "education": "some_college",
+    "occupation": "arts",
+    "ai_frequency": "monthly",
+    "known_concepts": [
+      "Digital",
+      "Currency",
+      "Payment",
+      "Ownership",
+      "Transaction",
+      "Fee"
+    ]
+  },
+  "student_model": "together:zai-org/GLM-5.2",
+  "streamed": false
+}

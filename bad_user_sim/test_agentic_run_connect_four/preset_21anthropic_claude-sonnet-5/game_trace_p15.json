@@ -1,0 +1,30 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Connect4, my turn as Red. Board bottom-up:\nr1: . R R Y Y R Y\nr2: . R Y Y R Y .\nr3: . . . . . R .\nIs there a forced win for red here, or a specific best move? I'm eyeing c4 to build a diagonal with c5r2/c6r1 but not sure it's safe."
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Update: board now has Yellow at c1r1 added. My diagonal trap c3r4/c4r3/c5r2/c6r1 (3 of 4 are R, need c3r4) is still alive, but c3 currently only has r1,r2 filled so c3r4 needs r3 filled first. I don't want to play c3 myself and let Yellow block by playing c3 again to r4. What's the best move right now?"
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  }
+]

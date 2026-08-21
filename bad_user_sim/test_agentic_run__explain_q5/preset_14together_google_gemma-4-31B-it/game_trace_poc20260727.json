@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I've got a few options like b7 and c8 that look like they'll flip a lot of pieces. Which one is actually the better move here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Okay, White took a8. Now I've got g2, b6, a7, and c8. Which one keeps the momentum going?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm down by a lot here. Does a7 actually help me catch up, or is there a better play with b6 or g2?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm really trailing here. I've got a1, g2, or a3. Which one gives me the best shot at a comeback?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I have a1 and g2 left. Which one should I take first to maximize my discs and keep White blocked?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

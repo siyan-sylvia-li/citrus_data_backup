@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Devise a three year plan to achieve the following objective for the following individual. Objective is to grow online over the next three years and publish a cookbook. Determine whether this should be traditional vs self publishing. The person is named Julie and she currently posts online cooking videos to 1.2 million followers. Her followers love her quick, healthy recipes. She works four days a week, and has limited time and budget. The three year plan developed needs to reflect this.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 3.0,
+  "submitted_at": "2026-08-21T12:45:43.737283+00:00"
+}

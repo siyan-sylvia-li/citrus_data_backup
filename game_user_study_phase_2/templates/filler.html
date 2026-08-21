@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Study — Before You Play</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  <style>
+    .fl__scenario { background: #f0f7f2; border: 1px solid #cfe3d6; border-left: 4px solid #2D5A43;
+                    border-radius: 6px; padding: 14px 18px; margin: 0 0 18px; color: #334e41;
+                    line-height: 1.5; }
+    .fl__scenario ul { margin: 8px 0 0; padding-left: 20px; }
+    .fl__scenario li { margin-bottom: 6px; }
+    textarea.start__input { min-height: 120px; resize: vertical; font-family: inherit; line-height: 1.45; }
+    .fl__overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.6); color: #fff; z-index: 9999;
+                   display: none; align-items: center; justify-content: center; text-align: center;
+                   padding: 2rem; font-size: 1.15rem; line-height: 1.6; }
+    .fl__overlay--on { display: flex; }
+    .fl__spinner { width: 42px; height: 42px; border: 4px solid rgba(255,255,255,0.3);
+                   border-top-color: #fff; border-radius: 50%; animation: fl-spin 1s linear infinite;
+                   margin: 0 auto 1rem; }
+    @keyframes fl-spin { to { transform: rotate(360deg); } }
+  </style>
+</head>
+<body>
+  <header class="topbar"><h1 class="topbar__title">Game Study</h1></header>
+  <main class="start">
+    <form class="start__card" method="post" action="{{ url_for('filler') }}" id="fl-form">
+      <h2 class="start__title">Before you play</h2>
+      <p class="start__body">One more short question about the scenario you read earlier.
+        There is no right answer &mdash; we are interested in what you would suggest.</p>
+
+      <div class="fl__scenario">{{ scenario | safe }}</div>
+
+      {% if error %}<div class="start__error">{{ error }}</div>{% endif %}
+
+      <label class="start__label" for="reflection">
+        What would your advice to Julie be? (at least {{ min_chars }} characters)
+      </label>
+      <textarea id="reflection" name="reflection" class="start__input"
+                required minlength="{{ min_chars }}">{{ prefill }}</textarea>
+
+      <button type="submit" class="start__btn">Submit &amp; continue</button>
+    </form>
+  </main>
+  <div class="fl__overlay" id="fl-overlay">
+    <div><div class="fl__spinner"></div>Recording your response…</div>
+  </div>
+  <script>
+    document.getElementById('fl-form').addEventListener('submit', function () {
+      document.getElementById('fl-overlay').classList.add('fl__overlay--on');
+    });
+  </script>
+</body>
+</html>

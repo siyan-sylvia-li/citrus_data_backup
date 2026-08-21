@@ -1,0 +1,37 @@
+[
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I just lost that puzzle 19-45 after playing c8, then b6, then b8. Was picking c8 first the huge mistake, or was it one of the later moves? What should I have done differently on that opening move?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "For the opening position with Black legal moves g2, b6, a7, b7, b8, c8 and White threatening a1 corner, which first move is strongest? b7 seems like it blocks a1 and flips a lot. Is b7 best, or is something else like c8 actually right despite opening a1?"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "The board shows the game is finished with 0 empty squares and I have no legal move. Do I just pass here, or does the interface load a new endgame puzzle for me to try again?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "In Othello endgames, how do I quickly judge parity and who gets the last moves in a region? Simple rule of thumb?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "When is giving up a corner a good trade in the endgame vs always bad?"
+  }
+]

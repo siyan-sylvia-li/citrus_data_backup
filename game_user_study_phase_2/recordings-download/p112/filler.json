@@ -1,0 +1,25 @@
+{
+  "reflection": "My advice to Julie would be to begin teasing the idea for a cookbook to your followers and gauge interest in the book before pulling the trigger on anything.",
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 2
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.667,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-18T16:31:06.950625+00:00"
+}

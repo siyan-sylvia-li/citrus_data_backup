@@ -1,0 +1,17 @@
+{
+  "game": "connect_four",
+  "nasa_tlx": {
+    "effort": 5,
+    "frustration": 7,
+    "mental_demand": 6,
+    "performance": 3,
+    "physical_demand": 1,
+    "temporal_demand": 7
+  },
+  "ai_likert": {
+    "ai_consistent": 4,
+    "ai_easy_to_use": 4
+  },
+  "additional_feedback": "I feel like the whole point of an AI assistant is to solve the problems, so having an AI assistant with a game felt less of a game and more of a frustration",
+  "submitted_at": "2026-06-27T00:30:43.808333+00:00"
+}

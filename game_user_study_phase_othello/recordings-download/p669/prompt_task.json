@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Please make a concrete three year plan to help Julie with her online cooking channel and cookbook.  She is currently posting cooking videos to 1.2 million followers.  She focuses on quick and health recipes which they love.  She wants to grow her online presence and also publish a cookbook, which she's torn between publishing traditionally vs self publishing.  She's working 4 days a week with limited time and budget.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-05T15:18:42.635531+00:00"
+}

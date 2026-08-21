@@ -1,0 +1,19 @@
+{
+  "created_prompt": "I have a social media channel with 1.2M followers that watch my cooking videos. I want to continue to grow my following over the next 3 years and also publish a cook book. However, I work 4 days a week so I have limited time. I also have a limited budget. Should I go the traditional route of publishing my book, or should I try self-publishing? Can you give me some advice and provide a 3 year plan for me to review?",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-16T15:13:25.152719+00:00"
+}

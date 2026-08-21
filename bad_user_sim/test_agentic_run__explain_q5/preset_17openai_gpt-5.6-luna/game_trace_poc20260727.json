@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Can you identify the optimal first move here and the key continuation under best play? Please give the move sequence, not just general advice."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After b7, a8, g2, h1, the current legal moves are b6, a7, c8. Which should I play now for best final result, and what exact remaining sequence follows?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Review the completed line: was b7 the correct initial move under best play, or was another legal first move stronger?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "In the position after b7 a8 g2 h1, was c8 definitely better than b6 or a7?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Does the final sequence c8, a7, b6, then forced a1 produce the best achievable result for Black?"
+  }
+]

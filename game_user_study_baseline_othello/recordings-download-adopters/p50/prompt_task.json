@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Act as an experienced cookbook publishing guide and develop a 3 year plan for the following person. The plan must contain concrete milestones to achieve the end goal of publishing a book and growing an audience. The book can be either self published or published by traditional methods. Base the guidance on the likelihood of success from each method. The writer is Julie, who specialises in quick & healthy meals, which is why her 1.2 million followers like her recipes. Julie wants to grow her audience too. Limitations: Julie works 4 days a week and has a limited budget",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-10T22:40:42.737904+00:00"
+}

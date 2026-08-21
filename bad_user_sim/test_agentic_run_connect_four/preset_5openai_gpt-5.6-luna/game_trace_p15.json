@@ -1,0 +1,14 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Which column should I play first for the best outcome, and what's the main idea? Keep it short."
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  }
+]

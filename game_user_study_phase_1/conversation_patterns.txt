@@ -1,0 +1,84 @@
+================================================================================
+✅ GOT ROUND 2 RIGHT (opened col 3) — full dialogue  (n=4)
+================================================================================
+
+### 6595826f3295…  R1=0/3  R2=2/3  turns=1  |  GenAI use: never (light)
+  U: does selecting 2 (bottom) and 3 (side) work?
+  A: Not quite. Column 2 doesn’t create a decisive threat fast enough, and column 3 also doesn’t force Yellow to respond the way you need. Ask yourself: after your first choice, does Yellow have an easy block or [...]
+
+### 65e207f52aa8…  R1=3/3  R2=2/3  turns=4  |  GenAI use: less_than_monthly (light)
+  U: Is 1-1 a good move?
+  A: No — playing in column 1 would land at row 1, and it doesn’t create an immediate strong threat or block Yellow’s key plans. Before choosing it, ask: “What move creates a forcing threat for Red?” Look especially at [...]
+  U: Is column 4 better?
+  A: Yes, column 4 is better. If Red plays column 4, it lands at **(4,3)** and makes a strong central threat: Red would have **(2,1), (3,2), (4,3)** diagonally, aiming at **(5,4)** next. It also uses the center, which [...]
+  U: Is column 3 good?
+  A: Column 3 is **not as good** here. If Red plays column 3, it lands at **(3,3)**, but it doesn’t create the same forcing diagonal threat as column 4. Column 4 is stronger because it builds through the center and [...]
+  U: what next?
+  A: Play **column 5**. That drops Red at **(5,4)**, completing the diagonal threat line with **(2,1), (3,2), (4,3), (5,4)**? Actually (3,2) is Yellow here, so more importantly it creates/maintains the strongest forcing [...]
+
+### 666b59f95861…  R1=1/3  R2=3/3  turns=3  |  GenAI use: few_times_month (light)
+  U: I was thinking about dropping one in column 2, row 3, but I feel like the other player will immediately see my strategy if I do that. WHat's the best move here?
+  A: The best move is **column 4**. Why: Red needs to **block Yellow’s immediate vertical threat** in column 4. Yellow already has discs at **c4r1 and c4r2**, and if Red doesn’t play **c4r3**, Yellow can drop there next [...]
+  U: What's the best next move?
+  A: Best move: **column 4**. It plays at **c4r4**, stacking above your red at **c4r3** and, more importantly, it keeps Red’s forcing chances alive while avoiding giving Yellow the tempo. Other moves let Yellow escape [...]
+  U: It looks like yellow has already won this one. What should I do?
+  A: Yellow **has not already won** yet—there are only 3-in-a-row threats, no completed 4. But Red has an **immediate winning move**: play **column 2**. That lands at **row 3**, making a horizontal four on row 3: [...]
+
+### 6679a3da51ea…  R1=3/3  R2=2/3  turns=2  |  GenAI use: daily (heavy)
+  U: Would column two be a wise move?
+  A: Column 2 is **tempting**, because it would give Red **three vertically** in column 2. But ask yourself: **does it create an immediate win, or just a threat Yellow can block next turn?** Also, what can Yellow do in [...]
+  U: I've managed to block yellow on 4. One move left. What are my options?
+  A: Your key options to consider are: - **Column 5**: strongest-looking move. It builds on your Red at **5,2** and connects with the Red diagonal/side threats around **4,3–6,3**, while not giving Yellow an immediate [...]
+================================================================================
+❌ MISSED ROUND 2 — user utterances only  (n=11)
+================================================================================
+
+### 55b765befdf9…  R1=3/3  R2=0/3  turns=5  |  GenAI use: daily (heavy)
+  U: What threats do you see. I am about to move into column 3. will this work
+  U: what would you suggest
+  U: so just block up column 4 here. what's best to win with 2 moves left
+  U: ok what next
+  U: any risks to column 5
+
+### 562eb896733e…  R1=3/3  R2=0/3  turns=4  |  GenAI use: daily (heavy)
+  U: are there any threats on the board?
+  U: what is the best next 3 moves
+  U: are there any threats?
+  U: what is my next best move?
+
+### 5dc9ef9a5d81…  R1=3/3  R2=0/3  turns=3  |  GenAI use: few_times_week (heavy)
+  U: What do you think would be the best move right now?
+  U: And now?
+  U: Now?
+
+### 5de87c376522…  R1=1/3  R2=0/3  turns=4  |  GenAI use: few_times_week (heavy)
+  U: I just saw a move I think would be better - What about 3/3?
+  U: Would 3/4 be a better move?
+  U: I see - would 5/3 be the best? That was my first inclination
+  U: Should I play column 4?
+
+### 5e469f9ef0d3…  R1=2/3  R2=0/3  turns=3  |  GenAI use: daily (heavy)
+  U: I need to win in 2 moves I can't see a way to do it?
+  U: Didn't help
+  U: Ok last move how do I win
+
+### 5e64b95d672c…  R1=1/3  R2=0/3  turns=0  |  GenAI use: less_than_monthly (light)
+
+### 5f285902166d…  R1=0/3  R2=0/3  turns=1  |  GenAI use: few_times_week (heavy)
+  U: any advice for the next move?
+
+### 5f5aa7a073b8…  R1=3/3  R2=0/3  turns=2  |  GenAI use: few_times_week (heavy)
+  U: Here column 4 is a must right
+  U: What is the best play here to maximize odds of winning. I was thinking of column 3
+
+### 6150520d0e7c…  R1=2/3  R2=0/3  turns=2  |  GenAI use: less_than_monthly (light)
+  U: What do you think about placing red on 1,1 and 2,3?
+  U: Yes, yellow does. What else do you suggest?
+
+### 642aff87ea9f…  R1=1/3  R2=0/3  turns=4  |  GenAI use: several_times_day (heavy)
+  U: Im not a confident player, is it wise to add a counter to 4,6
+  U: ok,column 6?
+  U: have you got a better idea?
+  U: ok i think i made a mistake then! how shoudl i fix it
+
+### 66b1007285ff…  R1=0/3  R2=0/3  turns=0  |  GenAI use: daily (heavy)

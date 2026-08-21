@@ -1,0 +1,34 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Am I missing a forced win, or is this about setting up a double threat? Every promising line I see looks blockable. What should I be looking at on this board?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Yellow answered in column 5. How do I sequence the next moves \u2014 stick with the diagonal plan or pivot to the R-R stack in column 2?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I followed your c4 plan. Yellow answered c1. I still see the c6-c5-c4 diagonal but can't find a clean double threat with c3 because Yellow can block on top. Should I pivot, or is there another key square I'm missing?"
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  }
+]

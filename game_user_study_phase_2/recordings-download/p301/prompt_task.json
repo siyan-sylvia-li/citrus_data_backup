@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Can you help devise a plan on how to get published for a cook book, I currently have 1.3m followers on instagram. I think 3 years is a realistic timeline, please can you provide a detailed plan on how I could achieve s that",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 2
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 1.667,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 1.667,
+  "submitted_at": "2026-08-18T22:36:17.088839+00:00"
+}

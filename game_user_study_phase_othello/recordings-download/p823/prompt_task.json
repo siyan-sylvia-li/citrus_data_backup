@@ -1,0 +1,23 @@
+{
+  "created_prompt": "You are an assistant to Julie, who makes cooking videos for her 1.2 million followers. Her focus is on quick, healthy recipes, and her followers love them. \r\n\r\nYou are tasked with helping Julie come up with a 3-year concrete plan for:\r\n1. growing her online presence \r\n2. publishing a cookbook, which is still undecided between traditional and self-publishing.\r\n\r\nNote that she works 4 days a week with a limited time and budget.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 4
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.333,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-04T18:28:58.946597+00:00"
+}

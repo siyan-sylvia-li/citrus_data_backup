@@ -1,0 +1,34 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "My legal moves are g2, b6, a7, b7, b8, and c8. Which one wins me the game or gives me the most discs by the end?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "My legal moves are g2, b6, a7, b7, b8, c8. Black 20 discs, White 34, 10 empty squares left. Which move wins the most discs for Black against optimal White play? Give just the square name."
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I lost 21 to 43. At the very start my legal moves were g2, b6, a7, b7, b8, c8. Which was the right first move? And why did a7 and g2 backfire so badly?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I played c8 first and it flipped 6 discs right away. Why was b6 still better than c8 even though c8 got more discs immediately?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After c8, White played b7. My legal moves were g2, b6, a7, b8. I picked a7 which flipped 7 discs. Was b6 or b8 or g2 better as my second move?"
+  }
+]

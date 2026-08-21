@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Out of my legal moves g2, b6, a7, b7, b8, c8, which one gives me the highest final disc count assuming optimal play by both sides? I can see b6 flips a lot right now but I don't know what White does after. Can you tell me the best move?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I think b6 flips c5,d5 (up-right to e5) and c7,d7,e7,f7,g7 (down-right to h7), so 7 discs total, not one. Am I counting wrong? If b6 really flips that many, is b7 still the best move for the end result?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After my b7, White played a8. Now my legal moves are g2, b6, a7, c8. Which one gives me the highest final disc count assuming optimal play from both sides?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I only have three legal moves left: g2, b6, a7. Which one gives me the highest final disc count assuming optimal play from both sides?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After my a7 and White's b6, my legal moves are g2, a1, a3. Which one gives me the highest final disc count assuming optimal play from both sides?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  }
+]

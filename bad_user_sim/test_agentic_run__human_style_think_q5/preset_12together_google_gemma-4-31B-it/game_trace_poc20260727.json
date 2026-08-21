@@ -1,0 +1,41 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "im just starting, what move should i go with to get a lead?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "which of these looks best: g2, b6, a7, b7, b8, or c8?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "im kind of new to this, which of these moves looks best? g2, b6, a7, b7, b8, or c8?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "wait why did i lose so bad though? i felt like i was doing okay for a bit"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "so basically the corners are like the holy grail of this game?"
+  }
+]

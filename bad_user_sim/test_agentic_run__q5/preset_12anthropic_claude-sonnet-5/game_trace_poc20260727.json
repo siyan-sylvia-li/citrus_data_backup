@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I have 6 legal moves: g2, b6, a7, b7, b8, c8. Only 10 empty squares left total so this is close to the end. Which move sets me up best to win the final count? Can you break down the best line briefly?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White just took corner a8. My options now are g2, b6, a7, c8. Which is best to maximize my final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Down to 22 vs 36 with only 6 empty squares left: a1,h1,g2,a3,b6,a7. My legal moves are g2, b6, a7. Which one actually wins me the most discs by the end, playing it all the way out?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Looking back, I noticed white got completely stuck with no legal moves for like 3 turns in a row after I played a3. Why did that happen - like what made white run out of moves like that?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "One more thing - earlier you told me c8 was better than g2, but that move actually let white flip a ton of stuff and I went from 32 down to like way behind. Was that actually still the right call, or did I mess up trusting that advice?"
+  }
+]

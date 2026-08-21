@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I'm Julie, and I am a cooking social media influencer with 1.2 million followers. My dream is to grow online and publish a cookbook based on my current and future recipe output. I only work 4 days a week, and have a limited time and budget. I want to publish the cookbook within the next 3 years. What would a reasonable, actionable plan for my cookbook look like?",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-10T16:09:38.590517+00:00"
+}

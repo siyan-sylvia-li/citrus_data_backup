@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After I played column 4, Yellow played column 5 and now has two threats at once \u2014 a vertical three in column 5 and a diagonal three through c7r1-c6r2-c5r3 threatening c4r4. I can only block one. Is there any move I can play now that stops both, or did I mess up my first move?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I followed your advice \u2014 after Yellow's first reply in column 5 I played c4 to block, then Yellow played c1. What's my best move now? Is there a forced win from this position?"
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "play_move",
+    "move": 6
+  },
+  {
+    "tool": "play_move",
+    "move": 1
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  }
+]

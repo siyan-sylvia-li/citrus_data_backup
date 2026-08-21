@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Hi! I'm a highly successful content creator with 1.2M followers who follow me for my quick, healthy recipes. \r\n\r\nOver the next three years, I want to grow online and publish my own cookbook. The problem is, I don't know if I should go down the traditional route or go into self-publishing. \r\n\r\nI work a four-day week, so I have limited time and budget. \r\n\r\nCan you help me come up with a concrete three-year plan?",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-20T13:18:34.554028+00:00"
+}

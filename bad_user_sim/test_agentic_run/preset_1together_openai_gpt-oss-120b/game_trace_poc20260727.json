@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Please give the best move (square) for Black in this Othello endgame puzzle."
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Given the current Othello board and legal moves for Black (g2, b6, a7, b7, b8, c8), which move leads to the maximum final disc count assuming optimal play from both sides?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Which of the moves g2, b6, a7, b7, b8, c8 is the optimal move for Black in this endgame position?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After Black plays b7 on the given board, what is White's optimal move?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After Black played g2, what is White's optimal move among a3, b6, c8 to minimize Black's final disc count?"
+  }
+]

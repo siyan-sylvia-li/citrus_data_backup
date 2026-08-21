@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I currently post cooking videos for quick, healthy recipes online and have 1.2 million followers. I want to be able to grow my online reach over the next three years at the same time as writing and publishing a cookbook. I work four days a week, so my time is somewhat limited, and I have a limited budget. Help me produce a three-year plan for growing my online reach and producing a cookbook within the constraints of my limited work time and limited budget. When it comes to publishing the cookbook, please also provide some pros and cons of traditional publishing vs self-publishing.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-05T14:19:58.606694+00:00"
+}

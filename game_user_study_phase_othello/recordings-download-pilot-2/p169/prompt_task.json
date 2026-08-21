@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Give me a three year plan for a cooking influencer to continue to grow and also publish a cookbook (traditional and self-published options considered) but with a limited budget and productivity hours.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-30T18:45:42.893909+00:00"
+}

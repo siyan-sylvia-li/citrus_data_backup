@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I want you to act as a professional social media/brand advisor who is tasked with making my online presence grow. I want a full 3-year plan for the strategies and steps required to help me push my side gig of social media influencing around healthy recipe posting (currently have 1.2M followers for my cooking videos) into a larger online presence as well as publish a cookbook. i am open to both traditional and self-published - I would like a break down of the pros/cons of each approach and have a recommendation provided with full rationale for the final decision.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T15:44:43.881397+00:00"
+}

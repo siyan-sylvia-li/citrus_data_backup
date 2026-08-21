@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Devise a three year plan for cooking videos to publishing a cookbook",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 1
+    },
+    {
+      "model": "gpt",
+      "score": 2
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 1.333,
+  "median_score": 1,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 1.333,
+  "submitted_at": "2026-08-20T14:45:50.655000+00:00"
+}

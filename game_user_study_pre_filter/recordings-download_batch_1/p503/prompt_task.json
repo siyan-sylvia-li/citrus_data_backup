@@ -1,0 +1,22 @@
+{
+  "created_prompt": "Make a clear 3 year plan for Julie that fits her time budget family and goals for video growth a cookbook and a food blog. Also compare traditional and self publishing with clear pros cons costs risks and the best choice for her now. Give quarterly steps key metrics budget tips AI tools and backup plans for changes in social media and family life.",
+  "judges": [
+    {
+      "model": "qwen",
+      "score": 4
+    },
+    {
+      "model": "gpt",
+      "score": 2
+    },
+    {
+      "model": "llama",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-06-27T00:12:42.867602+00:00"
+}

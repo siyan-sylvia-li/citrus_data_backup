@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "was b7 right or should i have opened c8?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "did g2 cost me the game?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "what was my best first move?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "could i have won from the start position?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "was b6 a mistake?"
+  }
+]

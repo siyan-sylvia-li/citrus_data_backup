@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I am a social media influencer focused on cooking videos that are quick and healthy. I am growing my channels and over the next 3 years I need to increase my viewer counts and I plan to publish my own cookbook as well. I have limited free time so I am looking for the most efficient options to grow the channel and publish the book. Can you assist me with creating a concrete plan to achieve these goals in the next 3 years? Please make it concise and step by step and focus on time management. My budget is not huge either so make it budget friendly please!",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-03T16:03:24.486225+00:00"
+}

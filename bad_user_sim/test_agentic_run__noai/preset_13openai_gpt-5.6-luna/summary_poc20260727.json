@@ -1,0 +1,40 @@
+{
+  "puzzle": "oc20260727",
+  "decisions": 4,
+  "optimal_moves": 1,
+  "opener_optimal": true,
+  "discs_lost": 40,
+  "final_margin": -22,
+  "won": false,
+  "optimal_margin": 18,
+  "completed": true,
+  "moves": [
+    "b7",
+    "g2!",
+    "b6!",
+    "c8!"
+  ],
+  "auto_played": [],
+  "chat_turns": null,
+  "game": "othello",
+  "round": 0,
+  "ai_available": false,
+  "model_settings": {
+    "max_tokens": 100000
+  },
+  "questions_asked": 0,
+  "question_budget": 0,
+  "profile": {
+    "persona": "A parent who has experienced their own challenges in adjusting to new environments and provides unconditional support",
+    "age": 43,
+    "education": "some_college",
+    "occupation": "other",
+    "ai_frequency": "weekly"
+  },
+  "student_model": "openai:gpt-5.6-luna",
+  "student_mode": "default",
+  "questions_required": 0,
+  "assistant_off": true,
+  "assistant_preset": "default",
+  "streamed": false
+}

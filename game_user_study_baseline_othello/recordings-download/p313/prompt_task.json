@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Create a concrete three-year plan to grow my 1.2 million followers online and publish a cookbook. I'm torn between traditional and self-publication.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.333,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-20T14:10:33.286770+00:00"
+}

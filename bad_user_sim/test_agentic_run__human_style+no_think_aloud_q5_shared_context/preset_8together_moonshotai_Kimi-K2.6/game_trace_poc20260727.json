@@ -1,0 +1,34 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "What do you think \u2014 is b6 the best move here? It flips a lot, but I'm worried White answers a7 and I lose too many back. Should I go for g2 instead, or something quieter like b7?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Wait \u2014 if I play b7, can't White just play a8 and flip both b7 and c6? That seems like a disaster. Does a7 avoid that problem?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "You're asking me to calculate the whole tree \u2014 that's what I have you for. Just tell me: if b7 is risky because of a8, is b6 or a7 the better practical choice?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I completely missed a1 \u2014 that was crushing. From this new position, is c8 the best recovery, or is g2 actually stronger now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "What should my very first move have been \u2014 b7 instead of b6? And was the position actually winnable from the start, or already too far gone?"
+  }
+]

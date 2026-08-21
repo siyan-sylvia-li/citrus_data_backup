@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Select the top 20 successful  vloggers who specialise in cooking videos. Scan their social media posts and media reports about them, to identify the steps that they went through to grow their online following and move into other areas such as publishing cookbooks. Summarise the common steps they took in a single document.,\r\nNext, scan my social  media posts and emails to identify where I am in terms of popularity and what steps I need to take to attract a publishing deal for my own cookbook. Use the summary you developed earlier as a guide to the steps I might need to take,\r\nFinally, write a concrete three year plan that will enable me to take the steps I need to take to reach my goal of growing my online following and be in a position to publish a cookbook, Incorporate all the necessary steps you worked out earlier. You can access my calendar and my accounting spreadsheets to work out how I can fit in all the necessary steps without increasing the hours that I work and without increasing the amount that I would need to spend.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-28T13:36:47.402441+00:00"
+}

@@ -1,0 +1,45 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I'm Black with legal moves g2, b6, a7, b7, b8, c8. Which maximizes my final disc count under perfect play, and why?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After White's devastating a3 reply, I have legal moves a1, g2, b6, c8. With 6 empties left and me trailing 19-39, which move maximizes my final disc count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Game ended 31-33 after I played g2 and White played b6. Could I have won if I played b6 instead of g2 on that last turn?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "You recommended b7 first, but after White's a8 and then a3 I got crushed. Was b7 actually a mistake, or did I mishandle the follow-up?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "What about c8 as my first move instead of b7? Would that have avoided giving White the a8 corner and the edge run?"
+  }
+]

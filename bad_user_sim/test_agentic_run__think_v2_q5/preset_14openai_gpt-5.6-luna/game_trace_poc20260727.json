@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I\u2019m weighing the edge moves against g2; the corners look tempting, but I don\u2019t want to give White an easy reply. Which first move is strongest here if White responds optimally?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "That reply took the a8 corner, so I\u2019m trying to preserve the remaining corner chances while limiting White\u2019s mobility. Of g2, b6, a7, and c8, which one keeps the best forced result now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White has sealed the whole lower-left edge, and I\u2019m down on discs, so this feels like a mobility puzzle now. Is a7 still the right move, or does b6/g2 create the better forced swing?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now only a1, g2, and a3 remain, with White dominating the center but Black holding the h-side. I\u2019m leaning toward a1 for the corner\u2014does that actually maximize the final count against best play?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "The pass worked, and a3 pulled me back to 25 discs. Between the corner a1 and g2, which move avoids giving White the biggest counter-flip?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

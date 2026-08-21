@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I have 1.2 million followers on my online account, on which I post cooking videos of quick healthy recipes. Over the next 3 years I have 2 goals - to grow my following online, and to publish a cookbook. Not sure whether to self publish or seek a traditional publisher. I can only work 4 days a week, as I have limited time, and do have a budget limit. Create a 3 year plan for me to achieve these goals. Give concrete details, aims, targets, actions, and accountability measures, and alternative actions if those are or arent met. Make it structured.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 4
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.333,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T15:57:04.744390+00:00"
+}

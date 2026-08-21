@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I'm Black in this Othello endgame with 6 legal moves: g2, b6, a7, b7, b8, c8. There are only 10 empty squares left so it's close to the end. Which move gives me the best final disc count if White plays well? Can you walk me through the reasoning briefly?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White took a8. Now my legal moves are g2, b6, a7, c8. Which is best for the final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Down to 6 empty squares: a1, h1, g2, a3, b6, a7. My legal moves are g2, b6, a7. Which one wins me the most discs at the very end?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Only 4 squares left: a1, h1, g2, a3. My options are a1, g2, or a3. I did some rough math and it looks like a3 might trap White into having no legal moves for several turns in a row, letting me sweep up most of the board. Does that sound right, or is there a better choice?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

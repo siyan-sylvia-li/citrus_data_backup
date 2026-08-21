@@ -1,0 +1,41 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Why do edge discs become stable anchors in the endgame? I'm trying to figure out if b8 or c8 is stronger than b6 even though b6 flips more right now."
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Why do edge discs become more stable than interior discs in the endgame? I don't really get the mechanics."
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "When I'm behind in the endgame, should I try to flip the most discs or secure edge territory? I don't get the trade-off."
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After c8, why does White get so much counterplay on the left side? I don't see how b7 becomes so strong for them."
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I thought g2 flipping a lot was good, but it opened a1 and h1 for White. Why does breaking interior lines let White take corners?"
+  }
+]

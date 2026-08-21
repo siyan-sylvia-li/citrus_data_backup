@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Create me a concrete three year plan to help me grow my online cooking videos and create a cookbook with the recipes. My time is limited as I work 4 days a week, and my budget is very tight. Be thorough and detailed with clear formatting.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-10T12:54:55.551568+00:00"
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Given this board, my legal moves are g2, b6, a7, b7, b8, c8. There are corners at a1, h1, a8 still open. Which move gives me the best final disc count assuming white defends well? Can you actually work out the endgame here, not just a rule of thumb?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Board changed a lot from the plan - now it's Black 24, White 36, only 4 empty squares left (a1, b6, b8, c8), my legal moves are a1, b6, c8. Given this exact position, what's the best move now for the final result?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  }
+]

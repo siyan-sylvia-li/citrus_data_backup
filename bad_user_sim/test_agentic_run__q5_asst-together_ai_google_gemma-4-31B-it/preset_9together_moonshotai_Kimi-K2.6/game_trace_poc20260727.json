@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Hi there \u2014 I'm looking at an Othello endgame and I'm Black. My legal moves are g2, b6, a7, b7, b8, and c8. Can you tell me which one leads to the most discs for Black once the board is finished, assuming White plays perfectly?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "OK, White played a8. Now my legal moves are g2, b6, a7, and c8. Which of those four ends the game with the most Black discs, assuming perfect White play? "
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White countered and now I'm looking at g2, b6, and a7. I'm worried g2 lets White play h1. Is a7 or b6 actually the winning move here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Looking back at my first move, I played b7 because you said it was best. If I had played g2 or b6 instead, would White have still taken a8 and run away with the corner? Was b7 really my only good opening here?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "At the very end after I played g2, why was h1 White's only legal move? The board looked pretty crowded \u2014 could White have played anywhere else at all?"
+  }
+]

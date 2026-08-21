@@ -1,0 +1,28 @@
+{
+  "variant": "v2_think_pair",
+  "observation": "The group A is more open and offers little suggestion other than very open ways for ai to help. With the group B is is offering suggestions and asking for feedback and responses.",
+  "choice": "B",
+  "choice_correct": true,
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 3
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.0,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-18T16:28:27.031909+00:00"
+}

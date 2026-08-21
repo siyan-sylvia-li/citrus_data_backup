@@ -1,0 +1,25 @@
+{
+  "reflection": "Try to do up a Budget and a plan. Research other similar business plans and try to gain as much information as possible. Record what she puts out is popular and what is not popular",
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 2
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 2.667,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-18T18:30:45.982193+00:00"
+}

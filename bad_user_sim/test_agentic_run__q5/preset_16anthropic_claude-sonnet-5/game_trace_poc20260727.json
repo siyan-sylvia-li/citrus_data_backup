@@ -1,0 +1,45 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "10 empty squares left (a1,h1,g2,a3,b6,a7,b7,a8,b8,c8). My legal moves are g2,b6,a7,b7,b8,c8. Can you brute force which move gives me (Black) the best final disc count assuming perfect play from White? Just tell me the best move."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now 8 empty squares left: a1,h1,g2,a3,b6,a7,b8,c8. My legal moves are g2,b6,a7,c8. What's the best move for Black now with perfect play from here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "6 empty left: a1,h1,g2,a3,b6,a7. Legal moves g2,b6,a7. Best move for Black now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Quick sanity check on something from that endgame - when I played a3 and White had zero legal moves on a1, h1, or g2, I passed it to White and they had to pass too. Did I reason that correctly, that a pass just skips back to me instead of ending the game early?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Also, the very last move - only one legal square was left (a1) and it says it was 'played for me' automatically. Was that h1/a1 sequence at the end forced for both sides, i.e. no other outcome was possible once I played g2?"
+  }
+]

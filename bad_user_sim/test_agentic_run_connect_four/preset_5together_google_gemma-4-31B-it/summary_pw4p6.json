@@ -1,0 +1,47 @@
+{
+  "puzzle": "w4p6",
+  "decisions": 3,
+  "optimal_moves": 0,
+  "optimal_first_n": 0,
+  "decisions_first_n": 3,
+  "kept_win_moves": 1,
+  "opener_optimal": false,
+  "exact_decisions": 2,
+  "result": "yellow_win",
+  "won": false,
+  "plies_to_win_at_start": 7,
+  "completed": true,
+  "columns": [
+    "5!",
+    "3!",
+    "6!"
+  ],
+  "auto_played": [],
+  "chat_turns": null,
+  "game": "connect_four",
+  "round": 1,
+  "ai_available": false,
+  "model_settings": {
+    "max_tokens": 200000
+  },
+  "questions_asked": 0,
+  "question_budget": 0,
+  "profile": {
+    "persona": "a high-school student interested in k-pop",
+    "age": 17,
+    "education": "less_than_hs",
+    "occupation": "student",
+    "ai_frequency": "daily",
+    "known_concepts": [
+      "Digital",
+      "Currency",
+      "Payment",
+      "Transaction",
+      "Peer",
+      "Peer-to-peer",
+      "Probability"
+    ]
+  },
+  "student_model": "together:google/gemma-4-31B-it",
+  "streamed": false
+}

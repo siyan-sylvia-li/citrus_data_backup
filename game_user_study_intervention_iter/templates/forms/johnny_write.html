@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Study — Before you play</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  <style>
+    .jw__hint { color:#486581; font-size:.9rem; margin:0 0 14px; line-height:1.5; }
+    .jw__task { background:#e8f1ec; border:1px solid #CFE7D2; border-radius:8px;
+                padding:12px 14px; margin:0 0 18px; line-height:1.5; }
+    .jw__step { color:#2D5A43; font-weight:650; font-size:.9rem; margin:0 0 10px; }
+    .jw__board { display:grid; grid-template-columns:repeat(7, 40px); gap:4px;
+                 justify-content:center; padding:9px; background:#e8f1ec;
+                 border:1px solid #cbd2d9; border-radius:10px; margin:0 auto 8px; }
+    .jw__cell { width:40px; height:40px; border-radius:50%; border:1px solid #cbd2d9;
+                background:#fff; }
+    .jw__cell--y { background:#f4c542; border-color:#9a7614; }
+    .jw__cell--r { background:#d95b5b; border-color:#923d3d; }
+    .jw__cell--land { background:#CFE7D2; border:2px dashed #2D5A43; }
+    .jw__cap { text-align:center; color:#486581; font-size:.85rem; margin:0 0 16px; }
+    .jw__prompt { font-weight:650; margin:0 0 4px; }
+    .jw__box { width:100%; box-sizing:border-box; min-height:76px; padding:11px 12px;
+               border:1px solid #cbd2d9; border-radius:8px; font:inherit; line-height:1.45;
+               resize:vertical; }
+    .jw__box:focus { outline:3px solid rgba(45,90,67,.28); outline-offset:2px;
+                     border-color:#6DB38A; }
+    .jw__reqs { list-style:none; padding:0; margin:12px 0 16px; }
+    .jw__req { display:flex; gap:9px; align-items:flex-start; padding:6px 0;
+               line-height:1.4; color:#486581; }
+    .jw__tick { flex:0 0 20px; height:20px; border-radius:50%; border:1px solid #cbd2d9;
+                background:#fff; text-align:center; line-height:19px; font-size:12px;
+                color:transparent; }
+    .jw__req--ok { color:#234936; }
+    .jw__req--ok .jw__tick { background:#6DB38A; border-color:#2D5A43; color:#fff; }
+    .jw__reply { background:#e8f1ec; border:1px solid #CFE7D2; border-radius:8px;
+                 padding:11px 13px; margin:0 0 16px; line-height:1.5; }
+    .hidden { display:none !important; }
+  </style>
+</head>
+<body>
+  <header class="topbar"><h1 class="topbar__title">Game Study</h1></header>
+  <main class="start">
+    <div class="start__card" style="max-width:620px">
+      <h2 class="start__title">Before you play</h2>
+
+      <p class="jw__hint">{{ framing }}</p>
+      <p class="jw__task">{{ task }}</p>
+
+      <div class="jw__step" id="jwStep"></div>
+      <div class="jw__board" id="jwBoard" role="img" aria-label="Connect Four board"></div>
+      <p class="jw__cap">Johnny is yellow. The dashed circle shows where his disc would land.</p>
+
+      <p class="jw__prompt" id="jwPrompt"></p>
+      <label for="jwBox" style="display:block;margin:10px 0 7px;font-weight:650">
+        Write Johnny's message
+      </label>
+      <textarea id="jwBox" class="jw__box" placeholder="Write the message here…"></textarea>
+
+      <ul class="jw__reqs" id="jwReqs">
+        <li class="jw__req" data-req="len"><span class="jw__tick">✓</span>
+          <span>At least {{ min_chars }} characters</span></li>
+        {% for r in requirements %}
+        <li class="jw__req" data-req="{{ 'cand' if loop.first else 'cons' }}">
+          <span class="jw__tick">✓</span><span>{{ r }}</span></li>
+        {% endfor %}
+      </ul>
+
+      <div class="jw__reply hidden" id="jwReply"></div>
+
+      {% if error %}<p class="pt__error">{{ error }}</p>{% endif %}
+
+      <form method="post" action="{{ url_for('intervention') }}" id="jwForm">
+        <input type="hidden" name="payload" id="jwPayload" value="{}" />
+        <button type="button" class="start__btn" id="jwSend" disabled>Send Johnny's message</button>
+        <button type="submit" class="start__btn hidden" id="jwNext">Continue</button>
+      </form>
+    </div>
+  </main>
+  <script>
+    (function () {
+      var ROUNDS = {{ rounds | tojson }},
+          CAND = new RegExp({{ candidate_re | tojson }}, "i"),
+          CONS = new RegExp({{ consequence_re | tojson }}, "i"),
+          MIN = {{ min_chars }};
+      var i = 0, out = [], attempts = [], lastLogged = "", timer = null;
+      var $ = function (id) { return document.getElementById(id); };
+
+      // Where a disc dropped into `col` (1-indexed) comes to rest: lowest empty row.
+      function landing(board, col) {
+        var c = col - 1;
+        for (var row = 5; row >= 0; row--) { if (!board[row * 7 + c]) return row * 7 + c; }
+        return -1;
+      }
+
+      function drawBoard(r) {
+        var land = landing(r.board, r.candidate_column), html = "";
+        for (var k = 0; k < 42; k++) {
+          var v = r.board[k], cls = "jw__cell";
+          if (v === "Y") cls += " jw__cell--y";
+          else if (v === "R") cls += " jw__cell--r";
+          else if (k === land) cls += " jw__cell--land";
+          html += '<div class="' + cls + '"></div>';
+        }
+        $("jwBoard").innerHTML = html;
+      }
+
+      function state(t) {
+        return { len: t.trim().length >= MIN, cand: CAND.test(t), cons: CONS.test(t) };
+      }
+
+      function paint() {
+        var s = state($("jwBox").value), all = s.len && s.cand && s.cons;
+        Array.prototype.forEach.call($("jwReqs").children, function (li) {
+          li.classList.toggle("jw__req--ok", !!s[li.dataset.req]);
+        });
+        $("jwSend").disabled = !all;
+        clearTimeout(timer);
+        timer = setTimeout(function () {
+          var v = $("jwBox").value.trim();
+          if (v && v !== lastLogged) {
+            lastLogged = v;
+            attempts.push({ text: v, checks: state(v), at: Date.now() });
+          }
+        }, 1200);
+      }
+
+      function showRound() {
+        var r = ROUNDS[i];
+        $("jwStep").textContent = "Johnny's turn " + (i + 1) + " of " + ROUNDS.length;
+        $("jwPrompt").textContent = r.prompt;
+        drawBoard(r);
+        $("jwBox").value = "";
+        $("jwReply").classList.add("hidden");
+        $("jwSend").classList.remove("hidden");
+        $("jwSend").textContent = "Send Johnny's message";
+        $("jwNext").classList.add("hidden");
+        attempts = []; lastLogged = "";
+        paint();
+      }
+
+      $("jwBox").addEventListener("input", paint);
+
+      $("jwSend").addEventListener("click", function () {
+        var v = $("jwBox").value.trim();
+        if (v && v !== lastLogged) attempts.push({ text: v, checks: state(v), at: Date.now() });
+        out.push({ final: v, attempts: attempts.slice(), column: ROUNDS[i].candidate_column });
+        $("jwPayload").value = JSON.stringify({ rounds: out });
+        $("jwReply").textContent = "🤖 " + ROUNDS[i].assistant_reply;
+        $("jwReply").classList.remove("hidden");
+        $("jwSend").classList.add("hidden");
+        $("jwNext").classList.remove("hidden");
+        $("jwNext").textContent = (i + 1 < ROUNDS.length) ? "Next turn" : "Continue";
+        if (i + 1 < ROUNDS.length) {
+          $("jwNext").type = "button";
+          $("jwNext").onclick = function () { i++; showRound(); };
+        } else {
+          $("jwNext").type = "submit";
+          $("jwNext").onclick = null;
+        }
+      });
+
+      showRound();
+    })();
+  </script>
+</body>
+</html>

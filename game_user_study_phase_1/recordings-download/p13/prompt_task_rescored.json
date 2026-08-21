@@ -1,0 +1,32 @@
+{
+  "created_prompt": "Please assist me in creating a three year plan to grow my youtube channel following and publish a cookbook. Please keep in mind that I work four days a week so I have limited time and budget. I am also not sure if I want to publish traditionally or self-publish, please allow for time to consider both options.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "original": {
+    "judges": {
+      "gpt": 3,
+      "llama": 3
+    },
+    "mean_score": 3.0,
+    "median_score": 3.0,
+    "passed": true
+  },
+  "time_taken": 3.273
+}

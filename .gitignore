@@ -1,0 +1,10 @@
+# secrets and local state -- never commit
+.env
+.env.*
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+.DS_Store
+# third-party corpora, not ours to redistribute
+*.parquet

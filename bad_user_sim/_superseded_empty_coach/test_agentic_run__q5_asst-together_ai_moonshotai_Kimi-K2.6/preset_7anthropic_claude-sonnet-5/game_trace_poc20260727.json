@@ -1,0 +1,40 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Hi, I'm new to this. I have to pick between g2, b6, a7, b7, b8, c8 as my move. Which one actually sets me up best by the end of the game? I don't really know how to read this far ahead."
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Sorry, did that question go through? Which move should I play: g2, b6, a7, b7, b8, or c8?"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "What's the best move for me right now to win by the most discs at the end?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Can you help me understand what happened at the end there? I played b6 and then White played b8 and suddenly I lost almost everything. What did I miss?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Looking back, was there anything I could've done differently earlier in the game\u2014like at that point where I had g2 or b6 to choose from\u2014that would've kept White from getting those big diagonal flips near the end?"
+  }
+]

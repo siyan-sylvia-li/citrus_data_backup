@@ -1,0 +1,92 @@
+{
+  "log": [
+    {
+      "event": "round_presented",
+      "timestamp": 1787257769439,
+      "round": 1,
+      "option_order": [
+        "direct_1",
+        "think_1"
+      ]
+    },
+    {
+      "event": "started",
+      "timestamp": 1787257769439
+    },
+    {
+      "event": "johnny_choice",
+      "timestamp": 1787257784383,
+      "round": 1,
+      "choice_id": "think_1",
+      "choice_type": "think_aloud",
+      "presented_index": 1,
+      "knowledge_added": "multipleThreats"
+    },
+    {
+      "event": "round_presented",
+      "timestamp": 1787257789862,
+      "round": 2,
+      "option_order": [
+        "check_2",
+        "direct_2"
+      ]
+    },
+    {
+      "event": "johnny_choice",
+      "timestamp": 1787257794277,
+      "round": 2,
+      "choice_id": "check_2",
+      "choice_type": "knowledge_question",
+      "presented_index": 0,
+      "knowledge_added": "opponentReply"
+    },
+    {
+      "event": "independent_started",
+      "timestamp": 1787257796688,
+      "knowledge": [
+        "multipleThreats",
+        "opponentReply"
+      ]
+    },
+    {
+      "event": "independent_scenario_presented",
+      "timestamp": 1787257796689,
+      "target": "opponentReply"
+    },
+    {
+      "event": "independent_choice",
+      "timestamp": 1787257804532,
+      "selected": "opponentReply",
+      "target": "opponentReply",
+      "correct": true
+    },
+    {
+      "event": "outcome_shown",
+      "timestamp": 1787257806208,
+      "knowledge": [
+        "multipleThreats",
+        "opponentReply"
+      ],
+      "transfer_success": true
+    },
+    {
+      "event": "completed",
+      "timestamp": 1787257810386
+    }
+  ],
+  "knowledge": [
+    "multipleThreats",
+    "opponentReply"
+  ],
+  "transfer_success": true,
+  "n_restarts": 0,
+  "choice_types": [
+    "think_aloud",
+    "knowledge_question"
+  ],
+  "independent_choice": "opponentReply",
+  "independent_target": "opponentReply",
+  "form": "johnny_connect_four_boost",
+  "effort": null,
+  "submitted_at": "2026-08-20T20:30:10.141699+00:00"
+}

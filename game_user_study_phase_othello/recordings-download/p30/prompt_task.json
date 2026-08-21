@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I have a passion for cooking and I would like to create a cookbook focused on quick, healthy, eating. My goal is to grow my platform and have a cookbook out within the next 3 years. I'm undecided if I should create my cookbook through traditional channels or self-publishing. Can you help me plan a structured 3-year plan for accomplishing my goal? Important to note, I do work four days during the week so my time and budget are limited.",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-05T17:15:48.339655+00:00"
+}

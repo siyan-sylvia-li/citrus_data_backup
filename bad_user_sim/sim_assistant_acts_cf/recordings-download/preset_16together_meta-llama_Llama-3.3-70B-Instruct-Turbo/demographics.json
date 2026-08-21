@@ -1,0 +1,9 @@
+{
+  "prolific_id": "preset_16together_meta-llama_Llama-3.3-70B-Instruct-Turbo",
+  "game": "connect_four",
+  "age": 34,
+  "education": "bachelors",
+  "occupation": "it",
+  "genai_usage": "several_times_day",
+  "student_model": "together:meta-llama/Llama-3.3-70B-Instruct-Turbo"
+}

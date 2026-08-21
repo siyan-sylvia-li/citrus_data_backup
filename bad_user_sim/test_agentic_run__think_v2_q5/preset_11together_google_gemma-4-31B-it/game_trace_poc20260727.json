@@ -1,0 +1,34 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at this board and there's a lot of white. Where should I even start looking for a good move?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I thought flipping a bunch of discs at the start with b7 was the right move, but was that actually a mistake?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "You mentioned something about 'opponent mobility.' I've worked in government long enough to know a slow process, but I'm not sure what 'mobility' means in a board game like this. Can you explain that in plain English?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "You mentioned corners are important. I noticed a1 and h1 are empty\u2014should I have been trying to get those instead of b7?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm still a bit fuzzy on the counting. Since you're the AI, can you just tell me exactly how many discs I ended up with compared to the other side? I want to see how far off I was."
+  }
+]

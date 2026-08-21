@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Create a three year plan to turn online self promotion of cooking videos to a  full time career with published cookbook. Current online following is 1.2 million - I would like this to grow. Open to traditional or self published books. I have 1 day per week to fully commit and will only use earnings from social media as my budget.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-20T11:04:17.306075+00:00"
+}

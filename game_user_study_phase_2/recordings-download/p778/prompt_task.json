@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Fictional Scenario:\r\n\r\nHaylee posts motivational videos to 3.3M followers that admire her truthful, helpful and encouraging words to help them.\r\n\r\nWithin a year she desire to increase her followers the help they deserve and the motivation they seek.\r\n\r\nHaylee strive to be the best and feel her best as she witness the love and dedication she gives to others.",
+  "judges": [
+    {
+      "model": "nemotron",
+      "score": 1
+    },
+    {
+      "model": "gpt",
+      "score": 1
+    },
+    {
+      "model": "llama",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 1.0,
+  "median_score": 1,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 1.0,
+  "submitted_at": "2026-08-19T19:33:49.242831+00:00"
+}

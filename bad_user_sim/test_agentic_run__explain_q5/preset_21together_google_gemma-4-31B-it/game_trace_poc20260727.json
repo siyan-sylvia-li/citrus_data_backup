@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, looking at the board, I'm debating between b7 and g2. Which one seems more strategically sound for the endgame?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at my legal moves: g2, b6, a7, b7, b8, c8. I'm not a pro at Othello, but I know corners are good. Any of these moves set me up to take a corner, or are there better priorities right now?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, I'm looking at the board. I've got moves at g2, b6, a7, b7, b8, and c8. I'm trying to figure out which one is the best play here\u2014any tips on which of these is the strongest move for the endgame?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, I'm staring at the board. I've got a few moves: g2, b6, a7, b7, b8, c8. I'm not an Othello expert\u2014which one of these is usually the best bet in an endgame?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at my options: g2, b6, a7, b7, b8, c8. I'm trying to maximize my disc count. Any of these look like a trap or a particularly strong move to start with?"
+  }
+]

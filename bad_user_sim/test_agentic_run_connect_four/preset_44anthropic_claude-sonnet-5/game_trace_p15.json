@@ -1,0 +1,30 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "hey, looking at this connect four board, is there an actual winning move for red right now, or a trap i should watch for? kinda lost on where to start."
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "just give me the column number, 1-7, that's the best move for red right now."
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  }
+]

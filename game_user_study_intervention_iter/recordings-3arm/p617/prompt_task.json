@@ -1,0 +1,25 @@
+{
+  "created_prompt": "I am Julie, I currently work for four days, have a limited budget and limited time.\r\n\r\nI currently have 1.2, followers to whom I post videos. My quick, healthy recipes seem really popular and over the next three years, I'd like to grow online and eventually release my own cookbook. I am unsure whether to self-publish or go the traditional route.\r\n\r\nI need you to devise a three year plan based on the above requirements for me to try and reach my stated goals. Suggest how long I should continue growing online before trying to release my cookbook. Any input regarding self-publishing VS traditional methods would be greatly appreciated.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 4
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.333,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 3.333,
+  "submitted_at": "2026-08-21T13:27:41.796698+00:00"
+}

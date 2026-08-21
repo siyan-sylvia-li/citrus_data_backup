@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "this looks pretty tight endgame, only a few empty squares left. which of my moves (g2, b6, a7, b7, b8, c8) is actually best?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "ok that flipped a bunch, nice. now which of g2, b6, a7, c8 is best?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "whoa white jumped ahead a lot. only g2, b6, a7 left for me, what's the play"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "this is looking rough, 20 to 40. only a1, g2, a3 left, is there ANY way back or am I just cooked"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "just a1 and g2 left as options, which one first?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

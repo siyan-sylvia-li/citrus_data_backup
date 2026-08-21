@@ -1,0 +1,33 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Black is down 20 to 34 in this Othello endgame. My legal moves are g2, b6, a7, b7, b8, c8. Which first move leads to the best final disc count for Black assuming perfect play by both sides, and what\u2019s the key follow-up idea?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I played b7, but White answered with a8 instead of b6. Now I\u2019m looking at g2, b6, a7, c8 as my legal moves. Which one leads to the best final score for Black from here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After c8 and White b8, I\u2019m trailing 22 to 36. Empties left: a1, h1, g2, a3, b6, a7. My legal moves are g2, b6, a7. Which gives Black the best final score?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  }
+]

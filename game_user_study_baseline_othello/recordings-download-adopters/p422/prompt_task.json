@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Help me create a 3 year schedule of writing a cookbook and increasing my online presence.  I currently have 1.2 million followers on social media.  I create quick healthy recipes there.  I work 4 days a week so the plan must work around that and not exhaust me. Include details for each step.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T13:26:43.626708+00:00"
+}

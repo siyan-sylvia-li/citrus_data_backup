@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "What's the best opening move here \u2014 is c8 too risky because it hands White a3? Or is it still the mathematical winner? Any quick pointer?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "In this position my legal moves are only b8 and c8. Does one of them actually win me the game on final disc count, or do they both end the same way?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After I play b8, does White still have any legal moves left on the board, or would they be forced to pass?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "If I play c8 instead of b8, does White still have any legal moves after that, or does the game end?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After Black plays c8, White can reply b8 or a3. Does either of those save White from losing, or are both winning for Black?"
+  }
+]

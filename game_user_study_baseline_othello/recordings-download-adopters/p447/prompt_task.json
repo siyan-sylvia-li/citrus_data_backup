@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Devise a concrete three-year plan to grow my following for my online cooking videos that entail quick and healthy recipes. I currently have 1.2M followers already. The plan should also include publishing a cookbook within that time frame. I work four days weekly, and my time and budget are limited. I haven't decided yet whether to go the traditional route or to self-publish.",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-10T19:40:54.069957+00:00"
+}

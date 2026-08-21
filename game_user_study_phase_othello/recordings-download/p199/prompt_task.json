@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Devise a three year plan to grow my cooking videos online presence from 1.2M followers. I want to publish a cookbook but need direction as to whether to go traditional or self publishing, but I already work 4 days a week and have limited time and budget",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T15:49:08.127528+00:00"
+}

@@ -1,0 +1,2121 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Phase-1 Round-1 Conversations — 20 Solvers vs 20 Strugglers</title>
+<style>
+:root{
+  --bg:#f7f8fa; --panel:#fff; --ink:#12161c; --muted:#5c6672; --line:#e3e7ec;
+  --solver:#0e9f6e; --struggler:#e2542c; --user:#f2f6fb; --userline:#c9dcf2;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0e1116; --panel:#161b22; --ink:#e6edf3; --muted:#9aa6b2; --line:#262d36;
+    --user:#182231; --userline:#2b3f5c;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0e1116; --panel:#161b22; --ink:#e6edf3; --muted:#9aa6b2; --line:#262d36;
+  --user:#182231; --userline:#2b3f5c;
+}
+:root[data-theme="light"]{
+  --bg:#f7f8fa; --panel:#fff; --ink:#12161c; --muted:#5c6672; --line:#e3e7ec;
+  --user:#f2f6fb; --userline:#c9dcf2;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  -webkit-font-smoothing:antialiased}
+.wrap{max-width:900px;margin:0 auto;padding:32px 20px 96px}
+h1{font-size:1.55rem;margin:0 0 6px;letter-spacing:-.01em}
+.sub{color:var(--muted);margin:0 0 22px;font-size:.93rem}
+.sub code{font-size:.85em}
+.legend{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 18px}
+.controls{position:sticky;top:0;z-index:5;background:var(--bg);
+  padding:12px 0;border-bottom:1px solid var(--line);margin-bottom:22px;
+  display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.controls input[type=search]{flex:1 1 220px;min-width:160px;padding:7px 11px;
+  border:1px solid var(--line);border-radius:8px;background:var(--panel);
+  color:var(--ink);font-size:.9rem}
+button{padding:7px 12px;border:1px solid var(--line);border-radius:8px;
+  background:var(--panel);color:var(--ink);font-size:.85rem;cursor:pointer}
+button.on{border-color:currentColor;font-weight:600}
+button.f-solver.on{color:var(--solver)} button.f-struggler.on{color:var(--struggler)}
+.count{color:var(--muted);font-size:.85rem;margin-left:auto}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;
+  margin:0 0 20px;overflow:hidden}
+.card.solver{border-left:4px solid var(--solver)}
+.card.struggler{border-left:4px solid var(--struggler)}
+.card-head{padding:16px 18px;border-bottom:1px solid var(--line)}
+.idline{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:10px}
+.badge{font-size:.72rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;
+  padding:3px 9px;border-radius:999px;color:#fff}
+.badge.solver{background:var(--solver)} .badge.struggler{background:var(--struggler)}
+.idx{color:var(--muted);font-size:.85rem;font-weight:600}
+.pid{font-size:.78rem;color:var(--muted);background:transparent}
+.metagrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(128px,1fr));
+  gap:8px 14px;margin-bottom:10px}
+.m{display:flex;flex-direction:column;gap:1px;min-width:0}
+.m .k{font-size:.68rem;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+.m .v{font-size:.88rem;font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+.actline{display:flex;flex-wrap:wrap;gap:6px}
+.none{color:var(--muted);font-size:.78rem;font-style:italic}
+.turns{padding:6px 18px 18px}
+.turn{padding:12px 0;border-bottom:1px dashed var(--line)}
+.turn:last-child{border-bottom:0}
+.msg{margin:0 0 10px}
+.msg.user .body{background:var(--user);border-left:3px solid var(--userline);
+  padding:9px 12px;border-radius:0 8px 8px 0}
+.msg.ai .body{padding:0 0 0 3px}
+.msg-head{display:flex;align-items:baseline;gap:8px;margin-bottom:5px}
+.who{font-size:.72rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase}
+.msg.user .who{color:#2563eb} .msg.ai .who{color:var(--muted)}
+.tno,.ts{font-size:.7rem;color:var(--muted);font-variant-numeric:tabular-nums}
+.ts{margin-left:auto}
+.body p{margin:0 0 .6em} .body p:last-child{margin:0}
+.body ul,.body ol{margin:.3em 0 .6em;padding-left:1.3em}
+.body li{margin:.15em 0}
+.body code{background:rgba(127,127,127,.14);padding:1px 4px;border-radius:4px;font-size:.88em}
+.acts{display:flex;flex-wrap:wrap;gap:6px;margin-top:7px}
+.chip{--chip:#64748b;font-size:.71rem;font-weight:600;padding:2px 8px;border-radius:999px;
+  color:var(--chip);border:1px solid var(--chip);background:color-mix(in srgb,var(--chip) 12%,transparent);
+  white-space:nowrap}
+.chip-sm{font-size:.68rem;font-weight:500}
+.chip-weak{border-style:dashed}
+.chip-flag{--chip:#b45309;font-style:italic}
+.empty{color:var(--muted);text-align:center;padding:40px 0}
+@media (max-width:640px){.wrap{padding:20px 14px 72px}.ts{margin-left:0}}
+</style></head><body>
+<div class="wrap">
+<h1>Round-1 conversations: 20 Solvers &amp; 20 Strugglers</h1>
+<p class="sub">Connect-Four transfer study, phase 1. Every transcript below is the
+<strong>round-1</strong> (AI-available, puzzle 15) conversation. Groups come from the
+<strong>AI-free round 2</strong> (puzzle w4p6): <strong>Solver</strong> = <code>flat_score &ge; 2</code>,
+<strong>Struggler</strong> = <code>flat_score &le; 1</code>. Sampled from
+59 solvers and 48 strugglers at evenly spaced ranks of
+conversation length, so the length distribution is preserved. Chips on participant turns are
+the 3-model dialogue-act panel's consensus labels (dashed = not unanimous).</p>
+<div class="legend"><span class="chip chip-sm" style="--chip:#0ea5e9">Think Aloud</span><span class="chip chip-sm" style="--chip:#8b5cf6">Common Ground Question</span><span class="chip chip-sm" style="--chip:#d946ef">Knowledge Deficit Question</span><span class="chip chip-sm" style="--chip:#f59e0b">Solution Request</span><span class="chip chip-sm" style="--chip:#64748b">Conversational Acknowledgment</span><span class="chip chip-sm" style="--chip:#94a3b8">Metacomment</span></div>
+<div class="controls">
+  <button class="f-solver on" data-filter="solver">Solvers</button>
+  <button class="f-struggler on" data-filter="struggler">Strugglers</button>
+  <input id="q" type="search" placeholder="Search participant text, IDs, acts…">
+  <button id="expand">Reset</button>
+  <span class="count" id="count"></span>
+</div>
+
+    <section class="card solver" data-group="solver" data-turns="1"
+             data-search="p847 solver common ground question was my last move good?" id="p847">
+      <header class="card-head">
+        <div class="idline">
+          <span class="badge solver">Solver</span>
+          <span class="idx">#1</span>
+          <code class="pid">p847</code>
+        </div>
+        <div class="metagrid"><div class="m"><span class="k">R1 score (with AI)</span><span class="v">2</span></div><div class="m"><span class="k">R2 score (no AI)</span><span class="v">2</span></div><div class="m"><span class="k">turns</span><span class="v">1</span></div><div class="m"><span class="k">age</span><span class="v">35</span></div><div class="m"><span class="k">self-rated skill</span><span class="v">2/5</span></div><div class="m"><span class="k">occupation</span><span class="v">professional</span></div><div class="m"><span class="k">education</span><span class="v">bachelor&#x27;s</span></div><div class="m"><span class="k">GenAI use</span><span class="v">few×/month</span></div></div>
+        <div class="actline"><span class="chip chip-sm" style="--chip:#8b5cf6">Common Ground Question</span></div>
+      </header>
+      <div class="turns">
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 1</span>
+            <span class="ts">17:44:38</span></div>
+          <div class="body"><p>was my last move good?</p></div>
+          <div class="acts"><span class="chip" style="--chip:#8b5cf6" title="panel confidence 1.00">Common Ground Question</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">17:44:47</span></div>
+          <div class="body"><p>Yes — from this position, your last move seems to have kept Red’s winning chances alive.</p><p>Now the key question: <strong>can you make a move that creates more than one threat at once</strong>, so Yellow can’t block everything? Focus on the center columns and check what happens if Red builds upward/diagonally there.</p></div>
+        </div>
+      </div></div>
+    </section>
+    <section class="card solver" data-group="solver" data-turns="1"
+             data-search="p803 solver common ground question is adding one to column two a good idea?" id="p803">
+      <header class="card-head">
+        <div class="idline">
+          <span class="badge solver">Solver</span>
+          <span class="idx">#2</span>
+          <code class="pid">p803</code>
+        </div>
+        <div class="metagrid"><div class="m"><span class="k">R1 score (with AI)</span><span class="v">2</span></div><div class="m"><span class="k">R2 score (no AI)</span><span class="v">2</span></div><div class="m"><span class="k">turns</span><span class="v">1</span></div><div class="m"><span class="k">age</span><span class="v">39</span></div><div class="m"><span class="k">self-rated skill</span><span class="v">1/5</span></div><div class="m"><span class="k">occupation</span><span class="v">it</span></div><div class="m"><span class="k">education</span><span class="v">bachelor&#x27;s</span></div><div class="m"><span class="k">GenAI use</span><span class="v">about monthly</span></div></div>
+        <div class="actline"><span class="chip chip-sm" style="--chip:#8b5cf6">Common Ground Question</span></div>
+      </header>
+      <div class="turns">
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 1</span>
+            <span class="ts">19:57:22</span></div>
+          <div class="body"><p>Is adding one to column two a good idea?</p></div>
+          <div class="acts"><span class="chip" style="--chip:#8b5cf6" title="panel confidence 1.00">Common Ground Question</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">19:57:31</span></div>
+          <div class="body"><p>Not really. Column 2 is tempting because it gives you a vertical 3 in column 2, but it doesn’t deal with the more urgent fight in column 4.</p><p>Ask yourself: if you play column 2, what does Yellow get to play next in column 4? That gives Yellow a strong vertical threat you may be forced to answer. So column 2 is likely too slow here.</p></div>
+        </div>
+      </div></div>
+    </section>
+    <section class="card solver" data-group="solver" data-turns="1"
+             data-search="p166 solver solution request what is the best strategy to win this?" id="p166">
+      <header class="card-head">
+        <div class="idline">
+          <span class="badge solver">Solver</span>
+          <span class="idx">#3</span>
+          <code class="pid">p166</code>
+        </div>
+        <div class="metagrid"><div class="m"><span class="k">R1 score (with AI)</span><span class="v">2</span></div><div class="m"><span class="k">R2 score (no AI)</span><span class="v">3</span></div><div class="m"><span class="k">turns</span><span class="v">1</span></div><div class="m"><span class="k">age</span><span class="v">26</span></div><div class="m"><span class="k">self-rated skill</span><span class="v">1/5</span></div><div class="m"><span class="k">occupation</span><span class="v">education</span></div><div class="m"><span class="k">education</span><span class="v">postgrad</span></div><div class="m"><span class="k">GenAI use</span><span class="v">about monthly</span></div></div>
+        <div class="actline"><span class="chip chip-sm" style="--chip:#f59e0b">Solution Request</span></div>
+      </header>
+      <div class="turns">
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 1</span>
+            <span class="ts">15:52:26</span></div>
+          <div class="body"><p>What is the best strategy to win this?</p></div>
+          <div class="acts"><span class="chip" style="--chip:#f59e0b" title="panel confidence 1.00">Solution Request</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">15:52:34</span></div>
+          <div class="body"><p>Best winning plan: <strong>play column 4 now</strong>.</p><p>Why: Yellow has a dangerous stack in column 4, and dropping Red there gives you control of the key central square while preventing Yellow from building upward. From there, look to create a threat that Yellow can’t answer in your final moves—especially using the center/diagonal connections around columns 2–6.</p></div>
+        </div>
+      </div></div>
+    </section>
+    <section class="card solver" data-group="solver" data-turns="1"
+             data-search="p603 solver common ground question think aloud i am considering dropping a red counter into column 5. evaluate whether this is the best move" id="p603">
+      <header class="card-head">
+        <div class="idline">
+          <span class="badge solver">Solver</span>
+          <span class="idx">#4</span>
+          <code class="pid">p603</code>
+        </div>
+        <div class="metagrid"><div class="m"><span class="k">R1 score (with AI)</span><span class="v">3</span></div><div class="m"><span class="k">R2 score (no AI)</span><span class="v">3</span></div><div class="m"><span class="k">turns</span><span class="v">1</span></div><div class="m"><span class="k">age</span><span class="v">56</span></div><div class="m"><span class="k">self-rated skill</span><span class="v">2/5</span></div><div class="m"><span class="k">occupation</span><span class="v">retail</span></div><div class="m"><span class="k">education</span><span class="v">postgrad</span></div><div class="m"><span class="k">GenAI use</span><span class="v">few×/week</span></div></div>
+        <div class="actline"><span class="chip chip-sm" style="--chip:#8b5cf6">Common Ground Question</span><span class="chip chip-sm" style="--chip:#0ea5e9">Think Aloud</span></div>
+      </header>
+      <div class="turns">
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 1</span>
+            <span class="ts">13:38:45</span></div>
+          <div class="body"><p>I am considering dropping a red counter into column 5. Evaluate whether this is the best move</p></div>
+          <div class="acts"><span class="chip" style="--chip:#0ea5e9" title="panel confidence 1.00">Think Aloud</span><span class="chip" style="--chip:#8b5cf6" title="panel confidence 1.00">Common Ground Question</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">13:39:00</span></div>
+          <div class="body"><p>Column 5 is probably <strong>not the best move</strong>.</p><p>If you drop in <strong>column 5</strong>, Red lands at <strong>c5-r3</strong>, making a small horizontal idea with the red at <strong>c6-r3</strong>. But it <strong>doesn’t create an immediate winning threat</strong>, and it lets Yellow use <strong>column 4</strong>, where Yellow already has two discs at <strong>c4-r1 and c4-r2</strong>, to build pressure.</p><p>The key question to ask: <em>“Does my move create a threat Yellow must answer, or am I allowing Yellow to create one first?”</em><br>Here, column 5 seems to give Yellow too much time. A stronger move is to look at <strong>column 4</strong>, which both interferes with Yellow’s stack and keeps Red’s forcing chances alive.</p></div>
+        </div>
+      </div></div>
+    </section>
+    <section class="card solver" data-group="solver" data-turns="1"
+             data-search="p718 solver common ground question think aloud i&#x27;m looking at putting my next move at 3,3 and am not confident that&#x27;s it&#x27;s the best choice. it seems like it would block one of yellow&#x27;s best moves and also help me build, but is there a better strategy here?" id="p718">
+      <header class="card-head">
+        <div class="idline">
+          <span class="badge solver">Solver</span>
+          <span class="idx">#5</span>
+          <code class="pid">p718</code>
+        </div>
+        <div class="metagrid"><div class="m"><span class="k">R1 score (with AI)</span><span class="v">2</span></div><div class="m"><span class="k">R2 score (no AI)</span><span class="v">2</span></div><div class="m"><span class="k">turns</span><span class="v">1</span></div><div class="m"><span class="k">age</span><span class="v">48</span></div><div class="m"><span class="k">self-rated skill</span><span class="v">2/5</span></div><div class="m"><span class="k">occupation</span><span class="v">professional</span></div><div class="m"><span class="k">education</span><span class="v">postgrad</span></div><div class="m"><span class="k">GenAI use</span><span class="v">few×/week</span></div></div>
+        <div class="actline"><span class="chip chip-sm" style="--chip:#8b5cf6">Common Ground Question</span><span class="chip chip-sm" style="--chip:#0ea5e9">Think Aloud</span></div>
+      </header>
+      <div class="turns">
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 1</span>
+            <span class="ts">21:52:13</span></div>
+          <div class="body"><p>I&#x27;m looking at putting my next move at 3,3 and am not confident that&#x27;s it&#x27;s the best choice. It seems like it would block one of yellow&#x27;s best moves and also help me build, but is there a better strategy here?</p></div>
+          <div class="acts"><span class="chip" style="--chip:#0ea5e9" title="panel confidence 1.00">Think Aloud</span><span class="chip chip-weak" style="--chip:#8b5cf6" title="panel confidence 0.67">Common Ground Question</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">21:52:21</span></div>
+          <div class="body"><p>Your idea at <strong>3,3</strong> does help build and may interfere with Yellow’s lower structure, but ask yourself:</p><ul><li>After Red plays <strong>3,3</strong>, does Red create an immediate threat Yellow must answer?</li><li>Does Yellow then get a strong reply in the center, especially around <strong>column 4</strong>?</li></ul><p>A useful strategy here is to look for moves that create <strong>your own threat while also taking away Yellow’s key central squares</strong>. In this position, I’d compare your <strong>3,3</strong> idea with a move in the <strong>center column</strong>, because center moves often connect to more diagonals and horizontals.</p><p>Try checking: if Red occupies <strong>4,3</strong>, what lines or threats does that affect for both players?</p></div>
+        </div>
+      </div></div>
+    </section>
+    <section class="card solver" data-group="solver" data-turns="2"
+             data-search="p274 solver common ground question think aloud is the one i just placed good? i blocked them but didn&#x27;t win either." id="p274">
+      <header class="card-head">
+        <div class="idline">
+          <span class="badge solver">Solver</span>
+          <span class="idx">#6</span>
+          <code class="pid">p274</code>
+        </div>
+        <div class="metagrid"><div class="m"><span class="k">R1 score (with AI)</span><span class="v">1</span></div><div class="m"><span class="k">R2 score (no AI)</span><span class="v">2</span></div><div class="m"><span class="k">turns</span><span class="v">2</span></div><div class="m"><span class="k">age</span><span class="v">42</span></div><div class="m"><span class="k">self-rated skill</span><span class="v">2/5</span></div><div class="m"><span class="k">occupation</span><span class="v">other</span></div><div class="m"><span class="k">education</span><span class="v">postgrad</span></div><div class="m"><span class="k">GenAI use</span><span class="v">few×/week</span></div></div>
+        <div class="actline"><span class="chip chip-sm" style="--chip:#8b5cf6">Common Ground Question</span><span class="chip chip-sm" style="--chip:#0ea5e9">Think Aloud</span></div>
+      </header>
+      <div class="turns">
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 1</span>
+            <span class="ts">14:57:16</span></div>
+          <div class="body"><p>is the one I just placed good?</p></div>
+          <div class="acts"><span class="chip" style="--chip:#8b5cf6" title="panel confidence 1.00">Common Ground Question</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">14:57:30</span></div>
+          <div class="body"><p>It looks <strong>reasonable</strong>, especially because Red has some pressure around columns <strong>3 and 6</strong>.</p><p>Quick check to make sure it’s “good”: ask yourself, after your disc, does Yellow have any immediate 4-in-a-row threat you must block next? The main thing to watch is Yellow’s diagonal/stack threats around <strong>columns 4–5–6–7</strong>. If Yellow can make a playable winning square, you’ll need to block it.</p><p>For your next move, look for a move that either:</p><ul><li>creates your own immediate threat, or</li><li>blocks Yellow’s most dangerous setup.</li></ul></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 2</span>
+            <span class="ts">14:58:59</span></div>
+          <div class="body"><p>i blocked them but didn&#x27;t win either.</p></div>
+          <div class="acts"><span class="chip" style="--chip:#0ea5e9" title="panel confidence 1.00">Think Aloud</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">14:59:03</span></div>
+          <div class="body"><p>Blocking was important there — good instinct. Even if you don’t win immediately, sometimes the goal is to <strong>stop Yellow’s forced threat</strong> and keep pressure.</p><p>From this board, ask: <strong>where can Red create the next threat while also staying safe?</strong><br>Pay special attention to <strong>column 6</strong>: Red already has discs at <strong>c6 r1</strong> and <strong>c6 r3</strong>, and the playable space is <strong>c6 r4</strong> after support is there/if column fills. That column is part of several possible lines.</p><p>Also check Yellow’s threats around <strong>columns 4–5–6</strong> so you don’t give them an easy diagonal.</p></div>
+        </div>
+      </div></div>
+    </section>
+    <section class="card solver" data-group="solver" data-turns="2"
+             data-search="p8 solver solution request think aloud where is the best next slot for me to put my red counter in to ensure that i can win.  i can see a couple of risks, particularly on the left hand side of the board. and now where shall i put my counter please that will put me on course to win?" id="p8">
+      <header class="card-head">
+        <div class="idline">
+          <span class="badge solver">Solver</span>
+          <span class="idx">#7</span>
+          <code class="pid">p8</code>
+        </div>
+        <div class="metagrid"><div class="m"><span class="k">R1 score (with AI)</span><span class="v">3</span></div><div class="m"><span class="k">R2 score (no AI)</span><span class="v">2</span></div><div class="m"><span class="k">turns</span><span class="v">2</span></div><div class="m"><span class="k">age</span><span class="v">51</span></div><div class="m"><span class="k">self-rated skill</span><span class="v">2/5</span></div><div class="m"><span class="k">occupation</span><span class="v">it</span></div><div class="m"><span class="k">education</span><span class="v">bachelor&#x27;s</span></div><div class="m"><span class="k">GenAI use</span><span class="v">daily</span></div></div>
+        <div class="actline"><span class="chip chip-sm" style="--chip:#f59e0b">Solution Request</span><span class="chip chip-sm" style="--chip:#0ea5e9">Think Aloud</span></div>
+      </header>
+      <div class="turns">
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 1</span>
+            <span class="ts">13:10:39</span></div>
+          <div class="body"><p>Where is the best next slot for me to put my red counter in to ensure that I can win.  I can see a couple of risks, particularly on the left hand side of the board.</p></div>
+          <div class="acts"><span class="chip chip-weak" style="--chip:#0ea5e9" title="panel confidence 0.67">Think Aloud</span><span class="chip" style="--chip:#f59e0b" title="panel confidence 1.00">Solution Request</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">13:10:49</span></div>
+          <div class="body"><p>Put your red counter in <strong>column 4</strong>.</p><p>Why: Yellow has a dangerous diagonal on the left-to-right slope:</p><ul><li>Yellow at <strong>column 7 row 1</strong></li><li>Yellow at <strong>column 6 row 2</strong></li><li>Yellow at <strong>column 5 row 3</strong></li><li>The winning space would be <strong>column 4 row 4</strong></li></ul><p>That square is playable now, so if you don’t take <strong>column 4</strong>, Yellow can win there next. Playing <strong>column 4</strong> blocks that threat and keeps your winning chances alive.</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 2</span>
+            <span class="ts">13:11:48</span></div>
+          <div class="body"><p>And now where shall I put my counter please that will put me on course to win?</p></div>
+          <div class="acts"><span class="chip" style="--chip:#f59e0b" title="panel confidence 1.00">Solution Request</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">13:11:51</span></div>
+          <div class="body"><p>Play <strong>column 5</strong>.</p><p>That lands your red at <strong>column 5, row 4</strong>, creating a strong threat: you’ll have a horizontal line building across <strong>columns 4–6 on row 4/3 area</strong>, while also stopping Yellow from getting too much control on the left. It’s the move that keeps you on the winning track here.</p></div>
+        </div>
+      </div></div>
+    </section>
+    <section class="card solver" data-group="solver" data-turns="2"
+             data-search="p385 solver common ground question think aloud would it be a good idea to place it on number 3, 2nd row? i mean column 2, row 3" id="p385">
+      <header class="card-head">
+        <div class="idline">
+          <span class="badge solver">Solver</span>
+          <span class="idx">#8</span>
+          <code class="pid">p385</code>
+        </div>
+        <div class="metagrid"><div class="m"><span class="k">R1 score (with AI)</span><span class="v">2</span></div><div class="m"><span class="k">R2 score (no AI)</span><span class="v">2</span></div><div class="m"><span class="k">turns</span><span class="v">2</span></div><div class="m"><span class="k">age</span><span class="v">34</span></div><div class="m"><span class="k">self-rated skill</span><span class="v">3/5</span></div><div class="m"><span class="k">occupation</span><span class="v">professional</span></div><div class="m"><span class="k">education</span><span class="v">high school</span></div><div class="m"><span class="k">GenAI use</span><span class="v">few×/week</span></div></div>
+        <div class="actline"><span class="chip chip-sm" style="--chip:#8b5cf6">Common Ground Question</span><span class="chip chip-sm" style="--chip:#0ea5e9">Think Aloud</span></div>
+      </header>
+      <div class="turns">
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 1</span>
+            <span class="ts">22:01:25</span></div>
+          <div class="body"><p>Would it be a good idea to place it on number 3, 2nd row?</p></div>
+          <div class="acts"><span class="chip" style="--chip:#8b5cf6" title="panel confidence 1.00">Common Ground Question</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">22:01:34</span></div>
+          <div class="body"><p>Column 3, row 2 is already occupied by Yellow, so if you drop in column 3 it would land on row 3.</p><p>I’d be cautious: before choosing column 3, ask yourself:</p><ul><li>Does it make an immediate 4 for Red?</li><li>Does it block an immediate Yellow 4?</li><li>Does it create a threat Yellow cannot block next turn?</li></ul><p>Column 3 doesn’t seem to do much urgently. Look especially at the center columns—there may be a stronger move that creates a forced threat.</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 2</span>
+            <span class="ts">22:02:05</span></div>
+          <div class="body"><p>I mean column 2, row 3</p></div>
+          <div class="acts"><span class="chip chip-weak" style="--chip:#0ea5e9" title="panel confidence 0.67">Think Aloud</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">22:02:11</span></div>
+          <div class="body"><p>Column 2 would land on row 3 and make a vertical stack of 3 Reds in column 2 — nice, but Yellow could simply block it later at column 2 row 4.</p><p>More importantly, ask: <strong>does Red have a move that creates a threat Yellow must answer immediately, especially through the center?</strong> Column 4 is worth checking carefully.</p></div>
+        </div>
+      </div></div>
+    </section>
+    <section class="card solver" data-group="solver" data-turns="2"
+             data-search="p457 solver common ground question think aloud should i drop one in column 2? it looks like neither one of us can win in one move, now." id="p457">
+      <header class="card-head">
+        <div class="idline">
+          <span class="badge solver">Solver</span>
+          <span class="idx">#9</span>
+          <code class="pid">p457</code>
+        </div>
+        <div class="metagrid"><div class="m"><span class="k">R1 score (with AI)</span><span class="v">2</span></div><div class="m"><span class="k">R2 score (no AI)</span><span class="v">3</span></div><div class="m"><span class="k">turns</span><span class="v">2</span></div><div class="m"><span class="k">age</span><span class="v">39</span></div><div class="m"><span class="k">self-rated skill</span><span class="v">2/5</span></div><div class="m"><span class="k">occupation</span><span class="v">retail</span></div><div class="m"><span class="k">education</span><span class="v">high school</span></div><div class="m"><span class="k">GenAI use</span><span class="v">about monthly</span></div></div>
+        <div class="actline"><span class="chip chip-sm" style="--chip:#8b5cf6">Common Ground Question</span><span class="chip chip-sm" style="--chip:#0ea5e9">Think Aloud</span></div>
+      </header>
+      <div class="turns">
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 1</span>
+            <span class="ts">20:59:54</span></div>
+          <div class="body"><p>Should I drop one in column 2?</p></div>
+          <div class="acts"><span class="chip" style="--chip:#8b5cf6" title="panel confidence 1.00">Common Ground Question</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">21:00:02</span></div>
+          <div class="body"><p>Column 2 looks tempting because it builds your vertical stack, but ask: <strong>does it stop Yellow’s main threat or create a stronger one for you?</strong></p><p>Before playing it, check the center—especially <strong>column 4</strong>. Moves there often matter most because they connect with multiple diagonals/verticals. I’d compare column 2 with column 4 and ask: “Which move creates a threat Yellow must answer?”</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 2</span>
+            <span class="ts">21:01:12</span></div>
+          <div class="body"><p>It looks like neither one of us can win in one move, now.</p></div>
+          <div class="acts"><span class="chip" style="--chip:#0ea5e9" title="panel confidence 1.00">Think Aloud</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">21:01:18</span></div>
+          <div class="body"><p>Right — I don’t see a one-move win for either side.</p><p>So now look for a move that creates a <strong>threat Yellow must answer next turn</strong>. Ask yourself:</p><ul><li>If you play <strong>column 2</strong>, what 3-in-a-row does it create?</li><li>Can Yellow ignore it and make their own threat?</li><li>Is there another column that connects with your Red at <strong>c4 / c4-row4, c5-row2, c6-row3</strong> style diagonals or center lines more strongly?</li></ul><p>Column 2 builds a stack, but check whether it creates a <em>forcing</em> threat or just a “nice shape.”</p></div>
+        </div>
+      </div></div>
+    </section>
+    <section class="card solver" data-group="solver" data-turns="2"
+             data-search="p598 solver common ground question conversational acknowledgment metacomment think aloud hi! what do you think about my going with spot 3-3 as my next move (directly to the left of my first move). do you think that is good for opening up multiple avenues to win while blocking yellow? ah! you&#x27;re right, i got tunnel vision and didn&#x27;t see it. will block yellow first." id="p598">
+      <header class="card-head">
+        <div class="idline">
+          <span class="badge solver">Solver</span>
+          <span class="idx">#10</span>
+          <code class="pid">p598</code>
+        </div>
+        <div class="metagrid"><div class="m"><span class="k">R1 score (with AI)</span><span class="v">2</span></div><div class="m"><span class="k">R2 score (no AI)</span><span class="v">3</span></div><div class="m"><span class="k">turns</span><span class="v">2</span></div><div class="m"><span class="k">age</span><span class="v">47</span></div><div class="m"><span class="k">self-rated skill</span><span class="v">2/5</span></div><div class="m"><span class="k">occupation</span><span class="v">hospitality</span></div><div class="m"><span class="k">education</span><span class="v">bachelor&#x27;s</span></div><div class="m"><span class="k">GenAI use</span><span class="v">&lt;monthly</span></div></div>
+        <div class="actline"><span class="chip chip-sm" style="--chip:#8b5cf6">Common Ground Question</span><span class="chip chip-sm" style="--chip:#64748b">Conversational Acknowledgment</span><span class="chip chip-sm" style="--chip:#94a3b8">Metacomment</span><span class="chip chip-sm" style="--chip:#0ea5e9">Think Aloud</span></div>
+      </header>
+      <div class="turns">
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 1</span>
+            <span class="ts">20:36:27</span></div>
+          <div class="body"><p>Hi! What do you think about my going with spot 3-3 as my next move (directly to the left of my first move). Do you think that is good for opening up multiple avenues to win while blocking yellow?</p></div>
+          <div class="acts"><span class="chip" style="--chip:#8b5cf6" title="panel confidence 1.00">Common Ground Question</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">20:36:38</span></div>
+          <div class="body"><p>I’d be cautious about <strong>column 3 / row 3</strong>.</p><p>Before choosing it, ask: <strong>does Yellow have an immediate threat you must answer?</strong> Look at Yellow’s diagonal:</p><ul><li>Yellow at <strong>7-1, 6-2, 5-3</strong></li><li>The next square in that diagonal is <strong>4-4</strong> — and it’s playable now.</li></ul><p>So if you play <strong>3-3</strong>, Yellow can likely play <strong>4-4</strong> and complete that diagonal.</p><p>Good instinct looking for multiple avenues, but first priority is: <strong>block any one-move Yellow win.</strong></p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 2</span>
+            <span class="ts">20:37:29</span></div>
+          <div class="body"><p>Ah! You&#x27;re right, I got tunnel vision and didn&#x27;t see it. Will block yellow first.</p></div>
+          <div class="acts"><span class="chip" style="--chip:#0ea5e9" title="panel confidence 1.00">Think Aloud</span><span class="chip" style="--chip:#64748b" title="panel confidence 1.00">Conversational Acknowledgment</span><span class="chip chip-weak" style="--chip:#94a3b8" title="panel confidence 0.67">Metacomment</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">20:37:32</span></div>
+          <div class="body"><p>Nice block — you played <strong>4-3</strong>, stopping Yellow’s diagonal to <strong>4-4</strong>.</p><p>Now re-check for <strong>new immediate Yellow threats</strong>, especially around the center. Ask yourself: if Yellow gets the next move, is there any square that would make <strong>four in a row</strong>? The key area to inspect is <strong>column 4</strong>, because stacked center threats can become dangerous fast.</p></div>
+        </div>
+      </div></div>
+    </section>
+    <section class="card solver" data-group="solver" data-turns="2"
+             data-search="p620 solver common ground question think aloud thinking about putting a red on row 2, column 3, is that a good move? i think i meant column 2, row 3" id="p620">
+      <header class="card-head">
+        <div class="idline">
+          <span class="badge solver">Solver</span>
+          <span class="idx">#11</span>
+          <code class="pid">p620</code>
+        </div>
+        <div class="metagrid"><div class="m"><span class="k">R1 score (with AI)</span><span class="v">1</span></div><div class="m"><span class="k">R2 score (no AI)</span><span class="v">2</span></div><div class="m"><span class="k">turns</span><span class="v">2</span></div><div class="m"><span class="k">age</span><span class="v">48</span></div><div class="m"><span class="k">self-rated skill</span><span class="v">1/5</span></div><div class="m"><span class="k">occupation</span><span class="v">arts</span></div><div class="m"><span class="k">education</span><span class="v">bachelor&#x27;s</span></div><div class="m"><span class="k">GenAI use</span><span class="v">never</span></div></div>
+        <div class="actline"><span class="chip chip-sm" style="--chip:#8b5cf6">Common Ground Question</span><span class="chip chip-sm" style="--chip:#0ea5e9">Think Aloud</span></div>
+      </header>
+      <div class="turns">
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 1</span>
+            <span class="ts">18:07:03</span></div>
+          <div class="body"><p>thinking about putting a red on row 2, column 3, is that a good move?</p></div>
+          <div class="acts"><span class="chip" style="--chip:#0ea5e9" title="panel confidence 1.00">Think Aloud</span><span class="chip" style="--chip:#8b5cf6" title="panel confidence 1.00">Common Ground Question</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">18:07:09</span></div>
+          <div class="body"><p>Row 2, column 3 is already occupied by Yellow, so Red can’t move there.</p><p>If you mean <strong>play column 3</strong>, your disc would land at <strong>row 3, column 3</strong>. Before choosing it, ask: does it create an immediate threat for Red, and does it allow Yellow any immediate win or strong block next turn?</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 2</span>
+            <span class="ts">18:08:09</span></div>
+          <div class="body"><p>i think i meant column 2, row 3</p></div>
+          <div class="acts"><span class="chip" style="--chip:#0ea5e9" title="panel confidence 1.00">Think Aloud</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">18:08:16</span></div>
+          <div class="body"><p>Column 2 would land at <strong>row 3</strong>, yes. It makes a <strong>vertical 3</strong> for Red in column 2, threatening <strong>c2 row 4</strong> next turn.</p><p>But ask yourself: after you play it, can Yellow make or block something more urgent? Also look for a move that creates <strong>multiple threats at once</strong>, not just one easy-to-block threat.</p></div>
+        </div>
+      </div></div>
+    </section>
+    <section class="card solver" data-group="solver" data-turns="3"
+             data-search="p226 solver solution request what is the best move to play here? what&#x27;s the forced win? how about now?" id="p226">
+      <header class="card-head">
+        <div class="idline">
+          <span class="badge solver">Solver</span>
+          <span class="idx">#12</span>
+          <code class="pid">p226</code>
+        </div>
+        <div class="metagrid"><div class="m"><span class="k">R1 score (with AI)</span><span class="v">3</span></div><div class="m"><span class="k">R2 score (no AI)</span><span class="v">2</span></div><div class="m"><span class="k">turns</span><span class="v">3</span></div><div class="m"><span class="k">age</span><span class="v">36</span></div><div class="m"><span class="k">self-rated skill</span><span class="v">2/5</span></div><div class="m"><span class="k">occupation</span><span class="v">government</span></div><div class="m"><span class="k">education</span><span class="v">bachelor&#x27;s</span></div><div class="m"><span class="k">GenAI use</span><span class="v">about monthly</span></div></div>
+        <div class="actline"><span class="chip chip-sm" style="--chip:#f59e0b">Solution Request</span></div>
+      </header>
+      <div class="turns">
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 1</span>
+            <span class="ts">13:55:57</span></div>
+          <div class="body"><p>What is the best move to play here?</p></div>
+          <div class="acts"><span class="chip" style="--chip:#f59e0b" title="panel confidence 1.00">Solution Request</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">13:56:04</span></div>
+          <div class="body"><p>Play <strong>column 4</strong>.</p><p>That drops Red into <strong>row 3, column 4</strong>, the key central square. It’s the only move here that keeps Red’s forced win alive; other moves let Yellow defend or create counter-threats.</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 2</span>
+            <span class="ts">13:56:18</span></div>
+          <div class="body"><p>What&#x27;s the forced win?</p></div>
+          <div class="acts"><span class="chip" style="--chip:#f59e0b" title="panel confidence 1.00">Solution Request</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">13:56:44</span></div>
+          <div class="body"><p>After <strong>Red plays 4</strong>, the key idea is a <strong>diagonal threat that uses column 3</strong>:</p><ul><li>Red at <strong>c4 r3</strong> would line up with <strong>c5 r2</strong> and <strong>c6 r1</strong>.</li><li>So Red wants to win by later playing <strong>c3 r4</strong>.</li></ul><p>The forcing pattern is:</p><ol><li><strong>R: 4</strong></li><li>Then Red aims to play <strong>5</strong>, making a horizontal threat on row 3: <strong>c4–c5–c6</strong>, needing <strong>c3 r3</strong>.</li><li>If Yellow blocks at <strong>c3 r3</strong>, then Red plays <strong>c3 r4</strong> and wins on the diagonal:</li></ol><p>   <strong>c3 r4 – c4 r3 – c5 r2 – c6 r1</strong>.</p><p>So column <strong>4</strong> sets up a threat where Yellow’s block can become the support for Red’s winning diagonal.</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 3</span>
+            <span class="ts">13:57:52</span></div>
+          <div class="body"><p>How about now?</p></div>
+          <div class="acts"><span class="chip chip-weak" style="--chip:#f59e0b" title="panel confidence 0.67">Solution Request</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">13:57:55</span></div>
+          <div class="body"><p>Play <strong>column 5</strong>.</p><p>That puts Red at <strong>c5 r4</strong>, which creates the immediate diagonal threat:</p><ul><li><strong>c2 r1 – c3 r2 – c4 r3 – c5 r4</strong></li></ul><p>So Red wins right away by completing that diagonal.</p></div>
+        </div>
+      </div></div>
+    </section>
+    <section class="card solver" data-group="solver" data-turns="3"
+             data-search="p265 solver common ground question conversational acknowledgment metacomment think aloud i’m considering row 3 because i think that gives me a chance to win horizontally or diagonally. is that the best move? thanks! should i do column 3 now? it gives me a chance to win diagonally going from the bottom right up too thanks! i didn’t see that threat. column 3 might set me up for a win, should i do it now?" id="p265">
+      <header class="card-head">
+        <div class="idline">
+          <span class="badge solver">Solver</span>
+          <span class="idx">#13</span>
+          <code class="pid">p265</code>
+        </div>
+        <div class="metagrid"><div class="m"><span class="k">R1 score (with AI)</span><span class="v">3</span></div><div class="m"><span class="k">R2 score (no AI)</span><span class="v">2</span></div><div class="m"><span class="k">turns</span><span class="v">3</span></div><div class="m"><span class="k">age</span><span class="v">26</span></div><div class="m"><span class="k">self-rated skill</span><span class="v">1/5</span></div><div class="m"><span class="k">occupation</span><span class="v">it</span></div><div class="m"><span class="k">education</span><span class="v">high school</span></div><div class="m"><span class="k">GenAI use</span><span class="v">few×/week</span></div></div>
+        <div class="actline"><span class="chip chip-sm" style="--chip:#8b5cf6">Common Ground Question</span><span class="chip chip-sm" style="--chip:#64748b">Conversational Acknowledgment</span><span class="chip chip-sm" style="--chip:#94a3b8">Metacomment</span><span class="chip chip-sm" style="--chip:#0ea5e9">Think Aloud</span></div>
+      </header>
+      <div class="turns">
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 1</span>
+            <span class="ts">18:13:11</span></div>
+          <div class="body"><p>I’m considering row 3 because I think that gives me a chance to win horizontally or diagonally. Is that the best move?</p></div>
+          <div class="acts"><span class="chip" style="--chip:#0ea5e9" title="panel confidence 1.00">Think Aloud</span><span class="chip" style="--chip:#8b5cf6" title="panel confidence 1.00">Common Ground Question</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">18:13:22</span></div>
+          <div class="body"><p>If by “row 3” you mean <strong>drop in column 3</strong> so it lands on row 3: it looks tempting, but <strong>it’s not the best</strong>—it doesn’t create a strong enough forced threat.</p><p>The strongest move here is <strong>column 4</strong>. Dropping there lands at <strong>c4–r3</strong> and sets up Red’s threats better while avoiding giving Yellow the tempo to defend/counter.</p><p>So: <strong>play column 4.</strong></p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 2</span>
+            <span class="ts">18:14:23</span></div>
+          <div class="body"><p>Thanks! Should I do column 3 now? It gives me a chance to win diagonally going from the bottom right up too</p></div>
+          <div class="acts"><span class="chip" style="--chip:#0ea5e9" title="panel confidence 1.00">Think Aloud</span><span class="chip" style="--chip:#64748b" title="panel confidence 1.00">Conversational Acknowledgment</span><span class="chip" style="--chip:#8b5cf6" title="panel confidence 1.00">Common Ground Question</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">18:14:29</span></div>
+          <div class="body"><p>Column 3 is tempting, but check the diagonal you mentioned: after <strong>c3</strong>, the diagonal up-right runs through <strong>c4–r4 / c5–r5</strong>, while the other diagonal hits <strong>c4–r2</strong>, which is already Yellow—so it’s not a clean winning threat.</p><p>The key move is <strong>column 4</strong>: it stacks on your Red at <strong>c4–r3</strong>, creating a much stronger threat structure. So I’d play <strong>column 4</strong>, not column 3.</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 3</span>
+            <span class="ts">18:15:22</span></div>
+          <div class="body"><p>Thanks! I didn’t see that threat. Column 3 might set me up for a win, should I do it now?</p></div>
+          <div class="acts"><span class="chip" style="--chip:#64748b" title="panel confidence 1.00">Conversational Acknowledgment</span><span class="chip" style="--chip:#8b5cf6" title="panel confidence 1.00">Common Ground Question</span><span class="chip chip-weak" style="--chip:#94a3b8" title="panel confidence 0.67">Metacomment</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">18:15:27</span></div>
+          <div class="body"><p>Not column 3 yet. If you drop in <strong>column 3</strong>, it doesn’t create an immediate forcing threat, and Yellow may get time to block.</p><p>The stronger move is <strong>column 5</strong>: it lands at <strong>c5–r4</strong>, connecting with your Reds around <strong>c4–r3/c4–r4</strong> and creating a much more dangerous diagonal/horizontal threat setup.</p><p>So I’d play <strong>column 5</strong> now.</p></div>
+        </div>
+      </div></div>
+    </section>
+    <section class="card solver" data-group="solver" data-turns="4"
+             data-search="p648 solver common ground question conversational acknowledgment solution request think aloud hi! if i put the first move into row 3, column 3, would that be best? okay, done. i think i have to play in column 4 again. if i don&#x27;t put it there, won&#x27;t yellow just win by placing it there next round? okay, what&#x27;s the next best move?" id="p648">
+      <header class="card-head">
+        <div class="idline">
+          <span class="badge solver">Solver</span>
+          <span class="idx">#14</span>
+          <code class="pid">p648</code>
+        </div>
+        <div class="metagrid"><div class="m"><span class="k">R1 score (with AI)</span><span class="v">3</span></div><div class="m"><span class="k">R2 score (no AI)</span><span class="v">2</span></div><div class="m"><span class="k">turns</span><span class="v">4</span></div><div class="m"><span class="k">age</span><span class="v">44</span></div><div class="m"><span class="k">self-rated skill</span><span class="v">2/5</span></div><div class="m"><span class="k">occupation</span><span class="v">government</span></div><div class="m"><span class="k">education</span><span class="v">bachelor&#x27;s</span></div><div class="m"><span class="k">GenAI use</span><span class="v">few×/month</span></div></div>
+        <div class="actline"><span class="chip chip-sm" style="--chip:#8b5cf6">Common Ground Question</span><span class="chip chip-sm" style="--chip:#64748b">Conversational Acknowledgment</span><span class="chip chip-sm" style="--chip:#f59e0b">Solution Request</span><span class="chip chip-sm" style="--chip:#0ea5e9">Think Aloud</span></div>
+      </header>
+      <div class="turns">
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 1</span>
+            <span class="ts">19:54:11</span></div>
+          <div class="body"><p>Hi! If I put the first move into row 3, column 3, would that be best?</p></div>
+          <div class="acts"><span class="chip chip-weak" style="--chip:#64748b" title="panel confidence 0.67">Conversational Acknowledgment</span><span class="chip" style="--chip:#8b5cf6" title="panel confidence 1.00">Common Ground Question</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">19:54:21</span></div>
+          <div class="body"><p>No — column 3 would land at row 3, but it’s <strong>not best</strong> here.</p><p>The key move is <strong>column 4</strong>: it lands in <strong>row 3, column 4</strong>, taking the central square and keeping Red’s forced win alive. Column 3 is playable, but it gives Yellow more defensive chances.</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 2</span>
+            <span class="ts">19:54:57</span></div>
+          <div class="body"><p>Okay, done. I think I have to play in column 4 again.</p></div>
+          <div class="acts"><span class="chip" style="--chip:#0ea5e9" title="panel confidence 1.00">Think Aloud</span><span class="chip" style="--chip:#64748b" title="panel confidence 1.00">Conversational Acknowledgment</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">19:55:00</span></div>
+          <div class="body"><p>Column 4 is a strong candidate — before you drop it, ask: <strong>what immediate threat does it create, and what must Yellow do next?</strong></p><p>If Red plays <strong>column 4</strong>, it lands at <strong>row 4, column 4</strong>, stacking in the center and building vertical/diagonal pressure. Check whether Yellow has any immediate 4-in-a-row threat you must block first; if not, your plan makes sense.</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 3</span>
+            <span class="ts">19:55:30</span></div>
+          <div class="body"><p>If I don&#x27;t put it there, won&#x27;t yellow just win by placing it there next round?</p></div>
+          <div class="acts"><span class="chip chip-weak" style="--chip:#0ea5e9" title="panel confidence 0.67">Think Aloud</span><span class="chip" style="--chip:#8b5cf6" title="panel confidence 1.00">Common Ground Question</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">19:55:38</span></div>
+          <div class="body"><p>Yes — exactly.</p><p>Yellow already has a diagonal: <strong>c7r1–c6r2–c5r3</strong>, so if Yellow gets <strong>c4r4</strong>, that makes four in a row. Since column 4 is playable now, Red needs to take <strong>column 4</strong> to block that winning square.</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 4</span>
+            <span class="ts">19:56:00</span></div>
+          <div class="body"><p>Okay, what&#x27;s the next best move?</p></div>
+          <div class="acts"><span class="chip chip-weak" style="--chip:#64748b" title="panel confidence 0.67">Conversational Acknowledgment</span><span class="chip" style="--chip:#f59e0b" title="panel confidence 1.00">Solution Request</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">19:56:03</span></div>
+          <div class="body"><p>Best move: <strong>Column 5</strong>.</p><p>It lands at <strong>c5r4</strong>, directly above Yellow’s c5r3, and it creates/keeps Red’s strongest threats while preventing Yellow from taking over the center diagonals.</p></div>
+        </div>
+      </div></div>
+    </section>
+    <section class="card solver" data-group="solver" data-turns="4"
+             data-search="p817 solver solution request think aloud help me where is the best place to go next they nearly have a row here where now" id="p817">
+      <header class="card-head">
+        <div class="idline">
+          <span class="badge solver">Solver</span>
+          <span class="idx">#15</span>
+          <code class="pid">p817</code>
+        </div>
+        <div class="metagrid"><div class="m"><span class="k">R1 score (with AI)</span><span class="v">3</span></div><div class="m"><span class="k">R2 score (no AI)</span><span class="v">3</span></div><div class="m"><span class="k">turns</span><span class="v">4</span></div><div class="m"><span class="k">age</span><span class="v">38</span></div><div class="m"><span class="k">self-rated skill</span><span class="v">2/5</span></div><div class="m"><span class="k">occupation</span><span class="v">it</span></div><div class="m"><span class="k">education</span><span class="v">postgrad</span></div><div class="m"><span class="k">GenAI use</span><span class="v">several times day</span></div></div>
+        <div class="actline"><span class="chip chip-sm" style="--chip:#f59e0b">Solution Request</span><span class="chip chip-sm" style="--chip:#0ea5e9">Think Aloud</span></div>
+      </header>
+      <div class="turns">
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 1</span>
+            <span class="ts">16:38:53</span></div>
+          <div class="body"><p>Help me</p></div>
+          <div class="acts"><span class="chip" style="--chip:#f59e0b" title="panel confidence 1.00">Solution Request</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">16:39:00</span></div>
+          <div class="body"><p>Look for a move that creates an <strong>immediate threat Yellow can’t safely ignore</strong>.</p><p>Key things to notice:</p><ul><li>Red already has pieces at <strong>c2–r2</strong> and <strong>c3–r1</strong>, which can form diagonals.</li><li>Yellow has a horizontal pair on the bottom at <strong>c4–c5</strong>, and also on row 2 at <strong>c3–c4</strong>, so don’t give Yellow an easy extension.</li><li>Try asking: “If I drop in a column, what new 3-in-a-row does Red make, and where would the winning 4th square be?”</li></ul><p>Focus especially on moves that build a <strong>diagonal threat through the center</strong>, because center columns connect to more lines.</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 2</span>
+            <span class="ts">16:39:37</span></div>
+          <div class="body"><p>Where is the best place to go next</p></div>
+          <div class="acts"><span class="chip" style="--chip:#f59e0b" title="panel confidence 1.00">Solution Request</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">16:39:40</span></div>
+          <div class="body"><p>Best move: <strong>column 4</strong>.</p><p>Why: dropping Red in <strong>col 4</strong> lands on <strong>row 3</strong>, giving you a strong central threat and keeping your forced win alive. It also helps control Yellow’s nearby center threats around columns 3–5.</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 3</span>
+            <span class="ts">16:39:53</span></div>
+          <div class="body"><p>They nearly have a row here</p></div>
+          <div class="acts"><span class="chip" style="--chip:#0ea5e9" title="panel confidence 1.00">Think Aloud</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">16:39:59</span></div>
+          <div class="body"><p>Yes — Yellow is threatening around the middle:</p><ul><li>Yellow has <strong>c3–c4</strong> on row 2, but it’s blocked by Red at <strong>c5</strong>.</li><li>On the bottom row Yellow has <strong>c4–c5</strong>, with space toward <strong>c6</strong> already Red, so that’s blocked too.</li><li>The more dangerous thing is Yellow’s <strong>center control</strong> and potential diagonals from <strong>c5 row3 / c4 row2 / c3 row1</strong>-type shapes.</li></ul><p>So ask: <strong>Can Red play a move that both blocks the danger and creates a stronger threat?</strong> The key area is the <strong>center columns, especially column 4</strong>.</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 4</span>
+            <span class="ts">16:40:20</span></div>
+          <div class="body"><p>Where now</p></div>
+          <div class="acts"><span class="chip" style="--chip:#f59e0b" title="panel confidence 1.00">Solution Request</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">16:40:23</span></div>
+          <div class="body"><p>Go <strong>column 5</strong>.</p><p>That drops Red at <strong>c5–r4</strong>, which creates a strong diagonal threat with <strong>c2–r1, c3–r2, c4–r3, c5–r4</strong>. It’s your winning move here.</p></div>
+        </div>
+      </div></div>
+    </section>
+    <section class="card solver" data-group="solver" data-turns="4"
+             data-search="p321 solver common ground question conversational acknowledgment knowledge deficit question think aloud i&#x27;m considering the 3x2 position what about column 2 and row 3 for red c3 and r4? i don&#x27;t think so. can you see if there is any immediate 4-in-a-row you must block?" id="p321">
+      <header class="card-head">
+        <div class="idline">
+          <span class="badge solver">Solver</span>
+          <span class="idx">#16</span>
+          <code class="pid">p321</code>
+        </div>
+        <div class="metagrid"><div class="m"><span class="k">R1 score (with AI)</span><span class="v">1</span></div><div class="m"><span class="k">R2 score (no AI)</span><span class="v">2</span></div><div class="m"><span class="k">turns</span><span class="v">4</span></div><div class="m"><span class="k">age</span><span class="v">22</span></div><div class="m"><span class="k">self-rated skill</span><span class="v">1/5</span></div><div class="m"><span class="k">occupation</span><span class="v">education</span></div><div class="m"><span class="k">education</span><span class="v">bachelor&#x27;s</span></div><div class="m"><span class="k">GenAI use</span><span class="v">several times day</span></div></div>
+        <div class="actline"><span class="chip chip-sm" style="--chip:#8b5cf6">Common Ground Question</span><span class="chip chip-sm" style="--chip:#64748b">Conversational Acknowledgment</span><span class="chip chip-sm" style="--chip:#d946ef">Knowledge Deficit Question</span><span class="chip chip-sm" style="--chip:#0ea5e9">Think Aloud</span></div>
+      </header>
+      <div class="turns">
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 1</span>
+            <span class="ts">17:52:53</span></div>
+          <div class="body"><p>I&#x27;m considering the 3x2 position</p></div>
+          <div class="acts"><span class="chip" style="--chip:#0ea5e9" title="panel confidence 1.00">Think Aloud</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">17:53:00</span></div>
+          <div class="body"><p>Do you mean the square at <strong>column 3, row 2</strong>? That spot is already <strong>Yellow</strong>, so Red can’t play there.</p><p>If you’re thinking about the <em>area around it</em>, ask: after your move, does Yellow get an immediate connect-four threat? In particular, look at Yellow’s cluster on the bottom/middle: <strong>c3–c5</strong> and diagonals involving <strong>c4/c5/c6</strong>. What Red move would both stay safe and create pressure?</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 2</span>
+            <span class="ts">17:54:50</span></div>
+          <div class="body"><p>what about column 2 and row 3 for red</p></div>
+          <div class="acts"><span class="chip" style="--chip:#8b5cf6" title="panel confidence 1.00">Common Ground Question</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">17:54:59</span></div>
+          <div class="body"><p>Column <strong>2</strong> would land at <strong>row 3</strong>, so it’s legal.</p><p>It would give Red a <strong>vertical 3</strong> at <strong>c2 rows 1–3</strong>, threatening <strong>c2 row 4</strong> next. The key question: does Yellow have a stronger reply if you spend this move on c2—especially around the crowded center columns <strong>3–5</strong>?</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 3</span>
+            <span class="ts">18:00:56</span></div>
+          <div class="body"><p>C3 and R4?</p></div>
+          <div class="acts"><span class="chip" style="--chip:#8b5cf6" title="panel confidence 1.00">Common Ground Question</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">18:00:59</span></div>
+          <div class="body"><p>If you play <strong>column 3</strong>, your disc lands at <strong>c3 r4</strong> (yes, that square is empty and supported).</p><p>The main idea: it builds on your red stack/cluster in <strong>column 3</strong> and gives you more central pressure, while also keeping Yellow from comfortably expanding around <strong>c4–c5</strong>.</p><p>Before choosing, check: after <strong>c3 r4</strong>, does Yellow have any immediate 4-in-a-row you must block?</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 4</span>
+            <span class="ts">18:03:24</span></div>
+          <div class="body"><p>I don&#x27;t think so. can you see if there is any immediate 4-in-a-row you must block?</p></div>
+          <div class="acts"><span class="chip chip-weak" style="--chip:#64748b" title="panel confidence 0.67">Conversational Acknowledgment</span><span class="chip chip-weak" style="--chip:#d946ef" title="panel confidence 0.67">Knowledge Deficit Question</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">18:03:40</span></div>
+          <div class="body"><p>Yes — Yellow already has a diagonal line: <strong>c4 r4 → c5 r3 → c6 r2 → c7 r1</strong>.</p><p>So there isn’t a <em>new</em> one-move threat to block; that diagonal is the key line to notice. If you’re still choosing a move, <strong>column 3</strong> is the strongest way to keep pressure, landing at <strong>c3 r4</strong>.</p></div>
+        </div>
+      </div></div>
+    </section>
+    <section class="card solver" data-group="solver" data-turns="5"
+             data-search="p601 solver common ground question conversational acknowledgment solution request think aloud is it better to play offensively or defensively right now on this board? so what do you think the best move would be right now? so right now i go column 3 again to prevent yellow connecting 4? sorry i meant column 4. i will go there. this is my last move, what move do you think will be the best?" id="p601">
+      <header class="card-head">
+        <div class="idline">
+          <span class="badge solver">Solver</span>
+          <span class="idx">#17</span>
+          <code class="pid">p601</code>
+        </div>
+        <div class="metagrid"><div class="m"><span class="k">R1 score (with AI)</span><span class="v">3</span></div><div class="m"><span class="k">R2 score (no AI)</span><span class="v">3</span></div><div class="m"><span class="k">turns</span><span class="v">5</span></div><div class="m"><span class="k">age</span><span class="v">31</span></div><div class="m"><span class="k">self-rated skill</span><span class="v">2/5</span></div><div class="m"><span class="k">occupation</span><span class="v">retail</span></div><div class="m"><span class="k">education</span><span class="v">associate</span></div><div class="m"><span class="k">GenAI use</span><span class="v">weekly</span></div></div>
+        <div class="actline"><span class="chip chip-sm" style="--chip:#8b5cf6">Common Ground Question</span><span class="chip chip-sm" style="--chip:#64748b">Conversational Acknowledgment</span><span class="chip chip-sm" style="--chip:#f59e0b">Solution Request</span><span class="chip chip-sm" style="--chip:#0ea5e9">Think Aloud</span></div>
+      </header>
+      <div class="turns">
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 1</span>
+            <span class="ts">13:26:45</span></div>
+          <div class="body"><p>Is it better to play offensively or defensively right now on this board?</p></div>
+          <div class="acts"><span class="chip" style="--chip:#f59e0b" title="panel confidence 1.00">Solution Request</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">13:26:56</span></div>
+          <div class="body"><p>Right now, lean <strong>defensive first</strong> — Yellow has central threats building, and with only 3 Red moves left you can’t afford to ignore them.</p><p>But look for a <strong>defensive move that also creates pressure</strong>: the best move should not just “block,” it should also improve Red’s chances of making a threat on the next turn. Focus especially on Yellow’s central stack/cluster around columns 3–5.</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 2</span>
+            <span class="ts">13:27:29</span></div>
+          <div class="body"><p>So what do you think the best move would be right now?</p></div>
+          <div class="acts"><span class="chip" style="--chip:#f59e0b" title="panel confidence 1.00">Solution Request</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">13:27:32</span></div>
+          <div class="body"><p>The best move is <strong>column 4</strong>.</p><p>Reason: Yellow is threatening to grow strong central lines, so Red needs a move that <strong>blocks/interrupts the center</strong> while also creating future attacking chances. Dropping in <strong>column 4</strong> lands at <strong>row 3</strong>, right above Yellow’s stack, and it helps Red control the key diagonal/central area instead of just reacting on the edge.</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 3</span>
+            <span class="ts">13:28:10</span></div>
+          <div class="body"><p>So right now I go column 3 again to prevent yellow connecting 4?</p></div>
+          <div class="acts"><span class="chip" style="--chip:#0ea5e9" title="panel confidence 1.00">Think Aloud</span><span class="chip" style="--chip:#8b5cf6" title="panel confidence 1.00">Common Ground Question</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">13:28:13</span></div>
+          <div class="body"><p>Column 3 doesn’t actually stop the key danger. Yellow’s immediate-looking diagonal is along <strong>c3-r2, c4-r3, c5-r4, c6-r5</strong> — but <strong>c5-r4 isn’t playable yet</strong>.</p><p>The stronger move is still <strong>column 4</strong>: it builds Red’s center and creates the most pressure while not allowing Yellow an immediate win.</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 4</span>
+            <span class="ts">13:28:35</span></div>
+          <div class="body"><p>Sorry I meant column 4. I will go there.</p></div>
+          <div class="acts"><span class="chip" style="--chip:#0ea5e9" title="panel confidence 1.00">Think Aloud</span><span class="chip chip-weak" style="--chip:#64748b" title="panel confidence 0.67">Conversational Acknowledgment</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">13:28:37</span></div>
+          <div class="body"><p>Good — after Yellow’s reply, the key is still the <strong>center</strong>.</p><p>Ask yourself: what move creates Red’s strongest immediate threat while also stopping Yellow from taking over the central diagonal/vertical space? In particular, look at <strong>column 4</strong>: stacking there would put Red at <strong>c4-r4</strong>, building a strong vertical/diagonal threat that Yellow must respect.</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 5</span>
+            <span class="ts">13:29:05</span></div>
+          <div class="body"><p>This is my last move, what move do you think will be the best?</p></div>
+          <div class="acts"><span class="chip chip-weak" style="--chip:#0ea5e9" title="panel confidence 0.67">Think Aloud</span><span class="chip" style="--chip:#f59e0b" title="panel confidence 1.00">Solution Request</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">13:29:09</span></div>
+          <div class="body"><p>Play <strong>column 5</strong>.</p><p>That drops Red at <strong>c5–r4</strong>, which is the key square: it keeps your strongest winning chances alive and also prevents Yellow from taking over that central diagonal space.</p></div>
+        </div>
+      </div></div>
+    </section>
+    <section class="card solver" data-group="solver" data-turns="5"
+             data-search="p725 solver common ground question conversational acknowledgment knowledge deficit question solution request think aloud i&#x27;m going for the diagonal - is this a good move and can i be blocked by the other player easily where would you suggest i should have gone what is the best first move in connect 4 good tip any more tips for me that good players do" id="p725">
+      <header class="card-head">
+        <div class="idline">
+          <span class="badge solver">Solver</span>
+          <span class="idx">#18</span>
+          <code class="pid">p725</code>
+        </div>
+        <div class="metagrid"><div class="m"><span class="k">R1 score (with AI)</span><span class="v">2</span></div><div class="m"><span class="k">R2 score (no AI)</span><span class="v">2</span></div><div class="m"><span class="k">turns</span><span class="v">5</span></div><div class="m"><span class="k">age</span><span class="v">57</span></div><div class="m"><span class="k">self-rated skill</span><span class="v">1/5</span></div><div class="m"><span class="k">occupation</span><span class="v">education</span></div><div class="m"><span class="k">education</span><span class="v">some postgrad</span></div><div class="m"><span class="k">GenAI use</span><span class="v">weekly</span></div></div>
+        <div class="actline"><span class="chip chip-sm" style="--chip:#8b5cf6">Common Ground Question</span><span class="chip chip-sm" style="--chip:#64748b">Conversational Acknowledgment</span><span class="chip chip-sm" style="--chip:#d946ef">Knowledge Deficit Question</span><span class="chip chip-sm" style="--chip:#f59e0b">Solution Request</span><span class="chip chip-sm" style="--chip:#0ea5e9">Think Aloud</span></div>
+      </header>
+      <div class="turns">
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 1</span>
+            <span class="ts">20:00:35</span></div>
+          <div class="body"><p>i&#x27;m going for the diagonal - is this a good move and can i be blocked by the other player easily</p></div>
+          <div class="acts"><span class="chip" style="--chip:#0ea5e9" title="panel confidence 1.00">Think Aloud</span><span class="chip chip-weak" style="--chip:#d946ef" title="panel confidence 0.67">Knowledge Deficit Question</span><span class="chip" style="--chip:#8b5cf6" title="panel confidence 1.00">Common Ground Question</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">20:00:45</span></div>
+          <div class="body"><p>If by “the diagonal” you mean playing in <strong>column 4</strong>, then yes — that looks like the right kind of move to consider.</p><p>Key question to check: after your disc lands, does Yellow have <strong>one easy block</strong>, or are you creating <strong>more than one future threat</strong>? A single diagonal threat can be blocked easily; a move is much stronger if it creates a setup where Yellow can’t cover everything next turn.</p><p>Look at the diagonal lines touching <strong>column 4, row 4</strong> and ask: “If I play there, what must Yellow respond to?”</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 2</span>
+            <span class="ts">20:02:44</span></div>
+          <div class="body"><p>where would you suggest i should have gone</p></div>
+          <div class="acts"><span class="chip chip-weak" style="--chip:#f59e0b" title="panel confidence 0.67">Solution Request</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">20:02:48</span></div>
+          <div class="body"><p>I’d suggest <strong>column 4 or column 5</strong> here.</p><ul><li><strong>Column 4</strong> is good because it builds upward in the center and supports your diagonal ideas from <strong>c2–d3–e4</strong> / nearby threats.</li><li><strong>Column 5</strong> is also strong because it helps contest Yellow’s center-side structure and gives you more attacking chances.</li></ul><p>I would avoid drifting to the edges right now unless it creates an immediate threat, because the key fight is around <strong>columns 3–5</strong>.</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 3</span>
+            <span class="ts">20:03:48</span></div>
+          <div class="body"><p>what is the best first move in connect 4</p></div>
+          <div class="acts"><span class="chip" style="--chip:#f59e0b" title="panel confidence 1.00">Solution Request</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">20:03:51</span></div>
+          <div class="body"><p>The best first move is <strong>column 4</strong> — the center.</p><p>Why:</p><ul><li>It gives you the most possible lines: horizontal, vertical, and both diagonals.</li><li>It controls the most important area of the board.</li><li>Strong play in Connect 4 usually starts by fighting for the center columns, especially <strong>4, then 3/5</strong>.</li></ul><p>In your current board, that same idea still applies: the key action is around <strong>columns 4 and 5</strong>, because those affect the biggest diagonal and center threats.</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 4</span>
+            <span class="ts">20:04:18</span></div>
+          <div class="body"><p>good tip</p></div>
+          <div class="acts"><span class="chip" style="--chip:#64748b" title="panel confidence 1.00">Conversational Acknowledgment</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">20:04:21</span></div>
+          <div class="body"><p>Nice — in this position the key area is still the <strong>middle</strong>.</p><p>Look especially at <strong>columns 4 and 5</strong>:</p><ul><li><strong>Column 4</strong> builds on your central stack and can support diagonal pressure.</li><li><strong>Column 5</strong> is important because Yellow has influence there, and you may need to contest/block future diagonal or horizontal threats.</li></ul><p>Ask yourself: “If I don’t play 4 or 5, what threat does Yellow get next?”</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 5</span>
+            <span class="ts">20:04:30</span></div>
+          <div class="body"><p>any more tips for me that good players do</p></div>
+          <div class="acts"><span class="chip" style="--chip:#f59e0b" title="panel confidence 1.00">Solution Request</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">20:04:34</span></div>
+          <div class="body"><p>A few good-player habits:</p><ul><li><strong>Always check opponent’s immediate threats first.</strong> Here Yellow has dangerous shape around <strong>cols 3–5</strong>, so don’t ignore the center.</li><li><strong>Prefer center moves</strong>: columns <strong>4 and 5</strong> are usually more valuable than edges because they touch more winning lines.</li><li><strong>Look one move deeper</strong>: ask “If I play this, what is Yellow’s best reply?”</li><li><strong>Build threats that stack</strong>: a single threat gets blocked; two threats at once often win.</li><li><strong>Don’t play under a square that helps Yellow finish a 4</strong> — especially in diagonals.</li></ul><p>On this board, I’d be paying close attention to <strong>column 4 row 5</strong> and <strong>column 5 row 4</strong> as key future squares.</p></div>
+        </div>
+      </div></div>
+    </section>
+    <section class="card solver" data-group="solver" data-turns="7"
+             data-search="p407 solver common ground question conversational acknowledgment knowledge deficit question metacomment solution request think aloud i can see a threat at 4,4, so am planning to fill that. the diagonal starting at 7,1 i&#x27;m inclined to play 2,3 or 3,3, what do you think? i&#x27;m not seeing any big yellow threats. can you see any? i only have one move left and don&#x27;t see anything obvious. nope, 5, 3 is filled by yellow. not that i can see." id="p407">
+      <header class="card-head">
+        <div class="idline">
+          <span class="badge solver">Solver</span>
+          <span class="idx">#19</span>
+          <code class="pid">p407</code>
+        </div>
+        <div class="metagrid"><div class="m"><span class="k">R1 score (with AI)</span><span class="v">3</span></div><div class="m"><span class="k">R2 score (no AI)</span><span class="v">2</span></div><div class="m"><span class="k">turns</span><span class="v">7</span></div><div class="m"><span class="k">age</span><span class="v">60</span></div><div class="m"><span class="k">self-rated skill</span><span class="v">1/5</span></div><div class="m"><span class="k">occupation</span><span class="v">arts</span></div><div class="m"><span class="k">education</span><span class="v">some college</span></div><div class="m"><span class="k">GenAI use</span><span class="v">several times day</span></div></div>
+        <div class="actline"><span class="chip chip-sm" style="--chip:#8b5cf6">Common Ground Question</span><span class="chip chip-sm" style="--chip:#64748b">Conversational Acknowledgment</span><span class="chip chip-sm" style="--chip:#d946ef">Knowledge Deficit Question</span><span class="chip chip-sm" style="--chip:#94a3b8">Metacomment</span><span class="chip chip-sm" style="--chip:#f59e0b">Solution Request</span><span class="chip chip-sm" style="--chip:#0ea5e9">Think Aloud</span></div>
+      </header>
+      <div class="turns">
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 1</span>
+            <span class="ts">13:11:04</span></div>
+          <div class="body"><p>I can see a threat at 4,4, so am planning to fill that.</p></div>
+          <div class="acts"><span class="chip" style="--chip:#0ea5e9" title="panel confidence 1.00">Think Aloud</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">13:11:10</span></div>
+          <div class="body"><p>Good—if you play <strong>column 4</strong>, your disc will land at <strong>row 4</strong>.</p><p>Before dropping it, ask: what line is being affected there? Check both:</p><ul><li>the <strong>vertical in column 4</strong></li><li>the <strong>diagonal through (4,4)</strong></li></ul><p>Your instinct to fill that square is important because it changes Yellow’s access to that key point.</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 2</span>
+            <span class="ts">13:11:29</span></div>
+          <div class="body"><p>The diagonal starting at 7,1</p></div>
+          <div class="acts"><span class="chip" style="--chip:#0ea5e9" title="panel confidence 1.00">Think Aloud</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">13:11:35</span></div>
+          <div class="body"><p>Yes—exactly: the diagonal <strong>(7,1) → (6,2) → (5,3) → (4,4)</strong> is the key.</p><p>Yellow already has <strong>7,1 + 6,2 + 5,3</strong>, so if Yellow gets <strong>4,4</strong>, they win. Since column 4 would land at <strong>4,4</strong> now, filling it blocks that diagonal.</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 3</span>
+            <span class="ts">13:12:11</span></div>
+          <div class="body"><p>I&#x27;m inclined to play 2,3 or 3,3, what do you think?</p></div>
+          <div class="acts"><span class="chip" style="--chip:#0ea5e9" title="panel confidence 1.00">Think Aloud</span><span class="chip" style="--chip:#8b5cf6" title="panel confidence 1.00">Common Ground Question</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">13:12:17</span></div>
+          <div class="body"><p>I’d be cautious with <strong>2,3</strong> or <strong>3,3</strong>: neither seems to create an immediate strong threat, and they may give Yellow time to make the next forcing move.</p><p>Look especially at <strong>column 5</strong>: playing there lands at <strong>5,4</strong>, which interacts with the central cluster and Yellow’s diagonal threats. Before choosing, ask: <em>after my move, does Yellow have any immediate win or forcing reply?</em></p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 4</span>
+            <span class="ts">13:12:59</span></div>
+          <div class="body"><p>I&#x27;m not seeing any big yellow threats. Can you see any?</p></div>
+          <div class="acts"><span class="chip" style="--chip:#0ea5e9" title="panel confidence 1.00">Think Aloud</span><span class="chip" style="--chip:#d946ef" title="panel confidence 1.00">Knowledge Deficit Question</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">13:13:05</span></div>
+          <div class="body"><p>I don’t see an <strong>immediate Yellow win</strong> right now.</p><p>The earlier diagonal <strong>7,1–6,2–5,3–4,4</strong> is already blocked by your Red at <strong>4,4</strong>. So the question is less “must block Yellow now?” and more: <strong>which move creates a forcing Red threat before Yellow can organize one?</strong></p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 5</span>
+            <span class="ts">13:13:28</span></div>
+          <div class="body"><p>I only have one move left and don&#x27;t see anything obvious.</p></div>
+          <div class="acts"><span class="chip" style="--chip:#0ea5e9" title="panel confidence 1.00">Think Aloud</span><span class="chip chip-weak" style="--chip:#f59e0b" title="panel confidence 0.67">Solution Request</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">13:13:35</span></div>
+          <div class="body"><p>Look for a move that creates an <strong>immediate Red threat</strong> for your next turn.</p><p>In particular, check <strong>row 3</strong>: you already have Red at <strong>4,3</strong> and <strong>6,3</strong>. Is there a playable square that could connect those into a strong horizontal threat?</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 6</span>
+            <span class="ts">13:14:00</span></div>
+          <div class="body"><p>Nope, 5, 3 is filled by yellow.</p></div>
+          <div class="acts"><span class="chip" style="--chip:#0ea5e9" title="panel confidence 1.00">Think Aloud</span><span class="chip" style="--chip:#64748b" title="panel confidence 1.00">Conversational Acknowledgment</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">13:14:07</span></div>
+          <div class="body"><p>Good catch — you’re right, <strong>5,3 is Yellow</strong>, so that horizontal idea doesn’t work.</p><p>Now look at the <strong>playable squares</strong>: especially what a Red disc at <strong>5,4</strong> would do. Ask: does it create a threat Yellow cannot cover on their next move?</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 7</span>
+            <span class="ts">13:14:33</span></div>
+          <div class="body"><p>Not that I can see.</p></div>
+          <div class="acts"><span class="chip chip-weak" style="--chip:#94a3b8" title="panel confidence 0.67">Metacomment</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">13:14:46</span></div>
+          <div class="body"><p>You’re right—it’s not an obvious “win now” move.</p><p>Focus on the <strong>playable square in column 5: (5,4)</strong>. If Red occupies <strong>5,4</strong>, it connects with your central Reds and creates future pressure around <strong>row 4</strong> and the diagonal through <strong>4,4–5,4–6,4</strong>. Ask: if you <em>don’t</em> take that square, can Yellow use column 5 to stabilize or create threats?</p></div>
+        </div>
+      </div></div>
+    </section>
+    <section class="card solver" data-group="solver" data-turns="8"
+             data-search="p40 solver common ground question conversational acknowledgment knowledge deficit question think aloud is column 2 not good? i&#x27;d put the opponent in check mate, so to speak, so it seems logical ah oh! are there any traps i&#x27;m missing? so column 4? ok, now i&#x27;m doing column 4, i have no choice, otherwise i lose thinking column 7 or 3, both set up evenutal diagonal wins, no? i&#x27;m thinking 5, it sets up nicely for future opportunities, diagonally 4 would create two possible winning situations for me, no? that is, yellow would be unable to block a win? column 7, row 2, would win diagonally if they block 4, unless they can win first, no?" id="p40">
+      <header class="card-head">
+        <div class="idline">
+          <span class="badge solver">Solver</span>
+          <span class="idx">#20</span>
+          <code class="pid">p40</code>
+        </div>
+        <div class="metagrid"><div class="m"><span class="k">R1 score (with AI)</span><span class="v">3</span></div><div class="m"><span class="k">R2 score (no AI)</span><span class="v">2</span></div><div class="m"><span class="k">turns</span><span class="v">8</span></div><div class="m"><span class="k">age</span><span class="v">47</span></div><div class="m"><span class="k">self-rated skill</span><span class="v">2/5</span></div><div class="m"><span class="k">occupation</span><span class="v">arts</span></div><div class="m"><span class="k">education</span><span class="v">some college</span></div><div class="m"><span class="k">GenAI use</span><span class="v">few×/week</span></div></div>
+        <div class="actline"><span class="chip chip-sm" style="--chip:#8b5cf6">Common Ground Question</span><span class="chip chip-sm" style="--chip:#64748b">Conversational Acknowledgment</span><span class="chip chip-sm" style="--chip:#d946ef">Knowledge Deficit Question</span><span class="chip chip-sm" style="--chip:#0ea5e9">Think Aloud</span></div>
+      </header>
+      <div class="turns">
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 1</span>
+            <span class="ts">20:00:09</span></div>
+          <div class="body"><p>Is column 2 not good? I&#x27;d put the opponent in check mate, so to speak, so it seems logical</p></div>
+          <div class="acts"><span class="chip" style="--chip:#0ea5e9" title="panel confidence 1.00">Think Aloud</span><span class="chip" style="--chip:#8b5cf6" title="panel confidence 1.00">Common Ground Question</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">20:00:17</span></div>
+          <div class="body"><p>Column 2 is logical because it makes a <strong>vertical threat</strong>: Red would have three in column 2 and could win by playing column 2 again.</p><p>But it’s not “checkmate” unless Yellow has <strong>no way to block</strong>. Here Yellow can simply play <strong>column 2</strong> next, landing on top of your stack and blocking that vertical four.</p><p>So ask yourself: after <strong>R in column 2, Y in column 2</strong>, do you still have another winning threat? If not, it’s only a one-move threat, not a forced win.</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 2</span>
+            <span class="ts">20:01:40</span></div>
+          <div class="body"><p>Ah oh! Are there any traps I&#x27;m missing?</p></div>
+          <div class="acts"><span class="chip" style="--chip:#d946ef" title="panel confidence 1.00">Knowledge Deficit Question</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">20:01:51</span></div>
+          <div class="body"><p>Yes — the big trap is treating a <strong>single threat</strong> like mate.</p><p>If you play column 2, Yellow can answer <strong>column 2</strong> and your vertical threat is gone.</p><p>Also look at Yellow’s <strong>central stack in column 4</strong>: Yellow already has discs at <strong>4-row1 and 4-row2</strong>, so letting Yellow build there can become dangerous. A stronger Red move would ideally do <strong>two things at once</strong>: stop Yellow’s best buildup <em>and</em> create a threat Yellow can’t easily neutralize.</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 3</span>
+            <span class="ts">20:02:35</span></div>
+          <div class="body"><p>so column 4?</p></div>
+          <div class="acts"><span class="chip" style="--chip:#8b5cf6" title="panel confidence 1.00">Common Ground Question</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">20:02:37</span></div>
+          <div class="body"><p>Yes — <strong>column 4 looks like the right idea</strong>.</p><p>Why: Yellow has two stacked in column 4 already, and if you don’t occupy that space, Yellow’s center control can become very dangerous. Playing <strong>4</strong> also lands Red at <strong>col 4 row 3</strong>, which helps your diagonal/central connections rather than making a single easily-blocked vertical threat.</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 4</span>
+            <span class="ts">20:03:25</span></div>
+          <div class="body"><p>Ok, now I&#x27;m doing column 4, I have no choice, otherwise I lose</p></div>
+          <div class="acts"><span class="chip" style="--chip:#0ea5e9" title="panel confidence 1.00">Think Aloud</span><span class="chip chip-weak" style="--chip:#64748b" title="panel confidence 0.67">Conversational Acknowledgment</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">20:03:30</span></div>
+          <div class="body"><p>Yes — your instinct is right: <strong>column 4 is the key square again</strong>.</p><p>Reason: Yellow’s center stack is dangerous, but if Red plays <strong>col 4 row 4</strong>, you build a strong vertical/central threat and stop Yellow from taking that space. It’s not just defense; it keeps your forcing chances alive.</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 5</span>
+            <span class="ts">20:04:38</span></div>
+          <div class="body"><p>Thinking column 7 or 3, both set up evenutal diagonal wins, no?</p></div>
+          <div class="acts"><span class="chip" style="--chip:#0ea5e9" title="panel confidence 1.00">Think Aloud</span><span class="chip" style="--chip:#8b5cf6" title="panel confidence 1.00">Common Ground Question</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">20:04:42</span></div>
+          <div class="body"><p>Both <strong>3</strong> and <strong>7</strong> have diagonal ideas, yes — but ask: do they create an <strong>immediate threat Yellow must answer</strong>, or just a future plan?</p><p>Look closely at <strong>column 5</strong> too: playing there lands at <strong>5-row4</strong>, which connects with your Reds at <strong>4-row3</strong> and <strong>6-row3 / 6-row1 possibilities</strong> and also affects Yellow’s stack in that area. Compare: after 3 or 7, what is Yellow’s strongest reply?</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 6</span>
+            <span class="ts">20:08:16</span></div>
+          <div class="body"><p>I&#x27;m thinking 5, it sets up nicely for future opportunities, diagonally</p></div>
+          <div class="acts"><span class="chip" style="--chip:#0ea5e9" title="panel confidence 1.00">Think Aloud</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">20:08:22</span></div>
+          <div class="body"><p>Yes — <strong>column 5 fits your plan best</strong>.</p><p>It lands at <strong>5-row4</strong>, next to your Red at <strong>4-row4</strong> and above your Red at <strong>5-row2</strong>, giving you central height and multiple future lines. Compared with <strong>3 or 7</strong>, it’s less “slow” because it builds threats in the middle where Yellow has to respond carefully.</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 7</span>
+            <span class="ts">20:09:43</span></div>
+          <div class="body"><p>4 would create two possible winning situations for me, no? That is, yellow would be unable to block a win?</p></div>
+          <div class="acts"><span class="chip" style="--chip:#0ea5e9" title="panel confidence 1.00">Think Aloud</span><span class="chip" style="--chip:#8b5cf6" title="panel confidence 1.00">Common Ground Question</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">20:09:51</span></div>
+          <div class="body"><p>Column <strong>4 is good</strong>, but not because it’s an immediate “two-win checkmate.”</p><p>If Red plays <strong>4</strong>, it lands at <strong>4-row5</strong>, making a <strong>vertical threat</strong> in column 4: Red would threaten <strong>4-row6</strong> next. Yellow can block that by playing column 4.</p><p>So the key question is: after Yellow blocks column 4, do you still have another forcing threat? Column 4 keeps strong pressure, but I’d be careful calling it an unblockable double threat right away.</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 8</span>
+            <span class="ts">20:11:06</span></div>
+          <div class="body"><p>Column 7, row 2, would win diagonally if they block 4, unless they can win first, no?</p></div>
+          <div class="acts"><span class="chip" style="--chip:#0ea5e9" title="panel confidence 1.00">Think Aloud</span><span class="chip" style="--chip:#8b5cf6" title="panel confidence 1.00">Common Ground Question</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">20:11:16</span></div>
+          <div class="body"><p>Yes — if you play <strong>column 4 now</strong>, then:</p><ul><li>Red at <strong>4-row5</strong> threatens vertical win at <strong>4-row6</strong>.</li><li>It also creates the diagonal threat <strong>4-row5, 5-row4, 6-row3, 7-row2</strong>.</li></ul><p>So if Yellow blocks <strong>column 4</strong>, then <strong>column 7 row 2</strong> wins diagonally. If Yellow blocks <strong>7</strong>, then column <strong>4</strong> wins vertically. That’s the double threat.</p></div>
+        </div>
+      </div></div>
+    </section>
+    <section class="card struggler" data-group="struggler" data-turns="1"
+             data-search="p62 struggler metacomment think aloud i cannot see a way to gte 4 red coins in a row in only 2 more moves. i think i have lost already" id="p62">
+      <header class="card-head">
+        <div class="idline">
+          <span class="badge struggler">Struggler</span>
+          <span class="idx">#21</span>
+          <code class="pid">p62</code>
+        </div>
+        <div class="metagrid"><div class="m"><span class="k">R1 score (with AI)</span><span class="v">1</span></div><div class="m"><span class="k">R2 score (no AI)</span><span class="v">1</span></div><div class="m"><span class="k">turns</span><span class="v">1</span></div><div class="m"><span class="k">age</span><span class="v">61</span></div><div class="m"><span class="k">self-rated skill</span><span class="v">2/5</span></div><div class="m"><span class="k">occupation</span><span class="v">other</span></div><div class="m"><span class="k">education</span><span class="v">postgrad</span></div><div class="m"><span class="k">GenAI use</span><span class="v">never</span></div></div>
+        <div class="actline"><span class="chip chip-sm" style="--chip:#94a3b8">Metacomment</span><span class="chip chip-sm" style="--chip:#0ea5e9">Think Aloud</span></div>
+      </header>
+      <div class="turns">
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 1</span>
+            <span class="ts">13:13:01</span></div>
+          <div class="body"><p>I cannot see a way to gte 4 red coins in a row in only 2 more moves. i think i have lost already</p></div>
+          <div class="acts"><span class="chip" style="--chip:#0ea5e9" title="panel confidence 1.00">Think Aloud</span><span class="chip" style="--chip:#94a3b8" title="panel confidence 1.00">Metacomment</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">13:13:12</span></div>
+          <div class="body"><p>You may not be lost — the key is not “make 4 immediately,” but <strong>set up a threat Yellow can’t fully stop</strong>.</p><p>Look for a Red move that lands on <strong>row 3</strong> and creates future possibilities in more than one direction:</p><ul><li>a <strong>diagonal</strong> using your Reds around columns 2–6,</li><li>or a <strong>horizontal/diagonal threat</strong> that Yellow must block next.</li></ul><p>Ask yourself: <em>If I drop in a central column, what 3-in-a-row or “almost 4” does it create for my next move?</em></p></div>
+        </div>
+      </div></div>
+    </section>
+    <section class="card struggler" data-group="struggler" data-turns="1"
+             data-search="p389 struggler solution request any advice for the next move?" id="p389">
+      <header class="card-head">
+        <div class="idline">
+          <span class="badge struggler">Struggler</span>
+          <span class="idx">#22</span>
+          <code class="pid">p389</code>
+        </div>
+        <div class="metagrid"><div class="m"><span class="k">R1 score (with AI)</span><span class="v">0</span></div><div class="m"><span class="k">R2 score (no AI)</span><span class="v">0</span></div><div class="m"><span class="k">turns</span><span class="v">1</span></div><div class="m"><span class="k">age</span><span class="v">28</span></div><div class="m"><span class="k">self-rated skill</span><span class="v">2/5</span></div><div class="m"><span class="k">occupation</span><span class="v">retail</span></div><div class="m"><span class="k">education</span><span class="v">some college</span></div><div class="m"><span class="k">GenAI use</span><span class="v">few×/week</span></div></div>
+        <div class="actline"><span class="chip chip-sm" style="--chip:#f59e0b">Solution Request</span></div>
+      </header>
+      <div class="turns">
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 1</span>
+            <span class="ts">23:58:50</span></div>
+          <div class="body"><p>any advice for the next move?</p></div>
+          <div class="acts"><span class="chip" style="--chip:#f59e0b" title="panel confidence 1.00">Solution Request</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">23:58:58</span></div>
+          <div class="body"><p>Yes—first check <strong>Yellow’s immediate threats</strong> in the center.</p><p>Ask yourself: if Red doesn’t play on top of Yellow’s stack in the middle, can Yellow use that square next turn to build a strong threat? Also look for a Red move that both <strong>blocks/controls the center</strong> and sets up future threats.</p><p>So I’d focus your attention on the <strong>central columns</strong>, especially the column where Yellow already has two discs stacked.</p></div>
+        </div>
+      </div></div>
+    </section>
+    <section class="card struggler" data-group="struggler" data-turns="1"
+             data-search="p340 struggler solution request which spot do you think is the optimum move" id="p340">
+      <header class="card-head">
+        <div class="idline">
+          <span class="badge struggler">Struggler</span>
+          <span class="idx">#23</span>
+          <code class="pid">p340</code>
+        </div>
+        <div class="metagrid"><div class="m"><span class="k">R1 score (with AI)</span><span class="v">2</span></div><div class="m"><span class="k">R2 score (no AI)</span><span class="v">1</span></div><div class="m"><span class="k">turns</span><span class="v">1</span></div><div class="m"><span class="k">age</span><span class="v">50</span></div><div class="m"><span class="k">self-rated skill</span><span class="v">3/5</span></div><div class="m"><span class="k">occupation</span><span class="v">it</span></div><div class="m"><span class="k">education</span><span class="v">bachelor&#x27;s</span></div><div class="m"><span class="k">GenAI use</span><span class="v">daily</span></div></div>
+        <div class="actline"><span class="chip chip-sm" style="--chip:#f59e0b">Solution Request</span></div>
+      </header>
+      <div class="turns">
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 1</span>
+            <span class="ts">15:17:13</span></div>
+          <div class="body"><p>which spot do you think is the optimum move</p></div>
+          <div class="acts"><span class="chip" style="--chip:#f59e0b" title="panel confidence 1.00">Solution Request</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">15:17:19</span></div>
+          <div class="body"><p>The optimum move is <strong>column 4</strong>.</p><p>Dropping Red in <strong>col 4, row 3</strong> is the key move: it builds your strongest attacking shape while avoiding giving Yellow an immediate better counter. With only 3 moves left, this is the move that keeps Red’s forced win alive.</p></div>
+        </div>
+      </div></div>
+    </section>
+    <section class="card struggler" data-group="struggler" data-turns="1"
+             data-search="p124 struggler common ground question what do you think about me dropping the first red circle in column 2 row 3?" id="p124">
+      <header class="card-head">
+        <div class="idline">
+          <span class="badge struggler">Struggler</span>
+          <span class="idx">#24</span>
+          <code class="pid">p124</code>
+        </div>
+        <div class="metagrid"><div class="m"><span class="k">R1 score (with AI)</span><span class="v">1</span></div><div class="m"><span class="k">R2 score (no AI)</span><span class="v">1</span></div><div class="m"><span class="k">turns</span><span class="v">1</span></div><div class="m"><span class="k">age</span><span class="v">36</span></div><div class="m"><span class="k">self-rated skill</span><span class="v">1/5</span></div><div class="m"><span class="k">occupation</span><span class="v">arts</span></div><div class="m"><span class="k">education</span><span class="v">high school</span></div><div class="m"><span class="k">GenAI use</span><span class="v">few×/week</span></div></div>
+        <div class="actline"><span class="chip chip-sm" style="--chip:#8b5cf6">Common Ground Question</span></div>
+      </header>
+      <div class="turns">
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 1</span>
+            <span class="ts">16:15:45</span></div>
+          <div class="body"><p>What do you think about me dropping the first red circle in column 2 row 3?</p></div>
+          <div class="acts"><span class="chip" style="--chip:#8b5cf6" title="panel confidence 1.00">Common Ground Question</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">16:16:05</span></div>
+          <div class="body"><p>Dropping in <strong>column 2</strong> would land at <strong>row 3</strong> and give you <strong>three Red vertically</strong> in column 2 — so it creates a clear threat to finish at <strong>column 2 row 4</strong> later.</p><p>But ask yourself: <strong>will Yellow be forced to block that, or can Yellow make a stronger threat first?</strong> Also compare it with moves that affect the <strong>center/column 4</strong>, where Yellow already has stacked pieces and lots of diagonal possibilities.</p><p>So: column 2 is a threat-building move, but check whether it’s <strong>too slow</strong> with only 3 moves left.</p></div>
+        </div>
+      </div></div>
+    </section>
+    <section class="card struggler" data-group="struggler" data-turns="1"
+             data-search="p295 struggler common ground question think aloud im thinking of 1:1 and 3:3, which one is better" id="p295">
+      <header class="card-head">
+        <div class="idline">
+          <span class="badge struggler">Struggler</span>
+          <span class="idx">#25</span>
+          <code class="pid">p295</code>
+        </div>
+        <div class="metagrid"><div class="m"><span class="k">R1 score (with AI)</span><span class="v">2</span></div><div class="m"><span class="k">R2 score (no AI)</span><span class="v">1</span></div><div class="m"><span class="k">turns</span><span class="v">1</span></div><div class="m"><span class="k">age</span><span class="v">38</span></div><div class="m"><span class="k">self-rated skill</span><span class="v">3/5</span></div><div class="m"><span class="k">occupation</span><span class="v">it</span></div><div class="m"><span class="k">education</span><span class="v">postgrad</span></div><div class="m"><span class="k">GenAI use</span><span class="v">daily</span></div></div>
+        <div class="actline"><span class="chip chip-sm" style="--chip:#8b5cf6">Common Ground Question</span><span class="chip chip-sm" style="--chip:#0ea5e9">Think Aloud</span></div>
+      </header>
+      <div class="turns">
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 1</span>
+            <span class="ts">13:13:48</span></div>
+          <div class="body"><p>Im thinking of 1:1 and 3:3, which one is better</p></div>
+          <div class="acts"><span class="chip chip-weak" style="--chip:#0ea5e9" title="panel confidence 0.67">Think Aloud</span><span class="chip" style="--chip:#8b5cf6" title="panel confidence 1.00">Common Ground Question</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">13:14:02</span></div>
+          <div class="body"><p>Between those two, I’d pause: <strong>neither 1 nor 3 looks like the best idea</strong>.</p><p>Ask yourself: what happens if Red plays <strong>column 4</strong>? It lands on row 3 and creates a stronger central threat structure than 1 or 3. Center moves often connect more diagonals/horizontals, and here column 4 is the key move to look at.</p></div>
+        </div>
+      </div></div>
+    </section>
+    <section class="card struggler" data-group="struggler" data-turns="1"
+             data-search="p670 struggler solution request analyze the current connect four board carefully. i am red and need to choose the best first three columns to keep red on track to force a win. please identify the strongest move now, explain the key threat it creates, and give the best follow-up columns after the opponent responds. use 1-indexed column numbers." id="p670">
+      <header class="card-head">
+        <div class="idline">
+          <span class="badge struggler">Struggler</span>
+          <span class="idx">#26</span>
+          <code class="pid">p670</code>
+        </div>
+        <div class="metagrid"><div class="m"><span class="k">R1 score (with AI)</span><span class="v">2</span></div><div class="m"><span class="k">R2 score (no AI)</span><span class="v">0</span></div><div class="m"><span class="k">turns</span><span class="v">1</span></div><div class="m"><span class="k">age</span><span class="v">25</span></div><div class="m"><span class="k">self-rated skill</span><span class="v">2/5</span></div><div class="m"><span class="k">occupation</span><span class="v">professional</span></div><div class="m"><span class="k">education</span><span class="v">postgrad</span></div><div class="m"><span class="k">GenAI use</span><span class="v">several times day</span></div></div>
+        <div class="actline"><span class="chip chip-sm" style="--chip:#f59e0b">Solution Request</span></div>
+      </header>
+      <div class="turns">
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 1</span>
+            <span class="ts">22:07:39</span></div>
+          <div class="body"><p>Analyze the current Connect Four board carefully. I am Red and need to choose the best first three columns to keep Red on track to force a win. Please identify the strongest move now, explain the key threat it creates, and give the best follow-up columns after the opponent responds. Use 1-indexed column numbers.</p></div>
+          <div class="acts"><span class="chip" style="--chip:#f59e0b" title="panel confidence 1.00">Solution Request</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">22:08:04</span></div>
+          <div class="body"><p>Strongest move now: <strong>column 4</strong>.</p><p>Key threat it creates: Red lands at <strong>4,3</strong>, linking with <strong>5,2</strong> and <strong>6,1</strong>. That sets up a diagonal win square at <strong>3,4</strong> — so column <strong>3</strong> becomes the critical follow-up column.</p><p>Best Red plan for the next three Red moves:</p><ol><li><strong>4</strong> now</li><li>Then look at Yellow’s reply:</li><li>If Yellow plays <strong>3</strong>, then Red should play <strong>3</strong> immediately to take <strong>3,4</strong> and complete the diagonal.</li><li>If Yellow does not play <strong>3</strong>, Red’s main follow-up idea is still through <strong>column 3</strong>.</li><li>So the key winning column sequence to keep in mind is: <strong>4 → 3 → 3</strong>.</li></ol></div>
+        </div>
+      </div></div>
+    </section>
+    <section class="card struggler" data-group="struggler" data-turns="2"
+             data-search="p363 struggler common ground question think aloud i like 2 - thoughts? but wouldn&#x27;t they have to block me or else i win? and then my next turn could be to do that" id="p363">
+      <header class="card-head">
+        <div class="idline">
+          <span class="badge struggler">Struggler</span>
+          <span class="idx">#27</span>
+          <code class="pid">p363</code>
+        </div>
+        <div class="metagrid"><div class="m"><span class="k">R1 score (with AI)</span><span class="v">1</span></div><div class="m"><span class="k">R2 score (no AI)</span><span class="v">0</span></div><div class="m"><span class="k">turns</span><span class="v">2</span></div><div class="m"><span class="k">age</span><span class="v">35</span></div><div class="m"><span class="k">self-rated skill</span><span class="v">2/5</span></div><div class="m"><span class="k">occupation</span><span class="v">healthcare</span></div><div class="m"><span class="k">education</span><span class="v">postgrad</span></div><div class="m"><span class="k">GenAI use</span><span class="v">few×/week</span></div></div>
+        <div class="actline"><span class="chip chip-sm" style="--chip:#8b5cf6">Common Ground Question</span><span class="chip chip-sm" style="--chip:#0ea5e9">Think Aloud</span></div>
+      </header>
+      <div class="turns">
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 1</span>
+            <span class="ts">16:25:19</span></div>
+          <div class="body"><p>I like 2 - thoughts?</p></div>
+          <div class="acts"><span class="chip" style="--chip:#8b5cf6" title="panel confidence 1.00">Common Ground Question</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">16:25:42</span></div>
+          <div class="body"><p>Column 2 is tempting because it gives you a vertical build in col 2 — but ask: <strong>does it create an immediate threat Yellow must answer, or is it “slow”?</strong></p><p>After Red plays 2, Yellow may have time to make/extend a more urgent central threat. I’d compare it with a move that uses the <strong>center columns</strong> and either blocks Yellow’s growth or creates a threat with tempo.</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 2</span>
+            <span class="ts">16:26:03</span></div>
+          <div class="body"><p>But wouldn&#x27;t they have to block me or else I win? And then my next turn could be to do that</p></div>
+          <div class="acts"><span class="chip" style="--chip:#0ea5e9" title="panel confidence 1.00">Think Aloud</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">16:26:19</span></div>
+          <div class="body"><p>Yes — if you play <strong>2</strong>, you make <strong>R at col2 rows 1-3</strong>, so Yellow would need to block at <strong>col2 row4</strong> or you win vertically.</p><p>The key question: after Yellow spends that block, does your “next turn could be to do that” create an <strong>unblockable/forced</strong> win, or just another single threat Yellow can answer? Also check the center: Yellow already has strength in <strong>col4</strong>, so tempo matters. What would happen if Red plays in <strong>col4</strong> instead?</p></div>
+        </div>
+      </div></div>
+    </section>
+    <section class="card struggler" data-group="struggler" data-turns="2"
+             data-search="p142 struggler knowledge deficit question solution request can i move the pieces from one place to another? how can i win?" id="p142">
+      <header class="card-head">
+        <div class="idline">
+          <span class="badge struggler">Struggler</span>
+          <span class="idx">#28</span>
+          <code class="pid">p142</code>
+        </div>
+        <div class="metagrid"><div class="m"><span class="k">R1 score (with AI)</span><span class="v">2</span></div><div class="m"><span class="k">R2 score (no AI)</span><span class="v">1</span></div><div class="m"><span class="k">turns</span><span class="v">2</span></div><div class="m"><span class="k">age</span><span class="v">46</span></div><div class="m"><span class="k">self-rated skill</span><span class="v">2/5</span></div><div class="m"><span class="k">occupation</span><span class="v">other</span></div><div class="m"><span class="k">education</span><span class="v">associate</span></div><div class="m"><span class="k">GenAI use</span><span class="v">few×/week</span></div></div>
+        <div class="actline"><span class="chip chip-sm" style="--chip:#d946ef">Knowledge Deficit Question</span><span class="chip chip-sm" style="--chip:#f59e0b">Solution Request</span></div>
+      </header>
+      <div class="turns">
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 1</span>
+            <span class="ts">21:12:40</span></div>
+          <div class="body"><p>Can I move the pieces from one place to another?</p></div>
+          <div class="acts"><span class="chip" style="--chip:#d946ef" title="panel confidence 1.00">Knowledge Deficit Question</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">21:12:42</span></div>
+          <div class="body"><p>No—once a disc is dropped, it stays in that column/row. On your turn you can only drop a new Red disc into one of the columns that isn’t full, and it falls to the lowest open spot.</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 2</span>
+            <span class="ts">21:14:16</span></div>
+          <div class="body"><p>how can i win?</p></div>
+          <div class="acts"><span class="chip" style="--chip:#f59e0b" title="panel confidence 1.00">Solution Request</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">21:14:26</span></div>
+          <div class="body"><p>To win, look for a move that creates a threat Yellow can’t stop next turn.</p><p>Quick scan here:</p><ul><li>Your vertical in column 2 is blocked by Yellow at row 4, so that won’t win.</li><li>Check for “3 in a row with an open playable spot” for Red.</li><li>Also make sure Yellow doesn’t have an immediate 3-in-a-row you must block.</li></ul><p>A good way to think: “If I drop here, what winning move do I threaten next?” Try one column mentally and see what Red line it creates.</p></div>
+        </div>
+      </div></div>
+    </section>
+    <section class="card struggler" data-group="struggler" data-turns="2"
+             data-search="p540 struggler common ground question solution request here column 4 is a must right what is the best play here to maximize odds of winning. i was thinking of column 3" id="p540">
+      <header class="card-head">
+        <div class="idline">
+          <span class="badge struggler">Struggler</span>
+          <span class="idx">#29</span>
+          <code class="pid">p540</code>
+        </div>
+        <div class="metagrid"><div class="m"><span class="k">R1 score (with AI)</span><span class="v">3</span></div><div class="m"><span class="k">R2 score (no AI)</span><span class="v">1</span></div><div class="m"><span class="k">turns</span><span class="v">2</span></div><div class="m"><span class="k">age</span><span class="v">32</span></div><div class="m"><span class="k">self-rated skill</span><span class="v">1/5</span></div><div class="m"><span class="k">occupation</span><span class="v">it</span></div><div class="m"><span class="k">education</span><span class="v">associate</span></div><div class="m"><span class="k">GenAI use</span><span class="v">few×/week</span></div></div>
+        <div class="actline"><span class="chip chip-sm" style="--chip:#8b5cf6">Common Ground Question</span><span class="chip chip-sm" style="--chip:#f59e0b">Solution Request</span></div>
+      </header>
+      <div class="turns">
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 1</span>
+            <span class="ts">00:25:57</span></div>
+          <div class="body"><p>Here column 4 is a must right</p></div>
+          <div class="acts"><span class="chip chip-weak" style="--chip:#8b5cf6" title="panel confidence 0.67">Common Ground Question</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">00:26:06</span></div>
+          <div class="body"><p>Yes — <strong>column 4 is the must-play</strong> here for Red.</p><p>It keeps your winning plan alive; other moves let Yellow neutralize or take over the key central threats. Drop in <strong>column 4</strong>.</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 2</span>
+            <span class="ts">00:26:50</span></div>
+          <div class="body"><p>What is the best play here to maximize odds of winning. I was thinking of column 3</p></div>
+          <div class="acts"><span class="chip" style="--chip:#8b5cf6" title="panel confidence 1.00">Common Ground Question</span><span class="chip" style="--chip:#f59e0b" title="panel confidence 1.00">Solution Request</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">00:26:53</span></div>
+          <div class="body"><p>Column 3 is tempting, but ask yourself: <strong>what immediate Yellow threats appear if you don’t address the center-right?</strong></p><p>Yellow already has strong material around <strong>c4/c5/c6 area?</strong> especially the diagonal/vertical possibilities involving <strong>column 5</strong>. The move that best preserves Red’s winning chances is <strong>column 5</strong>.</p><p>So I’d play <strong>5</strong>, not 3.</p></div>
+        </div>
+      </div></div>
+    </section>
+    <section class="card struggler" data-group="struggler" data-turns="2"
+             data-search="p482 struggler common ground question conversational acknowledgment solution request what do you think about placing red on 1,1 and 2,3? yes, yellow does. what else do you suggest?" id="p482">
+      <header class="card-head">
+        <div class="idline">
+          <span class="badge struggler">Struggler</span>
+          <span class="idx">#30</span>
+          <code class="pid">p482</code>
+        </div>
+        <div class="metagrid"><div class="m"><span class="k">R1 score (with AI)</span><span class="v">2</span></div><div class="m"><span class="k">R2 score (no AI)</span><span class="v">0</span></div><div class="m"><span class="k">turns</span><span class="v">2</span></div><div class="m"><span class="k">age</span><span class="v">74</span></div><div class="m"><span class="k">self-rated skill</span><span class="v">dont_know/5</span></div><div class="m"><span class="k">occupation</span><span class="v">arts</span></div><div class="m"><span class="k">education</span><span class="v">postgrad</span></div><div class="m"><span class="k">GenAI use</span><span class="v">&lt;monthly</span></div></div>
+        <div class="actline"><span class="chip chip-sm" style="--chip:#8b5cf6">Common Ground Question</span><span class="chip chip-sm" style="--chip:#64748b">Conversational Acknowledgment</span><span class="chip chip-sm" style="--chip:#f59e0b">Solution Request</span></div>
+      </header>
+      <div class="turns">
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 1</span>
+            <span class="ts">21:10:07</span></div>
+          <div class="body"><p>What do you think about placing red on 1,1 and 2,3?</p></div>
+          <div class="acts"><span class="chip" style="--chip:#8b5cf6" title="panel confidence 1.00">Common Ground Question</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">21:10:15</span></div>
+          <div class="body"><p>Both are <strong>legal</strong> moves:</p><ul><li><strong>Column 1</strong> lands at <strong>(1,1)</strong>. It extends your bottom row with R at (2,1)(3,1), but Yellow blocks that line at <strong>(4,1)</strong>, so it’s not a direct threat.</li><li><strong>Column 2</strong> lands at <strong>(2,3)</strong>. That makes a vertical stack of three in column 2, threatening <strong>(2,4)</strong> next turn — but Yellow may be able to block it.</li></ul><p>Quick question to test them: after either move, <strong>does Yellow have an immediate dangerous reply in the center columns?</strong> That’s the key thing to check before choosing.</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 2</span>
+            <span class="ts">21:11:40</span></div>
+          <div class="body"><p>Yes, yellow does. What else do you suggest?</p></div>
+          <div class="acts"><span class="chip" style="--chip:#64748b" title="panel confidence 1.00">Conversational Acknowledgment</span><span class="chip" style="--chip:#f59e0b" title="panel confidence 1.00">Solution Request</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">21:11:45</span></div>
+          <div class="body"><p>I’d look closely at <strong>column 4</strong>.</p><p>Why: Yellow already has strength through the center, and a Red move in <strong>column 4</strong> lands at <strong>(4,3)</strong>, which helps contest those central diagonal/horizontal lines instead of making a threat Yellow can simply answer.</p><p>Before choosing, ask: “If I don’t play column 4, what Yellow move becomes dangerous next?”</p></div>
+        </div>
+      </div></div>
+    </section>
+    <section class="card struggler" data-group="struggler" data-turns="2"
+             data-search="p829 struggler solution request think aloud what do you think is the best move? i&#x27;m thinking column 1 to build up a diagonal. then if yellow plays on column 4 it actually helps me finish the diagonal" id="p829">
+      <header class="card-head">
+        <div class="idline">
+          <span class="badge struggler">Struggler</span>
+          <span class="idx">#31</span>
+          <code class="pid">p829</code>
+        </div>
+        <div class="metagrid"><div class="m"><span class="k">R1 score (with AI)</span><span class="v">1</span></div><div class="m"><span class="k">R2 score (no AI)</span><span class="v">1</span></div><div class="m"><span class="k">turns</span><span class="v">2</span></div><div class="m"><span class="k">age</span><span class="v">29</span></div><div class="m"><span class="k">self-rated skill</span><span class="v">2/5</span></div><div class="m"><span class="k">occupation</span><span class="v">professional</span></div><div class="m"><span class="k">education</span><span class="v">postgrad</span></div><div class="m"><span class="k">GenAI use</span><span class="v">few×/week</span></div></div>
+        <div class="actline"><span class="chip chip-sm" style="--chip:#f59e0b">Solution Request</span><span class="chip chip-sm" style="--chip:#0ea5e9">Think Aloud</span></div>
+      </header>
+      <div class="turns">
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 1</span>
+            <span class="ts">21:44:33</span></div>
+          <div class="body"><p>What do you think is the best move?</p></div>
+          <div class="acts"><span class="chip" style="--chip:#f59e0b" title="panel confidence 1.00">Solution Request</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">21:44:38</span></div>
+          <div class="body"><p>Best move: <strong>Column 4</strong>.</p><p>Why: Yellow already has <strong>two stacked in column 4</strong> at rows 1–2, so if Red doesn’t play there, Yellow may build a dangerous vertical threat. Dropping Red in <strong>column 4, row 3</strong> blocks that and keeps Red’s winning chances alive.</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 2</span>
+            <span class="ts">21:45:31</span></div>
+          <div class="body"><p>I&#x27;m thinking column 1 to build up a diagonal. Then if yellow plays on column 4 it actually helps me finish the diagonal</p></div>
+          <div class="acts"><span class="chip" style="--chip:#0ea5e9" title="panel confidence 1.00">Think Aloud</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">21:45:36</span></div>
+          <div class="body"><p>Column 1 does start a diagonal idea: <strong>c1-r1, c2-r2</strong>, then you’d need <strong>c3-r3 and c4-r4</strong>.</p><p>But if Yellow plays column 4, it lands at <strong>c4-r3</strong>, not c4-r4 — so it <strong>doesn’t help that diagonal</strong>. Also, Yellow already has <strong>c4-r1 and c4-r2</strong>, so leaving column 4 open gives Yellow a strong vertical build.</p></div>
+        </div>
+      </div></div>
+    </section>
+    <section class="card struggler" data-group="struggler" data-turns="2"
+             data-search="p379 struggler common ground question solution request think aloud im considering placing my next red at 3,3. thoughts? where is the optimal move now?" id="p379">
+      <header class="card-head">
+        <div class="idline">
+          <span class="badge struggler">Struggler</span>
+          <span class="idx">#32</span>
+          <code class="pid">p379</code>
+        </div>
+        <div class="metagrid"><div class="m"><span class="k">R1 score (with AI)</span><span class="v">3</span></div><div class="m"><span class="k">R2 score (no AI)</span><span class="v">0</span></div><div class="m"><span class="k">turns</span><span class="v">2</span></div><div class="m"><span class="k">age</span><span class="v">35</span></div><div class="m"><span class="k">self-rated skill</span><span class="v">2/5</span></div><div class="m"><span class="k">occupation</span><span class="v">healthcare</span></div><div class="m"><span class="k">education</span><span class="v">bachelor&#x27;s</span></div><div class="m"><span class="k">GenAI use</span><span class="v">few×/week</span></div></div>
+        <div class="actline"><span class="chip chip-sm" style="--chip:#8b5cf6">Common Ground Question</span><span class="chip chip-sm" style="--chip:#f59e0b">Solution Request</span><span class="chip chip-sm" style="--chip:#0ea5e9">Think Aloud</span></div>
+      </header>
+      <div class="turns">
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 1</span>
+            <span class="ts">16:29:13</span></div>
+          <div class="body"><p>im considering placing my next red at 3,3. thoughts?</p></div>
+          <div class="acts"><span class="chip" style="--chip:#0ea5e9" title="panel confidence 1.00">Think Aloud</span><span class="chip" style="--chip:#8b5cf6" title="panel confidence 1.00">Common Ground Question</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">16:29:31</span></div>
+          <div class="body"><p>3,3 is legal, but ask yourself:</p><ul><li>What threat does it create for Red? It starts a diagonal with 2,2–3,3, but the next squares like 4,4/5,5 aren’t immediately playable yet.</li><li>What does it leave for Yellow? Column 4 has Yellow already at 4,1 and 4,2, so if you don’t address it, Yellow may strengthen a central vertical threat at 4,3.</li></ul><p>So I’d compare 3,3 against a move that deals with Yellow’s column-4 pressure. What winning threat would Red have after 3,3?</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 2</span>
+            <span class="ts">16:30:38</span></div>
+          <div class="body"><p>where is the optimal move now?</p></div>
+          <div class="acts"><span class="chip" style="--chip:#f59e0b" title="panel confidence 1.00">Solution Request</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">16:30:47</span></div>
+          <div class="body"><p>Optimal move: <strong>column 5</strong> — your Red lands at <strong>5,4</strong>.</p><p>Why: it keeps your strongest forced-win chances alive while also adding pressure next to your Red at <strong>4,4</strong>. Other moves let Yellow more easily neutralize your threats.</p></div>
+        </div>
+      </div></div>
+    </section>
+    <section class="card struggler" data-group="struggler" data-turns="3"
+             data-search="p548 struggler conversational acknowledgment knowledge deficit question think aloud i think my last move opens me up to multiple different options that i cannot be blocked out of yes. is it my turn again? it worked. i was able to connect 4 based on that" id="p548">
+      <header class="card-head">
+        <div class="idline">
+          <span class="badge struggler">Struggler</span>
+          <span class="idx">#33</span>
+          <code class="pid">p548</code>
+        </div>
+        <div class="metagrid"><div class="m"><span class="k">R1 score (with AI)</span><span class="v">2</span></div><div class="m"><span class="k">R2 score (no AI)</span><span class="v">1</span></div><div class="m"><span class="k">turns</span><span class="v">3</span></div><div class="m"><span class="k">age</span><span class="v">45</span></div><div class="m"><span class="k">self-rated skill</span><span class="v">2/5</span></div><div class="m"><span class="k">occupation</span><span class="v">other</span></div><div class="m"><span class="k">education</span><span class="v">postgrad</span></div><div class="m"><span class="k">GenAI use</span><span class="v">daily</span></div></div>
+        <div class="actline"><span class="chip chip-sm" style="--chip:#64748b">Conversational Acknowledgment</span><span class="chip chip-sm" style="--chip:#d946ef">Knowledge Deficit Question</span><span class="chip chip-sm" style="--chip:#0ea5e9">Think Aloud</span></div>
+      </header>
+      <div class="turns">
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 1</span>
+            <span class="ts">21:53:55</span></div>
+          <div class="body"><p>I think my last move opens me up to multiple different options that I cannot be blocked out of</p></div>
+          <div class="acts"><span class="chip" style="--chip:#0ea5e9" title="panel confidence 1.00">Think Aloud</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">21:53:59</span></div>
+          <div class="body"><p>Good instinct: you’re looking for a <strong>fork/double threat</strong>—a move that creates two winning spots so Yellow can only block one.</p><p>Before choosing, check two things:</p><ol><li><strong>Are the “winning spots” actually playable next turn?</strong></li></ol><p>   Because of gravity, a threat only matters if the empty square has support underneath.</p><ol><li><strong>Does Yellow have an immediate threat you must answer first?</strong></li></ol><p>   Look especially at Yellow’s connected groups around columns 4–6.</p><p>Try naming the two Red winning lines you think your last move created: which columns would Red be threatening to finish in?</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 2</span>
+            <span class="ts">21:54:15</span></div>
+          <div class="body"><p>yes. is it my turn again?</p></div>
+          <div class="acts"><span class="chip" style="--chip:#64748b" title="panel confidence 1.00">Conversational Acknowledgment</span><span class="chip chip-weak" style="--chip:#d946ef" title="panel confidence 0.67">Knowledge Deficit Question</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">21:54:18</span></div>
+          <div class="body"><p>Yes — it’s Red’s turn now.</p><p>Before moving, quickly check: does Yellow have any immediate 3-in-a-row threat you must block, or can you make your own forcing threat?</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 3</span>
+            <span class="ts">21:54:44</span></div>
+          <div class="body"><p>it worked. I was able to connect 4 based on that</p></div>
+          <div class="acts"><span class="chip" style="--chip:#0ea5e9" title="panel confidence 1.00">Think Aloud</span><span class="chip chip-weak" style="--chip:#64748b" title="panel confidence 0.67">Conversational Acknowledgment</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">21:54:45</span></div>
+          <div class="body"><p>Nice — yes, I see Red has a diagonal 4: <strong>column 2 row 1 → column 3 row 2 → column 4 row 3 → column 5 row 4</strong>. That’s the connection you were setting up.</p><p>Well spotted: your earlier move created a threat Yellow couldn’t fully cover.</p></div>
+        </div>
+      </div></div>
+    </section>
+    <section class="card struggler" data-group="struggler" data-turns="3"
+             data-search="p581 struggler conversational acknowledgment metacomment solution request think aloud i need to win in 2 moves i can&#x27;t see a way to do it? didn&#x27;t help ok last move how do i win" id="p581">
+      <header class="card-head">
+        <div class="idline">
+          <span class="badge struggler">Struggler</span>
+          <span class="idx">#34</span>
+          <code class="pid">p581</code>
+        </div>
+        <div class="metagrid"><div class="m"><span class="k">R1 score (with AI)</span><span class="v">2</span></div><div class="m"><span class="k">R2 score (no AI)</span><span class="v">0</span></div><div class="m"><span class="k">turns</span><span class="v">3</span></div><div class="m"><span class="k">age</span><span class="v">56</span></div><div class="m"><span class="k">self-rated skill</span><span class="v">3/5</span></div><div class="m"><span class="k">occupation</span><span class="v">it</span></div><div class="m"><span class="k">education</span><span class="v">bachelor&#x27;s</span></div><div class="m"><span class="k">GenAI use</span><span class="v">daily</span></div></div>
+        <div class="actline"><span class="chip chip-sm" style="--chip:#64748b">Conversational Acknowledgment</span><span class="chip chip-sm" style="--chip:#94a3b8">Metacomment</span><span class="chip chip-sm" style="--chip:#f59e0b">Solution Request</span><span class="chip chip-sm" style="--chip:#0ea5e9">Think Aloud</span></div>
+      </header>
+      <div class="turns">
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 1</span>
+            <span class="ts">22:00:41</span></div>
+          <div class="body"><p>I need to win in 2 moves I can&#x27;t see a way to do it?</p></div>
+          <div class="acts"><span class="chip" style="--chip:#0ea5e9" title="panel confidence 1.00">Think Aloud</span><span class="chip" style="--chip:#f59e0b" title="panel confidence 1.00">Solution Request</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">22:00:49</span></div>
+          <div class="body"><p>Look for a move that <strong>creates an immediate threat Yellow cannot ignore next turn</strong>.</p><p>Hint: focus on the <strong>middle column area</strong>, especially how a Red disc could sit <strong>above your Red at column 4, row 3</strong> and connect with diagonals/horizontal threats. Ask yourself:</p><ul><li>If I play in a column, where does the disc land?</li><li>Does that create a “must-block” threat for Yellow?</li><li>After Yellow blocks, do I still have the final winning move?</li></ul></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 2</span>
+            <span class="ts">22:01:28</span></div>
+          <div class="body"><p>Didn&#x27;t help</p></div>
+          <div class="acts"><span class="chip chip-weak" style="--chip:#64748b" title="panel confidence 0.67">Conversational Acknowledgment</span><span class="chip chip-weak" style="--chip:#94a3b8" title="panel confidence 0.67">Metacomment</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">22:01:44</span></div>
+          <div class="body"><p>Fair — clearer hint:</p><p>Check <strong>column 4</strong>: if Red drops there, it lands at <strong>c4 row4</strong>, directly above your Red at <strong>c4 row3</strong>.</p><p>Then ask: after that move, what threat does Yellow <em>have</em> to respond to, and what Red square becomes playable because of Yellow’s response?</p><p>If you want, I can just tell you the move.</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 3</span>
+            <span class="ts">22:02:15</span></div>
+          <div class="body"><p>Ok last move how do I win</p></div>
+          <div class="acts"><span class="chip" style="--chip:#64748b" title="panel confidence 1.00">Conversational Acknowledgment</span><span class="chip" style="--chip:#f59e0b" title="panel confidence 1.00">Solution Request</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">22:02:22</span></div>
+          <div class="body"><p>Play <strong>column 5</strong>.</p><p>Your disc lands at <strong>c5 row4</strong>, building off your Red at <strong>c4 row4</strong> and preserving the winning threat pattern.</p></div>
+        </div>
+      </div></div>
+    </section>
+    <section class="card struggler" data-group="struggler" data-turns="3"
+             data-search="p633 struggler solution request analyze the current board and tell me the best sequence of my next three moves for red. please list only the column numbers in order and briefly explain why they are optimal. given yellow&#x27;s last move, what is now the best second move for red? reply with only the column number. given yellow&#x27;s latest move, what is now the best second move for red? reply with only the column number." id="p633">
+      <header class="card-head">
+        <div class="idline">
+          <span class="badge struggler">Struggler</span>
+          <span class="idx">#35</span>
+          <code class="pid">p633</code>
+        </div>
+        <div class="metagrid"><div class="m"><span class="k">R1 score (with AI)</span><span class="v">3</span></div><div class="m"><span class="k">R2 score (no AI)</span><span class="v">1</span></div><div class="m"><span class="k">turns</span><span class="v">3</span></div><div class="m"><span class="k">age</span><span class="v">22</span></div><div class="m"><span class="k">self-rated skill</span><span class="v">3/5</span></div><div class="m"><span class="k">occupation</span><span class="v">it</span></div><div class="m"><span class="k">education</span><span class="v">bachelor&#x27;s</span></div><div class="m"><span class="k">GenAI use</span><span class="v">several times day</span></div></div>
+        <div class="actline"><span class="chip chip-sm" style="--chip:#f59e0b">Solution Request</span></div>
+      </header>
+      <div class="turns">
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 1</span>
+            <span class="ts">16:16:50</span></div>
+          <div class="body"><p>Analyze the current board and tell me the best sequence of my next three moves for Red. Please list only the column numbers in order and briefly explain why they are optimal.</p></div>
+          <div class="acts"><span class="chip" style="--chip:#f59e0b" title="panel confidence 1.00">Solution Request</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">16:17:07</span></div>
+          <div class="body"><p>4, then depends on Yellow’s replies.</p><p>Column 4 is optimal because it’s the only move that preserves Red’s forced win: it builds a central threat while preventing Yellow from taking control of that column. Your next two Red moves should be chosen based on which immediate threat Yellow blocks or creates.</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 2</span>
+            <span class="ts">16:18:25</span></div>
+          <div class="body"><p>Given Yellow&#x27;s last move, what is now the best second move for Red? Reply with only the column number.</p></div>
+          <div class="acts"><span class="chip" style="--chip:#f59e0b" title="panel confidence 1.00">Solution Request</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">16:18:28</span></div>
+          <div class="body"><p>4</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 3</span>
+            <span class="ts">16:19:11</span></div>
+          <div class="body"><p>Given Yellow&#x27;s latest move, what is now the best second move for Red? Reply with only the column number.</p></div>
+          <div class="acts"><span class="chip" style="--chip:#f59e0b" title="panel confidence 1.00">Solution Request</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">16:19:13</span></div>
+          <div class="body"><p>5</p></div>
+        </div>
+      </div></div>
+    </section>
+    <section class="card struggler" data-group="struggler" data-turns="4"
+             data-search="p149 struggler common ground question knowledge deficit question solution request please recommend my best move and tell me why. also please give me hints on best starting position. where should i play next? i&#x27;m thinking column 3 but i&#x27;m wary of falling into a trap. if i&#x27;m red do i play first. what should my move be if my opponent goes first and picks column 4 where should i play next" id="p149">
+      <header class="card-head">
+        <div class="idline">
+          <span class="badge struggler">Struggler</span>
+          <span class="idx">#36</span>
+          <code class="pid">p149</code>
+        </div>
+        <div class="metagrid"><div class="m"><span class="k">R1 score (with AI)</span><span class="v">3</span></div><div class="m"><span class="k">R2 score (no AI)</span><span class="v">0</span></div><div class="m"><span class="k">turns</span><span class="v">4</span></div><div class="m"><span class="k">age</span><span class="v">49</span></div><div class="m"><span class="k">self-rated skill</span><span class="v">1/5</span></div><div class="m"><span class="k">occupation</span><span class="v">hospitality</span></div><div class="m"><span class="k">education</span><span class="v">bachelor&#x27;s</span></div><div class="m"><span class="k">GenAI use</span><span class="v">few×/week</span></div></div>
+        <div class="actline"><span class="chip chip-sm" style="--chip:#8b5cf6">Common Ground Question</span><span class="chip chip-sm" style="--chip:#d946ef">Knowledge Deficit Question</span><span class="chip chip-sm" style="--chip:#f59e0b">Solution Request</span></div>
+      </header>
+      <div class="turns">
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 1</span>
+            <span class="ts">20:00:45</span></div>
+          <div class="body"><p>Please recommend my best move and tell me why. Also please give me hints on best starting position.</p></div>
+          <div class="acts"><span class="chip" style="--chip:#f59e0b" title="panel confidence 1.00">Solution Request</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">20:00:58</span></div>
+          <div class="body"><p>Best move: <strong>Column 4</strong>.</p><p>Why:</p><ul><li>Column 4 is a key central square, and playing there lands your Red disc at <strong>row 3</strong>.</li><li>It also stops Yellow from taking that important column and building a dangerous vertical/central threat.</li><li>After Red plays column 4, you create a useful diagonal shape with <strong>c4-r3, c5-r2, c6-r1</strong>, giving you future attacking chances.</li></ul><p>Starting-position hint:</p><ul><li>In Connect Four, the best opening is usually <strong>column 4</strong>, the center.</li><li>Center discs participate in the most possible 4-in-a-rows: horizontal, vertical, and both diagonals.</li><li>After that, try to build near the center in columns <strong>3, 4, and 5</strong>, while watching for opponent threats you must block.</li></ul></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 2</span>
+            <span class="ts">20:03:23</span></div>
+          <div class="body"><p>Where should I play next? I&#x27;m thinking column 3 but I&#x27;m wary of falling into a trap.</p></div>
+          <div class="acts"><span class="chip" style="--chip:#8b5cf6" title="panel confidence 1.00">Common Ground Question</span><span class="chip" style="--chip:#f59e0b" title="panel confidence 1.00">Solution Request</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">20:03:28</span></div>
+          <div class="body"><p>Play <strong>column 4</strong>.</p><p>Why:</p><ul><li>It lands at <strong>c4–r4</strong>, directly above your Red at <strong>c4–r3</strong>, strengthening the center.</li><li>More importantly, it keeps your attack alive; <strong>column 3 looks tempting</strong>, but it lets Yellow take the key central height in column 4 and may turn the initiative back to them.</li><li>Center control matters here because many diagonals/horizontals run through <strong>column 4</strong>.</li></ul><p>Starting-position reminder: best openings usually begin in <strong>column 4</strong>, then build around <strong>3–5</strong> while checking for immediate Yellow threats.</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 3</span>
+            <span class="ts">20:04:26</span></div>
+          <div class="body"><p>If I&#x27;m red do I play first. What should my move be if my opponent goes first and picks column 4</p></div>
+          <div class="acts"><span class="chip" style="--chip:#d946ef" title="panel confidence 1.00">Knowledge Deficit Question</span><span class="chip" style="--chip:#f59e0b" title="panel confidence 1.00">Solution Request</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">20:04:29</span></div>
+          <div class="body"><p>Yes—<strong>in standard Connect Four, Red plays first</strong>. If your opponent goes first and takes <strong>column 4</strong>, a good reply is usually <strong>column 3 or 5</strong> to contest the center.</p><p>For the <strong>current board</strong>, your move should be <strong>column 4</strong>.</p><p>Why: it stacks at <strong>c4-r4</strong>, building on your Red at <strong>c4-r3</strong>, and it keeps your strongest central/diagonal chances alive while preventing Yellow from taking that key square.</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 4</span>
+            <span class="ts">20:07:22</span></div>
+          <div class="body"><p>Where should I play next</p></div>
+          <div class="acts"><span class="chip" style="--chip:#f59e0b" title="panel confidence 1.00">Solution Request</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">20:07:30</span></div>
+          <div class="body"><p>Play <strong>column 5</strong>.</p><p>Why: your disc lands at <strong>c5-r4</strong>, joining your Red at <strong>c4-r4</strong> and keeping your central row-4 attack alive. It’s also the move that avoids letting Yellow seize the key tempo/trap in the center.</p></div>
+        </div>
+      </div></div>
+    </section>
+    <section class="card struggler" data-group="struggler" data-turns="4"
+             data-search="p513 struggler common ground question knowledge deficit question solution request should i aim for three in a row vertically, in the second column? what should my next move be? i have one move left. how should i use it? does &quot;c5&quot; mean &quot;column 5?&quot;" id="p513">
+      <header class="card-head">
+        <div class="idline">
+          <span class="badge struggler">Struggler</span>
+          <span class="idx">#37</span>
+          <code class="pid">p513</code>
+        </div>
+        <div class="metagrid"><div class="m"><span class="k">R1 score (with AI)</span><span class="v">3</span></div><div class="m"><span class="k">R2 score (no AI)</span><span class="v">0</span></div><div class="m"><span class="k">turns</span><span class="v">4</span></div><div class="m"><span class="k">age</span><span class="v">47</span></div><div class="m"><span class="k">self-rated skill</span><span class="v">1/5</span></div><div class="m"><span class="k">occupation</span><span class="v">other</span></div><div class="m"><span class="k">education</span><span class="v">postgrad</span></div><div class="m"><span class="k">GenAI use</span><span class="v">few×/month</span></div></div>
+        <div class="actline"><span class="chip chip-sm" style="--chip:#8b5cf6">Common Ground Question</span><span class="chip chip-sm" style="--chip:#d946ef">Knowledge Deficit Question</span><span class="chip chip-sm" style="--chip:#f59e0b">Solution Request</span></div>
+      </header>
+      <div class="turns">
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 1</span>
+            <span class="ts">13:08:01</span></div>
+          <div class="body"><p>Should I aim for three in a row vertically, in the second column?</p></div>
+          <div class="acts"><span class="chip" style="--chip:#8b5cf6" title="panel confidence 1.00">Common Ground Question</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">13:08:10</span></div>
+          <div class="body"><p>A vertical three in column 2 is an idea, but ask: <strong>does it force Yellow to respond right away?</strong></p><p>If you play column 2, Red would have R at rows 1–3 there, but the winning square would be <strong>column 2 row 4</strong>, so Yellow may have time to make a threat elsewhere.</p><p>Also notice Yellow already has <strong>two stacked in column 4</strong>; if Yellow gets to play there, that can become dangerous. So compare column 2 with moves that <strong>block or create a more forcing threat</strong>.</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 2</span>
+            <span class="ts">13:08:58</span></div>
+          <div class="body"><p>What should my next move be?</p></div>
+          <div class="acts"><span class="chip" style="--chip:#f59e0b" title="panel confidence 1.00">Solution Request</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">13:09:01</span></div>
+          <div class="body"><p>Play <strong>column 4</strong>.</p><p>That puts Red at <strong>c4 row 4</strong>, making a vertical threat: Red would then have <strong>c4 rows 3–4</strong>, with support below, and it also helps control the center. Most importantly, it prevents Yellow from gaining too much central pressure there.</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 3</span>
+            <span class="ts">13:09:56</span></div>
+          <div class="body"><p>I have one move left. How should I use it?</p></div>
+          <div class="acts"><span class="chip" style="--chip:#f59e0b" title="panel confidence 1.00">Solution Request</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">13:10:02</span></div>
+          <div class="body"><p>Use your last move in <strong>column 5</strong>.</p><p>That lands at <strong>c5 row 4</strong>, which is the key square to keep Red’s winning chances alive and also interferes with Yellow’s diagonal ideas around <strong>c7–c6–c5–c4</strong>.</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 4</span>
+            <span class="ts">13:10:34</span></div>
+          <div class="body"><p>Does &quot;c5&quot; mean &quot;column 5?&quot;</p></div>
+          <div class="acts"><span class="chip" style="--chip:#d946ef" title="panel confidence 1.00">Knowledge Deficit Question</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">13:10:36</span></div>
+          <div class="body"><p>Yes — <strong>“c5” means column 5</strong>.</p><p>So use your last move in <strong>column 5</strong>; it will land in <strong>row 4</strong>.</p></div>
+        </div>
+      </div></div>
+    </section>
+    <section class="card struggler" data-group="struggler" data-turns="5"
+             data-search="p538 struggler common ground question knowledge deficit question think aloud i think my move was a bad one? i blocked the ywllow, i don&#x27;t think red can win from here was that a good move? how do i make yellow respond to a threat? so i make moves to force yellow to make the move i want them to make?" id="p538">
+      <header class="card-head">
+        <div class="idline">
+          <span class="badge struggler">Struggler</span>
+          <span class="idx">#38</span>
+          <code class="pid">p538</code>
+        </div>
+        <div class="metagrid"><div class="m"><span class="k">R1 score (with AI)</span><span class="v">2</span></div><div class="m"><span class="k">R2 score (no AI)</span><span class="v">1</span></div><div class="m"><span class="k">turns</span><span class="v">5</span></div><div class="m"><span class="k">age</span><span class="v">57</span></div><div class="m"><span class="k">self-rated skill</span><span class="v">2/5</span></div><div class="m"><span class="k">occupation</span><span class="v">education</span></div><div class="m"><span class="k">education</span><span class="v">postgrad</span></div><div class="m"><span class="k">GenAI use</span><span class="v">few×/week</span></div></div>
+        <div class="actline"><span class="chip chip-sm" style="--chip:#8b5cf6">Common Ground Question</span><span class="chip chip-sm" style="--chip:#d946ef">Knowledge Deficit Question</span><span class="chip chip-sm" style="--chip:#0ea5e9">Think Aloud</span></div>
+      </header>
+      <div class="turns">
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 1</span>
+            <span class="ts">13:56:43</span></div>
+          <div class="body"><p>I think my move was a bad one?</p></div>
+          <div class="acts"><span class="chip chip-weak" style="--chip:#0ea5e9" title="panel confidence 0.67">Think Aloud</span><span class="chip chip-weak" style="--chip:#8b5cf6" title="panel confidence 0.67">Common Ground Question</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">13:56:56</span></div>
+          <div class="body"><p>Maybe—but the key question is: <strong>did your move leave Yellow an immediate win, or did it still preserve a forcing threat for Red?</strong></p><p>From this position, Red still has a way to keep the win. Try checking:</p><ul><li>Does Yellow have any <strong>3-in-a-row with an open landing spot</strong> you must block now?</li><li>Can Red make a move that creates a threat Yellow can’t fully answer?</li><li>Pay close attention to the <strong>central columns</strong>, since moves there often affect multiple diagonals/verticals at once.</li></ul><p>What move were you worried about making?</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 2</span>
+            <span class="ts">13:57:36</span></div>
+          <div class="body"><p>I blocked the ywllow, I don&#x27;t think red can win from here</p></div>
+          <div class="acts"><span class="chip" style="--chip:#0ea5e9" title="panel confidence 1.00">Think Aloud</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">13:57:43</span></div>
+          <div class="body"><p>I don’t think it’s hopeless for Red here. Your block may have been necessary, but now look for a move that does <strong>more than block</strong>—one that creates a Red threat Yellow can’t answer comfortably.</p><p>Try asking yourself:</p><ul><li>Which columns can Red legally land in <strong>right now</strong>?</li><li>Is there a move that makes a new Red line involving the existing Red discs at <strong>column 4 rows 3–4</strong> and <strong>column 6 row 3</strong>?</li><li>If Red plays there, what would Yellow be forced to deal with next?</li></ul><p>So don’t give up yet—there is still a strong move to find.</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 3</span>
+            <span class="ts">13:58:45</span></div>
+          <div class="body"><p>was that a good move?</p></div>
+          <div class="acts"><span class="chip" style="--chip:#8b5cf6" title="panel confidence 1.00">Common Ground Question</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">13:58:57</span></div>
+          <div class="body"><p>Yes — <strong>blocking Yellow was a sensible move</strong>, because you don’t want to allow an immediate 4.</p><p>From the current board, Red should now look for a move that creates pressure in the center. The key area is:</p><ul><li><strong>Column 4</strong>: Red already has discs at <strong>c4 r3 and c4 r4</strong>, so adding there builds a vertical threat.</li><li><strong>Column 5</strong>: also contests the center and helps limit Yellow’s options.</li></ul><p>So your block kept you in the game; now the goal is to make Yellow respond to <strong>your</strong> threat.</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 4</span>
+            <span class="ts">13:59:39</span></div>
+          <div class="body"><p>how do I make yellow respond to a threat?</p></div>
+          <div class="acts"><span class="chip chip-weak" style="--chip:#d946ef" title="panel confidence 0.67">Knowledge Deficit Question</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">13:59:43</span></div>
+          <div class="body"><p>You make Yellow respond by creating an <strong>immediate threat</strong>: a move that would give Red 4-in-a-row next turn unless Yellow blocks it.</p><p>Here, look at the center:</p><ul><li>Red has <strong>c4 r3 + c4 r4</strong> stacked.</li><li>If Red can add in <strong>column 4</strong>, that builds a strong vertical threat in the middle.</li><li>Also check <strong>column 5</strong>, because it affects Yellow’s central diagonal/horizontal ideas.</li></ul><p>So ask: “If I play in this column, what exact square must Yellow block next?”<br>A good threat is one where Yellow’s reply is forced, not optional.</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 5</span>
+            <span class="ts">14:00:36</span></div>
+          <div class="body"><p>so I make moves to force yellow to make the move I want them to make?</p></div>
+          <div class="acts"><span class="chip chip-weak" style="--chip:#0ea5e9" title="panel confidence 0.67">Think Aloud</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">14:00:41</span></div>
+          <div class="body"><p>Yes — exactly. You try to create <strong>forcing moves</strong>: moves where Yellow <em>must</em> respond to your threat, otherwise you win next turn.</p><p>On this board, Red should look at the <strong>center</strong>, especially <strong>columns 4 and 5</strong>:</p><ul><li>In <strong>column 4</strong>, Red has a vertical stack at <strong>r3–r4</strong>, so playing there can build a serious vertical threat.</li><li>In <strong>column 5</strong>, Red can also affect the central diagonals/horizontals and limit Yellow’s counterplay.</li></ul><p>A good question before moving is:<br><strong>“If I play here, what 4-in-a-row am I threatening next turn, and can Yellow ignore it?”</strong></p></div>
+        </div>
+      </div></div>
+    </section>
+    <section class="card struggler" data-group="struggler" data-turns="6"
+             data-search="p706 struggler common ground question conversational acknowledgment solution request think aloud where do you think is the best move i was thinking column 2 okay good point i played your move, where next? would you go column 2 now? okay makes sense, i&#x27;ll try there" id="p706">
+      <header class="card-head">
+        <div class="idline">
+          <span class="badge struggler">Struggler</span>
+          <span class="idx">#39</span>
+          <code class="pid">p706</code>
+        </div>
+        <div class="metagrid"><div class="m"><span class="k">R1 score (with AI)</span><span class="v">3</span></div><div class="m"><span class="k">R2 score (no AI)</span><span class="v">1</span></div><div class="m"><span class="k">turns</span><span class="v">6</span></div><div class="m"><span class="k">age</span><span class="v">42</span></div><div class="m"><span class="k">self-rated skill</span><span class="v">2/5</span></div><div class="m"><span class="k">occupation</span><span class="v">professional</span></div><div class="m"><span class="k">education</span><span class="v">postgrad</span></div><div class="m"><span class="k">GenAI use</span><span class="v">&lt;monthly</span></div></div>
+        <div class="actline"><span class="chip chip-sm" style="--chip:#8b5cf6">Common Ground Question</span><span class="chip chip-sm" style="--chip:#64748b">Conversational Acknowledgment</span><span class="chip chip-sm" style="--chip:#f59e0b">Solution Request</span><span class="chip chip-sm" style="--chip:#0ea5e9">Think Aloud</span></div>
+      </header>
+      <div class="turns">
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 1</span>
+            <span class="ts">13:17:14</span></div>
+          <div class="body"><p>where do you think is the best move</p></div>
+          <div class="acts"><span class="chip" style="--chip:#f59e0b" title="panel confidence 1.00">Solution Request</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">13:17:21</span></div>
+          <div class="body"><p>Best move: <strong>column 4</strong>.</p><p>It drops Red into <strong>c4 row 3</strong>, which is important because Yellow already has a stack at <strong>c4 rows 1–2</strong>. Playing there stops Yellow from taking that key central square and keeps Red’s winning chances alive.</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 2</span>
+            <span class="ts">13:18:16</span></div>
+          <div class="body"><p>I was thinking column 2</p></div>
+          <div class="acts"><span class="chip" style="--chip:#0ea5e9" title="panel confidence 1.00">Think Aloud</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">13:18:18</span></div>
+          <div class="body"><p>Column 2 is tempting because it builds your left side, but ask yourself: <strong>does it stop Yellow’s immediate central threat?</strong></p><p>Yellow has two stacked in <strong>column 4</strong> at rows 1–2, and the next open spot is <strong>c4 row 3</strong>. If Red doesn’t take that square now, Yellow may gain a very dangerous center connection next.</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 3</span>
+            <span class="ts">13:19:04</span></div>
+          <div class="body"><p>Okay good point</p></div>
+          <div class="acts"><span class="chip" style="--chip:#64748b" title="panel confidence 1.00">Conversational Acknowledgment</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">13:19:06</span></div>
+          <div class="body"><p>Nice — after the last move, the key thing is still the <strong>center</strong>.</p><p>Before choosing, look at <strong>column 4</strong>: Yellow has discs at <strong>c4 r1 and c4 r2</strong>, and the next open square is <strong>c4 r3</strong>. If Yellow gets that, it can connect into several directions, so ask: <strong>which Red move prevents Yellow from owning that key central square while also creating your own pressure?</strong></p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 4</span>
+            <span class="ts">13:19:34</span></div>
+          <div class="body"><p>I played your move, where next?</p></div>
+          <div class="acts"><span class="chip chip-weak" style="--chip:#64748b" title="panel confidence 0.67">Conversational Acknowledgment</span><span class="chip" style="--chip:#f59e0b" title="panel confidence 1.00">Solution Request</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">13:19:38</span></div>
+          <div class="body"><p>Play <strong>column 4</strong> again.</p><p>That puts Red at <strong>c4 row 4</strong>, stacking above your <strong>c4 row 3</strong> and taking control of the center. It also prevents Yellow from using that column to build a strong diagonal/central threat.</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 5</span>
+            <span class="ts">13:20:37</span></div>
+          <div class="body"><p>would you go column 2 now?</p></div>
+          <div class="acts"><span class="chip" style="--chip:#8b5cf6" title="panel confidence 1.00">Common Ground Question</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">13:20:43</span></div>
+          <div class="body"><p>I <strong>wouldn’t go column 2</strong> now.</p><p>I’d look at <strong>column 5</strong>: dropping there gives Red a strong central connection at <strong>c5 row 4</strong>, linking with your Red at <strong>c4 row 4</strong> and setting up better threats. Column 2 builds a stack, but it’s slower and doesn’t pressure Yellow as much.</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 6</span>
+            <span class="ts">13:21:41</span></div>
+          <div class="body"><p>Okay makes sense, i&#x27;ll try there</p></div>
+          <div class="acts"><span class="chip" style="--chip:#0ea5e9" title="panel confidence 1.00">Think Aloud</span><span class="chip" style="--chip:#64748b" title="panel confidence 1.00">Conversational Acknowledgment</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">13:21:42</span></div>
+          <div class="body"><p>Yes — <strong>column 5 is the move I’d stick with here</strong>.</p><p>It drops Red on <strong>c5 r4</strong>, next to your Red at <strong>c4 r4</strong>, and it also helps control Yellow’s central threats around <strong>c4/c5</strong>. Column 2 would be slower and doesn’t create the same immediate pressure.</p></div>
+        </div>
+      </div></div>
+    </section>
+    <section class="card struggler" data-group="struggler" data-turns="7"
+             data-search="p571 struggler common ground question conversational acknowledgment think aloud i am considering column 2 key question: after you play column 2, can yellow simply block column 2 on their turn? no. column 4 how about column 3 now oh right, i need to block that! i was think column 3 now what so i need to try to secure column 5 first?" id="p571">
+      <header class="card-head">
+        <div class="idline">
+          <span class="badge struggler">Struggler</span>
+          <span class="idx">#40</span>
+          <code class="pid">p571</code>
+        </div>
+        <div class="metagrid"><div class="m"><span class="k">R1 score (with AI)</span><span class="v">3</span></div><div class="m"><span class="k">R2 score (no AI)</span><span class="v">1</span></div><div class="m"><span class="k">turns</span><span class="v">7</span></div><div class="m"><span class="k">age</span><span class="v">40</span></div><div class="m"><span class="k">self-rated skill</span><span class="v">2/5</span></div><div class="m"><span class="k">occupation</span><span class="v">it</span></div><div class="m"><span class="k">education</span><span class="v">bachelor&#x27;s</span></div><div class="m"><span class="k">GenAI use</span><span class="v">several times day</span></div></div>
+        <div class="actline"><span class="chip chip-sm" style="--chip:#8b5cf6">Common Ground Question</span><span class="chip chip-sm" style="--chip:#64748b">Conversational Acknowledgment</span><span class="chip chip-sm" style="--chip:#0ea5e9">Think Aloud</span></div>
+      </header>
+      <div class="turns">
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 1</span>
+            <span class="ts">15:01:36</span></div>
+          <div class="body"><p>I am considering column 2</p></div>
+          <div class="acts"><span class="chip" style="--chip:#0ea5e9" title="panel confidence 1.00">Think Aloud</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">15:01:43</span></div>
+          <div class="body"><p>Column 2 would land at <strong>c2 row3</strong>, making a <strong>vertical 3-in-a-row</strong> for Red in column 2, with a threat to win next at <strong>c2 row4</strong>.</p><p>Key question: after you play column 2, can Yellow simply <strong>block column 2</strong> on their turn? If yes, then it’s only a single threat, not a forcing double threat.</p><p>Also check: does playing column 2 ignore any Yellow threat you needed to handle?</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 2</span>
+            <span class="ts">15:02:08</span></div>
+          <div class="body"><p>Key question: after you play column 2, can Yellow simply block column 2 on their turn? No.</p></div>
+          <div class="acts"><span class="chip" style="--chip:#64748b" title="panel confidence 1.00">Conversational Acknowledgment</span><span class="chip" style="--chip:#8b5cf6" title="panel confidence 1.00">Common Ground Question</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">15:02:15</span></div>
+          <div class="body"><p>Actually, after Red plays <strong>column 2</strong>, the disc lands at <strong>c2 row3</strong>. Then <strong>Yellow can play column 2</strong>, landing at <strong>c2 row4</strong>, which blocks your vertical win.</p><p>So column 2 creates a threat, but it looks like a <strong>blockable single threat</strong>.<br>Can you spot a move that creates a threat Yellow <em>can’t</em> answer with just one block—or that addresses Yellow’s counterplay at the same time?</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 3</span>
+            <span class="ts">15:02:45</span></div>
+          <div class="body"><p>Column 4</p></div>
+          <div class="acts"><span class="chip" style="--chip:#0ea5e9" title="panel confidence 1.00">Think Aloud</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">15:02:57</span></div>
+          <div class="body"><p>Column 4 would land at <strong>c4 row3</strong>.</p><p>That’s a strong candidate because it <strong>occupies the key central square above Yellow’s stack</strong> in column 4, so Yellow can’t use that column to build upward. After that, ask: what is Yellow’s most forcing reply, and can Red then create a threat around <strong>row 3</strong> with the reds at <strong>c4/c5/c6</strong>?</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 4</span>
+            <span class="ts">15:03:29</span></div>
+          <div class="body"><p>How about column 3 now</p></div>
+          <div class="acts"><span class="chip" style="--chip:#8b5cf6" title="panel confidence 1.00">Common Ground Question</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">15:03:42</span></div>
+          <div class="body"><p>Column 3 lands at <strong>c3 row3</strong>. It starts a diagonal idea with <strong>c2r2–c3r3–c4r4</strong>, but <strong>c4r4 is immediately playable</strong>, so Yellow may be able to take/block that key square.</p><p>Before choosing it, compare: who benefits most from controlling <strong>c4 row4</strong> right now?</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 5</span>
+            <span class="ts">15:04:09</span></div>
+          <div class="body"><p>Oh right, i need to block that!</p></div>
+          <div class="acts"><span class="chip" style="--chip:#0ea5e9" title="panel confidence 1.00">Think Aloud</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">15:04:12</span></div>
+          <div class="body"><p>Yes—Yellow is threatening at <strong>column 4, row 4</strong>: they already have <strong>Y at c4r1, c4r2, c4r3</strong>, so if you don’t take c4 now, Yellow wins vertically next move.</p><p>So your move needs to deal with that immediate threat.</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 6</span>
+            <span class="ts">15:04:48</span></div>
+          <div class="body"><p>I was think column 3 now</p></div>
+          <div class="acts"><span class="chip" style="--chip:#0ea5e9" title="panel confidence 1.00">Think Aloud</span><span class="chip chip-weak" style="--chip:#8b5cf6" title="panel confidence 0.67">Common Ground Question</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">15:04:59</span></div>
+          <div class="body"><p>Column 3 would land at <strong>c3r3</strong>, giving Red a diagonal shape <strong>c2r2–c3r3–c4r4</strong>, but the finishing square would be <strong>c5r5</strong>, which is not playable yet.</p><p>Before choosing it, ask: what can Yellow do with the immediately playable square <strong>c5r4</strong>? That square looks important because it sits right under your diagonal’s future winning spot.</p></div>
+        </div>
+      </div>
+      <div class="turn">
+        <div class="msg user">
+          <div class="msg-head"><span class="who">Participant</span><span class="tno">turn 7</span>
+            <span class="ts">15:05:52</span></div>
+          <div class="body"><p>What so i need to try to secure column 5 first?</p></div>
+          <div class="acts"><span class="chip" style="--chip:#8b5cf6" title="panel confidence 1.00">Common Ground Question</span></div>
+        </div>
+        <div class="msg ai">
+          <div class="msg-head"><span class="who">AI assistant</span>
+            <span class="ts">15:05:59</span></div>
+          <div class="body"><p>Yes — <strong>column 5 is the key square to secure now</strong>.</p><p>If Red plays <strong>c5r4</strong>, you take control of the important diagonal/central area and stop Yellow from using that square as support. It also pairs well with your Red at <strong>c4r4</strong>, giving you more threat potential on row 4.</p></div>
+        </div>
+      </div></div>
+    </section>
+<p class="empty" id="empty" hidden>No conversations match.</p>
+</div>
+<script>
+const cards=[...document.querySelectorAll('.card')];
+const q=document.getElementById('q'), cnt=document.getElementById('count');
+const active=new Set(['solver','struggler']);
+function apply(){
+  const term=q.value.trim().toLowerCase();
+  let n=0;
+  for(const c of cards){
+    const ok=active.has(c.dataset.group)&&(!term||c.dataset.search.includes(term));
+    c.hidden=!ok; if(ok)n++;
+  }
+  cnt.textContent=n+' of '+cards.length+' shown';
+  document.getElementById('empty').hidden=n>0;
+}
+for(const b of document.querySelectorAll('button[data-filter]')){
+  b.onclick=()=>{const g=b.dataset.filter;
+    if(active.has(g)&&active.size>1){active.delete(g);b.classList.remove('on');}
+    else{active.add(g);b.classList.add('on');}
+    apply();};
+}
+q.oninput=apply;
+document.getElementById('expand').onclick=()=>{q.value='';active.add('solver');active.add('struggler');
+  document.querySelectorAll('button[data-filter]').forEach(b=>b.classList.add('on'));apply();};
+apply();
+</script></body></html>

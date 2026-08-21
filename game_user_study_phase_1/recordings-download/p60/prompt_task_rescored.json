@@ -1,0 +1,33 @@
+{
+  "created_prompt": "I need a concrete three year plan for someone who wants to spend the next three years cultivating an online audience and writing a cook book. She currently posts cooking videos and has an audience of 1.2 million followers. She is known for quick, healthy recipes. She works four days a week and needs to make the most of her time, and has not yet decided whether to go traditional or self-publishing for the cookbook. What should she plan on for a schedule to complete her goals? Please provide a detailed breakdown as well as a more general timeline with specific goals.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "original": {
+    "judges": {
+      "gpt": 3,
+      "llama": 3,
+      "qwen": null
+    },
+    "mean_score": 3.0,
+    "median_score": 3.0,
+    "passed": true
+  },
+  "time_taken": 3.07
+}

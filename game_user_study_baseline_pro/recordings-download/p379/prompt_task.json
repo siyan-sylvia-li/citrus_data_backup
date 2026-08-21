@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Create a three-year plan for a time-poor and budget conscious female social media influencer who focuses on quick, healthy cooking videos with goals to grow her online presence from her current 1.2million follower count, as well as publishing a cookbook. Compare traditional and self-publishing options including listing the pros and cons for them. The influencer works 4 days per week so the plan must fit in around her existing schedule without requiring her to sacrifice her current activities.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-22T13:26:35.114812+00:00"
+}

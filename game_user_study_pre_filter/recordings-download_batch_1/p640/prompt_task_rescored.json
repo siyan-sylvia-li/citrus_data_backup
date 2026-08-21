@@ -1,0 +1,31 @@
+{
+  "created_prompt": "Julie is passionate for healthy cooking and travelling. She manages a video channel with 1.2M followers, where she posts her recipes.\r\nShe'd also like to publish a book where she mixes recipes with her travel experiences in France, and a literary agent already contacted her.\r\nShe is busy with working 4 days a week and growing a child, and does not keep the pace well with continuous changes.\r\nYou should help her building a three-year plan to grow online, harmonizing that with the publishing of her book and balancing all that with her personal life.\r\nProduce a document where you analyze pros and cons of self vs traditional publishing, suggest a key for her book to balance cooking and travel and produce a possible detailed schedule, month-by-month and week-per-week, of concrete intermediate objectives she should reach to fulfill her plan in the given time.",
+  "judges": [
+    {
+      "model": "qwen",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "original": {
+    "judges": {
+      "llama": 3,
+      "qwen": 3,
+      "gpt": 3
+    },
+    "mean_score": 3.0,
+    "passed": true
+  },
+  "time_taken": 5.931
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, looking at this Connect Four board - I don't see any obvious 3-in-a-row for either side right now. Is there a move for Red that actually sets up a forced win here, or am I just supposed to play safe?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Yellow has three in a diagonal now (c5r3, c6r2, c7r1) and I think they can finish it at c4 by playing on top of my piece there. Do I need to block column 4 right now?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "play_move",
+    "move": 2
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Devise a specific, step-by-step, low budget, 4 day per week 3 year plan for Julie who currently posts cooking videos to 1.2M followers, but wants to grow online and publish a cookbook.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-04T18:06:51.580548+00:00"
+}

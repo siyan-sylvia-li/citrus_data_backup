@@ -1,0 +1,50 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Can you help me find the winning move here? Please check the best line for Red, not just an obvious threat."
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Yellow played 5. From this exact board, what's Red's best next column and why? Check any immediate Yellow threat too."
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After Yellow 1, what is the exact best Red move now? Is there a forced tactic, or should I build in column 4?"
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "play_move",
+    "move": 6
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Current board has Red row-4 discs in columns 4,5,6, but c7 is stacked with Yellow at row 1. What's the winning continuation now?"
+  },
+  {
+    "tool": "play_move",
+    "move": 1
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After Red 1 and Yellow 1 (now c1 has Y at 1-3, R4, Y5), what's Red's best move? Need the exact forced continuation."
+  },
+  {
+    "tool": "play_move",
+    "move": 7
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  }
+]

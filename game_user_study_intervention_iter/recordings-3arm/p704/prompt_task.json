@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Devise a three year plan for a cooking channel for quick healthy recipes with 1.2 million followers. The owner wants to improve her online following, as well as publish a cookbook (either traditionally published or self-published, give pros and cons of both). She only has 4 days available a week, and has limited time and financial budgets",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 3.0,
+  "submitted_at": "2026-08-21T13:19:33.063213+00:00"
+}

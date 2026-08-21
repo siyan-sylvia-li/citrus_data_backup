@@ -1,0 +1,43 @@
+{
+  "puzzle": "oc20260727",
+  "decisions": 5,
+  "optimal_moves": 4,
+  "opener_optimal": true,
+  "discs_lost": 22,
+  "final_margin": -4,
+  "won": false,
+  "optimal_margin": 18,
+  "completed": true,
+  "moves": [
+    "b7",
+    "c8",
+    "a7",
+    "a1!",
+    "h1"
+  ],
+  "auto_played": [
+    "g2"
+  ],
+  "chat_turns": null,
+  "game": "othello",
+  "round": 0,
+  "ai_available": true,
+  "model_settings": {
+    "max_tokens": 100000
+  },
+  "questions_asked": 5,
+  "question_budget": 5,
+  "profile": {
+    "persona": "A fellow local resident who appreciates and supports the preservation of the community's traditions",
+    "age": 58,
+    "education": "some_college",
+    "occupation": "other",
+    "ai_frequency": "less_than_monthly"
+  },
+  "student_model": "anthropic:claude-sonnet-5",
+  "student_mode": "default",
+  "questions_required": 5,
+  "assistant_off": false,
+  "assistant_preset": "explain",
+  "streamed": false
+}

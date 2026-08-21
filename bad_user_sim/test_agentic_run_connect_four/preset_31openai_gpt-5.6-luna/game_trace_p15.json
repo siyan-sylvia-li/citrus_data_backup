@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Can you find the winning move or best line here? Please account for the opponent's best reply, not just an immediate threat."
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After R4 Y5, what exact column should Red play now? Please check for immediate wins and Yellow threats."
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Board now has Red at c4r3-r4 and Yellow just played c1. What is the exact best Red column from here? Could you map the tactical threats briefly?"
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After R5 and Yellow's c1, what exact move now? Please focus on any forced win sequence rather than general central control."
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  }
+]

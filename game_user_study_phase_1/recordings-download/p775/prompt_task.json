@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I want to write a cookbook within the next three years and publish it to my 1.2m followers online. I focus mainly on quick, healthy recipes and wish to collate them into a book. I am however, torn between traditional publishing methods and self-publishing. I only have 3 days a week to work on this and a limited budget so it needs to work around my schedule. Please create me a project plan on creating this with the information i have provided.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "qwen",
+      "score": null
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-14T20:30:21.120241+00:00"
+}

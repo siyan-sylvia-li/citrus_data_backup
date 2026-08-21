@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "What's the best column for Red here, and why? I want the winning move if there is one."
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After Red 4 and Yellow 5, what should I play now? Please give just the column and the main threat."
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I have Red at c4 rows 3-4 now. Yellow played c1. What's the exact best next column under best play? Is there an immediate Yellow threat I need to block?"
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After Yellow stacked c1 again, what's my best move now? I see c4-c5 red on row 4 but not sure whether to play c6 or another column."
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  }
+]

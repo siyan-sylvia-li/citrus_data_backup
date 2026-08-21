@@ -1,0 +1,24 @@
+{
+  "created_prompt": "With limit time and budget, what is the best way to expand my recipe blog of 1.2M followers and publish a cookbook. I'm looking for a three year plan and can set aside one day a week to focus on the plan",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 2
+    },
+    {
+      "model": "llama",
+      "score": 2
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 2.0,
+  "median_score": 2.0,
+  "submitted_at": "2026-07-21T13:04:46.670932+00:00",
+  "source": "phase_1_carryover",
+  "source_study": "game_user_study_baseline_pro",
+  "tier": 1,
+  "prior_games": [],
+  "passed": true,
+  "rule": "carried over from phase 1",
+  "matched_phase1": true
+}

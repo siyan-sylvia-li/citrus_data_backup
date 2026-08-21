@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I create online cooking videos for a follower base of 1.2 million viewers. I want to grow this number of followers even more over the next 3 years, and also am planning to publish a cookbook. Please create a 3-year concrete stepwise plan broken down, showing what I need to do over this period to achieve both of these goals. Note that I have only 4 days per week available to me for work, and also am on a limited budget. In terms of the cookbook aspect, create one plan for if I use traditional publishing and one plan for if I self-publish, since I haven't decided which yet.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T13:10:45.418600+00:00"
+}

@@ -1,0 +1,40 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "thinking about b7, is that a strong start?"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "why did i lose so badly?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "can you explain the mobility thing more? how did white have more of it?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "did i mess up by going b7 then b6 then b8?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Wait, what exactly are \"X-squares\"? You mentioned b7 was one."
+  }
+]

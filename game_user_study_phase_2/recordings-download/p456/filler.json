@@ -1,0 +1,25 @@
+{
+  "reflection": "I would recommend first making a list of the recipes that she wants to include in her book, then I would suggest that she conduct some research on the better publishing option and what publishing resources are available to her; and I would suggest that she create a schedule for when she can accomplish these goals during her week.",
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 4
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 3
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.333,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-19T11:06:47.629351+00:00"
+}

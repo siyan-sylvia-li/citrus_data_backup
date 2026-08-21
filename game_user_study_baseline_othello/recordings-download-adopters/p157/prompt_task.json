@@ -1,0 +1,23 @@
+{
+  "created_prompt": "You are an assistant tasked with creating a three-year plan for the growth of the digital creator Julie.\r\n\r\nJulie posts cooking videos to 1.2M followers who love her quick, healthy recipes.\r\nOver the next three years she wants to grow online and publish a cookbook (torn on traditional vs. self-publishing).\r\nShe works four days weekly, limited time and budget.\r\n\r\nCreate a year-by-year plan, with weekly schedules for Julie. Recommend actions to follow in order to grow the online presence, and to successfully publish the book, especially comparing self-publishing and traditional publishing.",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 4
+    },
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.333,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T14:19:49.332988+00:00"
+}

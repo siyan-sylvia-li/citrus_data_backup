@@ -1,0 +1,41 @@
+{
+  "idea": "a general boost to their knowledge of chess skills",
+  "n_chars": 50,
+  "start_message": "What do you think would be the best move right now?",
+  "selected": "look_ahead",
+  "selected_type": "knowledge_question",
+  "selected_carries_forward": true,
+  "others_shown": [
+    "say_thinking",
+    "ask_answer"
+  ],
+  "option_order": [
+    "say_thinking",
+    "ask_answer",
+    "look_ahead"
+  ],
+  "seconds_on_page": 54,
+  "form": "elicit_select_reply",
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 2
+      },
+      {
+        "model": "gpt",
+        "score": 2
+      },
+      {
+        "model": "nemotron",
+        "score": 1
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 1.667,
+    "median_score": 2,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-20T13:04:51.344977+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "created_prompt": "I have a limited time and budget. I want to grow online and write a cookbook based on the recipes in my cooking videos. I want this to happen within the next 3 years",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 2
+    },
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 1.667,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 1.667,
+  "submitted_at": "2026-08-19T12:00:55.078138+00:00"
+}

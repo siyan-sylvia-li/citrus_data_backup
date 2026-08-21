@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Please devise a 3 year plan for me - I want to publish a cooking book but am unsure whether to self publish or go down the traditional publishing route. I enjoy making quick healthy meals and feel I have something to share with everybody.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.0,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.0,
+  "submitted_at": "2026-08-20T17:29:09.003839+00:00"
+}

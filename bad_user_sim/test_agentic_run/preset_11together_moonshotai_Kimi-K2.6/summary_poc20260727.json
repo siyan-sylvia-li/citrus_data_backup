@@ -1,0 +1,38 @@
+{
+  "puzzle": "oc20260727",
+  "decisions": 6,
+  "optimal_moves": 5,
+  "opener_optimal": true,
+  "discs_lost": 16,
+  "final_margin": 2,
+  "won": true,
+  "optimal_margin": 18,
+  "completed": true,
+  "moves": [
+    "b7",
+    "c8",
+    "a7",
+    "a3",
+    "a1",
+    "g2!"
+  ],
+  "auto_played": [],
+  "chat_turns": null,
+  "game": "othello",
+  "round": 0,
+  "ai_available": true,
+  "model_settings": {
+    "max_tokens": 200000
+  },
+  "questions_asked": 3,
+  "question_budget": 10,
+  "profile": {
+    "persona": "A concerned resident with insider knowledge of local government operations",
+    "age": 49,
+    "education": "associate",
+    "occupation": "government",
+    "ai_frequency": "few_times_month"
+  },
+  "student_model": "together:moonshotai/Kimi-K2.6",
+  "streamed": false
+}

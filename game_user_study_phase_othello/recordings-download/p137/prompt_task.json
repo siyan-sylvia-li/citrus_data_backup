@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Currently I have 1.2M followers to my healthy cooking videos Over the next three years, I want to grow online and publish a cook book - which could be traditional or self-published - I'm undecided, I would like a structured three year plan for this. Factors to consider ; I work four days a week, my time and budget are limited.",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T12:54:42.953806+00:00"
+}

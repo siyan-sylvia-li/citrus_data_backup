@@ -1,0 +1,37 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at the board and I have a few options like g2, b6, a7, b7, b8, c8. Which one of these is usually the safest bet for me here?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Man, I really messed that up. Why'd I lose by so much?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "How could I have stopped them from taking those corners? I felt like I had a good run going for a second."
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I played b7 then b6 then b8. Looking back, was that a bad sequence? I thought I was doing okay."
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "And what about g2? Was that just a forced move at the end?"
+  }
+]

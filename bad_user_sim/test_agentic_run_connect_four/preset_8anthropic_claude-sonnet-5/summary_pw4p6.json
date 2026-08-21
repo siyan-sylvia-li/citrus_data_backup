@@ -1,0 +1,43 @@
+{
+  "puzzle": "w4p6",
+  "decisions": 8,
+  "optimal_moves": 4,
+  "optimal_first_n": 1,
+  "decisions_first_n": 3,
+  "kept_win_moves": 8,
+  "opener_optimal": false,
+  "exact_decisions": 8,
+  "result": "red_win",
+  "won": true,
+  "plies_to_win_at_start": 7,
+  "completed": true,
+  "columns": [
+    "5!",
+    "4!",
+    "1",
+    "2!",
+    "7!",
+    "6",
+    "6",
+    "3"
+  ],
+  "auto_played": [],
+  "chat_turns": null,
+  "game": "connect_four",
+  "round": 1,
+  "ai_available": false,
+  "model_settings": {
+    "max_tokens": 100000
+  },
+  "questions_asked": 0,
+  "question_budget": 0,
+  "profile": {
+    "persona": "A technology entrepreneur interested in commercializing the novel materials",
+    "age": 38,
+    "education": "postgrad",
+    "occupation": "professional",
+    "ai_frequency": "several_times_day"
+  },
+  "student_model": "anthropic:claude-sonnet-5",
+  "streamed": false
+}

@@ -1,0 +1,49 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm way behind on discs, only 10 empty squares left. Of my choices (g2, b6, a7, b7, b8, c8), which one gives me the best shot at catching up by the end?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White just took a8 corner. Down to 8 empty squares. My options are g2, b6, a7, c8 - which is best now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Ouch, White just took a huge chunk, 36-22 now. Only g2, b6, a7 left to pick from with 6 empty squares total. What gives me the best final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Only 4 squares left (a1, g2, a3, h1 area), I can play a1, g2, or a3. Which move actually helps my final total the most?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Down to a1 and g2 as my options, 3 squares left total. I think I end up around 33-31 either way but which one should I actually click?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

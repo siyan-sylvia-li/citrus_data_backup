@@ -1,0 +1,83 @@
+{
+  "1122210012222200122122221112122211122222122212221222120222222222:1": {
+    "best_moves": [
+      "g7"
+    ],
+    "optimal_diff": 12,
+    "move_values": {
+      "g1": -2,
+      "g2": -4,
+      "g7": 12
+    },
+    "must_pass": false
+  },
+  "1122210011222200121122221111122211121222122211221222111222222222:2": {
+    "best_defense": "g1",
+    "optimal_diff": 12,
+    "must_pass": false
+  },
+  "1122222011222200121122221111122211121222122211221222111222222222:1": {
+    "best_moves": [
+      "h1"
+    ],
+    "optimal_diff": 12,
+    "move_values": {
+      "h1": 12,
+      "g2": 0,
+      "h2": -2
+    },
+    "must_pass": false
+  },
+  "1111111111222200121122221111122211121222122211221222111222222222:2": {
+    "must_pass": true
+  },
+  "1111111111222200121122221111122211121222122211221222111222222222:1": {
+    "best_moves": [
+      "g2"
+    ],
+    "optimal_diff": 12,
+    "move_values": {
+      "g2": 12,
+      "h2": -2
+    },
+    "must_pass": false
+  },
+  "1111111111111110121121121111121211121212122211121222111222222222:2": {
+    "best_defense": "h2",
+    "optimal_diff": 12,
+    "must_pass": false
+  },
+  "_meta": {
+    "config": "puzzle_config_b220260706.txt",
+    "to_move": "B",
+    "source": {
+      "site": "othelloclub.com",
+      "date": "20260706",
+      "original_turn": "white",
+      "flipped": true,
+      "board_string": "2211120021111100211211112221211122211111211121112111210111111111"
+    },
+    "empties": 5,
+    "optimal_diff": 12,
+    "result": "black_win",
+    "root_best_moves": [
+      "g7"
+    ],
+    "metrics": {
+      "empties": 5,
+      "n_legal": 3,
+      "optimal_diff": 12,
+      "best_moves": [
+        "g7"
+      ],
+      "unique_best": true,
+      "gap": 14,
+      "worst_diff": -4,
+      "naive_move": "g2",
+      "naive_is_optimal": false,
+      "naive_loss": 16,
+      "corner_answer": false,
+      "forced_line": 3
+    }
+  }
+}

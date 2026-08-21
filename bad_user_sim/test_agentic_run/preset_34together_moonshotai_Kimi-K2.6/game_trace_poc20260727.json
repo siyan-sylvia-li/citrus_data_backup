@@ -1,0 +1,34 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, in this Othello endgame White seems to have a crushing a3 reply after almost any move I make (b7, c8, etc.). Should I play a7 to try to blunt it, or is there a clearly best move among my legal options (g2, b6, a7, b7, b8, c8)? I need the one that maximizes Black's final disc count under perfect play, not just the biggest immediate flip. Any quick insight?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Follow-up: after I played b7 and White answered a8, we're here. My legal moves are g2, b6, a7, c8. b6 looks huge on the surface (flips a6, c6,d6,e6, c5) but I suspect White has a crushing c8 reply. Is a7 or c8 actually better for maximizing final discs? Quick take?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "OK so after my a7 and White's a3, the board is now this exact state (shown in the interface). My legal moves are a1, g2, b6, c8. Can you tell me which one maximizes Black's final disc count under perfect play? It's a 6-empty-square endgame and I keep getting tangled in lines."
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Provide a concrete three-year plan for Julie, who has 1.2M followers and posts cooking videos of quick, healthy recipes. She wants to increase her online presence and also publish a cookery book, either self-publishing or through a traditional publisher. She works four days a week and has a limited budget, so creative ideas are better than anything that would cost money, although some spending might be possible if it's going to pay off",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-24T13:56:54.209354+00:00"
+}

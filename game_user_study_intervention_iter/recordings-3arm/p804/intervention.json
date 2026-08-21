@@ -1,0 +1,29 @@
+{
+  "variant": "v9_reasons",
+  "observation": "Group A treats the AI like an oracle by demanding direct answers and optical moves without sharing their own thinking. Group B uses AI as a collaborative thought partner, shares their thoughts, and tactical ideas and asks the AI for feedback.",
+  "choice": "B",
+  "choice_correct": true,
+  "form": "contrasting_cases",
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 4
+      },
+      {
+        "model": "gpt",
+        "score": 4
+      },
+      {
+        "model": "nemotron",
+        "score": 4
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 4.0,
+    "median_score": 4,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-21T17:04:12.228965+00:00"
+}

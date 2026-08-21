@@ -1,0 +1,30 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I'm stuck on this Connect Four endgame. Red to move. Is the key move c4 or c5? I see a possible diagonal with c6r1-c5r2-c4r3-c3r4, but I'm worried about a Yellow counter on the other diagonal if I play c4. What's the winning idea for Red?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 2
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  }
+]

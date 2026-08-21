@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Please generate a three-year plan for a cooking influencer to grow their audience and publish a cookbook. Include the benefits and drawbacks of traditional vs self-publishing. Devise a posting schedule and writing routine on a four-day-a-week schedule.",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-10T21:25:24.857951+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I post cooking videos focusing on healthy recipes. I have 1.2M followers but I want to increase their number. I also want to publish a cookbook. Devise a three-year plan to help me reach these goals. The plan should be realistic and take into consideration that I work four days a week, so time is limited. Try also to keep the budget low. Provide two alternatives plans, one for publishing my cookbook through traditional publishing and for self-publishing.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-05T14:02:41.578601+00:00"
+}

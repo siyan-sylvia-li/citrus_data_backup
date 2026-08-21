@@ -1,0 +1,19 @@
+{
+  "created_prompt": "I post cooking videos, they are quick healthy recipes and I've got 1.2 million followers. I work four days a week and have limited time and budget. Over the next 3 years I want to grow my business and publish a cookbook. Devise me a three-year plan, clearly showing whether I should self-publish the cookbook or just go down the traditional route.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-22T13:17:23.275828+00:00"
+}

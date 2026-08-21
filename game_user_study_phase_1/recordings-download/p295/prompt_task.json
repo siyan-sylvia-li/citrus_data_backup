@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Julie Has a cooking channel with 1.2M followers that makes quick, healthy recipes. Please make a solid, step by step plan to grow her followers and reach by 50% minimum, allow her to make a traditional and/or digital book and promote it. she has 4 days a week time to work, 8 hours a day and has a imited budget. give 3 different suggestions and estimated budget to go along with it for a 3 year period with goals",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-24T13:12:15.273704+00:00"
+}

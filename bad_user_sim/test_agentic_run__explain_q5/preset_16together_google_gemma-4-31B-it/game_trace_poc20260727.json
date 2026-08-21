@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "hey, looking at the board, b7 seems like a huge play because it flips that whole row. is that the optimal move or am i missing something?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "got my legal moves: g2, b6, a7, c8. white just took a8. which one is the strongest play to close this out?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Down to the last few. Legal moves are g2, b6, a7. Which one puts me in the best position to maximize the final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Almost there. I've got a1, g2, and a3. Which one is the move to make here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at a1, g2. If I play g2, I think I can eventually take both a1 and h1 and flip that entire top row. Does that sound right, or can White stop me?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

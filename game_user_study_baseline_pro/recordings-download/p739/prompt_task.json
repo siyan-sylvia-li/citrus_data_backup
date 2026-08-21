@@ -1,0 +1,19 @@
+{
+  "created_prompt": "You are a top-tier strategic AI agent specializing in creator economy growth and publishing. Your task is to devise a concrete, actionable 3-year plan for Julie, a cooking video creator with 1.2 million followers.\r\n\r\nConstraints:\r\n-She posts quick, healthy recipes.\r\n-Goal: grow her online presence AND publish a cookbook (traditional or self-publishing, undecided.)\r\n- Works only 4 days per week.\r\n\r\nDeliverables:\r\n1. A year by year breakdown (Y1, Y2, Y3) with specific milestones.\r\n2. Clear decision points for choosing traditional vs. self-publishing\r\n3. A weekly time-allocation template that fits her 4-day limit\r\n4. 3 lowest-cost, highest-impact actions for each year.\r\n5. A risk mitigation strategy for each major step\r\n\r\nOutput format: Bulleted plan with bold headers for each year. Be ruthlessly practical - no fluff. Assume she has no team, only freelance help for 5-10 hrs/week max. Prioritize actions that build audience leverage (email, data, community) before the book launch.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 4
+    },
+    {
+      "model": "gpt",
+      "score": 4
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 4.0,
+  "median_score": 4.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-23T20:07:28.990187+00:00"
+}

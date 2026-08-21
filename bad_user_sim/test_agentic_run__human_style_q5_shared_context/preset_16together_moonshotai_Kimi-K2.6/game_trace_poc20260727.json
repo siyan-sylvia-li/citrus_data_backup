@@ -1,0 +1,49 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "c8 flips a bunch but i think white gets a3 after and hits hard. is b6 or g2 safer, or should i still take c8?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "white hit a8 and flipped b7 and c6 back. my legal moves are g2, b6, a7, c8. which one holds up best now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "was there any way to stop white from getting a8 after my b7?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "after c8 got hit by a8, should i have played g2 instead of a7?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "did white have any outs once i grabbed a3, or was it already over?"
+  },
+  {
+    "tool": "view_board"
+  }
+]

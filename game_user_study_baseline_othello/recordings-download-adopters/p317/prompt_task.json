@@ -1,0 +1,23 @@
+{
+  "created_prompt": "My client Julie has a social media account centered around the topic cooking. She currently has 1.2M followers and focuses on quick, healthy recipes. She currently works four days a week with limited time and a limited budget.\r\n\r\nCan you devise a concrete and detailed three-year business plan as to how she can grow her channel online given these circumstances. The three-year plan should include the publication of Julie's own cookbook. She is also looking for recommendations in regards to how she should publish the book. She is uncertain if traditional or self-publishing works best with her content model and resources.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-10T20:30:34.637330+00:00"
+}

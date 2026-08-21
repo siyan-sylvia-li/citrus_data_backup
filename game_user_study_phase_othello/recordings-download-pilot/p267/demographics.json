@@ -1,0 +1,34 @@
+{
+  "prolific_id": "p267",
+  "game": "othello",
+  "rounds": [
+    {
+      "puzzle": "oc20260727",
+      "ai": true,
+      "ai_survey": true,
+      "gate": true,
+      "time_limit": 420,
+      "intro": {
+        "title": "Puzzle 1",
+        "body": "An <strong>AI assistant</strong> will be available to help you for this round. This is your <strong>only chance</strong> to use it in this study.<br>You MUST engage with the assistant for 5+ turns."
+      }
+    },
+    {
+      "puzzle": "oc20260713",
+      "ai": false,
+      "ai_survey": false,
+      "time_limit": 240,
+      "intro": {
+        "title": "Puzzle 2",
+        "body": "There is <strong>no AI assistant</strong> here, and you will <strong>not</strong> need to fill out the AI assistant questionnaire afterward."
+      }
+    }
+  ],
+  "skill_rating": "1",
+  "age": 51,
+  "education": "hs_graduate",
+  "occupation": "it",
+  "genai_usage": "weekly",
+  "consented_at": "2026-07-30T13:41:38.065149+00:00",
+  "submitted_at": "2026-07-30T13:49:45.723938+00:00"
+}

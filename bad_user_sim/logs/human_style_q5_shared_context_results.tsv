@@ -1,0 +1,4 @@
+ok	human_style_q5_shared_context_preset18_together:moonshotai_Kimi-K2.6
+ok	human_style_q5_shared_context_preset21_together:moonshotai_Kimi-K2.6
+ok	human_style_q5_shared_context_preset14_together:moonshotai_Kimi-K2.6
+FAIL	human_style_q5_shared_context_preset20_together:moonshotai_Kimi-K2.6	logs/human_style_q5_shared_context_preset20_together:moonshotai_Kimi-K2.6.log

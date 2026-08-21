@@ -1,0 +1,49 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I've got 6 legal moves here: g2, b6, a7, b7, b8, c8. Board's almost full (only 10 empty squares left). I'm way behind in disc count but I know that doesn't matter yet. Which move sets me up to actually win the final count, and why?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White just took a8 corner. Now my options are g2, b6, a7, c8, with only 8 empty squares left total. Which move is safest so I don't hand White the a1 or h1 corners too?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Down to 6 empty squares: a1, h1, g2, a3, b6, a7. My legal moves are g2, b6, a7. I'm behind 22-36 now, this looks bad. Is there any way to still come back, and what's the best move here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Only 4 squares left: a1, h1, g2, a3, and a1 is a corner and it's legal for me. Should I grab a1 now, and what's likely to happen after with the last 3 squares?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Just a1, h1, g2 left now, and my move is either a1 or g2. Which order finishes best for me?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

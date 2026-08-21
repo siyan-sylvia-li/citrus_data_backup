@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm not really sure where to put my piece. Which of these options is the best one for me?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I have three choices now: g2, b6, or a7. I'm not sure which one is the safest bet to get more pieces. Could you tell me which one I should pick?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm really struggling here, and the score is getting worse. Between a1, g2, and a3, which one should I choose to try and catch up?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm down to just a couple of moves. Should I go with a1 or g2? I'm worried I'll make a mistake and lose more pieces."
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Hello. This is my first time playing this, and I'm a bit nervous. I see several legal moves\u2014g2, b6, a7, b7, b8, c8\u2014but I'm not sure what I should be aiming for. Is it better to take the edges or the corners first?"
+  }
+]

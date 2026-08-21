@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Hello. I love cooking and regularly post videos to my 1.2 million followers.\r\nCan you devise a fully concrete three-year plan to help me grown online and publish a cookbook 9I am torn between traditional versus self-publishing)?\r\nI work four days a weeek, so I do have limited time and a limited budget.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-16T14:47:51.633286+00:00"
+}

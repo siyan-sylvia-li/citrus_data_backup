@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "b6 seems to flip a ton of discs but is it actually the best start? also wondering if c8 or b7 is better. thoughts?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "wait, if i play b7 doesn't white just snap a1 next? that seems awful for me. is a1 not actually legal for them after b7?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "wait the game ended 42-22 and i got shut out at the end. was b7 the right start, or did i mess up after that?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "my moves after b7 were g2, b6, then b8. did one of those hand white the game?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "realizing the game is over but i\u2019m still not sure: was black ever actually winning here, or was this endgame always a loss?"
+  }
+]

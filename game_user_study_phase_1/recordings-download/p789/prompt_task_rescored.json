@@ -1,0 +1,32 @@
+{
+  "created_prompt": "I'm a popular cooking video content creator. The recipes I film are quick and healthy. Though my channel already has 1.2 million followers, I want it to grow, and also have plans to publish a cookbook within the next 3 years. I can't decide between whether to go for traditional publishing or self-publishing. I currently work 4 days per week, so I have quite limited time, and my budget isn't the biggest. Could you create a plan for me?",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "original": {
+    "judges": {
+      "llama": 3,
+      "gpt": 3
+    },
+    "mean_score": 3.0,
+    "median_score": 3.0,
+    "passed": true
+  },
+  "time_taken": 2.009
+}

@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Create a three-year plan with concrete steps and goals to grow Julie's cooking account online and publish a cookbook. Compare the positives and negatives between traditional vs. self-publishing a cookbook, and lay out steps for each option.\r\n\r\nTake into account Julie has limited time and budget to work on this cookbook.\r\n\r\nExtra details: Julie currently posts cooking videos to 1.2M followers.\r\nShe focuses on quick, healthy recipes. \r\nShe works four days a week on a different job.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T19:06:59.780597+00:00"
+}

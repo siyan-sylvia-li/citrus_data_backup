@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Hi, please help me with a concrete three year plan for Julie. she has 1.2 million followers and publishes quick healthy recipes. she wants to grow online and publish a cookbook over the next three years (either traditional or self-published). she works four days weekly, and has limited time and budget.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-28T13:35:08.547380+00:00"
+}

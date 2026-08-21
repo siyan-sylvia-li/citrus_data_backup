@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Create a three-year plan for my cooking business. I post cooking videos, I currently have 1.2 millions followers. Over the next three years I want to increase my online following and publish a cookbook. The plan must focus on reaching those goals through a series of concrete steps and subgoals for me to follow. Include options for whether to publish the cookbook via a traditional or self-publishing route",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-05T16:49:35.409805+00:00"
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Was there a winning line for Black in this endgame, or was White already too far ahead? Did my first move c8 cost me, or was the position already lost?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Would b8 have been a better first move than c8, or would it still have failed against White's corner control?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Once White holds both a1 and a8 in an endgame like this, is there any tactic to offset that corner control, or should Black just try to minimize the final margin?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After c8 and b7, was a7 the best local move, or did it accelerate the collapse? And was g2 a bad follow-up that gave away too much?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "What are C-squares and X-squares in Othello, and why are they dangerous to play in the endgame?"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Looking at this Connect 4 board, I'm Red. I think I see a diagonal building for me through c6r1, c5r2, and if I play column 4 it'd give me c4r3 too (three in a diagonal), but I can't finish it right away since c3 isn't tall enough yet. Meanwhile Yellow seems to have a diagonal threat too through c7r1/c6r2 and another through c3r2/c4r1. What's actually the best move for me right now?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 2
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  }
+]

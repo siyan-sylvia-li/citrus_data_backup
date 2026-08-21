@@ -1,0 +1,19 @@
+{
+  "created_prompt": "I need some help to create a plan to help develop my online cooking business. I've been doing my videos for a good few years and have manged to gain a good following of 1.2 million followers but it has sort of plateaued and need help generating new followers. I am also hoping to publish my first cooking containing quick, easy and healthy recipes as these are my biggest views but not sure if to go down the traditional or self publishing route. I could do with a realistic plan for the next 3 years to help with this, I do have a limited budget and time as I do work four days a week.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-28T13:15:59.211190+00:00"
+}

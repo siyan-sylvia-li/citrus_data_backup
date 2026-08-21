@@ -1,0 +1,19 @@
+{
+  "created_prompt": "I'd like you to decide me a three year plan to achieve my goal of growing my cooking business online to eventually publish a cookbook. Give me options for approaching book agencies and for self-publishing. I create quick and healthy recipes and have an audience of 1.2 million people. Make sure the plan is not time consuming, and financially savvy",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-21T15:04:25.410515+00:00"
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, I\u2019m stuck on this Othello endgame. My legal moves are g2, b6, a7, b7, b8, and c8. c8 flips a ton of discs, but I\u2019m worried it opens a1 for White. b7 seems to block a1 but White still has a3 and b6. Can you tell which move actually maximizes Black\u2019s final disc count assuming perfect play?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I played b7 and White answered a8. Now my legal moves are g2, b6, a7, c8. Which one keeps Black ahead at the end?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  }
+]

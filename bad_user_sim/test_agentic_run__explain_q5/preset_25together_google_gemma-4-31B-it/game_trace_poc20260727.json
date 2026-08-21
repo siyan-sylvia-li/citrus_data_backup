@@ -1,0 +1,41 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, I'm new to this. Looking at the board, which of my legal moves (g2, b6, a7, b7, b8, c8) is the strongest for the long run?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at my options here\u2014g2, b6, a7, b7, b8, c8. Which one looks most promising?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm not too experienced with this. Between g2 and b7, which one is better for controlling the board?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at my options (g2, b6, a7, b7, b8, c8). I'm thinking b7 looks like it flips a lot of discs, but am I missing something more strategic?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Since I lost this one, could you explain the general strategy for these endgames? Like, should I have avoided taking too many discs early on?"
+  },
+  {
+    "tool": "view_board"
+  }
+]

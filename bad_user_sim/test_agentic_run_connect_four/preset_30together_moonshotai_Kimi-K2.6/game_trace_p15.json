@@ -1,0 +1,34 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, I'm stuck on this Connect Four puzzle. I think c4 might set up a diagonal threat (c6r1-c5r2-c4r3 needing c3r4), but I'm not sure how to follow up if Yellow blocks. Is c4 the right first move, and if so, what's the winning idea?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Okay I played c4 and yellow answered c5. Board now shows c4r3,c5r3(Y),c6r3 on row 3. What's my winning follow-up? I can't see the forced continuation."
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I played c4 and yellow answered c1. Board now has c4r3 and c4r4. How do I finish this? I can't spot the immediate follow-up."
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "play_move",
+    "move": 7
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  }
+]

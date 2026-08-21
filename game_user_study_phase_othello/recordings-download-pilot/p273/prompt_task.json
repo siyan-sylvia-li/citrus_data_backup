@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I work 4 days a week, so have limited time and budget. I already have many online followers with whom I share quick, healthy recipes. I wish to grow online and publish a cookbook over the next 3 years. Please formulate a 3 year plan to help me achieve this goal. Please also advise whether the cookbook publishing should be via traditional routes or should I publish myself?",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-30T13:31:43.038560+00:00"
+}

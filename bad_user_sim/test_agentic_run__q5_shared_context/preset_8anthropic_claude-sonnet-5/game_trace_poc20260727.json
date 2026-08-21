@@ -1,0 +1,45 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Only 10 empties left so this is basically the whole endgame. My options are g2, b6, a7, b7, b8, c8. Which one actually wins the final count, and can you briefly explain the key threat I'm missing?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Yeah, White grabbed a8 and flipped my b7 straight back. Now I'm down 24-32 with g2, b6, a7, c8 as options. What's the best line from here?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "What's the best move now among g2, b6, a7, c8 given I'm behind 24-32?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Only 4 empties left (a1, h1, b6, a7), so this should be fully solvable. Can you walk through the game tree and tell me which of my three legal moves (a1, b6, a7) actually gives the best final score assuming White defends perfectly? I want the real forced-line answer, not a heuristic guess."
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Can you solve the remaining 4-square endgame exactly (a1, h1, b6, a7 empty) and tell me whether I should play a1, b6, or a7 for the best final score against perfect White play?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  }
+]

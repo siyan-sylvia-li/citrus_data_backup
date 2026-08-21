@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I'm a content creator who focuses on making cooking videos. I have 1.2 million followers and my most viewed content is related to quick and healthy meals. I want to publish a cookbook, but I'm still unsure on wether I should go traditional or self-publish. I work four days a week and I don't have a lot of time nor a big budget to work with. I need you to give me a step by step three-year plan to fit all the things I need to manage for content creation, pros and cons of publishing my cookbook traditional or by myself (and how to schedule writing and designing it), and I need this within my time and budget.",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "qwen",
+      "score": null
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-15T00:03:32.150015+00:00"
+}

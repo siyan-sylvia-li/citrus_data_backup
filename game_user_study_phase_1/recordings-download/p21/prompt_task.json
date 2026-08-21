@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Write me a plan that covers the next three years, with focus on expanding my social media presence while also working on publishing (either traditional or self publish) a cookbook with quick and healthy recipes. Plan must suit someone with limited time and budget.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-23T16:09:17.850409+00:00"
+}

@@ -1,0 +1,40 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm Black in this Othello endgame. My options are g2, b6, a7, b7, b8, c8. b6 looks like it flips the most discs right away, but I know endgames are more about who gets the last move and stable positions. Can you tell me which single move actually gives me the highest final score if White plays perfectly? I don't need a full playthrough, just the right square to pick and why."
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "a8"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "The board I'm looking at now shows zero empty squares and tells me I must pass. Is this a new puzzle that started, or is the game already finished? I don't see anywhere to move."
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I played c8 first, then b6, then a8, and got crushed. Can you tell me which of my three moves was the big mistake, or was the position already lost no matter what? Specifically, was c8 the wrong opening move, or did I throw it away with a8 later?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I completely ignored g2 as a first move because it felt small and far from the corner battle. Would g2 have been a safer or stronger opening than c8 in this endgame, or was c8 still the right way to go?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After c8 in this specific endgame, I played b6 then a8 and lost. What should Black's move 2 and move 3 have been instead of b6 and a8 to keep control of that bottom-left region?"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Hi there - I'm new to this. Looking at the board, is there a move I should make right now that's clearly the strongest, or any trap I need to watch out for from Yellow?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I have three red discs diagonally lined up (c2r2, c3r3, c4r4), and I'd need column 5 to eventually stack up two more to reach r5 for the win. Should I play column 5 now to start forcing it, or is there a better move on this board?"
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  }
+]

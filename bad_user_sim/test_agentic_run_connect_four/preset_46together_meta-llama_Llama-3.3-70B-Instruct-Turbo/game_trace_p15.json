@@ -1,0 +1,18 @@
+[
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "play_move",
+    "move": 2
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "What's the best move from here?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  }
+]

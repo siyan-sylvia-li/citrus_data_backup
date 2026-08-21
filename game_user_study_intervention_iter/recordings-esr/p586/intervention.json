@@ -1,0 +1,41 @@
+{
+  "idea": "I would ask it to explain why it\u2019s the best move so I know the reasoning behind it and can replicate it myself",
+  "n_chars": 110,
+  "start_message": "What do you think would be the best move right now?",
+  "selected": "say_thinking",
+  "selected_type": "think_aloud",
+  "selected_carries_forward": true,
+  "others_shown": [
+    "ask_answer",
+    "look_ahead"
+  ],
+  "option_order": [
+    "say_thinking",
+    "ask_answer",
+    "look_ahead"
+  ],
+  "seconds_on_page": 57,
+  "form": "elicit_select_reply",
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 4
+      },
+      {
+        "model": "nemotron",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.333,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-20T13:06:39.620791+00:00"
+}

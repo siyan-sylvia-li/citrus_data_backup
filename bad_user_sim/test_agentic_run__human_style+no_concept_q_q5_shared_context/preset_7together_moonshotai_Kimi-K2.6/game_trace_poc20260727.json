@@ -1,0 +1,44 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm stuck between b7 and g2. b7 flips that whole row but I worry it opens up b8 or c8 for White. Is g2 the safer bet, or should I just go with b7?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at b6 and a7 next. b6 flips two but I feel like White hits back on c8. a7 looks quieter. Which one should I go with?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I think I finished too fast and didn't ask enough. Can we run that puzzle again so I can do it right?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Should I have picked g2 first instead of b7?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Did playing b6 instead of c8 cost me the game there?"
+  }
+]

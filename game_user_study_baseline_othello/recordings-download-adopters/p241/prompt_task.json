@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I'm a cooking content creator with followers of 1.2 million. In three years time, I want to grow online and publish a cookbook. I'm not sure if I should self-publish or go the traditional route with a publisher. I'm busy working 4 days per week and have limited time and budget. Provide a 3-year plan to accomplish my goals.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T14:43:29.262223+00:00"
+}

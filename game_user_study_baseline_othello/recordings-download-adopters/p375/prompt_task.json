@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Julie posts cooking videos of quick, healthy recipes and currently has 1.2 million followers. She wants to publish a cookbook but isn't sure if she should go through traditional publishing or self-publishing. She works 4 days a week, so she has limited time and limited budget. Make a concrete 3 year plan for Julie to grow her online presence and publish a cookbook. Go step by step and take into account the prior factors. Weigh the pros and cons of traditional versus self-publishing for her cookbook.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T23:20:58.133021+00:00"
+}

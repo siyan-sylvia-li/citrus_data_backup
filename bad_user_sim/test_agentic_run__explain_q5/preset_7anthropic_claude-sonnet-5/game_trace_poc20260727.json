@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I'm Black and it's endgame. My legal moves are g2, b6, a7, b7, b8, c8. Which one gives me the best final disc count if White plays well? Can you just tell me the best move and briefly why?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now my options are g2, b6, a7, c8. Which is best for the final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Only 6 empty squares left: a1, h1, g2, a3, b6, a7. My legal moves are g2, b6, a7. Which should I play to maximize my final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Looking back, why was White stuck passing so many times in a row near the end? I don't fully get why it couldn't move even though it had way more discs than me."
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Was there a risk in playing a3 before a1 - like could White have had some move in between that I got lucky avoiding, or was that sequence actually forced/safe?"
+  }
+]

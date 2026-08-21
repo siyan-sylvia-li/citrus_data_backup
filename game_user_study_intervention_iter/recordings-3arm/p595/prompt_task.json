@@ -1,0 +1,25 @@
+{
+  "created_prompt": "i thiink planning at least 1/2 days a week every week is realistic for over the 3 years maybe one day cooking and the other editing/posting",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 1
+    },
+    {
+      "model": "gpt",
+      "score": 1
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 1.0,
+  "median_score": 1,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 1.0,
+  "submitted_at": "2026-08-21T13:32:52.424391+00:00"
+}

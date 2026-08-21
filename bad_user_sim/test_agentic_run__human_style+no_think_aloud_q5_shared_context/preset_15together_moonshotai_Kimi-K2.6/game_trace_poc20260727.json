@@ -1,0 +1,34 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "white got a8 after my b7 - did that just lose me the game? now i'm looking at g2, b6, a7, c8. g2 flips a lot but i don't want to give h1 away. should i still play g2?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "did b7 lose me the game or was it already bad"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "what if i did g2 first instead of b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "was c8 any better or did it not matter by then"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "so was this puzzle even winnable for black"
+  }
+]

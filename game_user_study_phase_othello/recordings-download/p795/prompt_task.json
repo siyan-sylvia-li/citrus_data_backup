@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I am a cooking influencer with 1.2mil followers. My focus is quick and healthy recipes. Over the next three years I would like to grow my online following and be able to successfully publish a cookbook. I will be limited to 4 working days per week and also have limited time and financial resources. Please build me a three year plan for achieving these goals, so that I can grow successfully to the point where I can publish my cookbook.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T14:52:49.752539+00:00"
+}

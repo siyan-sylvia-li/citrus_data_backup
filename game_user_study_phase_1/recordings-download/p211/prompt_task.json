@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Over the next three years, Julie is looking to grow her online presence and publish a cookbook. She isn\u2019t sure if she should look to publish it through traditional methods or self-publish. She currently has 1.2 million followers who love her quick, healthy recipes. She has a limited budget and limited time since she works four days weekly. Please devise a concrete three year plan for Julie.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-24T13:37:22.529976+00:00"
+}

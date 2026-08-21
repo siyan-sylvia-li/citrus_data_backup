@@ -1,0 +1,49 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "c8 looks like it flips a ton of stones, but I\u2019m worried White can answer with a3 or b6 and I\u2019ll lose control. Is c8 still the best play, or should I look at b7 or something else?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I took your advice and played b7. White hit back with a8 and flipped b7 and c6, so now I\u2019m behind 24-32. My legal moves are g2, b6, a7, c8. Which of these holds up best after White\u2019s a8? I don\u2019t want to walk into that a3 bomb."
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Did I actually need b7, or could I have won from c8 right at the start if I\u2019d played it differently?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "That forced g2 at the very end\u2014was that actually the best last move, or did the system just auto-play it because it was the only legal square?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "One last thing: were there any quiet traps in that endgame that I completely missed, or did I mostly play it clean?"
+  }
+]

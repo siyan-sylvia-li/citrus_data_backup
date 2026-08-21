@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Hi, I'm pretty new to this game. I have to pick from g2, b6, a7, b7, b8, or c8 - which one sets me up best in the long run? I don't really know how to think ahead in this game."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White just took the a8 corner after my move - did I mess up bad? Now I can play g2, b6, a7, or c8, which is best now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White's way ahead now, 36 to 22, only g2, b6, a7 left for me. Is there any way to still come back, and which one should I play?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Down 40 to 20 with only a1, g2, a3 left as options and 4 empty squares total. What should I play now to end up as best as possible?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Last couple moves here, a1 or g2 - which order gets me the better final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "b7 looks like a huge swing, but I'm worried about giving up a8/b8. Is b7 the optimal play here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at the board. I've got g2, b6, a7, b7, b8, and c8 available. b7 looks like it has the most flip potential, but what's the actual engine-recommended move to maximize the final count here?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I've got g2, b6, a7, b7, b8, and c8 as legal moves. b7 looks like a huge flip, but is it a trap? What's the move that actually secures the win here?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Looking at the board, b7 seems like it would flip a lot of discs. Is that the strongest move, or am I just falling for a trap?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Looking at the board, b7 looks like it would flip a massive chunk of the middle. Is that the best way to go, or is it too risky?"
+  },
+  {
+    "tool": "view_board"
+  }
+]

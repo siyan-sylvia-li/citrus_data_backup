@@ -1,0 +1,30 @@
+[
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I got destroyed 14-50. What was the winning first move instead of a7?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "what was the right first move there?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "was b6 any better?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "how do you even evaluate that kind of endgame?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "any quick tips for these othello puzzles?"
+  }
+]

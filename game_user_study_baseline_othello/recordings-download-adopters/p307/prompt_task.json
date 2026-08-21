@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Please develop a reasonable 3-year plan with specific key milestones (at different time markers) for publishing a cookbook. I'm a cooking vlogger who posts videos to my 1.2 million subscribers about healthy quick recipes. My primary goal is to grow online and publish my cookbook (torn on traditional vs self-publishing). I work four days a week and have limited time and budget. Please devise a concrete three-year plan.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T23:29:25.515599+00:00"
+}

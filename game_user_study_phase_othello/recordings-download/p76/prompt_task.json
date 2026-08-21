@@ -1,0 +1,23 @@
+{
+  "created_prompt": "The background is that this person is a cook who posts online her quick and healthy recipes. She now wants to grow her following and ultimately write a new cookbook. She is limited by working 4 days a week and has limited budget. Create a solid and detailed 3 year plan to achieve the stated goals.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T13:59:06.727379+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Please provide guidance about publishing a cookbook, weighing the pros and cons of using  traditional publishing routes versus self-publishing. Please include the projected costs of going with either stream. The book in question is a cookbook, and the author already has an online following of 1.2 million followers that could serve as potential customers. The author is working with limited time and funds so please take this into account when deciding on the best option for her.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T22:05:04.802990+00:00"
+}

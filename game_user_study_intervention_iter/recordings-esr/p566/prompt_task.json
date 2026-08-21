@@ -1,0 +1,25 @@
+{
+  "created_prompt": "I currently work four days a week and have limited time and budget.  I post cooking videos to 1.2M followers based on quick healthy recipes.  Please devise a concrete three year plan to \r\n1. Grow my online followers\r\n2. Publish a cookbook\r\n\r\nAlso include the advantages and disadvantages and costs of traditional publishing versus self publishing.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 4
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.333,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 3.333,
+  "submitted_at": "2026-08-20T14:50:14.288889+00:00"
+}

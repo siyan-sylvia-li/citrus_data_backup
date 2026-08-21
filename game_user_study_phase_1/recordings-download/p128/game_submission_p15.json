@@ -1,0 +1,9 @@
+{
+  "game": "connect_four",
+  "puzzle": "15",
+  "round": 0,
+  "moves": [],
+  "final_fen": null,
+  "end_reason": "manual",
+  "submitted_at": "2026-07-24T14:13:40.261209+00:00"
+}

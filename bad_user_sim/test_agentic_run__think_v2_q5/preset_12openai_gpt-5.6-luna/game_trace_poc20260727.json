@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I\u2019m seeing six choices and the board is really edge-heavy; which move gives Black the best final result if both sides play optimally?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "b7 opened up the left side, and now I\u2019m weighing the corner-adjacent moves against g2; which current move is safest with optimal White play?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After c8, White took b8 and Black is down on count; of g2, b6, and a7, which one actually preserves the best forced finish?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "The left side got mostly swallowed after a7; with only a1, g2, and a3 left, which move gives Black the best final disc count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "a3 forced a White pass, but I still need to choose between the two remaining moves; is a1 or g2 the better continuation against perfect play?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

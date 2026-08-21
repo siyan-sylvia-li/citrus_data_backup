@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Help me devise a concrete three-year plan to publsih a cookbook torn on traditional vs. self-publishing. I also want to grow online.I have been making cooking videos and I have 1.2m followers. I make quick healthy recipes. I work four days a week some I have limited time and budget.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T13:59:42.477402+00:00"
+}

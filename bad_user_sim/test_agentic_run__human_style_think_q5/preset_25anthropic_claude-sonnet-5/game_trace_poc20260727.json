@@ -1,0 +1,43 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm Black, down 20-34 with only 10 empty squares left. My legal moves are g2, b6, a7, b7, b8, c8. Which one gives me the best final count if White plays well?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now 24-32, my options are g2, b6, a7, c8. Which is best?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Looking back, where did I go wrong? I thought b6 was a good move flipping 4 discs but I still lost badly."
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Earlier when I was at 24-32 with options g2, b6, a7, c8, I played c8 on your advice but White replied b8 and pulled ahead to 36. Was there a better pick at that point?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Going back to the very start, my options were g2, b6, a7, b7, b8, c8 with score 20-34. I played b7 on your advice. Was that actually the right pick, or did it set up the edge problems that cost me the game?"
+  }
+]

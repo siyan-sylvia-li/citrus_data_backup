@@ -1,0 +1,23 @@
+{
+  "created_prompt": "You are a senior growth strategist and digital business advisor specializing in content creators. Based on the following scenario, develop a clear, actionable, and realistic three-year plan. Make the plan practical, structured, and easy to follow, using bullet points and timelines where appropriate.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.333,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T22:07:11.548226+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Create a realistic 3 yr plan for Julie covering audience growth + content, & income, cookbook development, and a clear recommendation between traditional and self publishing, considering her limited time and budget.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 3.0,
+  "submitted_at": "2026-08-20T19:29:17.833947+00:00"
+}

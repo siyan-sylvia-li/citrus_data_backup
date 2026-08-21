@@ -1,0 +1,25 @@
+{
+  "created_prompt": "I need you to create a three-year plan for Julie who is an influencer with cooking videos up to 1.2 million followers. She promotes healthy and quick recipes and wants to publish a cookbook. also i will need the comparison of traditional vs self publishing for the cookbook.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.333,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.333,
+  "submitted_at": "2026-08-20T01:14:17.019046+00:00"
+}

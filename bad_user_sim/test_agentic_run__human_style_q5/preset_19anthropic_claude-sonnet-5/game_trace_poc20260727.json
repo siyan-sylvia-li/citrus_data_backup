@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "ok I'm way behind 20-34 with only 10 spaces left. Which of these moves is actually my best shot: g2, b6, a7, b7, b8, or c8?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "that a8 move cost me some discs back. Now it's g2, b6, a7, or c8 - which one actually holds up best?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "ouch, that swung hard to white. down to 22-36 now. of g2, b6, a7 - is there any way to actually claw back discs here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "only 4 squares left now (a1, h1, g2, a3), i can play a1, g2, or a3. which one actually wins me the game at the end?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "looking back, i'm still not 100% clear why giving up those corners early (like a8, b8) didn't sink me - can you explain why that big swing to white in the middle didn't matter in the end?"
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "variant": "v9_two_rows",
+  "observation": "The blue participants seem to be asking for current moves ans several moves ahead. The red participants seem to be very sepcific and detailed in their inquiries and seem to be focusing mostly on the very next move",
+  "choice": "B",
+  "choice_correct": true,
+  "effort": {
+    "judges": [
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "llama",
+        "score": 4
+      },
+      {
+        "model": "nemotron",
+        "score": 3
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.333,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-19T11:25:14.361538+00:00"
+}

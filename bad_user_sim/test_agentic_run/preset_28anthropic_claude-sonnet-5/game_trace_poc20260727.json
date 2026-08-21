@@ -1,0 +1,41 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, I'm Black in this Othello endgame with only 10 empty squares left. My legal moves are g2, b6, a7, b7, b8, c8. I'm behind in discs (20 to 34) but I know that can flip. Which of these moves gives me the best shot at winning the final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now my options are g2, b6, a7, c8. Which one sets me up best for the rest of the endgame?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Down to g2, b6, a7 as my options with 6 empty squares left. I'm worried about giving White the corners. Which move is safest/best here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

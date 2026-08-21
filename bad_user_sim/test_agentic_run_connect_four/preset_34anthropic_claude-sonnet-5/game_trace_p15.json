@@ -1,0 +1,37 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Looking at this board, is there a forced win for Red right now, and if so what's the best first move? I was eyeing column 4 (to build a diagonal with c6r1/c5r2 toward c3r4) but also noticed column 2 gives me three-in-a-column vertically forcing a block. Which line actually wins?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Yellow avoided column 3 (smart, since that trap is still live for me). Now what's my best move? I see column 4 could give me a vertical three-in-a-row threat (r3,r4,r5) forcing a block, and column 2 also has some diagonal implications. What keeps the c3 trap alive while making real progress?"
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm worried about parity here \u2014 if we both just avoid column 3 and fill everything else, I think I'd eventually be forced to play c3 first (giving Yellow the block at c3r4). Is that actually a problem, or is there a concrete forcing sequence from here that guarantees the win regardless? What should I play right now?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Fictional Scenario:\r\n\r\nJulie posts cooking videos to 1.2M followers who love her quick, healthy recipes.\r\nOver the next three years she wants to grow online and publish a cookbook (torn on traditional vs. self-publishing).\r\nShe works four days weekly, limited time and budget.\r\nThe goal for the AI agent here is to devise a concrete three-year plan.",
+  "judges": [
+    {
+      "model": "nemotron",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 3.0,
+  "submitted_at": "2026-08-20T01:02:59.176681+00:00"
+}

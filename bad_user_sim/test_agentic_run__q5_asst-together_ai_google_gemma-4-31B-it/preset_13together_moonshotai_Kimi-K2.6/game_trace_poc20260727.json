@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I think b7 is the only move that stops White from taking a1 and flipping a bunch of my discs next turn. Am I right, or is there another move that blocks that a1 trap?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Was b7 really the best first move, or would c8 or b6 have been stronger? I was worried about a1 but maybe I overreacted."
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After I played b6 and White took a7, the left edge felt like it was slipping away. Was there any way to stop White from locking down that whole side?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "When I played g2 I flipped a lot of discs, but then White hit a1 and everything fell apart. Was g2 too greedy, or was I already losing before that?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "At the end I had b8 and c8 and I picked c8. Would b8 have been any better, or was the game already over?"
+  }
+]

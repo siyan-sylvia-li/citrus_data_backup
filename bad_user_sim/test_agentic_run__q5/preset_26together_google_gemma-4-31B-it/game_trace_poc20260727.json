@@ -1,0 +1,37 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Um, I'm not really sure what to do here. Which move is the best one to make right now? I have g2, b6, a7, and c8."
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm lookin' at the board and it seems I lost pretty bad. Why'd that happen?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "You mentioned something about corners... I guess I didn't realize those were so important. Are they always the best spot to aim for?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "So if I had taken one of those corners instead of c8, would it have changed things?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "You mentioned something about \"damage control\"... I'm a bit confused. How do you tell if a move is just damage control or actually a good move?"
+  }
+]

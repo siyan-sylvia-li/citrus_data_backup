@@ -1,0 +1,23 @@
+{
+  "created_prompt": "A very popular online personality (large audience) - who posts videos featuring quick, healthy dishes - wants to expand into publishing a collection of her recipes. WIth limited free time and on a budget, she needs a realistic, step-by-step, 3-year plan for producing this book... with separate timelines, resources, and steps clearly delineated & explained on whether she goes through traditional publishers or self-publishes.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-03T16:56:39.362254+00:00"
+}

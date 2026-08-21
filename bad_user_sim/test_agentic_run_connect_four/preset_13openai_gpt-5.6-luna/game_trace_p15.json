@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Can you help me find the best move here? Please check for forced wins or threats, not just a quick guess."
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After Red 4 and Yellow 5, what's my best next column? Is there a specific threat I need to block right now?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now after Yellow played column 1, which Red move is strongest? Please account for any immediate Yellow win and my best way to make a threat."
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After my 5 and Yellow's 1, what exact Red move is best now? I want to avoid setting up a Yellow diagonal while building a real winning threat."
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  }
+]

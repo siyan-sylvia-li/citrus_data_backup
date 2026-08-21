@@ -1,0 +1,33 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Quick sanity check: I think c4 wins for Red \u2014 it gives me (4,3) so the diagonal 6a-1/5-2/4-3 only needs c3 row4, and it stops Yellow's c4 stack. Yellow then has to take (5,3) or I get a stacked double in column 3. Does that hold up, or is c5 stronger?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I have a permanent win square at (3,4) (Yellow can never touch col 3), plus a latent one at (5,5) via (2,2)-(3,3)-(4,4). But 26 cells left with me to move, so (3,4) being an even row means pure zugzwang favors Yellow. Order matters: do I play (3,3) now, or fill (5,4) first so (3,3) becomes a genuine double at (3,4)+(5,5)?"
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  }
+]

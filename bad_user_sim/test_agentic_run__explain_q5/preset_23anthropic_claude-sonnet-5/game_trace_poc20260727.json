@@ -1,0 +1,44 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "This is near the end of the game, only 10 empty squares left. My legal moves are g2, b6, a7, b7, b8, c8. Which one sets me up best for the final count? I'm currently behind 20-34 but I know that can flip. Can you walk through which move wins the most discs by the end?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Hmm, that felt a bit general. Can you actually trace out the flips for b7 versus, say, c8 or b6, and tell me the projected final score for each so I know you're not just guessing?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White took a8 and flipped my b7 back. Now my options are g2, b6, a7, c8, only 8 empty left. What's the best move now to maximize my final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Looking back \u2014 right when I had g2, b6, a7, b7, b8, c8 as options at the very start, was b7 actually the best possible first move, or was there something even stronger I missed that could've closed the gap more?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "One more thing I want to sanity check \u2014 in that final 4-square endgame (a1, h1, b6, a7), I convinced myself b6 as my first move there would've been worse than a7, something like 27-37 instead of 29-35. Does that sound right to you, or was I overthinking it?"
+  }
+]

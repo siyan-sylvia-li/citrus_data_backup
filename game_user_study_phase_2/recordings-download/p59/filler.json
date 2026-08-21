@@ -1,0 +1,25 @@
+{
+  "reflection": "I would advise Julie to focus on her online audience, using them for market research for the book, going to a traditional publisher with her reach established. She should try and work on recipes which use similar ingredients so she can focus one day a week on creating her content and could further narrow her niche into meal prepping and get collabs and build her followers like that",
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 4
+      },
+      {
+        "model": "gpt",
+        "score": 4
+      },
+      {
+        "model": "nemotron",
+        "score": 4
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 4.0,
+    "median_score": 4,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-18T21:19:25.503008+00:00"
+}

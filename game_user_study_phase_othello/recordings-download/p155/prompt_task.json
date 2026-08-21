@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Can you please devise me a concrete three-year plan to help me with how I can achieve growing my online presence and what steps I can take to publish a cookbook. Could you also give me pros & cons on traditional vs. self-publishing. Also, my schedule is kind of tight and I don't have a really high budget.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-04T13:24:19.674453+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "variant": "v0_live",
+  "observation": "Group A used more past experience in order to make their assessment, while group B more focused on the person to make their own self judgement from previously prompted questions.",
+  "choice": "A",
+  "choice_correct": false,
+  "effort": {
+    "judges": [
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 3
+      },
+      {
+        "model": "llama",
+        "score": 3
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.0,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-18T07:09:23.317475+00:00"
+}

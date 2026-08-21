@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I want to publish a cookbook within 3 years. I'm open to publish the book via traditional means or self-publish. During this time i'd also like to grow my online following. I currently have 1.2million followers who watch my quick and healthy recipe videos. I work a full time job 4 days a week, thus have limited time and want to stick to a modest budget. Using this information shared, could you create a concrete 3 year plan which will allow me to reach my goals.",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-10T17:54:10.513555+00:00"
+}

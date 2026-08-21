@@ -1,0 +1,26 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "hey, i'm kinda stuck on this connect four puzzle. which column should i play to win? like, is there a forced win here or just a best move? thx! \ud83d\ude4f"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "thanks! i played col 4 and yellow went col 5. am i still winning? what\u2019s my next move to keep the forced win?"
+  },
+  {
+    "tool": "play_move",
+    "move": 2
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "ok so i played c2 and yellow blocked. now i'm staring at this and i'm not sure what's next lol. is it c3 or c4? what's the actual winning line here?"
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  }
+]

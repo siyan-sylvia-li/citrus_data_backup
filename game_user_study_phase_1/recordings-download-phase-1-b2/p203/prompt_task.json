@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Create a three-year plan for food cooking creator who already has 1.2 million followers and wants to grow more. Suggest ideas to grow her channel, noting her audience likes quick, healthy recipes. Also suggest potential options for publishing a cookbook from either a traditional publisher or self-publishing.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "qwen",
+      "score": null
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-15T17:56:33.984549+00:00"
+}

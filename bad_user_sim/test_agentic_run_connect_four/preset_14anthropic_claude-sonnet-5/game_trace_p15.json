@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, first time doing this - looking at the board, is there an immediate threat I need to block, or a winning move I should be jumping on? I see a lot of diagonal stuff with my pieces at c5r2/c6r3 and c2r2, but I can't tell if it's real or not."
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Ok so which move creates a threat Yellow has to answer, without handing them a win? Column 4 seems interesting to me since it's central but I'm nervous about it."
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Wait, I think Yellow has c5r3, c6r2, c7r1 all yellow on a diagonal and c4r4 would complete it \u2014 that's playable right now. Do I HAVE to block by playing column 4 immediately?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I see three of mine on a diagonal (c4r3, c5r2, c6r1), needing c3r4 to win, but c3 only has 2 pieces so far so r4 isn't playable yet. What should I play now \u2014 is going c3 itself (to set up r4 next) safe, or does that just let Yellow block it right away?"
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "If I play column 4 now (landing on r5), I get three stacked reds at c4r3-r5 (threatening r6 vertical) AND three in a diagonal c4r5-c5r4-c6r3 (threatening c7r2, which is playable right now). Is this actually a real double threat that wins, or am I missing something?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  }
+]

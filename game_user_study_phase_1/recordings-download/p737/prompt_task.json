@@ -1,0 +1,19 @@
+{
+  "created_prompt": "I post cooking videos with quick, healthy recipes to 1.2 million followers online. I want to grow my online following and publish a cookbook but I am torn between traditional publishing and self-publishing. I currently work 4 days a week and have limited time and budget to dedicate to this project. Please suggest a detailed 3 year plan for me to reach this goal with a concrete plan of action.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-24T13:30:48.715886+00:00"
+}

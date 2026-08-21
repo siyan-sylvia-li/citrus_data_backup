@@ -1,0 +1,25 @@
+{
+  "created_prompt": "please make me a schedule that permits up to 4 days of work a week that will utilize my 1.2 million followers (of which should grow) to publish a cookbook",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 2
+    },
+    {
+      "model": "nemotron",
+      "score": null
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 2.0,
+  "median_score": 2.0,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.0,
+  "submitted_at": "2026-08-20T02:46:51.747729+00:00"
+}

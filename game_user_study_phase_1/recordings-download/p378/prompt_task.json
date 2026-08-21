@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Please devise a 3 year plan that details how a cook with a million plus followers can grow their audience, with the ultimate aim of publishing a cook book,  but taking into account limited time and budget.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-22T20:53:59.426652+00:00"
+}

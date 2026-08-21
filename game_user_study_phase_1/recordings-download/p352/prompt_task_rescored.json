@@ -1,0 +1,32 @@
+{
+  "created_prompt": "My name is Julie and I regularly post quick and healthy recipes to my 1.2 million social media followers. Over the next 3 years I want to continue my online follower growth and then publish a cookbook (either traditional publishing or self published). I work four days a week so my time is limited and I also have a budget so money is an issue too. Please give me a 3 year plan to make this all happen.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "original": {
+    "judges": {
+      "gpt": 3,
+      "llama": 3
+    },
+    "mean_score": 3.0,
+    "median_score": 3.0,
+    "passed": true
+  },
+  "time_taken": 17.584
+}

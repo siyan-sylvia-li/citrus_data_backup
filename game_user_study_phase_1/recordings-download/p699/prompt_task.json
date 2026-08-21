@@ -1,0 +1,19 @@
+{
+  "created_prompt": "You are a top class creative strategist and publishing consultant. Generate a concrete and realistic three year growth plan for a content creator who works 4 days a week and posts videos to more than 1 million followers who love healthy and quick recipes. The goal is audience growth and the publishing of a cookbook. Budget and time are limited. \r\nThe plan must include a detailed roadmap; content, growth and email-list strategies with a work schedule optimized for a four days week. Also include quarterly Kpis, generate a comparison (plus recommendations) of traditional versus self publishing & a (budget friendly!) launch plan for a cookbook. Make sure to highlight key risks, major decision checkpoints and the top 4 actions to start with.\r\nFormat the plan in the most convenient way possible, using tables (if useful), clear headings and integrating actionable tips and suggestions.",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 4
+    },
+    {
+      "model": "llama",
+      "score": 4
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 4.0,
+  "median_score": 4.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-16T17:49:10.935794+00:00"
+}

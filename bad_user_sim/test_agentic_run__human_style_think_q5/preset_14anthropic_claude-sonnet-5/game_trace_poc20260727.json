@@ -1,0 +1,48 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "only 10 spots left empty, which of g2, b6, a7, b7, b8, c8 sets me up best long term?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White grabbed a8. Now which of g2, b6, a7, c8 gives me the best shot at winning the count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "g2 grabs me 5 discs but I think it lets White nuke back with a3 or b6 after. With only 6 squares left (g2,b6,a7,a1,h1,a3), what's my actual best move right now for the final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "looking back, was giving up that corner to White earlier actually unavoidable, or did I mess up somewhere before that?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "why did my a3 move force White to pass right after? that felt like the turning point of the whole game"
+  }
+]

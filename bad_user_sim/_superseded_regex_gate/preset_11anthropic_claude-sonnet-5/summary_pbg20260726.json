@@ -1,0 +1,43 @@
+{
+  "puzzle": "bg20260726",
+  "decisions": 3,
+  "optimal_moves": 3,
+  "opener_optimal": true,
+  "discs_lost": 0,
+  "final_margin": 4,
+  "won": true,
+  "optimal_margin": 4,
+  "completed": true,
+  "moves": [
+    "b2",
+    "g8",
+    "h7"
+  ],
+  "auto_played": [],
+  "chat_turns": null,
+  "game": "othello",
+  "round": 1,
+  "ai_available": false,
+  "model_settings": {
+    "max_tokens": 100000
+  },
+  "questions_asked": 0,
+  "question_budget": 0,
+  "profile": {
+    "persona": "A concerned resident with insider knowledge of local government operations",
+    "age": 49,
+    "education": "associate",
+    "occupation": "government",
+    "ai_frequency": "few_times_month"
+  },
+  "student_model": "anthropic:claude-sonnet-5",
+  "student_mode": "human_style",
+  "questions_required": 5,
+  "assistant_off": false,
+  "assistant_model": "openai/gpt-5.5",
+  "tool_framing": "shared_context",
+  "gate": "concept_q",
+  "gate_blocked": 0,
+  "assistant_preset": "default",
+  "streamed": false
+}

@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Devise a three year plan or create an online presence in which to publish a cookbook leveraging on my 1.2m videos within a four day working week.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.333,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.333,
+  "submitted_at": "2026-08-18T16:27:33.637822+00:00"
+}

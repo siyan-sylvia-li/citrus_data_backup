@@ -1,0 +1,25 @@
+{
+  "reflection": "Leverage her large following to pursue traditional publishing. With 1.2M followers, a major publisher will pay an advance to handle layout, editing, printing, and distribution, which saves her time and upfront capital and that would be my advice for julie",
+  "effort": {
+    "judges": [
+      {
+        "model": "gpt",
+        "score": 4
+      },
+      {
+        "model": "nemotron",
+        "score": 4
+      },
+      {
+        "model": "llama",
+        "score": 4
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 4.0,
+    "median_score": 4,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-18T20:47:59.868764+00:00"
+}

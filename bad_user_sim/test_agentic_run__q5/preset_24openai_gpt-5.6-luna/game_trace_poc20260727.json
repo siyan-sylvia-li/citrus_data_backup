@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Which legal move is optimal here if both sides play perfectly? Please give the principal variation or at least the best first move."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After b7 and White's a8, what is Black's best move now? Please continue with the optimal line if possible."
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now after White b8, Black has g2, b6, a7. Which is optimal, and what should I play afterward?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I\u2019m least certain whether the earlier choice of b7 was truly optimal rather than just plausible. Can you verify the complete line and final result from the current finished position?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Given the original position and legal moves g2, b6, a7, b7, b8, c8, can you compare the alternatives enough to confirm b7 is the minimax-best first move?"
+  }
+]

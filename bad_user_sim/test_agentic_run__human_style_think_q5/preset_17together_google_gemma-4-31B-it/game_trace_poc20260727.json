@@ -1,0 +1,41 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Looking at the board, g2 or b7 seem strong. Which one is the better play here?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm looking at the board. Should I prioritize corners or try to flip more discs now? Maybe b7?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm a bit surprised by the final result. Where did I lose control of the board?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Would a different opening or middle game strategy have stopped white from getting those corners?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Makes sense. Any general rule of thumb for avoiding this kind of collapse? Like a red flag to watch for?"
+  }
+]

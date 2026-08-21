@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I'm Black with 10 empty squares left. My options are g2, b6, a7, b7, b8, c8. I calculated c8 flips 6 discs (d8, c7, d7, e6, f5, g4) getting me to 27 vs White's 28, and b7 flips 5 (c7-g7) getting me to 26 vs 29. Which of these is actually the best move once White responds optimally - is c8 really best or does it backfire?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "New position, my options are g2, b6, a7, c8. I noticed g2 grabs 5 discs but then White can play a3 and flip 6 of mine back (a4,a5,b3,c3,b4,b2), which seems disastrous. Which of these four moves is actually best for the final outcome?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now only 6 empty squares left: a1,h1,g2,a3,b6,a7. My legal moves are g2, b6, a7. I worry g2 again lets White play a3 for a huge 6-flip swing like before. Which of these three should I play for the best final score?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Looking back, I was really unsure about that middle stretch where my count dropped to 20 vs 40 \u2014 was there a point where I could have avoided that big dip, or was that swing actually just a normal/expected part of the endgame math?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "One more thing I want to understand for next time \u2014 what's the general rule of thumb I should use early on to avoid setting up those big multi-disc counter-flips for my opponent, like the a3 trap you warned me about twice?"
+  }
+]

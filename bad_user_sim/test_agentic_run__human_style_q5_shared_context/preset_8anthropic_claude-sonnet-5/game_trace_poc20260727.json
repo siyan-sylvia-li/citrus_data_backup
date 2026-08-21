@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "hey, this is a tight endgame, only 10 empty squares left and I'm down 20-34. which of my legal moves (g2, b6, a7, b7, b8, c8) actually sets me up best long term?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "ok white grabbed a8 and flipped my b7 back. now choices are g2, b6, a7, c8 - what's best?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "wait, I'm worried a3 is a monster square for white no matter what I do here - it looks like it flips a huge diagonal/column no matter which of g2/b6/a7 I pick. which of these three actually minimizes the damage from white's a3 followup?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "that a3-a1-h1-g2 order ended up locking white out completely for a 41-23 win - was that actually forced/optimal, or did white just have no good replies regardless of what I did?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "looking back, I dipped to 20-40 before this recovery - was that dip actually unavoidable given my earlier moves, or did I mess up somewhere in the b7/c8/a7 sequence?"
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "created_prompt": "I have an online cooking channel with 1.2M followers and a focus on healthy, quick-to-prepare recipes. I'm looking to continue growing my channel and publish a cookbook in the next three years. Give me a plan for how I can achieve the growth I want, continue to put out fresh content that will maintain my audience and attract new followers, while staying on pace with the cookbook. Give me the pros and cons of traditional vs. self-publishing, as well as a step-by-step three-year plan for each route, given my limited time and current work schedule for the channel (four days weekly).",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "original": {
+    "judges": {
+      "llama": 3,
+      "gpt": 3
+    },
+    "mean_score": 3.0,
+    "median_score": 3.0,
+    "passed": true
+  },
+  "time_taken": 3.854
+}

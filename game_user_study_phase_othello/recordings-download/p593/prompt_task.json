@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I have 1.2M followers on my cooking channel. I want to grow my channel and publish a cookbook. I work 4 days a week and have limited time and budget. Write me a three year plan so I can achieve my goal.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-04T18:04:28.579709+00:00"
+}

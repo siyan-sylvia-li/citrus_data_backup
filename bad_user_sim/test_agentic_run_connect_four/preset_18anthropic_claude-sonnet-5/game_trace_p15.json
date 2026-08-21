@@ -1,0 +1,30 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Looking at this Connect Four board, I see Yellow has a sneaky diagonal building (c7r1, c6r2 both Yellow, needing c5r3 and c4r4). I also see Red has a diagonal with c6r1, c5r2. What's the strongest move for Red right now and why?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now that I blocked Yellow's diagonal at c4r4, what's my strongest move? I'm eyeing either column 2 (stacking three reds vertically to force a block) or column 4 again (same idea, stacking to r5). Which leads to a better position, or is there something better?"
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  }
+]

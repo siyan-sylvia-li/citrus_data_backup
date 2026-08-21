@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Act as a strategic growth and publishing advisor. Develop a concrete, realistic three-year plan for Julie, a cooking content creator with 1.2 million followers known for quick, healthy recipes.\r\n\r\nJulie wants to grow her online presence and publish a cookbook within the next three years, but she is undecided between traditional publishing and self-publishing. She currently works four days per week, so her available time is limited, and she has a limited budget.\r\n\r\nCreate a practical roadmap broken down by year and, where useful, by quarter. The plan should cover:\r\n\r\n-Audience and online growth strategy\r\n-Content strategy and sustainable publishing cadence\r\n-Building an owned audience (e.g., email list)\r\n-Cookbook concept, recipe development, testing, and validation\r\n-A structured comparison of traditional vs. self-publishing, including costs, risks, control, timeline, distribution, and marketing requirements\r\n-Criteria and a clear decision point for choosing the publishing route\r\n-Monetization opportunities that fit her limited time and budget\r\n-Marketing and launch strategy for the cookbook\r\n-Key milestones, priorities, dependencies, and measurable KPIs for each year\r\n-A realistic allocation of Julie's limited weekly time and resources\r\n\r\nPrioritize actions by impact and effort, avoid assuming unlimited resources, and explain why the recommended strategy is appropriate for someone who already has a large audience but limited time and budget. Highlight what Julie should start doing immediately, what can wait, and what she should avoid.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 4
+    },
+    {
+      "model": "gpt",
+      "score": 4
+    },
+    {
+      "model": "nemotron",
+      "score": 4
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 4.0,
+  "median_score": 4,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-07T13:33:32.091006+00:00"
+}

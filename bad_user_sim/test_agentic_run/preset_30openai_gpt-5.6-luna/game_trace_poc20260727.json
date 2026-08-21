@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Can you identify the best move in this Othello endgame and the key line against best play? Please focus on which of g2, b6, a7, b7, b8, c8 wins most discs."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White chose a8 after my b7. Current legal moves are g2, b6, a7, c8. What's the best move now, and what should I watch for in White's reply?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After b7 c8 b8, current legal moves are g2, b6, a7. Which one is best under best play? Please give just the move and likely White reply."
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Current after my a7 and White b6: four empties a1, h1, g2, a3; legal a1, g2, a3. What's best now against best play?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "puzzle": "oc20260727",
+  "decisions": 4,
+  "optimal_moves": 2,
+  "opener_optimal": false,
+  "discs_lost": 40,
+  "final_margin": -22,
+  "won": false,
+  "optimal_margin": 18,
+  "completed": true,
+  "moves": [
+    "g2!",
+    "b7",
+    "b6",
+    "a7!"
+  ],
+  "auto_played": [
+    "c8"
+  ],
+  "chat_turns": null,
+  "game": "othello",
+  "round": 0,
+  "ai_available": true,
+  "model_settings": {
+    "max_tokens": 200000
+  },
+  "questions_asked": 5,
+  "question_budget": 5,
+  "profile": {
+    "persona": "A finance professional skilled in analyzing market trends and identifying lucrative investment opportunities",
+    "age": 39,
+    "education": "postgrad",
+    "occupation": "finance",
+    "ai_frequency": "few_times_week"
+  },
+  "student_model": "together:google/gemma-4-31B-it",
+  "student_mode": "default",
+  "questions_required": 5,
+  "assistant_off": false,
+  "assistant_preset": "default",
+  "streamed": false
+}

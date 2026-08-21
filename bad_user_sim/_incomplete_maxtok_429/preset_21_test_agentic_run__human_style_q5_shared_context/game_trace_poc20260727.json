@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Did a7 backfire because it opened the a-file too early?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "So should I have played b6 first instead of a7?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "What about c8 on the first move\u2014would that have held the corner?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After White played a1, was g2 my only real chance?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Got it. So in these endgames, is grabbing the corner always the priority over flipping max discs?"
+  }
+]

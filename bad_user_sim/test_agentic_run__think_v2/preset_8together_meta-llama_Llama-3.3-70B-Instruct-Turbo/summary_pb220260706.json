@@ -1,0 +1,38 @@
+{
+  "puzzle": "b220260706",
+  "decisions": 2,
+  "optimal_moves": 0,
+  "opener_optimal": false,
+  "discs_lost": 30,
+  "final_margin": -18,
+  "won": false,
+  "optimal_margin": 12,
+  "completed": true,
+  "moves": [
+    "g1!",
+    "g2!"
+  ],
+  "auto_played": [
+    "g7"
+  ],
+  "chat_turns": null,
+  "game": "othello",
+  "round": 1,
+  "ai_available": false,
+  "model_settings": {
+    "max_tokens": 50000
+  },
+  "questions_asked": 0,
+  "question_budget": 0,
+  "profile": {
+    "persona": "A technology entrepreneur interested in commercializing the novel materials",
+    "age": 38,
+    "education": "postgrad",
+    "occupation": "professional",
+    "ai_frequency": "several_times_day"
+  },
+  "student_model": "together:meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "student_mode": "think_v2",
+  "assistant_preset": "default",
+  "streamed": false
+}

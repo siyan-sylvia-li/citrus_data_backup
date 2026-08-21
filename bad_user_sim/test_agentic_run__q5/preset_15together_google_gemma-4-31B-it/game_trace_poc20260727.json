@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I'm thinking about putting one on b7 because it looks like it flips a lot, but I don't want to mess it up. Is that the best one?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm not sure which one to pick now. I've got a few choices like b6 or a7. Does one of these make more sense?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now I've got g2, b6, and a7. b6 seems to flip more than the others, is that the way to go, or is it another one of those traps?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I see I can take a corner at a1. Is that the smartest move, or should I go for g2 or a3 instead?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm down to my last few moves. I can take the corner at a1 or go for g2. Which one is better to finish things off?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

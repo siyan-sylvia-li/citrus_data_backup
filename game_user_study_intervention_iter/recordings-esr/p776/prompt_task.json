@@ -1,0 +1,25 @@
+{
+  "created_prompt": "I currently work four days a week, with a limited time and budget, creating cooking content to 1.2m followers online. I would like to come up with a concrete plan so that in three years, I'll be able to grow enough online to be able to publish my own cookbook. What are the steps I should take in order to move from where I am now to a big enough audience in order to write a successful cookbook? Additionally, I would like to know if it's more practical and budget-friendly for me to self-publish or to take a traditional publishing route.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 3.0,
+  "submitted_at": "2026-08-20T13:05:18.857037+00:00"
+}

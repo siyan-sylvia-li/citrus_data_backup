@@ -1,0 +1,23 @@
+{
+  "created_prompt": "create a three year plan to turn a cookbook idea into a feasible plan from a starting point of 1.2m current followerds",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 2
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 1.667,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-20T13:43:14.784916+00:00"
+}

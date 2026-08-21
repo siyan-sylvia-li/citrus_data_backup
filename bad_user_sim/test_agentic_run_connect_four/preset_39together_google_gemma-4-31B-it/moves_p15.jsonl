@@ -1,0 +1,2 @@
+{"game": "connect_four", "puzzle": "15", "round": 0, "attempt": 1, "decision_number": 1, "optimal": false, "ts": "2026-08-05T18:44:45.507628+00:00", "best_moves": [4], "game_over": false, "move": "2", "col": 1, "kept_win": false, "ai_col": 1}
+{"game": "connect_four", "puzzle": "15", "round": 0, "attempt": 1, "decision_number": 2, "optimal": false, "ts": "2026-08-05T18:46:22.768518+00:00", "best_moves": [3], "game_over": true, "move": "4", "col": 3, "kept_win": false, "ai_col": 2}

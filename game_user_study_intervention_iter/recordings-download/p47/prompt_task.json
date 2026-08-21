@@ -1,0 +1,25 @@
+{
+  "created_prompt": "I need a 3 year plan to decide whether to traditionally or self-publish a cook book for my cooking channel. I create cooking videos online with a viewership and following of over 1M. I work 4 days a week and have limited time and budget.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.667,
+  "submitted_at": "2026-08-20T01:09:27.728337+00:00"
+}

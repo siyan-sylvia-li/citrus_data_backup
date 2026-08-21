@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Devise a concrete three-year plan for Julie's business. She posts cooking videos to her 1.2M followers, who love her quick, healthy recipes. She works four days a week and has a limited time and budget. Over the next three years, she wants to grow the online part of her business and publish a cookbook (please provide options for self-publishing or approaching / working with a publisher. Investigate optimal SEO, video styles and currently trending cookery styles and other similar creators. Break this plan into relatively simple, achievable steps. Ask me any relevant questions before starting this task.",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 4
+    },
+    {
+      "model": "llama",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.5,
+  "median_score": 3.5,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-24T13:10:02.399683+00:00"
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Given this exact board position (10 empties left), my legal moves are g2, b6, a7, b7, b8, c8. Can you work out which move gives me the best final disc count assuming White plays optimally the rest of the way?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White just took a8. Now with 8 empties left and my options g2, b6, a7, c8 \u2014 which move optimizes my final count, especially keeping in mind the a1 and h1 corners are still open?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "That last exchange hurt \u2014 now 22 vs 36 with only 6 empties left: a1, h1, g2, a3, b6, a7. My legal moves are g2, b6, a7. What's the best line here to maximize my final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

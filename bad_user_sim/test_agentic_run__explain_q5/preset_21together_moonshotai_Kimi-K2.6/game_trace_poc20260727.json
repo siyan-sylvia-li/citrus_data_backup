@@ -1,0 +1,40 @@
+[
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, so in this Othello endgame I\u2019m black. The board has me trailing 20 to 34. My legal moves are g2, b6, a7, b7, b8, c8. I was thinking c8 because it flips a bunch and grabs the bottom edge, but maybe that\u2019s too obvious? Are any of those other moves actually better in the long run?"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I need to replay this Othello endgame puzzle from the start. The original position had legal moves g2, b6, a7, b7, b8, c8. Is c8 actually the best opening move, or would b7 or b8 be stronger for corner control?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "In the Othello puzzle, after Black plays c8 and White replies b7, is a7 actually a bad response? It flips a6 through g7, but then White gets a8. Is there a better move for Black after c8-b7?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Here's an Othello board described by coordinates. Black has: b2,e2,h2,b3,c3,h3,a4,b4,d4,h4,a5,b5,e5,h5,c6,f6,h6,e8,h8,h7. White has: b1,c1,d1,e1,f1,g1,a2,c2,d2,f2,d3,e3,f3,g3,c4,e4,f4,g4,c5,d5,f5,g5,a6,d6,e6,g6,c7,d7,e7,f7,g7,d8,f8,g8. Empties: a1,h1,g2,a3,b7,a7,a8,b8,c8,b6. Black to move. Is c8 or b8 the better first move, and why?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "In a late Othello endgame where Black is trailing by ~14 discs but has several open edge squares, what's better: flipping the maximum discs immediately with a move like c8, or taking a quieter move like b8 to limit White's corner access? I picked the big flip and lost 44-20."
+  },
+  {
+    "tool": "view_board"
+  }
+]

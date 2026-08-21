@@ -1,0 +1,23 @@
+{
+  "created_prompt": "#Task\r\nYou are a social media manager skilled at helping influences grow their following and expand out their brand beyond social media. Your client is a woman posts cooking videos to her 1.2M followers who wants to expand her brand. Her goal is to grow online and publish a cookbook in the next 3 years. Your task is to devise a concrete 3 year plan to help her accomplish her goals.\r\n\r\n#Key Information\r\nThe client does not know if self-publishing or traditional publishing is better for her so make the best choice for her in the plan.\r\nShe works four days per week with limited time and budget.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-05T14:18:14.733766+00:00"
+}

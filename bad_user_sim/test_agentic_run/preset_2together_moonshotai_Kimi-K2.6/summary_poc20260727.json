@@ -1,0 +1,53 @@
+{
+  "puzzle": "oc20260727",
+  "decisions": 4,
+  "optimal_moves": 2,
+  "opener_optimal": true,
+  "discs_lost": 42,
+  "final_margin": -24,
+  "won": false,
+  "optimal_margin": 18,
+  "completed": true,
+  "moves": [
+    "b7",
+    "b6!",
+    "g2",
+    "c8!"
+  ],
+  "auto_played": [],
+  "chat_turns": null,
+  "game": "othello",
+  "round": 0,
+  "ai_available": true,
+  "model_settings": {
+    "max_tokens": 100000
+  },
+  "questions_asked": 1,
+  "question_budget": 10,
+  "profile": {
+    "persona": "A data scientist who brings a quantitative and analytical approach to problem-solving",
+    "age": 32,
+    "education": "master",
+    "occupation": "tech",
+    "ai_frequency": "multiple_daily",
+    "known_concepts": [
+      "Digital",
+      "Currency",
+      "Payment",
+      "Ownership",
+      "Transaction",
+      "Fee",
+      "Probability",
+      "Protocol",
+      "Peer",
+      "Peer-to-peer",
+      "Hash",
+      "Signature",
+      "Verification",
+      "Consensus",
+      "Proof-of-work",
+      "Timestamp"
+    ]
+  },
+  "student_model": "together:moonshotai/Kimi-K2.6"
+}

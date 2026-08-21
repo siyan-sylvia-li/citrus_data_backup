@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Study — Eligibility</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  <style>
+    .eligibility__image {
+      display: block;
+      width: 100%;
+      max-width: 320px;
+      height: auto;
+      margin: 4px auto 18px;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <h1 class="topbar__title">Game Study</h1>
+  </header>
+
+  <main class="start">
+    <form class="start__card" method="post" action="{{ url_for('eligibility') }}">
+      <h2 class="start__title">Welcome</h2>
+      <p class="start__body">
+        Please enter your Prolific ID and answer the questions below to check your
+        eligibility before we begin. This study uses the game <strong>Othello</strong> (also called Reversi),
+        shown below.
+      </p>
+
+      <img
+        src="{{ url_for('static', filename='othello.png') }}"
+        alt="An Othello game board"
+        class="eligibility__image"
+      />
+
+      {% if error %}
+        <div class="start__error">{{ error }}</div>
+      {% endif %}
+
+      <label class="start__label" for="prolific_id">Prolific ID</label>
+      <input
+        type="text"
+        id="prolific_id"
+        name="prolific_id"
+        class="start__input"
+        value="{{ prefill.prolific_id }}"
+        autocomplete="off"
+        required
+        autofocus
+      />
+
+      <label class="start__label" for="skill_rating">{{ skill_prompt }}</label>
+      <select id="skill_rating" name="skill_rating" class="start__input" required>
+        <option value="" disabled {% if not prefill.skill_rating %}selected{% endif %}>Select…</option>
+        {% for value, label in likert_options %}
+          <option value="{{ value }}" {% if prefill.skill_rating == value %}selected{% endif %}>{{ label }}</option>
+        {% endfor %}
+        <option value="{{ skill_dont_know[0] }}" {% if prefill.skill_rating == skill_dont_know[0] %}selected{% endif %}>{{ skill_dont_know[1] }}</option>
+      </select>
+
+      <input type="hidden" name="study_id" value="{{ prefill.study_id }}" />
+      <input type="hidden" name="session_id" value="{{ prefill.session_id }}" />
+
+      <button type="submit" class="start__btn">Continue</button>
+    </form>
+  </main>
+</body>
+</html>

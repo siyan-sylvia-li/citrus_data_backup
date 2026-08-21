@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I need a 3 year plan to grow my online presence and to write and publish a cook book. I post cooking videos and have 1.2 million followers. My recipes are quick, easy and healthy. I can't decide whether to publish the cook book in the traditional way or if I should self-publish.\r\nI work 4 days a week, and so have a limited amount of time to work on this project and a limited budget.\r\nI need a clear 3 year plan to achieve the above outcomes to include:\r\nGrowing online presence, what content to put out to attract more followers and get more views.\r\nAdvice on writing of and pros and cons of different ways of publishing my book.\r\nAchievable timeline with measurable goals and targets.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-03T15:59:06.035705+00:00"
+}

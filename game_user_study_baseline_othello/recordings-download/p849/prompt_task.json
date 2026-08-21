@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I need a business plan to grow my my online reach via my YouTube channel. I can only work part time and have a limited budget. I'd also like to release a cookbook.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.0,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-20T12:20:39.844848+00:00"
+}

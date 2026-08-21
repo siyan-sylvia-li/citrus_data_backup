@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Hi. I post cooking videos (quick, healthy recipes) online and have a number of followers. I want to grow that audience, and publish a cookbook over the next three years. I work four days weekly and have a limited budget; can you help me come up with a concrete 3 year plan for me to follow to achieve my goals?",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-22T21:42:49.765398+00:00"
+}

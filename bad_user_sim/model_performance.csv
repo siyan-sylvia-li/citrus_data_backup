@@ -1,0 +1,12 @@
+,optimal_moves,final_margin,discs_lost,pricing,error,max_tokens
+moonshotai/Kimi-K3,,,,15.0,Timeout: litellm.Timeout: APITimeoutError - Request timed out. Error_str: Request timed out.,200000
+MiniMaxAI/MiniMax-M3,2.0,-20.0,38.0,1.2,,200000
+Qwen/Qwen3.7-Max,1.0,-32.0,50.0,3.75,,50000
+moonshotai/Kimi-K2.6,0.0,-28.0,46.0,4.5,,200000
+zai-org/GLM-5.2,2.0,-22.0,40.0,4.4,,200000
+openai/gpt-oss-120b,1.0,-24.0,42.0,0.6,,200000
+openai/gpt-oss-20b,2.0,-20.0,38.0,0.2,,50000
+meta-llama/Llama-3.3-70B-Instruct-Turbo,1.0,-26.0,44.0,1.04,,50000
+Qwen/Qwen2.5-7B-Instruct-Turbo,2.0,-22.0,40.0,0.3,,12500
+google/gemma-4-31B-it,2.0,-20.0,38.0,0.97,,200000
+Qwen/Qwen3.7-Plus,3.0,-20.0,38.0,1.28,,50000

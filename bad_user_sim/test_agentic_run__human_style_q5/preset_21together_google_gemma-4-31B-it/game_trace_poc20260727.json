@@ -1,0 +1,37 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "what move you suggest here?"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Why did I lose so bad?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Can you explain stable territory a bit more? How do I actually identify it during a game?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "You mentioned frontier discs. What's the best way to avoid giving the opponent a chance to flip them?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Looking back, was b8 a total blunder or just unlucky?"
+  }
+]

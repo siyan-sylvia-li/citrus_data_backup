@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Can you create a three-year plan for me? I need one as I create healthy quick recipes. I have a large following and would love to grow online and would like to publish a book but not sure where to start! I have limited time and budget.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.333,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.333,
+  "submitted_at": "2026-08-19T19:10:10.960421+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "reflection": "to be able to grow here buiness she could produce and freeze here recipes and then make it easier at the end of the video",
+  "effort": {
+    "judges": [
+      {
+        "model": "gpt",
+        "score": 2
+      },
+      {
+        "model": "llama",
+        "score": 2
+      },
+      {
+        "model": "nemotron",
+        "score": null
+      }
+    ],
+    "n_judges": 2,
+    "mean_score": 2.0,
+    "median_score": 2.0,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-18T19:05:16.163891+00:00"
+}

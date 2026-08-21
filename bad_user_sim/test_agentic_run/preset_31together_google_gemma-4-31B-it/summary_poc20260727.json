@@ -1,0 +1,36 @@
+{
+  "puzzle": "oc20260727",
+  "decisions": 4,
+  "optimal_moves": 3,
+  "opener_optimal": true,
+  "discs_lost": 38,
+  "final_margin": -20,
+  "won": false,
+  "optimal_margin": 18,
+  "completed": true,
+  "moves": [
+    "b7",
+    "b6!",
+    "g2",
+    "b8"
+  ],
+  "auto_played": [],
+  "chat_turns": null,
+  "game": "othello",
+  "round": 0,
+  "ai_available": true,
+  "model_settings": {
+    "max_tokens": 200000
+  },
+  "questions_asked": 0,
+  "question_budget": 10,
+  "profile": {
+    "persona": "A mobilizer who works closely with marginalized communities to bring about social change",
+    "age": 40,
+    "education": "bachelors",
+    "occupation": "other",
+    "ai_frequency": "weekly"
+  },
+  "student_model": "together:google/gemma-4-31B-it",
+  "streamed": false
+}

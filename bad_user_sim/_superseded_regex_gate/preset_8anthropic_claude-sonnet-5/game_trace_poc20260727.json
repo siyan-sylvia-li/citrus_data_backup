@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Only 10 empty squares left, feels like crunch time. Which of my legal moves (g2, b6, a7, b7, b8, c8) actually wins this thing?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White grabbed a8. Now g2, b6, a7, c8 \u2014 which one keeps me on top at the end?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Ouch, that swung hard to White, 22-36 now. Only g2, b6, a7 left for me. What's the best I can actually do here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Down to a1, g2, a3. g2 looks like it flips a bunch (f2 and the whole g-column chunk down to g7). Is g2 clearly the pick here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Just a1 and g2 left for me with 3 empties total. I think both lines end up 33-31 for me if I work it through by hand. Does that match what you see, and does it matter which I play first?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  }
+]

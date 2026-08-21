@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "b7 flips a bunch but I'm worried White has a crushing reply I'm not seeing. is b7 the best here, or should I look at a7 or b6 instead? only have a few minutes so any pointer helps"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After White a8, my options are g2, b6, a7, c8. g2 flips the most right away \u2014 is it the best endgame move here or does one of the others play better? quick take appreciated"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White is now up 36-22 after b8. My only moves left are g2, b6, or a7. g2 flips the most again \u2014 should I go for it, or is there a quieter move that actually wins the endgame?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "game just ended 41-23. could i have done better than the b7-c8-a7-a3-a1-h1 line, or was that roughly optimal?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "ok so at the very end h1 flipped the whole top row left to right, then g2 was the only legal move left. i think g2 trapped g3-g7 between g2 and h2? actually no, g2's only black neighbors would be h2 and maybe e2? not sure if it flips anything or if it was just filling the last hole. does g2 actually convert any white discs or was it a zero-flip forced move?"
+  }
+]

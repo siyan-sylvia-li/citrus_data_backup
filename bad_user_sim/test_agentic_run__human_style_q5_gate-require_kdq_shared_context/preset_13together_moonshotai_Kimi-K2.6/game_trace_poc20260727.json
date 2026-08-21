@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "what did i mess up at the end? b8 seemed okay but then white ran away with it"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "why does playing next to a corner let the other guy take it? i thought b8 flipped stuff so it was strong"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "how come discs on the edge cant be flipped back once white takes the corner? i thought any disc could flip"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "So if i cant play outside the board to flip them, is there any way to get those white edge discs back once they chain to a corner?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "how did white get three turns in a row at the end? i thought we were supposed to alternate"
+  }
+]

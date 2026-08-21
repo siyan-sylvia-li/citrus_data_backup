@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "What is the strongest move here for Red, and what is the key forced line? Please account for best defense."
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After Red 4 and Yellow 5, the new board has Y at c5r3. What exact column should Red play now, and why? I need the immediate best move, not just the general plan."
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Current position after R4, Y1: is Red's best move really column 4 again? Please give the exact winning tactic or say if another column is better."
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Current board after R5, Y1 again: what exact column is best now? Please check the landing rows and any immediate Yellow threats, not just a general pattern."
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Current after R3, Y1: exact best move now? I see possible row-4 buildup but Yellow may block, so please identify the actual forcing move."
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  }
+]

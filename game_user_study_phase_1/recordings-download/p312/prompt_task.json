@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I publish content about cooking. It's already quite successful with 1.2 million followers. I want to grow over the next 3 years online with the aim to publish a cookbook. I don't know whether to have a self published book or one through a publisher. I already work 4 days a week so I'm limited on time and also funds. Please create a 3 year plan for me to achieve this dream.",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-03T14:25:59.581723+00:00"
+}

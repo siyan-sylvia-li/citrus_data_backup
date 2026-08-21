@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Create a 3 year plan for writing and publishing a cookbook based on my cooking videos. I haven't decided yet whether self-publish or try traditional publishers. I work 4 days weekly in my other job and therefore I have limited time and budget.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-10T17:06:34.256851+00:00"
+}

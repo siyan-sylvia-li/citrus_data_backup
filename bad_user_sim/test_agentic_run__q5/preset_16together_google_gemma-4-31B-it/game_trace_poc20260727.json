@@ -1,0 +1,41 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "What's the best move among g2, b6, a7, b7, b8, c8 for Black? Looking for the highest final disc count."
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Wait, the game is already over. How do I restart? Anyway, while I'm here, I'm curious: what's the general strategy for the final few moves in Othello?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "In that last game, why was b8 a bad move? Was it because it gave White c8 and then the rest of the board?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "You mentioned \"parity\"\u2014that sounds like a computer science thing. How does it actually work in Othello? Like, is it about who makes the last move in a region?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "One last thing: is there any actual difference between Othello and Reversi, or is it just branding?"
+  }
+]

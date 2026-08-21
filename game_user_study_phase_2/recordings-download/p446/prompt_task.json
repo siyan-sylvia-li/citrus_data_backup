@@ -1,0 +1,25 @@
+{
+  "created_prompt": "i need a 3 year plan that will allow me to grow my socials and i want to release a cook book. i have 1.2M followers and my posts are cooking videos ect. Can you make me a plan?",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 2
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 1.667,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 1.667,
+  "submitted_at": "2026-08-18T11:47:41.203726+00:00"
+}

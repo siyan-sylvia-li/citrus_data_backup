@@ -1,0 +1,28 @@
+{
+  "variant": "v2_think_pair",
+  "observation": "I think Group A definitely look like they\u2019ve approached this scenario a little different to Grouo A. Group B seems to be giving more context or asked the right questions in order to get the correct answers",
+  "choice": "A",
+  "choice_correct": false,
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 3
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.0,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-18T22:38:40.470463+00:00"
+}

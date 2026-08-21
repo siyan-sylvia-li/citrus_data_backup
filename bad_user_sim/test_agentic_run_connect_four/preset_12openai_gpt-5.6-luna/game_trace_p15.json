@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "What\u2019s the strongest move here, and what\u2019s the main threat I need to watch for?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After my 4 and Yellow 5, what should I play now? Can you check immediate red wins and Yellow's next winning threats?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Current position: is there a forcing move for Red, or which column best prevents Yellow\u2019s tactics?"
+  },
+  {
+    "tool": "play_move",
+    "move": 5
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I see a possible diagonal threat after playing 7: c7r2, c6r3, c5r4, then c4r5. Is 7 stronger than extending the row with 6?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  }
+]

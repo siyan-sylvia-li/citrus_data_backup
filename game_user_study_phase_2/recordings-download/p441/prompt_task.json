@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Can you devise a concrete 3 year plan for Julie to grow her online followers and to publish a cook book. She works 4 day a week and has lin=mited time and budget.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.333,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.333,
+  "submitted_at": "2026-08-19T18:21:16.091787+00:00"
+}

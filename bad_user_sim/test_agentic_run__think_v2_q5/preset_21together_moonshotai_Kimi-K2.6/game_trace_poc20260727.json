@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I'm weighing c8 vs b7 in this Othello endgame. c8 flips six discs immediately, but I worry it opens lines for White toward the a1 corner or hurts my parity in this 10-square endgame. b7 flips five and feels safer. With optimal play from both sides, which of my legal moves (g2, b6, a7, b7, b8, c8) actually maximizes my final disc count? Does c8 backfire?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After White played a8 and flipped my b7 and c6, my legal moves are g2, b6, a7, c8. g2 and b6 both flip five discs immediately, but I can't tell which closes out the endgame better. Which move keeps me ahead with optimal play from here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After c8 and White's b8 reply, my legal moves are g2, b6, a7. g2 and b6 both flip five discs. I'm unsure which reply line from White hurts less in the final six squares. Does g2 build too much out from the h8 corner and leave White deadly replies, or is b6 the better central clamp? Which move is optimal?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I just lost 23-41 after getting forced into g2 at the end. Was the losing mistake playing g2 that last turn, or did the collapse start earlier when I played c8 after White's a8? Where did the critical error happen?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "At the very start you said b7 was the best opening move. If I replayed the whole puzzle from the original board with perfect play from both sides, was b7 actually correct, or is there a different first move that leads to a win or a much closer loss for Black?"
+  }
+]

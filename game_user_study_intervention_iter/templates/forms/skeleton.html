@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Study — Before you play</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+  <header class="topbar"><h1 class="topbar__title">Game Study</h1></header>
+  <main class="start">
+    <div class="start__card">
+      <h2 class="start__title">Before you play</h2>
+
+      <!-- PLACEHOLDER MARKUP. The copy belongs to the study owner; this only shows
+           where the form module's context() values land. -->
+      <ol class="primer__rules">
+        {% for step in steps %}<li>{{ step }}</li>{% endfor %}
+      </ol>
+
+      <p class="primer__note">{{ practice_prompt }}</p>
+
+      <form method="post" action="{{ url_for('intervention') }}">
+        <textarea name="attempt" rows="6" class="pt__input"
+                  placeholder="Write your response here…">{{ prefill }}</textarea>
+        {% if error %}<p class="pt__error">{{ error }}</p>{% endif %}
+        <p class="pt__hint">At least {{ min_chars }} characters.</p>
+        <button type="submit" class="start__btn">Continue</button>
+      </form>
+    </div>
+  </main>
+</body>
+</html>

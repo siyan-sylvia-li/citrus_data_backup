@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Which of my legal moves (g2, b6, a7, b7, b8, c8) leads to the highest final disc count for Black with best play? Please recommend a single square."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now White played a8. My legal moves are g2, b6, a7, c8. Which gives the best final count for Black with best play?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After White's b8, my legal moves are now g2, b6, a7. Which gives the highest final count for Black?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "My legal moves are now a1, g2, a3. Which move gives Black the highest final count with best play?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "With moves a1 and g2 left, white already passed once. Is playing a1 or g2 better for my final count, or do they both end up the same?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

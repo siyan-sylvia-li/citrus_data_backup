@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, given this board and it being Black's turn with legal moves g2, b6, a7, b7, b8, c8 \u2014 since there's only 10 empty squares left, can you fully solve it and tell me which move gives Black the best final disc count against perfect play?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Ok white took a8. Now my legal moves are g2, b6, a7, c8. Which one is best from here with perfect play?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Down to 6 empty squares, my options are g2, b6, a7. White jumped to 36 discs. Which move gives me the best final count now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Last stretch, 4 empty squares left, my moves are a1, g2, a3. What's the best one to finish strongest?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

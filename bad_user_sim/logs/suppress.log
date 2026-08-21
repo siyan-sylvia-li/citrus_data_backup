@@ -1,0 +1,38 @@
+=== baseline (ungated) ===
+launching 20 runs, 8 at a time, 5s apart
+ok	human_style_q5_shared_context_preset7_together:moonshotai_Kimi-K2.6
+ok	human_style_q5_shared_context_preset8_together:moonshotai_Kimi-K2.6
+ok	human_style_q5_shared_context_preset9_together:moonshotai_Kimi-K2.6
+ok	human_style_q5_shared_context_preset10_together:moonshotai_Kimi-K2.6
+ok	human_style_q5_shared_context_preset11_together:moonshotai_Kimi-K2.6
+ok	human_style_q5_shared_context_preset12_together:moonshotai_Kimi-K2.6
+ok	human_style_q5_shared_context_preset13_together:moonshotai_Kimi-K2.6
+ok	human_style_q5_shared_context_preset14_together:moonshotai_Kimi-K2.6
+ok	human_style_q5_shared_context_preset15_together:moonshotai_Kimi-K2.6
+ok	human_style_q5_shared_context_preset16_together:moonshotai_Kimi-K2.6
+ok	human_style_q5_shared_context_preset23_together:moonshotai_Kimi-K2.6
+FAIL	human_style_q5_shared_context_preset20_together:moonshotai_Kimi-K2.6	logs/human_style_q5_shared_context_preset20_together:moonshotai_Kimi-K2.6.log
+ok	human_style_q5_shared_context_preset17_together:moonshotai_Kimi-K2.6
+ok	human_style_q5_shared_context_preset22_together:moonshotai_Kimi-K2.6
+FAIL	human_style_q5_shared_context_preset21_together:moonshotai_Kimi-K2.6	logs/human_style_q5_shared_context_preset21_together:moonshotai_Kimi-K2.6.log
+ok	human_style_q5_shared_context_preset19_together:moonshotai_Kimi-K2.6
+FAIL	human_style_q5_shared_context_preset18_together:moonshotai_Kimi-K2.6	logs/human_style_q5_shared_context_preset18_together:moonshotai_Kimi-K2.6.log
+ok	human_style_q5_shared_context_preset24_together:moonshotai_Kimi-K2.6
+ok	human_style_q5_shared_context_preset25_together:moonshotai_Kimi-K2.6
+ok	human_style_q5_shared_context_preset26_together:moonshotai_Kimi-K2.6
+
+done: 17 ok, 3 failed  (logs/human_style_q5_shared_context_results.tsv)
+FAIL	human_style_q5_shared_context_preset20_together:moonshotai_Kimi-K2.6	logs/human_style_q5_shared_context_preset20_together:moonshotai_Kimi-K2.6.log
+FAIL	human_style_q5_shared_context_preset21_together:moonshotai_Kimi-K2.6	logs/human_style_q5_shared_context_preset21_together:moonshotai_Kimi-K2.6.log
+FAIL	human_style_q5_shared_context_preset18_together:moonshotai_Kimi-K2.6	logs/human_style_q5_shared_context_preset18_together:moonshotai_Kimi-K2.6.log
+=== gated (concept_q suppressed) ===
+launching 20 runs, 8 at a time, 5s apart
+ok	human_style_q5_gate-concept_q_shared_context_preset7_together:moonshotai_Kimi-K2.6
+ok	human_style_q5_gate-concept_q_shared_context_preset8_together:moonshotai_Kimi-K2.6
+ok	human_style_q5_gate-concept_q_shared_context_preset9_together:moonshotai_Kimi-K2.6
+ok	human_style_q5_gate-concept_q_shared_context_preset10_together:moonshotai_Kimi-K2.6
+ok	human_style_q5_gate-concept_q_shared_context_preset11_together:moonshotai_Kimi-K2.6
+
+interrupted — cleaning up
+stopping 8 run(s)...
+remaining: 0

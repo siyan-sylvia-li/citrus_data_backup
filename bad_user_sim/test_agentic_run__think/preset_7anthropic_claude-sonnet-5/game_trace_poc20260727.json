@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I'm Black in this Othello endgame with only 10 empty squares left. My options are g2, b6, a7, b7, b8, c8. I'm behind in disc count right now but I know that can flip at the end. Which of these moves gives me the best shot at ending up with the most discs when the board fills up?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now it's down to 8 empty squares and my choices are g2, b6, a7, c8. White just took corner a8. Which move now gives me the best final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Down 22-36 now with only g2, b6, a7 as choices and 6 empty squares total. I did some counting and g2 looks like it flips a chunk of squares (g3,g4,g5,g6,f2). Is g2 really the strongest choice here for the final outcome, or does it backfire later?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

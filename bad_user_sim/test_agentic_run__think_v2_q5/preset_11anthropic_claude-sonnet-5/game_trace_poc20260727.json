@@ -1,0 +1,49 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm Black and down 20-34 with only 10 empty squares left (g2, b6, a7, b7, b8, c8 are my options). Which move actually sets me up best for the endgame, since I know the current count doesn't matter much?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White took a8 corner. Now my choices are g2, b6, a7, c8 - which keeps me safest from White grabbing a1 or h1 next?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "This is looking bad for me now, 22-36. My options are g2, b6, or a7 with only 6 squares left total. What actually wins me the most discs by the end here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Down 20-40 with 4 squares left: a1, g2, a3 are my legal moves. Should I just grab the a1 corner, or is there something better for the final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "3 squares left: a1, h1, g2 empty, I can only play a1 or g2 right now. I'm thinking a1 first because it might force White to pass and let me clean up h1 and g2 after - does that check out, or should I go g2 first?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

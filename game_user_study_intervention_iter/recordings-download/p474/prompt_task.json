@@ -1,0 +1,25 @@
+{
+  "created_prompt": "devise me a 3 year plan, concrete plan please...i post quick, healthy recipe cooking videos to 1.2m followers, i wanna grow online and publish a cookboook. But im torn between traditional or self-publishing. I work x4 days a week, so i have limited time and budget. give me a concrete 3 year plan please",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 3.0,
+  "submitted_at": "2026-08-20T01:29:55.384788+00:00"
+}

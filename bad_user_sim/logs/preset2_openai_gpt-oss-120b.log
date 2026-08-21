@@ -1,0 +1,4 @@
+    (openai/gpt-oss-120b: max_tokens 200000 -> 50000)
+round 0 oc20260727   ai=True  questions=17 3/5 optimal  won=True
+round 1 b220260706   ai=False questions=0 1/2 optimal  won=False
+round 1 bg20260726   ai=False questions=0 1/2 optimal  won=False

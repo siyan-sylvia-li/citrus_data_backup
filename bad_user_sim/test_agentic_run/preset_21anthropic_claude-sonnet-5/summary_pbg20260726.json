@@ -1,0 +1,35 @@
+{
+  "puzzle": "bg20260726",
+  "decisions": 3,
+  "optimal_moves": 2,
+  "opener_optimal": true,
+  "discs_lost": 10,
+  "final_margin": -6,
+  "won": false,
+  "optimal_margin": 4,
+  "completed": true,
+  "moves": [
+    "b2",
+    "h7!",
+    "g8"
+  ],
+  "auto_played": [],
+  "chat_turns": null,
+  "game": "othello",
+  "round": 1,
+  "ai_available": false,
+  "model_settings": {
+    "max_tokens": 100000
+  },
+  "questions_asked": 0,
+  "question_budget": 0,
+  "profile": {
+    "persona": "An organized and goal-oriented individual with a background in software development",
+    "age": 41,
+    "education": "bachelors",
+    "occupation": "it",
+    "ai_frequency": "few_times_week"
+  },
+  "student_model": "anthropic:claude-sonnet-5",
+  "streamed": false
+}

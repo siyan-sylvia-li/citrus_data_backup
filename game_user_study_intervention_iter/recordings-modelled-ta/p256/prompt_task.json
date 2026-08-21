@@ -1,0 +1,25 @@
+{
+  "created_prompt": "I need a plan for developing my online cookbook, that while working only 4 days a week and on a limited budget, will be successful within three years time.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 2
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 1.667,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 1.667,
+  "submitted_at": "2026-08-20T02:20:56.313007+00:00"
+}

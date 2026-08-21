@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I have legal moves g2, b6, a7, b7, b8, c8. b6 flips 7 discs right away, c8 flips 6, b7 flips 5. But I'm not sure which of these maximizes my final count after optimal endgame play. Which move should Black play here to win the endgame?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After White played a8, my options are g2, b6, a7, c8. g2 and b6 flip 6 and 5 discs right now, while a7 and c8 are smaller. Should I take the big g2 flip here, or is a quieter move like a7 or b6 actually better for the final count? I\u2019m worried g2 opens up counterplay along that edge."
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I was leaning toward a7 because it fills the whole 7th rank with Black and blocks White\u2019s a3 down-flip, whereas c8 just flips one disc and still leaves White the huge a3 reply. Why is c8 better than a7 in this endgame? Wouldn\u2019t a7 secure more stable discs long-term?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After I played c8, White played b8 and I was suddenly down 22 to 36. I played a7 next, but that gave White b6 which really hurt. Would g2 or b6 have been better after White b8, or was a7 still the only way to eventually reach a winning endgame?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "On my very last move I had both h1 and g2 legal. I picked g2, which let White reply h1. Would playing h1 instead have ended the game on the spot with a better score, or did g2 maximize my final count because those 5 flipped discs outweighed giving White one last corner?"
+  }
+]

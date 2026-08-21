@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I am currently a food influencer and want it to turn into a career that I can reliably earn a salary to support my lifestyle. Devise a three year plan to develop my recipes into a cookbook, including all steps from the recipes, to suggested photography requirements, to publishing (include the benefits of self-publishing vs traditional). Consider that I have limited time and budget to achieve this.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-10T17:28:22.842102+00:00"
+}

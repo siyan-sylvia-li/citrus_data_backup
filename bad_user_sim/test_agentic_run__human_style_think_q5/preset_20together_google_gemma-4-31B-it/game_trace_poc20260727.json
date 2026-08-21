@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I'm not sure how this works. Where should I put my piece?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "how did i lose so bad?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "i'm new at this, where is a good place to start?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "What's a stable edge?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "do the pieces just stay there once they are in the corners?"
+  }
+]

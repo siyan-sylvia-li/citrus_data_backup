@@ -1,0 +1,30 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Let me take a careful look at the board. I see a possible diagonal building for me with c6r1-c5r2-c4r3, but I want to make sure I\u2019m not missing a cleaner win or overlooking a Yellow counter-threat. Is c4 the correct first move here, and if so, how does it lead to a forced win against best defense?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I have c2r2\u2013c3r3\u2013c4r4 set up and need c5r5, but that cell is still two layers up in column 5. Yellow just blocked my other diagonal by dropping c3r4. What\u2019s the exact next move to keep the win forced?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  }
+]

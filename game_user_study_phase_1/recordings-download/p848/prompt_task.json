@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Please devise a concrete three year plan to grown Julie's online presence and eventually publish a cookbook. \r\nCurrent online follower count is 1.2M, she works four days a week with no movement on timings and a very smaller budget.  \r\nRecipes are quick and healthy, when it comes to publishing a cookbook can you also include in the plan a cost analysis between traditional vs self publishing.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 4
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.5,
+  "median_score": 3.5,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-28T13:30:13.031795+00:00"
+}

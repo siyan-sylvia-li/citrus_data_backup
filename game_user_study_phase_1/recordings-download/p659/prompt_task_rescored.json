@@ -1,0 +1,32 @@
+{
+  "created_prompt": "I need you to devise a three year plan for me. I'm a social media influencer that specializes in cooking videos for quick and healthy recipes. I'd like to continue growing my channel the next three years and to eventually publish a cookbook, though I'm torn on whether to self-publish or not. I work 4 days a week and have limited time and money. Please advise.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "original": {
+    "judges": {
+      "llama": 3,
+      "gpt": 3
+    },
+    "mean_score": 3.0,
+    "median_score": 3.0,
+    "passed": true
+  },
+  "time_taken": 2.257
+}

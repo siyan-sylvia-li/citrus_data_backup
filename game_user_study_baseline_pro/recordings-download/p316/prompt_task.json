@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Julie posts quick, healthy recipes to over 1 million followers - build her a plan to grow online and write a cook book within the next 3 years. She can work 4 days a week with limited time and budget.",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-24T13:42:46.001842+00:00"
+}

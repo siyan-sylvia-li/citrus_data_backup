@@ -1,0 +1,32 @@
+{
+  "created_prompt": "I have 1.2 million followers on social media. I post mainly healthy recipes. I want grow even more online and publish a cookbook within 3 years. Idk whether I want to do traditional publishing or self publishing. I work 4 days a week so I\u2019m on limited time, and I also don\u2019t have a big budget. Make me a concrete 3 year plan to follow to accomplish my goals based on my needs.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "original": {
+    "judges": {
+      "llama": 3,
+      "gpt": 3
+    },
+    "mean_score": 3.0,
+    "median_score": 3.0,
+    "passed": true
+  },
+  "time_taken": 5.466
+}

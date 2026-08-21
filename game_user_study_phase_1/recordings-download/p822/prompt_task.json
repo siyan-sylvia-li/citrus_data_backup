@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Julie needs help with professional growth. She currently has 1.2 million followers that watch her cooking videos featuring quick and healthy recipes. In the next three years, she wants to further grow her audience, and publish a cookbook (either traditional or self-publishing, perhaps depending on your advice). But she works 4 days a week, and has limited time and budget. Can you design a three year plan with achievable checkpoints to keep her on track for this?",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-03T15:55:40.324909+00:00"
+}

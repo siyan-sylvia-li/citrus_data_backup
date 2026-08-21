@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Write a concrete 3 year plan that is modifiable and realistic for julie who enjoys cooking and has been posting her healthy recipe online to the amusement of her 1.2 million followers, She wants to grow online and publish a cookbook although she is torn between traditional or self publishing. Draft a plan that will fit into her busy live as she works four days weekly and has limited time and budget. Ensure the plan has options",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-20T14:07:45.468813+00:00"
+}

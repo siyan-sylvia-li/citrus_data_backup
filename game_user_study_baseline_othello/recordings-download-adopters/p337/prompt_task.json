@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I currently post cooking videos on social media, with a very high following (1.2 million followers). My main content is quick, healthy recipes for those trying to eat healthier but might not have the time for complex recipes.\r\n\r\nOver the next three years, I want to grow my online presence and publish a cookbook. I'm unsure if I want to go traditional or self-publish. I currently work four days a week, and have a limited time and budget for this.\r\n\r\nPlease devise me a concrete three-year plan to expand my social media content into a full-fledged cookbook. Give me steps and timeline, thank you!",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-10T15:29:13.489488+00:00"
+}

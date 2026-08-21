@@ -1,0 +1,45 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, I'm Black and I'm down 20 to 34, only 10 empty squares left on the board. My options are g2, b6, a7, b7, b8, c8. Which one gives me the best shot at actually winning by the end? I don't really know how to read this far ahead."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White took a8 corner. Now my choices are g2, b6, a7, c8. Which is safest/best for me now?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Can you double check the final count was really 29-35? I want to make sure I'm reading the end result right."
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Looking back, was there a point where I picked wrong and that's really what cost me the game, or was I basically doomed once White grabbed that a8 corner early on?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Any quick beginner tip for next time so I don't hand over corners like a8 so easily?"
+  }
+]

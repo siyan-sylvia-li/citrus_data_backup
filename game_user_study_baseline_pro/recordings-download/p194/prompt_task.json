@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Create a realistic three-year plan for Julie, a cooking creator with 1.2 million followers who wants to grow online and publish a cookbook. She works four days a week and has limited time and money. Break the plan down year by year, with clear actions for content growth, audience engagement, income, cookbook development, and promotion. Compare traditional publishing with self-publishing, recommend the best option, and include simple goals and success measures for each stage.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 4
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.5,
+  "median_score": 3.5,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-24T13:27:45.585668+00:00"
+}

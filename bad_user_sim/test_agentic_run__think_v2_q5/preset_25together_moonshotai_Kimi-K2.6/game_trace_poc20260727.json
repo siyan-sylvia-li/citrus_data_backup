@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Was b7 at least a reasonable first move, or was the whole chain reaction doomed from that point?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After White replied a8 to my b7, was g2 the best try, or was there a stronger move like b6 or a7 that I missed?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After White played h1 in response to my g2, was b6 the right idea, or did it open the door for White to run the a-file?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "On the final turn I had b8 or c8 and chose c8. If I\u2019d played b8 instead, would that have stopped White from running a1 and a3, or was the game already lost?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Going back to the very first position with legal moves g2, b6, a7, b7, b8, c8, was c8 the best opening move instead of b7? Or was there another move I should have led with?"
+  }
+]

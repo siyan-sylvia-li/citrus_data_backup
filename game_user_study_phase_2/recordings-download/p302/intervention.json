@@ -1,0 +1,28 @@
+{
+  "variant": "v9_two_rows",
+  "observation": "Column A is mainly focused on getting immediate practical advice, while Column B seems to want to learn the reasoning behind the advice to improve their personal skill at the task.",
+  "choice": "B",
+  "choice_correct": true,
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 4
+      },
+      {
+        "model": "nemotron",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.333,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-19T16:19:37.559564+00:00"
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I'm leaning toward c8 since it looks like it flips a whole bunch and keeps White from doing the same move next. Does that sound right, or am I missing something?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Was c8 my big mistake, or did I already lose before that? Where did it start going wrong?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "What should my very first move have been in this puzzle instead of c8?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "When I'm in an endgame and looking at a move that flips a lot versus a quiet move, what's the simple way to tell which is better when I can't calculate everything?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "When the board's almost full, how much does taking the last move in an area matter? Is that what parity means?"
+  }
+]

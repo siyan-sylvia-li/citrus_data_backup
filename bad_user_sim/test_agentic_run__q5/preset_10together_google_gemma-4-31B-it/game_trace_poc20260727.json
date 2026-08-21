@@ -1,0 +1,41 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, looking at the board, I've got a few moves. b7 looks like it flips a lot of discs, but is that actually the optimal play here or is it a trap?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Looking at the final board, where did I actually mess up? I thought b8 was a safe move, but it seemed to open up everything for White. Can you walk me through the blunder?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "That makes sense. For future reference, are there other squares like b8 (the 'C-squares') that are generally risky to play into unless I have a specific plan?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I noticed that a lot of the discs in the middle of the board were flipping back and forth. Is there a way to 'lock' discs in the center so they don't flip, or is that only possible with the corners?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Quick question: in the endgame, is it better to play moves that flip only a few discs but limit the opponent's options, or go for high-flip moves if they don't seem to give away a corner?"
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Julie has a large following where she posts videos of her recipes. While she has limited time to spend, and a smaller budget, within the next 3 years she wants to publish a cookbook, either self-published or traditional. Given this background, please come up with a feasible plan for her to achieve this goal in the next 3 years. Make it realistic for someone who works 4 days a week, but also someone who already has a substantial following online and knows how to navigate social media",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.667,
+  "submitted_at": "2026-08-21T12:42:43.029306+00:00"
+}

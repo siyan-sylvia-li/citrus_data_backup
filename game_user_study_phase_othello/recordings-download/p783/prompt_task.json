@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I have a strong social media following posting cooking videos and I'm looking to grow online and publish a cookbook, but I'm not sure whether to self-publish or go through a publisher.\r\n\r\nI work four days a week so have limited time to dedicate to social media and I don't have a huge budget - can you help devise a three year plan with clear,  ACTIONABLE steps to help me achieve my goals?",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-05T13:16:39.545557+00:00"
+}

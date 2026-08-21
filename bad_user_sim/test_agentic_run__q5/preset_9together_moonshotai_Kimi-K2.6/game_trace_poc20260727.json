@@ -1,0 +1,41 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "I've narrowed it down to g2 and b6, but b6 seems to let White counter with b7. Is g2 the better move here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Where did I first go wrong? Was b7 the big mistake, or was it later in the sequence?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Would playing g2 on the first move have been better than b7? Or does g2 give away the h1 corner immediately?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Out of my original legal moves (g2, b6, a7, b7, b8, c8), which first move was probably the best to start with?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "In Othello endgames, if White secures 3 corners like that, is the game basically over, or can Black still fight back?"
+  }
+]

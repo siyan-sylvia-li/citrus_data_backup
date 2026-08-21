@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I need you to devise a 3 year plan to help me develop my cooking business.  I want to publish a cookbook and develop my online followers.  Give me the advantages and disadvantages of traditional vs self-publishing for the book.\r\nI currently have 1.2M followers and post quick healthy recipes.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-03T15:24:50.481717+00:00"
+}

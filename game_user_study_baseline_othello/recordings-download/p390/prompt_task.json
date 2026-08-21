@@ -1,0 +1,23 @@
+{
+  "created_prompt": "How does a person who works 4 days a week create a three year plan to grow my online presence and write a cookbook on a limited budget",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.0,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-20T11:02:57.748672+00:00"
+}

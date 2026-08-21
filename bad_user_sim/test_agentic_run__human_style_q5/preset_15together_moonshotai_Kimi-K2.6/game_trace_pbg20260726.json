@@ -1,0 +1,14 @@
+[
+  {
+    "tool": "play_move",
+    "move": "h7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b2"
+  },
+  {
+    "tool": "play_move",
+    "move": "g7"
+  }
+]

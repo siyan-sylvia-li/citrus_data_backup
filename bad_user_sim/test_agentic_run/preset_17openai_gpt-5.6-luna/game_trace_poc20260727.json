@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Can you identify the optimal move for Black here, assuming perfect play, and briefly explain the key sequence? I want the best final disc count, not just an immediate gain."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After Black b7 and White a8, the legal moves are g2, b6, a7, c8. Which is the exact best continuation under perfect play?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "The actual position after 1...c8, White b8, Black a7, White b6 has Black legal a1, g2, a3. What is the exact best move now, and what's the resulting optimal finish?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  }
+]

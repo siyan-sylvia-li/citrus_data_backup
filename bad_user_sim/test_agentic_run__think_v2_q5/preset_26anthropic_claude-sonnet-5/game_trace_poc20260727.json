@@ -1,0 +1,49 @@
+[
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I've got 6 options: g2, b6, a7, b7, b8, c8. There's only 10 empty squares left on the whole board. Which move actually gives me the best final count if White plays smart? I'm bad at seeing all the flips ahead of time."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White just took a8 corner. Now my choices are g2, b6, a7, c8, and corners a1 and h1 are still open. What's my best move here to not get burned again?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Ouch, White just flipped a ton and now leads 36-22 with only 6 squares left (a1, h1, g2, a3, b6, a7). My options are g2, b6, a7. Is there any way back from here or should I just play it out best I can?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I can take corner a1 right now. With the score this lopsided (20-40), does grabbing that corner actually help enough, or is it hopeless at this point?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now that it's over and I won 41-23, I'm still confused about that a3-before-a1 trick you told me earlier. Can you explain simply why playing a3 first instead of just grabbing the a1 corner right away made White pass and helped so much?"
+  }
+]

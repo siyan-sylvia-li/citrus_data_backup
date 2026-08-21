@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Devise a concrete three-year plan for Julie, who posts cooking videos online, to grow online and to publish a cookbook. She works four days weekly and has a limited budget.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-20T13:55:49.422132+00:00"
+}

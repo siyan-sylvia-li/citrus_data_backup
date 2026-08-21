@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Hey, I've got 6 legal moves here: g2, b6, a7, b7, b8, c8. Board's got 10 empty squares left so it's basically the endgame. Which move sets me up best to win the most discs by the end, assuming White plays smart too?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White just grabbed a8 corner. Now my options are g2, b6, a7, c8. Which one gives me the best final count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Down 22-36 now with only g2, b6, a7 left to pick from and 6 empty squares total. What's the best line to end up with the most discs?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Only 4 squares left: a1, h1, g2, a3, and it's my move choosing between a1, g2, a3. I'm down 20-40 which looks scary but you said discs flip a lot at the end. Which one actually wins me the most discs by the finish?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  }
+]

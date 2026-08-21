@@ -1,0 +1,46 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Given this board, my legal moves are g2, b6, a7, b7, b8, c8. Which one gives me the best final disc count assuming best play from White? Can you actually calculate it out rather than just eyeball it?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Now my options are g2, b6, a7, c8. Same deal - which move maximizes my final count with best White play?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Down 22-36 now with only 6 empties left: g2, b6, a7. What's the best line here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Wait, I think a3 might actually be much stronger than g2. If I play a3 (flipping b3,b4,c5,d6), doesn't White have zero legal moves among a1/h1/g2 afterward, forcing a pass, and then I can keep grabbing squares? Can you double check this line versus the g2 line?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Since I won't have you for future puzzles - can you explain why White kept having zero legal moves after my a3 play? Is that a \"parity/zugzwang\" thing I should watch for, and how would I spot it myself next time without help?"
+  }
+]

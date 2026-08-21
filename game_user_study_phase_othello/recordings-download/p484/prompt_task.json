@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Please can you devise a three year plan for me to grow my online platform from the current level of 1.2m followers to the point of publishing a cookbook. I  don't want to work more than four days a week and want to keep to a strict budget. I would like a step by step plan with detailed advice at each stage ie pros and cons of traditional and self publishing for the cookbook. Think outside the box and give me an innovative plan that is easy to implement and actually works",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-04T13:32:53.391210+00:00"
+}

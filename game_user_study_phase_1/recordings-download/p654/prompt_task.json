@@ -1,0 +1,23 @@
+{
+  "created_prompt": "I post cooking videos for fast, healthy recipes. I have 1.2M followers. I need a three-year plan on how to grow my presence online and also publish a cookbook. Include both traditional and self-publishing options for the cookbook. I work four days a week, so the three-year plan needs to just be 3 days per week. Use bullet points and bold font to make it easy for me to read.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "qwen",
+      "score": null
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-14T23:46:54.201018+00:00"
+}

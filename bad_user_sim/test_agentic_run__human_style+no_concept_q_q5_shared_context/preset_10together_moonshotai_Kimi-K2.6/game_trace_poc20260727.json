@@ -1,0 +1,38 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "b6 and c8 both look strong. which is better here?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "c8 leaves white with just a3, yeah? i think that's the one."
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "was b7 actually the right first move, or should I have gone b6?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "got it. second move: was g2 the right call, or did that backfire too?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "last one \u2014 could black have won this endgame with perfect play at all, or was it just unwinnable from the start?"
+  }
+]

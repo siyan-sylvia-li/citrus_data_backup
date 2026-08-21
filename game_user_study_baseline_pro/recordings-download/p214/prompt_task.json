@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Develop a 3 year plan of how I can transition from my job working 4 times a week to growing my online content to be my full time job. Break the plan down into quarters with points of focus and targets. I would also like advice on time to spend on tasks and any budgetting concerns.  As I work 4 days per week,, I have limited time and I also have minimal budget. \r\n\r\nI create quick and health recipe videos for 1.2m followers. Over the next 3 years I want to grow my online presence and publsh a cookbook. I don't know if I want to self publish or traditionally publish at this stage.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-22T13:25:19.459011+00:00"
+}

@@ -1,0 +1,19 @@
+{
+  "created_prompt": "I currently post videos for quick healthy recipes, I have 1.2 million followers. I want to publish a cookbook within the next three years. Create a  step by step  plan to achieve this goal on a limited time and budget (I work four days a week) also advise on wether to self publish or use traditional publishing",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-24T13:43:24.998826+00:00"
+}

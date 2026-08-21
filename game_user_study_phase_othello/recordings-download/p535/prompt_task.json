@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Act as an expert strategist for content creators\r\n\r\n###Context and Creator profile :\r\n- Name : Julie\r\n- Current audience : 1,2 million followers across social media platforms\r\n- Nich : Quick, healthy cooking recipes.\r\n- Key constraints : \r\n-- Works 4 days a week (80% full-time primary job)\r\n-- Limited time available for content creation\r\n-- Limited budget (must reinvest wisely without taking major financial risks)\r\n\r\n###Overall Goal\r\nDevelop an actionable 3-year strategic plan for Julie, in order to :\r\n1. Continue growing her audience and boosting her engagement\r\n2. Successfully publish her first cookbook\r\n3. Structure her operations to maximize efficiency without reaching burnout\r\n\r\n## Your Tasks\r\n1. Comparative analysis : self-publishing vs. traditional publishing\r\n- weigh pros and cons specifically tailored to Julie's profile\r\n- recommend the single best part with a clear, realistic justification\r\n\r\n2. 3-year strategic roadmap (year-by-year)\r\n- Year 1 : Consolidation, structuring and concept : time optimization, building an email list, defining the book format\r\n- Year 2 : Production, writing and launch : schedule compatible with her job, pre-order and launch strategy leveraging her 1.2M audience\r\n- Year 3 : Diversification, scaling and sustainability : brand longevity, potential next products, long-term audience growth\r\n\r\n3. Workflow and time-saving systems :\r\n- provide 3 to 4 practical strategies to save time (for instance batch production, content repurposing, micro-delegations)\r\n\r\n4. Sample weekly schedule :\r\n- Create a realistic time-allocation template showing how she can utilize her 5th day-off to balance content creation and the book project without overworking\r\n\r\n### Desired format :\r\n- clear structure using headings, bullets points and actionable summaries\r\n- pragmatic, direct, and creator focused tone\r\n- specific and concrete recommendations only (avoid vague AI slop)",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 4
+    },
+    {
+      "model": "gpt",
+      "score": 4
+    },
+    {
+      "model": "nemotron",
+      "score": 4
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 4.0,
+  "median_score": 4,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-05T14:04:10.186975+00:00"
+}

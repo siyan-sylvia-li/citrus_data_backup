@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Devise me a concrete 3 year plan during which time I will expand my online following for my quick and healthy recipes and also publish a cookbook. I work four days a weeks so it will need to be done on my free days. I have a very limited budget so tell me what and how I can do this with limited funds.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-22T19:58:40.639416+00:00"
+}

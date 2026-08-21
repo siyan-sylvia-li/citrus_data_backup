@@ -1,0 +1,34 @@
+[
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Excuse me, I'm not sure where to go next. Is there a good spot here? Maybe g2?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I've never played this game before. Which of these squares is a good first move?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Hello? I'm new to this. Where should I put my first piece? I see a few options like g2 or b7."
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Hi there. I'm not really sure how this game works. Which of these squares should I pick to start? g2, b6, a7, b7, b8, or c8?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Excuse me, I'm just starting out and this all looks a bit overwhelming. Which of these spots is the best one to pick first? b7 or maybe g2?"
+  }
+]

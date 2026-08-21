@@ -1,0 +1,40 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "b7 looks like a big flip, right?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "b8"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "b7 looks like a huge flip, any reason not to take it?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "b7 looks like a big flip, right?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "b7 looks like a huge flip, any reason not to take it?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "b7 seems like a massive flip. Is there any catch?"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "view_board"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "created_prompt": "Generate a three year plan to help me grow my cooking video presence and expand into the publication of a cookbook, with the limitation of working four days a week with limited time and budget.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.0,
+  "median_score": 3.0,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-07-22T20:29:37.064167+00:00"
+}

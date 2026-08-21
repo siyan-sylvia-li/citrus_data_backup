@@ -1,0 +1,34 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Quick strategic read: is there a forcing line for Red starting with column 2 here? I'm seeing a vertical threat setup plus it blocks a Yellow diagonal through (3,2)/(4,1). Does that hold up, or is there something better?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 2
+  },
+  {
+    "tool": "play_move",
+    "move": 3
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "I've got two potential winning traps (column1 row3 and column5 row5) but based on parity counting it seems Yellow might force me into playing the setup square first, letting them just block both. Is there a way around that, or should I be looking at a different move right now?"
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  },
+  {
+    "tool": "play_move",
+    "move": 4
+  }
+]

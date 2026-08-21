@@ -1,0 +1,34 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Can you identify the optimal move sequence from this position, assuming White responds optimally? I need the best first move and likely continuation, not just general strategy."
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "White chose a8 rather than c8. From the current board, what's Black's best move now and the optimal continuation?"
+  },
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "The actual line is now after Black a7 and White b6; legal Black moves are a1, g2, a3. Which one is best against the interface's optimal play?"
+  },
+  {
+    "tool": "play_move",
+    "move": "a3"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  }
+]

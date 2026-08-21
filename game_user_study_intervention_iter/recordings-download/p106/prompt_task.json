@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Julie posts cooking videos to her 1.2 million followers who love her quick, healthy recipes. She wants to grow online and publish a cookbook within the next 3 years. She only has 4 days per week, limited time, and a limited budget. What can she do over the next 3 years to reach her goals?",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.667,
+  "submitted_at": "2026-08-20T01:13:15.994818+00:00"
+}

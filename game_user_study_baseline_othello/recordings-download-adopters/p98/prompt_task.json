@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Hello, so I have about 1.2 mil followers from posting quick, healthy cooking recipes. In the next 3 years I want to grow online obviously and publish my OWN cookbook. However, I am torn between traditional vs self publishing. I also work four days a week, so I have limited time and money. I want this all to happen over the next 3 years, so act as a professional planner and help me create a 3 year plan that fits with these details. It should be concrete and detailed. It must fit my 4-day work schedule and not be expensive, while still maintaining and growing my online social media presence.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-10T19:44:11.551942+00:00"
+}

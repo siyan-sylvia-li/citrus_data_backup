@@ -1,0 +1,34 @@
+[
+  {
+    "tool": "play_move",
+    "move": "c8"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "play_move",
+    "move": "g2"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "was c8 the right first move or should i have done b7"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "after white played b7, was a7 the best reply"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "when white played a8 after my a7, did i have any way to stop the collapse"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "is g2 what cost me the game, or was it already lost"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "what was the best line for black from the start"
+  }
+]

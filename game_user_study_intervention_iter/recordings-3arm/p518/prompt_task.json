@@ -1,0 +1,25 @@
+{
+  "created_prompt": "I have an audience of 1.2 million followers who watch my video recipes for quick healthy meals, in addition to producing online content I work 4 days a week. Provide a clear, actionable quarter by quarter action plan, maximising time, utilising existing audience and content creation and prioritising and cost efficiency, which allows me to meet this deadline. Provide a benefits analysis for self published vs traditional publishing and write the plan according to your reasoned reccommendation",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.667,
+  "submitted_at": "2026-08-21T16:59:44.563937+00:00"
+}

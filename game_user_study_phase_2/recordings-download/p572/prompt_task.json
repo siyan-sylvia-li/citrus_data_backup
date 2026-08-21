@@ -1,0 +1,25 @@
+{
+  "created_prompt": "I have an online cooking channel with 1.2 million followers and I want to publish a cookbook. I am not sure if I want a traditional style or a self-publishing style. However, I work 4 days a week and have a limited time and budget. My goal is to publish the book in around 3 years, and I need a good 3-year plan of what to do and what I should get done.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.667,
+  "submitted_at": "2026-08-18T22:36:16.041429+00:00"
+}

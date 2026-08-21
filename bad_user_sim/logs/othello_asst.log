@@ -1,0 +1,51 @@
+  25 turns
+  50 turns
+  75 turns
+  100 turns
+  125 turns
+  150 turns
+  175 turns
+  200 turns
+  225 turns
+  250 turns
+  275 turns
+  300 turns
+  325 turns
+  350 turns
+  375 turns
+  400 turns
+  425 turns
+  450 turns
+  475 turns
+  500 turns
+  525 turns
+  550 turns
+  575 turns
+  600 turns
+  625 turns
+  650 turns
+  675 turns
+  700 turns
+annotated 701 turn(s)
+
+OTHELLO | 192 runs | 673 coded assistant turns | outcome = solo margin sum (mean -5.0, sd 13.0)
+reliability: Jaccard 0.843  Fleiss kappa 0.494
+
+                             act  prev%  kappa     rho       p      q  rho_min  tag
+                    Move Verdict  100.0   0.93  +0.343   0.000      -   +0.044  SATURATED <PREDICTED null>
+                    Board Report   42.2   0.69  -0.107   0.141  0.281   -0.090  <PREDICTED null>
+             Local Justification   98.4   0.82  +0.401   0.000      -   +0.240  SATURATED
+                     Worked Line   44.3   0.87  +0.270   0.000  0.001   +0.113  <PREDICTED +>
+               General Principle   71.9   0.56  -0.017   0.819  0.882   +0.004  <PREDICTED +>
+                            Hint    5.7   0.37  +0.155   0.032  0.085   +0.098  
+                          Prompt    4.7   0.75  +0.069   0.340  0.544   +0.027  
+  Comprehension Gauging Question    0.0  -0.00     n/a     nan      -      n/a  no variance
+                      Paraphrase    1.0   0.12  +0.056   0.441      -   -0.025  rare
+               Positive Feedback    9.9   0.37  +0.196   0.006  0.026   +0.133  
+               Negative Feedback    5.7   0.39  +0.011   0.882  0.882   +0.008  
+                Neutral Feedback    2.1   0.06  -0.033   0.650  0.867   -0.000  
+
+PRE-REGISTERED CONTRAST (second game)
+  transfer-bearing ('General Principle', 'Worked Line'): mean rho = +0.127
+  inert            ('Board Report', 'Move Verdict'): mean rho = +0.118
+  difference = +0.008  (prediction: clearly positive)

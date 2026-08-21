@@ -1,0 +1,10 @@
+ok	q5_shared_context_preset7_anthropic:claude-sonnet-5
+ok	q5_shared_context_preset9_anthropic:claude-sonnet-5
+ok	q5_shared_context_preset8_anthropic:claude-sonnet-5
+ok	q5_shared_context_preset7_together:moonshotai_Kimi-K2.6
+ok	q5_shared_context_preset10_anthropic:claude-sonnet-5
+FAIL	q5_shared_context_preset9_together:moonshotai_Kimi-K2.6	logs/q5_shared_context_preset9_together:moonshotai_Kimi-K2.6.log
+ok	q5_shared_context_preset11_anthropic:claude-sonnet-5
+ok	q5_shared_context_preset8_together:moonshotai_Kimi-K2.6
+FAIL	q5_shared_context_preset10_together:moonshotai_Kimi-K2.6	logs/q5_shared_context_preset10_together:moonshotai_Kimi-K2.6.log
+ok	q5_shared_context_preset11_together:moonshotai_Kimi-K2.6

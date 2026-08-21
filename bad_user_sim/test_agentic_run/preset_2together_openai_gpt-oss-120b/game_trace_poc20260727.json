@@ -1,0 +1,111 @@
+[
+  {
+    "tool": "consult_assistant",
+    "question": "Given this board and legal moves (g2, b6, a7, b7, b8, c8), which move maximizes Black's final disc count assuming optimal play?"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "play_move",
+    "move": "b7"
+  },
+  {
+    "tool": "play_move",
+    "move": "a7"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "play_move",
+    "move": "a1"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "What are Black's legal moves now (empties h1, g2, a3, b8, c8)?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "What are Black's legal moves now (with empty squares a1, h1, g2, a3, a8, b8, c8)?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Among Black's options (a1, a3, a8, b8, c8), which move yields the highest final disc count for Black assuming optimal play from White?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Among White's legal moves (g2, b6, a7, a8, b8, c8), which one gives White the best chance (i.e., minimizes Black's final disc count) assuming optimal play?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Among White's moves (h1, g2, b8, c8), which gives White the best chance to reduce Black's final disc count?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "What are White's legal moves now (empty squares h1, g2, a3, a8, b8, c8)?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "What are White's legal moves now?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After Black plays b7, what are White's legal moves?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Given White's legal moves (a1, a3, b6, a8, c8) from the current board, which move best minimizes Black's final disc count?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "What are White's legal moves now (empties h1, g2, b8, c8)?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Among Black's options (h1, g2, a3, b8, c8), which move gives Black the highest final disc count assuming optimal White play?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Among White's legal moves (g2, b6, a8, b8, c8), which one yields the best outcome for White (i.e., minimizes Black's final disc count)?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "After Black plays b7, what is White's optimal move (that minimizes Black's final disc count)?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Among White's moves (h1, g2, a3, a8, b8, c8), which gives White the best chance (minimizes Black's final disc count)?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "Given White's legal moves (a3, a8, b8, c8), which gives White the best chance to minimize Black's final disc count?"
+  },
+  {
+    "tool": "consult_assistant",
+    "question": "From the current position (after Black played b7), assuming White replies optimally, what is Black's next best move and the final disc count?"
+  },
+  {
+    "tool": "play_move",
+    "move": "b6"
+  },
+  {
+    "tool": "play_move",
+    "move": "h1"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "view_board"
+  },
+  {
+    "tool": "view_board"
+  }
+]

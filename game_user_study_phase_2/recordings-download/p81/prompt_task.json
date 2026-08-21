@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Need a three-year plan to grow online and publish a cookbook. Posts cooking videos to 1.2m followers with a limited budget and time and work four days a week.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.333,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.333,
+  "submitted_at": "2026-08-18T22:35:31.095447+00:00"
+}

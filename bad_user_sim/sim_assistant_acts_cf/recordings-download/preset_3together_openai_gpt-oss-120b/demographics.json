@@ -1,0 +1,9 @@
+{
+  "prolific_id": "preset_3together_openai_gpt-oss-120b",
+  "game": "connect_four",
+  "age": 29,
+  "education": "some_college",
+  "occupation": "arts",
+  "genai_usage": "monthly",
+  "student_model": "together:openai/gpt-oss-120b"
+}

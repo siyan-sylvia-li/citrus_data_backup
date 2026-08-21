@@ -1,0 +1,41 @@
+{
+  "idea": "I would ask for general chess strategies or ways to improve. Asking just for a single move will just make me dependent on the AI.",
+  "n_chars": 129,
+  "start_message": "What do you think would be the best move right now?",
+  "selected": "say_thinking",
+  "selected_type": "think_aloud",
+  "selected_carries_forward": true,
+  "others_shown": [
+    "look_ahead",
+    "ask_answer"
+  ],
+  "option_order": [
+    "say_thinking",
+    "look_ahead",
+    "ask_answer"
+  ],
+  "seconds_on_page": 86,
+  "form": "elicit_select_reply",
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 4
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.333,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-20T16:48:59.407107+00:00"
+}

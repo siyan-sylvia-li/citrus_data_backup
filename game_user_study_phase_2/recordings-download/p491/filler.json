@@ -1,0 +1,25 @@
+{
+  "reflection": "I Would advise a consistent plan that would work for 3 years. First meal prepping is a great part of the plan. She can publish her cookbook for sale to generate more money for equipments that would make the cooking more efficient and effective",
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 3
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.0,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-18T21:27:11.128429+00:00"
+}

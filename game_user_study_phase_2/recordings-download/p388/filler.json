@@ -1,0 +1,25 @@
+{
+  "reflection": "With limited time and budget Julie needs to be looking at viral marketing which minimising her own activity whilst maximising results. She should be looking at ways to encourage her existing followers to  expand her reach or looking at collaborations.",
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 4
+      },
+      {
+        "model": "nemotron",
+        "score": 3
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.333,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-18T21:31:56.654921+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "created_prompt": "Hi, my friend Julie needs help devising a direct and clear three year plan. She posts healthy-related cooking videos on social media and has 1.2 million followers. She wants to continue growing online and eventually publish a cookbook.\r\n\r\nThe problems she faces is that she works 4 days weekly and has a smaller budget. She also doesn't know whether her cookbook should be traditionally or self published.\r\n\r\nHelp create a plan that helps overcome her problems, provides important feedback on publishing, and gives her direct steps she can follow to reach her goals by the end of the 3 years.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "submitted_at": "2026-08-03T15:26:48.171864+00:00"
+}

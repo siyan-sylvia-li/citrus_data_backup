@@ -1,0 +1,25 @@
+{
+  "reflection": "Continue to grow the video channel and invite and test out recipes from your followers stating any submissions may be used in a future cookbook.",
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 4
+      },
+      {
+        "model": "nemotron",
+        "score": 3
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.333,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-18T16:48:49.793317+00:00"
+}
