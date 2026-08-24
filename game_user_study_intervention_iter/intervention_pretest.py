@@ -338,7 +338,9 @@ def main():
             print(f"{k:<16} {len(v)} rows")
         return 0
 
-    reader_models = ["openai/gpt-5.4-mini", "anthropic/claude-sonnet-5",
+    # Sonnet comes from Bedrock; the other two from their own vendors. Region for the
+    # Bedrock reader is taken from AWS_REGION_NAME, since these are bare model strings.
+    reader_models = ["openai/gpt-5.4-mini", llm_backends.anthropic_model("claude-sonnet-5"),
                      "together_ai/meta-llama/Llama-3.3-70B-Instruct-Turbo"]
     coder_model = a.coder
     names = [a.variant] if a.variant else list(VARIANTS)

@@ -5,6 +5,8 @@ from typing import Literal
 
 import dspy
 
+import llm_backends
+
 _log = logging.getLogger("dialogue_act_annotation")
 
 # Scheme membership for the acts actually used (T = Tutor move, S = Student move)
@@ -133,10 +135,11 @@ class DialogueActSuite(dspy.Module):
         # param, and 0.0 is not the default. Thinking is on by default and
         # shares the max_tokens budget with the reply, so disable it -- this
         # signature only emits a short label list.
+        # Sonnet is served by BEDROCK, not by an Anthropic key -- see llm_backends.
         specs = {
             "llama": dspy.LM("together_ai/meta-llama/Llama-3.3-70B-Instruct-Turbo", temperature=0.0, max_tokens=2048, timeout=lm_timeout),
             "gpt": dspy.LM("openai/gpt-5.4-mini", max_tokens=2048, timeout=lm_timeout),
-            "sonnet": dspy.LM("anthropic/claude-sonnet-5", max_tokens=2048, timeout=lm_timeout),
+            "sonnet": llm_backends.anthropic_lm("claude-sonnet-5", max_tokens=2048, timeout=lm_timeout),
         }
         self.annotators = {}
         for name, lm in specs.items():

@@ -16,14 +16,45 @@
                 border-bottom: 1px solid #cfd8e3; }
     .iv__head--a { color: #1a4d8f; }
     .iv__head--b { color: #8f2d5e; }
-    .iv__cell { padding: 14px 18px 16px; border-bottom: 1px solid #e3e9f0; }
+    /* The cell is a column so the screenshot inside it can stretch: the two shots in a
+       row then end at the same height however many messages each conversation has. */
+    .iv__cell { padding: 14px 18px 16px; border-bottom: 1px solid #e3e9f0;
+                background: #eef2f7; display: flex; flex-direction: column; }
     .iv__cell:nth-child(odd) { border-right: 1px solid #cfd8e3; }
     .iv__head:nth-child(odd)  { border-right: 1px solid #cfd8e3; }
-    .iv__cell ul { margin: 0; padding-left: 18px; }
-    .iv__cell li { margin-bottom: 8px; line-height: 1.5; }
-    .iv__a li { color: #1a4d8f; }
-    .iv__b li { color: #8f2d5e; }
-    .iv__pid { font-size: 0.86rem; font-weight: 700; opacity: 0.75; margin: 0 0 6px; }
+    .iv__pid { font-size: 0.86rem; font-weight: 700; opacity: 0.75; margin: 0 0 8px;
+               color: #486581; }
+    /* Which group a shot belongs to. Hidden while the columns are side by side -- the
+       column head says it -- and revealed when they stack, where the head no longer sits
+       above its own cell. The shots themselves are untinted, so without this the stacked
+       layout would give no cue at all which group a conversation came from. */
+    .iv__grouplab { display: none; }
+    .iv__cell--a .iv__grouplab { color: #1a4d8f; }
+    .iv__cell--b .iv__grouplab { color: #8f2d5e; }
+
+    /* A "screenshot" of the assistant panel the participant is about to use. It reuses
+       .chat/.chat__msg from style.css on purpose -- if the real panel is restyled these
+       follow it, so the shots cannot silently drift out of date. Group A and Group B are
+       rendered IDENTICALLY here (no per-column tinting, unlike the old text tables): the
+       contrast the participant is asked to find has to come from what was written, not
+       from a colour cue the real interface would never give them. */
+    .shot { flex: 1; width: 100%; font-size: 13px;
+            border: 1px solid #cbd2d9; box-shadow: 0 1px 4px rgba(15,23,42,0.12); }
+    .shot .chat__header { padding: 9px 12px; font-size: 13px; }
+    .shot .chat__messages { padding: 10px; gap: 7px; overflow: visible; }
+    .shot .chat__msg { font-size: 13px; padding: 7px 10px; }
+    /* Assistant turns are elided. The replies are not the material -- what the
+       participant wrote is -- and showing them in full would bury it. */
+    .shot__reply { color: #486581; letter-spacing: 0.12em; padding: 5px 12px 7px; }
+    /* The composer is inert markup, not inputs: this whole page is one <form>, so a real
+       <input> here would post with the observation and a nested <form> is invalid HTML. */
+    .shot__form { display: flex; gap: 6px; padding: 8px; border-top: 1px solid #e4e7eb;
+                  background: #fff; }
+    .shot__input { flex: 1; padding: 6px 10px; border: 1px solid #cbd2d9; border-radius: 6px;
+                   color: #9aa5b1; user-select: none; }
+    .shot__send { padding: 6px 14px; background: #6DB38A; color: #fff; border-radius: 6px;
+                  font-weight: 600; user-select: none; }
+
     textarea.start__input { min-height: 120px; resize: vertical; font-family: inherit;
                             line-height: 1.45; }
     .iv__choice { margin: 6px 0 18px; }
@@ -36,33 +67,55 @@
                    border-top-color: #fff; border-radius: 50%; animation: iv-spin 1s linear infinite;
                    margin: 0 auto 1rem; }
     @keyframes iv-spin { to { transform: rotate(360deg); } }
-    @media (max-width: 780px) { .iv__grid { grid-template-columns: 1fr; }
-                            #iv-form { max-width: 520px; } }
+    @media (max-width: 780px) {
+      .iv__grid { grid-template-columns: 1fr; }
+      #iv-form { max-width: 520px; }
+      .iv__head { display: none; }
+      .iv__grouplab { display: inline; }
+      .iv__cell:nth-child(odd) { border-right: 0; }
+    }
   </style>
 </head>
 <body>
   <header class="topbar"><h1 class="topbar__title">Game Study</h1></header>
 
+  {% macro shot(messages) %}
+    <div class="chat shot">
+      <header class="chat__header">Chat with AI Assistant</header>
+      <div class="chat__messages">
+        {% for m in messages %}
+          <div class="chat__msg chat__msg--user">{{ m }}</div>
+          <div class="chat__msg chat__msg--bot shot__reply">…</div>
+        {% endfor %}
+      </div>
+      <div class="shot__form" aria-hidden="true">
+        <div class="shot__input">Type a message…</div>
+        <div class="shot__send">Send</div>
+      </div>
+    </div>
+  {% endmacro %}
+
   <main class="start">
     <form class="start__card" method="post" action="{{ url_for('intervention') }}" id="iv-form">
       <h2 class="start__title">Before you play</h2>
       <p class="start__body">
-        Here are some messages from participants in a different version of this study
-        (Connect Four rather than Othello). They were talking to the same kind of AI
-        assistant you are about to use.
+        Here are screenshots of conversations from participants in a different version of
+        this study (Connect Four rather than Othello). They were talking to the same kind
+        of AI assistant you are about to use. The assistant's replies are hidden (…) —
+        only what the participants wrote is shown.
       </p>
 
       <div class="iv__grid">
         <div class="iv__head iv__head--a">Group A</div>
         <div class="iv__head iv__head--b">Group B</div>
         {% for a, b in pairs %}
-          <div class="iv__cell iv__a">
-            <p class="iv__pid">Participant {{ loop.index }}</p>
-            <ul>{% for m in a %}<li>{{ m }}</li>{% endfor %}</ul>
+          <div class="iv__cell iv__cell--a">
+            <p class="iv__pid"><span class="iv__grouplab">Group A &middot; </span>Participant {{ loop.index }}</p>
+            {{ shot(a) }}
           </div>
-          <div class="iv__cell iv__b">
-            <p class="iv__pid">Participant {{ loop.index }}</p>
-            <ul>{% for m in b %}<li>{{ m }}</li>{% endfor %}</ul>
+          <div class="iv__cell iv__cell--b">
+            <p class="iv__pid"><span class="iv__grouplab">Group B &middot; </span>Participant {{ loop.index }}</p>
+            {{ shot(b) }}
           </div>
         {% endfor %}
       </div>

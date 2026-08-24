@@ -3,6 +3,8 @@ import logging
 
 import dspy
 
+import llm_backends
+
 _log = logging.getLogger("prompt_filter")
 
 JUDGE_RUBRIC = (
@@ -33,29 +35,18 @@ Rate the prompt below from 1 to 4 using the provided rubric. Judge ONLY the prom
 class JudgeSuite(dspy.Module):
     def __init__(self, callbacks=None):
         super().__init__(callbacks)
-        # Three-judge panel: Llama-3.3-70B (Together, Predict) + gpt-5.4-mini
-        # (OpenAI, ChainOfThought — reasoning improves its calibration and it's
-        # fast enough that CoT stays cheap) + Nemotron-3-Ultra-550B (Together,
-        # Predict). All fast + serverless.
-        # (The original Qwen3-235B judge went off serverless. A full sweep of the
-        # Together serverless catalog found Nemotron the best replacement third
-        # judge: most decorrelated from Llama+GPT, so it wins on panel agreement
-        # — screener ICC 0.685 -> 0.743, r 0.785 -> 0.841, exact 50% -> 65%.
-        # gpt-oss-120b / MiniMax-M3 tie it on r but lose on ICC/exact; small Qwen
-        # and big reasoning models were too weak or too slow. See notes.)
-        # timeout caps a slow/straggling model; on timeout that grader errors,
-        # is dropped, and the panel returns from the others (fail-open).
-        specs = {
-            "llama": (dspy.LM("together_ai/meta-llama/Llama-3.3-70B-Instruct-Turbo", temperature=0.0, max_tokens=2048, timeout=10), dspy.Predict),
-            "gpt": (dspy.LM("openai/gpt-5.4-mini", max_tokens=2048, timeout=10), dspy.ChainOfThought),
-            "nemotron": (dspy.LM("together_ai/nvidia/nemotron-3-ultra-550b-a55b", temperature=0.0, max_tokens=2048, timeout=15), dspy.Predict),
-        }
+        # Three-judge panel: Llama-3.3-70B (Together, Predict) + gpt-5.4-mini (OpenAI,
+        # ChainOfThought -- reasoning improves its calibration and it's fast enough that
+        # CoT stays cheap) + Nemotron-3-Ultra-550B (Together, Predict). All fast +
+        # serverless, and none of them Anthropic, so none of them goes through Bedrock.
+        # Which model fills each seat lives in llm_backends.panel_specs, so this gate
+        # and the effort gate cannot drift apart; the rationale for the panel is there.
         self.graders = {}
-        for name, (lm, grader_cls) in specs.items():
+        for name, (lm, grader_cls) in llm_backends.panel_specs().items():
             g = grader_cls(JudgeSignature)
             g.set_lm(lm)
             self.graders[name] = g
-    
+
     def _grade(self, name, grader, prompt):
         try:
             return name, int(grader(prompt_judged=prompt, rubric=JUDGE_RUBRIC).output_score)

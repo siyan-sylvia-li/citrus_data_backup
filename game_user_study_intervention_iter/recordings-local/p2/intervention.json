@@ -1,0 +1,29 @@
+{
+  "variant": "v9_reasons",
+  "observation": "Group A mostly just asks for the next moves directly. Group B adds more reasoning to the texts and proposes possible moves.",
+  "choice": "B",
+  "choice_correct": true,
+  "form": "contrasting_cases",
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 4
+      },
+      {
+        "model": "nemotron",
+        "score": 3
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.333,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-24T19:40:45.089331+00:00"
+}

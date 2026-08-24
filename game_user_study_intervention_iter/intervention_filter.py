@@ -20,6 +20,8 @@ import logging
 
 import dspy
 
+import llm_backends
+
 _log = logging.getLogger("intervention_filter")
 
 # Both arms are gated, so screening is symmetric: the scaffolded arm answers a question
@@ -103,16 +105,11 @@ class EffortSuite(dspy.Module):
 
     def __init__(self, callbacks=None):
         super().__init__(callbacks)
-        specs = {
-            "llama": (dspy.LM("together_ai/meta-llama/Llama-3.3-70B-Instruct-Turbo",
-                              temperature=0.0, max_tokens=2048, timeout=10), dspy.Predict),
-            "gpt": (dspy.LM("openai/gpt-5.4-mini", max_tokens=2048, timeout=10),
-                    dspy.ChainOfThought),
-            "nemotron": (dspy.LM("together_ai/nvidia/nemotron-3-ultra-550b-a55b",
-                                 temperature=0.0, max_tokens=2048, timeout=15), dspy.Predict),
-        }
+        # Same panel as prompt_filter.JudgeSuite, taken from the one place that defines
+        # it -- the two gates are required to behave and fail the same way, which two
+        # copies of a spec table could not guarantee.
         self.graders = {}
-        for name, (lm, cls) in specs.items():
+        for name, (lm, cls) in llm_backends.panel_specs().items():
             g = cls(EffortSignature)
             g.set_lm(lm)
             self.graders[name] = g

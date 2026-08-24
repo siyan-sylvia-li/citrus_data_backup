@@ -25,7 +25,11 @@ import random
 
 dotenv.load_dotenv()
 
+# The in-game assistant is an OpenAI model, so it is served by OpenAI on OPENAI_API_KEY.
+# Bedrock is used ONLY for Anthropic models (see llm_backends), and its OpenAI-compatible
+# Mantle endpoint is not in the path here -- which also means no bearer token to refresh.
 OPENAI_CLIENT = openai.OpenAI()
+
 CHAT_MODEL = os.environ.get("OPENAI_MODEL", "gpt-5.5")
 PROLIFIC_CODE = os.environ.get("PROLIFIC_CODE", "PLACEHOLDER")
 # Three screen-out paths/codes: #1 skilled Othello players (screened on the

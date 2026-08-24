@@ -27,7 +27,7 @@ export POST_SURVEY_FORM_URL="${POST_SURVEY_FORM_URL:-https://docs.google.com/for
 
 # Default to the document_study_og venv (has the app's deps installed);
 # override with PYTHON=/path/to/python ./run_local.sh
-PYTHON="${PYTHON:-../document_study_og/.venv/bin/python}"
+PYTHON="${PYTHON:-/home/sylviali/miniconda3/envs/citrus/bin/python}"
 echo "Starting local study server on http://localhost:5001"
 echo "  data dir : $RECORDINGS_DIR"
 echo "  python   : $PYTHON   (override with PYTHON=/path/to/venv/bin/python)"
