@@ -1,0 +1,29 @@
+{
+  "variant": "v9_reasons",
+  "observation": "The first group asks for the best moves. The second group tells the AI the moves they were considering and whether they are good moves or not. The second group is also overall more verbose, as Participant 2 of Group A uses minimal words when talking to the AI, while both participants of Group B write in full sentences.",
+  "choice": "B",
+  "choice_correct": true,
+  "form": "contrasting_cases",
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 4
+      },
+      {
+        "model": "gpt",
+        "score": 4
+      },
+      {
+        "model": "nemotron",
+        "score": 4
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 4.0,
+    "median_score": 4,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-21T20:37:00.994322+00:00"
+}

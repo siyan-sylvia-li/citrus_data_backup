@@ -1,0 +1,29 @@
+{
+  "variant": "v9_reasons",
+  "observation": "Group A seems to be asking for assistance while giving the AI agent some background information. Group B seems to be asking for answers without giving information, and given the prompts seems to have little background knowledge of the game. Participant 2 in Group A does not seem to have played the game at all.",
+  "choice": "A",
+  "choice_correct": false,
+  "form": "contrasting_cases",
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 4
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 4
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.667,
+    "median_score": 4,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-21T19:50:02.334137+00:00"
+}

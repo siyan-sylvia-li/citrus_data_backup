@@ -1,0 +1,29 @@
+{
+  "variant": "v9_reasons",
+  "observation": "participant one is more analytical and has more direct prompts participant b is more chatting with ai",
+  "choice": "A",
+  "choice_correct": false,
+  "form": "contrasting_cases",
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 3
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.0,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-21T19:36:12.414902+00:00"
+}

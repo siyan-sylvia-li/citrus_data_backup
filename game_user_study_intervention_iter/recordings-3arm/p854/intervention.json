@@ -1,0 +1,29 @@
+{
+  "variant": "v9_reasons",
+  "observation": "Participants in Group B seem like they are likely already more familiar with the game than those in A, as they are already analyzing the board more in depth than A. \"Which one would be the best move\" in particular suggests Participant 2 in Group A is likely a complete novice and will play very poorly when alone. Both participants in group A ask questions that are around geared around strategy tightening.",
+  "choice": "B",
+  "choice_correct": true,
+  "form": "contrasting_cases",
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 4
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 4
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.667,
+    "median_score": 4,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-21T20:44:24.849245+00:00"
+}

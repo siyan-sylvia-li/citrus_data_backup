@@ -1,0 +1,25 @@
+{
+  "created_prompt": "I need you to make me a solid three year plan that includes growing my online platform and publishing my own cookbook. I currently have 1.2M followers and my goal is to hit 1.5M by year end. I plan to work on my book as much as possible but it needs to workaround my work schedule (4 days a week) and my budget for the book is 1000 dollars.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.667,
+  "submitted_at": "2026-08-21T20:29:00.506068+00:00"
+}

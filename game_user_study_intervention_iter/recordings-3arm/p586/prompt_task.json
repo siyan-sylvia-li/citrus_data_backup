@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Prepare a 3 year game plan to grow my online viewership, write a cookbook and determine if I should try to publish traditionally or self-publish. Break down the plan by month, taking into account that I have limited time and budget to devote to this endeavour",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 3.0,
+  "submitted_at": "2026-08-21T20:05:20.605188+00:00"
+}

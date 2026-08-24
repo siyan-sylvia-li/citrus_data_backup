@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Help me create a business plan.\r\n\r\nI currently post cooking videos on social media to 1.2 million followers. I focus on quick and healthy recipes and I receive good feedback.\r\n\r\nI need a three-year plan to both grow online and publish a cookbook. Please offer advice on whether the cookbook should be traditionally-published or self-published. Provide pros and cons for each.\r\n\r\nI work four days a week and am limited in time and budget.",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 3.0,
+  "submitted_at": "2026-08-21T20:10:35.246346+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Julie is a cooking content creator with 1.2 million followers who are interested in quick, healthy recipes. She wants to grow her online presence over the next three years and eventually publish a cookbook, but she is undecided about whether to pursue traditional oral publishing or self-publishing. She works only four days per week and has limited time and budget. Create a detailed three-year action plan with specific goals, priorities, timelines, and low-cost strategies for audience growth, content creation, brand partnerships, income opportunities, and cookbook development. Compare traditional sand self-publishing, recommend the best path based on her situation, and explain why. Make the plan realistic, practical, and achievable given her time and budget constraints.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 4
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": null
+    }
+  ],
+  "n_judges": 2,
+  "mean_score": 3.5,
+  "median_score": 3.5,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 3.5,
+  "submitted_at": "2026-08-21T19:57:26.045364+00:00"
+}

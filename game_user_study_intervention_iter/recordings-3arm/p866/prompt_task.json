@@ -1,0 +1,25 @@
+{
+  "created_prompt": "I need a concrete very direct 3-year plan to grow my cooking business. Julie posts videos online and has 1.2M followers. She wants to publish a cook-book either in print or e-book. Currently she works 4 days a week and has limited time and budget to do this. Layout a doable plan to achieve these goals.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.667,
+  "submitted_at": "2026-08-21T19:51:53.977142+00:00"
+}

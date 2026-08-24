@@ -1,0 +1,29 @@
+{
+  "variant": "v9_reasons",
+  "observation": "Group A is asking for the assistant to give the best move while Group B is giving the assistant ideas and asking it what it thinks about the move.",
+  "choice": "B",
+  "choice_correct": true,
+  "form": "contrasting_cases",
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 3
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.0,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-21T20:25:58.761977+00:00"
+}

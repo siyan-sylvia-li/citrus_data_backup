@@ -1,0 +1,29 @@
+{
+  "variant": "v9_reasons",
+  "observation": "A treats the AI as a tool with clear simple questions and options while B interacts with a more personal conversational style.",
+  "choice": "A",
+  "choice_correct": false,
+  "form": "contrasting_cases",
+  "effort": {
+    "judges": [
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 4
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.333,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-21T19:39:58.224549+00:00"
+}

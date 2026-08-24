@@ -1,0 +1,29 @@
+{
+  "variant": "v9_reasons",
+  "observation": "In group B they seem to be asking more specific questions about placement of the blocks and where they should be going as opposed to just generalised whats best questions",
+  "choice": "B",
+  "choice_correct": true,
+  "form": "contrasting_cases",
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 3
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.0,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-21T18:34:20.811504+00:00"
+}

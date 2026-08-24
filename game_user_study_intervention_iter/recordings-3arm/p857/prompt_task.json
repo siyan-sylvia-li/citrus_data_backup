@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Create a clear strong three-year plan for someone who wants to grow her online platform and publish a cookbook (give pros and cons for traditional vs self publishing) - she posts healthy and quick recipes and already has 1.2M followers.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.667,
+  "submitted_at": "2026-08-21T20:55:16.437905+00:00"
+}

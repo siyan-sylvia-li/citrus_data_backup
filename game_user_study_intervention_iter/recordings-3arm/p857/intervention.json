@@ -1,0 +1,29 @@
+{
+  "variant": "v9_reasons",
+  "observation": "Group A asks more open questions which will give a wider answer regarding moves whereas group B asks closed questions regarding moves they are thinking of doing.",
+  "choice": "B",
+  "choice_correct": true,
+  "form": "contrasting_cases",
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 4
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": null
+      }
+    ],
+    "n_judges": 2,
+    "mean_score": 3.5,
+    "median_score": 3.5,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-21T20:58:39.559634+00:00"
+}

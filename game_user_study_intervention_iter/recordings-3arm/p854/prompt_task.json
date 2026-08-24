@@ -1,0 +1,25 @@
+{
+  "created_prompt": "I need to make a 3-year plan for growing a cooking channel that involved also publishing a cookbook with recipes from the channel. I have limited time. Currently at 1.2M followers and I am unsure about whether to use traditional or self-published for the book. Funds and time are very limited. Please provide advice on the book publishing process, and how to make the most with the limited time and budget to maximize growth over the next three years. Please break it down by month.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.667,
+  "submitted_at": "2026-08-21T20:41:17.890050+00:00"
+}

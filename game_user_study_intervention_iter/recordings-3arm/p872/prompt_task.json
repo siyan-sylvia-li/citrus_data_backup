@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Create a realistic 3 year plan where I can grow the online following from 1.2m followers for my healthy recipe cooking and also schedule in the writing and publishing of a cookbook to compliment my cooking videos. Don't forget I have only 3 days a week to accomplish this so I need to be able to create healthy but easy to create film and photograph recipes that don't cost too much. Also cost and evaluate whether I should approach a publishing house or self publish.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 3.0,
+  "submitted_at": "2026-08-21T19:38:04.129414+00:00"
+}

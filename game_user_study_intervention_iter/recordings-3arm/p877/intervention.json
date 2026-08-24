@@ -1,0 +1,29 @@
+{
+  "variant": "v9_reasons",
+  "observation": "I feel the first group is heavily reliant on AI giving them the answers, constant questioning. I feel the other group are making their own decisions and just running it by AI even though they've made their own mind up.",
+  "choice": "B",
+  "choice_correct": true,
+  "form": "contrasting_cases",
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 3
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.0,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-21T20:11:16.235876+00:00"
+}

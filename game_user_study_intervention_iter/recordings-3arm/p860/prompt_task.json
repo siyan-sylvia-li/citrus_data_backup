@@ -1,0 +1,25 @@
+{
+  "created_prompt": "I want to have a three year plan to increase my online presence and publish a cookbook.  I am not sure if I want to go traditional or self published.  I have 1.2 million followers that I post cooking videos to.   My time and budget are very limited and I work 4 days a week. Help me come up with a concrete three year plan to accomplish my goal.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 3.0,
+  "submitted_at": "2026-08-21T19:34:06.382912+00:00"
+}

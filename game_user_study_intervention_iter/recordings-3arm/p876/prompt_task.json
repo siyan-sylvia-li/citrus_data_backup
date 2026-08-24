@@ -1,0 +1,25 @@
+{
+  "created_prompt": "devise a concrete three-year plan for Julie.\r\nShe wants to grow online and create a cookbook. she works four days weekly and is limited in time and budget. However she still manages to post cooking videos to 1.3M followers who lover her quick and healthy recipes.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.667,
+  "submitted_at": "2026-08-21T20:03:20.926447+00:00"
+}

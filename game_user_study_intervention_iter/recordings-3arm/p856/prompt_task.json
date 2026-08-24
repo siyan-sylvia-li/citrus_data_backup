@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Please create a concise three year plan for me to create a cookbook.  I'm unsure if I want it to be traditional or self-publishing.  I currently have 1.2M followers online and feature healthy recipes.  I work 4 days a week so my time and budget are limited.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.667,
+  "submitted_at": "2026-08-21T20:24:00.843956+00:00"
+}

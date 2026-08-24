@@ -1,0 +1,25 @@
+{
+  "created_prompt": "I currently have 1.2m followers, I want to increase this steadily over the next 3 years by creating content and releasing a cookbook to help grow my following. Please create a plan that can work around having 3 free days a week to utilise",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.333,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.333,
+  "submitted_at": "2026-08-21T18:30:35.844855+00:00"
+}

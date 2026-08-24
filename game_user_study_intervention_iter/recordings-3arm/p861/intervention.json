@@ -1,0 +1,29 @@
+{
+  "variant": "v9_reasons",
+  "observation": "Group A seems to use AI in a more strategic and structured way. They ask the AI to analyze the board, predict future moves, and explain the reasoning behind recommendations. Group B appears to rely more on their ideas and uses AI mainly to check or discuss moves they are already considering. Group A is focused on optimization, while Group B is more focused on learning and validating their thought process.",
+  "choice": "B",
+  "choice_correct": true,
+  "form": "contrasting_cases",
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 4
+      },
+      {
+        "model": "gpt",
+        "score": 4
+      },
+      {
+        "model": "nemotron",
+        "score": 4
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 4.0,
+    "median_score": 4,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-21T20:03:17.934987+00:00"
+}

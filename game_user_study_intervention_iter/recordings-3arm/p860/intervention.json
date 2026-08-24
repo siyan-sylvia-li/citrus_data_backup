@@ -1,0 +1,29 @@
+{
+  "variant": "v9_reasons",
+  "observation": "Group b is asking for description on what each move would do or suggestions on what to do next.  Group a is asking for exact answer on what move to do next.",
+  "choice": "B",
+  "choice_correct": true,
+  "form": "contrasting_cases",
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 4
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 3
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.333,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-21T19:36:04.885242+00:00"
+}

@@ -1,0 +1,29 @@
+{
+  "variant": "v9_reasons",
+  "observation": "I think group B stands out because instead of asking what to do next, it considers moves and then asks if that move is best (they can better play the game on their own whereas group A is seeking more guidance)",
+  "choice": "B",
+  "choice_correct": true,
+  "form": "contrasting_cases",
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 4
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 3
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.333,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-21T19:34:10.216627+00:00"
+}

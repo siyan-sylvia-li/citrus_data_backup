@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Write me a concrete three-year plan to publish a cookbook. I need the plan to be completed with a small budget. I work four days a week so my free time to pursue this is limited. Write me two options with one based on traditional publishing and the other with a self publishing version.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.667,
+  "submitted_at": "2026-08-21T19:43:59.765040+00:00"
+}

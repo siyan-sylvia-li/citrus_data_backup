@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Can you devise a three-year plan for a cooking YouTuber with 1.2m followers to grow and publish a cookbook (either traditional or self-published)? Limited time and budget, works four days a week.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 3.0,
+  "submitted_at": "2026-08-21T20:34:03.089724+00:00"
+}

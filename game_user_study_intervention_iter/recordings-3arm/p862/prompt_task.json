@@ -1,0 +1,25 @@
+{
+  "created_prompt": "devise a concrete three year plan to grow online and publish a cookbook with limited time and budget for someone who posts cooking videos to 1.2 million followers.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.667,
+  "submitted_at": "2026-08-21T18:20:50.319340+00:00"
+}
