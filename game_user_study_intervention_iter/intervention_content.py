@@ -88,6 +88,49 @@ _B_REASON_SHORT = [
 # reading of the contrast would be "write more", and phase-1 says length predicts
 # transfer only through thinking aloud, dropping to nothing once it is controlled
 # (b=+0.044, p=.85).
+
+# --- v9_reasons: the same four blocks, each message paired with the assistant reply it
+# actually received in the phase-1 conversation, stored in FULL and verbatim (markdown
+# and all). Shortening for display is the form's job, not the material's, so the length
+# shown can be changed without touching what was really said -- see REPLY_WORDS in
+# interventions/forms/contrasting_cases.py. Only
+# v9_reasons uses these; every other variant keeps the message-only blocks above and
+# renders the reply as an ellipsis, so this change cannot move an earlier variant.
+# Source conversations: _A_REPEAT p400, _A_OUTSOURCE p633, _B_REASON_MID p265,
+# _B_REASON_SHORT p828.
+_A_OUTSOURCE_R = [
+    ('Analyze the current board and tell me the best sequence of my next three moves for Red. Please list only the column numbers in order and briefly explain why they are optimal.',
+     '4, then depends on Yellow’s replies.\n\nColumn 4 is optimal because it’s the only move that preserves Red’s forced win: it builds a central threat while preventing Yellow from taking control of that column. Your next two Red moves should be chosen based on which immediate threat Yellow blocks or creates.'),
+    ("Given Yellow's last move, what is now the best second move for Red? Reply with only the column number.",
+     '4'),
+]
+_B_REASON_MID_R = [
+    ('I’m considering row 3 because I think that gives me a chance to win horizontally or diagonally. Is that the best move?',
+     'If by “row 3” you mean **drop in column 3** so it lands on row 3: it looks tempting, but **it’s not the best**—it doesn’t create a strong enough forced threat.\n\nThe strongest move here is **column 4**. Dropping there lands at **c4–r3** and sets up Red’s threats better while avoiding giving Yellow the tempo to defend/counter.\n\nSo: **play column 4.**'),
+    ('Thanks! Should I do column 3 now? It gives me a chance to win diagonally going from the bottom right up too',
+     'Column 3 is tempting, but check the diagonal you mentioned: after **c3**, the diagonal up-right runs through **c4–r4 / c5–r5**, while the other diagonal hits **c4–r2**, which is already Yellow—so it’s not a clean winning threat.\n\nThe key move is **column 4**: it stacks on your Red at **c4–r3**, creating a much stronger threat structure. So I’d play **column 4**, not column 3.'),
+]
+_A_REPEAT_R = [
+    ('Which move would be the best one and why',
+     'Best move: **Column 4**.\n\nWhy: Red’s disc lands at **row 3**, blocking Yellow’s dangerous **two-in-a-column** in column 4. If Red ignores it, Yellow can play there and start creating a strong vertical threat. Column 4 also keeps Red in the center, which gives the best chance to build threats in the remaining moves.'),
+    ('What about next move?',
+     'Think about **Yellow’s immediate threat** first: Yellow already has discs in **column 4 rows 1–2**, and Red is at **row 3**, so that’s contained for now.\n\nFor Red’s next move, ask: **Can I create a threat Yellow must answer, rather than just block?**  \nLook at the center columns—especially **column 4**—because playing there can stack on your existing Red at **4,3** and keep control of the strongest area.'),
+    ('what about 6',
+     'Column **2** is tempting: it would give Red **three vertical discs** in column 2, threatening to win at **col 2, row 4** next.\n\nBut it’s only a **single threat**—Yellow can simply play **column 2** to block it. So it doesn’t keep as much pressure as the key center move.'),
+    ('so which one would be the best move?',
+     'The best move is **column 4**.\n\nWhy: it puts Red at **c4 row 4**, building a strong central vertical stack above your Red at **c4 row 3** while also avoiding giving Yellow an easy defensive reset. It’s the move that keeps your winning chances/forced win alive with only **2 moves left**.'),
+    ('What about now?',
+     'Look for a move that creates an **immediate 4-in-a-row threat**, not just a block.\n\nKey area: your Reds at **c3 r1, c4 r2, c5 r3?** — check the diagonal possibilities and which column would complete/support one. Also make sure Yellow doesn’t already have a direct win you must block.'),
+    ('Give me the best move',
+     'Best move: **column 5**.\n\nIt lands at **c5 row 4**, creating a strong **diagonal threat** with your Reds around the center and avoiding giving Yellow the key square. With only 1 move left, this is the move that keeps Red’s forced win alive.'),
+]
+_B_REASON_SHORT_R = [
+    ('If I add to column 2, will that reduce my possibilities rather than improve my chances?',
+     'Column 2 would **create a vertical threat**: Red would have discs at **c2 rows 1–3**, needing **c2 row 4** next.\n\nBut ask: **can Yellow immediately block that by playing column 2?** Yes — Yellow could drop into **c2 row 4**, stopping it.\n\nSo column 2 improves one obvious threat, but it may be a bit “single-purpose”: it gives Yellow a clear block and may not build a harder-to-stop double threat. Before choosing it, compare: *does another move create two threats at once or force Yellow’s reply?*'),
+    ("how about 4, blocking yellow's progress and adding to the diagonal?",
+     'Yes—column **4** is doing two useful things:\n\n- It lands at **c4 row 3**, directly sitting on top of Yellow’s **c4 row 1–2**, so it stops Yellow from building that central vertical.\n- It also makes a diagonal line with your **c5 row 2** and **c6 row 1**: **c4-r3, c5-r2, c6-r1**.\n\nSo compared with columns 2 or 5, column 4 looks more forcing: it **blocks Yellow while improving Red’s shape**.'),
+]
+
 INTERVENTION_VARIANTS = {
     "v0_live": [(_A_REPEAT, _B_CANDIDATE), (_A_TERSE, _B_PLAN), (_A_LONG, _B_RETRO)],
     "v2_think_pair": [(_A_TERSE, _B_THINK1), (_A_REPEAT, _B_THINK2), (_A_LONG, _B_PLAN)],
@@ -106,5 +149,6 @@ INTERVENTION_VARIANTS = {
     # The correction text is not itself versioned, so bumping the variant is what keeps
     # `which material did this person see` recoverable from the data: the 15 participants
     # recorded as v9_two_rows saw the old sentence, v9_reasons participants see the new one.
-    "v9_reasons":  [(_A_OUTSOURCE, _B_REASON_MID), (_A_REPEAT, _B_REASON_SHORT)],
+    "v9_reasons":  [(_A_OUTSOURCE_R, _B_REASON_MID_R),
+                    (_A_REPEAT_R, _B_REASON_SHORT_R)],
 }

@@ -43,9 +43,16 @@
     .shot .chat__header { padding: 9px 12px; font-size: 13px; }
     .shot .chat__messages { padding: 10px; gap: 7px; overflow: visible; }
     .shot .chat__msg { font-size: 13px; padding: 7px 10px; }
-    /* Assistant turns are elided. The replies are not the material -- what the
-       participant wrote is -- and showing them in full would bury it. */
-    .shot__reply { color: #486581; letter-spacing: 0.12em; padding: 5px 12px 7px; }
+    /* The assistant side is context, not the material -- what the participant wrote is.
+       So it is desaturated to a neutral grey and the participant's own messages keep the
+       contrast. Scoped to .shot on purpose: the live chat panel participants actually use
+       during the game keeps style.css's green, so the two do not drift. */
+    .shot .chat__msg--bot { background: #f0f2f4; color: #737c86; }
+    /* The cut-length marker is UI annotation, not something the assistant said, so it is
+       lighter still and italic -- it must not read as part of the reply. */
+    .shot__more { font-style: italic; color: #9aa3ad; white-space: nowrap; }
+    /* Elided turns (every variant except v9_reasons) sit one step fainter again. */
+    .shot__reply { color: #a6aeb7; letter-spacing: 0.12em; padding: 5px 12px 7px; }
     /* The composer is inert markup, not inputs: this whole page is one <form>, so a real
        <input> here would post with the observation and a nested <form> is invalid HTML. */
     .shot__form { display: flex; gap: 6px; padding: 8px; border-top: 1px solid #e4e7eb;
@@ -83,9 +90,9 @@
     <div class="chat shot">
       <header class="chat__header">Chat with AI Assistant</header>
       <div class="chat__messages">
-        {% for m in messages %}
+        {% for m, reply in messages %}
           <div class="chat__msg chat__msg--user">{{ m }}</div>
-          <div class="chat__msg chat__msg--bot shot__reply">…</div>
+          <div class="chat__msg chat__msg--bot{% if not reply %} shot__reply{% endif %}">{% if reply %}{{ reply.text }}{% if reply.more %} <span class="shot__more">[{{ reply.more }} more words]</span>{% endif %}{% else %}…{% endif %}</div>
         {% endfor %}
       </div>
       <div class="shot__form" aria-hidden="true">
@@ -101,8 +108,8 @@
       <p class="start__body">
         Here are screenshots of conversations from participants in a different version of
         this study (Connect Four rather than Othello). They were talking to the same kind
-        of AI assistant you are about to use. The assistant's replies are hidden (…) —
-        only what the participants wrote is shown.
+        of AI assistant you are about to use. The assistant's replies are shortened to
+        their opening words.
       </p>
 
       <div class="iv__grid">

@@ -18,7 +18,7 @@ app_og.py
 # Collected participant data lives in a mounted GCS bucket at runtime,
 # never in the build context / image.
 recordings/
-recordings-local/
+*/recordings-local/
 
 # Offline puzzle-design tooling & docs — kept in the repo for reproducibility,
 # but never imported at runtime (only engine.py is loaded by the app).
