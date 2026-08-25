@@ -27,6 +27,8 @@ from pathlib import Path
 
 import dotenv
 
+import llm_backends
+
 BASE = Path(__file__).resolve().parent
 dotenv.load_dotenv(BASE / ".env")
 
@@ -338,8 +340,8 @@ def main():
             print(f"{k:<16} {len(v)} rows")
         return 0
 
-    # Sonnet comes from Bedrock; the other two from their own vendors. Region for the
-    # Bedrock reader is taken from AWS_REGION_NAME, since these are bare model strings.
+    # Three readers from three vendors, so a variant that only looks salient to one
+    # model family does not score well. Sonnet's provider lives in llm_backends.
     reader_models = ["openai/gpt-5.4-mini", llm_backends.anthropic_model("claude-sonnet-5"),
                      "together_ai/meta-llama/Llama-3.3-70B-Instruct-Turbo"]
     coder_model = a.coder
