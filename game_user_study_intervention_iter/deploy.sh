@@ -92,7 +92,7 @@ OTH_TIME_LIMIT_SECONDS="${OTH_TIME_LIMIT_SECONDS:-480}"    # round 1 countdown (
 # passed to Cloud Run and silently ignored, so the transfer timer was always its default.
 OTH_TIME_LIMIT_TRANSFER="${OTH_TIME_LIMIT_TRANSFER:-90}"   # each transfer puzzle (s), if they run
 # External survey (AI-assistant assessment) shown after the AI-enabled round's TLX.
-POST_SURVEY_FORM_URL="${POST_SURVEY_FORM_URL:-https://docs.google.com/forms/d/e/1FAIpQLSfXzbQo1w1e38pJobB9zbD5GsMQB-8elonTWfqCqJsw93Q2Qw/viewform?usp=pp_url&entry.1597274411=<PROLIFIC_ID>}"
+POST_SURVEY_FORM_URL="${POST_SURVEY_FORM_URL:-https://docs.google.com/forms/d/e/1FAIpQLSeSV6ElQSulTvw2kf3pU7gtn94mN8gB097MSxyIgvT9HL4l1A/viewform?usp=pp_url&entry.1655719236=<PROLIFIC_ID>}"
 
 # ---- Stage 1 prompt-filter config (override via environment) -----------------
 # The judge panel models are fixed in llm_backends.panel_specs (Llama + Nemotron via

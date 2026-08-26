@@ -80,6 +80,15 @@ CONDITIONS = [
      True, lambda d: _form(d) == "johnny_connect_four_boost"),
     ("3arm_v9_reasons", "non-adopters", "game_user_study_intervention_iter/recordings-3arm",
      True, lambda d: _variant(d) == "v9_reasons"),
+    # The Aug-25/26 run (folder recordings-v9-vanilla) is another two-arm batch sharing one
+    # directory, split the same way: vanilla by the ABSENCE of intervention.json, scaffolded
+    # by the variant field. Its assisted-only participants were moved out to
+    # recordings-v9-assisted-only-legacy, so everything left here ran the full protocol
+    # (plus dropouts, which `reached_demographics` filters).
+    ("v9run_vanilla", "non-adopters", "game_user_study_intervention_iter/recordings-v9-vanilla",
+     True, lambda d: _has(d, "demographics.json") and not _has(d, "intervention.json")),
+    ("v9run_v9_reasons", "non-adopters", "game_user_study_intervention_iter/recordings-v9-vanilla",
+     True, lambda d: _variant(d) == "v9_reasons"),
 ]
 
 # Batches that were COLLECTED separately but are ANALYSED as one condition. The 3-arm
@@ -88,12 +97,21 @@ CONDITIONS = [
 # what the notebook's ORDER list expects.
 #
 # Pooling is not free: the batches sit in different recruitment windows (phase-2 vanilla
-# 08-18/19, 3-arm 08-21) and the earlier johnny batch ran ASSISTED-ONLY, so pooled johnny
-# has 35 R1 rounds but only the 13 newest have a transfer block. `batch` keeps the
-# original key on every row, so any of this can be split back apart.
+# 08-18/19, 3-arm 08-21, the v9 run 08-25/26) and the earlier johnny batch ran
+# ASSISTED-ONLY, so pooled johnny has 35 R1 rounds but only the 13 newest have a transfer
+# block. `batch` keeps the original key on every row, so any of this can be split back
+# apart.
 POOL_INTO = {
     "3arm_vanilla": "vanilla_non_adopters",
     "3arm_johnny": "intervention_johnny",
+    "v9run_vanilla": "vanilla_non_adopters",
+    # NOTE the presentation caveat: 3arm's v9_reasons showed the contrast as TEXT TABLES,
+    # while the Aug-26 run showed chat-style screenshots with truncated assistant replies
+    # (INTERVENTION_REPLY_WORDS=5). The variant key was deliberately not bumped -- same
+    # table, same messages, different rendering -- so these pool as one condition and the
+    # `batch` column is the only thing that separates them. Split on it before claiming a
+    # presentation effect either way.
+    "v9run_v9_reasons": "3arm_v9_reasons",
 }
 
 EXCLUDE = {"test2", "Fede", "p1", "p3", "t1"}          # pilots and colleagues
