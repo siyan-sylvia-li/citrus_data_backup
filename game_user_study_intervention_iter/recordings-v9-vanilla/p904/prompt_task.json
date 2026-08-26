@@ -1,0 +1,25 @@
+{
+  "created_prompt": "I love to cook and have 1.2 million followers to mycooking videos   I have limited time and budget but want to continue growing online and publish a cookbook either by using taditional methods or self publishing the cookbook   Advice",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.0,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.0,
+  "submitted_at": "2026-08-26T14:59:52.694203+00:00"
+}

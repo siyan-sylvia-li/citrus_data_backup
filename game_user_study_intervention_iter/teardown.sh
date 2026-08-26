@@ -9,7 +9,7 @@
 #   PROJECT_ID=my-proj ./teardown.sh --delete-bucket # also delete the data bucket
 set -euo pipefail
 
-PROJECT_ID="${PROJECT_ID:-citrus-user-study}"
+PROJECT_ID="${PROJECT_ID:-citrus-506513}"
 REGION="${REGION:-us-central1}"
 SERVICE="${SERVICE:-game-study-intervention-iter}"
 BUCKET="${BUCKET:-${PROJECT_ID}-${SERVICE}-data}"

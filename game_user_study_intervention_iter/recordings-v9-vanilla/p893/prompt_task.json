@@ -1,0 +1,25 @@
+{
+  "created_prompt": "I have 1.2M followers on Instagram. My content mainly revolves around me cooking quick and healthy recipes.\r\nI want to continue growing my brand and image and eventually publish a cookbook that details the recipes i've posted online in physical form. Since it would be my first cookbook, I am not sure what would be the best option in terms of traditional or self-publishing the cookbook. Give a 3 year plan detailing how I can accomplish these goals but take note that I work 4 days weekly, have limited time to devote myself to this side gig and also have a limited budget.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 3.0,
+  "submitted_at": "2026-08-26T14:49:05.133318+00:00"
+}

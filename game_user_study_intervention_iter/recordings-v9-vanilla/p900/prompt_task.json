@@ -1,0 +1,25 @@
+{
+  "created_prompt": "You are an expert in growth and branding in the wellness and cooking space. Write a step by step 3 year plan to take a leading online cooking influencer into a growing platform with a plan to publish a cookbook. Consider that the influencer already has a million follower, works on a limited timeline (4 days weekly) and small budget, and focuses on quick and healthy recipes.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.667,
+  "submitted_at": "2026-08-26T14:24:02.605975+00:00"
+}

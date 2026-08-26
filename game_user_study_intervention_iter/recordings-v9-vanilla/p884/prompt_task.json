@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Continue with her cooking posts incorporating more recipes than just healthy to attract more followers. Then add a podcast which shows her actually cooking or preparing the recipes so people will see the actual recipe being made.  While doing this make notes of what people are writing/questions being asked during her podcast to improve her podcast and include these in her writing style.",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 2
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    },
+    {
+      "model": "llama",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 1.333,
+  "median_score": 1,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 1.333,
+  "submitted_at": "2026-08-26T13:50:41.900303+00:00"
+}

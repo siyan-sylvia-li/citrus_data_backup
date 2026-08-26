@@ -1,0 +1,25 @@
+{
+  "created_prompt": "what is the best strategy to reach new viewers with my videos as well as maintain my current audience over the next 3 years",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 2
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 1.667,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 1.667,
+  "submitted_at": "2026-08-26T14:53:12.920625+00:00"
+}

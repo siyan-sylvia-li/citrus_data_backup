@@ -1,0 +1,25 @@
+{
+  "created_prompt": "I currently post cooking videos and have a large following that I would like grow. In addition to this, I would like to publish a cookbook of my recipes. I have a limited amount of time and money to devote to this and want to know a 3 year strategy for accomplishing this and whether I should self-publish or go with a traditional publisher.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.667,
+  "submitted_at": "2026-08-26T16:01:15.714966+00:00"
+}

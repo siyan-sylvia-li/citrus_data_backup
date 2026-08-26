@@ -1,0 +1,29 @@
+{
+  "variant": "v9_reasons",
+  "observation": "Group 2 has a move in mind and it wants the AI's reaction to it, while Group 1 wants the AI to pick the best move for itself. Basically, group 2 wants to assisted playing, while group 1 wants the AI to play and they just made the moves.",
+  "choice": "B",
+  "choice_correct": true,
+  "form": "contrasting_cases",
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 4
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 3
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.333,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-26T15:53:01.624567+00:00"
+}

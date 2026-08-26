@@ -159,8 +159,19 @@ OTH_ROUNDS = [
 # keyed on the solo margin is empty BY CONSTRUCTION rather than null -- including the
 # `analysed` filter in phase 2's analysis notebook, which requires both solo rounds.
 # Set OTH_ASSISTED_ONLY=0 to run the full three-round protocol.
-if os.environ.get("OTH_ASSISTED_ONLY", "1") == "1":
+OTH_ASSISTED_ONLY = os.environ.get("OTH_ASSISTED_ONLY", "1") == "1"
+if OTH_ASSISTED_ONLY:
     OTH_ROUNDS = [_r for _r in OTH_ROUNDS if _r["ai"]]
+
+# The consent form states what the participant will actually do and how long it takes,
+# so it has to follow the protocol rather than describe a fixed one. Two whole documents
+# rather than one template with branches: a consent form is reviewed and archived as a
+# document, and "what did this participant agree to" should be answerable by reading one
+# file, not by re-deriving which branch an env var selected.
+CONSENT_TEMPLATE = "consent_assisted.html" if OTH_ASSISTED_ONLY else "consent_full.html"
+print(f"[study] consent form: {CONSENT_TEMPLATE}"
+      f" ({'assisted round only' if OTH_ASSISTED_ONLY else 'full three-round protocol'})",
+      flush=True)
 
 
 def oth_puzzle_file(puzzle: str) -> Path:
@@ -1042,14 +1053,14 @@ def consent():
     if request.method == "POST":
         if not request.form.get("consent"):
             return render_template(
-                "consent.html",
+                CONSENT_TEMPLATE,
                 error="Please confirm that you consent to participate before continuing.",
                 topic=topic_readable,
             )
         session["consented"] = True
         session["consented_at"] = datetime.now(timezone.utc).isoformat()
         return redirect(url_for("eligibility"))
-    return render_template("consent.html", error=None, topic=topic_readable)
+    return render_template(CONSENT_TEMPLATE, error=None, topic=topic_readable)
 
 
 @app.route("/demographics", methods=["GET", "POST"])

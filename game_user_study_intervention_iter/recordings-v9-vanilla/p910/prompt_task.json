@@ -1,0 +1,25 @@
+{
+  "created_prompt": "I need a 3 year plan on how to publish a cookbook. I\u2019m on limited time and budget and already work four days a week",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 2
+    },
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 1.667,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 1.667,
+  "submitted_at": "2026-08-26T14:37:34.993973+00:00"
+}

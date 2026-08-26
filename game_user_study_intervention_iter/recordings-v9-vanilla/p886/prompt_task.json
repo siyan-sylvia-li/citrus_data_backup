@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Please create a dedicated plan over a three year timeline that takes all of the following information into account. Julie has 1.2 million followers who enjoy her cooking content, but she wants to make the jump towards publishing a cookbook, She is not sure whether she wants a traditional or self published book, but she works another job 4 days a week and does not have much time or money to invest in doing this.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.667,
+  "submitted_at": "2026-08-26T14:12:17.052884+00:00"
+}

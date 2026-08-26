@@ -1,0 +1,29 @@
+{
+  "variant": "v9_reasons",
+  "observation": "Some of the groups are more detailed in their prompts than others. Some choose their words wisely to get the best overall answer from AI and others just use basic language to get a straight answer with no explanation",
+  "choice": "A",
+  "choice_correct": false,
+  "form": "contrasting_cases",
+  "effort": {
+    "judges": [
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 3
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.0,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-26T14:54:39.354765+00:00"
+}

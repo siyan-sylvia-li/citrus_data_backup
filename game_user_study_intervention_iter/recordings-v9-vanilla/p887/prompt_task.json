@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Make me a 3 year plan to grow my presence online (currently have 1.2 million followers) and also, I want to publish a cookbook (I don't know if it'd be better to self-publish or use a traditional method). I currently make cooking videos. I have a limited amount of time too, I work 4 days a week and don't have a big budget.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 3.0,
+  "submitted_at": "2026-08-26T15:50:18.337554+00:00"
+}

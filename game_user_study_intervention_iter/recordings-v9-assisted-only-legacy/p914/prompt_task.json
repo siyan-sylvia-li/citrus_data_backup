@@ -1,0 +1,25 @@
+{
+  "created_prompt": "I have a social media account with 1.2 million followers that is known for quick and healthy recipes.\r\n\r\nOver the next three years I would like to grow my account even more and eventually publish my own cookbook. I am undecided if it would be traditional or self published. \r\n\r\nI work four days weekly and have limited time and budget.\r\n\r\nHelp me devise a concrete three year plan to achieve this!",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 3.0,
+  "submitted_at": "2026-08-25T19:20:13.246945+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Julie posts cooking videos to 1.2M followers. She wants to grow her online footprint over the next few years and publish a cookbook. Because she works four days per week - along with limited time and budget - she feels it's a challenge to be successful in this space. Can you come up with a three-year plan to reverse course and make this a successful venture?",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.333,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.333,
+  "submitted_at": "2026-08-25T19:08:34.988076+00:00"
+}

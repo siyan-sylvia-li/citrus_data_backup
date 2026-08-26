@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Make a 3-year online growth plan for an individual who posts cooking recipes online. The individual would also like to publish a cookbook at some point at would like assistance with that as well. There are some constraints, such as only being able to do work outside of another job 4 days a week and a limited budget.",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.333,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.333,
+  "submitted_at": "2026-08-26T14:42:19.614935+00:00"
+}

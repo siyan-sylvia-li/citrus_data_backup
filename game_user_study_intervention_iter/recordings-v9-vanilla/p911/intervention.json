@@ -1,0 +1,29 @@
+{
+  "variant": "v9_reasons",
+  "observation": "The first group was more direct and seeking information that could help it complete its approach whereas group 2 was more questioning of what could happen and unsure mostly about the way the game should be played.",
+  "choice": "A",
+  "choice_correct": false,
+  "form": "contrasting_cases",
+  "effort": {
+    "judges": [
+      {
+        "model": "gpt",
+        "score": 3
+      },
+      {
+        "model": "llama",
+        "score": 3
+      },
+      {
+        "model": "nemotron",
+        "score": 3
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.0,
+    "median_score": 3,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-26T14:24:38.938251+00:00"
+}

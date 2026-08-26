@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Could you please help me come up with a concrete three-year plan to create a cookbbok. I post cooking videos and have 1.2 million followers. I post videos of quick and healthy recipes. I would like to grow online and publish the cookbook. I am torn on traditional or self publishing. If you have any advice on that as well. I work 4 days a week so I am limited on time and unfortunately money as well.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 3
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 3.0,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 3.0,
+  "submitted_at": "2026-08-26T14:06:25.167733+00:00"
+}

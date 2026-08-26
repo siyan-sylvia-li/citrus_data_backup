@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Julie posts cooking videos and she wants to grow online and publish a cookbook so devise a concrete three-year plan.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 2
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 1.667,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 1.667,
+  "submitted_at": "2026-08-26T15:33:48.055393+00:00"
+}

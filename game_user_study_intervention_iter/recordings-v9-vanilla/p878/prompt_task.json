@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Julie should continue creating new cooking videos to expand the number of followers.\r\nShe should branch out and post her videos on several different platofrms.\r\nShe should consider working an extra day per week to hone her skills, advertise her cookbook and research publishers.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 2
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 1.667,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 1.667,
+  "submitted_at": "2026-08-26T14:29:24.014812+00:00"
+}

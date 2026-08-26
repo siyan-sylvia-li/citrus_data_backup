@@ -1,0 +1,29 @@
+{
+  "variant": "v9_reasons",
+  "observation": "These two groups act differently in the way that Group A is asking the AI for the next best move, whereas Group B wants assistance to see if their positioning works better.",
+  "choice": "A",
+  "choice_correct": false,
+  "form": "contrasting_cases",
+  "effort": {
+    "judges": [
+      {
+        "model": "gpt",
+        "score": 4
+      },
+      {
+        "model": "llama",
+        "score": 4
+      },
+      {
+        "model": "nemotron",
+        "score": 3
+      }
+    ],
+    "n_judges": 3,
+    "mean_score": 3.667,
+    "median_score": 4,
+    "threshold": 2.0,
+    "passed": true
+  },
+  "submitted_at": "2026-08-25T19:05:50.403322+00:00"
+}

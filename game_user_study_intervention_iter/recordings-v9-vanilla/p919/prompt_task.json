@@ -1,0 +1,25 @@
+{
+  "created_prompt": "what is a good plan for three years for Julie so that they can be able to grow online and publish a cookbook. Not she only have 4 days a week, limited time and budget. Offer insightful concrete three-year plan.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.333,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.333,
+  "submitted_at": "2026-08-26T15:05:45.414713+00:00"
+}

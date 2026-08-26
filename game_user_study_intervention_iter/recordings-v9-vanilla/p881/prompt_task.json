@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Come up with a roadmap for someone who has recently graduated with a history degree. Whether this be applying for jobs, or looking for additional training.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 1
+    },
+    {
+      "model": "gpt",
+      "score": 1
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 1.0,
+  "median_score": 1,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 1.0,
+  "submitted_at": "2026-08-26T15:26:25.797569+00:00"
+}

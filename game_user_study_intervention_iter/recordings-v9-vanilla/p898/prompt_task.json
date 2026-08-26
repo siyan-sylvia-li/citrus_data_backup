@@ -1,0 +1,25 @@
+{
+  "created_prompt": "What is a three year plan for a cooking youtuber who wants to grow online a publish a cookbook with limited time and resources?",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 2
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 1.667,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 1.667,
+  "submitted_at": "2026-08-26T16:14:45.348163+00:00"
+}

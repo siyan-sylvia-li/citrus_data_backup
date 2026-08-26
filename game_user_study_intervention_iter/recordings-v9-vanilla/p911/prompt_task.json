@@ -1,0 +1,25 @@
+{
+  "created_prompt": "I need help developing a cookbook for someone influencing her brand with 1.2M followers on social media.  The cookbook must include some traditional recipes from chefs that are similar to her recipes.  Please highlight 10 of her recipes and allow the alternative recipes to display 2 other well known chefs as well.  Make the cookbook fun, illustrative, yet simple.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 2
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 1.667,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 1.667,
+  "submitted_at": "2026-08-26T14:21:20.470699+00:00"
+}

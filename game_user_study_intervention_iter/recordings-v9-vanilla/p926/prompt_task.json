@@ -1,0 +1,25 @@
+{
+  "created_prompt": "Give Julie a 3 year plan to grow her cookie video followers to 1.2 million, create her own cookbook with a limit of working 4 days a week",
+  "judges": [
+    {
+      "model": "gpt",
+      "score": 2
+    },
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "nemotron",
+      "score": 1
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 1.667,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 1.667,
+  "submitted_at": "2026-08-26T15:02:21.589185+00:00"
+}

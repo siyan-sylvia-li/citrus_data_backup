@@ -1,0 +1,37 @@
+{
+  "puzzle": "oc20260727",
+  "round": 0,
+  "ai": true,
+  "score": 3,
+  "decisions": 5,
+  "score_first_n": 2,
+  "decisions_first_n": 3,
+  "kept_win_score": 3,
+  "kept_win_first_n": 3,
+  "first_n": 3,
+  "solved": false,
+  "attempts": [
+    {
+      "score": 3,
+      "decisions": 5,
+      "score_first_n": 2,
+      "decisions_first_n": 3,
+      "kept_win_score": 3,
+      "kept_win_first_n": 3,
+      "attempt": 1,
+      "solved": false,
+      "completed": true,
+      "end_reason": "game_over"
+    }
+  ],
+  "attempts_used": 1,
+  "end_reason": "game_over",
+  "completed": true,
+  "final_black_discs": 28,
+  "final_white_discs": 36,
+  "final_margin": -8,
+  "result": "white_win",
+  "game_over": true,
+  "forced_moves": [],
+  "submitted_at": "2026-08-26T15:17:42.796945+00:00"
+}

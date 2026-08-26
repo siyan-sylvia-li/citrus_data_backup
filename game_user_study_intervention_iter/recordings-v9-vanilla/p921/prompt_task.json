@@ -1,0 +1,25 @@
+{
+  "created_prompt": "I need a proven 3 year plan to scale my online presence  in the healthy recipes space online. I already have 1.2 million followers and want to self publish my own book. I work 4 days a week so i have limit time and a tight budget!",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 3
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.667,
+  "median_score": 3,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.667,
+  "submitted_at": "2026-08-26T15:49:27.276940+00:00"
+}

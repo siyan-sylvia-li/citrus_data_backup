@@ -1,0 +1,25 @@
+{
+  "created_prompt": "I need a three yeatr plan to grow my online presence presenting cooking videos and publish a cookbook. My constraints are I work 4 days a week so my time is limited. I need to know if tradition or  self publishing is the best choice for my cookbook.",
+  "judges": [
+    {
+      "model": "llama",
+      "score": 2
+    },
+    {
+      "model": "gpt",
+      "score": 3
+    },
+    {
+      "model": "nemotron",
+      "score": 2
+    }
+  ],
+  "n_judges": 3,
+  "mean_score": 2.333,
+  "median_score": 2,
+  "threshold": 3.0,
+  "passed": true,
+  "rule": "mean",
+  "decisive_score": 2.333,
+  "submitted_at": "2026-08-26T13:58:09.805644+00:00"
+}
